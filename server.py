@@ -2295,6 +2295,71 @@ def _brevo_credentials(sender_input='',api_key_input=''):
     return sender,api_key,source
 
 
+
+def _brevo_get_json(path,api_key,timeout=20):
+    req=Request(
+        'https://api.brevo.com'+path,
+        headers={'accept':'application/json','api-key':api_key,'user-agent':'AUREL/1.0'},
+        method='GET',
+    )
+    try:
+        with urlopen(req,timeout=timeout) as resp:
+            raw=resp.read().decode('utf-8','replace')
+            return json.loads(raw) if raw else {}
+    except HTTPError as e:
+        raw=e.read().decode('utf-8','replace')
+        try:
+            detail=json.loads(raw).get('message') or raw
+        except Exception:
+            detail=raw
+        if e.code in (401,403):
+            raise ValueError('Khóa API Brevo không hợp lệ, đã bị thu hồi hoặc không có quyền truy cập.') from e
+        raise ValueError(f'Brevo trả lỗi HTTP {e.code}: {str(detail)[:400]}') from e
+    except (URLError,OSError,TimeoutError) as e:
+        raise ValueError('Không kết nối được Brevo qua HTTPS. Hãy kiểm tra kết nối của máy chủ.') from e
+
+
+def brevo_connection_check(sender_input='',api_key_input=''):
+    typed_sender=str(sender_input or '').strip()
+    typed_key=str(api_key_input or '').strip()
+    secret_sender=str(os.getenv('AUREL_BREVO_SENDER','') or '').strip()
+    secret_key=str(os.getenv('AUREL_BREVO_API_KEY','') or '').strip()
+    api_key=typed_key or secret_key
+    sender=typed_sender or secret_sender
+
+    if not api_key:
+        raise ValueError('Chưa có khóa API Brevo.')
+    account=_brevo_get_json('/v3/account',api_key,20)
+
+    sender_result=None
+    if sender:
+        if not EMAIL_RE.fullmatch(sender):
+            raise ValueError('Email người gửi không hợp lệ.')
+        senders_obj=_brevo_get_json('/v3/senders',api_key,20)
+        senders=senders_obj.get('senders',[]) if isinstance(senders_obj,dict) else []
+        match=next((x for x in senders if str(x.get('email','')).lower()==sender.lower()),None)
+        if match is None:
+            sender_result=False
+        else:
+            active=match.get('active')
+            sender_result=True if active is None else bool(active)
+
+    return {
+        'configured':True,
+        'api_valid':True,
+        'sender':sender or None,
+        'sender_verified':sender_result,
+        'account_email':account.get('email') if isinstance(account,dict) else None,
+        'message':(
+            'Khóa API hợp lệ và email người gửi đã được Brevo xác nhận.'
+            if sender_result is True else
+            'Khóa API hợp lệ, nhưng email người gửi chưa có trong danh sách sender đã xác minh của Brevo.'
+            if sender_result is False else
+            'Khóa API Brevo hợp lệ. Hãy nhập email người gửi đã xác minh để kiểm tra tiếp.'
+        )
+    }
+
+
 def _send_via_brevo_api(sender,api_key,recipient,subject,plain,html_body,pdf_bytes,filename):
     """Gửi email giao dịch qua HTTPS, tương thích Render Free."""
     payload={
@@ -2372,16 +2437,19 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
     if not EMAIL_RE.fullmatch(recipient):
         raise ValueError('Email người nhận không hợp lệ.')
 
-    report=report_html(bank,year)
-    report_pdf_bytes=report_pdf(bank,year)
-    filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
-    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
-    note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
-    body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
-
     brevo_available=bool(str(api_key or '').strip() or str(os.getenv('AUREL_BREVO_API_KEY','')).strip())
     if provider in ('auto','brevo') and brevo_available:
         brevo_sender,brevo_key,credential_source=_brevo_credentials(sender,api_key)
+        preflight=brevo_connection_check(brevo_sender,brevo_key)
+        if preflight.get('sender_verified') is False:
+            raise ValueError('Email người gửi chưa được xác minh trong Brevo. Hãy vào Senders, domains, IPs để xác minh email này trước.')
+
+        report=report_html(bank,year)
+        report_pdf_bytes=report_pdf(bank,year)
+        filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
+        plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
+        note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
+        body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
         result=_send_via_brevo_api(brevo_sender,brevo_key,recipient,subject,plain,body,report_pdf_bytes,filename)
         return {
             'message':f'Đã gửi báo cáo {bank} {year} tới {recipient}.',
@@ -2557,6 +2625,8 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/ai':
                 return self.reply(ai_task(str(data.get('bank','')).upper(),int(data.get('year')),
                     str(data.get('task','')),str(data.get('question',''))))
+            if path=='/api/brevo/check':
+                return self.reply(brevo_connection_check(data.get('sender'),data.get('api_key')))
             if path=='/api/report/email':
                 return self.reply(send_report_email(
                     str(data.get('bank','')).upper(),data.get('year'),
