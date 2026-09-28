@@ -2465,7 +2465,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL/14-F16'
+    server_version='AUREL-BREVO-20260928-R2'
     def log_message(self,fmt,*args):
         # Avoid logging request bodies or credentials.
         print('[AUREL] '+fmt%args,flush=True)
@@ -2508,8 +2508,8 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'14-bộ chỉ tiêu tài chính-PDF-ROBUST-V9'})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'14-bộ chỉ tiêu tài chính-PDF-ROBUST-V9'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260928-R2','email_backend':'brevo','brevo_ready':True})
+            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260928-R2','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
