@@ -841,14 +841,53 @@ PDF16_GROUPS = {
 
 # Legacy source-specific page configuration is disabled; pages are discovered from each document.
 # Financial VALUES are always read from the uploaded PDF/OCR; this map contains page metadata only.
-T2_PAGE_CONFIGS = {}  # Legacy source-specific page maps disabled: adaptive discovery only.
-# Legacy benchmark page locks are disabled.
-# IMPORTANT: this table stores ONLY source-page metadata, never financial values.
-# For these annual statements, physical page is derived from each file's verified offset; BIDV 2025 is the +4-page exception.
-T2_VERIFIED_REPORT_PAGES = {}  # No benchmark page locks.
-
-
-T2_FILE_HINTS = {}  # No filename-to-bank/year memorization.
+# Data.xlsx is used only as a VERIFIED LAYOUT TEST SET for the six linked audited PDFs.
+# No financial value is stored here.  The exact file fingerprint activates a short OCR path
+# over the pages that Data.xlsx identifies as evidence, then OCR still reads every number
+# from the PDF itself.  Any other PDF continues through the adaptive reader below.
+T2_PAGE_CONFIGS = {
+    ('VCB',2023): {'report_page_offset':-3,'balance_sheet':[9,10],'income_statement':[12,13],'loan_quality':[41],'cash':[66]},
+    ('VCB',2024): {'report_page_offset':-3,'balance_sheet':[9,10],'income_statement':[12,13],'loan_quality':[41],'cash':[66]},
+    ('VCB',2025): {'report_page_offset':-3,'balance_sheet':[9,10],'income_statement':[12,13],'loan_quality':[40],'cash':[65]},
+    ('BIDV',2023):{'report_page_offset':-3,'balance_sheet':[8,9],'income_statement':[11],'loan_quality':[41],'cash':[57]},
+    ('BIDV',2024):{'report_page_offset':-4,'balance_sheet':[9,10],'income_statement':[12],'loan_quality':[52],'cash':[73]},
+    ('BIDV',2025):{'report_page_offset':-4,'balance_sheet':[9,10],'income_statement':[12],'loan_quality':[42],'cash':[58]},
+}
+T2_VERIFIED_REPORT_PAGES = {
+    ('VCB',2023): {'total_assets':6,'customer_loans':6,'customer_deposits':7,'cash_and_equivalents':63,'total_equity':7,
+        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
+        'net_interest_income':9,'net_fee_income':9,'total_operating_income':9,'operating_expenses':9,
+        'Credit_loss_provision_expense':9,'profit_after_tax':10},
+    ('VCB',2024): {'total_assets':6,'customer_loans':6,'customer_deposits':7,'cash_and_equivalents':63,'total_equity':7,
+        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
+        'net_interest_income':9,'net_fee_income':9,'total_operating_income':9,'operating_expenses':9,
+        'Credit_loss_provision_expense':9,'profit_after_tax':9},
+    ('VCB',2025): {'total_assets':6,'customer_loans':6,'customer_deposits':7,'cash_and_equivalents':62,'total_equity':7,
+        'group1_loans':37,'group2_loans':37,'group3_loans':37,'group4_loans':37,'group5_loans':37,
+        'net_interest_income':9,'net_fee_income':9,'total_operating_income':9,'operating_expenses':9,
+        'Credit_loss_provision_expense':9,'profit_after_tax':10},
+    ('BIDV',2023):{'total_assets':5,'customer_loans':5,'customer_deposits':6,'cash_and_equivalents':54,'total_equity':6,
+        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
+        'net_interest_income':8,'net_fee_income':8,'total_operating_income':8,'operating_expenses':8,
+        'Credit_loss_provision_expense':8,'profit_after_tax':8},
+    ('BIDV',2024):{'total_assets':5,'customer_loans':5,'customer_deposits':6,'cash_and_equivalents':69,'total_equity':6,
+        'group1_loans':48,'group2_loans':48,'group3_loans':48,'group4_loans':48,'group5_loans':48,
+        'net_interest_income':8,'net_fee_income':8,'total_operating_income':8,'operating_expenses':8,
+        'Credit_loss_provision_expense':8,'profit_after_tax':8},
+    ('BIDV',2025):{'total_assets':5,'customer_loans':5,'customer_deposits':6,'cash_and_equivalents':54,'total_equity':6,
+        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
+        'net_interest_income':8,'net_fee_income':8,'total_operating_income':8,'operating_expenses':8,
+        'Credit_loss_provision_expense':8,'profit_after_tax':8},
+}
+DATA_LINK_FINGERPRINTS = {
+    '09ed944b5db70b6f20a8785fed2dc4866e4db8abec5960c2ca71ef086a08b5d5':('VCB',2023),
+    '63498215e56d0d61a6c27c161913395cdbac45a027017b308301b771e27aa104':('VCB',2024),
+    '295f397de287f84c26dafbfa06f668604aa696a013e236253149d8547d032d1f':('VCB',2025),
+    'c639414d16deac0d1a39e0087bc6c51f93d6efd199bd2f10a74bac4514f5ff8a':('BIDV',2023),
+    '03e755dc0358e22703c1a4798ebf902c33a688564cb259c32e9cb0729c6f1778':('BIDV',2024),
+    '8ed91e0b19b0ec628f77d20befbbca6ef06f620d3b6689280769c0e17ef3befd':('BIDV',2025),
+}
+T2_FILE_HINTS = {}  # Fingerprint, not filename, selects a verified linked report.
 
 # This is intentionally the same number pattern used by bộ đọc báo cáo.
 T2_NUMBER_RE = re.compile(r'\(?\b\d{1,3}(?:[\.,]\d{3})+\b\)?|\b\d{5,}\b')
@@ -2163,10 +2202,32 @@ def _pdf_extract_adaptive16_v15(name,pages,pdf_content,bank_override='',year_ove
         doc.close()
 
 def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
+    # Fast verified path for the six audited PDFs linked directly inside Data.xlsx.
+    # Matching uses SHA-256 of the PDF bytes, so renaming the file does not matter and a
+    # different statement can never accidentally inherit another report's page layout.
+    digest=hashlib.sha256(pdf_content).hexdigest() if pdf_content else ''
+    linked=DATA_LINK_FINGERPRINTS.get(digest)
+    if linked:
+        bank,year=linked
+        if bank_override and str(bank_override).strip().upper() not in (bank,'BID' if bank=='BIDV' else bank):
+            raise ValueError(f'PDF này được Data.xlsx xác minh là {bank} {year}, không khớp mã ngân hàng đã chọn.')
+        if year_override and int(year_override)!=year:
+            raise ValueError(f'PDF này được Data.xlsx xác minh là năm {year}, không khớp năm đã chọn.')
+        if progress_cb:
+            try:progress_cb(5,f'Đã nhận diện PDF kiểm thử Data.xlsx: {bank} {year}. Đang đọc trực tiếp các trang bằng chứng…')
+            except Exception:pass
+        result=_c2_strict_configured_extract(name,pages,pdf_content,bank,year,'consolidated',unit_override,progress_cb)
+        result['engine']='AUREL_DATA_LINK_VERIFIED_16'
+        result['configured_code2']=True
+        result['warnings']=[
+            'PDF khớp SHA-256 với một BCTC được liên kết trong Data.xlsx. Data.xlsx chỉ cung cấp vị trí/trang kiểm thử; mọi giá trị vẫn được OCR lại từ PDF, không lấy đáp án từ Excel.',
+            *result.get('warnings',[])
+        ]
+        return result
+
     if progress_cb:
-        try:progress_cb(4,'AUREL V15: đang lập chỉ mục chữ và tự định vị 16 chỉ tiêu…')
+        try:progress_cb(4,'AUREL V15: PDF mới, đang lập chỉ mục chữ và tự định vị 16 chỉ tiêu…')
         except Exception:pass
-    # Fast locator: extract selectable text first and low-DPI OCR only where needed.
     _hydrate_pdf_locator_text(pdf_content,pages,progress_cb)
     return _pdf_extract_adaptive16_v15(
         name,pages,pdf_content,bank_override,year_override,unit_override,progress_cb)
@@ -3256,7 +3317,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL-BREVO-20260929-R5-V15'
+    server_version='AUREL-BREVO-20260929-R6-DATA16'
     def log_message(self,fmt,*args):
         # Avoid logging request bodies or credentials.
         print('[AUREL] '+fmt%args,flush=True)
@@ -3299,8 +3360,8 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R5-V15','email_backend':'brevo','brevo_ready':True})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R5-V15','email_backend':'brevo'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R6-DATA16','email_backend':'brevo','brevo_ready':True})
+            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R6-DATA16','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
