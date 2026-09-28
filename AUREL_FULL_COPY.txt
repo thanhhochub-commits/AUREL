@@ -293,7 +293,31 @@ body{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI"
 <div class="modal hidden" id="modal"><div class="modal-box"><button class="modal-close" id="close-modal" aria-label="Đóng">×</button><div id="modal-content"></div></div></div><div id="toast" class="toast hidden"></div>
 <script>
 'use strict';
-const TOKEN='__AUREL_CSRF__';
+let TOKEN='';
+const GITHUB_DEFAULT_API='https://aurel-thanhhochub-backend.onrender.com/';
+function normalizeApiBase(value){
+  value=String(value||'').trim();
+  if(!value)return '';
+  try{
+    const u=new URL(value);
+    if(!/^https?:$/.test(u.protocol))return '';
+    u.pathname=u.pathname.replace(/\/+$/,'')+'/';
+    u.search='';u.hash='';
+    return u.toString();
+  }catch(_){return ''}
+}
+function resolveApiBase(){
+  const query=new URLSearchParams(location.search).get('api');
+  if(query){
+    const normalized=normalizeApiBase(query);
+    if(normalized){localStorage.setItem('aurel_api_base',normalized);return normalized}
+  }
+  const saved=normalizeApiBase(localStorage.getItem('aurel_api_base')||'');
+  if(saved)return saved;
+  if(!location.hostname.endsWith('.github.io'))return location.origin+'/';
+  return GITHUB_DEFAULT_API;
+}
+let API_BASE=resolveApiBase();
 const app={state:null,bank:null,year:null,page:'overview',chart:'assets',selectedFile:null,selectedFiles:[],pdfPreview:null,pdfPreviews:[],pdfJobId:null,pdfJobIds:{},pdfBatchStatus:{},aiTask:'summary',compareMetric:'roe',analysisMetric:'roe',compareBankA:null,compareBankB:null,compareMode:'pair',compareChart:'bar'};
 const $=s=>document.querySelector(s);const escapeHTML=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const icon=n=>`<svg aria-hidden="true"><use href="#i-${n}"/></svg>`;
@@ -301,7 +325,35 @@ const money=v=>v===null||v===undefined||!Number.isFinite(Number(v))?'—':new In
 const percent=v=>v===null||v===undefined||!Number.isFinite(Number(v))?'—':new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(v)+'%';
 const tag=(t,kind='')=>`<span class="tag ${kind}">${escapeHTML(t)}</span>`;
 const loading=(title='Đang xử lý yêu cầu…')=>`<div class="panel"><div class="skeleton" style="width:32%"></div><div class="skeleton" style="height:110px"></div><p class="tiny">${escapeHTML(title)}</p></div>`;
-const getUrl=(route,params={})=>{const u=new URL(route,location.href);Object.entries(params).forEach(([k,v])=>u.searchParams.set(k,v));return u.toString()};
+const getUrl=(route,params={})=>{const clean=String(route||'').replace(/^\/+/,''),u=new URL(clean,API_BASE||location.href);Object.entries(params).forEach(([k,v])=>{if(v!==undefined&&v!==null)u.searchParams.set(k,String(v))});return u.toString()};
+async function initSession(){
+  const r=await fetch(getUrl('api/session'),{method:'GET',cache:'no-store',redirect:'follow'});
+  const ct=r.headers.get('content-type')||'',raw=await r.text();
+  let obj;try{obj=JSON.parse(raw)}catch{throw Error('Backend AUREL không trả JSON tại '+getUrl('api/session')+'. HTTP '+r.status+' · '+ct)}
+  if(!r.ok)throw Error(obj.error||('Không tạo được phiên AUREL. HTTP '+r.status));
+  if(!obj.token)throw Error('Backend không trả session token.');
+  TOKEN=obj.token;
+  return obj;
+}
+function backendSetupHtml(message=''){
+  return `<div class="panel"><div class="section-top"><h2>Kết nối backend AUREL</h2><small>GitHub Pages + Python API</small></div>
+  <p class="muted" style="line-height:1.75">GitHub Pages chỉ chạy giao diện. Các chức năng PDF/OCR/DATA16/Gemini cần backend Python được triển khai từ cùng repository.</p>
+  ${message?`<div class="note warn">${escapeHTML(message)}</div>`:''}
+  <label class="field">Địa chỉ backend<input id="api-base-input" type="url" value="${escapeHTML(API_BASE)}" placeholder="https://aurel-thanhhochub-backend.onrender.com/"></label>
+  <div class="hrow top-gap"><button class="button primary" id="save-api-base">Lưu backend & kết nối lại</button><a class="button" href="https://github.com/thanhhochub-commits/AUREL" target="_blank" rel="noopener">Mở repository GitHub</a></div>
+  <p class="tiny top-gap">Backend mặc định: ${escapeHTML(GITHUB_DEFAULT_API)}</p></div>`;
+}
+function saveApiBase(){
+  const input=$('#api-base-input'),v=normalizeApiBase(input?.value||'');
+  if(!v){toast('Địa chỉ backend không hợp lệ.',true);return}
+  localStorage.setItem('aurel_api_base',v);API_BASE=v;location.reload();
+}
+async function bootstrapAurel(){
+  try{await initSession();await refresh()}
+  catch(e){
+    $('#root').innerHTML=title('Chưa thể kết nối','Giao diện GitHub Pages đang hoạt động nhưng backend Python chưa sẵn sàng.')+backendSetupHtml(e.message);
+  }
+}
 async function request(route,data=null,timeout=100000){const ctrl=new AbortController();const id=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(getUrl(route),{method:data?'POST':'GET',headers:data?{'Content-Type':'application/json','X-Aurel-Token':TOKEN}:{},body:data?JSON.stringify(data):undefined,signal:ctrl.signal,cache:'no-store',redirect:'follow'});const ct=r.headers.get('content-type')||'';const raw=await r.text();let obj;try{obj=JSON.parse(raw)}catch{const login=r.status===401||r.status===403;const error=new Error(`Máy chủ phản hồi HTTP ${r.status}, loại ${ct||'không xác định'} tại ${route}. ${login?'Phiên máy chủ hoặc quyền truy cập đã hết hạn.':'Phản hồi không phải JSON; có thể reverse proxy đã chặn yêu cầu tải lên.'} Xem tab Network hoặc nhật ký máy chủ.`);error.aurelProxyFailure=true;throw error}if(!r.ok)throw Error(obj.error||`Yêu cầu ${route} lỗi HTTP ${r.status}.`);return obj}catch(e){if(e.name==='AbortError')throw Error('Hết thời gian chờ. Kiểm tra máy chủ và thử lại.');throw e}finally{clearTimeout(id)}}
 function toast(message,error=false){const t=$('#toast');t.textContent=message;t.className='toast'+(error?' error':'');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.add('hidden'),4600)}
 function title(t,sub,action=''){return `<div class="page-head"><div><div class="eyebrow">AUREL / FINANCIAL INTELLIGENCE</div><h1>${escapeHTML(t)}</h1>${sub?`<p>${escapeHTML(sub)}</p>`:''}</div>${action}</div>`}
@@ -630,7 +682,7 @@ async function sendReportEmail(){const btn=$('#send-report-email'),feed=$('#repo
 
 function draw(){const s=app.state;if(!s)return;const pageNames={overview:'Tổng quan tài chính',analysis:'Phân tích chỉ số',comparison:'Đối chiếu ngân hàng',monitor:'Giám sát rủi ro',scenario:'Phân tích kịch bản',data:'Trung tâm dữ liệu',ai:'Trợ lý phân tích',report:'Báo cáo'};$('#crumb-title').textContent=pageNames[app.page];document.querySelectorAll('#nav button[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===app.page));let body='';if(app.page==='data')body=renderData();else if(!has())body=title(pageNames[app.page],'Bắt đầu với bộ số liệu tài chính để sử dụng các chức năng phân tích.')+mustData();else if(app.page==='overview')body=renderOverview();else if(app.page==='analysis')body=renderAnalysis();else if(app.page==='comparison')body=renderCompare();else if(app.page==='monitor')body=renderMonitor();else if(app.page==='scenario')body=renderScenario();else if(app.page==='ai')body=renderAI();else if(app.page==='report')body=renderReport();$('#root').innerHTML=body;if(app.page==='ai'&&has())refreshGeminiKeyStatus()}
 function controls(){const s=app.state;let b=$('#bank-select'),y=$('#year-select');const banks=[...new Set((s.choices||[]).map(c=>c.bank))];if(!banks.includes(app.bank))app.bank=banks[0]||null;const years=[...new Set((s.choices||[]).filter(c=>c.bank===app.bank).map(c=>c.year))].sort((a,b)=>b-a);if(!years.includes(app.year))app.year=years[0]||null;b.innerHTML=banks.length?banks.map(x=>`<option ${app.bank===x?'selected':''} value="${escapeHTML(x)}">${escapeHTML(x)}</option>`).join(''):'<option>Chọn ngân hàng</option>';y.innerHTML=years.length?years.map(x=>`<option ${app.year===x?'selected':''} value="${x}">${x}</option>`).join(''):'<option>Chọn năm</option>';b.disabled=!banks.length;y.disabled=!years.length;const z=$('#dataset-status');z.textContent=s.has_data?'Dữ liệu sẵn sàng':'Chưa có dữ liệu';z.className='status-pill'+(!s.has_data?' empty-status':'')}
-async function refresh(){try{const s=await request(`api/state?bank=${encodeURIComponent(app.bank||'')}&year=${encodeURIComponent(app.year||'')}`,null,18000);app.state=s;if(s.has_data){app.bank=s.bank;app.year=s.year}controls();draw()}catch(e){$('#root').innerHTML=title('Chưa thể kết nối','Không lấy được thông tin từ máy chủ Colab.')+`<div class="panel"><p>${escapeHTML(e.message)}</p><button class="button primary" id="retry">Thử kết nối lại</button><p class="tiny">Giữ phiên máy chủ hoạt động và kiểm tra nhật ký của ô khởi động nếu sự cố tiếp diễn.</p></div>`}}
+async function refresh(){try{const s=await request(`api/state?bank=${encodeURIComponent(app.bank||'')}&year=${encodeURIComponent(app.year||'')}`,null,18000);app.state=s;if(s.has_data){app.bank=s.bank;app.year=s.year}controls();draw()}catch(e){$('#root').innerHTML=title('Chưa thể kết nối','Không lấy được thông tin từ backend AUREL.')+backendSetupHtml(e.message)}}
 function navigate(p){app.page=p;draw();window.scrollTo({top:0,behavior:'smooth'})}
 async function uploadOneFile(f,replace,feed,index,total){
  if(f.size>40*1024*1024)throw Error(`${f.name}: dung lượng vượt 40 MB.`);
@@ -669,7 +721,7 @@ async function runAI(){let out=$('#ai-output');$('#run-ai').disabled=true;out.in
 async function approveAI(){try{let r=await request('api/review',{bank:app.bank,year:app.year,task:app.aiTask,approve:true});app.state.ai[`${app.bank}:${app.year}:${app.aiTask}`]=r.result;$('#ai-output').innerHTML=aiPanel();toast('Đã duyệt nội dung phân tích.')}catch(e){toast(e.message,true)}}
 async function showDoc(name,page){try{let r=await fetch(getUrl('api/document',{name,page}));let d=await r.json();if(!r.ok)throw Error(d.error||'Không mở được tài liệu.');$('#modal-content').innerHTML=`<div class="eyebrow">NGUỒN TÀI LIỆU</div><h2>${escapeHTML(d.name)} · Trang ${d.page}</h2><pre id="doc-content"></pre>`;$('#doc-content').textContent=d.text;$('#modal').classList.remove('hidden')}catch(e){toast(e.message,true)}}
 // Delegated events survive page rerenders.
-document.addEventListener('click',async e=>{const modeButton=e.target.closest('[data-compare-mode]');if(modeButton){app.compareMode=modeButton.dataset.compareMode;draw();return}const nav=e.target.closest('[data-page]');if(nav){navigate(nav.dataset.page);return}const doc=e.target.closest('[data-doc]');if(doc){showDoc(doc.dataset.doc,Number(doc.dataset.sourcePage));return}if(e.target.closest('#close-modal')||e.target.id==='modal'){$('#modal').classList.add('hidden');return}if(e.target.closest('#retry'))return refresh();
+document.addEventListener('click',async e=>{const modeButton=e.target.closest('[data-compare-mode]');if(modeButton){app.compareMode=modeButton.dataset.compareMode;draw();return}const nav=e.target.closest('[data-page]');if(nav){navigate(nav.dataset.page);return}const doc=e.target.closest('[data-doc]');if(doc){showDoc(doc.dataset.doc,Number(doc.dataset.sourcePage));return}if(e.target.closest('#close-modal')||e.target.id==='modal'){$('#modal').classList.add('hidden');return}if(e.target.closest('#retry'))return bootstrapAurel();if(e.target.closest('#save-api-base'))return saveApiBase();
  if(e.target.closest('#report-mail-password-toggle')){e.preventDefault();toggleReportPasswordVisibility();return}
  const extract=e.target.closest('[data-pdf-analyze]');if(extract)return analyzePdf(extract.dataset.pdfAnalyze);
  if(e.target.closest('#pdf-select-all')){document.querySelectorAll('.pdf-source-check').forEach(x=>x.checked=true);return}
@@ -678,6 +730,6 @@ document.addEventListener('click',async e=>{const modeButton=e.target.closest('[
  if(e.target.closest('#pdf-metric-none')){document.querySelectorAll('.pdf-metric-batch').forEach(x=>x.checked=false);return}
  if(e.target.closest('#pdf-run'))return analyzeSelectedPdfs();if(e.target.closest('#pdf-commit'))return commitPdf();if(e.target.closest('#upload-button'))return upload();if(e.target.closest('#run-scenario'))return runScenario();if(e.target.closest('#run-ai'))return runAI();if(e.target.closest('#check-ai'))return checkGemini();if(e.target.closest('#save-ai-key'))return saveGeminiKey();if(e.target.closest('#clear-ai-key'))return clearGeminiKey();if(e.target.closest('#approve-ai'))return approveAI();if(e.target.closest('#send-report-email'))return sendReportEmail();if(e.target.closest('#clear-button')){if(!confirm('Xóa toàn bộ dữ liệu tài chính, tài liệu PDF và nội dung AI của phiên này?'))return;try{const z=await request('api/clear',{confirm:'XOA_DU_LIEU'});toast(z.message);app.bank=null;app.year=null;app.compareBankA=null;app.compareBankB=null;app.compareMode='pair';app.compareChart='bar';app.pdfPreview=null;app.pdfPreviews=[];app.pdfBatchStatus={};app.selectedFiles=[];await refresh()}catch(err){toast(err.message,true)}}});
 document.addEventListener('change',async e=>{if(e.target.id==='chart-select'){app.chart=e.target.value;draw()}if(e.target.id==='analysis-metric'){app.analysisMetric=e.target.value;draw()}if(e.target.id==='ai-task'){app.aiTask=e.target.value;draw()}if(e.target.id==='compare-metric'){app.compareMetric=e.target.value;draw()}if(e.target.id==='compare-chart'){app.compareChart=e.target.value;draw()}if(e.target.id==='compare-bank-a'){app.compareBankA=e.target.value;draw()}if(e.target.id==='compare-bank-b'){app.compareBankB=e.target.value;draw()}if(e.target.id==='upload-file'){app.selectedFiles=Array.from(e.target.files||[]);app.selectedFile=app.selectedFiles[0]||null;const n=$('#upload-name');if(n)n.textContent=app.selectedFiles.length?`${app.selectedFiles.length} tệp đã chọn`:'Chọn một hoặc nhiều tệp cùng lúc'}if(e.target.id==='bank-select'){app.bank=e.target.value;app.year=null;await refresh()}if(e.target.id==='year-select'){app.year=Number(e.target.value);await refresh()}});
-refresh();
+bootstrapAurel();
 </script></body></html>
 
