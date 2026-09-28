@@ -326,8 +326,34 @@ const percent=v=>v===null||v===undefined||!Number.isFinite(Number(v))?'—':new 
 const tag=(t,kind='')=>`<span class="tag ${kind}">${escapeHTML(t)}</span>`;
 const loading=(title='Đang xử lý yêu cầu…')=>`<div class="panel"><div class="skeleton" style="width:32%"></div><div class="skeleton" style="height:110px"></div><p class="tiny">${escapeHTML(title)}</p></div>`;
 const getUrl=(route,params={})=>{const clean=String(route||'').replace(/^\/+/,''),u=new URL(clean,API_BASE||location.href);Object.entries(params).forEach(([k,v])=>{if(v!==undefined&&v!==null)u.searchParams.set(k,String(v))});return u.toString()};
+async function fetchWithTimeout(url,options={},timeout=65000){
+  const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),timeout);
+  try{return await fetch(url,{...options,signal:ctrl.signal})}
+  finally{clearTimeout(timer)}
+}
+async function diagnoseBackend(){
+  const health=getUrl('health');
+  try{
+    const r=await fetchWithTimeout(health,{method:'GET',cache:'no-store',redirect:'follow'},65000);
+    const ct=r.headers.get('content-type')||'';
+    const raw=await r.text();
+    let obj=null;try{obj=JSON.parse(raw)}catch(_){}
+    if(r.ok&&obj?.status==='ok')return {ok:true,kind:'ok',message:'Backend AUREL đang hoạt động.',health:obj};
+    if(!r.ok)return {ok:false,kind:'http',message:'Backend phản hồi HTTP '+r.status+' tại '+health+'.'};
+    return {ok:false,kind:'invalid',message:'Backend có phản hồi nhưng không đúng định dạng AUREL ('+ct+').'};
+  }catch(primary){
+    try{
+      await fetchWithTimeout(health,{method:'GET',mode:'no-cors',cache:'no-store'},20000);
+      return {ok:false,kind:'cors',message:'Backend có thể đang hoạt động nhưng trình duyệt bị chặn bởi CORS. Kiểm tra AUREL_ALLOWED_ORIGINS trên máy chủ.'};
+    }catch(_){
+      return {ok:false,kind:'offline',message:'Không kết nối được backend tại '+API_BASE+'. Backend chưa được triển khai, đang tắt, sai URL hoặc DNS chưa sẵn sàng.'};
+    }
+  }
+}
 async function initSession(){
-  const r=await fetch(getUrl('api/session'),{method:'GET',cache:'no-store',redirect:'follow'});
+  const diag=await diagnoseBackend();
+  if(!diag.ok){const e=new Error(diag.message);e.backendDiagnosis=diag;throw e}
+  const r=await fetchWithTimeout(getUrl('api/session'),{method:'GET',cache:'no-store',redirect:'follow'},30000);
   const ct=r.headers.get('content-type')||'',raw=await r.text();
   let obj;try{obj=JSON.parse(raw)}catch{throw Error('Backend AUREL không trả JSON tại '+getUrl('api/session')+'. HTTP '+r.status+' · '+ct)}
   if(!r.ok)throw Error(obj.error||('Không tạo được phiên AUREL. HTTP '+r.status));
@@ -335,13 +361,25 @@ async function initSession(){
   TOKEN=obj.token;
   return obj;
 }
-function backendSetupHtml(message=''){
+function backendSetupHtml(message='',diagnosis=null){
+  const deployUrl='https://render.com/deploy?repo=https://github.com/thanhhochub-commits/AUREL';
+  const kind=diagnosis?.kind||'unknown';
+  const action=kind==='offline'
+    ?'<div class="note warn"><strong>Backend chưa hoạt động.</strong><br>Code backend đã nằm trong GitHub nhưng GitHub Pages không chạy Python. Hãy tạo Web Service từ repository bằng nút bên dưới, sau đó quay lại trang này.</div>'
+    :kind==='cors'
+      ?'<div class="note warn"><strong>Backend có dấu hiệu tồn tại nhưng CORS đang chặn.</strong><br>Biến AUREL_ALLOWED_ORIGINS phải chứa https://thanhhochub-commits.github.io</div>'
+      :'';
   return `<div class="panel"><div class="section-top"><h2>Kết nối backend AUREL</h2><small>GitHub Pages + Python API</small></div>
-  <p class="muted" style="line-height:1.75">GitHub Pages chỉ chạy giao diện. Các chức năng PDF/OCR/DATA16/Gemini cần backend Python được triển khai từ cùng repository.</p>
+  <p class="muted" style="line-height:1.75">Giao diện GitHub Pages đang hoạt động. PDF/OCR/DATA16/Gemini và các API cần Python backend từ chính repository AUREL.</p>
   ${message?`<div class="note warn">${escapeHTML(message)}</div>`:''}
-  <label class="field">Địa chỉ backend<input id="api-base-input" type="url" value="${escapeHTML(API_BASE)}" placeholder="https://aurel-thanhhochub-backend.onrender.com/"></label>
-  <div class="hrow top-gap"><button class="button primary" id="save-api-base">Lưu backend & kết nối lại</button><a class="button" href="https://github.com/thanhhochub-commits/AUREL" target="_blank" rel="noopener">Mở repository GitHub</a></div>
-  <p class="tiny top-gap">Backend mặc định: ${escapeHTML(GITHUB_DEFAULT_API)}</p></div>`;
+  ${action}
+  <label class="field">Địa chỉ backend<input id="api-base-input" type="url" value="${escapeHTML(API_BASE)}" placeholder="https://ten-backend.onrender.com/"></label>
+  <div class="hrow top-gap">
+    <button class="button primary" id="save-api-base">Lưu backend & kiểm tra lại</button>
+    <a class="button teal" href="${deployUrl}" target="_blank" rel="noopener">Triển khai backend từ GitHub</a>
+    <a class="button" href="https://github.com/thanhhochub-commits/AUREL" target="_blank" rel="noopener">Mở repository GitHub</a>
+  </div>
+  <p class="tiny top-gap">Repository đã có sẵn server.py, Dockerfile, requirements.txt và render.yaml. Sau khi Render tạo service, dán URL .onrender.com vào ô trên nếu URL thực tế khác backend mặc định.</p></div>`;
 }
 function saveApiBase(){
   const input=$('#api-base-input'),v=normalizeApiBase(input?.value||'');
@@ -351,7 +389,7 @@ function saveApiBase(){
 async function bootstrapAurel(){
   try{await initSession();await refresh()}
   catch(e){
-    $('#root').innerHTML=title('Chưa thể kết nối','Giao diện GitHub Pages đang hoạt động nhưng backend Python chưa sẵn sàng.')+backendSetupHtml(e.message);
+    $('#root').innerHTML=title('Chưa thể kết nối','Giao diện GitHub Pages đang hoạt động nhưng backend Python chưa sẵn sàng.')+backendSetupHtml(e.message,e.backendDiagnosis||null);
   }
 }
 async function request(route,data=null,timeout=100000){const ctrl=new AbortController();const id=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(getUrl(route),{method:data?'POST':'GET',headers:data?{'Content-Type':'application/json','X-Aurel-Token':TOKEN}:{},body:data?JSON.stringify(data):undefined,signal:ctrl.signal,cache:'no-store',redirect:'follow'});const ct=r.headers.get('content-type')||'';const raw=await r.text();let obj;try{obj=JSON.parse(raw)}catch{const login=r.status===401||r.status===403;const error=new Error(`Máy chủ phản hồi HTTP ${r.status}, loại ${ct||'không xác định'} tại ${route}. ${login?'Phiên máy chủ hoặc quyền truy cập đã hết hạn.':'Phản hồi không phải JSON; có thể reverse proxy đã chặn yêu cầu tải lên.'} Xem tab Network hoặc nhật ký máy chủ.`);error.aurelProxyFailure=true;throw error}if(!r.ok)throw Error(obj.error||`Yêu cầu ${route} lỗi HTTP ${r.status}.`);return obj}catch(e){if(e.name==='AbortError')throw Error('Hết thời gian chờ. Kiểm tra máy chủ và thử lại.');throw e}finally{clearTimeout(id)}}
