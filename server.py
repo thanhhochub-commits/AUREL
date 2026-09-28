@@ -1131,7 +1131,7 @@ def _hydrate_pdf_locator_text(pdf_content,pages,progress_cb=None):
             import pytesseract
             from PIL import Image, ImageOps
             langs=set(pytesseract.get_languages(config=''))
-            lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
+            lang='vie' if 'vie' in langs else 'eng'
         except Exception:return
 
         # OCR locator is intentionally tiny: ~82 DPI and only the left 76% where labels live.
@@ -1344,7 +1344,7 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
     unit_to_million={'vnd':1e-6,'thousand_vnd':1e-3,'million_vnd':1.0,'billion_vnd':1000.0}
     try:langs=set(pytesseract.get_languages(config=''))
     except Exception:langs=set()
-    lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
+    lang='vie' if 'vie' in langs else 'eng'
     warnings=[]
     if 'vie' not in langs:
         warnings.append('Tesseract chưa có vie.traineddata. Engine vẫn chạy bằng English OCR nhưng nên chạy lại dịch vụ máy chủ mới để bộ cài tự bổ sung tiếng Việt.')
@@ -1389,7 +1389,7 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
                 if enhance:
                     image=ImageOps.autocontrast(image)
                     image=ImageEnhance.Contrast(image).enhance(1.25)
-                text=pytesseract.image_to_string(image,lang=lang,config=f'--oem 1 --psm {int(psm)}') or ''
+                text=pytesseract.image_to_string(image,lang=lang,config=f'--oem 1 --psm {int(psm)}',timeout=18) or ''
             except Exception:
                 text=''
             if not text.strip() and 1<=page_num<=len(pages):text=pages[page_num-1].get('text','') or ''
@@ -1447,6 +1447,10 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
             return -value if negative else value
         def financial_numbers(line,key=None):
             line=_repair_split_amount(line,key)
+            # Vietnamese Tesseract sometimes reads the final digit 1 as ] / | / I / l
+            # inside a grouped amount, e.g. 760.56] instead of 760.561.
+            # Repair only digit-adjacent glyphs; never alter free text or metric labels.
+            line=re.sub(r'(?<=\\d)[\\]|Il](?=(?:[\\s,.;)]|$))','1',str(line))
             out=[]
             for m in number_re.finditer(str(line)):
                 v=parse_num(m.group(0))
@@ -2039,7 +2043,7 @@ def _pdf_extract_adaptive16_v15(name,pages,pdf_content,bank_override='',year_ove
         total=min(len(pages),doc.page_count)
         try:langs=set(pytesseract.get_languages(config=''))
         except Exception:langs=set()
-        lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
+        lang='vie' if 'vie' in langs else 'eng'
 
         def page_text(pg):
             if not 1<=pg<=total:return ''
@@ -3350,7 +3354,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL-BREVO-20260929-R8-DATA16-ROBUSTV9'
+    server_version='AUREL-BREVO-20260929-R9-DATA16-VIEFAST'
     def log_message(self,fmt,*args):
         # Avoid logging request bodies or credentials.
         print('[AUREL] '+fmt%args,flush=True)
@@ -3393,8 +3397,8 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R8-DATA16-ROBUSTV9','email_backend':'brevo','brevo_ready':True})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R8-DATA16-ROBUSTV9','email_backend':'brevo'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R9-DATA16-VIEFAST','email_backend':'brevo','brevo_ready':True})
+            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R9-DATA16-VIEFAST','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
