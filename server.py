@@ -1009,57 +1009,111 @@ def _configured_group_pages(bank,year,group,total_pages):
 
 
 def _hydrate_pdf_locator_text(pdf_content,pages,progress_cb=None):
-    """Populate searchable text for all pages without any bank/year page map."""
+    """V15 fast text locator.
+
+    Pass 1 reads any embedded PDF text at native speed.
+    Pass 2, only when needed, OCRs a LOW-DPI LEFT-COLUMN crop to build a page index.
+    It deliberately does NOT try to read financial values here.  Full-page/high-resolution
+    OCR is reserved for the small set of pages where one of the 16 labels was actually found.
+    """
     if not pdf_content:return
     try:import fitz
     except Exception:return
     doc=fitz.open(stream=pdf_content,filetype='pdf')
     try:
         total=min(len(pages),doc.page_count)
+        if progress_cb:
+            try:progress_cb(6,f'V15: quét lớp chữ có sẵn trên {total} trang…')
+            except Exception:pass
+
+        # Native text layer first: essentially free compared with OCR.
         for i in range(total):
-            if str(pages[i].get('text','') or '').strip():continue
+            if str(pages[i].get('text','') or '').strip():
+                pages[i]['locator_only']=False
+                continue
             try:text=doc.load_page(i).get_text('text',sort=True) or ''
             except Exception:text=''
             if text.strip():
-                pages[i]['text']=text[:45000];pages[i]['ocr']=False
-        def located_keys():
+                pages[i]['text']=text[:45000]
+                pages[i]['ocr']=False
+                pages[i]['locator_only']=False
+
+        def metric_hits(text):
             found=set()
-            for item in pages:
-                n=pdf_norm(item.get('text',''))
-                if not n:continue
+            n=str(text or '')
+            if not n.strip():return found
+            scorer=globals().get('_adaptive16_label_score')
+            if scorer:
+                for key in PDF16_KEYS:
+                    try:
+                        if scorer(key,n)>=62:found.add(key)
+                    except Exception:pass
+            else:
+                nn=pdf_norm(n)
                 for key,spec in PDF16_SPECS.items():
-                    if any(kw in n for kw in spec.get('keywords',[])):found.add(key)
+                    if any(kw in nn for kw in spec.get('keywords',[])):found.add(key)
             return found
-        missing=set(PDF16_KEYS)-located_keys()
-        if not missing:return
+
+        found=set()
+        for item in pages[:total]:found.update(metric_hits(item.get('text','')))
+        missing=set(PDF16_KEYS)-found
+        if not missing:
+            if progress_cb:
+                try:progress_cb(42,'V15: lớp chữ PDF đã định vị đủ 16 chỉ tiêu; bỏ qua OCR dò trang.')
+                except Exception:pass
+            return
+
         try:
             import pytesseract
-            from PIL import Image
+            from PIL import Image, ImageOps
             langs=set(pytesseract.get_languages(config=''))
             lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
         except Exception:return
+
+        # OCR locator is intentionally tiny: ~82 DPI and only the left 76% where labels live.
+        # This turns a 90-page scan from 90 expensive full-page OCR jobs into a lightweight
+        # text-indexing pass, then V15 re-OCRs only hit pages at high resolution.
         for i in range(total):
+            current=str(pages[i].get('text','') or '')
+            current_hits=metric_hits(current)
+            found.update(current_hits);missing=set(PDF16_KEYS)-found
             if not missing:break
-            current=pdf_norm(pages[i].get('text',''))
-            if current:
-                for k in list(missing):
-                    if any(kw in current for kw in PDF16_SPECS[k].get('keywords',[])):missing.discard(k)
-                if len(current)>180:continue
+
+            # A real/selectable text layer already gives a better locator than thumbnail OCR.
+            if current.strip() and not pages[i].get('locator_only'):
+                if progress_cb and (i==0 or (i+1)%4==0):
+                    try:progress_cb(min(44,8+int((i+1)/max(total,1)*34)),
+                        f'V15: dò chữ nhanh trang {i+1}/{total} · đã thấy {len(found)}/16 nhãn…')
+                    except Exception:pass
+                continue
+
             try:
-                dpi=105
-                pix=doc.load_page(i).get_pixmap(matrix=fitz.Matrix(dpi/72,dpi/72),colorspace=fitz.csGRAY,alpha=False)
+                page=doc.load_page(i);rect=page.rect
+                clip=fitz.Rect(rect.x0,rect.y0,rect.x0+rect.width*0.76,rect.y1)
+                dpi=82
+                pix=page.get_pixmap(matrix=fitz.Matrix(dpi/72,dpi/72),clip=clip,
+                                    colorspace=fitz.csGRAY,alpha=False)
                 image=Image.frombytes('L',(pix.width,pix.height),pix.samples)
-                text=pytesseract.image_to_string(image,lang=lang,config='--oem 1 --psm 11') or ''
+                image=ImageOps.autocontrast(image)
+                text=pytesseract.image_to_string(
+                    image,lang=lang,
+                    config='--oem 1 --psm 11 -c preserve_interword_spaces=1') or ''
             except Exception:text=''
+
             if text.strip():
-                pages[i]['text']=text[:45000];pages[i]['ocr']=True
-                n=pdf_norm(text)
-                for k in list(missing):
-                    if any(kw in n for kw in PDF16_SPECS[k].get('keywords',[])):missing.discard(k)
-            if progress_cb and i%8==0:
-                try:progress_cb(min(34,8+int((i+1)/max(total,1)*26)),f'Đang định vị chỉ tiêu trên trang {i+1}/{total}…')
+                # Keep this as locator text only. Extraction code knows it must high-res OCR
+                # the page before trusting any amount.
+                pages[i]['text']=text[:26000]
+                pages[i]['ocr']=True
+                pages[i]['locator_only']=True
+                found.update(metric_hits(text))
+
+            if progress_cb and (i==0 or (i+1)%2==0 or i+1==total):
+                try:progress_cb(min(44,8+int((i+1)/max(total,1)*34)),
+                    f'V15: dò chữ nhanh trang {i+1}/{total} · đã thấy {len(found)}/16 nhãn…')
                 except Exception:pass
-    finally:doc.close()
+    finally:
+        doc.close()
 
 
 def _page_year_value_index(text,target_year):
@@ -1893,7 +1947,7 @@ def _adaptive16_plausibility(result):
             warnings.append('Vốn chủ sở hữu lớn bất thường so với tổng tài sản; cần đối chiếu trang nguồn.')
     return warnings
 
-def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
+def _pdf_extract_adaptive16_v15(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
     """Adaptive 16-metric Vietnamese bank-statement reader.
 
     Data.xlsx supplies only the target schema. This function discovers pages, labels, current-year
@@ -1914,7 +1968,7 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
             try:progress_cb(int(max(1,min(99,p))),str(msg))
             except Exception:pass
 
-    report(5,'V14: đọc lớp văn bản và định vị cấu trúc 16 chỉ tiêu…')
+    report(5,'V15: dùng chỉ mục chữ để định vị 16 chỉ tiêu…')
     doc=fitz.open(stream=pdf_content,filetype='pdf')
     ocr_cache={};touched=set()
     try:
@@ -1942,8 +1996,10 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
             except Exception:text=''
             if not text.strip():text=page_text(pg)
             ocr_cache[key]=text[:55000];touched.add(pg)
-            if text.strip() and 1<=pg<=len(pages) and len(text)>len(page_text(pg)):
-                pages[pg-1]['text']=text[:45000];pages[pg-1]['ocr']=True
+            if text.strip() and 1<=pg<=len(pages):
+                if len(text)>len(page_text(pg)) or pages[pg-1].get('locator_only'):
+                    pages[pg-1]['text']=text[:45000]
+                pages[pg-1]['ocr']=True;pages[pg-1]['locator_only']=False
             return ocr_cache[key]
 
         def group_context_score(key,text):
@@ -1980,7 +2036,7 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
                 if base.strip():texts.append(('text',base))
                 # Rich selectable text is preferred. OCR is a recovery source, not an excuse to
                 # overwrite clean statement text with noisier pixels.
-                needs_ocr=(not base.strip()) or max((_adaptive16_label_score(key,w) for _,w,_ in _adaptive16_windows(base)),default=0)<70
+                needs_ocr=bool(pages[pg-1].get('locator_only')) or (not base.strip()) or max((_adaptive16_label_score(key,w) for _,w,_ in _adaptive16_windows(base)),default=0)<70
                 if needs_ocr or recovery:
                     t=ocr(pg,230 if recovery else 190,11 if recovery else 6,recovery)
                     if t.strip() and t!=base:texts.append(('ocr',t))
@@ -2001,19 +2057,19 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
                         candidates.append((score,pg,row,value,window[:420],text,source))
             return max(candidates,key=lambda z:z[0]) if candidates else None
 
-        # Dynamic discovery from text/OCR locator. No bank/year page map.
+        # Dynamic discovery from the V15 text index. No bank/year/page map.
         raw={}
         for idx,key in enumerate(PDF16_KEYS):
             pnums=discover_pages(key)
-            if not pnums:
-                # The low-DPI locator may have missed a damaged/image-only row. Search a bounded
-                # set of pages using any available page text before targeted recovery.
-                pnums=list(range(1,min(total,DOC_PAGE_LIMIT)+1))
-            hit=scan_key(key,pnums,False)
-            if hit:raw[key]=hit
-            report(18+int((idx+1)/len(PDF16_KEYS)*50),f'V14: đã định vị {idx+1}/{len(PDF16_KEYS)} nhóm chỉ tiêu…')
+            # If the locator did not see this label, do NOT OCR all pages separately for this key.
+            # Missing labels are handled later by one shared recovery scan.
+            if pnums:
+                hit=scan_key(key,pnums,False)
+                if hit:raw[key]=hit
+            report(46+int((idx+1)/len(PDF16_KEYS)*22),
+                   f'V15: đọc trang trúng nhãn {idx+1}/{len(PDF16_KEYS)} · có {len(raw)}/16 chỉ tiêu…')
 
-        # Coherence rule for loan buckets: prefer candidates from one page cluster if possible.
+        # Coherence rule for loan buckets: prefer one loan-quality table/cluster.
         loan_keys=('group1_loans','group2_loans','group3_loans','group4_loans','group5_loans')
         anchors={}
         for k in loan_keys:
@@ -2025,21 +2081,39 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
             for k in loan_keys:
                 h=scan_key(k,cluster,False)
                 if h:coherent[k]=h
-            if len(coherent)>=4:
-                raw.update(coherent)
+            if len(coherent)>=4:raw.update(coherent)
 
+        # ONE shared recovery pass for every still-missing metric.
+        # Each physical page is high-resolution OCR'd at most once because ocr() is cached.
         missing=[k for k in PDF16_KEYS if not raw.get(k)]
         if missing:
-            report(72,f'V14: recovery có mục tiêu cho {len(missing)} chỉ tiêu còn thiếu…')
-            for j,key in enumerate(list(missing)):
-                pnums=discover_pages(key)
-                if not pnums:
-                    # Last resort: OCR all statement pages one by one at recovery quality until a
-                    # credible candidate appears. This is slower but avoids memorizing page locations.
-                    pnums=list(range(1,total+1))
-                h=scan_key(key,pnums,True)
-                if h:raw[key]=h
-                report(72+int((j+1)/max(1,len(missing))*20),f'V14 recovery: {j+1}/{len(missing)}')
+            report(70,f'V15: còn {len(missing)} chỉ tiêu; recovery dùng chung theo trang…')
+
+            # Pages with any financial-label signal go first; untouched pages come later.
+            signal=[];rest=[]
+            for pg in range(1,total+1):
+                txt=page_text(pg)
+                score=sum(1 for k in missing if _adaptive16_label_score(k,txt)>=45)
+                (signal if score else rest).append((score,pg))
+            page_order=[pg for _,pg in sorted(signal,key=lambda z:(-z[0],z[1]))]
+            page_order += [pg for _,pg in rest]
+
+            scanned=0
+            for pg in page_order:
+                if not missing:break
+                scanned+=1
+                # scan_key forces a full-page OCR for locator-only/empty pages and reuses the
+                # same cached OCR text for all missing metrics on this page.
+                newly={}
+                for key in list(missing):
+                    h=scan_key(key,[pg],False)
+                    if h:newly[key]=h
+                if newly:
+                    raw.update(newly)
+                    missing=[k for k in PDF16_KEYS if not raw.get(k)]
+                if progress_cb and (scanned==1 or scanned%3==0 or not missing):
+                    report(min(93,70+int(scanned/max(1,len(page_order))*23)),
+                           f'V15 recovery trang {scanned}/{len(page_order)} · đã có {16-len(missing)}/16 chỉ tiêu…')
 
         # Determine source unit from the actual relevant pages, not from filename/bank/year.
         relevant_pages=sorted({v[1] for v in raw.values()})
@@ -2064,17 +2138,17 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
                 value=round(float(master_value)/1000.0,9),unit='billion_vnd',source_unit=source_unit,
                 source_page=int(physical),page_source=int(printed),source_file=name,
                 page_source_method='document_footer_or_physical',Source=Path(name).stem,
-                source_line=line,ocr=(source=='ocr'),status='adaptive_v14_evidence',
+                source_line=line,ocr=(source=='ocr'),status='adaptive_v15_text_locator',
                 confidence=round(min(0.99,max(0.01,score/160.0)),3)
             ))
 
         missing_items=[dict(metric_id=k,name=PDF16_SPECS[k]['name']) for k in PDF16_KEYS if k not in {x['metric_id'] for x in items}]
         result=dict(bank=bank,year=year,statement_type=scope,items=items,missing=missing_items,warnings=[],
-                    detected_unit=source_unit,total=16,engine='AUREL_ADAPTIVE_16_V14',configured_code2=False,
+                    detected_unit=source_unit,total=16,engine='AUREL_ADAPTIVE_16_V15',configured_code2=False,
                     scanned_pages=sorted(touched | set(relevant_pages)),
                     master_columns=['Bank','Year','metric_id','metric_name','value','unit','page_source','Source'])
         result['warnings']=[
-            'V14 đọc thích ứng theo nhãn, cấu trúc bảng, cột năm và bằng chứng trên PDF; không dùng giá trị/trang/tên file trong Data.xlsx làm đáp án.',
+            'V15 dò chữ hai tầng: chỉ mục OCR nhẹ để tìm trang, OCR rõ chỉ các trang trúng nhãn; không dùng giá trị/trang/tên file trong Data.xlsx làm đáp án.',
             ('Đơn vị được nhận diện từ BCTC: '+source_unit+'.' if unit_conf>0
              else 'Không thấy nhãn đơn vị đủ rõ; đang dùng quy ước mặc định triệu VND. Cần đối chiếu trang nguồn trước khi xác nhận.'),
             *_adaptive16_plausibility(result)
@@ -2083,18 +2157,18 @@ def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_ove
             result['warnings'].append(f'Đã đọc {len(items)}/16; {len(missing_items)} chỉ tiêu chưa đủ bằng chứng được giữ là thiếu, không tự bịa số.')
         else:
             result['warnings'].append('Đã nhận diện đủ 16/16 chỉ tiêu mục tiêu với nguồn đối chiếu.')
-        report(97,f'V14 hoàn tất {len(items)}/16 chỉ tiêu có bằng chứng.')
+        report(97,f'V15 hoàn tất {len(items)}/16 chỉ tiêu có bằng chứng.')
         return result
     finally:
         doc.close()
 
 def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
     if progress_cb:
-        try:progress_cb(4,'AUREL V14: đang đọc cấu trúc BCTC và tự định vị 16 chỉ tiêu…')
+        try:progress_cb(4,'AUREL V15: đang lập chỉ mục chữ và tự định vị 16 chỉ tiêu…')
         except Exception:pass
     # Fast locator: extract selectable text first and low-DPI OCR only where needed.
     _hydrate_pdf_locator_text(pdf_content,pages,progress_cb)
-    return _pdf_extract_adaptive16_v14(
+    return _pdf_extract_adaptive16_v15(
         name,pages,pdf_content,bank_override,year_override,unit_override,progress_cb)
 
 
@@ -3182,7 +3256,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL-BREVO-20260929-R4-V14'
+    server_version='AUREL-BREVO-20260929-R5-V15'
     def log_message(self,fmt,*args):
         # Avoid logging request bodies or credentials.
         print('[AUREL] '+fmt%args,flush=True)
@@ -3225,8 +3299,8 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R4-V14','email_backend':'brevo','brevo_ready':True})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R4-V14','email_backend':'brevo'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R5-V15','email_backend':'brevo','brevo_ready':True})
+            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R5-V15','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
