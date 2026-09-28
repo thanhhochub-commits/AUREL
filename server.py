@@ -2312,8 +2312,10 @@ def _brevo_get_json(path,api_key,timeout=20):
             detail=json.loads(raw).get('message') or raw
         except Exception:
             detail=raw
-        if e.code in (401,403):
-            raise ValueError('Khóa API Brevo không hợp lệ, đã bị thu hồi hoặc không có quyền truy cập.') from e
+        if e.code == 401:
+            raise ValueError('Brevo từ chối khóa API (HTTP 401). Khóa có thể sai hoặc đã bị thu hồi.') from e
+        if e.code == 403:
+            raise ValueError('Brevo đang chặn địa chỉ IP của máy chủ Render (HTTP 403). API key có thể vẫn Active, nhưng Brevo chỉ cho phép IP đã được ủy quyền. Vào Brevo > Settings > Security > Authorized IPs và cho phép dải Outbound IP của Render, hoặc tạm tắt chặn API IP để thử lại.') from e
         raise ValueError(f'Brevo trả lỗi HTTP {e.code}: {str(detail)[:400]}') from e
     except (URLError,OSError,TimeoutError) as e:
         raise ValueError('Không kết nối được Brevo qua HTTPS. Hãy kiểm tra kết nối của máy chủ.') from e
@@ -2392,6 +2394,10 @@ def _send_via_brevo_api(sender,api_key,recipient,subject,plain,html_body,pdf_byt
             detail=json.loads(raw).get('message') or raw
         except Exception:
             detail=raw
+        if e.code == 403:
+            raise ValueError('Brevo chặn yêu cầu gửi từ IP của Render (HTTP 403). Hãy ủy quyền dải Outbound IP của Render trong Brevo > Settings > Security > Authorized IPs, hoặc tạm tắt chặn API IP để kiểm tra.') from e
+        if e.code == 401:
+            raise ValueError('Brevo từ chối khóa API (HTTP 401). Hãy tạo/kiểm tra lại API key.') from e
         raise ValueError(f'Brevo từ chối yêu cầu gửi email (HTTP {e.code}): {detail[:500]}') from e
     except (URLError,OSError,TimeoutError) as e:
         raise ValueError('Không kết nối được Brevo qua HTTPS. Hãy kiểm tra kết nối mạng của máy chủ hoặc khóa API Brevo.') from e
@@ -2465,7 +2471,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL-BREVO-20260928-R2'
+    server_version='AUREL-BREVO-20260928-R3'
     def log_message(self,fmt,*args):
         # Avoid logging request bodies or credentials.
         print('[AUREL] '+fmt%args,flush=True)
@@ -2508,7 +2514,7 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260928-R2','email_backend':'brevo','brevo_ready':True})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260928-R3','email_backend':'brevo','brevo_ready':True})
             if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260928-R2','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
