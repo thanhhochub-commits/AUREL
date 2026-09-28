@@ -202,7 +202,7 @@
 
 
 
-/* ==========================================================================\n   AUREL V15 — BASIC FINANCIAL REPORT READER UI\n   Presentation layer only. Backend/API/OCR/formulas are unchanged.\n   ========================================================================== */
+/* ==========================================================================\n   AUREL R6 — BASIC FINANCIAL REPORT READER UI\n   Presentation layer only. Backend/API/OCR/formulas are unchanged.\n   ========================================================================== */
 :root{
   --navy:#10283a;--navy2:#17384d;--teal:#0f766e;--teal2:#e5f3ef;
   --ink:#183244;--muted:#6f8291;--line:#dfe7e8;--soft:#f4f7f6;--bg:#f2f5f3;
@@ -2103,7 +2103,7 @@ async function analyzeSelectedPdfs(explicitNames=null){
 
  app.pdfPreviews=[];app.pdfPreview=null;app.pdfJobIds={};app.pdfBatchStatus={};
  const saved=[],failed=[];
- if(feed)feed.innerHTML='<div class="note"><strong>bộ trích xuất dò chữ V15</strong>: bắt đầu File 1/'+names.length+'. Mỗi file sẽ được lưu xong trước khi file kế tiếp được OCR.</div>';
+ if(feed)feed.innerHTML='<div class="note"><strong>bộ đọc BCTC Data-verified R6</strong>: bắt đầu File 1/'+names.length+'. Mỗi file sẽ được lưu xong trước khi file kế tiếp được OCR.</div>';
  try{
    for(let i=0;i<names.length;i++){
      const source=names[i];
@@ -2376,7 +2376,7 @@ async function ensureBrevoBackendReady(){
    if(r?.email_backend==='brevo' || String(r?.version||'').includes('BREVO')) return r;
    throw Error('Backend Render chưa chạy bản Brevo mới.');
  }catch(e){
-   const msg='Backend Render chưa cập nhật bản Brevo mới. Phiên bản yêu cầu: AUREL-BREVO-20260929-R5-V15.';
+   const msg='Backend Render chưa cập nhật bản Brevo mới. Phiên bản yêu cầu: AUREL-BREVO-20260929-R6-DATA16.';
    throw Error(msg);
  }
 }
@@ -2394,7 +2394,7 @@ async function sendReportEmail(){
    const p=$('#report-mail-api-key');if(p)p.value='';setReportPasswordVisibility(false);
    let msg=e.message||String(e);
    if(/Gmail|SMTP/i.test(msg)){
-     msg='Backend Render chưa cập nhật bản Brevo mới (AUREL-BREVO-20260929-R5-V15).';
+     msg='Backend Render chưa cập nhật bản Brevo mới (AUREL-BREVO-20260929-R6-DATA16).';
    }else if(msg==='Không tìm thấy chức năng.'){
      msg='Backend Render đang chạy bản quá cũ và chưa có chức năng gửi Brevo.';
    }
