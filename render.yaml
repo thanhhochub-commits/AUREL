@@ -9,3 +9,7 @@ services:
     envVars:
       - key: AUREL_ALLOWED_ORIGINS
         value: https://thanhhochub-commits.github.io
+      - key: AUREL_BREVO_API_KEY
+        sync: false
+      - key: AUREL_BREVO_SENDER
+        sync: false
