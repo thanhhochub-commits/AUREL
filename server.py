@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from email.message import EmailMessage
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlsplit
+from urllib.parse import parse_qs, urlsplit, urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -75,6 +75,8 @@ class Store:
         self.pdf_previews={}
         self.pdf_jobs={}
         self.gemini_session_key=None
+        self.gmail_oauth=None
+        self.gmail_oauth_states={}
 STORE=Store()
 # Temporary upload staging (only file bytes; never committed before checksum and validation).
 UPLOAD_LOCK=threading.RLock()
@@ -2278,6 +2280,198 @@ def _gmail_credentials(sender_input='',password_input=''):
 
 
 
+
+def gmail_oauth_config():
+    client_id=str(os.getenv('GOOGLE_CLIENT_ID','') or '').strip()
+    client_secret=str(os.getenv('GOOGLE_CLIENT_SECRET','') or '').strip()
+    redirect_uri=str(os.getenv('GOOGLE_REDIRECT_URI','') or '').strip()
+    return client_id,client_secret,redirect_uri
+
+
+def gmail_oauth_status():
+    client_id,client_secret,redirect_uri=gmail_oauth_config()
+    configured=bool(client_id and client_secret)
+    with STORE.lock:
+        token=dict(STORE.gmail_oauth or {})
+    return {
+        'configured':configured,
+        'connected':bool(token.get('refresh_token') or token.get('access_token')),
+        'email':token.get('email'),
+        'redirect_uri':redirect_uri or None,
+        'message':(
+            'Gmail đã kết nối.' if token.get('email') else
+            ('OAuth Google đã cấu hình; hãy nhấn Kết nối Gmail.' if configured else
+             'Chưa cấu hình GOOGLE_CLIENT_ID và GOOGLE_CLIENT_SECRET trên máy chủ.')
+        )
+    }
+
+
+def gmail_oauth_authorize_url(return_url,redirect_uri):
+    client_id,client_secret,_=gmail_oauth_config()
+    if not client_id or not client_secret:
+        raise ValueError('Chưa cấu hình Google OAuth trên máy chủ. Cần GOOGLE_CLIENT_ID và GOOGLE_CLIENT_SECRET.')
+    return_url=str(return_url or 'https://thanhhochub-commits.github.io/AUREL/workspace/').strip()
+    if not return_url.startswith('https://thanhhochub-commits.github.io/AUREL/'):
+        return_url='https://thanhhochub-commits.github.io/AUREL/workspace/'
+    state=secrets.token_urlsafe(32)
+    with STORE.lock:
+        now=time.time()
+        STORE.gmail_oauth_states={k:v for k,v in STORE.gmail_oauth_states.items() if now-v.get('created',0)<600}
+        STORE.gmail_oauth_states[state]={'created':now,'return_url':return_url,'redirect_uri':redirect_uri}
+    params={
+        'client_id':client_id,
+        'redirect_uri':redirect_uri,
+        'response_type':'code',
+        'scope':'openid email https://www.googleapis.com/auth/gmail.send',
+        'access_type':'offline',
+        'prompt':'consent',
+        'include_granted_scopes':'true',
+        'state':state,
+    }
+    return 'https://accounts.google.com/o/oauth2/v2/auth?'+urlencode(params)
+
+
+def _http_json(url,data=None,headers=None,method=None,timeout=30):
+    body=None
+    if data is not None:
+        if isinstance(data,(dict,list)):
+            body=json.dumps(data,ensure_ascii=False).encode('utf-8')
+        else:
+            body=data
+    req=Request(url,data=body,headers=headers or {},method=method or ('POST' if body is not None else 'GET'))
+    try:
+        with urlopen(req,timeout=timeout) as resp:
+            raw=resp.read().decode('utf-8','replace')
+            return json.loads(raw) if raw else {}
+    except HTTPError as e:
+        raw=e.read().decode('utf-8','replace')
+        try:
+            obj=json.loads(raw);detail=obj.get('error_description') or obj.get('error',{}).get('message') or obj.get('message') or raw
+        except Exception:
+            detail=raw
+        raise ValueError(f'Dịch vụ Google trả lỗi HTTP {e.code}: {str(detail)[:500]}') from e
+    except (URLError,OSError,TimeoutError) as e:
+        raise ValueError('Không kết nối được dịch vụ Google qua HTTPS. Hãy thử lại sau.') from e
+
+
+def gmail_oauth_exchange(code,state):
+    client_id,client_secret,configured_redirect=gmail_oauth_config()
+    with STORE.lock:
+        item=STORE.gmail_oauth_states.pop(str(state or ''),None)
+    if not item or time.time()-item.get('created',0)>600:
+        raise ValueError('Phiên kết nối Gmail đã hết hạn hoặc không hợp lệ. Hãy thử kết nối lại.')
+    redirect_uri=item.get('redirect_uri') or configured_redirect
+    form=urlencode({
+        'code':str(code or ''),
+        'client_id':client_id,
+        'client_secret':client_secret,
+        'redirect_uri':redirect_uri,
+        'grant_type':'authorization_code',
+    }).encode('utf-8')
+    token=_http_json(
+        'https://oauth2.googleapis.com/token',
+        form,
+        {'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
+        'POST',30
+    )
+    access=token.get('access_token')
+    if not access:
+        raise ValueError('Google không trả access token. Hãy kết nối Gmail lại.')
+    user=_http_json(
+        'https://openidconnect.googleapis.com/v1/userinfo',
+        None,
+        {'Authorization':'Bearer '+access,'Accept':'application/json'},
+        'GET',20
+    )
+    current={
+        'access_token':access,
+        'refresh_token':token.get('refresh_token'),
+        'expires_at':time.time()+max(60,int(token.get('expires_in',3600))-60),
+        'email':user.get('email'),
+    }
+    with STORE.lock:
+        previous=STORE.gmail_oauth or {}
+        if not current.get('refresh_token'):
+            current['refresh_token']=previous.get('refresh_token')
+        STORE.gmail_oauth=current
+    return item.get('return_url') or 'https://thanhhochub-commits.github.io/AUREL/workspace/'
+
+
+def gmail_access_token():
+    client_id,client_secret,_=gmail_oauth_config()
+    with STORE.lock:
+        token=dict(STORE.gmail_oauth or {})
+    access=token.get('access_token')
+    if access and time.time()<float(token.get('expires_at',0)):
+        return access,token.get('email')
+    refresh=token.get('refresh_token')
+    if not refresh:
+        raise ValueError('Gmail chưa được kết nối. Hãy nhấn Kết nối Gmail trước khi gửi.')
+    form=urlencode({
+        'client_id':client_id,
+        'client_secret':client_secret,
+        'refresh_token':refresh,
+        'grant_type':'refresh_token',
+    }).encode('utf-8')
+    obj=_http_json(
+        'https://oauth2.googleapis.com/token',
+        form,
+        {'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
+        'POST',30
+    )
+    access=obj.get('access_token')
+    if not access:
+        raise ValueError('Không làm mới được phiên Gmail. Hãy kết nối Gmail lại.')
+    with STORE.lock:
+        if STORE.gmail_oauth is None: STORE.gmail_oauth={}
+        STORE.gmail_oauth['access_token']=access
+        STORE.gmail_oauth['expires_at']=time.time()+max(60,int(obj.get('expires_in',3600))-60)
+        email=STORE.gmail_oauth.get('email')
+    return access,email
+
+
+def send_report_via_gmail_api(bank,year,recipient,subject='',message=''):
+    bank=str(bank or '').strip().upper()
+    try: year=int(year)
+    except (TypeError,ValueError): raise ValueError('Năm báo cáo không hợp lệ.')
+    recipient=str(recipient or '').strip()
+    if not EMAIL_RE.fullmatch(recipient):
+        raise ValueError('Email người nhận không hợp lệ.')
+    access,sender=gmail_access_token()
+    if not sender:
+        raise ValueError('Không xác định được tài khoản Gmail đã kết nối. Hãy kết nối Gmail lại.')
+    subject=str(subject or '').strip()[:180] or f'Báo cáo phân tích tài chính {bank} {year} | AUREL'
+    note=str(message or '').strip()[:3000]
+    report=report_html(bank,year)
+    pdf=report_pdf(bank,year)
+    filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
+    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
+    note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
+    body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
+    msg=EmailMessage()
+    msg['From']=sender
+    msg['To']=recipient
+    msg['Subject']=subject
+    msg.set_content(plain)
+    msg.add_alternative(body,subtype='html')
+    msg.add_attachment(pdf,maintype='application',subtype='pdf',filename=filename)
+    raw=base64.urlsafe_b64encode(msg.as_bytes()).decode('ascii').rstrip('=')
+    obj=_http_json(
+        'https://gmail.googleapis.com/gmail/v1/users/me/messages/send',
+        {'raw':raw},
+        {'Authorization':'Bearer '+access,'Content-Type':'application/json','Accept':'application/json'},
+        'POST',40
+    )
+    return {
+        'message':f'Đã gửi báo cáo {bank} {year} tới {recipient} bằng Gmail.',
+        'recipient':recipient,
+        'sender':sender,
+        'filename':filename,
+        'transport':'Gmail API',
+        'message_id':obj.get('id'),
+    }
+
+
 def _brevo_credentials(sender_input='',api_key_input=''):
     typed_sender=str(sender_input or '').strip()
     typed_key=str(api_key_input or '').strip()
@@ -2438,6 +2632,12 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         try: self.wfile.write(data)
         except (BrokenPipeError,ConnectionResetError): pass
+    def redirect(self,url):
+        self.send_response(302)
+        self.send_header('Location',str(url))
+        self.send_header('Cache-Control','no-store')
+        self.end_headers()
+
     def json_body(self):
         if self.headers.get('X-Aurel-Token')!=STORE.csrf: raise PermissionError('Yêu cầu không được chấp nhận. Hãy tải lại trang.')
         length=int(self.headers.get('Content-Length','0'))
@@ -2460,6 +2660,21 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
             if path=='/health':return self.reply({'status':'ok','version':'14-bộ chỉ tiêu tài chính-PDF-ROBUST-V9'})
             if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'14-bộ chỉ tiêu tài chính-PDF-ROBUST-V9'})
+            if path=='/api/gmail/status':
+                return self.reply(gmail_oauth_status())
+            if path=='/api/gmail/auth-url':
+                host=(self.headers.get('Host') or '').strip()
+                proto=(self.headers.get('X-Forwarded-Proto') or 'https').split(',')[0].strip()
+                _,_,configured_redirect=gmail_oauth_config()
+                redirect_uri=configured_redirect or f'{proto}://{host}/api/gmail/callback'
+                return_url=query.get('return_url',['https://thanhhochub-commits.github.io/AUREL/workspace/'])[0]
+                return self.reply({'url':gmail_oauth_authorize_url(return_url,redirect_uri),'redirect_uri':redirect_uri})
+            if path=='/api/gmail/callback':
+                if query.get('error'):
+                    return self.redirect('https://thanhhochub-commits.github.io/AUREL/workspace/?gmail=error')
+                return_url=gmail_oauth_exchange(query.get('code',[''])[0],query.get('state',[''])[0])
+                sep='&' if '?' in return_url else '?'
+                return self.redirect(return_url+sep+'gmail=connected')
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
@@ -2554,15 +2769,16 @@ class Handler(BaseHTTPRequestHandler):
                 return self.reply({'configured':fallback,'message':'Đã xóa khóa nhập trên web.'+(' Khóa từ biến môi trường máy chủ vẫn đang được sử dụng.' if fallback else '')})
             if path=='/api/ai/check':
                 return self.reply(gemini_connection_check())
+            if path=='/api/gmail/disconnect':
+                with STORE.lock: STORE.gmail_oauth=None
+                return self.reply({'message':'Đã ngắt kết nối Gmail.'})
             if path=='/api/ai':
                 return self.reply(ai_task(str(data.get('bank','')).upper(),int(data.get('year')),
                     str(data.get('task','')),str(data.get('question',''))))
             if path=='/api/report/email':
-                return self.reply(send_report_email(
+                return self.reply(send_report_via_gmail_api(
                     str(data.get('bank','')).upper(),data.get('year'),
-                    data.get('recipient'),data.get('sender'),data.get('app_password'),
-                    data.get('subject',''),data.get('message',''),
-                    data.get('provider','auto'),data.get('api_key','')))
+                    data.get('recipient'),data.get('subject',''),data.get('message','')))
             if path=='/api/review':
                 bank=str(data.get('bank','')).upper();year=int(data.get('year')); task=str(data.get('task',''))
                 key=f'{bank}:{year}:{task}'
