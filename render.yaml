@@ -9,9 +9,7 @@ services:
     envVars:
       - key: AUREL_ALLOWED_ORIGINS
         value: https://thanhhochub-commits.github.io
-      - key: GOOGLE_CLIENT_ID
+      - key: AUREL_BREVO_API_KEY
         sync: false
-      - key: GOOGLE_CLIENT_SECRET
+      - key: AUREL_BREVO_SENDER
         sync: false
-      - key: GOOGLE_REDIRECT_URI
-        value: https://aurel-thanhhochub-backend.onrender.com/api/gmail/callback
