@@ -2281,7 +2281,7 @@ def _send_via_google_smtp(sender,password,msg):
     """Send with Gmail SMTP. Try SSL/465 first, then STARTTLS/587 on connection failures."""
     ctx=ssl.create_default_context()
     try:
-        with smtplib.SMTP_SSL('smtp.gmail.com',465,context=ctx,timeout=35) as smtp:
+        with smtplib.SMTP_SSL('smtp.gmail.com',465,context=ctx,timeout=18) as smtp:
             smtp.login(sender,password)
             smtp.send_message(msg)
         return 'SSL/465'
@@ -2289,7 +2289,7 @@ def _send_via_google_smtp(sender,password,msg):
         raise ValueError('Google từ chối đăng nhập. Hãy dùng App Password do Google tạo cho đúng tài khoản người gửi; mật khẩu Gmail thông thường sẽ không hoạt động.') from e
     except (smtplib.SMTPException,OSError,TimeoutError) as first_error:
         try:
-            with smtplib.SMTP('smtp.gmail.com',587,timeout=35) as smtp:
+            with smtplib.SMTP('smtp.gmail.com',587,timeout=18) as smtp:
                 smtp.ehlo()
                 smtp.starttls(context=ctx)
                 smtp.ehlo()
@@ -2299,7 +2299,7 @@ def _send_via_google_smtp(sender,password,msg):
         except smtplib.SMTPAuthenticationError as e:
             raise ValueError('Google từ chối đăng nhập. Hãy dùng App Password do Google tạo cho đúng tài khoản người gửi; mật khẩu Gmail thông thường sẽ không hoạt động.') from e
         except (smtplib.SMTPException,OSError,TimeoutError) as e:
-            raise ValueError('Không kết nối được Gmail SMTP qua cả cổng 465 và 587. Hãy kiểm tra kết nối mạng của máy chủ hoặc thử lại sau.') from e
+            raise ValueError('Máy chủ không kết nối được Gmail qua cả cổng 465 và 587 trong thời gian cho phép. Có thể dịch vụ lưu trữ đang chặn kết nối SMTP ra ngoài hoặc Gmail chưa phản hồi. Hãy kiểm tra nhật ký máy chủ.') from e
 
 
 def send_report_email(bank,year,recipient,sender,app_password,subject='',message=''):
