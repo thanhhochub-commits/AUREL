@@ -2103,7 +2103,7 @@ async function analyzeSelectedPdfs(explicitNames=null){
 
  app.pdfPreviews=[];app.pdfPreview=null;app.pdfJobIds={};app.pdfBatchStatus={};
  const saved=[],failed=[];
- if(feed)feed.innerHTML='<div class="note"><strong>bộ trích xuất V13</strong>: bắt đầu File 1/'+names.length+'. Mỗi file sẽ được lưu xong trước khi file kế tiếp được OCR.</div>';
+ if(feed)feed.innerHTML='<div class="note"><strong>bộ trích xuất thích ứng V14</strong>: bắt đầu File 1/'+names.length+'. Mỗi file sẽ được lưu xong trước khi file kế tiếp được OCR.</div>';
  try{
    for(let i=0;i<names.length;i++){
      const source=names[i];
@@ -2376,7 +2376,7 @@ async function ensureBrevoBackendReady(){
    if(r?.email_backend==='brevo' || String(r?.version||'').includes('BREVO')) return r;
    throw Error('Backend Render chưa chạy bản Brevo mới.');
  }catch(e){
-   const msg='Backend Render chưa cập nhật bản Brevo mới. Phiên bản yêu cầu: AUREL-BREVO-20260928-R3.';
+   const msg='Backend Render chưa cập nhật bản Brevo mới. Phiên bản yêu cầu: AUREL-BREVO-20260929-R4-V14.';
    throw Error(msg);
  }
 }
@@ -2394,7 +2394,7 @@ async function sendReportEmail(){
    const p=$('#report-mail-api-key');if(p)p.value='';setReportPasswordVisibility(false);
    let msg=e.message||String(e);
    if(/Gmail|SMTP/i.test(msg)){
-     msg='Backend Render chưa cập nhật bản Brevo mới (AUREL-BREVO-20260928-R3).';
+     msg='Backend Render chưa cập nhật bản Brevo mới (AUREL-BREVO-20260929-R4-V14).';
    }else if(msg==='Không tìm thấy chức năng.'){
      msg='Backend Render đang chạy bản quá cũ và chưa có chức năng gửi Brevo.';
    }
