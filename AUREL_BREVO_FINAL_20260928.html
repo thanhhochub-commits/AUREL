@@ -2369,6 +2369,16 @@ function renderReport(){let s=app.state;let a=Object.entries(s.ai||{}).filter(([
 
 function setReportPasswordVisibility(show){const input=$('#report-mail-api-key'),btn=$('#report-mail-password-toggle');if(!input||!btn)return;input.type=show?'text':'password';btn.dataset.visible=show?'true':'false';btn.setAttribute('aria-pressed',show?'true':'false');const label=show?'Ẩn khóa API':'Hiện khóa API';btn.setAttribute('aria-label',label);btn.title=label}
 function toggleReportPasswordVisibility(){const input=$('#report-mail-api-key');if(!input)return;const show=input.type==='password';setReportPasswordVisibility(show);input.focus({preventScroll:true});try{const n=input.value.length;input.setSelectionRange(n,n)}catch(_){}}
+async function ensureBrevoBackendReady(){
+ try{
+   const r=await request('health',null,20000);
+   if(r?.email_backend==='brevo' || String(r?.version||'').includes('BREVO')) return r;
+   throw Error('Backend Render chưa chạy bản Brevo mới.');
+ }catch(e){
+   const msg='Backend Render chưa cập nhật bản Brevo mới. Phiên bản yêu cầu: AUREL-BREVO-20260928-R2.';
+   throw Error(msg);
+ }
+}
 async function sendReportEmail(){
  const btn=$('#send-report-email'),feed=$('#report-mail-feedback');if(!btn||!feed)return;
  const recipient=$('#report-mail-to')?.value.trim()||'',sender=$('#report-mail-from')?.value.trim()||'',apiKey=$('#report-mail-api-key')?.value||'',subject=$('#report-mail-subject')?.value.trim()||'',message=$('#report-mail-message')?.value.trim()||'';
@@ -2383,7 +2393,7 @@ async function sendReportEmail(){
    const p=$('#report-mail-api-key');if(p)p.value='';setReportPasswordVisibility(false);
    let msg=e.message||String(e);
    if(/Gmail|SMTP/i.test(msg)){
-     msg='Backend Render đang chạy bản gửi email cũ. Giao diện Brevo đã đúng nhưng máy chủ chưa cập nhật bản Brevo.';
+     msg='Backend Render chưa cập nhật bản Brevo mới (AUREL-BREVO-20260928-R2).';
    }else if(msg==='Không tìm thấy chức năng.'){
      msg='Backend Render đang chạy bản quá cũ và chưa có chức năng gửi Brevo.';
    }
