@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: aurel-thanhhochub-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: AUREL_ALLOWED_ORIGINS
+        value: https://thanhhochub-commits.github.io
