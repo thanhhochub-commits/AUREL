@@ -1,3 +1,5 @@
+import time
+import secrets
 
 """AUREL · Phân tích tài chính | Project 03.
 Single-user academic HTTP backend. No demonstration figures or seeded financial records.
