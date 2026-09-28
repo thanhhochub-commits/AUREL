@@ -2422,8 +2422,8 @@ def _send_via_google_smtp(sender,password,msg):
             raise ValueError('Máy chủ không kết nối được Gmail qua cả cổng 465 và 587 trong thời gian cho phép. Có thể dịch vụ lưu trữ đang chặn kết nối SMTP ra ngoài hoặc Gmail chưa phản hồi. Hãy kiểm tra nhật ký máy chủ.') from e
 
 
-def send_report_email(bank,year,recipient,sender='',app_password='',subject='',message='',provider='auto',api_key=''):
-    """Gửi báo cáo qua HTTPS trước; SMTP chỉ là phương án dự phòng."""
+def send_report_email(bank,year,recipient,sender='',app_password='',subject='',message='',provider='brevo',api_key=''):
+    """Gửi báo cáo AUREL qua Brevo HTTPS API."""
     bank=str(bank or '').strip().upper()
     try:
         year=int(year)
@@ -2432,53 +2432,35 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
     recipient=str(recipient or '').strip()
     subject=str(subject or '').strip()[:180] or f'Báo cáo phân tích tài chính {bank} {year} | AUREL'
     note=str(message or '').strip()[:3000]
-    provider=str(provider or 'auto').strip().lower()
-
     if not EMAIL_RE.fullmatch(recipient):
         raise ValueError('Email người nhận không hợp lệ.')
 
-    brevo_available=bool(str(api_key or '').strip() or str(os.getenv('AUREL_BREVO_API_KEY','')).strip())
-    if provider in ('auto','brevo') and brevo_available:
-        brevo_sender,brevo_key,credential_source=_brevo_credentials(sender,api_key)
-        preflight=brevo_connection_check(brevo_sender,brevo_key)
-        if preflight.get('sender_verified') is False:
-            raise ValueError('Email người gửi chưa được xác minh trong Brevo. Hãy vào Senders, domains, IPs để xác minh email này trước.')
+    # Accept either the new api_key field or, for stale clients only, an xkeysib key
+    # accidentally sent through the legacy app_password field.
+    key=str(api_key or '').strip()
+    legacy=str(app_password or '').strip()
+    if not key and legacy.startswith('xkeysib-'):
+        key=legacy
 
-        report=report_html(bank,year)
-        report_pdf_bytes=report_pdf(bank,year)
-        filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
-        plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
-        note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
-        body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
-        result=_send_via_brevo_api(brevo_sender,brevo_key,recipient,subject,plain,body,report_pdf_bytes,filename)
-        return {
-            'message':f'Đã gửi báo cáo {bank} {year} tới {recipient}.',
-            'recipient':recipient,
-            'filename':filename,
-            'transport':result['transport'],
-            'credential_source':credential_source,
-            'message_id':result.get('message_id')
-        }
+    brevo_sender,brevo_key,credential_source=_brevo_credentials(sender,key)
+    preflight=brevo_connection_check(brevo_sender,brevo_key)
+    if preflight.get('sender_verified') is False:
+        raise ValueError('Email người gửi chưa được xác minh trong Brevo. Hãy xác minh sender này trong Brevo trước khi gửi.')
 
-    if provider=='brevo':
-        raise ValueError('Chưa cấu hình Brevo. Cần khóa API Brevo và email người gửi đã xác minh.')
-
-    gmail_sender,password,credential_source=_gmail_credentials(sender,app_password)
-    msg=EmailMessage()
-    msg['From']=gmail_sender
-    msg['To']=recipient
-    msg['Subject']=subject
-    msg.set_content(plain)
-    msg.add_alternative(body,subtype='html')
-    msg.add_attachment(report_pdf_bytes,maintype='application',subtype='pdf',filename=filename)
-
-    transport=_send_via_google_smtp(gmail_sender,password,msg)
+    report=report_html(bank,year)
+    report_pdf_bytes=report_pdf(bank,year)
+    filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
+    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
+    note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
+    body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
+    result=_send_via_brevo_api(brevo_sender,brevo_key,recipient,subject,plain,body,report_pdf_bytes,filename)
     return {
-        'message':f'Đã gửi báo cáo {bank} {year} tới {recipient}.',
+        'message':f'Đã gửi báo cáo {bank} {year} tới {recipient} qua Brevo.',
         'recipient':recipient,
         'filename':filename,
-        'transport':transport,
-        'credential_source':credential_source
+        'transport':result['transport'],
+        'credential_source':credential_source,
+        'message_id':result.get('message_id')
     }
 
 
@@ -2628,11 +2610,21 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/brevo/check':
                 return self.reply(brevo_connection_check(data.get('sender'),data.get('api_key')))
             if path=='/api/report/email':
+                legacy_password=str(data.get('app_password','') or '').strip()
+                api_key=str(data.get('api_key','') or '').strip()
+                provider=str(data.get('provider','') or '').strip().lower()
+                # Compatibility with stale GitHub Pages: if a Brevo xkeysib key was
+                # pasted into the old App Password field, treat it as a Brevo API key.
+                if not api_key and legacy_password.startswith('xkeysib-'):
+                    api_key=legacy_password
+                    provider='brevo'
+                if api_key:
+                    provider='brevo'
                 return self.reply(send_report_email(
                     str(data.get('bank','')).upper(),data.get('year'),
-                    data.get('recipient'),data.get('sender'),data.get('app_password'),
+                    data.get('recipient'),data.get('sender'),'',
                     data.get('subject',''),data.get('message',''),
-                    data.get('provider','auto'),data.get('api_key','')))
+                    provider or 'brevo',api_key))
             if path=='/api/review':
                 bank=str(data.get('bank','')).upper();year=int(data.get('year')); task=str(data.get('task',''))
                 key=f'{bank}:{year}:{task}'
