@@ -1626,22 +1626,476 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
     finally:
         doc.close()
 
+# === AUREL ADAPTIVE BCTC READER V14 ===
+# Schema-driven: Data.xlsx defines the concepts to extract, never the answers.
+# No bank/year/file/page/value from the benchmark is embedded here.
+ADAPTIVE16_ALIASES = {
+    'total_assets': [
+        'tong tai san','tong cong tai san','tong tai san co','total assets'
+    ],
+    'customer_loans': [
+        'cho vay khach hang','cho vay cac khach hang','du no cho vay khach hang',
+        'loans to customers','customer loans'
+    ],
+    'customer_deposits': [
+        'tien gui cua khach hang','tien gui khach hang','customer deposits','deposits from customers'
+    ],
+    'cash_and_equivalents': [
+        'tien va cac khoan tuong duong tien','tien va tuong duong tien',
+        'cash and cash equivalents','cash equivalents'
+    ],
+    'total_equity': [
+        'tong cong von chu so huu','tong von chu so huu','von chu so huu',
+        'total equity','owners equity','shareholders equity'
+    ],
+    'net_interest_income': [
+        'thu nhap lai thuan','lai thuan tu hoat dong tin dung',
+        'net interest income'
+    ],
+    'net_fee_income': [
+        'lai thuan tu hoat dong dich vu','thu nhap thuan tu hoat dong dich vu',
+        'net fee and commission income','net fee income'
+    ],
+    'total_operating_income': [
+        'tong thu nhap hoat dong','tong thu nhap tu hoat dong',
+        'total operating income','operating income'
+    ],
+    'operating_expenses': [
+        'tong chi phi hoat dong','chi phi hoat dong',
+        'operating expenses','operating costs'
+    ],
+    'Credit_loss_provision_expense': [
+        'chi phi du phong rui ro tin dung','chi phi du phong rui ro',
+        'chi phi du phong ton that tin dung','credit loss provision expense',
+        'credit impairment losses','impairment losses on loans'
+    ],
+    'profit_after_tax': [
+        'loi nhuan sau thue','tong loi nhuan sau thue',
+        'profit after tax','net profit after tax'
+    ],
+    'group1_loans': [
+        'no du tieu chuan','du tieu chuan','no nhom 1','nhom 1',
+        'current debt','standard debt'
+    ],
+    'group2_loans': [
+        'no can chu y','can chu y','no nhom 2','nhom 2',
+        'special mention debt'
+    ],
+    'group3_loans': [
+        'no duoi tieu chuan','duoi tieu chuan','no nhom 3','nhom 3',
+        'substandard debt'
+    ],
+    'group4_loans': [
+        'no nghi ngo','nghi ngo','no nhom 4','nhom 4',
+        'doubtful debt'
+    ],
+    'group5_loans': [
+        'no co kha nang mat von','co kha nang mat von','no nhom 5','nhom 5',
+        'loss debt','potentially irrecoverable debt'
+    ],
+}
+ADAPTIVE16_EXCLUDES = {
+    'total_assets': ['tai san co khac','tai san thue thu nhap hoan lai'],
+    'customer_loans': [
+        'du phong rui ro cho vay','du phong ton that','du phong cu the',
+        'lai phai thu','cho vay khach hang thuan'
+    ],
+    'customer_deposits': ['lai phai tra','chi phi lai tien gui'],
+    'cash_and_equivalents': [
+        'luu chuyen tien thuan','tang giam tien','anh huong cua thay doi ty gia'
+    ],
+    'total_equity': ['no phai tra va von chu so huu','bien dong von chu so huu'],
+    'net_interest_income': ['thu nhap lai va cac khoan thu nhap tuong tu','chi phi lai va cac chi phi tuong tu'],
+    'net_fee_income': ['thu nhap tu hoat dong dich vu','chi phi hoat dong dich vu'],
+    'total_operating_income': ['chi phi hoat dong'],
+    'operating_expenses': ['chi phi hoat dong dich vu','chi phi hoat dong khac'],
+    'Credit_loss_provision_expense': [
+        'truoc chi phi du phong','loi nhuan thuan truoc chi phi du phong','du phong rui ro cho vay khach hang'
+    ],
+    'profit_after_tax': ['chua phan phoi','thuoc ve co dong','chi phi thue','loi ich co dong thieu so'],
+    'group1_loans': ['duoi tieu chuan'],
+    'group2_loans': [],
+    'group3_loans': [],
+    'group4_loans': [],
+    'group5_loans': [],
+}
+ADAPTIVE16_STOCK_KEYS = {
+    'total_assets','customer_loans','customer_deposits','cash_and_equivalents','total_equity',
+    'group1_loans','group2_loans','group3_loans','group4_loans','group5_loans'
+}
+ADAPTIVE16_GROUP_HEADINGS = {
+    'balance_sheet': ['bang can doi ke toan','bao cao tinh hinh tai chinh','balance sheet','statement of financial position'],
+    'income_statement': ['bao cao ket qua hoat dong kinh doanh','bao cao ket qua kinh doanh',
+                         'income statement','statement of income','profit or loss'],
+    'loan_quality': ['phan loai no','chat luong no','chat luong tin dung','loan classification',
+                     'credit quality','phan tich chat luong no'],
+    'cash': ['tien va cac khoan tuong duong tien','cash and cash equivalents'],
+}
+_ADAPTIVE16_NUM_RE = re.compile(
+    r'(?<![A-Za-z0-9])(?:\(\s*)?[+\-−–—]?\s*'
+    r'(?:\d{1,3}(?:[.\s,]\d{3})+(?:[.,]\d{1,2})?|\d{5,}(?:[.,]\d{1,2})?)'
+    r'\s*\)?(?!\d)'
+)
+
+def _adaptive16_norm(value):
+    return re.sub(r'\s+',' ',pdf_norm(value)).strip()
+
+def _adaptive16_tokens(value):
+    return {x for x in re.findall(r'[a-z0-9]+',_adaptive16_norm(value)) if len(x)>1}
+
+def _adaptive16_label_score(key,text):
+    """Semantic label score. Values, pages, filenames and banks are not part of the score."""
+    from difflib import SequenceMatcher
+    n=_adaptive16_norm(text)
+    if not n:return 0.0
+    for bad in ADAPTIVE16_EXCLUDES.get(key,()):
+        if _adaptive16_norm(bad) in n:return 0.0
+    best=0.0
+    nt=_adaptive16_tokens(n)
+    for alias in ADAPTIVE16_ALIASES.get(key,()):
+        a=_adaptive16_norm(alias)
+        if not a:continue
+        if a in n:
+            # Exact phrase is strongest. Longer phrases beat generic labels.
+            best=max(best,100.0+min(30.0,len(a)/2.0))
+            continue
+        at=_adaptive16_tokens(a)
+        if at:
+            overlap=len(at & nt)/max(1,len(at))
+            if overlap>=0.72:
+                best=max(best,72.0+22.0*overlap)
+        # OCR can damage one or two characters; fuzzy matching is used only on the label text.
+        if len(a)>=9 and len(n)<=260:
+            ratio=SequenceMatcher(None,a,n).ratio()
+            if ratio>=0.66:best=max(best,52.0+35.0*ratio)
+    return best
+
+def _adaptive16_parse_number(token):
+    t=str(token or '').replace('\u00a0',' ').strip()
+    if not t:return None
+    negative=(t.startswith('(') and t.endswith(')')) or bool(re.match(r'^[\s]*[-−–—]',t))
+    t=t.strip('() \t\r\n').replace('−','-').replace('–','-').replace('—','-')
+    t=re.sub(r'^[+\-]\s*','',t)
+    t=re.sub(r'\s+','',t)
+    # Financial statements in Viet Nam overwhelmingly use . or , as thousand separators.
+    # Because this reader targets statement amounts, grouped separators are removed rather than
+    # interpreted as decimals. A final 1-2 decimal suffix is preserved when unambiguous.
+    if '.' in t and ',' in t:
+        last=max(t.rfind('.'),t.rfind(','))
+        tail=t[last+1:]
+        if len(tail) in (1,2):
+            whole=re.sub(r'[.,]','',t[:last]);t=whole+'.'+tail
+        else:t=re.sub(r'[.,]','',t)
+    elif '.' in t or ',' in t:
+        sep='.' if '.' in t else ','
+        parts=t.split(sep)
+        if len(parts)>2 or (len(parts)==2 and len(parts[1])==3):
+            t=''.join(parts)
+        elif len(parts)==2 and len(parts[1]) in (1,2):
+            t=parts[0]+'.'+parts[1]
+        else:t=''.join(parts)
+    if not re.fullmatch(r'\d+(?:\.\d+)?',t):return None
+    try:v=float(t)
+    except Exception:return None
+    if not math.isfinite(v):return None
+    return -v if negative else v
+
+def _adaptive16_numbers(text):
+    out=[]
+    for m in _ADAPTIVE16_NUM_RE.finditer(str(text or '')):
+        v=_adaptive16_parse_number(m.group(0))
+        if v is not None:out.append((v,m.start(),m.group(0)))
+    return out
+
+def _adaptive16_year_index(page_text,target_year):
+    """Find the amount column for target_year from nearby two-year table headers."""
+    target=str(target_year or '')
+    if not target:return 0
+    candidates=[]
+    for row,line in enumerate(str(page_text or '').splitlines()[:120]):
+        years=re.findall(r'(?<!\d)(20\d{2})(?!\d)',line)
+        if target not in years or len(years)<2:continue
+        n=_adaptive16_norm(line)
+        if any(x in n for x in ('ngay ky','ngay lap','ngay thang','ngay ky bao cao','ban hanh','quyet dinh')):continue
+        idx=years.index(target)
+        # Prefer headers that look like reporting periods rather than prose.
+        score=10-len(line)/200
+        if any(x in n for x in ('31 12','31 thang 12','nam nay','nam truoc','current year','prior year')):score+=4
+        candidates.append((score,row,idx))
+    return max(candidates,key=lambda z:z[0])[2] if candidates else 0
+
+def _adaptive16_windows(page_text):
+    """Yield OCR rows plus short joined windows when a label/value is split across lines."""
+    lines=[x.strip() for x in str(page_text or '').splitlines() if x.strip()]
+    for i,line in enumerate(lines):
+        yield i,line,0
+        # OCR often sends the amount to the following row. Join only when the label row itself
+        # has no statement-sized number, limiting contamination from the next accounting item.
+        if not _adaptive16_numbers(line):
+            if i+1<len(lines):yield i,line+' '+lines[i+1],1
+            if i+2<len(lines) and not _adaptive16_numbers(lines[i+1]):
+                yield i,line+' '+lines[i+1]+' '+lines[i+2],2
+
+def _adaptive16_value_for_window(window,page_text,target_year,key):
+    vals=_adaptive16_numbers(window)
+    if not vals:return None
+    idx=_adaptive16_year_index(page_text,target_year)
+    value=vals[idx][0] if idx<len(vals) else vals[0][0]
+    # Stock values cannot be negative. Do not abs() them because that would turn an OCR error
+    # into a fabricated financial value; reject and let recovery find another candidate.
+    if key in ADAPTIVE16_STOCK_KEYS and value<0:return None
+    return value
+
+def _adaptive16_printed_page(page_text,physical_page):
+    lines=[x.strip() for x in str(page_text or '').splitlines() if x.strip()]
+    for line in reversed(lines[-28:]):
+        m=re.search(r'(?i)(?:trang|page)\s*[:.\-]?\s*(\d{1,3})\s*$',line)
+        if m:
+            n=int(m.group(1))
+            if 1<=n<=500:return n
+    # Footer-only page numbers are accepted only if reasonably close to physical PDF order.
+    for line in reversed(lines[-18:]):
+        m=re.fullmatch(r'[\[\]{}()|_\-–—\s]*(\d{1,3})[\[\]{}()|_\-–—\s]*',line)
+        if not m:continue
+        n=int(m.group(1))
+        if 1<=n<=500 and abs(n-int(physical_page))<=18:return n
+    return int(physical_page)
+
+def _adaptive16_detect_unit(texts,unit_override='auto'):
+    if unit_override!='auto':return unit_override,1.0
+    votes=[]
+    for text in texts:
+        n=_adaptive16_norm(text)
+        if not n:continue
+        if re.search(r'(?:don vi(?: tinh)?|dvt)\s*[:\-]?\s*(?:trieu)\s*(?:dong|vnd)',n):votes.append('million_vnd')
+        if re.search(r'(?:don vi(?: tinh)?|dvt)\s*[:\-]?\s*(?:ty)\s*(?:dong|vnd)',n):votes.append('billion_vnd')
+        if re.search(r'(?:don vi(?: tinh)?|dvt)\s*[:\-]?\s*(?:nghin|ngan)\s*(?:dong|vnd)',n):votes.append('thousand_vnd')
+        if re.search(r'(?:don vi(?: tinh)?|dvt)\s*[:\-]?\s*(?:dong|vnd)\b',n):votes.append('vnd')
+    if votes:
+        unit=max(set(votes),key=votes.count)
+        return unit,votes.count(unit)/len(votes)
+    # This is only a default unit convention, never a default financial value.
+    return 'million_vnd',0.0
+
+def _adaptive16_plausibility(result):
+    """Cross-checks raise warnings only. They never replace extracted values."""
+    values={x['metric_id']:x['master_value'] for x in result.get('items',[])}
+    warnings=[]
+    stock=[k for k in ADAPTIVE16_STOCK_KEYS if k in values and values[k]<0]
+    if stock:warnings.append('Có chỉ tiêu tài sản/số dư âm bất hợp lý: '+', '.join(stock)+'.')
+    groups=[f'group{i}_loans' for i in range(1,6)]
+    if all(k in values for k in groups) and 'customer_loans' in values:
+        s=sum(values[k] for k in groups);loans=values['customer_loans']
+        if loans and abs(s-loans)/max(abs(loans),1)>0.08:
+            warnings.append('Tổng nợ nhóm 1–5 lệch đáng kể so với chỉ tiêu cho vay khách hàng. Hệ thống giữ nguyên cả hai nguồn thay vì tự sửa số.')
+    if all(k in values for k in ('total_equity','total_assets')) and values['total_assets']:
+        if values['total_equity']>values['total_assets']*1.15:
+            warnings.append('Vốn chủ sở hữu lớn bất thường so với tổng tài sản; cần đối chiếu trang nguồn.')
+    return warnings
+
+def _pdf_extract_adaptive16_v14(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
+    """Adaptive 16-metric Vietnamese bank-statement reader.
+
+    Data.xlsx supplies only the target schema. This function discovers pages, labels, current-year
+    columns, units and values from each uploaded PDF. Missing evidence stays missing.
+    """
+    if unit_override not in ('auto','vnd','thousand_vnd','million_vnd','billion_vnd'):
+        raise ValueError('Đơn vị tiền tệ không hỗ trợ.')
+    bank,year,scope=pdf_context(name,pages,bank_override,year_override)
+    if not pdf_content:raise ValueError('Không còn byte PDF gốc để đọc.')
+    try:
+        import fitz, pytesseract
+        from PIL import Image, ImageOps, ImageEnhance
+    except ImportError as e:
+        raise ValueError('Thiếu PyMuPDF/Pillow/pytesseract để đọc BCTC PDF.') from e
+
+    def report(p,msg):
+        if progress_cb:
+            try:progress_cb(int(max(1,min(99,p))),str(msg))
+            except Exception:pass
+
+    report(5,'V14: đọc lớp văn bản và định vị cấu trúc 16 chỉ tiêu…')
+    doc=fitz.open(stream=pdf_content,filetype='pdf')
+    ocr_cache={};touched=set()
+    try:
+        total=min(len(pages),doc.page_count)
+        try:langs=set(pytesseract.get_languages(config=''))
+        except Exception:langs=set()
+        lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
+
+        def page_text(pg):
+            if not 1<=pg<=total:return ''
+            return str(pages[pg-1].get('text','') or '')
+
+        def ocr(pg,dpi=190,psm=6,enhance=False):
+            key=(int(pg),int(dpi),int(psm),bool(enhance))
+            if key in ocr_cache:return ocr_cache[key]
+            if not 1<=pg<=doc.page_count:return ''
+            try:
+                pix=doc.load_page(pg-1).get_pixmap(
+                    matrix=fitz.Matrix(dpi/72,dpi/72),colorspace=fitz.csGRAY,alpha=False)
+                image=Image.frombytes('L',(pix.width,pix.height),pix.samples)
+                if enhance:
+                    image=ImageOps.autocontrast(image)
+                    image=ImageEnhance.Contrast(image).enhance(1.28)
+                text=pytesseract.image_to_string(image,lang=lang,config=f'--oem 1 --psm {psm}') or ''
+            except Exception:text=''
+            if not text.strip():text=page_text(pg)
+            ocr_cache[key]=text[:55000];touched.add(pg)
+            if text.strip() and 1<=pg<=len(pages) and len(text)>len(page_text(pg)):
+                pages[pg-1]['text']=text[:45000];pages[pg-1]['ocr']=True
+            return ocr_cache[key]
+
+        def group_context_score(key,text):
+            group=PDF16_SPECS[key]['group'];n=_adaptive16_norm(text)
+            headings=ADAPTIVE16_GROUP_HEADINGS.get(group,())
+            score=0
+            if any(_adaptive16_norm(h) in n for h in headings):score+=18
+            if group=='loan_quality' and sum(1 for k in ('group1_loans','group2_loans','group3_loans','group4_loans','group5_loans')
+                                                if _adaptive16_label_score(k,n)>=70)>=3:score+=30
+            return score
+
+        def discover_pages(key):
+            ranked=[]
+            for pg in range(1,total+1):
+                text=page_text(pg)
+                if not text.strip():continue
+                best=0
+                for _,window,joined in _adaptive16_windows(text):
+                    s=_adaptive16_label_score(key,window)
+                    if s>best:best=s-(joined*3)
+                if best>0:ranked.append((best+group_context_score(key,text),pg))
+            ranked.sort(key=lambda z:(-z[0],z[1]))
+            out=[];seen=set()
+            for _,pg in ranked[:10]:
+                for q in (pg,pg-1,pg+1):
+                    if 1<=q<=total and q not in seen:seen.add(q);out.append(q)
+            return out
+
+        def scan_key(key,page_numbers,recovery=False):
+            candidates=[]
+            for pg in page_numbers:
+                base=page_text(pg)
+                texts=[]
+                if base.strip():texts.append(('text',base))
+                # Rich selectable text is preferred. OCR is a recovery source, not an excuse to
+                # overwrite clean statement text with noisier pixels.
+                needs_ocr=(not base.strip()) or max((_adaptive16_label_score(key,w) for _,w,_ in _adaptive16_windows(base)),default=0)<70
+                if needs_ocr or recovery:
+                    t=ocr(pg,230 if recovery else 190,11 if recovery else 6,recovery)
+                    if t.strip() and t!=base:texts.append(('ocr',t))
+                for source,text in texts:
+                    yi=_adaptive16_year_index(text,year)
+                    for row,window,joined in _adaptive16_windows(text):
+                        label=_adaptive16_label_score(key,window)
+                        if label<62:continue
+                        value=_adaptive16_value_for_window(window,text,year,key)
+                        if value is None:continue
+                        # Small 5-6 digit amounts are legitimate for some P&L/loan-quality rows,
+                        # so magnitude is only a weak tie-breaker, never a hard gate.
+                        score=label+group_context_score(key,text)-joined*5
+                        if source=='text':score+=6
+                        if yi==0:score+=1
+                        if key=='cash_and_equivalents' and 'tuong duong tien' in _adaptive16_norm(window):score+=12
+                        if key.startswith('group') and group_context_score(key,text)>=30:score+=18
+                        candidates.append((score,pg,row,value,window[:420],text,source))
+            return max(candidates,key=lambda z:z[0]) if candidates else None
+
+        # Dynamic discovery from text/OCR locator. No bank/year page map.
+        raw={}
+        for idx,key in enumerate(PDF16_KEYS):
+            pnums=discover_pages(key)
+            if not pnums:
+                # The low-DPI locator may have missed a damaged/image-only row. Search a bounded
+                # set of pages using any available page text before targeted recovery.
+                pnums=list(range(1,min(total,DOC_PAGE_LIMIT)+1))
+            hit=scan_key(key,pnums,False)
+            if hit:raw[key]=hit
+            report(18+int((idx+1)/len(PDF16_KEYS)*50),f'V14: đã định vị {idx+1}/{len(PDF16_KEYS)} nhóm chỉ tiêu…')
+
+        # Coherence rule for loan buckets: prefer candidates from one page cluster if possible.
+        loan_keys=('group1_loans','group2_loans','group3_loans','group4_loans','group5_loans')
+        anchors={}
+        for k in loan_keys:
+            if raw.get(k):anchors[raw[k][1]]=anchors.get(raw[k][1],0)+1
+        if anchors:
+            anchor=max(anchors,key=anchors.get)
+            cluster=[p for p in (anchor-1,anchor,anchor+1) if 1<=p<=total]
+            coherent={}
+            for k in loan_keys:
+                h=scan_key(k,cluster,False)
+                if h:coherent[k]=h
+            if len(coherent)>=4:
+                raw.update(coherent)
+
+        missing=[k for k in PDF16_KEYS if not raw.get(k)]
+        if missing:
+            report(72,f'V14: recovery có mục tiêu cho {len(missing)} chỉ tiêu còn thiếu…')
+            for j,key in enumerate(list(missing)):
+                pnums=discover_pages(key)
+                if not pnums:
+                    # Last resort: OCR all statement pages one by one at recovery quality until a
+                    # credible candidate appears. This is slower but avoids memorizing page locations.
+                    pnums=list(range(1,total+1))
+                h=scan_key(key,pnums,True)
+                if h:raw[key]=h
+                report(72+int((j+1)/max(1,len(missing))*20),f'V14 recovery: {j+1}/{len(missing)}')
+
+        # Determine source unit from the actual relevant pages, not from filename/bank/year.
+        relevant_pages=sorted({v[1] for v in raw.values()})
+        unit_texts=[page_text(p) or (raw[next(k for k,v in raw.items() if v[1]==p)][5] if raw else '') for p in relevant_pages]
+        unit_texts += [page_text(p) for p in range(1,min(total,25)+1)]
+        source_unit,unit_conf=_adaptive16_detect_unit(unit_texts,unit_override)
+        factor_to_million={'vnd':1e-6,'thousand_vnd':1e-3,'million_vnd':1.0,'billion_vnd':1000.0}[source_unit]
+
+        items=[]
+        for key in PDF16_KEYS:
+            hit=raw.get(key)
+            if not hit:continue
+            score,physical,_,source_value,line,text,source=hit
+            master_value=float(source_value)*factor_to_million
+            if key in ADAPTIVE16_STOCK_KEYS and master_value<0:continue
+            if abs(master_value-round(master_value))<1e-9:master_value=int(round(master_value))
+            internal=PDF16_SPECS[key]['internal']
+            printed=_adaptive16_printed_page(text,physical)
+            items.append(dict(
+                metric_id=key,internal_metric_id=internal,name=PDF16_SPECS[key]['name'],
+                metric_name=PDF16_SPECS[key]['name'],master_value=master_value,master_unit='triệu VND',
+                value=round(float(master_value)/1000.0,9),unit='billion_vnd',source_unit=source_unit,
+                source_page=int(physical),page_source=int(printed),source_file=name,
+                page_source_method='document_footer_or_physical',Source=Path(name).stem,
+                source_line=line,ocr=(source=='ocr'),status='adaptive_v14_evidence',
+                confidence=round(min(0.99,max(0.01,score/160.0)),3)
+            ))
+
+        missing_items=[dict(metric_id=k,name=PDF16_SPECS[k]['name']) for k in PDF16_KEYS if k not in {x['metric_id'] for x in items}]
+        result=dict(bank=bank,year=year,statement_type=scope,items=items,missing=missing_items,warnings=[],
+                    detected_unit=source_unit,total=16,engine='AUREL_ADAPTIVE_16_V14',configured_code2=False,
+                    scanned_pages=sorted(touched | set(relevant_pages)),
+                    master_columns=['Bank','Year','metric_id','metric_name','value','unit','page_source','Source'])
+        result['warnings']=[
+            'V14 đọc thích ứng theo nhãn, cấu trúc bảng, cột năm và bằng chứng trên PDF; không dùng giá trị/trang/tên file trong Data.xlsx làm đáp án.',
+            ('Đơn vị được nhận diện từ BCTC: '+source_unit+'.' if unit_conf>0
+             else 'Không thấy nhãn đơn vị đủ rõ; đang dùng quy ước mặc định triệu VND. Cần đối chiếu trang nguồn trước khi xác nhận.'),
+            *_adaptive16_plausibility(result)
+        ]
+        if missing_items:
+            result['warnings'].append(f'Đã đọc {len(items)}/16; {len(missing_items)} chỉ tiêu chưa đủ bằng chứng được giữ là thiếu, không tự bịa số.')
+        else:
+            result['warnings'].append('Đã nhận diện đủ 16/16 chỉ tiêu mục tiêu với nguồn đối chiếu.')
+        report(97,f'V14 hoàn tất {len(items)}/16 chỉ tiêu có bằng chứng.')
+        return result
+    finally:
+        doc.close()
+
 def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
     if progress_cb:
-        try:progress_cb(4,'Đang đọc cấu trúc BCTC và tự định vị 16 chỉ tiêu…')
+        try:progress_cb(4,'AUREL V14: đang đọc cấu trúc BCTC và tự định vị 16 chỉ tiêu…')
         except Exception:pass
+    # Fast locator: extract selectable text first and low-DPI OCR only where needed.
     _hydrate_pdf_locator_text(pdf_content,pages,progress_cb)
-    result=_pdf_extract_generic16(name,pages,pdf_content,bank_override,year_override,unit_override)
-    result['engine']='AUREL_ADAPTIVE_16'
-    result['configured_code2']=False
-    result['warnings']=[
-        'Đọc thích ứng theo nhãn chỉ tiêu và cấu trúc tài liệu; không dùng giá trị, số trang hoặc tên file của Data.xlsx làm đáp án.',
-        *[w for w in result.get('warnings',[]) if 'cấu hình trang' not in w.lower()]
-    ]
-    if progress_cb:
-        try:progress_cb(97,f'Đã đọc {len(result.get("items",[]))}/16 chỉ tiêu có bằng chứng.')
-        except Exception:pass
-    return result
+    return _pdf_extract_adaptive16_v14(
+        name,pages,pdf_content,bank_override,year_override,unit_override,progress_cb)
 
 
 def pdf_preview(name, bank='', year=None, unit='auto', progress_cb=None):
@@ -2728,7 +3182,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL-BREVO-20260928-R3'
+    server_version='AUREL-BREVO-20260929-R4-V14'
     def log_message(self,fmt,*args):
         # Avoid logging request bodies or credentials.
         print('[AUREL] '+fmt%args,flush=True)
@@ -2771,8 +3225,8 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260928-R3','email_backend':'brevo','brevo_ready':True})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260928-R2','email_backend':'brevo'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R4-V14','email_backend':'brevo','brevo_ready':True})
+            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R4-V14','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
