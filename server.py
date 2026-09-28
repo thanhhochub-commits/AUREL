@@ -1991,6 +1991,12 @@ def report_pdf(bank,year):
     TEXT=colors.HexColor('#29465A')
     MUTED=colors.HexColor('#718898')
     WHITE=colors.white
+    SOFT_GREEN=colors.HexColor('#EAF4EF')
+    SOFT_AMBER=colors.HexColor('#FBF3E7')
+    SOFT_RED=colors.HexColor('#F8EAEA')
+    GREEN=colors.HexColor('#2D7A62')
+    AMBER=colors.HexColor('#A76A21')
+    RED=colors.HexColor('#A14A4A')
 
     buf=io.BytesIO()
     doc=SimpleDocTemplate(
@@ -2001,9 +2007,9 @@ def report_pdf(bank,year):
         subject='Báo cáo phân tích tài chính'
     )
     styles=getSampleStyleSheet()
-    brand=ParagraphStyle('AurelBrand',parent=styles['Normal'],fontName=font_bold,fontSize=8.2,leading=10.5,textColor=TEAL,spaceAfter=2,tracking=.8)
-    hero_title=ParagraphStyle('AurelHeroTitle',parent=styles['Title'],fontName=font_bold,fontSize=20.5,leading=25,textColor=NAVY,spaceAfter=5)
-    hero_sub=ParagraphStyle('AurelHeroSub',parent=styles['BodyText'],fontName=font,fontSize=8.5,leading=12.5,textColor=MUTED,spaceAfter=0)
+    brand=ParagraphStyle('AurelBrand',parent=styles['Normal'],fontName=font_bold,fontSize=8.2,leading=10.5,textColor=TEAL2,spaceAfter=2,tracking=.8)
+    hero_title=ParagraphStyle('AurelHeroTitle',parent=styles['Title'],fontName=font_bold,fontSize=21.5,leading=26,textColor=WHITE,spaceAfter=5)
+    hero_sub=ParagraphStyle('AurelHeroSub',parent=styles['BodyText'],fontName=font,fontSize=8.7,leading=13,textColor=colors.HexColor('#D8E7F0'),spaceAfter=0)
     h2=ParagraphStyle('AurelH2',parent=styles['Heading2'],fontName=font_bold,fontSize=13.5,leading=17,textColor=NAVY,spaceBefore=11,spaceAfter=7)
     h3=ParagraphStyle('AurelH3',parent=styles['Heading3'],fontName=font_bold,fontSize=10.5,leading=14,textColor=NAVY,spaceBefore=6,spaceAfter=5)
     body=ParagraphStyle('AurelBody',parent=styles['BodyText'],fontName=font,fontSize=9,leading=14,textColor=TEXT,spaceAfter=7,wordWrap='CJK')
@@ -2016,6 +2022,11 @@ def report_pdf(bank,year):
     kpi_label=ParagraphStyle('AurelKpiLabel',parent=foot,fontName=font_bold,fontSize=7.2,leading=9,textColor=MUTED,spaceAfter=2)
     kpi_value=ParagraphStyle('AurelKpiValue',parent=body,fontName=font_bold,fontSize=13.5,leading=17,textColor=NAVY,spaceAfter=0)
     kpi_unit=ParagraphStyle('AurelKpiUnit',parent=foot,fontSize=7.2,leading=9,textColor=TEAL)
+    kpi_delta=ParagraphStyle('AurelKpiDelta',parent=foot,fontName=font_bold,fontSize=7.1,leading=9.2,textColor=NAVY2,spaceAfter=0)
+    cover_label=ParagraphStyle('AurelCoverLabel',parent=foot,fontName=font_bold,fontSize=6.9,leading=8.5,textColor=TEAL2,spaceAfter=2)
+    cover_value=ParagraphStyle('AurelCoverValue',parent=body,fontName=font_bold,fontSize=12.5,leading=15,textColor=WHITE,spaceAfter=0)
+    summary_head=ParagraphStyle('AurelSummaryHead',parent=body,fontName=font_bold,fontSize=8.2,leading=11,textColor=NAVY,spaceAfter=2)
+    summary_text=ParagraphStyle('AurelSummaryText',parent=body,fontSize=8.1,leading=12.2,textColor=TEXT,spaceAfter=0)
 
     def P(v,style=cell):
         return Paragraph(html.escape(str(v if v is not None else '')),style)
@@ -2072,51 +2083,108 @@ def report_pdf(bank,year):
 
     story=[]
 
-    # Header / cover strip
-    hero_left=[Paragraph('AUREL · PHÂN TÍCH TÀI CHÍNH',brand),Paragraph(f'Báo cáo phân tích tài chính: {html.escape(bank)} · {year}',hero_title),Paragraph('Báo cáo được tạo trực tiếp từ dữ liệu hiện có trong AUREL. Số liệu tiền tệ được chuẩn hóa theo đơn vị tỷ VND; các chỉ tiêu tỷ lệ giữ nguyên đơn vị phần trăm.',hero_sub)]
+    # Professional cover/header block
+    generated_label=datetime.now(timezone.utc).astimezone().strftime('%d/%m/%Y %H:%M')
+    hero_left=[
+        Paragraph('AUREL · PHÂN TÍCH TÀI CHÍNH',brand),
+        Paragraph(f'Báo cáo phân tích tài chính<br/>{html.escape(bank)} · {year}',hero_title),
+        Paragraph('Tổng hợp chỉ tiêu trọng yếu, tỷ số tài chính, xu hướng, cảnh báo sớm và nội dung phân tích đã được phê duyệt.',hero_sub)
+    ]
     hero_right=Table([
-        [P('NGÂN HÀNG',kpi_label)],[P(bank,kpi_value)],[P('KỲ BÁO CÁO',kpi_label)],[P(str(year),kpi_value)]
-    ],colWidths=[38*mm])
+        [Paragraph('NGÂN HÀNG',cover_label)],[Paragraph(bank,cover_value)],
+        [Paragraph('KỲ BÁO CÁO',cover_label)],[Paragraph(str(year),cover_value)],
+        [Paragraph('CẬP NHẬT',cover_label)],[Paragraph(generated_label,ParagraphStyle('AurelCoverTime',parent=cover_value,fontSize=8.2,leading=10.5))]
+    ],colWidths=[39*mm])
     hero_right.setStyle(TableStyle([
-        ('BACKGROUND',(0,0),(-1,-1),MINT),('BOX',(0,0),(-1,-1),0.6,colors.HexColor('#C7E4DE')),
-        ('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5),
+        ('BACKGROUND',(0,0),(-1,-1),NAVY2),('BOX',(0,0),(-1,-1),0.5,colors.HexColor('#45677B')),
+        ('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),
+        ('TOPPADDING',(0,0),(-1,-1),4.5),('BOTTOMPADDING',(0,0),(-1,-1),4.5),
     ]))
-    hero=Table([[hero_left,hero_right]],colWidths=[132*mm,42*mm],hAlign='LEFT')
+    hero=Table([[hero_left,hero_right]],colWidths=[128*mm,44*mm],hAlign='LEFT')
     hero.setStyle(TableStyle([
-        ('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),0),
+        ('BACKGROUND',(0,0),(-1,-1),NAVY),('VALIGN',(0,0),(-1,-1),'TOP'),
+        ('LEFTPADDING',(0,0),(0,0),12),('RIGHTPADDING',(0,0),(0,0),10),
+        ('TOPPADDING',(0,0),(0,0),13),('BOTTOMPADDING',(0,0),(0,0),13),
+        ('LEFTPADDING',(1,0),(1,0),0),('RIGHTPADDING',(1,0),(1,0),0),
+        ('TOPPADDING',(1,0),(1,0),0),('BOTTOMPADDING',(1,0),(1,0),0),
     ]))
     story.append(hero)
-    story.append(Spacer(1,8))
+    story.append(Spacer(1,7))
 
-    # KPI summary cards, only from currently available data.
     ratios={r['id']:r.get('value') for r in financial_ratios(rows,bank,year)}
+    previous_ratios={r['id']:r.get('value') for r in financial_ratios(rows,bank,year-1)}
+    def delta_text(metric,value):
+        if value is None:return 'Chưa đủ dữ liệu so sánh'
+        if metric=='npl_ratio':
+            old=previous_ratios.get('npl_ratio')
+            if old is None:return 'Chưa đủ dữ liệu năm trước'
+            return f'{float(value)-float(old):+.2f} điểm % so với {year-1}'
+        g=growth(rows,bank,year,metric)
+        return 'Chưa đủ dữ liệu năm trước' if g is None else f'{float(g):+.2f}% so với {year-1}'
+
     kpis=[
-        ('TỔNG TÀI SẢN',figures.get('assets'),'tỷ VND'),
-        ('DƯ NỢ CHO VAY',figures.get('loans'),'tỷ VND'),
-        ('TIỀN GỬI KHÁCH HÀNG',figures.get('deposits'),'tỷ VND'),
-        ('LỢI NHUẬN SAU THUẾ',figures.get('pat'),'tỷ VND'),
-        ('VỐN CHỦ SỞ HỮU',figures.get('equity'),'tỷ VND'),
-        ('TỶ LỆ NỢ XẤU',ratios.get('npl_ratio'),'%'),
+        ('TỔNG TÀI SẢN','assets',figures.get('assets'),'tỷ VND'),
+        ('DƯ NỢ CHO VAY','loans',figures.get('loans'),'tỷ VND'),
+        ('TIỀN GỬI KHÁCH HÀNG','deposits',figures.get('deposits'),'tỷ VND'),
+        ('LỢI NHUẬN SAU THUẾ','pat',figures.get('pat'),'tỷ VND'),
+        ('VỐN CHỦ SỞ HỮU','equity',figures.get('equity'),'tỷ VND'),
+        ('TỶ LỆ NỢ XẤU','npl_ratio',ratios.get('npl_ratio'),'%'),
     ]
     cards=[]
-    for label,value,unit in kpis:
+    for label,metric_id,value,unit in kpis:
         value_text='N/A' if value is None else (fmt_pct(value) if unit=='%' else fmt_num(value,1))
-        cards.append([Paragraph(label,kpi_label),Paragraph(value_text,kpi_value),Paragraph(unit if value is not None else 'Chưa đủ dữ liệu',kpi_unit)])
+        cards.append([
+            Paragraph(label,kpi_label),Paragraph(value_text,kpi_value),
+            Paragraph(unit if value is not None else 'Chưa đủ dữ liệu',kpi_unit),
+            Paragraph(delta_text(metric_id,value),kpi_delta)
+        ])
     card_rows=[]
     for i in range(0,len(cards),3):
         row=[]
         for c in cards[i:i+3]:
-            inner=Table([[c[0]],[c[1]],[c[2]]],colWidths=[54*mm])
+            inner=Table([[c[0]],[c[1]],[c[2]],[c[3]]],colWidths=[54*mm])
             inner.setStyle(TableStyle([
                 ('BACKGROUND',(0,0),(-1,-1),WHITE),('BOX',(0,0),(-1,-1),0.55,LINE),
-                ('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5),
+                ('LINEABOVE',(0,0),(-1,0),2.2,TEAL),
+                ('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),
+                ('TOPPADDING',(0,0),(-1,-1),4.8),('BOTTOMPADDING',(0,0),(-1,-1),4.8),
             ]))
             row.append(inner)
         card_rows.append(row)
     kpi_table=Table(card_rows,colWidths=[58*mm,58*mm,58*mm],hAlign='LEFT')
-    kpi_table.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),3),('TOPPADDING',(0,0),(-1,-1),2),('BOTTOMPADDING',(0,0),(-1,-1),2)]))
+    kpi_table.setStyle(TableStyle([
+        ('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),
+        ('RIGHTPADDING',(0,0),(-1,-1),3),('TOPPADDING',(0,0),(-1,-1),2),
+        ('BOTTOMPADDING',(0,0),(-1,-1),2)
+    ]))
     story.append(kpi_table)
     story.append(Spacer(1,5))
+
+    risks=risk_rules(rows,bank,year)
+    risk_counts={
+        'critical':sum(1 for x in risks if x.get('status')=='critical'),
+        'watch':sum(1 for x in risks if x.get('status')=='watch'),
+        'normal':sum(1 for x in risks if x.get('status')=='normal')
+    }
+    snap_items=[
+        ('Tăng trưởng tài sản',delta_text('assets',figures.get('assets'))),
+        ('Tăng trưởng dư nợ',delta_text('loans',figures.get('loans'))),
+        ('Tăng trưởng LNST',delta_text('pat',figures.get('pat'))),
+        ('Cảnh báo sớm',f"{risk_counts['critical']} cảnh báo · {risk_counts['watch']} theo dõi · {risk_counts['normal']} ổn định")
+    ]
+    snap_cells=[]
+    for label,value in snap_items:
+        snap_cells.append(Table([[Paragraph(label,summary_head)],[Paragraph(value,summary_text)]],colWidths=[40*mm]))
+    snap=Table([snap_cells],colWidths=[43*mm]*4,hAlign='LEFT')
+    snap.setStyle(TableStyle([
+        ('BACKGROUND',(0,0),(-1,-1),ICE),('BOX',(0,0),(-1,-1),0.5,LINE),
+        ('INNERGRID',(0,0),(-1,-1),0.35,LINE),('VALIGN',(0,0),(-1,-1),'TOP'),
+        ('LEFTPADDING',(0,0),(-1,-1),6),('RIGHTPADDING',(0,0),(-1,-1),6),
+        ('TOPPADDING',(0,0),(-1,-1),6),('BOTTOMPADDING',(0,0),(-1,-1),6),
+    ]))
+    story.append(Paragraph('Tổng quan nhanh',h3))
+    story.append(snap)
+    story.append(Spacer(1,4))
 
     report_rows=[r for r in rows if r['bank']==bank and r['year']==year]
     story.append(Paragraph('1. Chỉ tiêu tài chính',h2))
@@ -2183,13 +2251,19 @@ def report_pdf(bank,year):
         delta='N/A' if rr.get('delta') is None else (('+' if rr['delta']>0 else '')+f'{float(rr["delta"]):.2f} điểm %')
         risk_data.append([P(rr.get('domain','')),P(rr.get('name','')),P(now,cell_right),P(delta,cell_right),P(risk_status.get(rr.get('status'),rr.get('status','')))])
     risk_table=Table(risk_data,colWidths=[36*mm,45*mm,27*mm,34*mm,30*mm],repeatRows=1,hAlign='LEFT')
-    risk_table.setStyle(TableStyle([
+    risk_styles=[
         ('BACKGROUND',(0,0),(-1,0),colors.HexColor('#EAF3F5')),('TEXTCOLOR',(0,0),(-1,0),NAVY),
         ('VALIGN',(0,0),(-1,-1),'TOP'),('GRID',(0,0),(-1,-1),0.35,LINE),
         ('ROWBACKGROUNDS',(0,1),(-1,-1),[WHITE,colors.HexColor('#FAFCFD')]),
         ('LEFTPADDING',(0,0),(-1,-1),5),('RIGHTPADDING',(0,0),(-1,-1),5),
         ('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5),
-    ]))
+    ]
+    for idx,rr in enumerate(risk_rules(rows,bank,year),start=1):
+        status=rr.get('status')
+        bg=SOFT_GREEN if status=='normal' else SOFT_AMBER if status=='watch' else SOFT_RED if status=='critical' else ICE
+        fg=GREEN if status=='normal' else AMBER if status=='watch' else RED if status=='critical' else MUTED
+        risk_styles.extend([('BACKGROUND',(4,idx),(4,idx),bg),('TEXTCOLOR',(4,idx),(4,idx),fg)])
+    risk_table.setStyle(TableStyle(risk_styles))
     story.append(risk_table)
 
     # Approved AI sections. We preserve the same content as report_html(), but lay it out
@@ -2219,12 +2293,16 @@ def report_pdf(bank,year):
 
     def page_decor(canvas,doc_obj):
         canvas.saveState()
-        # Minimal top accent and footer keep every page visually consistent.
-        canvas.setFillColor(TEAL);canvas.rect(13*mm,A4[1]-8.4*mm,A4[0]-26*mm,1.1*mm,fill=1,stroke=0)
+        canvas.setFillColor(TEAL);canvas.rect(13*mm,A4[1]-8.2*mm,A4[0]-26*mm,1.15*mm,fill=1,stroke=0)
+        if doc_obj.page>1:
+            canvas.setFont(font_bold,7.2);canvas.setFillColor(NAVY)
+            canvas.drawString(13*mm,A4[1]-13.2*mm,'AUREL · BÁO CÁO PHÂN TÍCH TÀI CHÍNH')
+            canvas.setFont(font,7.0);canvas.setFillColor(MUTED)
+            canvas.drawRightString(A4[0]-13*mm,A4[1]-13.2*mm,f'{bank} · {year}')
         canvas.setStrokeColor(LINE);canvas.setLineWidth(0.45);canvas.line(13*mm,11.5*mm,A4[0]-13*mm,11.5*mm)
-        canvas.setFont(font,7.1);canvas.setFillColor(MUTED)
-        canvas.drawString(13*mm,7*mm,'AUREL · Phân tích tài chính')
-        canvas.drawCentredString(A4[0]/2,7*mm,f'{bank} · {year}')
+        canvas.setFont(font,7.0);canvas.setFillColor(MUTED)
+        canvas.drawString(13*mm,7*mm,'AUREL · Financial Intelligence')
+        canvas.drawCentredString(A4[0]/2,7*mm,'Tài liệu phân tích nội bộ')
         canvas.drawRightString(A4[0]-13*mm,7*mm,f'Trang {doc_obj.page}')
         canvas.restoreState()
 
@@ -2365,7 +2443,7 @@ def brevo_connection_check(sender_input='',api_key_input=''):
 def _send_via_brevo_api(sender,api_key,recipient,subject,plain,html_body,pdf_bytes,filename):
     """Gửi email giao dịch qua HTTPS, tương thích Render Free."""
     payload={
-        'sender':{'email':sender,'name':'AUREL'},
+        'sender':{'email':sender,'name':'AUREL Financial Intelligence'},
         'to':[{'email':recipient}],
         'subject':subject,
         'textContent':plain,
@@ -2440,6 +2518,8 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
     note=str(message or '').strip()[:3000]
     if not EMAIL_RE.fullmatch(recipient):
         raise ValueError('Email người nhận không hợp lệ.')
+    if not recipient.lower().endswith('@gmail.com'):
+        raise ValueError('Vui lòng nhập địa chỉ Gmail người nhận (@gmail.com).')
 
     # Accept either the new api_key field or, for stale clients only, an xkeysib key
     # accidentally sent through the legacy app_password field.
@@ -2453,12 +2533,46 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
     if preflight.get('sender_verified') is False:
         raise ValueError('Email người gửi chưa được xác minh trong Brevo. Hãy xác minh sender này trong Brevo trước khi gửi.')
 
-    report=report_html(bank,year)
     report_pdf_bytes=report_pdf(bank,year)
     filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
-    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
-    note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
-    body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
+    with STORE.lock:
+        mail_rows=[r.copy() for r in STORE.rows]
+    mail_values=val(mail_rows,bank,year)
+    mail_ratios={x['id']:x.get('value') for x in financial_ratios(mail_rows,bank,year)}
+    def mail_num(v):
+        if v is None:return 'Chưa có dữ liệu'
+        try:return f'{float(v):,.1f}'
+        except Exception:return str(v)
+    def mail_pct(v):
+        if v is None:return 'Chưa có dữ liệu'
+        try:return f'{float(v):,.2f}%'
+        except Exception:return str(v)
+    note_block=(f'<div style="margin:18px 0;padding:14px 16px;background:#f6f9fb;border:1px solid #d8e4e9;border-radius:10px;color:#29465a;line-height:1.65">{html.escape(note).replace(chr(10),"<br>")}</div>' if note else '')
+    body=f'''<!doctype html><html><body style="margin:0;background:#f3f7f9;font-family:Arial,sans-serif;color:#17354a">
+    <div style="max-width:680px;margin:0 auto;padding:28px 18px">
+      <div style="background:#17354a;border-radius:16px 16px 0 0;padding:26px 28px;color:white">
+        <div style="font-size:11px;letter-spacing:2px;color:#bfd9e9;font-weight:700">AUREL · PHÂN TÍCH TÀI CHÍNH</div>
+        <div style="font-size:25px;font-weight:700;margin-top:8px">Báo cáo phân tích tài chính {html.escape(bank)} {year}</div>
+        <div style="font-size:13px;color:#d9e7ef;margin-top:8px">Bản PDF chuyên nghiệp đã được đính kèm trong email này.</div>
+      </div>
+      <div style="background:white;border:1px solid #d8e4e9;border-top:0;padding:24px 28px">
+        {note_block}
+        <table role="presentation" style="width:100%;border-collapse:separate;border-spacing:8px">
+          <tr>
+            <td style="background:#eef5f9;border-radius:10px;padding:14px"><div style="font-size:10px;color:#718898">TỔNG TÀI SẢN</div><div style="font-size:20px;font-weight:700;margin-top:5px">{mail_num(mail_values.get('assets'))}</div><div style="font-size:11px;color:#5f9fc2">tỷ VND</div></td>
+            <td style="background:#eef5f9;border-radius:10px;padding:14px"><div style="font-size:10px;color:#718898">LỢI NHUẬN SAU THUẾ</div><div style="font-size:20px;font-weight:700;margin-top:5px">{mail_num(mail_values.get('pat'))}</div><div style="font-size:11px;color:#5f9fc2">tỷ VND</div></td>
+            <td style="background:#eef5f9;border-radius:10px;padding:14px"><div style="font-size:10px;color:#718898">TỶ LỆ NỢ XẤU</div><div style="font-size:20px;font-weight:700;margin-top:5px">{mail_pct(mail_ratios.get('npl_ratio'))}</div><div style="font-size:11px;color:#5f9fc2">NPL</div></td>
+          </tr>
+        </table>
+        <div style="margin-top:18px;padding:15px 16px;border-left:4px solid #5f9fc2;background:#f8fbfd;color:#476475;font-size:13px;line-height:1.6">
+          Vui lòng mở tệp PDF đính kèm để xem đầy đủ bảng chỉ tiêu, tỷ số tài chính, xu hướng, cảnh báo rủi ro và nội dung phân tích đã được phê duyệt.
+        </div>
+      </div>
+      <div style="background:#edf3f6;border:1px solid #d8e4e9;border-top:0;border-radius:0 0 16px 16px;padding:14px 28px;color:#718898;font-size:11px;line-height:1.5">
+        AUREL · Financial Intelligence<br>Tài liệu phục vụ phân tích, không thay thế thẩm định chuyên môn.
+      </div>
+    </div></body></html>'''
+    plain=(note+'\n\n' if note else '')+f'Báo cáo phân tích tài chính {bank} {year} được gửi từ AUREL. Tệp PDF chuyên nghiệp được đính kèm trong email.'
     result=_send_via_brevo_api(brevo_sender,brevo_key,recipient,subject,plain,body,report_pdf_bytes,filename)
     return {
         'message':f'Đã gửi báo cáo {bank} {year} tới {recipient} qua Brevo.',
