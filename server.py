@@ -6,6 +6,7 @@ Run with: python server.py (or via the one-cell Colab launcher).
 from __future__ import annotations
 import base64, csv, hashlib, html, io, json, math, os, re, secrets, smtplib, ssl, threading, time, traceback
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from email.message import EmailMessage
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -2084,7 +2085,7 @@ def report_pdf(bank,year):
     story=[]
 
     # Professional cover/header block
-    generated_label=datetime.now(timezone.utc).astimezone().strftime('%d/%m/%Y %H:%M')
+    generated_label=datetime.now(ZoneInfo('Asia/Ho_Chi_Minh')).strftime('%d/%m/%Y %H:%M')
     hero_left=[
         Paragraph('AUREL · PHÂN TÍCH TÀI CHÍNH',brand),
         Paragraph(f'Báo cáo phân tích tài chính<br/>{html.escape(bank)} · {year}',hero_title),
@@ -2093,7 +2094,7 @@ def report_pdf(bank,year):
     hero_right=Table([
         [Paragraph('NGÂN HÀNG',cover_label)],[Paragraph(bank,cover_value)],
         [Paragraph('KỲ BÁO CÁO',cover_label)],[Paragraph(str(year),cover_value)],
-        [Paragraph('CẬP NHẬT',cover_label)],[Paragraph(generated_label,ParagraphStyle('AurelCoverTime',parent=cover_value,fontSize=8.2,leading=10.5))]
+        [Paragraph('CẬP NHẬT · GIỜ VIỆT NAM',cover_label)],[Paragraph(generated_label,ParagraphStyle('AurelCoverTime',parent=cover_value,fontSize=8.2,leading=10.5))]
     ],colWidths=[39*mm])
     hero_right.setStyle(TableStyle([
         ('BACKGROUND',(0,0),(-1,-1),NAVY2),('BOX',(0,0),(-1,-1),0.5,colors.HexColor('#45677B')),
