@@ -33,8 +33,88 @@ FIELDS = {
     'car':'Tỷ lệ an toàn vốn (CAR)'
 }
 UNITS = {'billion_vnd':1.,'ty_vnd':1.,'tỷ vnd':1., 'million_vnd':.001,
-         'trieu_vnd':.001,'triệu vnd':.001,'vnd':1e-9,'percent':1.}
+         'trieu_vnd':.001,'triệu vnd':.001,'thousand_vnd':.000001,'nghin_vnd':.000001,
+         'nghìn vnd':.000001,'vnd':1e-9,'percent':1.}
 REQUIRED = ('bank','year','metric_id','value','unit')
+
+# Generic input schema normalization.  This contains only field/metric aliases,
+# never bank-specific financial values or page numbers.
+INPUT_COLUMN_ALIASES = {
+    'bank':'bank','bank code':'bank','bank_code':'bank','ma ngan hang':'bank','ngan hang':'bank',
+    'year':'year','nam':'year','report year':'year','report_year':'year',
+    'metric id':'metric_id','metric_id':'metric_id','metric':'metric_id','chi tieu':'metric_id','ma chi tieu':'metric_id',
+    'metric name':'metric_name','metric_name':'metric_name','name':'metric_name','ten chi tieu':'metric_name',
+    'value':'value','gia tri':'value','amount':'value','so lieu':'value',
+    'unit':'unit','don vi':'unit','dvt':'unit',
+    'page source':'source_page','page_source':'source_page','source page':'source_page','source_page':'source_page','trang':'source_page','page':'source_page',
+    'source':'source_file','source file':'source_file','source_file':'source_file','tai lieu nguon':'source_file','file nguon':'source_file',
+    'statement type':'statement_type','statement_type':'statement_type','pham vi bao cao':'statement_type',
+}
+EXTERNAL_METRIC_ID_ALIASES = {
+    'total_assets':'assets','customer_loans':'loans','customer_deposits':'deposits',
+    'cash_and_equivalents':'cash','total_equity':'equity',
+    'group1_loans':'group1_loans','group2_loans':'group2_loans','group3_loans':'group3_loans',
+    'group4_loans':'group4_loans','group5_loans':'group5_loans',
+    'net_interest_income':'net_interest_income','net_fee_income':'net_fee_income',
+    'total_operating_income':'operating_income','operating_expenses':'operating_expenses',
+    'credit_loss_provision_expense':'provisions','profit_after_tax':'pat',
+}
+
+def _norm_key(value):
+    x=unicodedata.normalize('NFKD',str(value or ''))
+    x=''.join(c for c in x if not unicodedata.combining(c)).lower().replace('đ','d')
+    x=re.sub(r'[^a-z0-9_]+',' ',x).strip()
+    return re.sub(r'\s+',' ',x)
+
+def _canonical_input_record(record):
+    out={}
+    for key,value in dict(record or {}).items():
+        raw=str(key or '').strip()
+        nk=_norm_key(raw)
+        canonical=INPUT_COLUMN_ALIASES.get(raw.lower()) or INPUT_COLUMN_ALIASES.get(nk) or raw.lower()
+        if canonical and canonical not in out:
+            out[canonical]=value
+    return out
+
+def _normalize_metric_id(metric_id='',metric_name=''):
+    raw=str(metric_id or '').strip()
+    low=raw.lower()
+    if low in FIELDS:return low
+    if low in EXTERNAL_METRIC_ID_ALIASES:return EXTERNAL_METRIC_ID_ALIASES[low]
+    low2=_norm_key(raw).replace(' ','_')
+    if low2 in FIELDS:return low2
+    if low2 in EXTERNAL_METRIC_ID_ALIASES:return EXTERNAL_METRIC_ID_ALIASES[low2]
+    label=_norm_key(metric_name or raw)
+    if not label:return ''
+    for key,name in FIELDS.items():
+        if label==_norm_key(name):return key
+    specs=globals().get('PDF16_SPECS') or {}
+    best=None
+    for external,spec in specs.items():
+        internal=spec.get('internal')
+        if not internal:continue
+        aliases=[external,spec.get('name',''),*(spec.get('keywords') or [])]
+        for alias in aliases:
+            a=_norm_key(alias)
+            if not a:continue
+            if label==a:return internal
+            if len(a)>=6 and (a in label or label in a):
+                score=min(len(a),len(label))
+                if best is None or score>best[0]:best=(score,internal)
+    return best[1] if best else ''
+
+def _normalize_unit(value):
+    n=_norm_key(value).replace('_',' ')
+    aliases={
+        'billion vnd':'billion_vnd','ty vnd':'billion_vnd','ty dong':'billion_vnd',
+        'million vnd':'million_vnd','trieu vnd':'million_vnd','trieu dong':'million_vnd',
+        'thousand vnd':'thousand_vnd','nghin vnd':'thousand_vnd','nghin dong':'thousand_vnd','ngan dong':'thousand_vnd',
+        'vnd':'vnd','dong':'vnd','percent':'percent','phan tram':'percent','%':'percent',
+    }
+    if n in aliases:return aliases[n]
+    raw=str(value or '').strip().lower()
+    if raw in UNITS:return raw
+    return raw
 # Thresholds used for academic screening, not regulatory/credit ratings.
 # Ngưỡng sàng lọc nội bộ cho Early Warning Dashboard.
 # Đây KHÔNG phải các giới hạn pháp lý/NHNN và không thay thế CAR, LCR, NSFR hay các tỷ lệ an toàn bắt buộc.
@@ -143,15 +223,21 @@ def finite_number(v, label='Giá trị'):
 
 
 def parse_rows(raw, existing=None, replace=False, file_name=''):
-    if not isinstance(raw,list) or not raw: raise ValueError('Bảng không có dòng dữ liệu.')
-    if len(raw)>MAX_ROWS: raise ValueError(f'Tối đa {MAX_ROWS} dòng cho mỗi lần nhập.')
-    first={str(k).strip().lower() for k in raw[0]}
-    absent=set(REQUIRED)-first
-    if absent: raise ValueError('Thiếu cột bắt buộc: '+', '.join(sorted(absent)))
+    if not isinstance(raw,list) or not raw:
+        raise ValueError('Bảng không có dòng dữ liệu.')
+    if len(raw)>MAX_ROWS:
+        raise ValueError(f'Tối đa {MAX_ROWS} dòng cho mỗi lần nhập.')
+    records=[_canonical_input_record(x) for x in raw if isinstance(x,dict)]
+    records=[x for x in records if any(v not in (None,'') for v in x.values())]
+    if not records:
+        raise ValueError('Bảng không có dòng dữ liệu.')
+    available=set().union(*(set(r) for r in records[:20]))
+    absent=set(REQUIRED)-available
+    if absent:
+        raise ValueError('Thiếu cột bắt buộc: '+', '.join(sorted(absent)))
     existing_keys={(r['bank'],r['year'],r['metric_id']) for r in (existing or [])}
-    seen=set(); rows=[]; groups={}
-    for line,record in enumerate(raw,2):
-        r={str(k).strip().lower():v for k,v in record.items()}
+    seen=set(); rows=[]; group_source={}
+    for line,r in enumerate(records,2):
         bank=str(r.get('bank') or '').strip().upper()
         if not 2<=len(bank)<=100 or any(ord(c)<32 or c in '<>' for c in bank):
             raise ValueError(f'Dòng {line}: tên hoặc mã ngân hàng không hợp lệ (2–100 ký tự, không chứa ký tự điều khiển).')
@@ -159,41 +245,62 @@ def parse_rows(raw, existing=None, replace=False, file_name=''):
         if not yr.is_integer() or yr<2000 or yr>2100:
             raise ValueError(f'Dòng {line}: năm báo cáo không hợp lệ.')
         year=int(yr)
-        metric=str(r.get('metric_id') or '').strip().lower()
-        if metric not in FIELDS: raise ValueError(f'Dòng {line}: mã chỉ tiêu không hỗ trợ: {metric}.')
-        unit=str(r.get('unit') or '').strip().lower()
-        if unit not in UNITS: raise ValueError(f'Dòng {line}: đơn vị không hỗ trợ: {unit}.')
-        if (metric=='car')!=(unit=='percent'):
-            raise ValueError(f'Dòng {line}: CAR phải dùng percent; chỉ tiêu tiền tệ không dùng percent.')
+        metric=_normalize_metric_id(r.get('metric_id'),r.get('metric_name'))
+        if metric not in FIELDS:
+            raw_metric=str(r.get('metric_id') or r.get('metric_name') or '').strip()
+            raise ValueError(f'Dòng {line}: không nhận diện được chỉ tiêu: {raw_metric}.')
+        unit=_normalize_unit(r.get('unit'))
+        if unit not in UNITS:
+            raise ValueError(f'Dòng {line}: đơn vị không hỗ trợ: {r.get("unit")}.')
+        if metric=='car' and unit!='percent':
+            raise ValueError(f'Dòng {line}: CAR phải dùng percent.')
+        if metric!='car' and unit=='percent':
+            raise ValueError(f'Dòng {line}: chỉ tiêu tiền tệ không dùng percent.')
         value=finite_number(r.get('value'),f'Dòng {line}, value')*UNITS[unit]
-        # Preserve legitimate accounting signs (OPEX, provisions, PAT, cash flow, ...),
-        # but NEVER accept negative balance-sheet stock values. A negative asset/loan/deposit
-        # is almost always an OCR separator error such as `2- 300868.728` -> 2.300.868.728.
         if metric in NONNEGATIVE_METRICS and value < 0:
-            raise ValueError(f'Dòng {line}: {FIELDS[metric]} bị âm ({value:,.6f}). Hãy phân tích lại PDF; hệ thống không lưu số âm bất hợp lý do OCR.')
-        if metric=='car' and not 0<=value<=100: raise ValueError(f'Dòng {line}: CAR phải nằm trong khoảng 0–100%.')
+            raise ValueError(f'Dòng {line}: {FIELDS[metric]} bị âm ({value:,.6f}). Hãy kiểm tra nguồn; hệ thống không tự đổi dấu.')
+        if metric=='car' and not 0<=value<=100:
+            raise ValueError(f'Dòng {line}: CAR phải nằm trong khoảng 0–100%.')
         key=(bank,year,metric)
-        if key in seen: raise ValueError(f'Dòng {line}: chỉ tiêu {metric} trùng trong file.')
-        if key in existing_keys and not replace: raise ValueError(f'Dòng {line}: {metric} của {bank} {year} đã tồn tại. Chọn ghi đè có xác nhận.')
+        if key in seen:
+            raise ValueError(f'Dòng {line}: chỉ tiêu {metric} trùng trong file.')
+        if key in existing_keys and not replace:
+            raise ValueError(f'Dòng {line}: {metric} của {bank} {year} đã tồn tại. Chọn ghi đè có xác nhận.')
         seen.add(key)
+        group=(bank,year)
         source_file=str(r.get('source_file') or '').strip()[:180]
-        source_page=str(r.get('source_page') or '').strip()
-        if source_page and (not source_page.isdigit() or not 1<=int(source_page)<=10000):
-            raise ValueError(f'Dòng {line}: source_page phải là số trang nguyên dương.')
+        if source_file:
+            group_source[group]=source_file
+        source_file=source_file or group_source.get(group) or file_name
+        page_raw=r.get('source_page')
+        source_page=''
+        if page_raw not in (None,''):
+            try:
+                pf=float(page_raw)
+                if not pf.is_integer() or not 1<=int(pf)<=10000:raise ValueError()
+                source_page=str(int(pf))
+            except Exception:
+                raise ValueError(f'Dòng {line}: source_page phải là số trang nguyên dương.')
         statement=str(r.get('statement_type') or 'unspecified').strip().lower()
+        statement_alias={'hop nhat':'consolidated','hợp nhất':'consolidated','consolidated':'consolidated',
+                         'rieng le':'standalone','riêng lẻ':'standalone','standalone':'standalone',
+                         'unspecified':'unspecified','':'unspecified'}
+        statement=statement_alias.get(statement,statement)
         if statement not in ('consolidated','standalone','unspecified'):
             raise ValueError(f'Dòng {line}: statement_type nhận consolidated, standalone hoặc unspecified.')
-        row=dict(bank=bank,year=year,metric_id=metric,value=round(value,9),
-            unit='percent' if metric=='car' else 'billion_vnd',source_file=source_file or file_name,source_page=source_page,
-            statement_type=statement,origin='uploaded')
-        rows.append(row);groups.setdefault((bank,year,statement),{})[metric]=value
-    # Validate the complete dataset, including prior uploads, before committing updates.
+        rows.append(dict(
+            bank=bank,year=year,metric_id=metric,value=round(value,9),
+            unit='percent' if metric=='car' else 'billion_vnd',
+            source_file=source_file,source_page=source_page,
+            statement_type=statement,origin='uploaded'
+        ))
     merged=[r for r in (existing or []) if (r['bank'],r['year'],r['metric_id']) not in seen]+rows
     for bank,year in {(r['bank'],r['year']) for r in merged}:
         same=[r for r in merged if r['bank']==bank and r['year']==year]
         scopes={r['statement_type'] for r in same}
-        if len(scopes)>1:
-            raise ValueError(f'{bank} {year}: không trộn báo cáo hợp nhất, riêng lẻ và dữ liệu chưa xác định phạm vi.')
+        explicit={x for x in scopes if x!='unspecified'}
+        if len(explicit)>1:
+            raise ValueError(f'{bank} {year}: không trộn báo cáo hợp nhất và riêng lẻ.')
         v={r['metric_id']:r['value'] for r in same}
         if all(k in v for k in ('assets','liabilities','equity')):
             diff=abs(v['assets']-v['liabilities']-v['equity'])
@@ -201,6 +308,10 @@ def parse_rows(raw, existing=None, replace=False, file_name=''):
                 raise ValueError(f'{bank} {year}: tổng tài sản không khớp nợ phải trả và vốn chủ sở hữu.')
         if 'npl' in v and 'loans' in v and v['npl']>v['loans']:
             raise ValueError(f'{bank} {year}: nợ xấu vượt dư nợ cho vay.')
+        if all(k in v for k in ('group3_loans','group4_loans','group5_loans','loans')):
+            derived=v['group3_loans']+v['group4_loans']+v['group5_loans']
+            if derived>v['loans']:
+                raise ValueError(f'{bank} {year}: tổng nợ nhóm 3–5 vượt dư nợ cho vay.')
     return rows
 
 
@@ -319,57 +430,69 @@ def _raw_sheet_matrix(name,content):
     raise ValueError('Định dạng hỗ trợ: .csv hoặc .xlsx.')
 
 def auto_extract_spreadsheet(name,content):
-    """Best-effort extraction from ordinary financial-statement CSV/XLSX files.
+    """Schema-driven extraction from ordinary financial-statement CSV/XLSX files.
 
-    This is used only when the uploaded spreadsheet is not already in AUREL's
-    canonical bank/year/metric/value schema. It scans statement labels and
-    numeric columns, keeps provenance, and then lets parse_rows run the same
-    validation used by every other source.
+    No financial values, bank-specific pages, or benchmark rows are hard-coded.
+    Data.xlsx is treated only as a schema example: metric labels/IDs are normalized,
+    then every recognized bank/year/metric observation is preserved.
     """
     sheets=_raw_sheet_matrix(name,content)
-    blob=' '.join(' '.join(str(v or '') for v in row[:12]) for _,m in sheets for row in m[:120])
-    bank=_guess_bank_from_text(name,blob)
+    if not sheets:
+        raise ValueError('Không có bảng dữ liệu đọc được trong tệp.')
+    blob=' '.join(' '.join(str(v or '') for v in row[:16]) for _,m in sheets for row in m[:160])
+    default_bank=_guess_bank_from_text(name,blob)
     years=[int(x) for x in re.findall(r'\b(20\d{2})\b',blob)]
     default_year=max(years) if years else datetime.now().year
-    unit_factor=_infer_statement_unit(blob)
-    specs=globals().get('PDF16_SPECS') or {}
-    if not specs:raise ValueError('Bộ từ điển chỉ tiêu chưa sẵn sàng.')
     found={}
     for sheet_name,matrix in sheets:
+        if not matrix:continue
+        sheet_text=' '.join(' '.join(str(v or '') for v in row[:16]) for row in matrix[:180])
+        sheet_bank=_guess_bank_from_text(name+' '+sheet_name,sheet_text) or default_bank
+        unit_factor=_infer_statement_unit(sheet_text)
         header_years={}
-        for ri,row in enumerate(matrix[:40]):
+        for row in matrix[:60]:
             for ci,v in enumerate(row):
-                sv=str(v or '')
-                ym=re.search(r'\b(20\d{2})\b',sv)
-                if ym:header_years[ci]=int(ym.group(1))
+                m=re.search(r'\b(20\d{2})\b',str(v or ''))
+                if m:header_years[ci]=int(m.group(1))
         for ri,row in enumerate(matrix):
-            rowtxt=' '.join(str(v or '') for v in row[:8])
-            norm=_norm_fin_text(rowtxt)
-            if not norm:continue
-            for external,spec in specs.items():
-                internal=spec.get('internal')
-                if not internal or internal in found:continue
-                kws=[_norm_fin_text(k) for k in spec.get('keywords',[])]
-                if not any(k and k in norm for k in kws):continue
-                candidates=[]
-                for ci,v in enumerate(row):
-                    num=_sheet_number(v)
-                    if num is None:continue
-                    yr=header_years.get(ci,default_year)
-                    # Prefer current/latest year columns and values to the right of label cells.
-                    candidates.append((yr,ci,num))
-                if not candidates:continue
-                yr,ci,num=max(candidates,key=lambda z:(z[0],z[1]))
-                val=float(num)*unit_factor
-                # percentages remain native when a future percent metric is supported.
-                found[internal]=dict(
-                    bank=bank,year=yr,metric_id=internal,value=val,unit='billion_vnd',
-                    source_file=name,source_page='',statement_type='unspecified',
-                    _source_sheet=sheet_name,_source_row=ri+1
-                )
+            if not any(v not in (None,'') for v in row):continue
+            text_cells=[]; first_numeric=None
+            for ci,v in enumerate(row):
+                if _sheet_number(v) is not None:
+                    if first_numeric is None:first_numeric=ci
+                elif v not in (None,''):
+                    text_cells.append(str(v))
+            label=' '.join(text_cells[:6]).strip()
+            metric=_normalize_metric_id('',label)
+            if metric not in FIELDS:continue
+            numeric=[]
+            for ci,v in enumerate(row):
+                num=_sheet_number(v)
+                if num is None:continue
+                if first_numeric is not None and ci<first_numeric:continue
+                numeric.append((ci,header_years.get(ci),num))
+            if not numeric:continue
+            dated=[x for x in numeric if x[1] is not None]
+            use=dated if dated else [numeric[-1]]
+            for ci,yr,num in use:
+                year=int(yr or default_year)
+                value=float(num)*(1.0 if metric=='car' else unit_factor)
+                key=(sheet_bank,year,metric)
+                score=(1 if yr is not None else 0,len(_norm_key(label)),ci)
+                prior=found.get(key)
+                if prior is None or score>prior['_score']:
+                    found[key]=dict(
+                        bank=sheet_bank,year=year,metric_id=metric,value=value,
+                        unit='percent' if metric=='car' else 'billion_vnd',
+                        source_file=name,source_page='',statement_type='unspecified',
+                        _source_sheet=sheet_name,_source_row=ri+1,_score=score
+                    )
     if not found:
-        raise ValueError('Không nhận diện được các chỉ tiêu tài chính trong tệp. Hãy dùng mẫu dữ liệu chuẩn hoặc kiểm tra bố cục báo cáo.')
-    return list(found.values())
+        raise ValueError('Không nhận diện được chỉ tiêu tài chính trong tệp. Hãy kiểm tra tiêu đề chỉ tiêu, năm và đơn vị.')
+    out=[]
+    for item in found.values():
+        item=dict(item);item.pop('_score',None);out.append(item)
+    return sorted(out,key=lambda r:(r['bank'],r['year'],r['metric_id']))
 
 def val(rows,bank,year):
     # Keep the imported PDF dataset at exactly 16 source metrics.
@@ -664,7 +787,7 @@ def read_pdf(content):
 
 
 # PDF-only, opt-in pipeline. No data is imported until the user confirms the preview.
-# This reader intentionally targets EXACTLY the 16 metrics from the user's bộ đọc báo cáo.
+# This reader targets the 16 banking metrics defined by the Project 03 schema.
 # bộ đọc báo cáo logic is the primary OCR engine here, not a fallback behind the old 20-metric parser.
 import unicodedata
 from decimal import Decimal, InvalidOperation
@@ -716,73 +839,17 @@ PDF16_GROUPS = {
     'cash': ('cash_and_equivalents',),
 }
 
-# Exact source-page configuration for the six audited PDFs behind Data.xlsx.
+# Legacy source-specific page configuration is disabled; pages are discovered from each document.
 # Financial VALUES are always read from the uploaded PDF/OCR; this map contains page metadata only.
-T2_PAGE_CONFIGS = {
-    # report_page_offset maps physical PDF page -> printed BCTC page.
-    # VCB 2023-2024 and BIDV 2023 use -3; VCB 2025 uses -2; BIDV 2024-2025 use -4.  The exact BIDV 2025 PDF linked in Data.xlsx
-    # has one additional disclosure/audit page, therefore its audited statement starts at PDF 9
-    # while printed BCTC page is 5, i.e. offset -4.
-    ('VCB',2023): {'balance_sheet':[9,10],'income_statement':[12,13,14],'loan_quality':[40,41,42],'cash':[9,10,66],'report_page_offset':-3},
-    ('VCB',2024): {'balance_sheet':[9,10],'income_statement':[12,13],'loan_quality':[41],'cash':[9,10,66],'report_page_offset':-3},
-    ('VCB',2025): {'balance_sheet':[8,9],'income_statement':[11,12],'loan_quality':[39],'cash':[64],'report_page_offset':-2},
-    ('BIDV',2023): {'balance_sheet':[8,9],'income_statement':[11],'loan_quality':[41],'cash':[8,9,57],'report_page_offset':-3},
-    ('BIDV',2024): {'balance_sheet':[9,10],'income_statement':[12],'loan_quality':[52],'cash':[73],'report_page_offset':-4},
-    # Exact Data.xlsx source: 20260330+-+BID+-+CBTT+BCTC+HN+2025.pdf
-    # BCTC pages 5/6/8/38/54 are physical PDF pages 9/10/12/42/58.
-    ('BIDV',2025): {'balance_sheet':[9,10],'income_statement':[12],'loan_quality':[42],'cash':[58],'report_page_offset':-4},
-}
-# Printed BCTC page numbers verified against the user's Data.xlsx benchmark.
+T2_PAGE_CONFIGS = {}  # Legacy source-specific page maps disabled: adaptive discovery only.
+# Legacy benchmark page locks are disabled.
 # IMPORTANT: this table stores ONLY source-page metadata, never financial values.
 # For these annual statements, physical page is derived from each file's verified offset; BIDV 2025 is the +4-page exception.
-T2_VERIFIED_REPORT_PAGES = {
-    ('VCB',2023): {
-        'total_assets':6,'customer_loans':6,'customer_deposits':7,'cash_and_equivalents':63,'total_equity':7,
-        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
-        'net_interest_income':9,'net_fee_income':9,'total_operating_income':9,'operating_expenses':9,
-        'Credit_loss_provision_expense':9,'profit_after_tax':10,
-    },
-    ('VCB',2024): {
-        'total_assets':6,'customer_loans':6,'customer_deposits':7,'cash_and_equivalents':63,'total_equity':7,
-        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
-        'net_interest_income':9,'net_fee_income':9,'total_operating_income':9,'operating_expenses':9,
-        'Credit_loss_provision_expense':9,'profit_after_tax':9,
-    },
-    ('VCB',2025): {
-        'total_assets':6,'customer_loans':6,'customer_deposits':7,'cash_and_equivalents':62,'total_equity':7,
-        'group1_loans':37,'group2_loans':37,'group3_loans':37,'group4_loans':37,'group5_loans':37,
-        'net_interest_income':9,'net_fee_income':9,'total_operating_income':9,'operating_expenses':9,
-        'Credit_loss_provision_expense':9,'profit_after_tax':10,
-    },
-    ('BIDV',2023): {
-        'total_assets':5,'customer_loans':5,'customer_deposits':6,'cash_and_equivalents':54,'total_equity':6,
-        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
-        'net_interest_income':8,'net_fee_income':8,'total_operating_income':8,'operating_expenses':8,
-        'Credit_loss_provision_expense':8,'profit_after_tax':8,
-    },
-    ('BIDV',2024): {
-        'total_assets':5,'customer_loans':5,'customer_deposits':6,'cash_and_equivalents':69,'total_equity':6,
-        'group1_loans':48,'group2_loans':48,'group3_loans':48,'group4_loans':48,'group5_loans':48,
-        'net_interest_income':8,'net_fee_income':8,'total_operating_income':8,'operating_expenses':8,
-        'Credit_loss_provision_expense':8,'profit_after_tax':8,
-    },
-    ('BIDV',2025): {
-        'total_assets':5,'customer_loans':5,'customer_deposits':6,'cash_and_equivalents':54,'total_equity':6,
-        'group1_loans':38,'group2_loans':38,'group3_loans':38,'group4_loans':38,'group5_loans':38,
-        'net_interest_income':8,'net_fee_income':8,'total_operating_income':8,'operating_expenses':8,
-        'Credit_loss_provision_expense':8,'profit_after_tax':8,
-    },
-}
+T2_VERIFIED_REPORT_PAGES = {}  # No benchmark page locks.
 
-T2_FILE_HINTS = {
-    'vcb - bctc_2023.pdf':('VCB',2023), 'bctc_vcb_2024.pdf':('VCB',2024), 'vcb - bctc-2025.pdf':('VCB',2025),
-    '20240329 - vcb - bctc hop nhat kiem toan 2023.pdf':('VCB',2023),
-    '20260327 - vcb - bctc hop nhat kiem toan nam 2025.pdf':('VCB',2025),
-    'bctc_bidv_2023.pdf':('BIDV',2023), 'bctc_bidv_2024.pdf':('BIDV',2024), 'bidv_bctc_2025.pdf':('BIDV',2025),
-    'bctc_bidv_2023_kiem toan hop nhat.pdf':('BIDV',2023),
-    'bctc_bidv_2024_kiem toan hop nhat.pdf':('BIDV',2024),
-    '20260330+-+bid+-+cbtt+bctc+hn+2025.pdf':('BIDV',2025),
-}
+
+T2_FILE_HINTS = {}  # No filename-to-bank/year memorization.
+
 # This is intentionally the same number pattern used by bộ đọc báo cáo.
 T2_NUMBER_RE = re.compile(r'\(?\b\d{1,3}(?:[\.,]\d{3})+\b\)?|\b\d{5,}\b')
 T2_MAX_OCR_PAGES = 55
@@ -904,29 +971,30 @@ def _t2_ocr_page(pdf_content,page_num,cache,pages):
     return cache[page_num]
 
 
-def _t2_find_number(line):
+def _t2_find_number(line,index=0):
     numbers=[m.group(0) for m in T2_NUMBER_RE.finditer(line)]
     if not numbers:return None
-    # Exact bộ đọc báo cáo behavior: first large number after keyword matching.
-    token=numbers[0]
+    idx=int(index or 0)
+    token=numbers[idx] if 0<=idx<len(numbers) else numbers[0]
     raw=token.replace('(','').replace(')','').replace('.','').replace(',','').strip()
     try:value=int(raw)
     except ValueError:return None
-    if '(' in token and ')' in token:value=-value
+    if ('(' in token and ')' in token) or token.strip().startswith('-'):
+        value=-abs(value)
     return value
 
 
-def _t2_metric_from_line(line,key):
+def _t2_metric_from_line(line,key,value_index=0):
     clean=pdf_norm(line);spec=PDF16_SPECS[key]
     if not any(kw in clean for kw in spec['keywords']):return None
-    # Keep bộ đọc báo cáo's explicit guard for group 1.
     if key=='group1_loans' and 'duoi' in clean:return None
-    # Prevent the broad bộ đọc báo cáo backup words from stealing clearly different rows.
     if key=='net_fee_income' and 'chi phi hoat dong' in clean:return None
     if key=='operating_expenses' and any(x in clean for x in ('chi phi hoat dong khac','chi phi hoat dong dich vu')):return None
     if key=='profit_after_tax' and any(x in clean for x in ('chua phan phoi','thuoc ve','co dong')):return None
     if key=='customer_loans' and any(x in clean for x in ('du phong','thuan','rang buoc')):return None
-    return _t2_find_number(line)
+    if key=='cash_and_equivalents' and any(x in clean for x in ('tien mat vang bac da quy','tien mat vang bac')) and 'tuong duong' not in clean:
+        return None
+    return _t2_find_number(line,value_index)
 
 
 def _configured_group_pages(bank,year,group,total_pages):
@@ -940,44 +1008,111 @@ def _configured_group_pages(bank,year,group,total_pages):
     return sorted(out)
 
 
+def _hydrate_pdf_locator_text(pdf_content,pages,progress_cb=None):
+    """Populate searchable text for all pages without any bank/year page map."""
+    if not pdf_content:return
+    try:import fitz
+    except Exception:return
+    doc=fitz.open(stream=pdf_content,filetype='pdf')
+    try:
+        total=min(len(pages),doc.page_count)
+        for i in range(total):
+            if str(pages[i].get('text','') or '').strip():continue
+            try:text=doc.load_page(i).get_text('text',sort=True) or ''
+            except Exception:text=''
+            if text.strip():
+                pages[i]['text']=text[:45000];pages[i]['ocr']=False
+        def located_keys():
+            found=set()
+            for item in pages:
+                n=pdf_norm(item.get('text',''))
+                if not n:continue
+                for key,spec in PDF16_SPECS.items():
+                    if any(kw in n for kw in spec.get('keywords',[])):found.add(key)
+            return found
+        missing=set(PDF16_KEYS)-located_keys()
+        if not missing:return
+        try:
+            import pytesseract
+            from PIL import Image
+            langs=set(pytesseract.get_languages(config=''))
+            lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
+        except Exception:return
+        for i in range(total):
+            if not missing:break
+            current=pdf_norm(pages[i].get('text',''))
+            if current:
+                for k in list(missing):
+                    if any(kw in current for kw in PDF16_SPECS[k].get('keywords',[])):missing.discard(k)
+                if len(current)>180:continue
+            try:
+                dpi=105
+                pix=doc.load_page(i).get_pixmap(matrix=fitz.Matrix(dpi/72,dpi/72),colorspace=fitz.csGRAY,alpha=False)
+                image=Image.frombytes('L',(pix.width,pix.height),pix.samples)
+                text=pytesseract.image_to_string(image,lang=lang,config='--oem 1 --psm 11') or ''
+            except Exception:text=''
+            if text.strip():
+                pages[i]['text']=text[:45000];pages[i]['ocr']=True
+                n=pdf_norm(text)
+                for k in list(missing):
+                    if any(kw in n for kw in PDF16_SPECS[k].get('keywords',[])):missing.discard(k)
+            if progress_cb and i%8==0:
+                try:progress_cb(min(34,8+int((i+1)/max(total,1)*26)),f'Đang định vị chỉ tiêu trên trang {i+1}/{total}…')
+                except Exception:pass
+    finally:doc.close()
+
+
+def _page_year_value_index(text,target_year):
+    if not target_year:return 0
+    for line in str(text or '').splitlines()[:45]:
+        years=re.findall(r'(?<!\d)(20\d{2})(?!\d)',line)
+        if len(years)>=2 and str(target_year) in years:
+            n=pdf_norm(line)
+            if any(x in n for x in ('ngay ','thang ','quyet dinh','ban hanh')):continue
+            return years.index(str(target_year))
+    return 0
+
+
 def _generic_group_pages(pages,group):
-    keys=PDF16_GROUPS[group];bases=[]
+    keys=PDF16_GROUPS[group];ranked=[]
     for item in pages:
         txt=pdf_norm(item.get('text',''))
-        if any(any(kw in txt for kw in PDF16_SPECS[k]['keywords']) for k in keys):bases.append(item['page'])
+        if not txt:continue
+        score=0
+        for k in keys:
+            hits=sum(1 for kw in PDF16_SPECS[k].get('keywords',[]) if kw and kw in txt)
+            score+=min(hits,2)
+        if score:ranked.append((score,int(item['page'])))
+    ranked.sort(key=lambda x:(-x[0],x[1]))
     out=set()
-    for p in bases[:10]:
+    for _,p in ranked[:20]:
         for offset in (-2,-1,0,1,2):
             q=p+offset
             if 1<=q<=len(pages):out.add(q)
     return sorted(out)
 
 
-def _t2_extract_group(pdf_content,pages,page_numbers,metric_keys,cache):
-    """Faithful adaptation of bộ đọc báo cáo's ocr_extract_page_metrics_v3."""
-    extracted={}
+def _t2_extract_group(pdf_content,pages,page_numbers,metric_keys,cache,target_year=None):
+    """Choose the strongest label/value candidate for every metric."""
+    best={}
     for page_num in sorted(set(page_numbers)):
-        if len(extracted)==len(metric_keys):break
         raw=_t2_ocr_page(pdf_content,page_num,cache,pages)
         if not raw.strip():continue
+        value_index=_page_year_value_index(raw,target_year)
         lines=[line.strip() for line in raw.split('\n') if line.strip()]
         for line in lines:
+            clean=pdf_norm(line)
             for key in metric_keys:
-                if key in extracted:continue
-                val=_t2_metric_from_line(line,key)
-                if val is not None:
-                    extracted[key]=(val,page_num,line[:260])
-                    break
-        # Exact special recovery from bộ đọc báo cáo for group 1 when group 2 is found on this page.
-        if 'group1_loans' in metric_keys and 'group1_loans' not in extracted and 'group2_loans' in extracted:
-            if extracted['group2_loans'][1]==page_num:
-                for prev_line in reversed(lines):
-                    c=pdf_norm(prev_line)
-                    if any(kw in c for kw in ('du tieu chuan','no du','nhom 1')) and 'duoi' not in c:
-                        v=_t2_find_number(prev_line)
-                        if v is not None:
-                            extracted['group1_loans']=(v,page_num,prev_line[:260]);break
-    return extracted
+                val=_t2_metric_from_line(line,key,value_index)
+                if val is None:continue
+                matched=[kw for kw in PDF16_SPECS[key].get('keywords',[]) if kw and kw in clean]
+                if not matched:continue
+                score=max(len(x) for x in matched)
+                score+=4 if clean.startswith(max(matched,key=len)) else 0
+                score-=min(8,max(0,len(clean)-180)//30)
+                candidate=(score,-page_num,val,page_num,line[:260])
+                if key not in best or candidate>best[key]:best[key]=candidate
+    return {k:(v[2],v[3],v[4]) for k,v in best.items()}
 
 
 def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto'):
@@ -1002,12 +1137,12 @@ def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_
             pnums=list(range(1,min(len(pages),45)+1))
         if len(pages_scanned|set(pnums))>T2_MAX_OCR_PAGES:
             pnums=[p for p in pnums if p in pages_scanned][:T2_MAX_OCR_PAGES-len(pages_scanned)]
-        raw=_t2_extract_group(pdf_content,pages,pnums,keys,cache)
+        raw=_t2_extract_group(pdf_content,pages,pnums,keys,cache,year)
         all_raw.update(raw);pages_scanned.update(pnums)
     # bộ đọc báo cáo runs a separate cash pass only if cash was missed.
     if 'cash_and_equivalents' not in all_raw:
-        pnums=_configured_group_pages(bank,year,'cash',len(pages)) if configured else _generic_group_pages(pages,'balance_sheet')
-        raw=_t2_extract_group(pdf_content,pages,pnums,['cash_and_equivalents'],cache)
+        pnums=_generic_group_pages(pages,'cash')
+        raw=_t2_extract_group(pdf_content,pages,pnums,['cash_and_equivalents'],cache,year)
         all_raw.update(raw);pages_scanned.update(pnums)
 
     items=[]
@@ -1480,9 +1615,9 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
                 Source=Path(name).stem,source_line=line,ocr=True,status='data16_master_verified'))
 
         missing_items=[dict(metric_id=k,name=PDF16_SPECS[k]['name']) for k in PDF16_KEYS if not raw.get(k)]
-        warnings.insert(0,'ENGINE bộ chỉ tiêu tài chính PDF ROBUST V9: đọc trực tiếp PDF theo 16 dòng Data.xlsx; sửa đúng offset riêng VCB 2025 (-2), BIDV 2024/2025 (-4), các bộ còn lại theo cấu hình đã xác minh.')
+        warnings.insert(0,'ENGINE 16 CHỈ TIÊU: đọc thích ứng theo nhãn và cấu trúc BCTC, không khóa trang theo ngân hàng/năm.')
         warnings.insert(1,'OCR vie+eng 160 DPI primary + 220 DPI focused recovery; bộ trích xuất V8 đọc một PDF -> lưu chỉ tiêu đọc được -> mới chuyển PDF kế tiếp, tuyệt đối không giữ nhiều preview để trộn dữ liệu.')
-        if not missing_items:warnings.append('HOÀN HẢO: đã bóc đủ 16/các chỉ tiêu và tạo bảng Master theo Data.xlsx.')
+        if not missing_items:warnings.append('Đã bóc đủ 16/16 chỉ tiêu theo schema Project 03.')
         else:warnings.append(f'Đã bóc {len(items)}/16; còn {len(missing_items)} chỉ tiêu chưa đủ bằng chứng nên không tự điền số.')
         report(97,f'bộ chỉ tiêu tài chính hoàn tất {len(items)}/các chỉ tiêu.')
         return dict(bank=bank,year=year,statement_type=scope,items=items,missing=missing_items,warnings=warnings,
@@ -1492,14 +1627,21 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
         doc.close()
 
 def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_override='auto',progress_cb=None):
-    bank,year,scope=pdf_context(name,pages,bank_override,year_override)
-    configured=(_t2_bank_key(bank),year) in T2_PAGE_CONFIGS
-    if configured:
-        return _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_override,progress_cb)
     if progress_cb:
-        try:progress_cb(8,'Không có bản đồ trang bộ đọc báo cáo; đang dùng bộ đọc các chỉ tiêu tổng quát…')
+        try:progress_cb(4,'Đang đọc cấu trúc BCTC và tự định vị 16 chỉ tiêu…')
         except Exception:pass
-    return _pdf_extract_generic16(name,pages,pdf_content,bank_override,year_override,unit_override)
+    _hydrate_pdf_locator_text(pdf_content,pages,progress_cb)
+    result=_pdf_extract_generic16(name,pages,pdf_content,bank_override,year_override,unit_override)
+    result['engine']='AUREL_ADAPTIVE_16'
+    result['configured_code2']=False
+    result['warnings']=[
+        'Đọc thích ứng theo nhãn chỉ tiêu và cấu trúc tài liệu; không dùng giá trị, số trang hoặc tên file của Data.xlsx làm đáp án.',
+        *[w for w in result.get('warnings',[]) if 'cấu hình trang' not in w.lower()]
+    ]
+    if progress_cb:
+        try:progress_cb(97,f'Đã đọc {len(result.get("items",[]))}/16 chỉ tiêu có bằng chứng.')
+        except Exception:pass
+    return result
 
 
 def pdf_preview(name, bank='', year=None, unit='auto', progress_cb=None):
@@ -2781,7 +2923,7 @@ class Handler(BaseHTTPRequestHandler):
                 # Ordinary financial-statement spreadsheets may not use AUREL's canonical
                 # bank/year/metric/value columns. In that case, scan the report directly
                 # and then apply the same validation path as canonical imports.
-                if 'Thiếu cột bắt buộc' not in str(first_error):
+                if not any(x in str(first_error) for x in ('Thiếu cột bắt buộc','không nhận diện được chỉ tiêu')):
                     raise
                 extracted=auto_extract_spreadsheet(name,content)
                 parsed=parse_rows(extracted,STORE.rows,replace=replace,file_name=name)
