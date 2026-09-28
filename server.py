@@ -2277,6 +2277,61 @@ def _gmail_credentials(sender_input='',password_input=''):
     return sender,password,source
 
 
+
+def _brevo_credentials(sender_input='',api_key_input=''):
+    typed_sender=str(sender_input or '').strip()
+    typed_key=str(api_key_input or '').strip()
+    secret_sender=str(os.getenv('AUREL_BREVO_SENDER','') or '').strip()
+    secret_key=str(os.getenv('AUREL_BREVO_API_KEY','') or '').strip()
+    sender=typed_sender or secret_sender
+    api_key=typed_key or secret_key
+    source='web' if typed_key else ('secret' if secret_key else 'missing')
+    if not sender:
+        raise ValueError('Chưa có email người gửi đã xác minh trên Brevo. Nhập email người gửi hoặc cấu hình AUREL_BREVO_SENDER trên máy chủ.')
+    if not EMAIL_RE.fullmatch(sender):
+        raise ValueError('Email người gửi Brevo không hợp lệ.')
+    if not api_key:
+        raise ValueError('Chưa có khóa API Brevo. Hãy nhập khóa API hoặc cấu hình AUREL_BREVO_API_KEY trên máy chủ.')
+    return sender,api_key,source
+
+
+def _send_via_brevo_api(sender,api_key,recipient,subject,plain,html_body,pdf_bytes,filename):
+    """Gửi email giao dịch qua HTTPS, tương thích Render Free."""
+    payload={
+        'sender':{'email':sender,'name':'AUREL'},
+        'to':[{'email':recipient}],
+        'subject':subject,
+        'textContent':plain,
+        'htmlContent':html_body,
+        'attachment':[{'content':base64.b64encode(pdf_bytes).decode('ascii'),'name':filename}],
+    }
+    req=Request(
+        'https://api.brevo.com/v3/smtp/email',
+        data=json.dumps(payload,ensure_ascii=False).encode('utf-8'),
+        headers={
+            'accept':'application/json',
+            'api-key':api_key,
+            'content-type':'application/json',
+            'user-agent':'AUREL/1.0',
+        },
+        method='POST',
+    )
+    try:
+        with urlopen(req,timeout=30) as resp:
+            raw=resp.read().decode('utf-8','replace')
+            obj=json.loads(raw) if raw else {}
+            return {'transport':'Brevo HTTPS','message_id':obj.get('messageId')}
+    except HTTPError as e:
+        raw=e.read().decode('utf-8','replace')
+        try:
+            detail=json.loads(raw).get('message') or raw
+        except Exception:
+            detail=raw
+        raise ValueError(f'Brevo từ chối yêu cầu gửi email (HTTP {e.code}): {detail[:500]}') from e
+    except (URLError,OSError,TimeoutError) as e:
+        raise ValueError('Không kết nối được Brevo qua HTTPS. Hãy kiểm tra kết nối mạng của máy chủ hoặc khóa API Brevo.') from e
+
+
 def _send_via_google_smtp(sender,password,msg):
     """Send with Gmail SMTP. Try SSL/465 first, then STARTTLS/587 on connection failures."""
     ctx=ssl.create_default_context()
@@ -2302,39 +2357,59 @@ def _send_via_google_smtp(sender,password,msg):
             raise ValueError('Máy chủ không kết nối được Gmail qua cả cổng 465 và 587 trong thời gian cho phép. Có thể dịch vụ lưu trữ đang chặn kết nối SMTP ra ngoài hoặc Gmail chưa phản hồi. Hãy kiểm tra nhật ký máy chủ.') from e
 
 
-def send_report_email(bank,year,recipient,sender,app_password,subject='',message=''):
-    """Send the AUREL report through Google/Gmail SMTP with a real PDF attachment.
-
-    Credentials are used only for this request and are never persisted in STORE,
-    source files, browser storage, or reports.
-    """
+def send_report_email(bank,year,recipient,sender='',app_password='',subject='',message='',provider='auto',api_key=''):
+    """Gửi báo cáo qua HTTPS trước; SMTP chỉ là phương án dự phòng."""
     bank=str(bank or '').strip().upper()
-    try: year=int(year)
-    except (TypeError,ValueError): raise ValueError('Năm báo cáo không hợp lệ.')
+    try:
+        year=int(year)
+    except (TypeError,ValueError):
+        raise ValueError('Năm báo cáo không hợp lệ.')
     recipient=str(recipient or '').strip()
     subject=str(subject or '').strip()[:180] or f'Báo cáo phân tích tài chính {bank} {year} | AUREL'
     note=str(message or '').strip()[:3000]
-    if not EMAIL_RE.fullmatch(recipient): raise ValueError('Email người nhận không hợp lệ.')
-    sender,password,credential_source=_gmail_credentials(sender,app_password)
+    provider=str(provider or 'auto').strip().lower()
+
+    if not EMAIL_RE.fullmatch(recipient):
+        raise ValueError('Email người nhận không hợp lệ.')
 
     report=report_html(bank,year)
     report_pdf_bytes=report_pdf(bank,year)
     filename=f'AUREL_Report_{re.sub(r"[^A-Za-z0-9_-]","_",bank)}_{year}.pdf'
-    msg=EmailMessage()
-    msg['From']=sender
-    msg['To']=recipient
-    msg['Subject']=subject
-    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL · Phân tích tài chính.'
-    msg.set_content(plain)
+    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL.'
     note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
     body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
+
+    brevo_available=bool(str(api_key or '').strip() or str(os.getenv('AUREL_BREVO_API_KEY','')).strip())
+    if provider in ('auto','brevo') and brevo_available:
+        brevo_sender,brevo_key,credential_source=_brevo_credentials(sender,api_key)
+        result=_send_via_brevo_api(brevo_sender,brevo_key,recipient,subject,plain,body,report_pdf_bytes,filename)
+        return {
+            'message':f'Đã gửi báo cáo {bank} {year} tới {recipient}.',
+            'recipient':recipient,
+            'filename':filename,
+            'transport':result['transport'],
+            'credential_source':credential_source,
+            'message_id':result.get('message_id')
+        }
+
+    if provider=='brevo':
+        raise ValueError('Chưa cấu hình Brevo. Cần khóa API Brevo và email người gửi đã xác minh.')
+
+    gmail_sender,password,credential_source=_gmail_credentials(sender,app_password)
+    msg=EmailMessage()
+    msg['From']=gmail_sender
+    msg['To']=recipient
+    msg['Subject']=subject
+    msg.set_content(plain)
     msg.add_alternative(body,subtype='html')
     msg.add_attachment(report_pdf_bytes,maintype='application',subtype='pdf',filename=filename)
 
-    transport=_send_via_google_smtp(sender,password,msg)
+    transport=_send_via_google_smtp(gmail_sender,password,msg)
     return {
         'message':f'Đã gửi báo cáo {bank} {year} tới {recipient}.',
-        'recipient':recipient,'filename':filename,'transport':transport,
+        'recipient':recipient,
+        'filename':filename,
+        'transport':transport,
         'credential_source':credential_source
     }
 
@@ -2486,7 +2561,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.reply(send_report_email(
                     str(data.get('bank','')).upper(),data.get('year'),
                     data.get('recipient'),data.get('sender'),data.get('app_password'),
-                    data.get('subject',''),data.get('message','')))
+                    data.get('subject',''),data.get('message',''),
+                    data.get('provider','auto'),data.get('api_key','')))
             if path=='/api/review':
                 bank=str(data.get('bank','')).upper();year=int(data.get('year')); task=str(data.get('task',''))
                 key=f'{bank}:{year}:{task}'
