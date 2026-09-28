@@ -1,5 +1,5 @@
 
-"""AUREL Financial Intelligence | Project 03.
+"""AUREL · Phân tích tài chính | Project 03.
 Single-user academic HTTP backend. No demonstration figures or seeded financial records.
 Run with: python server.py (or via the one-cell Colab launcher).
 """
@@ -1093,7 +1093,7 @@ def _c2_strict_configured_extract(name,pages,pdf_content,bank,year,scope,unit_ov
     lang='vie+eng' if 'vie' in langs and 'eng' in langs else ('vie' if 'vie' in langs else 'eng')
     warnings=[]
     if 'vie' not in langs:
-        warnings.append('Tesseract chưa có vie.traineddata. Engine vẫn chạy bằng English OCR nhưng nên chạy lại ô Colab mới để bộ cài tự bổ sung tiếng Việt.')
+        warnings.append('Tesseract chưa có vie.traineddata. Engine vẫn chạy bằng English OCR nhưng nên chạy lại dịch vụ máy chủ mới để bộ cài tự bổ sung tiếng Việt.')
 
     doc=fitz.open(stream=pdf_content,filetype='pdf')
     cache={}; touched=set(); rendered=0
@@ -1707,7 +1707,7 @@ def gemini_credentials():
     if not token:
         token=os.getenv('GEMINI_API_KEY','').strip()
     if not token:
-        raise ValueError('Chưa có khóa Gemini. Nhập API key tại mục Kết nối AI hoặc cấu hình Colab Secrets với GEMINI_API_KEY.')
+        raise ValueError('Chưa có khóa Gemini. Nhập API key tại mục Kết nối AI hoặc cấu hình biến môi trường máy chủ với GEMINI_API_KEY.')
     configured=(os.getenv('AUREL_GEMINI_MODEL','gemini-3-flash-preview').strip() or 'gemini-3-flash-preview')
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}', configured):
         raise ValueError('Tên mô hình Gemini không hợp lệ.')
@@ -1733,7 +1733,7 @@ def gemini_error(e):
     elif e.code==404:
         message='Không tìm thấy mô hình Gemini. Kiểm tra AUREL_GEMINI_MODEL và quyền truy cập mô hình.'
     elif e.code==429:
-        message='Gemini đã đạt hạn mức Free Tier hoặc giới hạn yêu cầu. Hãy chờ hạn mức được làm mới hoặc giảm tần suất gọi API.'
+        message='Gemini đã đạt hạn mức gói miễn phí hoặc giới hạn yêu cầu. Hãy chờ hạn mức được làm mới hoặc giảm tần suất gọi API.'
     elif e.code==400:
         message='Gemini từ chối yêu cầu phân tích (HTTP 400). Kiểm tra cấu hình mô hình hoặc nội dung yêu cầu.'
     else:
@@ -1773,7 +1773,7 @@ def gemini_connection_check():
             if not isinstance(info,dict) or 'name' not in info:
                 raise ValueError('Phản hồi xác minh mô hình Gemini chưa hợp lệ.')
             note='' if candidate==model else f' Mô hình cấu hình ưu tiên là {model}, hệ thống đang dùng dự phòng {candidate}.'
-            return {'connected':True,'model':candidate,'message':'Đã xác nhận API key có thể truy cập mô hình '+candidate+'. Tạo nội dung vẫn phụ thuộc hạn mức Free Tier của Gemini.'+note}
+            return {'connected':True,'model':candidate,'message':'Đã xác nhận API key có thể truy cập mô hình '+candidate+'. Tạo nội dung vẫn phụ thuộc hạn mức gói miễn phí của Gemini.'+note}
         except HTTPError as e:
             checked.append((candidate,e.code))
             if e.code not in (404,403):
@@ -1893,7 +1893,7 @@ def report_html(bank,year):
       '<style>body{font:14px/1.7 Arial;color:#1b2f43;max-width:860px;margin:55px auto;padding:0 25px}h1{font-size:27px}h2{margin-top:30px;font-size:19px}'
       'table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border-bottom:1px solid #e2e8ec;padding:10px;text-align:left}th{background:#f1f5f7}'
       '.num{text-align:right}.foot{font-size:12px;color:#667889}.brand{letter-spacing:2px;font-size:12px;color:#00786d}</style>'
-      f'<div class="brand">AUREL FINANCIAL INTELLIGENCE</div><h1>Báo cáo phân tích tài chính: {esc(bank)} · {year}</h1>'
+      f'<div class="brand">AUREL · PHÂN TÍCH TÀI CHÍNH</div><h1>Báo cáo phân tích tài chính: {esc(bank)} · {year}</h1>'
       '<p class="foot">Các chỉ tiêu được chuẩn hóa về tỷ VND. Việc đối chiếu tài liệu nguồn thực hiện tại Trung tâm dữ liệu.</p>'
       f'<h2>Chỉ tiêu tài chính</h2><table><tr><th>Chỉ tiêu</th><th class="num">Giá trị</th><th>Đơn vị</th><th>Tài liệu nguồn</th></tr>{tr}</table>'
       f'<h2>Phân tích tỷ số</h2><table><tr><th>Chỉ số</th><th class="num">Giá trị</th><th>Công thức</th></tr>{ratio}</table>'
@@ -1917,8 +1917,9 @@ def report_pdf(bank,year):
         from reportlab.pdfbase import pdfmetrics
         from reportlab.pdfbase.ttfonts import TTFont
         from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
+        from reportlab.graphics.shapes import Drawing, Line, Circle, String, Rect
     except Exception as e:
-        raise ValueError('Thiếu thư viện reportlab để tạo PDF. Hãy chạy lại ô Colab để hệ thống tự cài thư viện.') from e
+        raise ValueError('Thiếu thư viện reportlab để tạo PDF. Hãy chạy lại dịch vụ máy chủ để hệ thống tự cài thư viện.') from e
 
     bank=str(bank or '').strip().upper()
     try: year=int(year)
@@ -1966,7 +1967,7 @@ def report_pdf(bank,year):
     regular=_find_font(regular_names)
     bold=_find_font(bold_names)
     if not regular:
-        raise ValueError('Không tìm thấy font Unicode hỗ trợ tiếng Việt để tạo PDF. Hãy chạy lại ô Colab; AUREL sẽ tự cài font DejaVu/Noto.')
+        raise ValueError('Không tìm thấy font Unicode hỗ trợ tiếng Việt để tạo PDF. Hãy chạy lại dịch vụ máy chủ; AUREL sẽ tự cài font DejaVu/Noto.')
     if not bold: bold=regular
 
     # Unique names avoid collisions after notebook reruns.
@@ -1977,14 +1978,14 @@ def report_pdf(bank,year):
         try: pdfmetrics.registerFontFamily('AurelPDFFamily',normal=font,bold=font_bold,italic=font,boldItalic=font_bold)
         except Exception: pass
     except Exception as e:
-        raise ValueError('Không thể nhúng font Unicode tiếng Việt vào PDF. Hãy chạy lại ô Colab để làm mới môi trường font.') from e
+        raise ValueError('Không thể nhúng font Unicode tiếng Việt vào PDF. Hãy chạy lại dịch vụ máy chủ để làm mới môi trường font.') from e
 
     # ---- Palette / typography -------------------------------------------------------
     NAVY=colors.HexColor('#17354A')
     NAVY2=colors.HexColor('#274D64')
-    TEAL=colors.HexColor('#087E78')
-    TEAL2=colors.HexColor('#19A99C')
-    MINT=colors.HexColor('#EAF6F3')
+    TEAL=colors.HexColor('#5F9FC2')
+    TEAL2=colors.HexColor('#BFD9E9')
+    MINT=colors.HexColor('#EEF5F9')
     ICE=colors.HexColor('#F4F8FA')
     LINE=colors.HexColor('#D8E4E9')
     TEXT=colors.HexColor('#29465A')
@@ -1996,7 +1997,7 @@ def report_pdf(bank,year):
         buf,pagesize=A4,
         rightMargin=13*mm,leftMargin=13*mm,topMargin=16*mm,bottomMargin=17*mm,
         title=f'Báo cáo phân tích tài chính {bank} {year}',
-        author='AUREL Financial Intelligence',
+        author='AUREL · Phân tích tài chính',
         subject='Báo cáo phân tích tài chính'
     )
     styles=getSampleStyleSheet()
@@ -2027,10 +2028,52 @@ def report_pdf(bank,year):
         try:return f'{float(v):,.2f}%'
         except Exception:return str(v)
 
+    def trend_drawing(series_defs,percent_axis=False):
+        """Vẽ biểu đồ xu hướng trực tiếp từ chuỗi dữ liệu đã nạp."""
+        years=sorted({int(p['year']) for _,series in series_defs for p in series if p.get('value') is not None})
+        if not years:return None
+        values=[float(p['value']) for _,series in series_defs for p in series if p.get('value') is not None]
+        if not values:return None
+        vmin=min(values);vmax=max(values)
+        if abs(vmax-vmin)<1e-12:
+            pad=max(abs(vmax)*0.05,1.0);vmin-=pad;vmax+=pad
+        else:
+            pad=(vmax-vmin)*0.08;vmin-=pad;vmax+=pad
+        W=172*mm;H=58*mm;left=18*mm;right=6*mm;bottom=12*mm;top=7*mm
+        d=Drawing(W,H)
+        d.add(Rect(0,0,W,H,fillColor=WHITE,strokeColor=LINE,strokeWidth=.6))
+        plot_w=W-left-right;plot_h=H-bottom-top
+        for i in range(5):
+            y=bottom+plot_h*i/4
+            d.add(Line(left,y,W-right,y,strokeColor=colors.HexColor('#E6EDF1'),strokeWidth=.45))
+            val=vmin+(vmax-vmin)*i/4
+            label=(f'{val:.2f}%' if percent_axis else (f'{val/1000:.0f}k' if abs(val)>=10000 else f'{val:,.0f}'))
+            d.add(String(left-2.5*mm,y-2.2,fontName=font,fontSize=6.2,fillColor=MUTED,textAnchor='end',text=label))
+        xmap={yr:(left if len(years)==1 else left+(yr-years[0])/(years[-1]-years[0])*plot_w) for yr in years}
+        for yr in years:
+            x=xmap[yr]
+            d.add(String(x,3.6*mm,fontName=font,fontSize=6.2,fillColor=MUTED,textAnchor='middle',text=str(yr)))
+        palette=[NAVY,TEAL,colors.HexColor('#8AAFC2')]
+        for idx,(label,series) in enumerate(series_defs):
+            color=palette[idx%len(palette)]
+            points={int(p['year']):float(p['value']) for p in series if p.get('value') is not None}
+            previous=None
+            for yr in years:
+                if yr not in points:continue
+                x=xmap[yr];y=bottom+(points[yr]-vmin)/(vmax-vmin)*plot_h
+                if previous is not None:
+                    d.add(Line(previous[0],previous[1],x,y,strokeColor=color,strokeWidth=1.8))
+                d.add(Circle(x,y,2.1,fillColor=color,strokeColor=WHITE,strokeWidth=.8))
+                previous=(x,y)
+            legend_x=left+idx*54*mm
+            d.add(Line(legend_x,H-4.2*mm,legend_x+7*mm,H-4.2*mm,strokeColor=color,strokeWidth=2.2))
+            d.add(String(legend_x+9*mm,H-5.8*mm,fontName=font_bold,fontSize=6.5,fillColor=TEXT,text=label))
+        return d
+
     story=[]
 
     # Header / cover strip
-    hero_left=[Paragraph('AUREL FINANCIAL INTELLIGENCE',brand),Paragraph(f'Báo cáo phân tích tài chính: {html.escape(bank)} · {year}',hero_title),Paragraph('Báo cáo được tạo trực tiếp từ dữ liệu hiện có trong AUREL. Số liệu tiền tệ được chuẩn hóa theo đơn vị tỷ VND; các chỉ tiêu tỷ lệ giữ nguyên đơn vị phần trăm.',hero_sub)]
+    hero_left=[Paragraph('AUREL · PHÂN TÍCH TÀI CHÍNH',brand),Paragraph(f'Báo cáo phân tích tài chính: {html.escape(bank)} · {year}',hero_title),Paragraph('Báo cáo được tạo trực tiếp từ dữ liệu hiện có trong AUREL. Số liệu tiền tệ được chuẩn hóa theo đơn vị tỷ VND; các chỉ tiêu tỷ lệ giữ nguyên đơn vị phần trăm.',hero_sub)]
     hero_right=Table([
         [P('NGÂN HÀNG',kpi_label)],[P(bank,kpi_value)],[P('KỲ BÁO CÁO',kpi_label)],[P(str(year),kpi_value)]
     ],colWidths=[38*mm])
@@ -2111,9 +2154,47 @@ def report_pdf(bank,year):
     ]))
     story.append(rt)
 
+    story.append(Spacer(1,7))
+    story.append(Paragraph('3. Biểu đồ xu hướng',h2))
+    story.append(Paragraph('Biểu đồ sử dụng trực tiếp chuỗi dữ liệu theo năm đã nạp vào hệ thống; không nội suy các kỳ bị thiếu.',foot))
+    periods=sorted({r['year'] for r in rows if r['bank']==bank})
+    asset_series=[dict(year=p,value=val(rows,bank,p).get('assets')) for p in periods]
+    loan_series=[dict(year=p,value=val(rows,bank,p).get('loans')) for p in periods]
+    npl_series=[]
+    for p in periods:
+        hit=next((x for x in financial_ratios(rows,bank,p) if x['id']=='npl_ratio'),None)
+        npl_series.append(dict(year=p,value=None if hit is None else hit.get('value')))
+    chart1=trend_drawing([('Tổng tài sản',asset_series),('Dư nợ cho vay',loan_series)],False)
+    chart2=trend_drawing([('Tỷ lệ nợ xấu',npl_series)],True)
+    if chart1:
+        story.append(Paragraph('Tổng tài sản và dư nợ cho vay',h3))
+        story.append(chart1)
+        story.append(Spacer(1,5))
+    if chart2:
+        story.append(Paragraph('Tỷ lệ nợ xấu',h3))
+        story.append(chart2)
+
+    story.append(Paragraph('4. Chỉ báo cảnh báo sớm',h2))
+    story.append(Paragraph('Các ngưỡng dưới đây là ngưỡng sàng lọc nội bộ phục vụ phân tích, không thay thế tỷ lệ an toàn pháp lý của Ngân hàng Nhà nước.',foot))
+    risk_status={'normal':'Ổn định','watch':'Theo dõi','critical':'Cảnh báo','insufficient':'Chưa đủ dữ liệu'}
+    risk_data=[[P('Nhóm',cell_bold),P('Chỉ báo',cell_bold),P('Hiện tại',cell_bold),P('So với năm trước',cell_bold),P('Mức độ',cell_bold)]]
+    for rr in risk_rules(rows,bank,year):
+        now='N/A' if rr.get('value') is None else fmt_pct(rr.get('value'))
+        delta='N/A' if rr.get('delta') is None else (('+' if rr['delta']>0 else '')+f'{float(rr["delta"]):.2f} điểm %')
+        risk_data.append([P(rr.get('domain','')),P(rr.get('name','')),P(now,cell_right),P(delta,cell_right),P(risk_status.get(rr.get('status'),rr.get('status','')))])
+    risk_table=Table(risk_data,colWidths=[36*mm,45*mm,27*mm,34*mm,30*mm],repeatRows=1,hAlign='LEFT')
+    risk_table.setStyle(TableStyle([
+        ('BACKGROUND',(0,0),(-1,0),colors.HexColor('#EAF3F5')),('TEXTCOLOR',(0,0),(-1,0),NAVY),
+        ('VALIGN',(0,0),(-1,-1),'TOP'),('GRID',(0,0),(-1,-1),0.35,LINE),
+        ('ROWBACKGROUNDS',(0,1),(-1,-1),[WHITE,colors.HexColor('#FAFCFD')]),
+        ('LEFTPADDING',(0,0),(-1,-1),5),('RIGHTPADDING',(0,0),(-1,-1),5),
+        ('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5),
+    ]))
+    story.append(risk_table)
+
     # Approved AI sections. We preserve the same content as report_html(), but lay it out
     # as readable report sections instead of dumping HTML source into the attachment.
-    section_no=3
+    section_no=5
     for task,name in [('summary','Tóm tắt điều hành'),('explanation','Phân tích biến động'),('questions','Câu hỏi phân tích')]:
         entry=ai.get(f'{bank}:{year}:{task}')
         if not (entry and entry.get('status')=='approved' and entry.get('revision')==rev):
@@ -2142,7 +2223,7 @@ def report_pdf(bank,year):
         canvas.setFillColor(TEAL);canvas.rect(13*mm,A4[1]-8.4*mm,A4[0]-26*mm,1.1*mm,fill=1,stroke=0)
         canvas.setStrokeColor(LINE);canvas.setLineWidth(0.45);canvas.line(13*mm,11.5*mm,A4[0]-13*mm,11.5*mm)
         canvas.setFont(font,7.1);canvas.setFillColor(MUTED)
-        canvas.drawString(13*mm,7*mm,'AUREL Financial Intelligence')
+        canvas.drawString(13*mm,7*mm,'AUREL · Phân tích tài chính')
         canvas.drawCentredString(A4[0]/2,7*mm,f'{bank} · {year}')
         canvas.drawRightString(A4[0]-13*mm,7*mm,f'Trang {doc_obj.page}')
         canvas.restoreState()
@@ -2175,7 +2256,7 @@ def _gmail_credentials(sender_input='',password_input=''):
     secret_sender=str(os.getenv('AUREL_GMAIL_USER','') or '').strip()
     secret_password=_clean_google_app_password(os.getenv('AUREL_GMAIL_APP_PASSWORD',''))
 
-    # Explicit password from the page takes priority. If it is blank, use Colab Secrets.
+    # Explicit password from the page takes priority. If it is blank, use biến môi trường máy chủ.
     if typed_password:
         sender=typed_sender or secret_sender
         password=typed_password
@@ -2185,14 +2266,14 @@ def _gmail_credentials(sender_input='',password_input=''):
         password=secret_password
         source='secret' if secret_password else 'missing'
         if secret_password and typed_sender and secret_sender and typed_sender.lower()!=secret_sender.lower():
-            raise ValueError('Email người gửi không khớp AUREL_GMAIL_USER trong Colab Secrets. Hãy để trống ô người gửi hoặc dùng đúng tài khoản đã cấu hình.')
+            raise ValueError('Email người gửi không khớp AUREL_GMAIL_USER trong biến môi trường máy chủ. Hãy để trống ô người gửi hoặc dùng đúng tài khoản đã cấu hình.')
 
     if not sender:
-        raise ValueError('Chưa có email người gửi. Nhập tài khoản Google hoặc cấu hình AUREL_GMAIL_USER trong Colab Secrets.')
+        raise ValueError('Chưa có email người gửi. Nhập tài khoản Google hoặc cấu hình AUREL_GMAIL_USER trong biến môi trường máy chủ.')
     if not EMAIL_RE.fullmatch(sender):
         raise ValueError('Email người gửi không hợp lệ.')
     if not password:
-        raise ValueError('Chưa có Google App Password. Hãy dán App Password vào ô bên dưới hoặc cấu hình AUREL_GMAIL_APP_PASSWORD trong Colab Secrets.')
+        raise ValueError('Chưa có Google App Password. Hãy dán App Password vào ô bên dưới hoặc cấu hình AUREL_GMAIL_APP_PASSWORD trong biến môi trường máy chủ.')
     return sender,password,source
 
 
@@ -2218,7 +2299,7 @@ def _send_via_google_smtp(sender,password,msg):
         except smtplib.SMTPAuthenticationError as e:
             raise ValueError('Google từ chối đăng nhập. Hãy dùng App Password do Google tạo cho đúng tài khoản người gửi; mật khẩu Gmail thông thường sẽ không hoạt động.') from e
         except (smtplib.SMTPException,OSError,TimeoutError) as e:
-            raise ValueError('Không kết nối được Gmail SMTP qua cả cổng 465 và 587. Hãy kiểm tra mạng Colab hoặc thử lại sau.') from e
+            raise ValueError('Không kết nối được Gmail SMTP qua cả cổng 465 và 587. Hãy kiểm tra kết nối mạng của máy chủ hoặc thử lại sau.') from e
 
 
 def send_report_email(bank,year,recipient,sender,app_password,subject='',message=''):
@@ -2243,7 +2324,7 @@ def send_report_email(bank,year,recipient,sender,app_password,subject='',message
     msg['From']=sender
     msg['To']=recipient
     msg['Subject']=subject
-    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL Financial Intelligence.'
+    plain=(note+'\n\n' if note else '')+f'Đính kèm là báo cáo phân tích tài chính {bank} {year} được xuất từ AUREL · Phân tích tài chính.'
     msg.set_content(plain)
     note_html=(f'<p style="font:14px/1.7 Arial;color:#34495e">{html.escape(note).replace(chr(10),"<br>")}</p>' if note else '')
     body=report.replace('<div class="brand">',note_html+'<div class="brand">',1) if note_html else report
@@ -2395,7 +2476,7 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/ai/key/clear':
                 with STORE.lock: STORE.gemini_session_key=None
                 fallback=bool(os.getenv('GEMINI_API_KEY','').strip())
-                return self.reply({'configured':fallback,'message':'Đã xóa khóa nhập trên web.'+(' Khóa từ Colab Secrets vẫn đang được sử dụng.' if fallback else '')})
+                return self.reply({'configured':fallback,'message':'Đã xóa khóa nhập trên web.'+(' Khóa từ biến môi trường máy chủ vẫn đang được sử dụng.' if fallback else '')})
             if path=='/api/ai/check':
                 return self.reply(gemini_connection_check())
             if path=='/api/ai':
