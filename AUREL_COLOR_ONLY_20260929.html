@@ -4615,167 +4615,348 @@ body{
 
 
 
-<style id="AUREL_R34_MATCH_IMAGE2">
-/* R34 — match the approved reference: artwork is part of the layout, not hidden behind it. */
-.ref-hero{
-  position:relative!important;
-  overflow:hidden!important;
-  isolation:isolate!important;
-  min-height:286px!important;
-  border-radius:15px!important;
-  border:1px solid #184f7b!important;
-  background:
-    url("https://aurel-assets-20260929.floot.app/_cdn/static/f75abd90-3716-44fd-9bf1-12ba79fa6ab0-aurel-hero.jpg") center right/cover no-repeat,
-    #071f38!important;
-  box-shadow:0 16px 36px rgba(5,32,58,.18)!important;
-}
-.ref-hero::before{
-  content:""!important;
-  position:absolute!important;
-  inset:0!important;
-  z-index:1!important;
-  background:linear-gradient(90deg,
-    rgba(4,24,44,.94) 0%,
-    rgba(4,28,50,.82) 28%,
-    rgba(4,28,50,.42) 47%,
-    rgba(4,28,50,.08) 66%,
-    rgba(4,28,50,0) 78%)!important;
-  pointer-events:none!important;
-}
-.ref-hero::after{content:none!important}
-.ref-hero-copy{
-  position:relative!important;
-  z-index:3!important;
-  padding:42px 42% 18px 42px!important;
-}
-.ref-hero h1{
-  color:#fff!important;
-  text-shadow:0 5px 18px rgba(0,0,0,.30)!important;
-}
-.ref-hero h1 span{
-  color:transparent!important;
-  background:linear-gradient(90deg,#23d6f2 0%,#59a1ff 100%)!important;
-  -webkit-background-clip:text!important;
-  background-clip:text!important;
-}
-.ref-hero p{color:#dce8f4!important}
-.ref-feature-row{position:relative!important;z-index:4!important}
-.ref-feature-row span{
-  background:rgba(7,30,54,.72)!important;
-  border:1px solid rgba(144,208,245,.16)!important;
-  backdrop-filter:blur(6px)!important;
-  box-shadow:0 4px 12px rgba(0,0,0,.10)!important;
-}
-.ref-hero-side{
-  position:absolute!important;
-  right:24px!important;
-  top:48px!important;
-  z-index:4!important;
-  color:#dbe7f3!important;
-  background:rgba(6,29,52,.20)!important;
-  padding:8px 12px!important;
-  border-radius:12px!important;
-  backdrop-filter:blur(3px)!important;
+
+
+<style id="AUREL_R35_REFERENCE_GEOMETRY">
+/* R35 — geometry follows the approved 1672×940 reference, scaled to viewport. */
+:root{
+  --r35-sidebar:clamp(228px,16.63vw,278px);
+  --r35-topbar:clamp(70px,5.15vw,86px);
+  --r35-page-gap:clamp(14px,1.20vw,20px);
+  --r35-blue:#126BFF;
+  --r35-navy:#061E35;
+  --r35-cyan:#22C8F2;
+  --r35-gold:#F4B62A;
 }
 
-.ref-bank-banner{
-  position:relative!important;
-  overflow:hidden!important;
-  min-height:122px!important;
-  border-radius:14px!important;
-  border:1px solid #267393!important;
-  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
-  background:
-    url("https://aurel-assets-20260929.floot.app/_cdn/static/1ca5d977-d352-4adb-83b7-0b33b38cdd7b-aurel-bank.jpg") center right/cover no-repeat,
-    #0a4f74!important;
-}
-.ref-bank-banner::before{
-  content:""!important;
-  position:absolute!important;
-  inset:0!important;
-  z-index:1!important;
-  background:linear-gradient(90deg,
-    rgba(8,49,84,.94) 0%,
-    rgba(8,57,91,.76) 34%,
-    rgba(8,65,96,.28) 54%,
-    rgba(8,65,96,.04) 72%,
-    rgba(8,65,96,0) 100%)!important;
-  pointer-events:none!important;
-}
-.ref-bank-banner::after{content:none!important}
-.ref-bank-banner>*{position:relative!important;z-index:3!important}
-.ref-market-art{display:none!important}
+body{background:#EDF5FA!important}
+.shell{display:block!important;min-height:100vh!important}
 
+/* ===== SIDEBAR: same relative width as the reference ===== */
 @media(min-width:761px){
-  .shell{display:block!important;min-height:100vh!important}
   .sidebar{
     position:fixed!important;
-    top:0!important;
-    left:0!important;
-    bottom:0!important;
-    width:278px!important;
+    inset:0 auto 0 0!important;
+    width:var(--r35-sidebar)!important;
     height:100vh!important;
+    padding:0!important;
     overflow:hidden!important;
     z-index:1200!important;
-    background:linear-gradient(180deg,#041a31 0%,#05233e 55%,#062b4a 100%)!important;
-    border-right:1px solid rgba(68,165,255,.17)!important;
+    background:
+      linear-gradient(155deg,rgba(18,107,255,.11) 0 34%,transparent 34% 100%),
+      linear-gradient(180deg,#041A31 0%,#05243F 58%,#062C4D 100%)!important;
+    border-right:1px solid rgba(74,171,238,.16)!important;
     box-shadow:10px 0 28px rgba(2,21,38,.14)!important;
   }
-  .sidebar::before{
+
+  /* exact cropped city artwork: 162×184, scaled without cover-cropping */
+  .sidebar:before{
     content:""!important;
     position:absolute!important;
     left:0!important;
     right:0!important;
     bottom:0!important;
     top:auto!important;
-    height:255px!important;
     z-index:0!important;
-    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/f9fc0ca9-71b3-45a0-9eb5-d10434227020-aurel-sidebar.jpg") center bottom/cover no-repeat!important;
+    height:calc(var(--r35-sidebar) * 1.136)!important;
+    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/f9fc0ca9-71b3-45a0-9eb5-d10434227020-aurel-sidebar.jpg") center bottom/100% 100% no-repeat!important;
     opacity:1!important;
-    -webkit-mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.18) 12%,rgba(0,0,0,.70) 32%,#000 58%,#000 100%)!important;
-    mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.18) 12%,rgba(0,0,0,.70) 32%,#000 58%,#000 100%)!important;
     pointer-events:none!important;
   }
-  .sidebar::after{
+  .sidebar:after{
     content:""!important;
     position:absolute!important;
-    left:0!important;
-    right:0!important;
-    bottom:0!important;
-    height:290px!important;
+    left:0!important;right:0!important;bottom:0!important;
+    height:calc(var(--r35-sidebar) * 1.30)!important;
     z-index:1!important;
     background:linear-gradient(180deg,
-      rgba(6,42,73,.82) 0%,
-      rgba(6,42,73,.36) 28%,
-      rgba(4,31,55,.08) 58%,
-      rgba(3,23,42,.14) 100%)!important;
+      #062B4B 0%,
+      rgba(6,43,75,.82) 12%,
+      rgba(5,38,66,.25) 34%,
+      rgba(4,30,53,.03) 64%,
+      rgba(3,23,42,.10) 100%)!important;
     pointer-events:none!important;
   }
-  .sidebar .brand,.sidebar .menu-title,.sidebar .nav{position:relative!important;z-index:4!important}
-  .brand{background:rgba(3,25,45,.72)!important;backdrop-filter:blur(3px)!important}
-  .nav button{backdrop-filter:none!important}
+
+  .brand,.menu-title,.nav{position:relative!important;z-index:4!important}
+  .brand{
+    height:clamp(75px,5.50vw,92px)!important;
+    min-height:0!important;
+    padding:clamp(14px,1.08vw,18px) clamp(16px,1.20vw,20px)!important;
+    margin:0 0 4px!important;
+    background:rgba(3,25,45,.72)!important;
+    border-bottom:1px solid rgba(164,210,239,.12)!important;
+    backdrop-filter:blur(3px)!important;
+  }
+  .brand-mark{
+    width:clamp(40px,2.87vw,48px)!important;
+    height:clamp(40px,2.87vw,48px)!important;
+    border-radius:clamp(11px,.84vw,14px)!important;
+  }
+  .brand-title{font-size:clamp(16px,1.14vw,19px)!important}
+  .brand-desc{font-size:clamp(8px,.57vw,9.5px)!important}
+
+  .menu-title{
+    margin:clamp(12px,.90vw,15px) clamp(23px,1.68vw,28px) 6px!important;
+    font-size:clamp(8.5px,.60vw,10px)!important;
+  }
+  .nav{padding:0 clamp(8px,.60vw,10px)!important;gap:2px!important}
+  .nav button{
+    min-height:0!important;
+    height:clamp(39px,2.87vw,48px)!important;
+    padding:0 clamp(13px,.96vw,16px)!important;
+    margin:0!important;
+    border-radius:clamp(9px,.66vw,11px)!important;
+    gap:clamp(11px,.78vw,13px)!important;
+    font-size:clamp(11px,.78vw,13px)!important;
+    line-height:1!important;
+    background:transparent!important;
+    border:1px solid transparent!important;
+    box-shadow:none!important;
+    backdrop-filter:none!important;
+  }
+  .nav button svg{
+    width:clamp(16px,1.14vw,19px)!important;
+    height:clamp(16px,1.14vw,19px)!important;
+  }
+  .nav button.active{
+    background:linear-gradient(100deg,#155EE1 0%,#0C91EA 100%)!important;
+    border:1px solid #43D8FF!important;
+    box-shadow:inset 3px 0 #73E9FF,0 7px 18px rgba(15,118,240,.25)!important;
+  }
+
   .main{
-    margin-left:278px!important;
-    width:calc(100% - 278px)!important;
+    margin-left:var(--r35-sidebar)!important;
+    width:calc(100% - var(--r35-sidebar))!important;
     min-height:100vh!important;
   }
 }
 
+/* ===== TOP BAR: reference height scales with viewport width ===== */
+.topbar{
+  height:var(--r35-topbar)!important;
+  min-height:var(--r35-topbar)!important;
+  padding:0 clamp(18px,1.38vw,23px)!important;
+  background:#fff!important;
+  border-bottom:1px solid #D6E3ED!important;
+  box-shadow:0 5px 18px rgba(14,52,80,.06)!important;
+}
+.crumb{gap:clamp(11px,.84vw,14px)!important}
+.crumb-icon{
+  width:clamp(43px,3.11vw,52px)!important;
+  height:clamp(43px,3.11vw,52px)!important;
+  border-radius:clamp(11px,.78vw,13px)!important;
+}
+.crumb strong{font-size:clamp(13px,.90vw,15px)!important}
+.crumb small{font-size:clamp(8.5px,.60vw,10px)!important}
+.ref-control{
+  min-width:clamp(128px,9.33vw,156px)!important;
+  height:clamp(39px,2.87vw,48px)!important;
+  border-radius:clamp(10px,.72vw,12px)!important;
+}
+.ref-controls .status-pill{
+  height:clamp(39px,2.87vw,48px)!important;
+  padding:0 clamp(14px,1.02vw,17px)!important;
+}
+.ref-tools button{
+  width:clamp(34px,2.51vw,42px)!important;
+  height:clamp(34px,2.51vw,42px)!important;
+}
+
+/* ===== PAGE: nearly edge-to-edge like image 2 ===== */
+.page{
+  max-width:none!important;
+  width:100%!important;
+  padding:var(--r35-page-gap)!important;
+}
+
+/* ===== HERO: exact reference ratio 764:151 ===== */
+.ref-hero{
+  position:relative!important;
+  overflow:hidden!important;
+  isolation:isolate!important;
+  width:100%!important;
+  min-height:0!important;
+  height:auto!important;
+  aspect-ratio:764/151!important;
+  margin:0 0 clamp(10px,.84vw,14px)!important;
+  border-radius:clamp(12px,.90vw,15px)!important;
+  border:1px solid #174F7C!important;
+  background:
+    radial-gradient(circle at 70% 30%,rgba(28,127,255,.14),transparent 29%),
+    linear-gradient(110deg,#061D35 0%,#082A48 54%,#0A3859 100%)!important;
+  box-shadow:0 14px 32px rgba(4,32,58,.18)!important;
+}
+
+/* artwork crop = 414×151, therefore its natural width is 54.19% of full 764px */
+.ref-hero:before{
+  content:""!important;
+  position:absolute!important;
+  z-index:1!important;
+  top:0!important;right:0!important;bottom:0!important;
+  width:54.2%!important;
+  height:100%!important;
+  background:url("https://aurel-assets-20260929.floot.app/_cdn/static/f75abd90-3716-44fd-9bf1-12ba79fa6ab0-aurel-hero.jpg") center/100% 100% no-repeat!important;
+  opacity:1!important;
+  filter:none!important;
+  pointer-events:none!important;
+}
+.ref-hero:after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:2!important;
+  background:linear-gradient(90deg,
+    rgba(4,24,44,.98) 0%,
+    rgba(4,28,50,.94) 27%,
+    rgba(4,29,51,.62) 43%,
+    rgba(4,29,51,.18) 54%,
+    transparent 66%)!important;
+  pointer-events:none!important;
+}
+.ref-hero-copy{
+  position:relative!important;
+  z-index:4!important;
+  padding:
+    clamp(28px,2.20vw,37px)
+    45%
+    clamp(14px,1.08vw,18px)
+    clamp(32px,2.39vw,40px)!important;
+}
+.ref-kicker{font-size:clamp(8px,.60vw,10px)!important}
+.ref-hero h1{
+  font-size:clamp(35px,2.57vw,43px)!important;
+  line-height:1.03!important;
+  margin:clamp(10px,.78vw,13px) 0 clamp(8px,.60vw,10px)!important;
+}
+.ref-hero p{
+  font-size:clamp(11.5px,.84vw,14px)!important;
+  margin-bottom:clamp(18px,1.56vw,26px)!important;
+}
+.ref-feature-row{gap:clamp(6px,.48vw,8px)!important;flex-wrap:nowrap!important}
+.ref-feature-row span{
+  height:clamp(31px,2.27vw,38px)!important;
+  padding:0 clamp(10px,.78vw,13px)!important;
+  border-radius:clamp(7px,.54vw,9px)!important;
+  font-size:clamp(9px,.66vw,11px)!important;
+}
+.ref-hero-side{
+  right:clamp(21px,1.56vw,26px)!important;
+  top:clamp(36px,2.63vw,44px)!important;
+  gap:clamp(6px,.48vw,8px)!important;
+  font-size:clamp(7.5px,.54vw,9px)!important;
+}
+
+/* ===== BANK BANNER: exact reference ratio 785:74 ===== */
+.ref-bank-banner{
+  position:relative!important;
+  isolation:isolate!important;
+  overflow:hidden!important;
+  width:100%!important;
+  min-height:0!important;
+  height:auto!important;
+  aspect-ratio:785/74!important;
+  margin-bottom:clamp(10px,.84vw,14px)!important;
+  padding:
+    clamp(17px,1.32vw,22px)
+    44%
+    clamp(15px,1.20vw,20px)
+    clamp(30px,2.27vw,38px)!important;
+  border-radius:clamp(12px,.90vw,15px)!important;
+  background:linear-gradient(105deg,#0A3154 0%,#0B4B71 62%,#0C6672 100%)!important;
+  border:1px solid #256E91!important;
+  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
+}
+/* artwork crop 425×74 = 54.14% of full banner */
+.ref-bank-banner:before{
+  content:""!important;
+  position:absolute!important;
+  z-index:1!important;
+  top:0!important;right:0!important;bottom:0!important;
+  width:54.2%!important;
+  height:100%!important;
+  background:url("https://aurel-assets-20260929.floot.app/_cdn/static/1ca5d977-d352-4adb-83b7-0b33b38cdd7b-aurel-bank.jpg") center/100% 100% no-repeat!important;
+  pointer-events:none!important;
+}
+.ref-bank-banner:after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:2!important;
+  background:linear-gradient(90deg,
+    rgba(8,49,84,.99) 0%,
+    rgba(8,55,88,.93) 35%,
+    rgba(8,62,95,.46) 49%,
+    rgba(8,62,95,.10) 59%,
+    transparent 70%)!important;
+  pointer-events:none!important;
+}
+.ref-bank-banner>*{position:relative!important;z-index:4!important}
+.ref-bank-kicker{font-size:clamp(8px,.60vw,10px)!important}
+.ref-bank-banner h2{
+  font-size:clamp(20px,1.50vw,25px)!important;
+  margin:clamp(8px,.60vw,10px) 0 clamp(5px,.42vw,7px)!important;
+}
+.ref-bank-banner p{font-size:clamp(10px,.72vw,12px)!important}
+.ref-market-art{display:none!important}
+
+/* ===== KPI row scaled to reference ===== */
+.ref-kpi-grid{
+  gap:clamp(8px,.72vw,12px)!important;
+  margin-bottom:clamp(10px,.84vw,14px)!important;
+}
+.ref-kpi{
+  min-height:clamp(92px,6.70vw,112px)!important;
+  padding:
+    clamp(11px,.84vw,14px)
+    clamp(42px,3.11vw,52px)
+    clamp(10px,.72vw,12px)
+    clamp(52px,3.83vw,64px)!important;
+  border-radius:clamp(10px,.78vw,13px)!important;
+}
+.ref-kpi-icon{
+  left:clamp(11px,.84vw,14px)!important;
+  top:clamp(13px,.96vw,16px)!important;
+  width:clamp(31px,2.27vw,38px)!important;
+  height:clamp(31px,2.27vw,38px)!important;
+}
+.ref-kpi-number{font-size:clamp(22px,1.62vw,27px)!important}
+.ref-kpi-label{font-size:clamp(9px,.66vw,11px)!important}
+.ref-kpi-change{font-size:clamp(8.6px,.63vw,10.5px)!important}
+
+/* ===== LOWER PANELS: reference is ~1.40 : 1 ===== */
+.ref-lower-grid{
+  grid-template-columns:minmax(0,1.40fr) minmax(0,1fr)!important;
+  gap:clamp(10px,.84vw,14px)!important;
+}
+.ref-chart-panel,.ref-key-panel{
+  min-height:clamp(216px,15.85vw,265px)!important;
+  padding:clamp(13px,.96vw,16px) clamp(15px,1.08vw,18px)!important;
+}
+.ref-overview-chart{height:clamp(180px,13.16vw,220px)!important}
+.ref-key-row{
+  grid-template-columns:clamp(125px,9.27vw,155px) 1fr clamp(75px,5.50vw,92px)!important;
+}
+
+/* kill old alternate overview blocks */
 #root>.page-head:has(+ .hero){display:none!important}
 .hero:not(.ref-hero){display:none!important}
 .grid.metrics{display:none!important}
 
-@media(max-width:1050px){
-  .ref-hero-copy{padding-right:35%!important}
+@media(max-width:900px){
+  .ref-feature-row{flex-wrap:wrap!important}
+  .ref-lower-grid{grid-template-columns:1fr!important}
 }
 @media(max-width:760px){
   .sidebar{display:none!important;position:static!important}
   .main{margin-left:0!important;width:100%!important}
-  .ref-hero-copy{
-    padding:30px 22px 18px!important;
-    background:linear-gradient(90deg,rgba(4,25,46,.96),rgba(4,25,46,.70),transparent)!important;
-  }
-  .ref-bank-banner{background-position:64% center!important}
+  .topbar{height:74px!important}
+  .ref-hero{aspect-ratio:auto!important;min-height:270px!important}
+  .ref-hero:before{width:74%!important}
+  .ref-hero-copy{padding:30px 22px 18px!important}
+  .ref-bank-banner{aspect-ratio:auto!important;min-height:110px!important;padding:20px!important}
+  .ref-bank-banner:before{width:74%!important;opacity:.55!important}
+  .ref-kpi-grid{grid-template-columns:1fr!important}
 }
 </style>
 </head><body>
