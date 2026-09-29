@@ -3746,6 +3746,131 @@ thead{background:#EDF4FA!important}
     opacity:.35!important;
   }
 }
+
+/* AUREL R26 APPROVED AI DRAGON INTEGRATION */
+
+/* Final hero composition using the approved AI dragon artwork */
+#root>.page-head:has(+ .hero){
+  position:relative!important;
+  overflow:hidden!important;
+  isolation:isolate!important;
+  min-height:252px!important;
+  padding:36px 47% 68px 38px!important;
+  background:
+    radial-gradient(circle at 78% 34%,rgba(37,99,235,.18),transparent 28%),
+    radial-gradient(circle at 88% 70%,rgba(15,139,141,.10),transparent 24%),
+    linear-gradient(110deg,#061E36 0%,#082B49 47%,#0A3859 100%)!important;
+  border:1px solid #164D76!important;
+  box-shadow:0 18px 40px rgba(6,34,61,.18)!important;
+}
+
+/* Use the actual generated AI artwork from the repository */
+#root>.page-head:has(+ .hero):before{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  z-index:1!important;
+  right:20px!important;
+  top:4px!important;
+  bottom:4px!important;
+  width:46%!important;
+  height:auto!important;
+  background-image:url("assets/aurel_dragon_ai.webp")!important;
+  background-repeat:no-repeat!important;
+  background-size:contain!important;
+  background-position:center right!important;
+  opacity:.98!important;
+  filter:none!important;
+  pointer-events:none!important;
+}
+
+/* Subtle separation halo, kept behind the dragon */
+#root>.page-head:has(+ .hero){
+  background-blend-mode:normal!important;
+}
+#root>.page-head:has(+ .hero) .eyebrow,
+#root>.page-head:has(+ .hero) h1,
+#root>.page-head:has(+ .hero) p{
+  position:relative!important;
+  z-index:3!important;
+}
+#root>.page-head:has(+ .hero) h1{
+  color:#FFFFFF!important;
+  max-width:560px!important;
+  font-size:42px!important;
+  line-height:1.06!important;
+  text-shadow:0 4px 16px rgba(0,0,0,.28)!important;
+}
+#root>.page-head:has(+ .hero) p{
+  color:#D8E8F2!important;
+  max-width:520px!important;
+}
+#root>.page-head:has(+ .hero) .eyebrow{
+  color:#F4B62A!important;
+}
+
+/* Keep the bottom information strip readable and above artwork */
+#root>.page-head:has(+ .hero):after{
+  z-index:4!important;
+  color:#D8E9F4!important;
+  border-top-color:rgba(201,229,246,.22)!important;
+}
+
+/* Secondary VPB banner remains clean, no duplicate dragon */
+.hero:before{
+  content:""!important;
+  background:none!important;
+  background-image:none!important;
+  opacity:0!important;
+}
+.hero{
+  background:
+    radial-gradient(circle at 82% 50%,rgba(25,200,223,.12),transparent 25%),
+    linear-gradient(105deg,#082D4B 0%,#0C4C70 62%,#0B6171 100%)!important;
+}
+
+/* Clean, presentation-friendly toolbar */
+.topbar{
+  background:#FFFFFF!important;
+  background-image:none!important;
+  border-bottom:1px solid #D5E2EB!important;
+  box-shadow:0 4px 16px rgba(16,42,63,.06)!important;
+}
+.topbar:before{display:none!important}
+.topbar:after{
+  height:3px!important;
+  background:linear-gradient(90deg,#2374FF 0%,#19C8DF 40%,#0EB4A8 72%,#F4B62A 100%)!important;
+  opacity:.42!important;
+}
+
+@media(max-width:1050px){
+  #root>.page-head:has(+ .hero){
+    padding-right:40%!important;
+  }
+  #root>.page-head:has(+ .hero):before{
+    width:43%!important;
+    right:8px!important;
+    opacity:.88!important;
+  }
+}
+@media(max-width:760px){
+  #root>.page-head:has(+ .hero){
+    min-height:230px!important;
+    padding:28px 24px 66px!important;
+  }
+  #root>.page-head:has(+ .hero):before{
+    width:60%!important;
+    right:-16%!important;
+    opacity:.28!important;
+  }
+  #root>.page-head:has(+ .hero) h1{
+    font-size:31px!important;
+    max-width:78%!important;
+  }
+  #root>.page-head:has(+ .hero) p{
+    max-width:76%!important;
+  }
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
