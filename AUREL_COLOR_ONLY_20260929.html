@@ -4609,163 +4609,105 @@ body{
 
 
 
-<style id="AUREL_R31_EXACT_USER_ARTWORK_FIX">
-/* R31: use artwork cropped directly from the user's three reference screenshots. */
+
+
+
+
+
+
+<style id="AUREL_R34_MATCH_IMAGE2">
+/* R34 — match the approved reference: artwork is part of the layout, not hidden behind it. */
 .ref-hero{
   position:relative!important;
   overflow:hidden!important;
   isolation:isolate!important;
   min-height:286px!important;
   border-radius:15px!important;
-  border:1px solid #174f7c!important;
+  border:1px solid #184f7b!important;
   background:
-    linear-gradient(90deg,
-      rgba(3,18,35,.985) 0%,
-      rgba(4,28,50,.95) 31%,
-      rgba(5,35,62,.68) 47%,
-      rgba(5,28,50,.18) 62%,
-      rgba(5,28,50,0) 75%),
-    url("https://aurel-assets-20260929.floot.app/_cdn/static/f75abd90-3716-44fd-9bf1-12ba79fa6ab0-aurel-hero.jpg") right center/auto 100% no-repeat,
-    #061f3b!important;
+    url("https://aurel-assets-20260929.floot.app/_cdn/static/f75abd90-3716-44fd-9bf1-12ba79fa6ab0-aurel-hero.jpg") center right/cover no-repeat,
+    #071f38!important;
   box-shadow:0 16px 36px rgba(5,32,58,.18)!important;
 }
-.ref-hero:before{
+.ref-hero::before{
   content:""!important;
   position:absolute!important;
   inset:0!important;
   z-index:1!important;
-  background:
-    radial-gradient(circle at 75% 30%,rgba(31,107,255,.08),transparent 24%),
-    linear-gradient(90deg,rgba(3,18,35,.06),transparent 60%)!important;
+  background:linear-gradient(90deg,
+    rgba(4,24,44,.94) 0%,
+    rgba(4,28,50,.82) 28%,
+    rgba(4,28,50,.42) 47%,
+    rgba(4,28,50,.08) 66%,
+    rgba(4,28,50,0) 78%)!important;
   pointer-events:none!important;
 }
+.ref-hero::after{content:none!important}
 .ref-hero-copy{
   position:relative!important;
   z-index:3!important;
-  padding:42px 43% 18px 42px!important;
-}
-.ref-hero-side{
-  position:absolute!important;
-  z-index:4!important;
+  padding:42px 42% 18px 42px!important;
 }
 .ref-hero h1{
   color:#fff!important;
-  text-shadow:0 5px 20px rgba(0,0,0,.36)!important;
+  text-shadow:0 5px 18px rgba(0,0,0,.30)!important;
 }
 .ref-hero h1 span{
   color:transparent!important;
-  background:linear-gradient(90deg,#24d4ef 0%,#5a9cff 100%)!important;
+  background:linear-gradient(90deg,#23d6f2 0%,#59a1ff 100%)!important;
   -webkit-background-clip:text!important;
   background-clip:text!important;
 }
+.ref-hero p{color:#dce8f4!important}
+.ref-feature-row{position:relative!important;z-index:4!important}
 .ref-feature-row span{
-  background:rgba(4,28,52,.76)!important;
-  border:1px solid rgba(145,210,245,.18)!important;
+  background:rgba(7,30,54,.72)!important;
+  border:1px solid rgba(144,208,245,.16)!important;
   backdrop-filter:blur(6px)!important;
+  box-shadow:0 4px 12px rgba(0,0,0,.10)!important;
+}
+.ref-hero-side{
+  position:absolute!important;
+  right:24px!important;
+  top:48px!important;
+  z-index:4!important;
+  color:#dbe7f3!important;
+  background:rgba(6,29,52,.20)!important;
+  padding:8px 12px!important;
+  border-radius:12px!important;
+  backdrop-filter:blur(3px)!important;
 }
 
-/* VPB banner artwork cropped from the user's second reference image. */
 .ref-bank-banner{
   position:relative!important;
   overflow:hidden!important;
   min-height:122px!important;
   border-radius:14px!important;
   border:1px solid #267393!important;
+  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
   background:
-    linear-gradient(90deg,
-      rgba(6,42,72,.985) 0%,
-      rgba(7,59,90,.93) 38%,
-      rgba(7,73,99,.52) 55%,
-      rgba(7,73,99,.10) 72%,
-      rgba(7,73,99,0) 100%),
-    url("https://aurel-assets-20260929.floot.app/_cdn/static/1ca5d977-d352-4adb-83b7-0b33b38cdd7b-aurel-bank.jpg") right center/auto 100% no-repeat,
-    #0a4d72!important;
-  box-shadow:0 10px 24px rgba(7,53,79,.11)!important;
+    url("https://aurel-assets-20260929.floot.app/_cdn/static/1ca5d977-d352-4adb-83b7-0b33b38cdd7b-aurel-bank.jpg") center right/cover no-repeat,
+    #0a4f74!important;
 }
-.ref-bank-banner:before{
+.ref-bank-banner::before{
   content:""!important;
   position:absolute!important;
   inset:0!important;
   z-index:1!important;
-  background:linear-gradient(110deg,rgba(255,255,255,.02),transparent 48%)!important;
+  background:linear-gradient(90deg,
+    rgba(8,49,84,.94) 0%,
+    rgba(8,57,91,.76) 34%,
+    rgba(8,65,96,.28) 54%,
+    rgba(8,65,96,.04) 72%,
+    rgba(8,65,96,0) 100%)!important;
   pointer-events:none!important;
 }
-.ref-bank-banner>*{
-  position:relative!important;
-  z-index:2!important;
-}
+.ref-bank-banner::after{content:none!important}
+.ref-bank-banner>*{position:relative!important;z-index:3!important}
 .ref-market-art{display:none!important}
 
-/* Sidebar artwork cropped directly from the user's third reference image. */
-.sidebar{
-  position:relative!important;
-  overflow:hidden!important;
-  background:
-    linear-gradient(180deg,
-      rgba(3,24,44,.995) 0%,
-      rgba(4,31,55,.99) 49%,
-      rgba(5,40,69,.84) 66%,
-      rgba(5,41,72,.28) 84%,
-      rgba(4,28,50,.05) 100%),
-    url("https://aurel-assets-20260929.floot.app/_cdn/static/f9fc0ca9-71b3-45a0-9eb5-d10434227020-aurel-sidebar.jpg") center bottom/100% auto no-repeat,
-    #041a31!important;
-  border-right:1px solid rgba(68,165,255,.17)!important;
-}
-.sidebar:before{
-  content:""!important;
-  position:absolute!important;
-  inset:0!important;
-  z-index:0!important;
-  background:linear-gradient(180deg,rgba(4,24,44,.02) 0%,rgba(4,24,44,.03) 65%,rgba(2,20,38,.08) 100%)!important;
-  pointer-events:none!important;
-}
-.sidebar:after{content:none!important}
-.sidebar .brand,.sidebar .menu-title,.sidebar .nav{
-  position:relative!important;
-  z-index:3!important;
-}
-.nav button{backdrop-filter:blur(2px)!important}
-
-/* Prevent legacy decorative overview layers from covering the reference artwork. */
-#root>.page-head:has(+ .hero){display:none!important}
-.hero:not(.ref-hero){display:none!important}
-.grid.metrics{display:none!important}
-
-@media(max-width:1050px){
-  .ref-hero{
-    background-position:72% center!important;
-  }
-  .ref-hero-copy{
-    padding-right:36%!important;
-  }
-}
-@media(max-width:760px){
-  .ref-hero{
-    background-position:68% center!important;
-  }
-  .ref-hero-copy{
-    padding:30px 22px 18px!important;
-    background:linear-gradient(90deg,rgba(4,25,46,.97),rgba(4,25,46,.72),transparent)!important;
-  }
-  .ref-bank-banner{
-    background-position:66% center!important;
-  }
-}
-</style>
-
-<style id="AUREL_R32_FIXED_SIDEBAR_CLEAN">
-/* R32 — fixed left navigation, clean artwork crop, no duplicated menu text. */
-@media (min-width:761px){
-  html,body{
-    min-height:100%!important;
-  }
-
-  .shell{
-    display:block!important;
-    min-height:100vh!important;
-  }
-
-  /* Sidebar must NEVER travel with page scroll. */
+@media(min-width:761px){
+  .shell{display:block!important;min-height:100vh!important}
   .sidebar{
     position:fixed!important;
     top:0!important;
@@ -4773,399 +4715,67 @@ body{
     bottom:0!important;
     width:278px!important;
     height:100vh!important;
-    min-height:100vh!important;
-    padding:0!important;
-    margin:0!important;
     overflow:hidden!important;
     z-index:1200!important;
-    background:
-      linear-gradient(165deg,rgba(13,103,220,.10) 0 31%,transparent 31% 100%),
-      linear-gradient(180deg,#041A31 0%,#05243F 62%,#062A49 100%)!important;
-    border-right:1px solid rgba(77,171,235,.16)!important;
+    background:linear-gradient(180deg,#041a31 0%,#05233e 55%,#062b4a 100%)!important;
+    border-right:1px solid rgba(68,165,255,.17)!important;
     box-shadow:10px 0 28px rgba(2,21,38,.14)!important;
   }
-
-  /* Only show the CITY/CHART portion of the source image.
-     The screenshot's menu/text area is physically clipped away. */
-  .sidebar:before{
+  .sidebar::before{
     content:""!important;
-    display:block!important;
     position:absolute!important;
     left:0!important;
     right:0!important;
     bottom:0!important;
     top:auto!important;
-    width:100%!important;
-    height:230px!important;
+    height:255px!important;
     z-index:0!important;
-    pointer-events:none!important;
-    background:
-      linear-gradient(180deg,
-        #062A49 0%,
-        rgba(6,42,73,.78) 12%,
-        rgba(5,37,64,.22) 34%,
-        rgba(3,27,48,.04) 100%),
-      url("https://aurel-assets-20260929.floot.app/_cdn/static/f9fc0ca9-71b3-45a0-9eb5-d10434227020-aurel-sidebar.jpg") center bottom/278px auto no-repeat!important;
+    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/f9fc0ca9-71b3-45a0-9eb5-d10434227020-aurel-sidebar.jpg") center bottom/cover no-repeat!important;
     opacity:1!important;
-  }
-
-  /* Gentle fade so city never makes lower menu unreadable. */
-  .sidebar:after{
-    content:""!important;
-    display:block!important;
-    position:absolute!important;
-    left:0!important;
-    right:0!important;
-    bottom:0!important;
-    height:285px!important;
-    z-index:1!important;
+    -webkit-mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.18) 12%,rgba(0,0,0,.70) 32%,#000 58%,#000 100%)!important;
+    mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.18) 12%,rgba(0,0,0,.70) 32%,#000 58%,#000 100%)!important;
     pointer-events:none!important;
-    background:
-      linear-gradient(180deg,
-        #062A49 0%,
-        rgba(6,42,73,.84) 12%,
-        rgba(4,31,55,.40) 34%,
-        rgba(3,25,45,.06) 64%,
-        rgba(3,23,42,.18) 100%)!important;
   }
-
-  .sidebar .brand,
-  .sidebar .menu-title,
-  .sidebar .nav{
-    position:relative!important;
-    z-index:5!important;
-  }
-
-  /* Compress just enough for a 1366×768 projector/laptop viewport. */
-  .brand{
-    height:91px!important;
-    min-height:91px!important;
-    padding:17px 20px!important;
-    margin:0 0 4px!important;
-    background:rgba(3,25,45,.70)!important;
-    border-bottom:1px solid rgba(164,210,239,.12)!important;
-    backdrop-filter:blur(3px)!important;
-  }
-
-  .menu-title{
-    margin:15px 28px 7px!important;
-    font-size:10px!important;
-    line-height:1.2!important;
-    color:#91B8D2!important;
-  }
-
-  .nav{
-    padding:0 10px!important;
-    gap:2px!important;
-  }
-
-  .nav button{
-    min-height:43px!important;
-    height:43px!important;
-    padding:0 16px!important;
-    margin:0!important;
-    border-radius:11px!important;
-    gap:13px!important;
-    font-size:13px!important;
-    line-height:1!important;
-    background:transparent!important;
-    border:1px solid transparent!important;
-    box-shadow:none!important;
-    backdrop-filter:none!important;
-  }
-
-  .nav button:hover{
-    background:rgba(23,112,193,.16)!important;
-    border-color:rgba(92,190,244,.10)!important;
-  }
-
-  .nav button.active{
-    background:linear-gradient(100deg,#155EE1 0%,#0C91EA 100%)!important;
-    border:1px solid #43D8FF!important;
-    box-shadow:
-      inset 3px 0 #73E9FF,
-      0 7px 18px rgba(15,118,240,.25)!important;
-  }
-
-  .nav button svg{
-    width:19px!important;
-    height:19px!important;
-    flex:0 0 19px!important;
-  }
-
-  /* The content column is explicitly offset by the fixed sidebar. */
-  .main{
-    width:calc(100% - 278px)!important;
-    max-width:none!important;
-    min-width:0!important;
-    min-height:100vh!important;
-    margin-left:278px!important;
-    padding-left:0!important;
-    position:relative!important;
-  }
-
-  .topbar{
-    left:auto!important;
-    width:100%!important;
-  }
-}
-
-/* Small displays keep the existing mobile behavior. */
-@media(max-width:760px){
-  .sidebar{
-    display:none!important;
-    position:static!important;
-  }
-  .main{
-    width:100%!important;
-    margin-left:0!important;
-  }
-}
-</style>
-
-<style id="AUREL_R33_SEAMLESS_ART_CROP">
-/* R33: artwork-only composition. No text/buttons from source screenshots may bleed into UI. */
-
-/* ===== HERO ===== */
-.ref-hero{
-  position:relative!important;
-  isolation:isolate!important;
-  overflow:hidden!important;
-  min-height:286px!important;
-  border-radius:15px!important;
-  border:1px solid #174F7C!important;
-  background:
-    radial-gradient(circle at 72% 30%,rgba(26,126,255,.14),transparent 27%),
-    radial-gradient(circle at 88% 68%,rgba(246,184,38,.08),transparent 18%),
-    linear-gradient(110deg,#061D35 0%,#082A49 55%,#0A3859 100%)!important;
-  box-shadow:0 16px 36px rgba(5,32,58,.18)!important;
-}
-
-/* Show ONLY the right artwork crop from the screenshot source. */
-.ref-hero:before{
-  content:""!important;
-  display:block!important;
-  position:absolute!important;
-  z-index:1!important;
-  top:0!important;
-  right:0!important;
-  bottom:0!important;
-  left:auto!important;
-  width:66%!important;
-  height:100%!important;
-  background-image:url("https://aurel-assets-20260929.floot.app/_cdn/static/f75abd90-3716-44fd-9bf1-12ba79fa6ab0-aurel-hero.jpg")!important;
-  background-repeat:no-repeat!important;
-  background-position:right center!important;
-  background-size:auto 100%!important;
-  opacity:1!important;
-  filter:saturate(1.05) contrast(1.03)!important;
-  pointer-events:none!important;
-  -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.28) 12%,#000 31%,#000 100%)!important;
-  mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.28) 12%,#000 31%,#000 100%)!important;
-}
-
-/* Smooth blend instead of the grey/white seam visible in R32. */
-.ref-hero:after{
-  content:""!important;
-  display:block!important;
-  position:absolute!important;
-  z-index:2!important;
-  inset:0!important;
-  background:
-    linear-gradient(90deg,
-      rgba(4,25,46,.98) 0%,
-      rgba(4,29,52,.94) 30%,
-      rgba(4,30,54,.62) 44%,
-      rgba(4,30,54,.16) 60%,
-      transparent 76%)!important;
-  pointer-events:none!important;
-}
-
-.ref-hero-copy{
-  position:relative!important;
-  z-index:4!important;
-  padding:42px 43% 18px 42px!important;
-}
-.ref-hero-side{
-  position:absolute!important;
-  z-index:5!important;
-}
-.ref-hero h1{
-  color:#fff!important;
-  text-shadow:0 5px 20px rgba(0,0,0,.36)!important;
-}
-.ref-hero h1 span{
-  color:transparent!important;
-  background:linear-gradient(90deg,#22D4EF 0%,#5C9FFF 100%)!important;
-  -webkit-background-clip:text!important;
-  background-clip:text!important;
-}
-.ref-feature-row{
-  position:relative!important;
-  z-index:5!important;
-}
-.ref-feature-row span{
-  background:rgba(4,28,52,.76)!important;
-  border:1px solid rgba(145,210,245,.19)!important;
-  backdrop-filter:blur(6px)!important;
-  box-shadow:0 5px 14px rgba(0,0,0,.10)!important;
-}
-
-/* ===== VPB BANNER ===== */
-.ref-bank-banner{
-  position:relative!important;
-  isolation:isolate!important;
-  overflow:hidden!important;
-  min-height:122px!important;
-  border-radius:14px!important;
-  border:1px solid #267393!important;
-  background:
-    radial-gradient(circle at 76% 38%,rgba(35,199,232,.10),transparent 30%),
-    linear-gradient(105deg,#0A3154 0%,#0A4D72 60%,#0A6571 100%)!important;
-  box-shadow:0 10px 24px rgba(7,53,79,.11)!important;
-}
-
-/* Artwork sits only on the right, hiding original VPB text from the source image. */
-.ref-bank-banner:before{
-  content:""!important;
-  display:block!important;
-  position:absolute!important;
-  z-index:1!important;
-  right:0!important;
-  top:0!important;
-  bottom:0!important;
-  left:auto!important;
-  width:60%!important;
-  height:100%!important;
-  background-image:url("https://aurel-assets-20260929.floot.app/_cdn/static/1ca5d977-d352-4adb-83b7-0b33b38cdd7b-aurel-bank.jpg")!important;
-  background-repeat:no-repeat!important;
-  background-position:right center!important;
-  background-size:auto 100%!important;
-  opacity:1!important;
-  pointer-events:none!important;
-  -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.22) 13%,#000 32%,#000 100%)!important;
-  mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.22) 13%,#000 32%,#000 100%)!important;
-}
-.ref-bank-banner:after{
-  content:""!important;
-  position:absolute!important;
-  z-index:2!important;
-  inset:0!important;
-  background:linear-gradient(90deg,rgba(8,49,84,.98) 0%,rgba(8,57,91,.90) 38%,rgba(8,65,96,.36) 56%,transparent 76%)!important;
-  pointer-events:none!important;
-}
-.ref-bank-banner>*{
-  position:relative!important;
-  z-index:4!important;
-}
-.ref-market-art{display:none!important}
-
-/* ===== SIDEBAR ===== */
-@media(min-width:761px){
-  .sidebar{
-    position:fixed!important;
-    top:0!important;
-    left:0!important;
-    bottom:0!important;
-    width:278px!important;
-    height:100vh!important;
-    overflow:hidden!important;
-    background:
-      linear-gradient(165deg,rgba(17,108,232,.10) 0 31%,transparent 31% 100%),
-      linear-gradient(180deg,#041A31 0%,#05243F 62%,#062A49 100%)!important;
-  }
-
-  /* City artwork is confined to the bottom and softly feathered upward. */
-  .sidebar:before{
+  .sidebar::after{
     content:""!important;
-    display:block!important;
     position:absolute!important;
-    z-index:0!important;
     left:0!important;
     right:0!important;
     bottom:0!important;
-    top:auto!important;
-    width:100%!important;
-    height:245px!important;
-    background-image:url("https://aurel-assets-20260929.floot.app/_cdn/static/f9fc0ca9-71b3-45a0-9eb5-d10434227020-aurel-sidebar.jpg")!important;
-    background-repeat:no-repeat!important;
-    background-position:center bottom!important;
-    background-size:100% auto!important;
-    opacity:.96!important;
-    pointer-events:none!important;
-    -webkit-mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.12) 10%,rgba(0,0,0,.60) 30%,#000 53%,#000 100%)!important;
-    mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.12) 10%,rgba(0,0,0,.60) 30%,#000 53%,#000 100%)!important;
-  }
-
-  /* Dark veil only over the top edge of the city, not over the whole sidebar. */
-  .sidebar:after{
-    content:""!important;
-    display:block!important;
-    position:absolute!important;
+    height:290px!important;
     z-index:1!important;
-    left:0!important;
-    right:0!important;
-    bottom:0!important;
-    top:auto!important;
-    height:285px!important;
     background:linear-gradient(180deg,
-      #062A49 0%,
-      rgba(6,42,73,.78) 12%,
-      rgba(5,38,66,.32) 31%,
-      rgba(4,31,55,.06) 58%,
-      rgba(3,24,44,.12) 100%)!important;
+      rgba(6,42,73,.82) 0%,
+      rgba(6,42,73,.36) 28%,
+      rgba(4,31,55,.08) 58%,
+      rgba(3,23,42,.14) 100%)!important;
     pointer-events:none!important;
   }
-
-  .sidebar .brand,
-  .sidebar .menu-title,
-  .sidebar .nav{
-    position:relative!important;
-    z-index:5!important;
-  }
-
-  .brand{
-    background:rgba(3,25,45,.72)!important;
-    backdrop-filter:blur(3px)!important;
-  }
-
-  .nav button{
-    backdrop-filter:none!important;
-  }
-  .nav button.active{
-    background:linear-gradient(100deg,#155EE1 0%,#0C91EA 100%)!important;
-  }
-
+  .sidebar .brand,.sidebar .menu-title,.sidebar .nav{position:relative!important;z-index:4!important}
+  .brand{background:rgba(3,25,45,.72)!important;backdrop-filter:blur(3px)!important}
+  .nav button{backdrop-filter:none!important}
   .main{
     margin-left:278px!important;
     width:calc(100% - 278px)!important;
+    min-height:100vh!important;
   }
 }
 
-/* kill older decorative layers */
 #root>.page-head:has(+ .hero){display:none!important}
 .hero:not(.ref-hero){display:none!important}
 .grid.metrics{display:none!important}
 
 @media(max-width:1050px){
-  .ref-hero:before{width:71%!important}
-  .ref-hero-copy{padding-right:37%!important}
+  .ref-hero-copy{padding-right:35%!important}
 }
 @media(max-width:760px){
+  .sidebar{display:none!important;position:static!important}
+  .main{margin-left:0!important;width:100%!important}
   .ref-hero-copy{
     padding:30px 22px 18px!important;
+    background:linear-gradient(90deg,rgba(4,25,46,.96),rgba(4,25,46,.70),transparent)!important;
   }
-  .ref-hero:before{
-    width:100%!important;
-    opacity:.48!important;
-  }
-  .ref-hero:after{
-    background:linear-gradient(90deg,rgba(4,25,46,.98),rgba(4,25,46,.72),rgba(4,25,46,.28))!important;
-  }
-  .ref-bank-banner:before{
-    width:78%!important;
-    opacity:.58!important;
-  }
+  .ref-bank-banner{background-position:64% center!important}
 }
 </style>
 </head><body>
