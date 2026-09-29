@@ -4845,42 +4845,7 @@ body{background:#edf5fa!important}
 }
 .ref-market-art{display:none!important}
 
-/* On Overview only, use the newly approved full sidebar image.
-   Existing live nav stays on top as invisible hit areas, so clicks still work.
-   Other pages instantly fall back to the normal live sidebar. */
-@media(min-width:761px){
-  .sidebar:has(#nav button[data-page="overview"].active){
-    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/a4cf8819-e37f-441b-bef5-71c1ec278cfd-aurel-r43-sidebar-redesign.png") center center/100% 100% no-repeat!important;
-    border-right:1px solid rgba(65,190,255,.20)!important;
-    box-shadow:10px 0 28px rgba(2,21,38,.14)!important;
-  }
-
-  .sidebar:has(#nav button[data-page="overview"].active)::before,
-  .sidebar:has(#nav button[data-page="overview"].active)::after{
-    content:none!important;
-  }
-
-  .sidebar:has(#nav button[data-page="overview"].active) .brand,
-  .sidebar:has(#nav button[data-page="overview"].active) > .menu-title,
-  .sidebar:has(#nav button[data-page="overview"].active) .nav button,
-  .sidebar:has(#nav button[data-page="overview"].active) .nav .menu-title,
-  .sidebar:has(#nav button[data-page="overview"].active) .sidebar-bottom{
-    opacity:0!important;
-  }
-
-  .sidebar:has(#nav button[data-page="overview"].active) .nav,
-  .sidebar:has(#nav button[data-page="overview"].active) .brand{
-    pointer-events:auto!important;
-  }
-
-  .sidebar:has(#nav button[data-page="overview"].active) .nav button{
-    pointer-events:auto!important;
-    cursor:pointer!important;
-    background:transparent!important;
-    border-color:transparent!important;
-    box-shadow:none!important;
-  }
-}
+/* R45: removed obsolete static-sidebar overlay from R43; live R44 sidebar owns navigation visuals. */
 
 @media(max-width:1100px){
   .ref-bank-banner{padding-right:38%!important}
@@ -5126,6 +5091,52 @@ body{background:#edf5fa!important}
 @media(max-width:760px){
   .sidebar{
     display:none!important;
+  }
+}
+</style>
+
+<style id="AUREL_R45_SIDEBAR_RESTORE">
+/* R45 — hard restore live sidebar UI above decorative city artwork. */
+@media(min-width:761px){
+  .sidebar .brand,
+  .sidebar > .menu-title,
+  .sidebar .nav,
+  .sidebar .nav .menu-title,
+  .sidebar .nav button,
+  .sidebar .nav button *,
+  .sidebar .brand *{
+    opacity:1!important;
+    visibility:visible!important;
+  }
+
+  .sidebar .brand,
+  .sidebar > .menu-title,
+  .sidebar .nav{
+    display:flex!important;
+    pointer-events:auto!important;
+  }
+
+  .sidebar > .menu-title{
+    display:block!important;
+  }
+
+  .sidebar .nav{
+    flex-direction:column!important;
+  }
+
+  .sidebar .nav .menu-title{
+    display:block!important;
+  }
+
+  .sidebar .nav button{
+    display:flex!important;
+    pointer-events:auto!important;
+  }
+
+  .sidebar{
+    background:
+      linear-gradient(154deg,rgba(26,111,229,.10) 0 31%,transparent 31% 100%),
+      linear-gradient(180deg,#03182d 0%,#05233f 58%,#062b4c 100%)!important;
   }
 }
 </style>
