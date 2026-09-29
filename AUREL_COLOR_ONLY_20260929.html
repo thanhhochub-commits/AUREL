@@ -4200,6 +4200,268 @@ thead{background:#EDF4FA!important}
 
 @media(max-width:1100px){.ref-kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ref-lower-grid{grid-template-columns:1fr}.ref-hero-copy{padding-right:38%}.ref-hero-side{display:none}}
 @media(max-width:760px){.page{padding:14px!important}.ref-hero{min-height:300px;background-position:65% center!important}.ref-hero-copy{padding:30px 22px 18px;background:linear-gradient(90deg,rgba(5,27,49,.95),rgba(5,27,49,.55),transparent)}.ref-hero h1{font-size:34px}.ref-feature-row{max-width:80%}.ref-bank-banner{padding:20px}.ref-market-art{opacity:.18;width:70%}.ref-kpi-grid{grid-template-columns:1fr}.ref-key-row{grid-template-columns:130px 1fr 80px}.ref-tools{display:none}}
+
+/* AUREL R28 PIXEL-CLOSE REFERENCE LAYOUT */
+:root{
+  --r28-navy:#061E35;
+  --r28-navy2:#072947;
+  --r28-blue:#126BFF;
+  --r28-cyan:#23C9F4;
+  --r28-teal:#13BDB6;
+  --r28-green:#2AC95A;
+  --r28-red:#F04455;
+  --r28-gold:#F6B826;
+  --r28-bg:#EEF5FB;
+  --r28-ink:#0B2A49;
+  --r28-line:#C7DBEA;
+}
+
+body{background:#EAF3FA!important;color:var(--r28-ink)!important}
+.shell{grid-template-columns:278px minmax(0,1fr)!important}
+.main{background:linear-gradient(180deg,#F7FAFD 0%,#EDF5FA 100%)!important}
+
+/* Sidebar - closely follows reference */
+.sidebar{
+  width:278px!important;
+  padding:0!important;
+  background:
+    linear-gradient(155deg,rgba(16,110,255,.12) 0 34%,transparent 34% 100%),
+    linear-gradient(180deg,#041A31 0%,#052540 55%,#062B4D 100%)!important;
+  border-right:1px solid rgba(68,165,255,.17)!important;
+  box-shadow:12px 0 34px rgba(3,21,38,.15)!important;
+  overflow:hidden!important;
+}
+.sidebar:before{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;right:0!important;bottom:0!important;
+  height:255px!important;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 260 210'%3E%3Cg fill='none' stroke-linecap='round'%3E%3Cpath d='M0 181h260' stroke='%2325C7FF' stroke-opacity='.28'/%3E%3Cpath d='M15 181v-62h26v62M46 181v-95h18v95M69 181v-48h24v48M99 181v-111h22v111M126 181v-76h20v76M151 181v-125h28v125M185 181v-57h20v57M211 181v-88h22v88M237 181v-39h14v39' stroke='%2325C7FF' stroke-opacity='.48' stroke-width='2'/%3E%3Cpath d='M18 170 31 148l12 12 17-31 15 20 24-43 18 23 19-41 27 26 18-20 24 28 16-13 30 31' stroke='%23F4B62A' stroke-opacity='.65' stroke-width='2.5'/%3E%3Cpath d='M0 194c36-15 74-18 111-12 54 9 84 4 149-10' stroke='%2316B8FF' stroke-opacity='.32' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E") center bottom/100% 100% no-repeat!important;
+  opacity:.95!important;
+  pointer-events:none!important;
+}
+.sidebar:after{
+  content:"AUREL\A FINANCIAL INTELLIGENCE"!important;
+  white-space:pre!important;
+  position:absolute!important;
+  left:0!important;right:0!important;bottom:28px!important;
+  text-align:center!important;
+  color:#C7E2F7!important;
+  font-size:10px!important;
+  line-height:1.65!important;
+  letter-spacing:2.2px!important;
+  font-weight:800!important;
+  opacity:.78!important;
+  pointer-events:none!important;
+}
+.brand{
+  height:92px!important;
+  padding:18px 20px!important;
+  margin:0 0 8px!important;
+  border-bottom:1px solid rgba(171,213,240,.12)!important;
+}
+.brand-mark{
+  width:48px!important;height:48px!important;border-radius:14px!important;
+  box-shadow:0 10px 26px rgba(7,76,142,.28)!important;
+}
+.brand-title{font-size:19px!important;letter-spacing:2px!important;font-weight:950!important}
+.brand-desc{font-size:9.5px!important;letter-spacing:1.9px!important;color:#BBD1E0!important}
+.menu-title{margin:20px 29px 10px!important;color:#90B6D0!important;font-size:10px!important}
+.nav{padding:0 10px!important;gap:5px!important;position:relative!important;z-index:2!important}
+.nav button{
+  min-height:48px!important;
+  border-radius:12px!important;
+  padding:0 16px!important;
+  gap:14px!important;
+  margin:0!important;
+  color:#DCE9F3!important;
+  font-size:13px!important;
+  font-weight:650!important;
+}
+.nav button svg{width:20px!important;height:20px!important;color:#9DD5F5!important}
+.nav button.active{
+  background:linear-gradient(100deg,#125AE3 0%,#0C8DEB 100%)!important;
+  border:1px solid #42D6FF!important;
+  box-shadow:inset 3px 0 #78EEFF,0 8px 22px rgba(14,118,255,.28)!important;
+}
+.nav button.active svg{color:#fff!important}
+.sidebar-bottom{display:none!important}
+
+/* Topbar like reference */
+.topbar{
+  height:86px!important;
+  padding:0 22px 0 28px!important;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 100'%3E%3Cg fill='none'%3E%3Cpath d='M10 84 96 47l46 19 79-54 62 49 60-40 67 51 54-26 71 37' stroke='%239BC7FF' stroke-opacity='.30' stroke-width='2.2'/%3E%3Cpath d='M0 91c89-16 162-8 228 3 83 14 159 7 249-9 62-11 112-11 163-5' stroke='%2356B2FF' stroke-opacity='.16' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E") center bottom/560px 86px no-repeat,
+    #FFFFFF!important;
+  border-bottom:1px solid #D6E3ED!important;
+  box-shadow:0 5px 18px rgba(14,52,80,.06)!important;
+}
+.crumb{gap:14px!important}
+.crumb-icon{
+  width:52px!important;height:52px!important;padding:0!important;
+  display:grid!important;place-items:center!important;
+  border-radius:13px!important;
+  background:linear-gradient(180deg,#EFF5FF,#E7F0FF)!important;
+  border:1px solid #C9DCF7!important;
+  color:#126BFF!important;
+}
+.crumb-icon svg{width:23px!important;height:23px!important}
+.crumb strong{font-size:15px!important;color:#0A2947!important;font-weight:950!important}
+.crumb small{font-size:10px!important;color:#6D89A0!important;letter-spacing:.5px!important}
+.controls.ref-controls{gap:10px!important}
+.ref-control{
+  min-width:156px!important;height:48px!important;
+  border:1px solid #C7D9E7!important;border-radius:12px!important;
+  box-shadow:0 4px 14px rgba(20,65,95,.05)!important;
+  padding:0 10px 0 14px!important;
+}
+.ref-control>svg{width:21px!important;height:21px!important;color:#126BFF!important}
+.ref-control select{font-size:13px!important;font-weight:850!important;color:#0B2A49!important}
+.ref-controls .status-pill{
+  height:48px!important;padding:0 17px!important;border-radius:12px!important;
+  font-size:11.5px!important;
+  background:#E3F9EF!important;color:#0A8F59!important;border:1px solid #AADFC6!important;
+}
+.ref-tools{display:flex!important;gap:8px!important}
+.ref-tools button{
+  width:42px!important;height:42px!important;border-radius:50%!important;
+  color:#126BFF!important;border:1px solid #D7E3EC!important;
+}
+.ref-tools button.user{background:#126BFF!important;color:#fff!important;border-color:#126BFF!important}
+
+/* Page width / spacing */
+.page{max-width:1380px!important;padding:18px 22px 52px!important}
+
+/* Hero exactly follows reference composition */
+.ref-hero{
+  min-height:286px!important;
+  margin:0 0 14px!important;
+  border-radius:15px!important;
+  border:1px solid #164A74!important;
+  background:
+    linear-gradient(90deg,rgba(3,19,38,.98) 0%,rgba(4,29,52,.90) 36%,rgba(6,37,67,.30) 58%,rgba(6,30,54,.02) 79%),
+    url("assets/aurel_dragon_ai.webp") right center/auto 100% no-repeat,
+    #061F3B!important;
+  box-shadow:0 14px 32px rgba(4,32,58,.18)!important;
+}
+.ref-hero:before{
+  background:
+    radial-gradient(circle at 74% 28%,rgba(28,127,255,.17),transparent 28%),
+    radial-gradient(circle at 85% 62%,rgba(246,184,38,.10),transparent 16%),
+    linear-gradient(145deg,rgba(35,201,244,.05),transparent 40%)!important;
+}
+.ref-hero-copy{padding:43px 41% 18px 42px!important}
+.ref-kicker{font-size:10px!important;letter-spacing:2.4px!important;color:#F6B826!important}
+.ref-hero h1{font-size:46px!important;line-height:1.02!important;letter-spacing:-1.8px!important;margin:14px 0 12px!important}
+.ref-hero h1 span{background:linear-gradient(90deg,#2DD5F4 0%,#5AA0FF 100%)!important;-webkit-background-clip:text!important;background-clip:text!important}
+.ref-hero p{font-size:14px!important;color:#D7E7F2!important;margin-bottom:26px!important}
+.ref-feature-row{gap:10px!important;flex-wrap:nowrap!important}
+.ref-feature-row span{
+  height:40px!important;
+  min-width:0!important;
+  padding:0 13px!important;
+  border-radius:9px!important;
+  background:rgba(5,29,53,.72)!important;
+  border:1px solid rgba(132,201,240,.16)!important;
+  font-size:11px!important;
+}
+.ref-feature-row span+span{border-left-color:rgba(255,255,255,.06)!important}
+.ref-feature-row svg{color:#F6B826!important}
+.ref-hero-side{
+  right:26px!important;top:46px!important;gap:7px!important;
+  font-size:9px!important;letter-spacing:2.1px!important;color:#A8B9CB!important;
+}
+.ref-hero-side i{background:#F6B826!important;width:46px!important}
+
+/* Bank banner */
+.ref-bank-banner{
+  min-height:122px!important;
+  padding:22px 43% 20px 38px!important;
+  background:linear-gradient(100deg,#0A3154 0%,#0A4D72 58%,#0A6972 100%)!important;
+  border:1px solid #246A8C!important;
+  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
+}
+.ref-bank-kicker{font-size:10px!important;color:#CEE7F2!important}
+.ref-bank-banner h2{font-size:24px!important;margin:10px 0 7px!important}
+.ref-bank-banner p{font-size:12px!important}
+.ref-market-art{width:44%!important;opacity:.92!important}
+
+/* KPI row matching reference cards */
+.ref-kpi-grid{gap:10px!important;margin-bottom:14px!important}
+.ref-kpi{
+  min-height:116px!important;
+  padding:16px 50px 14px 66px!important;
+  border-radius:12px!important;
+  border:1px solid #C5D8E7!important;
+  box-shadow:0 8px 20px rgba(14,54,82,.06)!important;
+}
+.ref-kpi:before{height:4px!important}
+.ref-kpi-icon{
+  left:14px!important;top:17px!important;
+  width:40px!important;height:40px!important;border-radius:10px!important;
+}
+.ref-kpi.blue .ref-kpi-icon{background:#EAF2FF!important;border-color:#CFE0FF!important}
+.ref-kpi.cyan .ref-kpi-icon{background:#E7FBFD!important;border-color:#C7EEF2!important}
+.ref-kpi.green .ref-kpi-icon{background:#EAF9EF!important;border-color:#C9EED5!important}
+.ref-kpi.red .ref-kpi-icon{background:#FFF0F2!important;border-color:#FFD3D9!important}
+.ref-kpi-label{font-size:11px!important}
+.ref-kpi-number{font-size:27px!important}
+.ref-kpi-change{font-size:10.5px!important;margin-top:10px!important}
+.ref-spark{right:11px!important;top:31px!important;width:34px!important;height:34px!important}
+
+/* Lower panels / proportions */
+.ref-lower-grid{
+  grid-template-columns:minmax(0,1.55fr) minmax(390px,1fr)!important;
+  gap:14px!important;
+}
+.ref-chart-panel,.ref-key-panel{
+  min-height:264px!important;
+  padding:16px 18px 14px!important;
+  border-radius:13px!important;
+  border:1px solid #C7D9E7!important;
+  background:#fff!important;
+  box-shadow:0 8px 20px rgba(14,54,82,.055)!important;
+}
+.ref-panel-title h2{font-size:15px!important}
+.ref-chart-select select{min-width:190px!important;height:34px!important}
+.ref-overview-chart{height:224px!important}
+.ref-bar{fill:#75A5FA!important;opacity:.82!important}
+.ref-line{stroke:#126BFF!important;stroke-width:2.5!important}
+.ref-dot{fill:#126BFF!important}
+.ref-key-list{gap:14px!important;padding-top:6px!important}
+.ref-key-row{grid-template-columns:150px 1fr 92px!important}
+.ref-key-track{height:12px!important}
+.ref-key-row strong{font-size:12.5px!important}
+
+/* prevent legacy overview styles from interfering */
+#root>.page-head:has(+ .hero){display:none!important}
+.hero:not(.ref-hero){display:none!important}
+.grid.metrics{display:none!important}
+
+@media(max-width:1180px){
+  .shell{grid-template-columns:245px minmax(0,1fr)!important}
+  .sidebar{width:245px!important}
+  .ref-feature-row{flex-wrap:wrap!important}
+  .ref-lower-grid{grid-template-columns:1fr!important}
+}
+@media(max-width:900px){
+  .ref-tools{display:none!important}
+  .ref-hero{background-position:62% center!important}
+  .ref-hero-copy{padding-right:34%!important}
+}
+@media(max-width:760px){
+  .shell{grid-template-columns:1fr!important}
+  .sidebar{display:none!important}
+  .page{padding:12px!important}
+  .ref-hero{min-height:300px!important;background-position:58% center!important}
+  .ref-hero-copy{padding:30px 22px 18px!important;background:linear-gradient(90deg,rgba(5,27,49,.96),rgba(5,27,49,.68),transparent)!important}
+  .ref-hero h1{font-size:34px!important}
+  .ref-feature-row{max-width:86%!important}
+  .ref-kpi-grid{grid-template-columns:1fr!important}
+  .ref-bank-banner{padding:20px!important}
+  .ref-market-art{opacity:.24!important}
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
