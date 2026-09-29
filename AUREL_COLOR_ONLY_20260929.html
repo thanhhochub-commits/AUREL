@@ -2887,6 +2887,182 @@ td:first-child{color:#173A55!important}
     font-size:11.5px!important;
   }
 }
+
+/* AUREL R19 FINANCIAL VISUAL LAYER */
+
+/* Subtle background rhythm across the whole application. */
+.main{
+  background-image:
+    radial-gradient(circle at 18px 18px,rgba(37,99,235,.035) 1.2px,transparent 1.3px),
+    linear-gradient(180deg,#F0F5F9 0%,#E7EFF5 100%)!important;
+  background-size:36px 36px,auto!important;
+}
+
+/* Overview: financial chart watermark. */
+.hero:before{
+  content:"";
+  position:absolute;
+  right:30px;
+  bottom:16px;
+  width:245px;
+  height:142px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20260%20150%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Cpath%20d%3D%22M18%20126H244M18%2024V126%22%20stroke%3D%22%239CC3DE%22%20stroke-width%3D%222%22%2F%3E%0A%3Cpath%20d%3D%22M31%20108L68%2082L103%2094L142%2054L181%2068L225%2032%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%225%22%2F%3E%0A%3Cpath%20d%3D%22M31%20108L68%2082L103%2094L142%2054L181%2068L225%2032V126H31Z%22%20fill%3D%22%232563EB%22%20fill-opacity%3D%22.11%22%20stroke%3D%22none%22%2F%3E%0A%3Ccircle%20cx%3D%2268%22%20cy%3D%2282%22%20r%3D%225%22%20fill%3D%22%230F8B8D%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cx%3D%22142%22%20cy%3D%2254%22%20r%3D%225%22%20fill%3D%22%23F59E0B%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cx%3D%22225%22%20cy%3D%2232%22%20r%3D%225%22%20fill%3D%22%230F8B8D%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%2F%3E%0A%3Cpath%20d%3D%22M44%20126V101M87%20126V109M130%20126V91M173%20126V73M216%20126V86%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%228%22%20opacity%3D%22.65%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  opacity:.24;
+  pointer-events:none;
+  z-index:0;
+}
+.hero>*{position:relative;z-index:1}
+
+/* Analysis: small chart visual in the trend section. */
+.analysis-trend{position:relative;overflow:hidden}
+.analysis-trend:before{
+  content:"";
+  position:absolute;
+  right:20px;
+  top:18px;
+  width:120px;
+  height:70px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20260%20150%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Cpath%20d%3D%22M18%20126H244M18%2024V126%22%20stroke%3D%22%239CC3DE%22%20stroke-width%3D%222%22%2F%3E%0A%3Cpath%20d%3D%22M31%20108L68%2082L103%2094L142%2054L181%2068L225%2032%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%225%22%2F%3E%0A%3Cpath%20d%3D%22M31%20108L68%2082L103%2094L142%2054L181%2068L225%2032V126H31Z%22%20fill%3D%22%232563EB%22%20fill-opacity%3D%22.11%22%20stroke%3D%22none%22%2F%3E%0A%3Ccircle%20cx%3D%2268%22%20cy%3D%2282%22%20r%3D%225%22%20fill%3D%22%230F8B8D%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cx%3D%22142%22%20cy%3D%2254%22%20r%3D%225%22%20fill%3D%22%23F59E0B%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cx%3D%22225%22%20cy%3D%2232%22%20r%3D%225%22%20fill%3D%22%230F8B8D%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%2F%3E%0A%3Cpath%20d%3D%22M44%20126V101M87%20126V109M130%20126V91M173%20126V73M216%20126V86%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%228%22%20opacity%3D%22.65%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.07;
+  pointer-events:none;
+}
+
+/* Comparison: two-bank visual behind the insight card. */
+.compare-insight{position:relative;overflow:hidden}
+.compare-insight:after{
+  content:"";
+  position:absolute;
+  right:12px;
+  bottom:10px;
+  width:145px;
+  height:92px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20220%20130%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Crect%20x%3D%2220%22%20y%3D%2228%22%20width%3D%2272%22%20height%3D%2278%22%20rx%3D%2214%22%20stroke%3D%22%2360A5FA%22%20stroke-width%3D%223%22%2F%3E%0A%3Crect%20x%3D%22128%22%20y%3D%2228%22%20width%3D%2272%22%20height%3D%2278%22%20rx%3D%2214%22%20stroke%3D%22%235EEAD4%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M41%2084h31M41%2068h18M41%2052h38%22%20stroke%3D%22%2360A5FA%22%20stroke-width%3D%225%22%2F%3E%0A%3Cpath%20d%3D%22M149%2084h30M149%2068h38M149%2052h21%22%20stroke%3D%22%235EEAD4%22%20stroke-width%3D%225%22%2F%3E%0A%3Cpath%20d%3D%22M96%2054h28l-8-8M124%2080H96l8%208%22%20stroke%3D%22%23FBBF24%22%20stroke-width%3D%224%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.16;
+  pointer-events:none;
+}
+.compare-insight>*{position:relative;z-index:1}
+
+/* Risk monitoring: radar + shield. */
+.bank-monitor-hero:before{
+  content:"";
+  position:absolute;
+  right:245px;
+  top:10px;
+  width:150px;
+  height:150px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20180%20180%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2267%22%20stroke%3D%22%2360A5FA%22%20stroke-width%3D%222%22%20opacity%3D%22.75%22%2F%3E%0A%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2245%22%20stroke%3D%22%235EEAD4%22%20stroke-width%3D%222%22%20opacity%3D%22.75%22%2F%3E%0A%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2222%22%20stroke%3D%22%23FBBF24%22%20stroke-width%3D%222%22%20opacity%3D%22.75%22%2F%3E%0A%3Cpath%20d%3D%22M90%2021v15M90%20144v15M21%2090h15M144%2090h15%22%20stroke%3D%22%2393C5FD%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M90%2055l29%2012v23c0%2022-15%2035-29%2042-14-7-29-20-29-42V67l29-12Z%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%225%22%2F%3E%0A%3Cpath%20d%3D%22m78%2090%208%208%2017-20%22%20stroke%3D%22%235EEAD4%22%20stroke-width%3D%225%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.20;
+  pointer-events:none;
+}
+.bank-monitor-hero>*{position:relative;z-index:1}
+
+/* Scenario: branching scenario tree as an empty-space watermark. */
+.scenario-results{position:relative;overflow:hidden}
+.scenario-results:before{
+  content:"";
+  position:absolute;
+  right:18px;
+  bottom:16px;
+  width:190px;
+  height:116px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20230%20140%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Ccircle%20cx%3D%2235%22%20cy%3D%2270%22%20r%3D%2214%22%20fill%3D%22%23DBEAFE%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22115%22%20cy%3D%2235%22%20r%3D%2213%22%20fill%3D%22%23CCFBF1%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22115%22%20cy%3D%22105%22%20r%3D%2213%22%20fill%3D%22%23FEF3C7%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22195%22%20cy%3D%2222%22%20r%3D%2210%22%20fill%3D%22%23DBEAFE%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22195%22%20cy%3D%2260%22%20r%3D%2210%22%20fill%3D%22%23CCFBF1%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22195%22%20cy%3D%2299%22%20r%3D%2210%22%20fill%3D%22%23FEF3C7%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22195%22%20cy%3D%22126%22%20r%3D%2210%22%20fill%3D%22%23FEE2E2%22%20stroke%3D%22%23DC2626%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M49%2064%20101%2041M49%2076l52%2023M128%2031l57-7M128%2040l57%2018M128%20101l57-2M128%20108l57%2016%22%20stroke%3D%22%237395AA%22%20stroke-width%3D%223%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.085;
+  pointer-events:none;
+}
+.scenario-results>*{position:relative;z-index:1}
+
+/* Data source: document + database illustration inside the upload area. */
+.upload-panel{position:relative;overflow:hidden}
+.drop{position:relative;overflow:hidden}
+.drop:after{
+  content:"";
+  position:absolute;
+  right:10px;
+  bottom:5px;
+  width:120px;
+  height:82px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20220%20150%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Cpath%20d%3D%22M34%2022h75l25%2025v81H34Z%22%20fill%3D%22%23EFF6FF%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M109%2022v26h25M52%2070h60M52%2088h47M52%20106h36%22%20stroke%3D%22%2360A5FA%22%20stroke-width%3D%225%22%2F%3E%0A%3Cellipse%20cx%3D%22169%22%20cy%3D%2266%22%20rx%3D%2231%22%20ry%3D%2212%22%20fill%3D%22%23ECFDF5%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M138%2066v49c0%207%2014%2012%2031%2012s31-5%2031-12V66M138%2090c0%207%2014%2012%2031%2012s31-5%2031-12%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M117%20118c15%200%2021-6%2028-14%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%224%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.085;
+  pointer-events:none;
+}
+
+/* AI: node network / insight sparkle. */
+.ai-key-panel:after{
+  content:"";
+  position:absolute;
+  right:20px;
+  bottom:10px;
+  width:155px;
+  height:100px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20220%20140%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Ccircle%20cx%3D%22106%22%20cy%3D%2269%22%20r%3D%2229%22%20fill%3D%22%23EEF2FF%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%2244%22%20cy%3D%2230%22%20r%3D%228%22%20fill%3D%22%23CCFBF1%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%2240%22%20cy%3D%22108%22%20r%3D%228%22%20fill%3D%22%23FEF3C7%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22181%22%20cy%3D%2229%22%20r%3D%228%22%20fill%3D%22%23DBEAFE%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22185%22%20cy%3D%22109%22%20r%3D%228%22%20fill%3D%22%23CCFBF1%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M52%2034%2078%2051M48%20104l31-18M174%2034l-40%2022M177%20105l-43-20%22%20stroke%3D%22%238AA5B8%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22m106%2050%205%2013%2013%205-13%205-5%2013-5-13-13-5%2013-5%205-13Z%22%20fill%3D%22%23F59E0B%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%222%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.09;
+  pointer-events:none;
+}
+.ai-key-panel>*{position:relative;z-index:1}
+
+/* Report: report + mail illustration. */
+.report-mail-card{position:relative;overflow:hidden}
+.report-mail-card:after{
+  content:"";
+  position:absolute;
+  right:14px;
+  bottom:12px;
+  width:155px;
+  height:100px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20230%20150%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Cpath%20d%3D%22M28%2020h86l26%2026v84H28Z%22%20fill%3D%22%23F8FBFF%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M114%2020v27h26M48%2069h69M48%2088h55M48%20107h66%22%20stroke%3D%22%237CA9CC%22%20stroke-width%3D%225%22%2F%3E%0A%3Crect%20x%3D%22129%22%20y%3D%2263%22%20width%3D%2278%22%20height%3D%2254%22%20rx%3D%2210%22%20fill%3D%22%23ECFDF5%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22m136%2072%2032%2024%2032-24%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22m136%20108%2022-18M200%20108l-22-18%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22184%22%20cy%3D%2242%22%20r%3D%2212%22%20fill%3D%22%23FEF3C7%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M184%2036v12M178%2042h12%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.075;
+  pointer-events:none;
+}
+.report-mail-card>*{position:relative;z-index:1}
+
+/* Empty states get a soft document motif instead of blank white space. */
+.empty-panel{position:relative;overflow:hidden}
+.empty-panel:after{
+  content:"";
+  position:absolute;
+  right:12px;
+  bottom:-8px;
+  width:86px;
+  height:60px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20220%20150%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Cpath%20d%3D%22M34%2022h75l25%2025v81H34Z%22%20fill%3D%22%23EFF6FF%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M109%2022v26h25M52%2070h60M52%2088h47M52%20106h36%22%20stroke%3D%22%2360A5FA%22%20stroke-width%3D%225%22%2F%3E%0A%3Cellipse%20cx%3D%22169%22%20cy%3D%2266%22%20rx%3D%2231%22%20ry%3D%2212%22%20fill%3D%22%23ECFDF5%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M138%2066v49c0%207%2014%2012%2031%2012s31-5%2031-12V66M138%2090c0%207%2014%2012%2031%2012s31-5%2031-12%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M117%20118c15%200%2021-6%2028-14%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%224%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.055;
+  pointer-events:none;
+}
+
+/* Keep visuals supportive, not dominant, on smaller screens. */
+@media(max-width:1000px){
+  .hero:before{width:180px;height:105px;opacity:.16}
+  .bank-monitor-hero:before{right:20px;top:14px;opacity:.12}
+  .compare-insight:after{opacity:.10}
+}
+@media(max-width:720px){
+  .hero:before,
+  .analysis-trend:before,
+  .bank-monitor-hero:before,
+  .scenario-results:before,
+  .ai-key-panel:after,
+  .report-mail-card:after{display:none}
+  .drop:after{opacity:.05;width:90px;height:60px}
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
