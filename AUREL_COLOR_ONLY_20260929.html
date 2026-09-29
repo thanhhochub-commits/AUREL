@@ -3641,6 +3641,111 @@ thead{background:#EDF4FA!important}
     background-position:center,58% center!important;
   }
 }
+
+/* AUREL R25 VISIBLE STATIC DRAGON FIX */
+
+/* Clean header bar */
+.topbar{
+  background:#FFFFFF!important;
+  background-image:none!important;
+  border-bottom:1px solid #D5E2EB!important;
+  box-shadow:0 4px 16px rgba(16,42,63,.06)!important;
+}
+.topbar:before{display:none!important}
+.topbar:after{
+  height:3px!important;
+  background:linear-gradient(90deg,#2374FF 0%,#19C8DF 40%,#0EB4A8 72%,#F4B62A 100%)!important;
+  opacity:.42!important;
+}
+
+/* Main overview hero */
+#root>.page-head:has(+ .hero){
+  position:relative!important;
+  overflow:hidden!important;
+  isolation:isolate!important;
+  background:
+    radial-gradient(circle at 76% 38%,rgba(35,116,255,.18),transparent 28%),
+    radial-gradient(circle at 88% 70%,rgba(14,180,168,.12),transparent 22%),
+    linear-gradient(105deg,#061E36 0%,#082B49 48%,#0A3859 100%)!important;
+  border:1px solid #164D76!important;
+  box-shadow:0 18px 40px rgba(6,34,61,.18)!important;
+}
+
+/* Real static dragon artwork. Kept separate from the background so it cannot disappear under gradients. */
+#root>.page-head:has(+ .hero):before{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  z-index:0!important;
+  right:24px!important;
+  top:8px!important;
+  bottom:8px!important;
+  width:43%!important;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Dragon_from_Chinese_Dragon_Banner.svg")!important;
+  background-repeat:no-repeat!important;
+  background-size:contain!important;
+  background-position:center right!important;
+  opacity:.78!important;
+  filter:saturate(.85) brightness(1.13) contrast(1.08)!important;
+  pointer-events:none!important;
+}
+
+/* Soft halo behind the dragon for separation */
+#root>.page-head:has(+ .hero){
+  --dragon-halo:rgba(56,189,248,.13);
+}
+#root>.page-head:has(+ .hero) h1,
+#root>.page-head:has(+ .hero) p,
+#root>.page-head:has(+ .hero) .eyebrow{
+  position:relative!important;
+  z-index:2!important;
+}
+#root>.page-head:has(+ .hero) h1{
+  color:#FFFFFF!important;
+  text-shadow:0 4px 16px rgba(0,0,0,.28)!important;
+}
+#root>.page-head:has(+ .hero) p{
+  color:#D8E8F2!important;
+}
+#root>.page-head:has(+ .hero) .eyebrow{
+  color:#F4B62A!important;
+}
+
+/* Keep footer strip above artwork */
+#root>.page-head:has(+ .hero):after{
+  z-index:3!important;
+  color:#D5E8F3!important;
+  border-top-color:rgba(201,229,246,.22)!important;
+}
+
+/* Secondary banner stays simple and does not try to draw another dragon. */
+.hero{
+  background:
+    radial-gradient(circle at 82% 50%,rgba(25,200,223,.12),transparent 25%),
+    linear-gradient(105deg,#082D4B 0%,#0C4C70 62%,#0B6171 100%)!important;
+}
+.hero:before{
+  content:""!important;
+  background:none!important;
+  background-image:none!important;
+  opacity:0!important;
+}
+.hero:after{opacity:.20!important}
+
+@media(max-width:900px){
+  #root>.page-head:has(+ .hero):before{
+    width:48%!important;
+    right:-5%!important;
+    opacity:.52!important;
+  }
+}
+@media(max-width:650px){
+  #root>.page-head:has(+ .hero):before{
+    width:58%!important;
+    right:-15%!important;
+    opacity:.35!important;
+  }
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
