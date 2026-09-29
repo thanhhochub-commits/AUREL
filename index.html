@@ -5031,212 +5031,9 @@ body{background:#edf5fa!important}
 }
 </style>
 
-<style id="AUREL_VPB_SECOND_BANNER_EXACT">
-/* ONLY replace the second banner under the dragon. Everything else stays unchanged. */
-.ref-bank-banner{
-  position:relative!important;
-  width:100%!important;
-  min-height:0!important;
-  height:auto!important;
-  aspect-ratio:2048/306!important;
-  margin-bottom:14px!important;
-  padding:0!important;
-  overflow:hidden!important;
-  border-radius:15px!important;
-  border:0!important;
-  outline:0!important;
-  background:url("https://aurel-assets-20260929.floot.app/_cdn/static/8365b6c7-5f85-46da-a34e-74508b46f3d7-aurel-bank-banner-user-20260929.webp") center center/cover no-repeat!important;
-  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
-}
-.ref-bank-banner::before,
-.ref-bank-banner::after{
-  content:none!important;
-  display:none!important;
-}
-.ref-bank-banner>*{
-  display:none!important;
-}
-.ref-market-art{
-  display:none!important;
-}
-</style>
 
-<style id="AUREL_DYNAMIC_BANK_YEAR_ONLY">
-/* ONLY make bank code and report year dynamic on the existing image banner. */
-.ref-bank-banner>.ref-dynamic-labels{
-  display:block!important;
-  position:absolute!important;
-  inset:0!important;
-  z-index:3!important;
-  pointer-events:none!important;
-}
-.ref-bank-banner>.ref-dynamic-labels>*{
-  display:flex!important;
-  position:absolute!important;
-  align-items:center!important;
-  margin:0!important;
-  padding:0!important;
-  white-space:nowrap!important;
-  font-family:inherit!important;
-}
-.ref-dynamic-year{
-  left:18.55%!important;
-  top:14.2%!important;
-  width:5.9%!important;
-  height:13.8%!important;
-  justify-content:center!important;
-  color:#d6ecf7!important;
-  font-size:10px!important;
-  line-height:1!important;
-  font-weight:900!important;
-  letter-spacing:1.7px!important;
-  background:
-    radial-gradient(ellipse at 50% 50%,rgba(7,50,91,1) 0%,rgba(7,50,91,.99) 60%,rgba(7,50,91,.90) 76%,rgba(7,50,91,0) 100%)!important;
-  text-shadow:0 1px 3px rgba(0,18,38,.45)!important;
-}
-.ref-dynamic-bank{
-  left:3.1%!important;
-  top:33.6%!important;
-  width:10.3%!important;
-  height:30%!important;
-  justify-content:flex-start!important;
-  padding-left:.35%!important;
-  color:#fff!important;
-  font-size:clamp(20px,2.05vw,29px)!important;
-  line-height:1!important;
-  font-weight:950!important;
-  letter-spacing:-.7px!important;
-  background:
-    radial-gradient(ellipse at 42% 50%,rgba(6,46,87,1) 0%,rgba(6,46,87,.995) 58%,rgba(6,46,87,.92) 76%,rgba(6,46,87,0) 100%)!important;
-  text-shadow:0 2px 5px rgba(0,18,39,.45)!important;
-}
-.ref-dynamic-bank b{
-  display:inline-block!important;
-  margin-left:8px!important;
-  color:#57e6fb!important;
-  font-size:.88em!important;
-  line-height:1!important;
-  text-shadow:0 0 8px rgba(73,224,255,.75)!important;
-}
-@media(max-width:900px){
-  .ref-dynamic-year{font-size:8px!important;letter-spacing:1.25px!important}
-  .ref-dynamic-bank{font-size:18px!important}
-}
-</style>
-
-<style id="AUREL_DYNAMIC_BANK_YEAR_SMOOTH_V2">
-/* Smoothly erase only the baked-in VPB / 2025, then place dynamic text above it.
-   No hard boxes, no changes to the rest of the banner or website. */
-.ref-bank-banner>.ref-dynamic-labels{
-  display:block!important;
-  position:absolute!important;
-  inset:0!important;
-  z-index:4!important;
-  pointer-events:none!important;
-  overflow:hidden!important;
-}
-.ref-bank-banner>.ref-dynamic-labels>*{
-  display:flex!important;
-  position:absolute!important;
-  align-items:center!important;
-  margin:0!important;
-  padding:0!important;
-  white-space:nowrap!important;
-  font-family:inherit!important;
-  background:transparent!important;
-  isolation:isolate!important;
-}
-
-/* Feathered eraser behind YEAR only */
-.ref-dynamic-year{
-  left:18.55%!important;
-  top:13.4%!important;
-  width:6.15%!important;
-  height:15.5%!important;
-  justify-content:center!important;
-  color:#d8edf7!important;
-  font-size:10px!important;
-  line-height:1!important;
-  font-weight:900!important;
-  letter-spacing:1.65px!important;
-  text-shadow:0 1px 3px rgba(0,18,38,.46)!important;
-}
-.ref-dynamic-year::before{
-  content:""!important;
-  position:absolute!important;
-  z-index:-1!important;
-  left:-34%!important;
-  right:-34%!important;
-  top:-18%!important;
-  bottom:-18%!important;
-  background:
-    linear-gradient(90deg,
-      rgba(6,48,87,0) 0%,
-      rgba(6,48,87,.76) 16%,
-      rgba(6,48,87,.985) 34%,
-      rgba(7,51,91,.995) 66%,
-      rgba(7,51,91,.76) 84%,
-      rgba(7,51,91,0) 100%)!important;
-  -webkit-mask-image:radial-gradient(ellipse at center,#000 0 58%,rgba(0,0,0,.92) 70%,transparent 100%)!important;
-  mask-image:radial-gradient(ellipse at center,#000 0 58%,rgba(0,0,0,.92) 70%,transparent 100%)!important;
-  filter:blur(.7px)!important;
-}
-
-/* Feathered eraser behind BANK only */
-.ref-dynamic-bank{
-  left:3.02%!important;
-  top:32.8%!important;
-  width:11.6%!important;
-  height:31.5%!important;
-  justify-content:flex-start!important;
-  padding-left:.45%!important;
-  color:#fff!important;
-  font-size:clamp(20px,2.05vw,29px)!important;
-  line-height:1!important;
-  font-weight:950!important;
-  letter-spacing:-.75px!important;
-  text-shadow:0 2px 5px rgba(0,18,39,.45)!important;
-}
-.ref-dynamic-bank::before{
-  content:""!important;
-  position:absolute!important;
-  z-index:-1!important;
-  left:-8%!important;
-  right:-8%!important;
-  top:-10%!important;
-  bottom:-10%!important;
-  background:
-    linear-gradient(90deg,
-      rgba(5,44,81,0) 0%,
-      rgba(5,44,81,.94) 12%,
-      rgba(5,45,83,.995) 28%,
-      rgba(6,47,86,.995) 70%,
-      rgba(6,48,88,.90) 86%,
-      rgba(6,48,88,0) 100%)!important;
-  -webkit-mask-image:radial-gradient(ellipse at 46% 50%,#000 0 60%,rgba(0,0,0,.94) 72%,transparent 100%)!important;
-  mask-image:radial-gradient(ellipse at 46% 50%,#000 0 60%,rgba(0,0,0,.94) 72%,transparent 100%)!important;
-  filter:blur(.85px)!important;
-}
-
-.ref-dynamic-bank b{
-  display:inline-block!important;
-  margin-left:8px!important;
-  color:#58e7fb!important;
-  font-size:.86em!important;
-  line-height:1!important;
-  text-shadow:
-    0 0 3px rgba(130,244,255,.90),
-    0 0 8px rgba(73,224,255,.62)!important;
-}
-
-@media(max-width:900px){
-  .ref-dynamic-year{font-size:8px!important;letter-spacing:1.2px!important}
-  .ref-dynamic-bank{font-size:18px!important}
-}
-</style>
-
-<style id="AUREL_CLEAN_DYNAMIC_BANNER_FINAL">
-/* Final: clean image with ONLY bank code and year supplied by live data. */
+<style id="AUREL_BANNER_DYNAMIC_SVG_LOCKED">
+/* One authoritative banner rule only. No stacked percentage overrides. */
 .ref-bank-banner{
   position:relative!important;
   width:100%!important;
@@ -5252,146 +5049,34 @@ body{background:#edf5fa!important}
   background:url("https://aurel-assets-20260929.floot.app/_cdn/static/2b547f6b-0b86-49e4-bda8-98946f1cfe7a-aurel-banner-clean.webp") center center/100% 100% no-repeat!important;
   box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
 }
-
-/* Hide legacy HTML artwork/content in this banner only. */
-.ref-bank-banner>div:not(.ref-dynamic-labels),
+.ref-bank-banner>div,
 .ref-bank-banner>.ref-market-art{
   display:none!important;
 }
-
 .ref-bank-banner>.ref-dynamic-labels{
   display:block!important;
   position:absolute!important;
   inset:0!important;
+  width:100%!important;
+  height:100%!important;
   z-index:5!important;
   pointer-events:none!important;
   overflow:visible!important;
 }
-
-.ref-bank-banner>.ref-dynamic-labels>*{
-  display:flex!important;
-  position:absolute!important;
-  align-items:center!important;
-  margin:0!important;
-  padding:0!important;
-  background:transparent!important;
-  white-space:nowrap!important;
-  font-family:inherit!important;
-  filter:none!important;
-}
-
-/* No patch/box behind the live text: the base image is already clean. */
-.ref-dynamic-year::before,
-.ref-dynamic-bank::before{
-  content:none!important;
-  display:none!important;
-  background:none!important;
-  filter:none!important;
-  -webkit-mask-image:none!important;
-  mask-image:none!important;
-}
-
-/* Live year sits exactly after the slash in “BÁO CÁO TÀI CHÍNH /”. */
 .ref-dynamic-year{
-  left:19.55%!important;
-  top:15.9%!important;
-  width:auto!important;
-  height:auto!important;
-  color:#d8edf7!important;
-  font-size:clamp(8px,.72vw,11px)!important;
-  line-height:1!important;
+  fill:#d9edf7!important;
+  font-family:Inter,"Segoe UI",Arial,sans-serif!important;
+  font-size:20px!important;
   font-weight:900!important;
-  letter-spacing:1.65px!important;
-  text-shadow:0 1px 3px rgba(0,18,38,.50)!important;
-}
-
-/* Live bank code occupies the original VPB position; cyan bullet is baked into the clean image. */
-.ref-dynamic-bank{
-  left:3.55%!important;
-  top:34.2%!important;
-  width:auto!important;
-  height:auto!important;
-  color:#fff!important;
-  font-size:clamp(21px,2.18vw,31px)!important;
-  line-height:1!important;
-  font-weight:950!important;
-  letter-spacing:-.8px!important;
-  text-shadow:0 2px 5px rgba(0,18,39,.52)!important;
-}
-.ref-dynamic-bank b{
-  display:none!important;
-}
-
-@media(max-width:900px){
-  .ref-dynamic-year{
-    font-size:8px!important;
-    letter-spacing:1.2px!important;
-  }
-  .ref-dynamic-bank{
-    font-size:18px!important;
-  }
-}
-</style>
-
-<style id="AUREL_DYNAMIC_ALIGN_FINAL">
-/* Only align the live bank/year labels on the second banner. */
-.ref-dynamic-year{
-  left:18.95%!important;
-  top:13.9%!important;
-  width:auto!important;
-  height:auto!important;
-  color:#d8edf7!important;
-  font-size:clamp(8px,.72vw,11px)!important;
-  line-height:1!important;
-  font-weight:900!important;
-  letter-spacing:1.45px!important;
-  white-space:nowrap!important;
-  text-shadow:0 1px 3px rgba(0,18,38,.50)!important;
+  letter-spacing:2.4px!important;
 }
 .ref-dynamic-bank{
-  left:3.15%!important;
-  top:31.9%!important;
-  width:auto!important;
-  height:auto!important;
-  color:#fff!important;
-  font-size:clamp(21px,2.18vw,31px)!important;
-  line-height:1!important;
+  fill:#ffffff!important;
+  font-family:Inter,"Segoe UI",Arial,sans-serif!important;
+  font-size:61px!important;
   font-weight:950!important;
-  letter-spacing:-.6px!important;
-  white-space:nowrap!important;
-  text-shadow:0 2px 5px rgba(0,18,39,.52)!important;
+  letter-spacing:-1.2px!important;
 }
-.ref-dynamic-bank b{display:none!important}
-</style>
-
-<style id="AUREL_DYNAMIC_ALIGN_FIX_V2">
-.ref-dynamic-year{
-  left:17.55%!important;
-  top:14.65%!important;
-  width:auto!important;
-  height:auto!important;
-  color:#d8edf7!important;
-  font-size:clamp(8px,.70vw,10px)!important;
-  line-height:1!important;
-  font-weight:900!important;
-  letter-spacing:1.2px!important;
-  white-space:nowrap!important;
-  text-shadow:0 1px 3px rgba(0,18,38,.50)!important;
-}
-.ref-dynamic-bank{
-  left:3.75%!important;
-  top:33.35%!important;
-  width:auto!important;
-  height:auto!important;
-  color:#fff!important;
-  font-size:clamp(21px,2.10vw,30px)!important;
-  line-height:1!important;
-  font-weight:950!important;
-  letter-spacing:-.45px!important;
-  white-space:nowrap!important;
-  text-shadow:0 2px 5px rgba(0,18,39,.52)!important;
-}
-.ref-dynamic-bank b{display:none!important}
 </style>
 </head><body>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18M7 16l4-5 4 3 5-8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="3" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="13" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="13" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol><symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 2h9l5 5v14H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm9 0v6h5M8 12h8M8 16h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></symbol><symbol id="i-compare" viewBox="0 0 24 24"><path d="M4 7h16m-4-4 4 4-4 4M20 17H4m4-4-4 4 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 6-4 9-9 10C7 21 3 18 3 12V6l9-4zm-4 10 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16M9 3v6m6 0v6m-7 0v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol><symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 17V3m-5 5 5-5 5 5M4 17v4h16v-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6L12 2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10.5V21h5v-6h3v6h5V10.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-bank" viewBox="0 0 24 24"><path d="M3 9h18M5 9V20m4-11V20m6-11V20m4-11V20M2 20h20M12 3 3 7h18l-9-4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 3v4m10-4v4M3 10h18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8 12 2.5 2.5L16.5 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 17h12l-1.5-2V10a4.5 4.5 0 0 0-9 0v5L6 17Zm4 3h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol><symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol><symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="7" ry="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 5v6c0 1.7 3.1 3 7 3s7-1.3 7-3V5m-14 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol><symbol id="i-coins" viewBox="0 0 24 24"><ellipse cx="9" cy="7" rx="6" ry="3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 7v4c0 1.7 2.7 3 6 3 1.2 0 2.3-.2 3.2-.5M3 11v4c0 1.7 2.7 3 6 3 1.2 0 2.3-.2 3.2-.5" fill="none" stroke="currentColor" stroke-width="1.7"/><ellipse cx="16" cy="14" rx="5" ry="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M11 14v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol><symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 3.5 7v5.5c0 5.4 3.6 8 8.5 9 4.9-1 8.5-3.6 8.5-9V7L12 3Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v5m0 3h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol></svg>
@@ -5592,7 +5277,7 @@ else if(change!==null&&Number.isFinite(Number(change))){changeHtml='<span class=
 return '<article class="ref-kpi '+cls+'"><div class="ref-kpi-icon"><svg><use href="#'+iconId+'"/></svg></div><div class="ref-kpi-body"><div class="ref-kpi-label">'+escapeHTML(label)+'</div><div class="ref-kpi-number">'+(value===null||value===undefined?'—':escapeHTML(unit==='%'?percent(value):money(value)))+' <small>'+escapeHTML(unit==='%'?'':unit)+'</small></div><div class="ref-kpi-change">'+changeHtml+'</div></div>'+spark(cls)+'</article>';
 };
 const hero='<section class="ref-hero"><div class="ref-hero-copy"><div class="ref-kicker">AUREL PHÂN TÍCH TÀI CHÍNH</div><h1>Tổng quan <span>tài chính</span></h1><p>Các chỉ tiêu tài chính trọng yếu theo kỳ báo cáo.</p><div class="ref-feature-row"><span>'+icon('spark')+'Dữ liệu chuẩn hóa</span><span>'+icon('chart')+'Phân tích chuyên sâu</span><span>'+icon('compare')+'So sánh đa ngân hàng</span><span>'+icon('doc')+'Báo cáo tự động</span></div></div><div class="ref-hero-side"><span>DỮ LIỆU</span><span>PHÂN TÍCH</span><span>CHIẾN LƯỢC</span><span>HIỆU QUẢ</span><i></i></div></section>';
-const bankBanner='<section class="ref-bank-banner"><div class="ref-dynamic-labels" aria-hidden="true"><span class="ref-dynamic-year">'+escapeHTML(s.year)+'</span><span class="ref-dynamic-bank">'+escapeHTML(s.bank)+' <b>•</b></span></div><div><div class="ref-bank-kicker">BÁO CÁO TÀI CHÍNH / '+escapeHTML(s.year)+'</div><h2>'+escapeHTML(s.bank)+' <b>•</b> Tổng quan tình hình tài chính</h2><p>Dữ liệu trọng yếu được chuẩn hóa và sẵn sàng cho đối chiếu, giám sát và phân tích.</p></div><div class="ref-market-art" aria-hidden="true"><svg viewBox="0 0 560 120"><path class="mtn" d="M5 96 90 54l56 22 86-60 70 57 62-42 68 56 54-29 69 38"/><path class="wave1" d="M0 102c83-19 157-8 229 6 79 15 146 10 223-8 50-12 83-13 108-8"/><path class="wave2" d="M270 100c32-44 54-60 70-51 13 8 2 24 22 24 22 0 36-36 57-26 18 9 7 29 25 31 21 3 34-26 55-17"/><g class="candles"><path d="M423 86V43m0 18h10v18h-10z"/><path d="M452 84V30m0 15h10v23h-10z"/><path d="M481 76V18m0 16h10v25h-10z"/><path d="M510 68V9m0 13h10v27h-10z"/></g></svg></div></section>';
+const bankBanner='<section class="ref-bank-banner"><svg class="ref-dynamic-labels" viewBox="0 0 2048 306" preserveAspectRatio="none" aria-hidden="true"><defs><filter id="ref-live-text-shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#001a35" flood-opacity=".55"/></filter></defs><text class="ref-dynamic-year" x="410" y="72">'+escapeHTML(s.year)+'</text><text class="ref-dynamic-bank" x="74" y="162" filter="url(#ref-live-text-shadow)">'+escapeHTML(s.bank)+'</text></svg><div><div class="ref-bank-kicker">BÁO CÁO TÀI CHÍNH / '+escapeHTML(s.year)+'</div><h2>'+escapeHTML(s.bank)+' <b>•</b> Tổng quan tình hình tài chính</h2><p>Dữ liệu trọng yếu được chuẩn hóa và sẵn sàng cho đối chiếu, giám sát và phân tích.</p></div><div class="ref-market-art" aria-hidden="true"><svg viewBox="0 0 560 120"><path class="mtn" d="M5 96 90 54l56 22 86-60 70 57 62-42 68 56 54-29 69 38"/><path class="wave1" d="M0 102c83-19 157-8 229 6 79 15 146 10 223-8 50-12 83-13 108-8"/><path class="wave2" d="M270 100c32-44 54-60 70-51 13 8 2 24 22 24 22 0 36-36 57-26 18 9 7 29 25 31 21 3 34-26 55-17"/><g class="candles"><path d="M423 86V43m0 18h10v18h-10z"/><path d="M452 84V30m0 15h10v23h-10z"/><path d="M481 76V18m0 16h10v25h-10z"/><path d="M510 68V9m0 13h10v27h-10z"/></g></svg></div></section>';
 const cards='<div class="ref-kpi-grid">'+card('blue','i-bank','Tổng tài sản',v.assets,'tỷ VND',g.assets)+card('cyan','i-coins','Dư nợ cho vay',v.loans,'tỷ VND',g.loans)+card('green','i-chart','Lợi nhuận sau thuế',v.pat,'tỷ VND',g.pat)+card('red','i-alert','Tỷ lệ nợ xấu',npl,'%',null,true)+'</div>';
 const chart=s.series[app.chart]||[];
 const select='<label class="ref-chart-select">Chỉ tiêu <select id="chart-select">'+['assets','loans','deposits','pat','npl'].map(k=>'<option value="'+k+'" '+(k===app.chart?'selected':'')+'>'+escapeHTML(s.fields[k])+'</option>').join('')+'</select></label>';
