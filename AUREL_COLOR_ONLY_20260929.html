@@ -3063,6 +3063,137 @@ td:first-child{color:#173A55!important}
   .report-mail-card:after{display:none}
   .drop:after{opacity:.05;width:90px;height:60px}
 }
+
+/* AUREL R20 DRAGON HERO + TOOLBAR */
+
+/* Top toolbar refinement */
+.topbar{
+  background:rgba(255,255,255,.98)!important;
+  border-bottom:1px solid #D6E2EA!important;
+  box-shadow:0 4px 16px rgba(16,42,63,.06)!important;
+  position:sticky!important;
+  top:0!important;
+  z-index:20!important;
+}
+.topbar:after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:3px;
+  background:linear-gradient(90deg,#2563EB 0%,#0F8B8D 62%,#F59E0B 100%);
+  opacity:.22;
+  pointer-events:none;
+}
+.crumb-icon{
+  background:linear-gradient(180deg,#EDF4FF 0%,#E4F0FF 100%)!important;
+  color:#2563EB!important;
+  border:1px solid #CFE0F7!important;
+  box-shadow:0 4px 10px rgba(37,99,235,.08)!important;
+}
+.crumb strong{
+  color:#102A3F!important;
+  font-weight:850!important;
+}
+.crumb small{color:#6E8596!important}
+.controls select{
+  background:#fff!important;
+  border:1px solid #BDD0DB!important;
+  color:#173B55!important;
+  font-weight:750!important;
+  border-radius:12px!important;
+  box-shadow:0 2px 8px rgba(15,48,71,.04)!important;
+  transition:.18s ease!important;
+}
+.controls select:hover{
+  border-color:#9FB8C9!important;
+  box-shadow:0 4px 12px rgba(15,48,71,.06)!important;
+}
+.controls select:focus{
+  outline:none!important;
+  border-color:#2563EB!important;
+  box-shadow:0 0 0 3px rgba(37,99,235,.12)!important;
+}
+.controls .status-pill:not(.empty-status){
+  background:linear-gradient(180deg,#E6F8EE 0%,#DCF4E7 100%)!important;
+  color:#117246!important;
+  border:1px solid #B7DEC8!important;
+  box-shadow:0 4px 10px rgba(22,163,74,.08)!important;
+  font-weight:800!important;
+}
+.controls .status-pill.empty-status{
+  background:#EEF3F6!important;
+  color:#5C7587!important;
+  border:1px solid #D4E0E7!important;
+}
+
+/* Refined blue hero */
+.hero{
+  background:
+    radial-gradient(circle at 84% 30%,rgba(37,99,235,.18),transparent 24%),
+    radial-gradient(circle at 92% 75%,rgba(15,139,141,.14),transparent 22%),
+    linear-gradient(120deg,#11344D 0%,#123B56 54%,#0F4D58 100%)!important;
+  border:1px solid rgba(255,255,255,.06)!important;
+  box-shadow:0 18px 36px rgba(10,42,67,.14)!important;
+  overflow:hidden!important;
+  position:relative!important;
+}
+.hero:after{
+  content:"";
+  position:absolute;
+  width:440px;
+  height:440px;
+  right:-150px;
+  top:-210px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.07);
+  box-shadow:
+    0 0 0 70px rgba(255,255,255,.04),
+    0 0 0 135px rgba(255,255,255,.025);
+  pointer-events:none;
+}
+.hero>*{position:relative;z-index:2}
+.hero .eyebrow{color:#8FE3D3!important}
+.hero h2{color:#fff!important;font-weight:900!important}
+.hero p{color:#D3E0E7!important}
+
+/* Dragon watermark replaces the old chart watermark */
+.hero:before{
+  content:"";
+  position:absolute;
+  right:20px;
+  bottom:5px;
+  width:320px;
+  height:178px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  opacity:.24;
+  pointer-events:none;
+  z-index:1;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 230'%3E%3Cg fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M29 170c24-10 41-28 58-54 8-13 27-31 47-39 17-7 33-7 48 1 12 7 19 17 19 31 0 17-12 30-31 33-9 2-19 1-31-3 16 11 33 15 51 11 20-4 38-16 49-35 6-10 10-22 11-34 15 6 31 6 46 0 17-7 32-20 41-38-1 21-8 40-22 56 16-3 31-11 43-23-7 19-20 35-38 45-12 7-26 11-41 11-12 0-22-2-32-6-3 13-10 25-19 34-15 17-35 27-58 30-24 3-48-2-69-15-19-11-35-17-50-17-18 0-34 7-52 14-7 3-14 5-23 5-8 0-15-1-21-5z' stroke='%235FA8FF' stroke-width='7'/%3E%3Cpath d='M116 122c9-24 36-43 66-43 14 0 26 4 34 12' stroke='%230F8B8D' stroke-width='7'/%3E%3Cpath d='M309 81c10 8 21 11 33 10 13-1 24-6 37-17' stroke='%23F59E0B' stroke-width='7'/%3E%3Cpath d='M261 111c8 3 16 3 23 0' stroke='%23D8E8F1' stroke-width='6'/%3E%3Cpath d='M185 62c9-17 25-26 45-28M236 37c12 5 22 13 28 24' stroke='%2389C2FF' stroke-width='5'/%3E%3Ccircle cx='123' cy='117' r='5' fill='%23F59E0B' stroke='white' stroke-width='2'/%3E%3Ccircle cx='356' cy='75' r='4.5' fill='%230F8B8D' stroke='white' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E")!important;
+}
+
+/* KPI cards slightly richer but still basic */
+.grid.metrics>.metric{
+  border-color:#C3D3DE!important;
+  box-shadow:0 10px 24px rgba(15,48,71,.06)!important;
+}
+.grid.metrics>.metric:nth-child(1){border-top:4px solid #2563EB!important}
+.grid.metrics>.metric:nth-child(2){border-top:4px solid #0F8B8D!important}
+.grid.metrics>.metric:nth-child(3){border-top:4px solid #16A34A!important}
+.grid.metrics>.metric:nth-child(4){border-top:4px solid #DC2626!important}
+.grid.metrics>.metric .metric-title{color:#5A7486!important;font-weight:750!important}
+.grid.metrics>.metric>strong{color:#0F2E46!important;font-weight:900!important}
+
+@media(max-width:860px){
+  .hero:before{
+    width:205px;
+    height:116px;
+    right:8px;
+    bottom:5px;
+    opacity:.15;
+  }
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
