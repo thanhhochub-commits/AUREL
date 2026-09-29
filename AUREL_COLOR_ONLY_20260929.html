@@ -4755,92 +4755,134 @@ body{background:#edf5fa!important}
 }
 </style>
 
-<style id="AUREL_R40_VPB_BANNER_FIX">
-/* R40 — fix only the VPB banner. Everything else remains unchanged. */
+
+
+<style id="AUREL_R41_VPB_FRAME_POLISH">
+/* R41 — polish only the VPB banner frame. Everything else stays untouched. */
 .ref-bank-banner{
   position:relative!important;
   overflow:hidden!important;
+  isolation:isolate!important;
   width:100%!important;
-  min-height:118px!important;
-  height:auto!important;
-  aspect-ratio:1091/129!important;
+  height:128px!important;
+  min-height:128px!important;
+  aspect-ratio:auto!important;
   margin-bottom:14px!important;
-  padding:22px 42% 20px 38px!important;
-  border-radius:15px!important;
-  border:0!important;
+  padding:0 46% 0 38px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:flex-start!important;
+  border-radius:16px!important;
+  border:1px solid rgba(76,190,211,.42)!important;
   outline:0!important;
-  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
   background:
     linear-gradient(90deg,
-      rgba(8,49,84,.98) 0%,
-      rgba(8,55,88,.90) 34%,
-      rgba(8,60,92,.48) 52%,
-      rgba(8,60,92,.14) 66%,
-      rgba(8,60,92,0) 78%),
-    url("https://aurel-assets-20260929.floot.app/_cdn/static/5c0646ed-4098-4de1-8ff0-a22fbaa6581c-r38-bank-approved.webp") center center/cover no-repeat!important;
+      rgba(7,47,81,.99) 0%,
+      rgba(8,55,88,.96) 34%,
+      rgba(8,61,94,.68) 49%,
+      rgba(8,69,98,.18) 64%,
+      rgba(8,69,98,0) 78%),
+    url("https://aurel-assets-20260929.floot.app/_cdn/static/5c0646ed-4098-4de1-8ff0-a22fbaa6581c-r38-bank-approved.webp") right center/cover no-repeat!important;
+  box-shadow:
+    0 10px 24px rgba(7,53,79,.10),
+    inset 0 1px 0 rgba(255,255,255,.06)!important;
 }
 
-.ref-bank-banner::before,
+.ref-bank-banner::before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:1!important;
+  pointer-events:none!important;
+  background:
+    linear-gradient(90deg,rgba(255,255,255,.02),transparent 44%),
+    radial-gradient(circle at 82% 54%,rgba(20,200,222,.08),transparent 30%)!important;
+}
+
 .ref-bank-banner::after{
-  content:none!important;
+  content:""!important;
+  position:absolute!important;
+  left:18px!important;
+  right:18px!important;
+  bottom:0!important;
+  height:1px!important;
+  z-index:2!important;
+  pointer-events:none!important;
+  background:linear-gradient(90deg,transparent,#2BC4DC 30%,#F4B62A 72%,transparent)!important;
+  opacity:.30!important;
 }
 
 .ref-bank-banner > *{
   display:block!important;
   position:relative!important;
   z-index:3!important;
-  max-width:56%!important;
+  max-width:none!important;
 }
 
 .ref-bank-banner .ref-bank-kicker{
-  display:block!important;
-  color:#d9ecfb!important;
-  font-size:11px!important;
-  font-weight:800!important;
-  letter-spacing:.14em!important;
+  color:#D7E9F5!important;
+  font-size:10px!important;
+  line-height:1!important;
+  font-weight:850!important;
+  letter-spacing:.16em!important;
   text-transform:uppercase!important;
-  margin-bottom:8px!important;
+  margin:0 0 10px!important;
+  white-space:nowrap!important;
 }
 
 .ref-bank-banner h2{
-  display:block!important;
   color:#fff!important;
-  font-size:22px!important;
-  line-height:1.15!important;
+  font-size:23px!important;
+  line-height:1.12!important;
   font-weight:900!important;
+  letter-spacing:-.02em!important;
   margin:0 0 8px!important;
+  white-space:nowrap!important;
+  text-shadow:0 3px 12px rgba(0,0,0,.18)!important;
 }
 
 .ref-bank-banner p{
-  display:block!important;
-  color:#dcebf7!important;
-  font-size:13px!important;
-  line-height:1.45!important;
+  color:#D8EAF5!important;
+  font-size:12.5px!important;
+  line-height:1.35!important;
   margin:0!important;
+  white-space:nowrap!important;
 }
 
 .ref-market-art{
   display:none!important;
 }
 
-@media(max-width:760px){
+@media(max-width:1100px){
   .ref-bank-banner{
-    min-height:110px!important;
-    aspect-ratio:auto!important;
-    padding:18px 20px!important;
-    background-position:64% center!important;
+    padding-right:38%!important;
   }
-
-  .ref-bank-banner > *{
-    max-width:none!important;
-  }
-
   .ref-bank-banner h2{
-    font-size:18px!important;
+    font-size:21px!important;
   }
-
   .ref-bank-banner p{
     font-size:12px!important;
+  }
+}
+
+@media(max-width:760px){
+  .ref-bank-banner{
+    height:116px!important;
+    min-height:116px!important;
+    padding:0 20px!important;
+    background-position:68% center!important;
+  }
+  .ref-bank-banner::before{
+    background:linear-gradient(90deg,rgba(7,47,81,.96),rgba(8,55,88,.72),rgba(8,55,88,.18))!important;
+  }
+  .ref-bank-banner h2{
+    font-size:18px!important;
+    white-space:normal!important;
+  }
+  .ref-bank-banner p{
+    font-size:11.5px!important;
+    white-space:normal!important;
   }
 }
 </style>
