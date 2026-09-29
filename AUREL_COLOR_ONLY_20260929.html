@@ -4759,43 +4759,151 @@ body{background:#edf5fa!important}
 
 
 
-<style id="AUREL_R42_VPB_REFERENCE_FRAME">
-/* R42 — exact VPB reference banner. Only this block changes. */
+
+
+<style id="AUREL_R43_NEW_ARTWORK">
+/* R43 — integrate the two newly approved images without breaking data/navigation. */
+
+/* VPB banner: new artwork, with baked text hidden under a dark left overlay;
+   the live bank/year text remains functional above it. */
 .ref-bank-banner{
   position:relative!important;
-  display:block!important;
   overflow:hidden!important;
+  isolation:isolate!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:flex-start!important;
   width:100%!important;
-  height:auto!important;
-  min-height:0!important;
-  aspect-ratio:776/73!important;
+  height:128px!important;
+  min-height:128px!important;
+  aspect-ratio:auto!important;
   margin:0 0 14px!important;
-  padding:0!important;
-  border:0!important;
+  padding:0 44% 0 38px!important;
+  border:1px solid rgba(44,198,225,.35)!important;
+  border-radius:15px!important;
   outline:0!important;
-  border-radius:13px!important;
-  background:url("https://aurel-assets-20260929.floot.app/_cdn/static/93c439bd-97c0-40ca-a7e8-50f181362344-aurel-r42-vpb-reference.png") center center/100% 100% no-repeat!important;
-  box-shadow:
-    0 8px 22px rgba(7,53,79,.10),
-    0 1px 0 rgba(255,255,255,.55)!important;
+  background:url("https://aurel-assets-20260929.floot.app/_cdn/static/33e20530-9abb-4915-8790-e47e5a1c6bc4-aurel-r43-bank-redesign.png") center/cover no-repeat!important;
+  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
 }
-.ref-bank-banner::before,
+.ref-bank-banner::before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:1!important;
+  pointer-events:none!important;
+  background:linear-gradient(90deg,
+    #071f3d 0%,
+    #071f3d 40%,
+    rgba(7,31,61,.96) 48%,
+    rgba(7,31,61,.70) 56%,
+    rgba(7,31,61,.22) 64%,
+    transparent 73%)!important;
+}
 .ref-bank-banner::after{
-  content:none!important;
+  content:""!important;
+  position:absolute!important;
+  left:20px!important;right:20px!important;bottom:0!important;
+  height:1px!important;
+  z-index:2!important;
+  background:linear-gradient(90deg,transparent,#26D0EA 35%,#F7B72B 72%,transparent)!important;
+  opacity:.32!important;
+  pointer-events:none!important;
 }
-.ref-bank-banner > *{
-  display:none!important;
+.ref-bank-banner>*{
+  display:block!important;
+  position:relative!important;
+  z-index:3!important;
+  max-width:none!important;
 }
-.ref-market-art{
-  display:none!important;
+.ref-bank-banner .ref-bank-kicker{
+  color:#D7E9F5!important;
+  font-size:10px!important;
+  line-height:1!important;
+  font-weight:850!important;
+  letter-spacing:.16em!important;
+  text-transform:uppercase!important;
+  margin:0 0 10px!important;
+  white-space:nowrap!important;
+}
+.ref-bank-banner h2{
+  color:#fff!important;
+  font-size:23px!important;
+  line-height:1.12!important;
+  font-weight:900!important;
+  letter-spacing:-.02em!important;
+  margin:0 0 8px!important;
+  white-space:nowrap!important;
+  text-shadow:0 3px 12px rgba(0,0,0,.18)!important;
+}
+.ref-bank-banner p{
+  color:#D8EAF5!important;
+  font-size:12.5px!important;
+  line-height:1.35!important;
+  margin:0!important;
+  white-space:nowrap!important;
+}
+.ref-market-art{display:none!important}
+
+/* On Overview only, use the newly approved full sidebar image.
+   Existing live nav stays on top as invisible hit areas, so clicks still work.
+   Other pages instantly fall back to the normal live sidebar. */
+@media(min-width:761px){
+  .sidebar:has(#nav button[data-page="overview"].active){
+    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/a4cf8819-e37f-441b-bef5-71c1ec278cfd-aurel-r43-sidebar-redesign.png") center center/100% 100% no-repeat!important;
+    border-right:1px solid rgba(65,190,255,.20)!important;
+    box-shadow:10px 0 28px rgba(2,21,38,.14)!important;
+  }
+
+  .sidebar:has(#nav button[data-page="overview"].active)::before,
+  .sidebar:has(#nav button[data-page="overview"].active)::after{
+    content:none!important;
+  }
+
+  .sidebar:has(#nav button[data-page="overview"].active) .brand,
+  .sidebar:has(#nav button[data-page="overview"].active) > .menu-title,
+  .sidebar:has(#nav button[data-page="overview"].active) .nav button,
+  .sidebar:has(#nav button[data-page="overview"].active) .nav .menu-title,
+  .sidebar:has(#nav button[data-page="overview"].active) .sidebar-bottom{
+    opacity:0!important;
+  }
+
+  .sidebar:has(#nav button[data-page="overview"].active) .nav,
+  .sidebar:has(#nav button[data-page="overview"].active) .brand{
+    pointer-events:auto!important;
+  }
+
+  .sidebar:has(#nav button[data-page="overview"].active) .nav button{
+    pointer-events:auto!important;
+    cursor:pointer!important;
+    background:transparent!important;
+    border-color:transparent!important;
+    box-shadow:none!important;
+  }
 }
 
+@media(max-width:1100px){
+  .ref-bank-banner{padding-right:38%!important}
+  .ref-bank-banner h2{font-size:21px!important}
+  .ref-bank-banner p{font-size:12px!important}
+}
 @media(max-width:760px){
   .ref-bank-banner{
-    aspect-ratio:776/73!important;
-    min-height:0!important;
-    margin-bottom:12px!important;
-    border-radius:11px!important;
+    height:116px!important;
+    min-height:116px!important;
+    padding:0 20px!important;
+    background-position:68% center!important;
+  }
+  .ref-bank-banner::before{
+    background:linear-gradient(90deg,#071f3d 0%,rgba(7,31,61,.90) 55%,rgba(7,31,61,.20) 100%)!important;
+  }
+  .ref-bank-banner h2{
+    font-size:18px!important;
+    white-space:normal!important;
+  }
+  .ref-bank-banner p{
+    font-size:11.5px!important;
+    white-space:normal!important;
   }
 }
 </style>
