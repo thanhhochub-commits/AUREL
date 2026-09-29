@@ -4761,123 +4761,60 @@ body{background:#edf5fa!important}
 
 
 
-<style id="AUREL_R43_NEW_ARTWORK">
-/* R43 — integrate the two newly approved images without breaking data/navigation. */
 
-/* VPB banner: new artwork, with baked text hidden under a dark left overlay;
-   the live bank/year text remains functional above it. */
-.ref-bank-banner{
-  position:relative!important;
-  overflow:hidden!important;
-  isolation:isolate!important;
-  display:flex!important;
-  flex-direction:column!important;
-  justify-content:center!important;
-  align-items:flex-start!important;
-  width:100%!important;
-  height:128px!important;
-  min-height:128px!important;
-  aspect-ratio:auto!important;
-  margin:0 0 14px!important;
-  padding:0 44% 0 38px!important;
-  border:1px solid rgba(44,198,225,.35)!important;
-  border-radius:15px!important;
-  outline:0!important;
-  background:url("https://aurel-assets-20260929.floot.app/_cdn/static/33e20530-9abb-4915-8790-e47e5a1c6bc4-aurel-r43-bank-redesign.png") center/cover no-repeat!important;
-  box-shadow:0 10px 24px rgba(7,53,79,.10)!important;
-}
-.ref-bank-banner::before{
-  content:""!important;
-  position:absolute!important;
-  inset:0!important;
-  z-index:1!important;
-  pointer-events:none!important;
-  background:linear-gradient(90deg,
-    #071f3d 0%,
-    #071f3d 40%,
-    rgba(7,31,61,.96) 48%,
-    rgba(7,31,61,.70) 56%,
-    rgba(7,31,61,.22) 64%,
-    transparent 73%)!important;
-}
-.ref-bank-banner::after{
-  content:""!important;
-  position:absolute!important;
-  left:20px!important;right:20px!important;bottom:0!important;
-  height:1px!important;
-  z-index:2!important;
-  background:linear-gradient(90deg,transparent,#26D0EA 35%,#F7B72B 72%,transparent)!important;
-  opacity:.32!important;
-  pointer-events:none!important;
-}
-.ref-bank-banner>*{
-  display:block!important;
-  position:relative!important;
-  z-index:3!important;
-  max-width:none!important;
-}
-.ref-bank-banner .ref-bank-kicker{
-  color:#D7E9F5!important;
-  font-size:10px!important;
-  line-height:1!important;
-  font-weight:850!important;
-  letter-spacing:.16em!important;
-  text-transform:uppercase!important;
-  margin:0 0 10px!important;
-  white-space:nowrap!important;
-}
-.ref-bank-banner h2{
-  color:#fff!important;
-  font-size:23px!important;
-  line-height:1.12!important;
-  font-weight:900!important;
-  letter-spacing:-.02em!important;
-  margin:0 0 8px!important;
-  white-space:nowrap!important;
-  text-shadow:0 3px 12px rgba(0,0,0,.18)!important;
-}
-.ref-bank-banner p{
-  color:#D8EAF5!important;
-  font-size:12.5px!important;
-  line-height:1.35!important;
-  margin:0!important;
-  white-space:nowrap!important;
-}
-.ref-market-art{display:none!important}
 
-/* R45: removed obsolete static-sidebar overlay from R43; live R44 sidebar owns navigation visuals. */
 
-@media(max-width:1100px){
-  .ref-bank-banner{padding-right:38%!important}
-  .ref-bank-banner h2{font-size:21px!important}
-  .ref-bank-banner p{font-size:12px!important}
-}
-@media(max-width:760px){
-  .ref-bank-banner{
-    height:116px!important;
-    min-height:116px!important;
-    padding:0 20px!important;
-    background-position:68% center!important;
+
+<style id="AUREL_R45_SIDEBAR_RESTORE">
+/* R45 — hard restore live sidebar UI above decorative city artwork. */
+@media(min-width:761px){
+  .sidebar .brand,
+  .sidebar > .menu-title,
+  .sidebar .nav,
+  .sidebar .nav .menu-title,
+  .sidebar .nav button,
+  .sidebar .nav button *,
+  .sidebar .brand *{
+    opacity:1!important;
+    visibility:visible!important;
   }
-  .ref-bank-banner::before{
-    background:linear-gradient(90deg,#071f3d 0%,rgba(7,31,61,.90) 55%,rgba(7,31,61,.20) 100%)!important;
+
+  .sidebar .brand,
+  .sidebar > .menu-title,
+  .sidebar .nav{
+    display:flex!important;
+    pointer-events:auto!important;
   }
-  .ref-bank-banner h2{
-    font-size:18px!important;
-    white-space:normal!important;
+
+  .sidebar > .menu-title{
+    display:block!important;
   }
-  .ref-bank-banner p{
-    font-size:11.5px!important;
-    white-space:normal!important;
+
+  .sidebar .nav{
+    flex-direction:column!important;
+  }
+
+  .sidebar .nav .menu-title{
+    display:block!important;
+  }
+
+  .sidebar .nav button{
+    display:flex!important;
+    pointer-events:auto!important;
+  }
+
+  .sidebar{
+    background:
+      linear-gradient(154deg,rgba(26,111,229,.10) 0 31%,transparent 31% 100%),
+      linear-gradient(180deg,#03182d 0%,#05233f 58%,#062b4c 100%)!important;
   }
 }
 </style>
 
-<style id="AUREL_R44_LIVE_SIDEBAR">
-/* R44 — live clickable sidebar styled to match the approved artwork. */
+<style id="AUREL_R45_SHARP_LIVE_SIDEBAR">
+/* R45 — sharp decorative city + fully live navigation. */
 @media(min-width:761px){
-  .sidebar,
-  .sidebar:has(#nav button[data-page="overview"].active){
+  .sidebar{
     position:fixed!important;
     top:0!important;
     left:0!important;
@@ -4887,14 +4824,13 @@ body{background:#edf5fa!important}
     overflow:hidden!important;
     z-index:1200!important;
     background:
-      linear-gradient(154deg,rgba(26,111,229,.10) 0 31%,transparent 31% 100%),
+      linear-gradient(160deg,rgba(19,93,190,.10) 0 30%,transparent 30% 100%),
       linear-gradient(180deg,#03182d 0%,#05233f 58%,#062b4c 100%)!important;
     border-right:1px solid rgba(66,186,255,.22)!important;
     box-shadow:10px 0 30px rgba(2,21,38,.16)!important;
   }
 
-  .sidebar::before,
-  .sidebar:has(#nav button[data-page="overview"].active)::before{
+  .sidebar::before{
     content:""!important;
     display:block!important;
     position:absolute!important;
@@ -4902,48 +4838,52 @@ body{background:#edf5fa!important}
     right:0!important;
     bottom:0!important;
     top:auto!important;
-    height:190px!important;
+    height:198px!important;
     z-index:0!important;
-    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/c0107b3f-70e4-450f-8aa0-1ce161850d82-aurel-r44-sidebar-city-clean.png") center bottom/100% 100% no-repeat!important;
+    background:url("https://aurel-assets-20260929.floot.app/_cdn/static/8381e98b-0673-48f4-a174-a0080ef6a8d7-aurel-r45-city-sharp.png") center bottom/100% 100% no-repeat!important;
     opacity:1!important;
+    filter:none!important;
+    image-rendering:auto!important;
     pointer-events:none!important;
   }
 
-  .sidebar::after,
-  .sidebar:has(#nav button[data-page="overview"].active)::after{
+  .sidebar::after{
     content:""!important;
     display:block!important;
     position:absolute!important;
     left:0!important;
     right:0!important;
     bottom:0!important;
-    height:245px!important;
+    height:238px!important;
     z-index:1!important;
     pointer-events:none!important;
-    background:
-      linear-gradient(180deg,
-        #062a49 0%,
-        rgba(6,42,73,.78) 11%,
-        rgba(5,38,66,.34) 28%,
-        rgba(4,31,55,.08) 50%,
-        rgba(3,24,44,.04) 100%)!important;
+    background:linear-gradient(180deg,
+      #062a49 0%,
+      rgba(6,42,73,.64) 10%,
+      rgba(5,38,66,.20) 27%,
+      rgba(4,31,55,.03) 50%,
+      transparent 72%)!important;
   }
 
-  /* Restore all real interactive UI hidden by the static-art version. */
   .sidebar .brand,
   .sidebar > .menu-title,
   .sidebar .nav,
   .sidebar .nav button,
-  .sidebar .nav .menu-title{
+  .sidebar .nav .menu-title,
+  .sidebar .brand *,
+  .sidebar .nav *{
     opacity:1!important;
     visibility:visible!important;
+  }
+
+  .sidebar .brand,
+  .sidebar > .menu-title,
+  .sidebar .nav{
     position:relative!important;
     z-index:5!important;
   }
 
-  .sidebar .sidebar-bottom{
-    display:none!important;
-  }
+  .sidebar .sidebar-bottom{display:none!important}
 
   .brand{
     height:92px!important;
@@ -4953,10 +4893,9 @@ body{background:#edf5fa!important}
     display:flex!important;
     align-items:center!important;
     gap:12px!important;
-    background:
-      linear-gradient(180deg,rgba(2,19,37,.94),rgba(3,29,52,.82))!important;
+    background:linear-gradient(180deg,rgba(2,19,37,.94),rgba(3,29,52,.82))!important;
     border-bottom:1px solid rgba(83,190,245,.16)!important;
-    backdrop-filter:blur(4px)!important;
+    backdrop-filter:blur(2px)!important;
   }
 
   .brand::after{
@@ -4974,9 +4913,7 @@ body{background:#edf5fa!important}
     width:43px!important;
     height:43px!important;
     border-radius:12px!important;
-    box-shadow:
-      0 0 0 1px rgba(114,205,255,.32),
-      0 4px 16px rgba(0,128,255,.18)!important;
+    box-shadow:0 0 0 1px rgba(114,205,255,.32),0 4px 16px rgba(0,128,255,.18)!important;
   }
 
   .brand-title{
@@ -5040,12 +4977,7 @@ body{background:#edf5fa!important}
     white-space:nowrap!important;
     cursor:pointer!important;
     pointer-events:auto!important;
-    opacity:1!important;
-    transition:
-      background .18s ease,
-      border-color .18s ease,
-      box-shadow .18s ease,
-      transform .18s ease!important;
+    transition:background .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease!important;
   }
 
   .sidebar .nav button svg{
@@ -5058,22 +4990,16 @@ body{background:#edf5fa!important}
 
   .sidebar .nav button:hover{
     transform:translateX(2px)!important;
-    background:linear-gradient(90deg,rgba(15,94,188,.38),rgba(15,114,211,.18))!important;
+    background:linear-gradient(90deg,rgba(15,94,188,.36),rgba(15,114,211,.16))!important;
     border-color:rgba(72,196,255,.18)!important;
-    box-shadow:inset 0 0 18px rgba(22,124,235,.08)!important;
   }
 
   .sidebar .nav button.active{
     transform:none!important;
     color:#fff!important;
-    background:
-      linear-gradient(100deg,#1165ee 0%,#078fe9 72%,#0ab7e9 100%)!important;
+    background:linear-gradient(100deg,#1165ee 0%,#078fe9 72%,#0ab7e9 100%)!important;
     border:1px solid #48ddff!important;
-    box-shadow:
-      inset 3px 0 #8deeff,
-      inset 0 0 22px rgba(70,202,255,.12),
-      0 0 14px rgba(0,178,255,.34),
-      0 8px 18px rgba(0,77,175,.20)!important;
+    box-shadow:inset 3px 0 #8deeff,inset 0 0 22px rgba(70,202,255,.12),0 0 14px rgba(0,178,255,.30),0 8px 18px rgba(0,77,175,.18)!important;
   }
 
   .sidebar .nav button.active svg{
@@ -5081,63 +5007,15 @@ body{background:#edf5fa!important}
     filter:drop-shadow(0 0 5px rgba(123,230,255,.50))!important;
   }
 
-  /* Ensure image city remains decorative only; menu remains fully clickable above it. */
-  .sidebar .nav,
-  .sidebar .brand{
-    pointer-events:auto!important;
+  .main{
+    margin-left:228px!important;
+    width:calc(100% - 228px)!important;
   }
 }
 
 @media(max-width:760px){
-  .sidebar{
-    display:none!important;
-  }
-}
-</style>
-
-<style id="AUREL_R45_SIDEBAR_RESTORE">
-/* R45 — hard restore live sidebar UI above decorative city artwork. */
-@media(min-width:761px){
-  .sidebar .brand,
-  .sidebar > .menu-title,
-  .sidebar .nav,
-  .sidebar .nav .menu-title,
-  .sidebar .nav button,
-  .sidebar .nav button *,
-  .sidebar .brand *{
-    opacity:1!important;
-    visibility:visible!important;
-  }
-
-  .sidebar .brand,
-  .sidebar > .menu-title,
-  .sidebar .nav{
-    display:flex!important;
-    pointer-events:auto!important;
-  }
-
-  .sidebar > .menu-title{
-    display:block!important;
-  }
-
-  .sidebar .nav{
-    flex-direction:column!important;
-  }
-
-  .sidebar .nav .menu-title{
-    display:block!important;
-  }
-
-  .sidebar .nav button{
-    display:flex!important;
-    pointer-events:auto!important;
-  }
-
-  .sidebar{
-    background:
-      linear-gradient(154deg,rgba(26,111,229,.10) 0 31%,transparent 31% 100%),
-      linear-gradient(180deg,#03182d 0%,#05233f 58%,#062b4c 100%)!important;
-  }
+  .sidebar{display:none!important}
+  .main{margin-left:0!important;width:100%!important}
 }
 </style>
 </head><body>
