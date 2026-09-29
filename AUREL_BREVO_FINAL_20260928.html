@@ -2094,6 +2094,64 @@ td:first-child{color:#173850;font-weight:780}
 .workflow span{border:1px solid #c8d7e2;background:#f3f7fa;color:#284960;font-weight:780}
 .hero{background:linear-gradient(115deg,#092a43 0%,#15527a 62%,#0d8b85 100%);box-shadow:0 16px 36px rgba(7,36,58,.18)}
 .hero h2{font-weight:900}.hero p{color:#dbe7ee}
+
+/* AUREL R13 KPI YEAR-OVER-YEAR */
+.analysis-feature{padding-bottom:18px}
+.analysis-feature-sub{min-height:36px;color:#5f7688}
+.analysis-feature-compare{
+  margin-top:14px;
+  padding-top:13px;
+  border-top:1px solid #dbe5ec;
+}
+.analysis-feature-trend-main{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  width:max-content;
+  max-width:100%;
+  padding:7px 10px;
+  border-radius:9px;
+  font-size:11.5px;
+  font-weight:750;
+  line-height:1;
+}
+.analysis-feature-trend-main strong{
+  font-size:12.5px;
+  font-weight:900;
+  font-variant-numeric:tabular-nums;
+}
+.analysis-feature-arrow{
+  font-size:10px;
+  font-weight:900;
+}
+.analysis-feature-trend-sub{
+  margin-top:7px;
+  color:#677f90;
+  font-size:10.5px;
+  font-weight:600;
+  line-height:1.4;
+}
+.analysis-feature-compare.good .analysis-feature-trend-main{
+  background:#dff5e9;
+  color:#0d6f47;
+  border:1px solid #b8e4cd;
+}
+.analysis-feature-compare.bad .analysis-feature-trend-main{
+  background:#fde8e6;
+  color:#b43d35;
+  border:1px solid #f2c8c3;
+}
+.analysis-feature-compare.neutral .analysis-feature-trend-main{
+  background:#edf2f6;
+  color:#60788a;
+  border:1px solid #d7e1e8;
+}
+.analysis-feature:nth-child(1){border-left:4px solid #0f8b8d}
+.analysis-feature:nth-child(2){border-left:4px solid #2563eb}
+.analysis-feature:nth-child(3){border-left:4px solid #d97706}
+@media(max-width:690px){
+  .analysis-feature-trend-main{width:100%;justify-content:flex-start}
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
@@ -2286,10 +2344,33 @@ function renderOverview(){let s=app.state;let v=s.values,g=s.growth;let hero=`<d
 let nplSeries=s.ratio_series?.npl_ratio||[];let prevNpl=nplSeries.find(x=>Number(x.year)===Number(s.year)-1)?.value??null;let cards=`<div class="grid metrics">${metric('Tổng tài sản',v.assets,'tỷ VND',g.assets)}${metric('Dư nợ cho vay',v.loans,'tỷ VND',g.loans)}${metric('Lợi nhuận sau thuế',v.pat,'tỷ VND',g.pat)}${metricAdverseRatio('Tỷ lệ nợ xấu',npl,prevNpl)}</div>`;
 let rows=s.raw.map(r=>[escapeHTML(r.name),escapeHTML(r.unit==='percent'?percent(r.value):money(r.value)),escapeHTML(r.unit==='percent'?'%':r.unit==='billion_vnd'?'tỷ VND':r.unit)]);let items=['assets','loans','deposits','equity','pat'].map(k=>`<div class="list-row"><span>${escapeHTML(s.fields[k])}</span><strong>${escapeHTML(money(v[k]))} <small class="muted">tỷ</small></strong></div>`).join('');let chart=s.series[app.chart]||[];return title('Tổng quan tài chính','Các chỉ tiêu tài chính trọng yếu theo kỳ báo cáo.')+hero+cards+`<div class="grid cols">${panel('Diễn biến chỉ tiêu',`<div class="hrow space-between" style="margin-bottom:15px"><label class="field">Chỉ tiêu <select id="chart-select">${['assets','loans','deposits','pat','npl'].map(k=>`<option value="${k}" ${k===app.chart?'selected':''}>${escapeHTML(s.fields[k])}</option>`).join('')}</select></label><span class="tiny">Đơn vị: tỷ VND</span></div>${chartSvg(chart)}`,'Theo kỳ báo cáo')}${panel('Chỉ tiêu trọng yếu',items,'Giá trị năm '+s.year)}</div><div class="section-top top-gap"><h2>Dữ liệu tài chính</h2><small>${s.raw.length} chỉ tiêu</small></div>${wrapTable(['Chỉ tiêu','Giá trị','Đơn vị'],rows)}`}
 function validRatioNumber(value){return value!==null&&value!==undefined&&Number.isFinite(Number(value))}
-function ratioFeature(title,value,description){return `<div class="analysis-feature"><div class="analysis-feature-label">${escapeHTML(title)}${icon('chart')}</div><div class="analysis-feature-value">${escapeHTML(percent(value))}</div><div class="analysis-feature-sub">${escapeHTML(description)}</div></div>`}
+function ratioFeature(title,value,description,metricId,higherIsBetter=true,currentYear=null){
+  const year=Number(currentYear??app.state?.year);
+  const series=app.state?.ratio_series?.[metricId]||[];
+  const previous=series.find(x=>Number(x.year)===year-1)?.value??null;
+  const currentValid=value!==null&&value!==undefined&&Number.isFinite(Number(value));
+  const previousValid=previous!==null&&previous!==undefined&&Number.isFinite(Number(previous));
+  let trend='<div class="analysis-feature-compare neutral"><span class="analysis-feature-trend-main">— Chưa có dữ liệu năm trước</span></div>';
+  if(currentValid&&previousValid){
+    const current=Number(value),prev=Number(previous),delta=current-prev;
+    const flat=Math.abs(delta)<1e-9;
+    const improved=flat?null:(higherIsBetter?delta>0:delta<0);
+    const cls=flat?'neutral':improved?'good':'bad';
+    const arrow=flat?'→':delta>0?'▲':'▼';
+    const rel=Math.abs(prev)>1e-9?Math.abs(delta/prev*100):null;
+    const relText=rel!==null&&Number.isFinite(rel)?new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(rel)+'%':new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(Math.abs(delta))+' điểm %';
+    const deltaText=(delta>0?'+':'')+new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(delta)+' điểm %';
+    const stateText=flat?'Không đổi':improved?'Tốt hơn':'Kém hơn';
+    trend=`<div class="analysis-feature-compare ${cls}">
+      <div class="analysis-feature-trend-main"><span class="analysis-feature-arrow">${arrow}</span><strong>${relText}</strong><span>${stateText}</span></div>
+      <div class="analysis-feature-trend-sub">so với ${year-1} · ${deltaText} · năm trước ${escapeHTML(percent(prev))}</div>
+    </div>`;
+  }
+  return `<div class="analysis-feature"><div class="analysis-feature-label"><span>${escapeHTML(title)}</span>${icon('chart')}</div><div class="analysis-feature-value">${currentValid?escapeHTML(percent(value)):'—'}</div><div class="analysis-feature-sub">${escapeHTML(description)}</div>${trend}</div>`
+}
 function analysisOption(){const rs=app.state?.ratios||[];return rs.find(x=>x.id===app.analysisMetric)||rs[0]||null}
 function analysisLine(series){const sorted=(series||[]).slice().sort((a,b)=>a.year-b.year);const good=sorted.filter(x=>validRatioNumber(x.value));if(!good.length)return emptySmall('Chưa có số liệu đủ để hiển thị chỉ số này theo năm.');const W=800,H=292,L=78,R=34,T=36,B=49;const values=good.map(x=>Number(x.value));let lo=Math.min(...values),hi=Math.max(...values);let pad=(hi-lo)*.22;if(pad<.35)pad=Math.max(.35,Math.abs(hi)*.08);lo-=pad;hi+=pad;const xx=i=>L+(sorted.length===1?(W-L-R)/2:i*(W-L-R)/(sorted.length-1));const yy=v=>T+(hi-v)/(hi-lo)*(H-T-B);let lines='',segment=[];for(let i=0;i<sorted.length;i++){const x=sorted[i];if(!validRatioNumber(x.value)){if(segment.length>1)lines+=`<path class="analysis-line" d="${segment.join(' ')}"/>`;segment=[];continue;}segment.push((segment.length?'L':'M')+xx(i).toFixed(2)+' '+yy(Number(x.value)).toFixed(2));}if(segment.length>1)lines+=`<path class="analysis-line" d="${segment.join(' ')}"/>`;const tickVals=Array.from({length:5},(_,i)=>lo+(hi-lo)*i/4);const grid=tickVals.map(v=>`<g><line class="analysis-grid" x1="${L}" x2="${W-R}" y1="${yy(v).toFixed(2)}" y2="${yy(v).toFixed(2)}"/><text x="${L-12}" y="${(yy(v)+4).toFixed(2)}" text-anchor="end">${escapeHTML(percent(v))}</text></g>`).join('');const dots=sorted.map((x,i)=>{const cx=xx(i),isGood=validRatioNumber(x.value);return `<text class="analysis-year" x="${cx}" y="${H-10}" text-anchor="middle">${escapeHTML(x.year)}</text>`+(isGood?`<circle class="analysis-dot" cx="${cx}" cy="${yy(Number(x.value)).toFixed(2)}" r="6"><title>${escapeHTML(x.year+' · '+percent(x.value))}</title></circle><text class="analysis-label" x="${i===0?cx+12:i===sorted.length-1?cx-12:cx}" y="${Math.max(16,yy(Number(x.value))-16).toFixed(2)}" text-anchor="${i===0?'start':i===sorted.length-1?'end':'middle'}">${escapeHTML(percent(x.value))}</text>`:'<text x="'+cx+'" y="'+(H-28)+'" text-anchor="middle">Thiếu dữ liệu</text>')}).join('');return `<svg class="analysis-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Biểu đồ đường tỷ số tài chính theo năm">${grid}${lines}${dots}</svg>`}
-function renderAnalysis(){const s=app.state;const choice=analysisOption();const series=choice?(s.ratio_series?.[choice.id]||[]).filter(x=>x.year<=s.year):[];const rows=s.ratios.map(x=>[escapeHTML(x.name),`<strong>${percent(x.value)}</strong>`,escapeHTML(x.formula)]);const choiceLabel=choice?choice.name:'Chỉ số';const selectors=s.ratios.map(x=>`<option value="${escapeHTML(x.id)}" ${choice&&choice.id===x.id?'selected':''}>${escapeHTML(x.name)}</option>`).join('');const plot=`<div class="panel analysis-trend"><div class="analysis-trend-head"><div><h2>Diễn biến chỉ số theo năm</h2><p>Chọn một chỉ số để theo dõi giá trị qua các kỳ báo cáo đã nhập.</p></div><label class="analysis-select">Chỉ số phân tích<select id="analysis-metric" aria-label="Chọn chỉ số tài chính theo năm">${selectors}</select></label></div><div class="analysis-chart-wrap"><div class="hrow space-between" style="gap:10px;flex-wrap:wrap;margin-bottom:4px"><strong>${escapeHTML(choiceLabel)}</strong><small class="tiny">Đơn vị: %</small></div>${analysisLine(series)}</div><p class="analysis-explainer">Biểu đồ thể hiện xu hướng của chỉ số được chọn dựa trên chuỗi dữ liệu đã nạp.</p></div>`;return title('Phân tích chỉ số',`Theo dõi khả năng sinh lời và hiệu quả hoạt động của ${escapeHTML(s.bank)} năm ${s.year}.`)+`<div class="analysis-feature-grid">${ratioFeature('ROA · Hiệu quả tài sản',s.ratios.find(x=>x.id==='roa')?.value,'Lợi nhuận sau thuế / Tài sản bình quân')}${ratioFeature('ROE · Hiệu quả vốn',s.ratios.find(x=>x.id==='roe')?.value,'Lợi nhuận sau thuế / Vốn chủ sở hữu bình quân')}${ratioFeature('CIR · Chi phí / Thu nhập',s.ratios.find(x=>x.id==='cir')?.value,'Chi phí hoạt động / Tổng thu nhập hoạt động')}</div>${plot}${panel('Các chỉ số tài chính',wrapTable(['Chỉ số','Giá trị','Phương pháp tính'],rows),'Tỷ lệ phần trăm')}<div class="note">Những tỷ số cần dữ liệu đầu kỳ chỉ được hiển thị khi có đủ số liệu của kỳ trước. Các công thức được công bố để thuận tiện đối chiếu.</div>`}
+function renderAnalysis(){const s=app.state;const choice=analysisOption();const series=choice?(s.ratio_series?.[choice.id]||[]).filter(x=>x.year<=s.year):[];const rows=s.ratios.map(x=>[escapeHTML(x.name),`<strong>${percent(x.value)}</strong>`,escapeHTML(x.formula)]);const choiceLabel=choice?choice.name:'Chỉ số';const selectors=s.ratios.map(x=>`<option value="${escapeHTML(x.id)}" ${choice&&choice.id===x.id?'selected':''}>${escapeHTML(x.name)}</option>`).join('');const plot=`<div class="panel analysis-trend"><div class="analysis-trend-head"><div><h2>Diễn biến chỉ số theo năm</h2><p>Chọn một chỉ số để theo dõi giá trị qua các kỳ báo cáo đã nhập.</p></div><label class="analysis-select">Chỉ số phân tích<select id="analysis-metric" aria-label="Chọn chỉ số tài chính theo năm">${selectors}</select></label></div><div class="analysis-chart-wrap"><div class="hrow space-between" style="gap:10px;flex-wrap:wrap;margin-bottom:4px"><strong>${escapeHTML(choiceLabel)}</strong><small class="tiny">Đơn vị: %</small></div>${analysisLine(series)}</div><p class="analysis-explainer">Biểu đồ thể hiện xu hướng của chỉ số được chọn dựa trên chuỗi dữ liệu đã nạp.</p></div>`;return title('Phân tích chỉ số',`Theo dõi khả năng sinh lời và hiệu quả hoạt động của ${escapeHTML(s.bank)} năm ${s.year}.`)+`<div class="analysis-feature-grid">${ratioFeature('ROA · Hiệu quả tài sản',s.ratios.find(x=>x.id==='roa')?.value,'Lợi nhuận sau thuế / Tài sản bình quân','roa',true,s.year)}${ratioFeature('ROE · Hiệu quả vốn',s.ratios.find(x=>x.id==='roe')?.value,'Lợi nhuận sau thuế / Vốn chủ sở hữu bình quân','roe',true,s.year)}${ratioFeature('CIR · Chi phí / Thu nhập',s.ratios.find(x=>x.id==='cir')?.value,'Chi phí hoạt động / Tổng thu nhập hoạt động','cir',false,s.year)}</div>${plot}${panel('Các chỉ số tài chính',wrapTable(['Chỉ số','Giá trị','Phương pháp tính'],rows),'Tỷ lệ phần trăm')}<div class="note">Những tỷ số cần dữ liệu đầu kỳ chỉ được hiển thị khi có đủ số liệu của kỳ trước. Các công thức được công bố để thuận tiện đối chiếu.</div>`}
 const compareOptions=[
   {id:'assets',label:'Tổng tài sản',type:'value',key:'assets',unit:'tỷ VND',fmt:'money'},
   {id:'loans',label:'Dư nợ cho vay',type:'value',key:'loans',unit:'tỷ VND',fmt:'money'},
