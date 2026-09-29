@@ -4462,6 +4462,146 @@ body{background:#EAF3FA!important;color:var(--r28-ink)!important}
   .ref-bank-banner{padding:20px!important}
   .ref-market-art{opacity:.24!important}
 }
+
+/* AUREL R29 THREE-ARTWORK INTEGRATION */
+
+/* 1) HERO: use extracted blue-gold dragon artwork as the actual main background */
+.ref-hero{
+  min-height:286px!important;
+  background:
+    linear-gradient(90deg,
+      rgba(3,18,35,.96) 0%,
+      rgba(4,28,50,.88) 30%,
+      rgba(5,35,62,.48) 47%,
+      rgba(5,28,50,.10) 66%,
+      rgba(5,28,50,0) 100%),
+    url("assets/aurel_hero_dragon_main.webp") center right/cover no-repeat!important;
+  border:1px solid #174F7C!important;
+  box-shadow:0 16px 36px rgba(5,32,58,.18)!important;
+}
+.ref-hero:before{
+  background:
+    radial-gradient(circle at 73% 32%,rgba(33,126,255,.08),transparent 24%),
+    radial-gradient(circle at 86% 63%,rgba(246,184,38,.08),transparent 18%)!important;
+}
+.ref-hero-copy{
+  position:relative!important;
+  z-index:3!important;
+  padding:42px 42% 18px 42px!important;
+}
+.ref-hero h1{
+  text-shadow:0 5px 20px rgba(0,0,0,.32)!important;
+}
+.ref-feature-row span{
+  backdrop-filter:blur(7px)!important;
+  background:rgba(4,28,52,.68)!important;
+  border-color:rgba(146,213,247,.18)!important;
+}
+.ref-hero-side{
+  background:rgba(4,24,44,.16)!important;
+  padding:10px 10px 10px 14px!important;
+  border-radius:12px!important;
+  backdrop-filter:blur(4px)!important;
+}
+
+/* 2) VPB banner: use extracted mountain/data artwork */
+.ref-bank-banner{
+  min-height:122px!important;
+  background:
+    linear-gradient(90deg,
+      rgba(6,42,72,.96) 0%,
+      rgba(7,59,90,.84) 42%,
+      rgba(7,73,99,.28) 64%,
+      rgba(7,73,99,.05) 100%),
+    url("assets/aurel_bank_banner_main.webp") center right/cover no-repeat!important;
+  border:1px solid #267393!important;
+  box-shadow:0 10px 24px rgba(7,53,79,.11)!important;
+}
+.ref-bank-banner:before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  pointer-events:none!important;
+  background:linear-gradient(110deg,rgba(255,255,255,.025),transparent 45%)!important;
+}
+.ref-bank-banner>*{
+  position:relative!important;
+  z-index:2!important;
+}
+/* the artwork is now a real raster background, so hide the old synthetic SVG */
+.ref-market-art{
+  display:none!important;
+}
+
+/* 3) SIDEBAR: use extracted city/market artwork at the bottom */
+.sidebar{
+  background:
+    linear-gradient(180deg,
+      rgba(3,24,44,.995) 0%,
+      rgba(4,31,55,.985) 43%,
+      rgba(5,40,69,.88) 66%,
+      rgba(5,41,72,.38) 100%),
+    url("assets/aurel_sidebar_city_main.webp") center bottom/100% auto no-repeat!important;
+}
+.sidebar:before{
+  content:""!important;
+  position:absolute!important;
+  inset:auto 0 0 0!important;
+  height:46%!important;
+  background:linear-gradient(180deg,transparent 0%,rgba(3,26,47,.08) 20%,rgba(2,24,43,.18) 100%)!important;
+  pointer-events:none!important;
+}
+.sidebar:after{
+  content:"AUREL\A FINANCIAL INTELLIGENCE"!important;
+  white-space:pre!important;
+  bottom:24px!important;
+  text-shadow:0 2px 12px rgba(0,0,0,.55)!important;
+}
+.brand,.menu-title,.nav{
+  position:relative!important;
+  z-index:3!important;
+}
+.nav button{
+  backdrop-filter:blur(3px)!important;
+}
+.nav button.active{
+  background:linear-gradient(100deg,rgba(18,90,227,.96),rgba(12,141,235,.94))!important;
+}
+
+/* avoid old visual layers fighting the three real images */
+#root>.page-head:has(+ .hero){display:none!important}
+.hero:not(.ref-hero){display:none!important}
+.grid.metrics{display:none!important}
+
+/* presentation sharpness */
+.ref-kpi,.ref-chart-panel,.ref-key-panel{
+  box-shadow:0 8px 22px rgba(12,50,77,.07)!important;
+}
+body{
+  -webkit-font-smoothing:antialiased!important;
+  text-rendering:optimizeLegibility!important;
+}
+
+@media(max-width:1000px){
+  .ref-hero{
+    background-position:62% center!important;
+  }
+  .ref-hero-copy{
+    padding-right:34%!important;
+  }
+}
+@media(max-width:760px){
+  .ref-hero{
+    background-position:58% center!important;
+  }
+  .ref-hero-copy{
+    padding:30px 22px 18px!important;
+    background:linear-gradient(90deg,rgba(4,25,46,.95),rgba(4,25,46,.66),transparent)!important;
+  }
+  .ref-bank-banner{
+    background-position:64% center!important;
+  }
+}
 </style><!-- AUREL BREVO BUILD 20260928 FINAL -->
 <!-- AUREL BREVO DIRECT FINAL 20260928 -->
 <!-- AUREL BREVO FINAL UNIQUE BUILD 20260928-2340 -->
