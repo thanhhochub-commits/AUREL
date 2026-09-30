@@ -7903,85 +7903,59 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span {
   }
 }
 </style>
-<style id="AUREL_R77_HARD_RESET_SMOOTH_SLIDER">
-/* R77: giữ nguyên layout; chỉ animate ảnh nền trong đúng hero/sidebar.
-   Reset toàn bộ thuộc tính pseudo-element cũ để không còn hình elip/cong/tràn. */
 
-@keyframes aurelR77Day{
-  0%,45%{transform:translate3d(0,0,0)}
-  50%{transform:translate3d(-100%,0,0)}
-  50.01%,95%{transform:translate3d(100%,0,0)}
-  100%{transform:translate3d(0,0,0)}
-}
-@keyframes aurelR77Night{
-  0%,45%{transform:translate3d(100%,0,0)}
-  50%,95%{transform:translate3d(0,0,0)}
-  100%{transform:translate3d(-100%,0,0)}
-}
-
-/* HERO */
+<style id="AUREL_R78_REAL_SLIDER_CSS">
+/* R78: slider bằng 2 thẻ <img> thật, không dùng pseudo-element, không phụ thuộc reduced-motion. */
 body:has(#nav button[data-page="overview"].active) .ref-hero{
   position:relative!important;
   overflow:hidden!important;
   background:#062d50!important;
   background-image:none!important;
 }
-
 body:has(#nav button[data-page="overview"].active) .ref-hero::before,
-body:has(#nav button[data-page="overview"].active) .ref-hero::after{
-  content:""!important;
-  display:block!important;
-  position:absolute!important;
-  z-index:0!important;
+body:has(#nav button[data-page="overview"].active) .ref-hero::after,
+.sidebar::before,
+.sidebar::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+  border:0!important;
+  box-shadow:none!important;
+}
 
+.aurel-r78-slider-wrap{
+  position:absolute!important;
   inset:0!important;
-  top:0!important;
-  right:0!important;
-  bottom:0!important;
-  left:0!important;
-  width:auto!important;
-  height:auto!important;
-  min-width:0!important;
-  min-height:0!important;
+  width:100%!important;
+  height:100%!important;
+  overflow:hidden!important;
+  z-index:0!important;
+  pointer-events:none!important;
+  border-radius:inherit!important;
+  contain:paint!important;
+  background:#062d50!important;
+}
+.aurel-r78-slider-img{
+  position:absolute!important;
+  inset:0!important;
+  width:100%!important;
+  height:100%!important;
   max-width:none!important;
   max-height:none!important;
-
+  display:block!important;
+  object-fit:cover!important;
+  object-position:center center!important;
   margin:0!important;
   padding:0!important;
   border:0!important;
-  border-top:0!important;
-  border-right:0!important;
-  border-bottom:0!important;
-  border-left:0!important;
   border-radius:0!important;
-  outline:0!important;
-  box-shadow:none!important;
-  filter:none!important;
   opacity:1!important;
+  filter:none!important;
   clip-path:none!important;
-  mask:none!important;
-  mix-blend-mode:normal!important;
-
-  background-color:transparent!important;
-  background-repeat:no-repeat!important;
-  background-size:cover!important;
-  background-position:center center!important;
-  background-attachment:scroll!important;
-
-  pointer-events:none!important;
-  transform-origin:center center!important;
+  transform:translate3d(100%,0,0);
+  will-change:transform!important;
   backface-visibility:hidden!important;
   -webkit-backface-visibility:hidden!important;
-  will-change:transform!important;
-}
-
-body:has(#nav button[data-page="overview"].active) .ref-hero::before{
-  background-image:url("assets/aurel_hero_day_20261001.webp")!important;
-  animation:aurelR77Day 20s cubic-bezier(.22,.61,.36,1) infinite!important;
-}
-body:has(#nav button[data-page="overview"].active) .ref-hero::after{
-  background-image:url("assets/aurel_hero_night_20261001.webp")!important;
-  animation:aurelR77Night 20s cubic-bezier(.22,.61,.36,1) infinite!important;
 }
 
 body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
@@ -8008,74 +7982,18 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
   text-shadow:0 1px 4px rgba(0,15,35,.78)!important;
 }
 
-/* SIDEBAR desktop: KHÔNG đổi position/width/height/grid của sidebar gốc. */
 @media(min-width:761px){
   .sidebar{
     overflow:hidden!important;
     background:#052b4d!important;
     background-image:none!important;
   }
-
-  .sidebar::before,
-  .sidebar::after{
-    content:""!important;
-    display:block!important;
-    position:absolute!important;
-    z-index:0!important;
-
-    inset:0!important;
-    top:0!important;
-    right:0!important;
-    bottom:0!important;
-    left:0!important;
-    width:auto!important;
-    height:auto!important;
-    min-width:0!important;
-    min-height:0!important;
-    max-width:none!important;
-    max-height:none!important;
-
-    margin:0!important;
-    padding:0!important;
-    border:0!important;
-    border-radius:0!important;
-    outline:0!important;
-    box-shadow:none!important;
-    filter:none!important;
-    opacity:1!important;
-    clip-path:none!important;
-    mask:none!important;
-    mix-blend-mode:normal!important;
-
-    background-color:transparent!important;
-    background-repeat:no-repeat!important;
-    background-size:cover!important;
-    background-position:center center!important;
-    background-attachment:scroll!important;
-
-    pointer-events:none!important;
-    transform-origin:center center!important;
-    backface-visibility:hidden!important;
-    -webkit-backface-visibility:hidden!important;
-    will-change:transform!important;
-  }
-
-  .sidebar::before{
-    background-image:url("assets/aurel_sidebar_day_20261001.webp")!important;
-    animation:aurelR77Day 20s cubic-bezier(.22,.61,.36,1) infinite!important;
-  }
-  .sidebar::after{
-    background-image:url("assets/aurel_sidebar_night_20261001.webp")!important;
-    animation:aurelR77Night 20s cubic-bezier(.22,.61,.36,1) infinite!important;
-  }
-
   .sidebar .brand,
   .sidebar>.menu-title,
   .sidebar .nav{
     position:relative!important;
     z-index:3!important;
   }
-
   .sidebar .brand{
     background:rgba(2,23,45,.05)!important;
     -webkit-backdrop-filter:none!important;
@@ -8092,20 +8010,6 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
   .sidebar .nav button.active{
     background:linear-gradient(100deg,rgba(20,104,238,.72),rgba(6,151,232,.62) 76%,rgba(17,188,229,.54))!important;
     border-color:rgba(115,230,255,.92)!important;
-  }
-}
-
-/* Nếu hệ điều hành bật reduce motion thì chỉ giữ ảnh đầu, không phá bố cục. */
-@media(prefers-reduced-motion:reduce){
-  body:has(#nav button[data-page="overview"].active) .ref-hero::before,
-  .sidebar::before{
-    animation:none!important;
-    transform:translate3d(0,0,0)!important;
-  }
-  body:has(#nav button[data-page="overview"].active) .ref-hero::after,
-  .sidebar::after{
-    animation:none!important;
-    transform:translate3d(100%,0,0)!important;
   }
 }
 </style>
@@ -8529,6 +8433,122 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
   setTimeout(run,60);
   setTimeout(run,250);
   setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'assets/aurel_hero_day_20261001.webp',
+    'assets/aurel_hero_night_20261001.webp'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  function preload(list){
+    list.forEach(function(src){
+      var im=new Image();
+      im.decoding='async';
+      im.src=src;
+    });
+  }
+
+  function mount(el,list,key){
+    if(!el || !list || list.length<2) return;
+    if(el.querySelector(':scope > .aurel-r78-slider-wrap')) return;
+
+    var wrap=document.createElement('div');
+    wrap.className='aurel-r78-slider-wrap';
+    wrap.setAttribute('aria-hidden','true');
+
+    var a=document.createElement('img');
+    var b=document.createElement('img');
+    a.className='aurel-r78-slider-img';
+    b.className='aurel-r78-slider-img';
+    a.alt=''; b.alt='';
+    a.draggable=false; b.draggable=false;
+
+    a.src=list[0];
+    b.src=list[1];
+    a.style.transform='translate3d(0,0,0)';
+    b.style.transform='translate3d(100%,0,0)';
+
+    wrap.appendChild(a);
+    wrap.appendChild(b);
+    el.insertBefore(wrap,el.firstChild);
+
+    var current=a;
+    var next=b;
+    var index=0;
+    var stopped=false;
+
+    function schedule(){
+      if(stopped || !el.isConnected) return;
+      setTimeout(advance,HOLD);
+    }
+
+    function advance(){
+      if(stopped || !el.isConnected) return;
+
+      var ni=(index+1)%list.length;
+      next.src=list[ni];
+
+      current.style.transition='none';
+      next.style.transition='none';
+      current.style.transform='translate3d(0,0,0)';
+      next.style.transform='translate3d(100%,0,0)';
+
+      requestAnimationFrame(function(){
+        requestAnimationFrame(function(){
+          current.style.transition='transform '+MOVE+'ms '+EASE;
+          next.style.transition='transform '+MOVE+'ms '+EASE;
+          current.style.transform='translate3d(-100%,0,0)';
+          next.style.transform='translate3d(0,0,0)';
+
+          setTimeout(function(){
+            if(!el.isConnected){stopped=true;return;}
+            current.style.transition='none';
+            current.style.transform='translate3d(100%,0,0)';
+            var old=current;
+            current=next;
+            next=old;
+            index=ni;
+            schedule();
+          },MOVE+40);
+        });
+      });
+    }
+
+    schedule();
+  }
+
+  function run(){
+    mount(document.querySelector('.sidebar'),SIDE,'side');
+    mount(document.querySelector('.ref-hero'),HERO,'hero');
+  }
+
+  preload(HERO.concat(SIDE));
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',run,{once:true});
+  }else{
+    run();
+  }
+
+  var root=document.getElementById('root')||document.body;
+  var queued=false;
+  new MutationObserver(function(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      run();
+    });
+  }).observe(root,{childList:true,subtree:true});
 })();
 </script>
 </body></html>
