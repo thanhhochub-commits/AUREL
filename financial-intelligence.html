@@ -9338,6 +9338,13 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
   var MOVE=900;
   var EASE='cubic-bezier(.22,.61,.36,1)';
 
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  var instances=[];
+  var globalIndex=0;
+  var masterTimer=null;
+  var animating=false;
+
   function preload(list){
     list.forEach(function(src){
       var im=new Image();
@@ -9346,9 +9353,21 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
     });
   }
 
+  function findInstance(el){
+    for(var i=0;i<instances.length;i++){
+      if(instances[i].el===el && instances[i].el.isConnected) return instances[i];
+    }
+    return null;
+  }
+
   function mount(el,list,key){
-    if(!el || !list || list.length<2) return;
-    if(el.querySelector(':scope > .aurel-r78-slider-wrap')) return;
+    if(!el || !list || list.length<2) return null;
+
+    var existing=findInstance(el);
+    if(existing) return existing;
+
+    var oldWrap=el.querySelector(':scope > .aurel-r78-slider-wrap');
+    if(oldWrap) oldWrap.remove();
 
     var wrap=document.createElement('div');
     wrap.className='aurel-r78-slider-wrap';
@@ -9361,8 +9380,12 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
     a.alt=''; b.alt='';
     a.draggable=false; b.draggable=false;
 
-    a.src=list[0];
-    b.src=list[1];
+    var idx=globalIndex%list.length;
+    var nextIdx=(idx+1)%list.length;
+    a.src=list[idx];
+    b.src=list[nextIdx];
+    a.style.transition='none';
+    b.style.transition='none';
     a.style.transform='translate3d(0,0,0)';
     b.style.transform='translate3d(100%,0,0)';
 
@@ -9370,54 +9393,91 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
     wrap.appendChild(b);
     el.insertBefore(wrap,el.firstChild);
 
-    var current=a;
-    var next=b;
-    var index=0;
-    var stopped=false;
+    var inst={
+      el:el,
+      list:list,
+      key:key,
+      wrap:wrap,
+      current:a,
+      next:b,
+      index:idx
+    };
+    instances.push(inst);
+    return inst;
+  }
 
-    function schedule(){
-      if(stopped || !el.isConnected) return;
-      setTimeout(advance,HOLD);
+  function cleanup(){
+    instances=instances.filter(function(inst){
+      return inst.el && inst.el.isConnected && inst.wrap && inst.wrap.isConnected;
+    });
+  }
+
+  function scheduleMaster(){
+    if(masterTimer!==null) return;
+    masterTimer=setTimeout(function(){
+      masterTimer=null;
+      advanceAll();
+    },HOLD);
+  }
+
+  function advanceAll(){
+    if(animating){
+      scheduleMaster();
+      return;
     }
 
-    function advance(){
-      if(stopped || !el.isConnected) return;
+    cleanup();
+    if(!instances.length){
+      scheduleMaster();
+      return;
+    }
 
-      var ni=(index+1)%list.length;
-      next.src=list[ni];
+    animating=true;
+    var ni=(globalIndex+1)%2;
 
-      current.style.transition='none';
-      next.style.transition='none';
-      current.style.transform='translate3d(0,0,0)';
-      next.style.transform='translate3d(100%,0,0)';
+    /* Chuẩn bị tất cả slider trong cùng một lượt JS. */
+    instances.forEach(function(inst){
+      var localNext=ni%inst.list.length;
+      inst.next.src=inst.list[localNext];
+      inst.current.style.transition='none';
+      inst.next.style.transition='none';
+      inst.current.style.transform='translate3d(0,0,0)';
+      inst.next.style.transform='translate3d(100%,0,0)';
+    });
 
+    /* Một cặp requestAnimationFrame chung: tất cả bắt đầu đúng cùng frame. */
+    requestAnimationFrame(function(){
       requestAnimationFrame(function(){
-        requestAnimationFrame(function(){
-          current.style.transition='transform '+MOVE+'ms '+EASE;
-          next.style.transition='transform '+MOVE+'ms '+EASE;
-          current.style.transform='translate3d(-100%,0,0)';
-          next.style.transform='translate3d(0,0,0)';
-
-          setTimeout(function(){
-            if(!el.isConnected){stopped=true;return;}
-            current.style.transition='none';
-            current.style.transform='translate3d(100%,0,0)';
-            var old=current;
-            current=next;
-            next=old;
-            index=ni;
-            schedule();
-          },MOVE+40);
+        cleanup();
+        instances.forEach(function(inst){
+          inst.current.style.transition='transform '+MOVE+'ms '+EASE;
+          inst.next.style.transition='transform '+MOVE+'ms '+EASE;
+          inst.current.style.transform='translate3d(-100%,0,0)';
+          inst.next.style.transform='translate3d(0,0,0)';
         });
-      });
-    }
 
-    schedule();
+        setTimeout(function(){
+          cleanup();
+          instances.forEach(function(inst){
+            inst.current.style.transition='none';
+            inst.current.style.transform='translate3d(100%,0,0)';
+            var old=inst.current;
+            inst.current=inst.next;
+            inst.next=old;
+            inst.index=ni%inst.list.length;
+          });
+          globalIndex=ni;
+          animating=false;
+          scheduleMaster();
+        },MOVE+40);
+      });
+    });
   }
 
   function run(){
     mount(document.querySelector('.sidebar'),SIDE,'side');
     mount(document.querySelector('.ref-hero'),HERO,'hero');
+    scheduleMaster();
   }
 
   preload(HERO.concat(SIDE));
@@ -9435,6 +9495,7 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
     queued=true;
     requestAnimationFrame(function(){
       queued=false;
+      cleanup();
       run();
     });
   }).observe(root,{childList:true,subtree:true});
