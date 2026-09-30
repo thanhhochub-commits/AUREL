@@ -7742,111 +7742,107 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
 }
 </style>
 
-<style id="AUREL_R73_CSS_10S_DUAL_SLIDER">
-/* Robust CSS-only 10s slideshow: no JS timer to be reset by dashboard re-rendering. */
+
+<style id="AUREL_R74_BOXED_SLIDERS">
+/* Slideshow chỉ nằm trong đúng khung sidebar và hero. */
 .sidebar,
 body:has(#nav button[data-page="overview"].active) .ref-hero{
   position:relative!important;
-  isolation:isolate!important;
   overflow:hidden!important;
+  isolation:isolate!important;
 }
 
-/* Strip any static background so the two real image layers are always visible. */
-.sidebar{
-  background:#052b4d!important;
-  background-image:none!important;
-}
-body:has(#nav button[data-page="overview"].active) .ref-hero{
-  background:#062d50!important;
-  background-image:none!important;
-  border:1px solid rgba(123,190,239,.30)!important;
-}
-
-/* Both slides are real image layers. Day leaves left while night enters from right, then vice versa. */
-.sidebar::before,
-.sidebar::after,
-body:has(#nav button[data-page="overview"].active) .ref-hero::before,
-body:has(#nav button[data-page="overview"].active) .ref-hero::after{
-  content:""!important;
-  display:block!important;
+.aurel-box-slider{
   position:absolute!important;
-  inset:-1px!important;
+  inset:0!important;
   z-index:0!important;
+  overflow:hidden!important;
   pointer-events:none!important;
-  opacity:1!important;
-  background-repeat:no-repeat!important;
+  border-radius:inherit!important;
+}
+
+.aurel-box-slide{
+  position:absolute!important;
+  inset:0!important;
   background-size:cover!important;
   background-position:center center!important;
-  will-change:transform!important;
-  backface-visibility:hidden!important;
-  -webkit-backface-visibility:hidden!important;
+  background-repeat:no-repeat!important;
+  transform:translate3d(100%,0,0);
+  will-change:transform;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
 }
 
-/* HERO: day + night */
-body:has(#nav button[data-page="overview"].active) .ref-hero::before{
-  background-image:url("assets/aurel_hero_day_20261001.webp")!important;
-  animation:aurelSlideDay20 20s cubic-bezier(.22,.61,.36,1) infinite!important;
-}
-body:has(#nav button[data-page="overview"].active) .ref-hero::after{
-  background-image:url("assets/aurel_hero_night_20261001.webp")!important;
-  animation:aurelSlideNight20 20s cubic-bezier(.22,.61,.36,1) infinite!important;
+.aurel-box-slide.is-current{
+  transform:translate3d(0,0,0);
 }
 
-/* SIDEBAR: day + night */
-.sidebar::before{
-  background-image:url("assets/aurel_sidebar_day_20261001.webp")!important;
-  animation:aurelSlideDay20 20s cubic-bezier(.22,.61,.36,1) infinite!important;
-}
-.sidebar::after{
-  background-image:url("assets/aurel_sidebar_night_20261001.webp")!important;
-  animation:aurelSlideNight20 20s cubic-bezier(.22,.61,.36,1) infinite!important;
+.aurel-box-slide.is-next{
+  transform:translate3d(100%,0,0);
 }
 
-/* Each image owns roughly 10 seconds; the 0.9s handoff slides right-to-left. */
-@keyframes aurelSlideDay20{
-  0%,45.5%{transform:translate3d(0,0,0)}
-  50%{transform:translate3d(-100%,0,0)}
-  50.01%,95.5%{transform:translate3d(100%,0,0)}
-  100%{transform:translate3d(0,0,0)}
-}
-@keyframes aurelSlideNight20{
-  0%,45.5%{transform:translate3d(100%,0,0)}
-  50%,95.5%{transform:translate3d(0,0,0)}
-  100%{transform:translate3d(-100%,0,0)}
-}
-
-/* Keep every existing control/text layer above the moving photography. */
+/* Giữ toàn bộ điều khiển/chữ phía trên ảnh. */
 .sidebar .brand,
 .sidebar>.menu-title,
 .sidebar .nav{
   position:relative!important;
   z-index:8!important;
 }
+
+.sidebar{
+  background:#052b4d!important;
+  background-image:none!important;
+}
+
+.sidebar::before,
+.sidebar::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+}
+
 .sidebar .brand{
-  background:rgba(2,23,45,.04)!important;
+  background:rgba(2,23,45,.05)!important;
   border-bottom:1px solid rgba(150,220,255,.14)!important;
   box-shadow:none!important;
   -webkit-backdrop-filter:none!important;
   backdrop-filter:none!important;
 }
+
 .sidebar .nav button{
   position:relative!important;
   z-index:9!important;
   color:#fff!important;
-  background:rgba(3,38,70,.05)!important;
+  background:rgba(3,38,70,.06)!important;
   border:1px solid rgba(145,220,255,.13)!important;
   box-shadow:none!important;
   -webkit-backdrop-filter:none!important;
   backdrop-filter:none!important;
   text-shadow:0 1px 5px rgba(0,15,32,.82)!important;
 }
+
 .sidebar .nav button:hover{
   background:rgba(8,85,151,.16)!important;
 }
+
 .sidebar .nav button.active{
   background:linear-gradient(100deg,rgba(20,104,238,.72),rgba(6,151,232,.62) 76%,rgba(17,188,229,.54))!important;
   border:1px solid rgba(115,230,255,.92)!important;
   box-shadow:inset 3px 0 rgba(167,241,255,.96),0 0 12px rgba(0,175,255,.16)!important;
+}
+
+/* Hero chỉ giữ ảnh trong đúng khung. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  background:#062d50!important;
+  background-image:none!important;
+  border:1px solid rgba(123,190,239,.30)!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero::before,
+body:has(#nav button[data-page="overview"].active) .ref-hero::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
 }
 
 body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
@@ -7856,6 +7852,7 @@ body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy
   -webkit-backdrop-filter:none!important;
   backdrop-filter:none!important;
 }
+
 body:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
 body:has(#nav button[data-page="overview"].active) .ref-hero-live-bank,
 body:has(#nav button[data-page="overview"].active) .ref-hero-live-title,
@@ -7864,6 +7861,7 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
   color:#fff!important;
   text-shadow:0 2px 8px rgba(0,13,32,.86)!important;
 }
+
 body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
   position:relative!important;
   z-index:5!important;
@@ -7873,20 +7871,6 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
   -webkit-backdrop-filter:none!important;
   backdrop-filter:none!important;
   text-shadow:0 1px 4px rgba(0,15,35,.78)!important;
-}
-
-/* Respect reduced-motion without breaking the page: keep the day frame static. */
-@media (prefers-reduced-motion:reduce){
-  .sidebar::before,
-  body:has(#nav button[data-page="overview"].active) .ref-hero::before{
-    animation:none!important;
-    transform:none!important;
-  }
-  .sidebar::after,
-  body:has(#nav button[data-page="overview"].active) .ref-hero::after{
-    animation:none!important;
-    transform:translate3d(100%,0,0)!important;
-  }
 }
 </style>
 </head><body>
@@ -8312,5 +8296,111 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
 })();
 </script>
 
+<script id="AUREL_R74_BOXED_SLIDERS_JS">
+(function(){
+  var HERO=[
+    'assets/aurel_hero_day_20261001.webp',
+    'assets/aurel_hero_night_20261001.webp'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp'
+  ];
+  var DELAY=10000;
+  var DURATION=900;
+
+  function preload(list){
+    list.forEach(function(src){
+      var im=new Image();
+      im.decoding='async';
+      im.src=src;
+    });
+  }
+
+  function mount(el,list,key){
+    if(!el || !list || list.length<2) return;
+    if(el.dataset[key]==='1') return;
+
+    el.dataset[key]='1';
+
+    var wrap=document.createElement('div');
+    wrap.className='aurel-box-slider';
+    wrap.setAttribute('aria-hidden','true');
+
+    var a=document.createElement('div');
+    var b=document.createElement('div');
+    a.className='aurel-box-slide is-current';
+    b.className='aurel-box-slide is-next';
+    a.style.backgroundImage='url("'+list[0]+'")';
+    b.style.backgroundImage='url("'+list[1]+'")';
+
+    wrap.appendChild(a);
+    wrap.appendChild(b);
+    el.insertBefore(wrap,el.firstChild);
+
+    var current=a;
+    var next=b;
+    var index=0;
+    var busy=false;
+
+    function advance(){
+      if(busy || !el.isConnected) return;
+      busy=true;
+
+      var ni=(index+1)%list.length;
+
+      next.style.transition='none';
+      next.style.transform='translate3d(100%,0,0)';
+      next.style.backgroundImage='url("'+list[ni]+'")';
+      void next.offsetWidth;
+
+      current.style.transition='transform '+DURATION+'ms cubic-bezier(.22,.61,.36,1)';
+      next.style.transition='transform '+DURATION+'ms cubic-bezier(.22,.61,.36,1)';
+
+      current.style.transform='translate3d(-100%,0,0)';
+      next.style.transform='translate3d(0,0,0)';
+
+      setTimeout(function(){
+        if(!el.isConnected) return;
+        current.style.transition='none';
+        current.style.transform='translate3d(100%,0,0)';
+        var old=current;
+        current=next;
+        next=old;
+        index=ni;
+        busy=false;
+      },DURATION+60);
+    }
+
+    setInterval(function(){
+      if(!document.hidden) advance();
+    },DELAY);
+  }
+
+  function run(){
+    mount(document.querySelector('.sidebar'),SIDE,'aurelSideSlider');
+    mount(document.querySelector('.ref-hero'),HERO,'aurelHeroSlider');
+  }
+
+  preload(HERO.concat(SIDE));
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',run,{once:true});
+  }else{
+    run();
+  }
+
+  var root=document.getElementById('root')||document.body;
+  var queued=false;
+  new MutationObserver(function(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      run();
+    });
+  }).observe(root,{childList:true,subtree:true});
+})();
+</script>
 </body></html>
 
