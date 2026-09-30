@@ -7400,28 +7400,32 @@ body:has(#nav button[data-page="overview"].active) .r61-center-value{
   letter-spacing:-.15px!important;
 }
 </style>
-<style id="AUREL_R65_KPI_CHART_READABILITY_FIX">
-/* Chỉ sửa lỗi tràn số KPI và tăng độ rõ của chữ/số trong biểu đồ tổng quan. */
+<style id="AUREL_R66_KPI_OVERFLOW_HARD_FIX">
+/* Chỉ sửa lỗi số KPI dài đè lên đơn vị/biểu tượng. */
 body:has(#nav button[data-page="overview"].active) .ref-kpi-body{
   min-width:0!important;
+  width:100%!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-kpi-number{
-  display:flex!important;
-  align-items:baseline!important;
-  gap:4px!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr)!important;
+  grid-auto-rows:auto!important;
+  align-items:start!important;
+  gap:1px!important;
   width:100%!important;
   max-width:100%!important;
   min-width:0!important;
-  overflow:visible!important;
-  white-space:nowrap!important;
+  overflow:hidden!important;
+  white-space:normal!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-kpi-value{
   display:block!important;
-  flex:1 1 auto!important;
-  min-width:0!important;
+  width:100%!important;
   max-width:100%!important;
+  min-width:0!important;
+  overflow:hidden!important;
   white-space:nowrap!important;
-  overflow:visible!important;
+  text-overflow:clip!important;
   line-height:1.02!important;
   font-size:28px!important;
   font-weight:950!important;
@@ -7429,14 +7433,21 @@ body:has(#nav button[data-page="overview"].active) .ref-kpi-value{
   font-variant-numeric:tabular-nums!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-kpi-number small{
-  flex:0 0 auto!important;
   display:block!important;
-  margin:0!important;
+  width:100%!important;
+  max-width:100%!important;
+  margin:1px 0 0!important;
+  padding:0!important;
   white-space:nowrap!important;
-  font-size:9px!important;
-  line-height:1!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  font-size:8.5px!important;
+  line-height:1.05!important;
   font-weight:750!important;
   color:#6f8799!important;
+}
+body:has(#nav button[data-page="overview"].active) .ref-kpi-change{
+  margin-top:5px!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-overview-chart{
   height:252px!important;
@@ -7839,7 +7850,7 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
   setTimeout(run,650);
 })();
 </script>
-<script id="AUREL_R65_KPI_CHART_READABILITY_FIX_JS">
+<script id="AUREL_R66_KPI_OVERFLOW_HARD_FIX_JS">
 (function(){
   function wrapKpiValue(el){
     if(!el) return null;
@@ -7863,15 +7874,27 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
   function fitValue(span){
     if(!span || !span.isConnected) return;
     span.style.removeProperty('font-size');
+
     var base=parseFloat(getComputedStyle(span).fontSize)||28;
-    var size=base;
-    var minSize=14;
-    span.style.fontSize=size+'px';
-    var guard=0;
-    while(span.scrollWidth>span.clientWidth+0.5 && size>minSize && guard<60){
-      size=Math.max(minSize,size-0.5);
+    var minSize=15;
+    var box=span.parentElement;
+    var available=Math.floor((box&&box.getBoundingClientRect().width)||span.clientWidth||0);
+    if(available<=0) return;
+
+    span.style.fontSize=base+'px';
+    var natural=span.scrollWidth;
+
+    if(natural>available){
+      var scaled=Math.floor((base*(available/natural))*10)/10;
+      var size=Math.max(minSize,Math.min(base,scaled));
       span.style.fontSize=size+'px';
-      guard++;
+
+      var guard=0;
+      while(span.scrollWidth>span.clientWidth+0.5 && size>minSize && guard<40){
+        size=Math.max(minSize,size-0.5);
+        span.style.fontSize=size+'px';
+        guard++;
+      }
     }
   }
 
@@ -7896,8 +7919,9 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
   window.addEventListener('resize',schedule,{passive:true});
   var root=document.getElementById('root');
   if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+
   setTimeout(run,80);
-  setTimeout(run,350);
+  setTimeout(run,300);
   setTimeout(run,900);
 })();
 </script>
