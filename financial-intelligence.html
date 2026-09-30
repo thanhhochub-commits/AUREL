@@ -7076,7 +7076,6 @@ body:has(#nav button[data-page="overview"].active) .r61-donut{
   width:126px!important;
   height:126px!important;
   border-radius:50%!important;
-  background:#e6edf3!important;
   transition:transform .25s ease!important;
   box-shadow:inset 0 0 0 1px rgba(15,62,104,.05)!important;
 }
@@ -7405,7 +7404,7 @@ body:has(#nav button[data-page="overview"].active) .r61-table-row:hover{
     side.className='r61-donut-side';
     var ring=document.createElement('div');
     ring.className='r61-donut changed';
-    ring.style.background=grad(parts);
+    ring.style.background=parts.length?grad(parts):'#e6edf3';
     var center=document.createElement('div');
     center.className='r61-center';
     center.textContent=(rows[0]&&rows[0].display)||'—';
