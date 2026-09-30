@@ -9374,10 +9374,18 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
     var next=b;
     var index=0;
     var stopped=false;
+    var firstSchedule=true;
 
     function schedule(){
       if(stopped || !el.isConnected) return;
-      setTimeout(advance,HOLD);
+      var delay=HOLD;
+      /* Desktop only: keep hero and sidebar transitions intentionally staggered.
+         Mobile timing stays exactly as-is. */
+      if(firstSchedule && key==='side' && window.matchMedia('(min-width:761px)').matches){
+        delay=Math.round(HOLD/2);
+      }
+      firstSchedule=false;
+      setTimeout(advance,delay);
     }
 
     function advance(){
