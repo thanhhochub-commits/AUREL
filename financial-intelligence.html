@@ -7083,8 +7083,8 @@ body:has(#nav button[data-page="overview"].active) .r61-donut.changed{
   animation:r61DonutMove .42s ease!important;
 }
 @keyframes r61DonutMove{
-  0%{transform:rotate(-8deg) scale(.96);opacity:.72}
-  100%{transform:rotate(0) scale(1);opacity:1}
+  0%{transform:scale(.96);opacity:.72}
+  100%{transform:scale(1);opacity:1}
 }
 body:has(#nav button[data-page="overview"].active) .r61-donut::after{
   content:""!important;
@@ -7214,6 +7214,9 @@ body:has(#nav button[data-page="overview"].active) .r61-donut-side{
   gap:10px!important;
 }
 body:has(#nav button[data-page="overview"].active) .r61-center{
+  transform:none!important;
+  rotate:0deg!important;
+  writing-mode:horizontal-tb!important;
   display:flex!important;
   flex-direction:column!important;
   align-items:center!important;
