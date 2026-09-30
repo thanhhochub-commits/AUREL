@@ -7400,32 +7400,35 @@ body:has(#nav button[data-page="overview"].active) .r61-center-value{
   letter-spacing:-.15px!important;
 }
 </style>
-<style id="AUREL_R66_KPI_OVERFLOW_HARD_FIX">
-/* Chỉ sửa lỗi số KPI dài đè lên đơn vị/biểu tượng. */
+<style id="AUREL_R67_KPI_INLINE_UNIT_FULL_VALUE">
+/* Chỉ sửa hàng KPI: bỏ sparkline, đưa đơn vị cùng dòng và luôn hiển thị đủ số. */
+body:has(#nav button[data-page="overview"].active) .ref-kpi{
+  padding-right:14px!important;
+}
+body:has(#nav button[data-page="overview"].active) .ref-kpi .ref-spark{
+  display:none!important;
+}
 body:has(#nav button[data-page="overview"].active) .ref-kpi-body{
   min-width:0!important;
   width:100%!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-kpi-number{
-  display:grid!important;
-  grid-template-columns:minmax(0,1fr)!important;
-  grid-auto-rows:auto!important;
-  align-items:start!important;
-  gap:1px!important;
-  width:100%!important;
-  max-width:100%!important;
-  min-width:0!important;
-  overflow:hidden!important;
-  white-space:normal!important;
-}
-body:has(#nav button[data-page="overview"].active) .ref-kpi-value{
-  display:block!important;
+  display:flex!important;
+  align-items:baseline!important;
+  gap:4px!important;
   width:100%!important;
   max-width:100%!important;
   min-width:0!important;
   overflow:hidden!important;
   white-space:nowrap!important;
-  text-overflow:clip!important;
+}
+body:has(#nav button[data-page="overview"].active) .ref-kpi-value{
+  display:block!important;
+  flex:0 1 auto!important;
+  min-width:0!important;
+  max-width:none!important;
+  overflow:visible!important;
+  white-space:nowrap!important;
   line-height:1.02!important;
   font-size:28px!important;
   font-weight:950!important;
@@ -7433,22 +7436,24 @@ body:has(#nav button[data-page="overview"].active) .ref-kpi-value{
   font-variant-numeric:tabular-nums!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-kpi-number small{
-  display:block!important;
-  width:100%!important;
-  max-width:100%!important;
-  margin:1px 0 0!important;
+  display:inline-block!important;
+  flex:0 0 auto!important;
+  width:auto!important;
+  max-width:none!important;
+  margin:0!important;
   padding:0!important;
   white-space:nowrap!important;
-  overflow:hidden!important;
-  text-overflow:ellipsis!important;
+  overflow:visible!important;
   font-size:8.5px!important;
-  line-height:1.05!important;
-  font-weight:750!important;
+  line-height:1!important;
+  font-weight:800!important;
   color:#6f8799!important;
 }
 body:has(#nav button[data-page="overview"].active) .ref-kpi-change{
-  margin-top:5px!important;
+  margin-top:6px!important;
 }
+
+/* Giữ nguyên cải thiện độ rõ của biểu đồ tổng quan từ bản trước. */
 body:has(#nav button[data-page="overview"].active) .ref-overview-chart{
   height:252px!important;
 }
@@ -7495,7 +7500,7 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
 }
 @media(max-width:1180px) and (min-width:761px){
   body:has(#nav button[data-page="overview"].active) .ref-kpi-value{
-    font-size:25px!important;
+    font-size:26px!important;
   }
 }
 @media(max-width:760px){
@@ -7850,19 +7855,22 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
   setTimeout(run,650);
 })();
 </script>
-<script id="AUREL_R66_KPI_OVERFLOW_HARD_FIX_JS">
+<script id="AUREL_R67_KPI_INLINE_UNIT_FULL_VALUE_JS">
 (function(){
   function wrapKpiValue(el){
     if(!el) return null;
     var existing=el.querySelector('.ref-kpi-value');
     if(existing) return existing;
+
     var small=el.querySelector('small');
     var nodes=[].slice.call(el.childNodes).filter(function(n){
       return n.nodeType===3 && String(n.nodeValue||'').trim();
     });
     if(!nodes.length) return null;
+
     var value=nodes.map(function(n){return String(n.nodeValue||'').trim()}).join(' ').trim();
     if(!value) return null;
+
     nodes.forEach(function(n){n.remove()});
     var span=document.createElement('span');
     span.className='ref-kpi-value';
@@ -7871,27 +7879,29 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
     return span;
   }
 
-  function fitValue(span){
-    if(!span || !span.isConnected) return;
+  function fitValue(el,span){
+    if(!el || !span || !span.isConnected) return;
+
+    var unit=el.querySelector('small');
     span.style.removeProperty('font-size');
 
     var base=parseFloat(getComputedStyle(span).fontSize)||28;
-    var minSize=15;
-    var box=span.parentElement;
-    var available=Math.floor((box&&box.getBoundingClientRect().width)||span.clientWidth||0);
-    if(available<=0) return;
+    var minSize=13.5;
+    var boxWidth=Math.floor(el.getBoundingClientRect().width||0);
+    var unitWidth=unit?Math.ceil(unit.getBoundingClientRect().width):0;
+    var gap=unit?4:0;
+    var available=Math.max(1,boxWidth-unitWidth-gap);
 
     span.style.fontSize=base+'px';
     var natural=span.scrollWidth;
 
     if(natural>available){
-      var scaled=Math.floor((base*(available/natural))*10)/10;
-      var size=Math.max(minSize,Math.min(base,scaled));
+      var size=Math.max(minSize,Math.min(base,Math.floor((base*available/natural)*10)/10));
       span.style.fontSize=size+'px';
 
       var guard=0;
-      while(span.scrollWidth>span.clientWidth+0.5 && size>minSize && guard<40){
-        size=Math.max(minSize,size-0.5);
+      while(span.scrollWidth>available+0.5 && size>minSize && guard<60){
+        size=Math.max(minSize,size-0.25);
         span.style.fontSize=size+'px';
         guard++;
       }
@@ -7899,9 +7909,13 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
   }
 
   function run(){
+    document.querySelectorAll('.ref-kpi .ref-spark').forEach(function(el){
+      el.remove();
+    });
+
     document.querySelectorAll('.ref-kpi-number').forEach(function(el){
       var span=wrapKpiValue(el);
-      if(span) fitValue(span);
+      if(span) fitValue(el,span);
     });
   }
 
@@ -7917,12 +7931,13 @@ body:has(#nav button[data-page="overview"].active) .ref-dot-pat{
 
   document.addEventListener('DOMContentLoaded',schedule);
   window.addEventListener('resize',schedule,{passive:true});
+
   var root=document.getElementById('root');
   if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
 
-  setTimeout(run,80);
-  setTimeout(run,300);
-  setTimeout(run,900);
+  setTimeout(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
 })();
 </script>
 </body></html>
