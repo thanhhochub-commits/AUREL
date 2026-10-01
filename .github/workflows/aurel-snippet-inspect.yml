@@ -1,4 +1,4 @@
-name: AUREL inspect real support template
+name: AUREL inspect compact support DOM template
 on:
   push:
     branches: [main]
@@ -10,30 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect pre-patch support template
+      - name: Inspect compact support template
         shell: python
         run: |
           from pathlib import Path
+          import re
           s=Path("financial-intelligence.html").read_text(encoding="utf-8")
-          # Ignore our appended patches near end.
           cutoff=s.find('<style id="AUREL_R145_DARK_TEXT_CONTRAST">')
           base=s[:cutoff] if cutoff>0 else s
-          needles=["Kết quả phân tích","Tóm tắt điều hành","Chờ duyệt","Câu hỏi tiếp theo","Tạo nội dung phân tích","result"]
+          needles=["Tác vụ phân tích","Kết quả phân tích","Câu hỏi tiếp theo","Tạo nội dung phân tích"]
           out=[]
           for needle in needles:
-              start=0;n=0
-              while True:
-                  i=base.find(needle,start)
-                  if i<0: break
-                  n+=1
-                  out.append(f"=== {needle} #{n} @ {i} ===\n"+base[max(0,i-5000):min(len(base),i+10000)])
-                  start=i+len(needle)
-                  if n>=15: break
-          Path("support_template_real.txt").write_text("\n\n".join(out),encoding="utf-8")
+              poss=[m.start() for m in re.finditer(re.escape(needle),base)]
+              out.append(f"### {needle} occurrences={len(poss)}")
+              for idx,i in enumerate(poss[:8],1):
+                  snippet=base[max(0,i-1600):min(len(base),i+2600)]
+                  out.append(f"--- {idx} @ {i} ---\n{snippet}")
+          Path("support_compact.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add support_template_real.txt
-          git commit -m "Temporary real support template inspection"
+          git add support_compact.txt
+          git commit -m "Temporary compact support template inspection"
           git push
