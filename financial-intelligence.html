@@ -14302,5 +14302,85 @@ body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
   });
 })();
 </script>
+<style id="AUREL_R143_AI_ARROW_TOGGLE">
+/* Chỉ đổi nút Thu gọn/Mở cài đặt thành chevron tối giản. */
+.ai-key-panel .aurel-ai-key-toggle{
+  width:34px!important;
+  min-width:34px!important;
+  max-width:34px!important;
+  height:34px!important;
+  min-height:34px!important;
+  padding:0!important;
+  border-radius:10px!important;
+  font-size:0!important;
+  line-height:0!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  flex:0 0 34px!important;
+  border:1px solid #c9dbe5!important;
+  background:rgba(247,251,253,.92)!important;
+  color:#52748d!important;
+  box-shadow:none!important;
+  transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle::before{
+  content:""!important;
+  width:8px!important;
+  height:8px!important;
+  border-right:2px solid currentColor!important;
+  border-bottom:2px solid currentColor!important;
+  transform:rotate(225deg)!important;
+  transform-origin:center!important;
+  margin-top:4px!important;
+  transition:transform .18s ease,margin .18s ease!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle[aria-expanded="false"]::before{
+  transform:rotate(45deg)!important;
+  margin-top:-4px!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle:hover{
+  background:#edf6fa!important;
+  border-color:#a9c9d8!important;
+  color:#244f6a!important;
+  transform:translateY(-1px)!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle:active{
+  transform:translateY(0)!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle:focus-visible{
+  outline:2px solid rgba(59,130,246,.38)!important;
+  outline-offset:2px!important;
+}
+
+body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle{
+  background:#142333!important;
+  border-color:#304b61!important;
+  color:#9fc2dc!important;
+}
+
+body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
+  background:#192c3f!important;
+  border-color:#466a87!important;
+  color:#d7edff!important;
+}
+
+@media(max-width:700px){
+  .ai-key-panel .aurel-ai-key-toggle{
+    width:32px!important;
+    min-width:32px!important;
+    max-width:32px!important;
+    height:32px!important;
+    min-height:32px!important;
+    flex-basis:32px!important;
+    border-radius:9px!important;
+  }
+}
+</style>
 </body></html>
 
