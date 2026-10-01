@@ -13545,8 +13545,9 @@ body:has(#nav button[data-page="scenario"].active) .scenario-control.aurel-r134-
   right:0!important;
   top:0!important;
   width:100%!important;
-  height:2px!important;
-  max-height:2px!important;
+  height:3px!important;
+  max-height:3px!important;
+            border-radius:999px!important;
   z-index:20!important;
   display:block!important;
   opacity:1!important;
@@ -13554,9 +13555,11 @@ body:has(#nav button[data-page="scenario"].active) .scenario-control.aurel-r134-
 }
 .scenario-results .aurel-r134-led-current::before{
   background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;
+            box-shadow:0 0 6px rgba(59,130,246,.20)!important;
 }
 .scenario-results .aurel-r134-led-after::before{
   background:linear-gradient(90deg,#20b8b0,#34d399)!important;
+            box-shadow:0 0 6px rgba(52,211,153,.17)!important;
 }
 
 body:not(.aurel-dark-theme) .scenario-results .aurel-r134-led{
