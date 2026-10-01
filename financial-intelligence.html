@@ -13973,56 +13973,60 @@ body.aurel-dark-theme .aurel-r138-source-led{
   document.addEventListener("click",function(){setTimeout(apply,40)},true);
 })();
 </script>
-<style id="AUREL_R140_ANALYSIS_FULL_BORDER">
-/* R140 — đúng class thật của 3 card ROA / ROE / CIR là .analysis-feature */
-body:has(#nav button[data-page="analysis"].active) .analysis-feature{
+<style id="AUREL_R141_ANALYSIS_BORDER_FORCE">
+/* R141 — dùng trực tiếp class thật .analysis-feature, không phụ thuộc page-id. */
+.analysis-feature-grid .analysis-feature{
   position:relative!important;
   overflow:hidden!important;
-  isolation:isolate!important;
-}
-
-body:has(#nav button[data-page="analysis"].active) .analysis-feature::after{
-  content:""!important;
-  position:absolute!important;
-  inset:0!important;
+  border:2px solid transparent!important;
   border-radius:16px!important;
-  padding:1.5px!important;
-  pointer-events:none!important;
-  z-index:40!important;
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0)!important;
-  -webkit-mask-composite:xor!important;
-  mask-composite:exclude!important;
-  opacity:.98!important;
+  transition:border-color .18s ease,box-shadow .18s ease!important;
 }
 
-/* ROA */
-body:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(1)::after{
-  background:linear-gradient(135deg,#2dd4bf 0%,#22c7b8 46%,#60a5fa 100%)!important;
-  box-shadow:0 0 9px rgba(45,212,191,.14)!important;
+/* Dark mode */
+body.aurel-dark-theme .analysis-feature-grid .analysis-feature:nth-child(1){
+  background:
+    linear-gradient(#111d2a,#111d2a) padding-box,
+    linear-gradient(135deg,#2dd4bf,#22c7b8,#60a5fa) border-box!important;
+  box-shadow:0 0 10px rgba(45,212,191,.16),0 8px 22px rgba(0,0,0,.16)!important;
+}
+body.aurel-dark-theme .analysis-feature-grid .analysis-feature:nth-child(2){
+  background:
+    linear-gradient(#111d2a,#111d2a) padding-box,
+    linear-gradient(135deg,#3b82f6,#60a5fa,#22c7b8) border-box!important;
+  box-shadow:0 0 10px rgba(59,130,246,.16),0 8px 22px rgba(0,0,0,.16)!important;
+}
+body.aurel-dark-theme .analysis-feature-grid .analysis-feature:nth-child(3){
+  background:
+    linear-gradient(#111d2a,#111d2a) padding-box,
+    linear-gradient(135deg,#38bdf8,#22c7b8,#60a5fa) border-box!important;
+  box-shadow:0 0 10px rgba(56,189,248,.15),0 8px 22px rgba(0,0,0,.16)!important;
 }
 
-/* ROE */
-body:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(2)::after{
-  background:linear-gradient(135deg,#3b82f6 0%,#60a5fa 48%,#22c7b8 100%)!important;
-  box-shadow:0 0 9px rgba(59,130,246,.14)!important;
+/* Light mode */
+body:not(.aurel-dark-theme) .analysis-feature-grid .analysis-feature:nth-child(1){
+  background:
+    linear-gradient(#ffffff,#f9fbfd) padding-box,
+    linear-gradient(135deg,#2bbdab,#60a5fa) border-box!important;
+  box-shadow:0 0 8px rgba(43,189,171,.10),0 7px 18px rgba(25,63,91,.05)!important;
+}
+body:not(.aurel-dark-theme) .analysis-feature-grid .analysis-feature:nth-child(2){
+  background:
+    linear-gradient(#ffffff,#f9fbfd) padding-box,
+    linear-gradient(135deg,#3b82f6,#22b8ae) border-box!important;
+  box-shadow:0 0 8px rgba(59,130,246,.10),0 7px 18px rgba(25,63,91,.05)!important;
+}
+body:not(.aurel-dark-theme) .analysis-feature-grid .analysis-feature:nth-child(3){
+  background:
+    linear-gradient(#ffffff,#f9fbfd) padding-box,
+    linear-gradient(135deg,#38bdf8,#60a5fa) border-box!important;
+  box-shadow:0 0 8px rgba(56,189,248,.09),0 7px 18px rgba(25,63,91,.05)!important;
 }
 
-/* CIR */
-body:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(3)::after{
-  background:linear-gradient(135deg,#38bdf8 0%,#22c7b8 52%,#60a5fa 100%)!important;
-  box-shadow:0 0 9px rgba(56,189,248,.13)!important;
-}
-
-/* Light mode dịu hơn một chút */
-body:not(.aurel-dark-theme):has(#nav button[data-page="analysis"].active) .analysis-feature::after{
-  opacity:.78!important;
-}
-
-/* Dark mode rõ nhưng không chói */
-body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature::after{
-  opacity:1!important;
+/* Tắt dải top cũ để viền full khung nhìn rõ, không bị chồng. */
+.analysis-feature-grid .analysis-feature::before,
+.analysis-feature-grid .analysis-feature::after{
+  display:none!important;
 }
 </style>
 </body></html>
