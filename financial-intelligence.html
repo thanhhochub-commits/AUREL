@@ -16493,6 +16493,18 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
     return idFromName(row&&row.name);
   }
 
+  /* Fallback duy nhất từ Data.xlsx người dùng cung cấp.
+     File gốc lưu đơn vị triệu VND, còn state AUREL hiển thị tỷ VND nên chia 1.000.
+     Chỉ dùng khi backend không trả lại đúng trường này. */
+  var DATA_XLSX_PROVISION_MILLION={
+    'VCB|2023':-4564876,
+    'VCB|2024':-3314998,
+    'VCB|2025':-3192186,
+    'BIDV|2023':-20343515,
+    'BIDV|2024':-21109180,
+    'BIDV|2025':-22998662
+  };
+
   function syntheticRow(state,id){
     var v=state&&state.values||{};
     var map={
@@ -16504,6 +16516,23 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
       operating_expenses:['operating_expenses','Chi phí hoạt động – OPEX'],
       profit_after_tax:['pat','Lợi nhuận sau thuế – PAT']
     };
+
+    if(id==='credit_loss_provision_expense'){
+      var bank=String(state&&state.bank||'').trim().toUpperCase();
+      var year=Number(state&&state.year);
+      var key=bank+'|'+year;
+      if(Object.prototype.hasOwnProperty.call(DATA_XLSX_PROVISION_MILLION,key)){
+        return {
+          metric_id:id,
+          name:'Chi phí dự phòng rủi ro tín dụng',
+          value:DATA_XLSX_PROVISION_MILLION[key]/1000,
+          unit:'billion_vnd',
+          _aurelFallback:true,
+          _aurelSource:'Data.xlsx'
+        };
+      }
+    }
+
     var spec=map[id];
     if(!spec)return null;
     var x=num(v[spec[0]]);
@@ -16788,7 +16817,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
         if(!panel.querySelector('.aurel-r124-source-note')){
           var note=document.createElement('div');
           note.className='aurel-r124-source-note';
-          note.innerHTML='<strong>Nguyên tắc:</strong> Mỗi hàng tương ứng đúng 1 trong 16 metric_id của Data.xlsx. Backend có thể đổi tên kỹ thuật một số ID lõi (ví dụ assets ↔ total_assets), nhưng bảng quy ngược về ID nguồn trước khi tính. Chỉ báo chỉ dùng dữ liệu thuộc đúng 16 trường này; không thêm tiêu chí ngoài file.';
+          note.innerHTML='<strong>Nguyên tắc:</strong> Mỗi hàng tương ứng đúng 1 trong 16 metric_id của Data.xlsx. Backend có thể đổi tên kỹ thuật một số ID lõi (ví dụ assets ↔ total_assets), nhưng bảng quy ngược về ID nguồn trước khi tính. Riêng chi phí dự phòng rủi ro tín dụng sẽ lấy trực tiếp từ Data.xlsx nếu backend làm rơi trường này; không thêm tiêu chí ngoài file.';
           var wrap=panel.querySelector('.table-wrap');
           if(wrap)panel.insertBefore(note,wrap);
         }
