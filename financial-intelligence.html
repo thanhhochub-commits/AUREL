@@ -13468,5 +13468,71 @@ body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(3){border-color:
 body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(4){border-color:#335978!important;background:linear-gradient(180deg,#111c28,#0c141e)!important;box-shadow:0 11px 25px rgba(0,0,0,.25),0 0 22px rgba(96,165,250,.10)!important}
 .monitor-overview .monitor-card:hover{transform:translateY(-2px)!important}
 </style>
+<style id="AUREL_R131_FORCE_STATUS">
+.monitor-overview .monitor-card{
+  position:relative!important;
+  overflow:hidden!important;
+  border-width:1px!important;
+  border-style:solid!important;
+  border-radius:18px!important;
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease!important;
+}
+.monitor-overview .monitor-card:hover{transform:translateY(-2px)!important}
+.monitor-overview .monitor-card:after{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  height:4px!important;
+  z-index:5!important;
+  pointer-events:none!important;
+}
+.monitor-overview .monitor-card[data-aurel-status="warning"]:after{background:linear-gradient(90deg,#ff4d5a,#dc2626)!important}
+.monitor-overview .monitor-card[data-aurel-status="watch"]:after{background:linear-gradient(90deg,#ffc247,#d97706)!important}
+.monitor-overview .monitor-card[data-aurel-status="normal"]:after{background:linear-gradient(90deg,#36d875,#16a34a)!important}
+.monitor-overview .monitor-card[data-aurel-status="missing"]:after{background:linear-gradient(90deg,#67b0ff,#3b82f6)!important}
+</style>
+<script id="AUREL_R131_FORCE_STATUS_JS">
+(function(){
+  function apply(){
+    var dark=document.body.classList.contains("aurel-dark-theme");
+    document.querySelectorAll(".monitor-overview .monitor-card").forEach(function(card){
+      var t=(card.textContent||"").replace(/\s+/g," ").trim();
+      var kind=null;
+      if(t.indexOf("Cảnh báo")===0) kind="warning";
+      else if(t.indexOf("Theo dõi")===0) kind="watch";
+      else if(t.indexOf("Bình thường")===0) kind="normal";
+      else if(t.indexOf("Thiếu dữ liệu")===0) kind="missing";
+      if(!kind) return;
+      card.setAttribute("data-aurel-status",kind);
+      var cfg={
+        warning: dark
+          ? ["#71383b","linear-gradient(145deg,#24161a 0%,#171116 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(239,68,68,.20)","#ff7b86"]
+          : ["#ef9fa5","linear-gradient(145deg,#fffafa 0%,#fff1f2 100%)","0 10px 24px rgba(220,38,38,.12),0 0 22px rgba(239,68,68,.10)","#d83b46"],
+        watch: dark
+          ? ["#755d29","linear-gradient(145deg,#241e12 0%,#17140d 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(245,158,11,.18)","#f0bd5b"]
+          : ["#e9c46f","linear-gradient(145deg,#fffdf6 0%,#fff7e6 100%)","0 10px 24px rgba(217,119,6,.11),0 0 22px rgba(245,158,11,.09)","#c58a22"],
+        normal: dark
+          ? ["#2f6844","linear-gradient(145deg,#142219 0%,#0f1611 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(34,197,94,.18)","#71e29a"]
+          : ["#9bd7b2","linear-gradient(145deg,#fbfffc 0%,#eefaf2 100%)","0 10px 24px rgba(22,163,74,.11),0 0 22px rgba(34,197,94,.09)","#18994a"],
+        missing: dark
+          ? ["#365d7e","linear-gradient(145deg,#132130 0%,#0d151f 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(96,165,250,.17)","#8cc4ff"]
+          : ["#adc7df","linear-gradient(145deg,#fbfdff 0%,#eef5fb 100%)","0 10px 24px rgba(59,130,246,.10),0 0 22px rgba(96,165,250,.08)","#477fbd"]
+      }[kind];
+      card.style.setProperty("border-color",cfg[0],"important");
+      card.style.setProperty("background",cfg[1],"important");
+      card.style.setProperty("box-shadow",cfg[2],"important");
+      var strong=card.querySelector("strong");
+      if(strong) strong.style.setProperty("color",cfg[3],"important");
+    });
+  }
+  function schedule(){requestAnimationFrame(apply)}
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  else schedule();
+  new MutationObserver(schedule).observe(document.getElementById("root")||document.body,{childList:true,subtree:true,attributes:true,attributeFilter:["class"]});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
 </body></html>
 
