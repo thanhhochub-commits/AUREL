@@ -1,4 +1,4 @@
-name: AUREL force support summary contrast
+name: AUREL force white support summary text
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Force readable executive summary in dark mode
+      - name: Force executive summary text to white in dark mode
         shell: python
         run: |
           from pathlib import Path
@@ -23,33 +23,32 @@ jobs:
           s=p.read_text(encoding="utf-8")
 
           for tag, ident in [
-              ("style","AUREL_R147_SUPPORT_SUMMARY_FORCE"),
-              ("script","AUREL_R147_SUPPORT_SUMMARY_FORCE_JS")
+              ("style","AUREL_R148_SUPPORT_SUMMARY_WHITE"),
+              ("script","AUREL_R148_SUPPORT_SUMMARY_WHITE_JS")
           ]:
               pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
               s=pat.sub("",s)
 
           css=r'''
-          <style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
-          body.aurel-dark-theme .aurel-r147-summary-card{
-            color:#d9e8f2!important;
-          }
-
-          body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
-            color:#d3e4ef!important;
-            opacity:1!important;
-            font-weight:500!important;
-            line-height:1.72!important;
-            text-shadow:0 0 1px rgba(255,255,255,.06)!important;
-          }
-
-          body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+          <style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+          body.aurel-dark-theme .aurel-r148-summary-card,
+          body.aurel-dark-theme .aurel-r148-summary-card p,
+          body.aurel-dark-theme .aurel-r148-summary-card li,
+          body.aurel-dark-theme .aurel-r148-summary-card dd,
+          body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
             color:#ffffff!important;
             opacity:1!important;
-            font-weight:800!important;
+            font-weight:500!important;
+            text-shadow:none!important;
           }
 
-          body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+          body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+          body.aurel-dark-theme .aurel-r148-summary-title{
+            color:#ffffff!important;
+            opacity:1!important;
+          }
+
+          body.aurel-dark-theme .aurel-r148-status{
             color:#ffd36a!important;
             opacity:1!important;
           }
@@ -57,7 +56,7 @@ jobs:
           '''
 
           js=r'''
-          <script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+          <script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
           (function(){
             function norm(v){
               return String(v||"").replace(/\s+/g," ").trim();
@@ -69,49 +68,60 @@ jobs:
               return r.width>0 && r.height>0;
             }
 
-            function findCard(titleEl){
-              var cur=titleEl;
-              for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
-                var r=cur.getBoundingClientRect();
+            function findSummaryCard(){
+              var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+              var title=titleEls.find(function(el){
+                return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+              });
+              if(!title) return null;
+
+              var cur=title;
+              for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
                 var t=norm(cur.textContent);
-                if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
-                  return cur;
+                var r=cur.getBoundingClientRect();
+                if(
+                  r.width>=280 &&
+                  r.height>=140 &&
+                  r.height<=1200 &&
+                  t.indexOf("Tóm tắt điều hành")>=0 &&
+                  t.indexOf("Trong năm")>=0
+                ){
+                  return {card:cur,title:title};
                 }
               }
               return null;
             }
 
+            function paintWhite(el){
+              if(!el) return;
+              el.style.setProperty("color","#ffffff","important");
+              el.style.setProperty("opacity","1","important");
+              el.style.setProperty("font-weight","500","important");
+            }
+
             function apply(){
               if(!document.body.classList.contains("aurel-dark-theme")) return;
 
-              document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
-                el.classList.remove("aurel-r147-summary-card");
-              });
+              var found=findSummaryCard();
+              if(!found) return;
 
-              var title=null;
-              document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
-                if(title) return;
-                if(!visible(el)) return;
-                if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
-              });
-
-              if(!title) return;
-
-              var card=findCard(title);
-              if(!card) return;
-
-              card.classList.add("aurel-r147-summary-card");
-              title.classList.add("aurel-r147-summary-title");
+              var card=found.card;
+              var title=found.title;
+              card.classList.add("aurel-r148-summary-card");
+              title.classList.add("aurel-r148-summary-title");
               title.style.setProperty("color","#ffffff","important");
               title.style.setProperty("opacity","1","important");
 
-              var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
               card.querySelectorAll("*").forEach(function(el){
                 var t=norm(el.textContent);
                 if(!t) return;
 
-                if(statusWords.includes(t)){
-                  el.classList.add("aurel-r147-status");
+                if(
+                  t==="Chờ duyệt" ||
+                  t==="Đã duyệt" ||
+                  t==="Đang xử lý"
+                ){
+                  el.classList.add("aurel-r148-status");
                   el.style.setProperty("color","#ffd36a","important");
                   el.style.setProperty("opacity","1","important");
                   return;
@@ -119,21 +129,15 @@ jobs:
 
                 if(el===title) return;
 
-                var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
-                var ownText=t;
-                if(childrenText && childrenText===t) return;
-
                 if(
-                  ownText.length>=35 ||
-                  ownText.startsWith("Trong năm") ||
-                  ownText.indexOf("VPB")>=0 ||
-                  ownText.indexOf("tỷ đồng")>=0
+                  t.startsWith("Trong năm") ||
+                  t.indexOf("VPB duy trì")>=0 ||
+                  t.indexOf("tổng tài sản")>=0 ||
+                  t.indexOf("dư nợ cho vay")>=0 ||
+                  t.length>=60
                 ){
-                  el.classList.add("aurel-r147-summary-text");
-                  el.style.setProperty("color","#d3e4ef","important");
-                  el.style.setProperty("opacity","1","important");
-                  el.style.setProperty("font-weight","500","important");
-                  el.style.setProperty("line-height","1.72","important");
+                  el.classList.add("aurel-r148-summary-text");
+                  paintWhite(el);
                 }
               });
             }
@@ -160,7 +164,7 @@ jobs:
               subtree:true,
               characterData:true,
               attributes:true,
-              attributeFilter:["class"]
+              attributeFilter:["class","style"]
             });
 
             document.addEventListener("click",function(){
@@ -185,5 +189,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Force readable executive summary text in dark mode"
+          git commit -m "Force support executive summary text to white"
           git push
