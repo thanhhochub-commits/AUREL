@@ -14870,5 +14870,124 @@ body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) :is(
   setInterval(apply,1000);
 })();
 </script>
+<style id="AUREL_R151_EXACT_SUMMARY_WHITE">
+.aurel-r151-exact-summary,
+.aurel-r151-exact-summary *{
+  color:#ffffff!important;
+  opacity:1!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:none!important;
+  filter:none!important;
+}
+.aurel-r151-exact-summary{
+  font-weight:500!important;
+  line-height:1.72!important;
+}
+</style>
+<script id="AUREL_R151_EXACT_SUMMARY_WHITE_JS">
+(function(){
+  var PREFIX="Trong năm 2025, VPB ghi nhận sự tăng trưởng ổn định";
+
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function findExactBlock(){
+    var walker=document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+      {
+        acceptNode:function(node){
+          var t=norm(node.nodeValue);
+          return t.indexOf(PREFIX)===0
+            ? NodeFilter.FILTER_ACCEPT
+            : NodeFilter.FILTER_SKIP;
+        }
+      }
+    );
+
+    var node=walker.nextNode();
+    if(!node) return null;
+
+    var el=node.parentElement;
+    if(!el) return null;
+
+    /* Prefer semantic paragraph/block containing the whole generated summary. */
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        t.indexOf(PREFIX)===0 &&
+        t.length>250 &&
+        t.length<4000 &&
+        r.width>220 &&
+        r.height>60
+      ){
+        return cur;
+      }
+    }
+    return el;
+  }
+
+  function paint(){
+    var el=findExactBlock();
+    if(!el) return;
+
+    document.querySelectorAll(".aurel-r151-exact-summary").forEach(function(x){
+      if(x!==el) x.classList.remove("aurel-r151-exact-summary");
+    });
+
+    el.classList.add("aurel-r151-exact-summary");
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("-webkit-text-fill-color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+    el.style.setProperty("line-height","1.72","important");
+    el.style.setProperty("filter","none","important");
+
+    el.querySelectorAll("*").forEach(function(x){
+      x.style.setProperty("color","#ffffff","important");
+      x.style.setProperty("-webkit-text-fill-color","#ffffff","important");
+      x.style.setProperty("opacity","1","important");
+      x.style.setProperty("filter","none","important");
+    });
+
+    /* Also clear opacity/filter on immediate ancestors in case a parent dims the whole paragraph. */
+    var p=el.parentElement;
+    for(var i=0;i<3 && p && p!==document.body;i++,p=p.parentElement){
+      p.style.setProperty("opacity","1","important");
+      p.style.setProperty("filter","none","important");
+    }
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      paint();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  new MutationObserver(schedule).observe(document.body,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["style","class"]
+  });
+
+  document.addEventListener("click",function(){setTimeout(paint,80)},true);
+  setInterval(paint,700);
+})();
+</script>
 </body></html>
 
