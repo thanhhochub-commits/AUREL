@@ -1,0 +1,42 @@
+name: AUREL inspect status sim
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aurel-inspect-status-sim.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Extract contexts
+        shell: python
+        run: |
+          from pathlib import Path
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          terms=["Kết quả mô phỏng","Cảnh báo","Theo dõi","Bình thường","Thiếu dữ liệu"]
+          out=[]
+          for t in terms:
+            start=0
+            found=0
+            while found<8:
+              i=s.find(t,start)
+              if i<0: break
+              out.append("=== "+t+" @ "+str(i)+" ===\n"+s[max(0,i-2200):min(len(s),i+4200)])
+              start=i+len(t)
+              found+=1
+          Path("status_sim_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
+      - name: Commit report
+        run: |
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add status_sim_debug.txt
+          git commit -m "Temporary status sim inspection"
+          git push
