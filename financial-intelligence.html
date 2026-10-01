@@ -13434,105 +13434,94 @@ body:has(#nav button[data-page="risk"].active) .metric:nth-child(2){border-top:4
 body:has(#nav button[data-page="risk"].active) .metric:nth-child(3){border-top:4px solid #22c55e!important}
 body:has(#nav button[data-page="risk"].active) .metric:nth-child(4){border-top:4px solid #60a5fa!important}
 </style>
-<style id="AUREL_R130_EXACT_FIX">
-/* Exact scenario result classes */
-.scenario-results{position:relative!important;overflow:hidden!important;border-radius:16px!important}
-.scenario-results:after{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,#3b82f6,#20b8b0,#f59e0b);z-index:3}
-body:not(.aurel-dark-theme) .scenario-results{border-color:#bfd5e4!important;background:linear-gradient(180deg,#ffffff,#f8fbfd)!important;box-shadow:0 12px 28px rgba(31,78,112,.08),0 0 24px rgba(59,130,246,.05)!important}
-body.aurel-dark-theme .scenario-results{border-color:#304b61!important;background:linear-gradient(180deg,#111d2a,#0c151f)!important;box-shadow:0 13px 30px rgba(0,0,0,.26),0 0 26px rgba(77,156,255,.07)!important}
-.scenario-results .metric{position:relative!important;overflow:hidden!important;border-radius:13px!important}
-.scenario-results .metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,#3b82f6,#60a5fa)}
-.scenario-results .metric:nth-child(even):before{background:linear-gradient(90deg,#20b8b0,#5eead4)}
-body:not(.aurel-dark-theme) .scenario-results .metric{background:linear-gradient(145deg,#f8fbff,#edf5ff)!important;border-color:#bfd4e7!important;box-shadow:0 7px 18px rgba(59,130,246,.07)!important}
-body:not(.aurel-dark-theme) .scenario-results .metric:nth-child(even){background:linear-gradient(145deg,#f7fffc,#edf9f6)!important;border-color:#b8dcd4!important;box-shadow:0 7px 18px rgba(32,184,176,.07)!important}
-body.aurel-dark-theme .scenario-results .metric{background:linear-gradient(145deg,rgba(77,156,255,.13),#101a26 48%)!important;border-color:#31506c!important;box-shadow:0 8px 20px rgba(77,156,255,.08)!important}
-body.aurel-dark-theme .scenario-results .metric:nth-child(even){background:linear-gradient(145deg,rgba(47,199,179,.12),#101a26 48%)!important;border-color:#28574f!important;box-shadow:0 8px 20px rgba(47,199,179,.08)!important}
-.scenario-results .table-wrap{border-radius:12px!important;overflow:hidden!important}
-body:not(.aurel-dark-theme) .scenario-results thead th{background:linear-gradient(180deg,#eef6fb,#e8f1f7)!important;color:#31556d!important}
-body.aurel-dark-theme .scenario-results thead th{background:linear-gradient(180deg,#182839,#142231)!important;color:#c1d1dc!important}
-
-/* Exact risk status cards */
-.monitor-overview .monitor-card{position:relative!important;overflow:hidden!important;border-radius:18px!important;transition:transform .18s ease,box-shadow .18s ease!important}
-.monitor-overview .monitor-card:before{content:""!important;position:absolute!important;left:0!important;right:0!important;top:0!important;height:4px!important}
-.monitor-overview .monitor-card:nth-child(1):before{background:linear-gradient(90deg,#ef4444,#dc2626)!important}
-.monitor-overview .monitor-card:nth-child(2):before{background:linear-gradient(90deg,#f59e0b,#d97706)!important}
-.monitor-overview .monitor-card:nth-child(3):before{background:linear-gradient(90deg,#22c55e,#16a34a)!important}
-.monitor-overview .monitor-card:nth-child(4):before{background:linear-gradient(90deg,#60a5fa,#3b82f6)!important}
-body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(1){border-color:#efb1b1!important;background:linear-gradient(180deg,#fffdfd,#fff5f5)!important;box-shadow:0 10px 24px rgba(220,38,38,.09),0 0 20px rgba(239,68,68,.06)!important}
-body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(2){border-color:#edd094!important;background:linear-gradient(180deg,#fffef9,#fff8ec)!important;box-shadow:0 10px 24px rgba(217,119,6,.08),0 0 20px rgba(245,158,11,.055)!important}
-body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(3){border-color:#a7ddbc!important;background:linear-gradient(180deg,#fbfffc,#f1fbf4)!important;box-shadow:0 10px 24px rgba(22,163,74,.08),0 0 20px rgba(34,197,94,.055)!important}
-body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4){border-color:#b8cce2!important;background:linear-gradient(180deg,#fcfeff,#f2f7fd)!important;box-shadow:0 10px 24px rgba(59,130,246,.075),0 0 18px rgba(96,165,250,.05)!important}
-body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(1){border-color:#71383b!important;background:linear-gradient(180deg,#1c1519,#121016)!important;box-shadow:0 11px 25px rgba(0,0,0,.25),0 0 22px rgba(239,68,68,.12)!important}
-body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(2){border-color:#725b2a!important;background:linear-gradient(180deg,#1e1a12,#14120d)!important;box-shadow:0 11px 25px rgba(0,0,0,.25),0 0 22px rgba(245,158,11,.11)!important}
-body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(3){border-color:#2b5d3d!important;background:linear-gradient(180deg,#131c17,#0e1410)!important;box-shadow:0 11px 25px rgba(0,0,0,.25),0 0 22px rgba(34,197,94,.11)!important}
-body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(4){border-color:#335978!important;background:linear-gradient(180deg,#111c28,#0c141e)!important;box-shadow:0 11px 25px rgba(0,0,0,.25),0 0 22px rgba(96,165,250,.10)!important}
-.monitor-overview .monitor-card:hover{transform:translateY(-2px)!important}
-</style>
-<style id="AUREL_R131_FORCE_STATUS">
+<style id="AUREL_R132_THIN_STATUS">
+/* R132 — 4 ô trạng thái mảnh, sạch, đồng bộ KPI Tổng quan. */
 .monitor-overview .monitor-card{
   position:relative!important;
   overflow:hidden!important;
   border-width:1px!important;
   border-style:solid!important;
-  border-radius:18px!important;
-  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease!important;
+  border-radius:12px!important;
+  box-shadow:none!important;
+  transform:none!important;
 }
-.monitor-overview .monitor-card:hover{transform:translateY(-2px)!important}
-.monitor-overview .monitor-card:after{
+.monitor-overview .monitor-card:before{
   content:""!important;
   position:absolute!important;
   left:0!important;
   right:0!important;
   top:0!important;
-  height:4px!important;
-  z-index:5!important;
+  width:100%!important;
+  height:3px!important;
+  opacity:1!important;
   pointer-events:none!important;
 }
-.monitor-overview .monitor-card[data-aurel-status="warning"]:after{background:linear-gradient(90deg,#ff4d5a,#dc2626)!important}
-.monitor-overview .monitor-card[data-aurel-status="watch"]:after{background:linear-gradient(90deg,#ffc247,#d97706)!important}
-.monitor-overview .monitor-card[data-aurel-status="normal"]:after{background:linear-gradient(90deg,#36d875,#16a34a)!important}
-.monitor-overview .monitor-card[data-aurel-status="missing"]:after{background:linear-gradient(90deg,#67b0ff,#3b82f6)!important}
+
+/* Light mode: nền trắng, chỉ nhấn màu rất nhẹ bằng viền trên */
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card{
+  background:#ffffff!important;
+  border-color:#c9d8e3!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(1){
+  border-color:#e6c9cc!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(2){
+  border-color:#ead9b8!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(3){
+  border-color:#c7dfcf!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4){
+  border-color:#c8d7e6!important;
+}
+
+/* Dark mode: cùng nền navy như KPI Tổng quan, không phủ màu cả card */
+body.aurel-dark-theme .monitor-overview .monitor-card{
+  background:#111d2a!important;
+  border-color:#31485b!important;
+}
+body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(1){
+  border-color:#583942!important;
+}
+body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(2){
+  border-color:#5b4b2d!important;
+}
+body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(3){
+  border-color:#2f5140!important;
+}
+body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(4){
+  border-color:#314c67!important;
+}
+
+/* Thanh màu mảnh đúng nghĩa trạng thái */
+.monitor-overview .monitor-card:nth-child(1):before{
+  background:#ef476f!important;
+}
+.monitor-overview .monitor-card:nth-child(2):before{
+  background:#e3ad49!important;
+}
+.monitor-overview .monitor-card:nth-child(3):before{
+  background:#27b768!important;
+}
+.monitor-overview .monitor-card:nth-child(4):before{
+  background:#4d91d9!important;
+}
+
+/* Chỉ màu con số, không tô nền đậm */
+.monitor-overview .monitor-card:nth-child(1) strong{color:#ef6b82!important}
+.monitor-overview .monitor-card:nth-child(2) strong{color:#dba84e!important}
+.monitor-overview .monitor-card:nth-child(3) strong{color:#43bd75!important}
+.monitor-overview .monitor-card:nth-child(4) strong{color:inherit!important}
+
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(1) strong{color:#cf405b!important}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(2) strong{color:#b07b27!important}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(3) strong{color:#218c50!important}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4) strong{color:#315a79!important}
+
+.monitor-overview .monitor-card:hover{
+  transform:none!important;
+  box-shadow:none!important;
+}
 </style>
-<script id="AUREL_R131_FORCE_STATUS_JS">
-(function(){
-  function apply(){
-    var dark=document.body.classList.contains("aurel-dark-theme");
-    document.querySelectorAll(".monitor-overview .monitor-card").forEach(function(card){
-      var t=(card.textContent||"").replace(/\s+/g," ").trim();
-      var kind=null;
-      if(t.indexOf("Cảnh báo")===0) kind="warning";
-      else if(t.indexOf("Theo dõi")===0) kind="watch";
-      else if(t.indexOf("Bình thường")===0) kind="normal";
-      else if(t.indexOf("Thiếu dữ liệu")===0) kind="missing";
-      if(!kind) return;
-      card.setAttribute("data-aurel-status",kind);
-      var cfg={
-        warning: dark
-          ? ["#71383b","linear-gradient(145deg,#24161a 0%,#171116 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(239,68,68,.20)","#ff7b86"]
-          : ["#ef9fa5","linear-gradient(145deg,#fffafa 0%,#fff1f2 100%)","0 10px 24px rgba(220,38,38,.12),0 0 22px rgba(239,68,68,.10)","#d83b46"],
-        watch: dark
-          ? ["#755d29","linear-gradient(145deg,#241e12 0%,#17140d 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(245,158,11,.18)","#f0bd5b"]
-          : ["#e9c46f","linear-gradient(145deg,#fffdf6 0%,#fff7e6 100%)","0 10px 24px rgba(217,119,6,.11),0 0 22px rgba(245,158,11,.09)","#c58a22"],
-        normal: dark
-          ? ["#2f6844","linear-gradient(145deg,#142219 0%,#0f1611 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(34,197,94,.18)","#71e29a"]
-          : ["#9bd7b2","linear-gradient(145deg,#fbfffc 0%,#eefaf2 100%)","0 10px 24px rgba(22,163,74,.11),0 0 22px rgba(34,197,94,.09)","#18994a"],
-        missing: dark
-          ? ["#365d7e","linear-gradient(145deg,#132130 0%,#0d151f 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(96,165,250,.17)","#8cc4ff"]
-          : ["#adc7df","linear-gradient(145deg,#fbfdff 0%,#eef5fb 100%)","0 10px 24px rgba(59,130,246,.10),0 0 22px rgba(96,165,250,.08)","#477fbd"]
-      }[kind];
-      card.style.setProperty("border-color",cfg[0],"important");
-      card.style.setProperty("background",cfg[1],"important");
-      card.style.setProperty("box-shadow",cfg[2],"important");
-      var strong=card.querySelector("strong");
-      if(strong) strong.style.setProperty("color",cfg[3],"important");
-    });
-  }
-  function schedule(){requestAnimationFrame(apply)}
-  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",schedule,{once:true});
-  else schedule();
-  new MutationObserver(schedule).observe(document.getElementById("root")||document.body,{childList:true,subtree:true,attributes:true,attributeFilter:["class"]});
-  document.addEventListener("click",function(){setTimeout(apply,40)},true);
-})();
-</script>
 </body></html>
 
