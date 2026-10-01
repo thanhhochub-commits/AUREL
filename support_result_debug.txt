@@ -1,0 +1,1688 @@
+=== support #1 @ 156285 ===
+9CC%22%20stroke-width%3D%225%22%2F%3E%0A%3Crect%20x%3D%22129%22%20y%3D%2263%22%20width%3D%2278%22%20height%3D%2254%22%20rx%3D%2210%22%20fill%3D%22%23ECFDF5%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22m136%2072%2032%2024%2032-24%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22m136%20108%2022-18M200%20108l-22-18%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%22184%22%20cy%3D%2242%22%20r%3D%2212%22%20fill%3D%22%23FEF3C7%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M184%2036v12M178%2042h12%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%223%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.075;
+  pointer-events:none;
+}
+.report-mail-card>*{position:relative;z-index:1}
+
+/* Empty states get a soft document motif instead of blank white space. */
+.empty-panel{position:relative;overflow:hidden}
+.empty-panel:after{
+  content:"";
+  position:absolute;
+  right:12px;
+  bottom:-8px;
+  width:86px;
+  height:60px;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20220%20150%22%3E%0A%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%3Cpath%20d%3D%22M34%2022h75l25%2025v81H34Z%22%20fill%3D%22%23EFF6FF%22%20stroke%3D%22%232563EB%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M109%2022v26h25M52%2070h60M52%2088h47M52%20106h36%22%20stroke%3D%22%2360A5FA%22%20stroke-width%3D%225%22%2F%3E%0A%3Cellipse%20cx%3D%22169%22%20cy%3D%2266%22%20rx%3D%2231%22%20ry%3D%2212%22%20fill%3D%22%23ECFDF5%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M138%2066v49c0%207%2014%2012%2031%2012s31-5%2031-12V66M138%2090c0%207%2014%2012%2031%2012s31-5%2031-12%22%20stroke%3D%22%230F8B8D%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M117%20118c15%200%2021-6%2028-14%22%20stroke%3D%22%23F59E0B%22%20stroke-width%3D%224%22%2F%3E%0A%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-repeat:no-repeat;
+  background-size:contain;
+  opacity:.055;
+  pointer-events:none;
+}
+
+/* Keep visuals supportive, not dominant, on smaller screens. */
+@media(max-width:1000px){
+  .hero:before{width:180px;height:105px;opacity:.16}
+  .bank-monitor-hero:before{right:20px;top:14px;opacity:.12}
+  .compare-insight:after{opacity:.10}
+}
+@media(max-width:720px){
+  .hero:before,
+  .analysis-trend:before,
+  .bank-monitor-hero:before,
+  .scenario-results:before,
+  .ai-key-panel:after,
+  .report-mail-card:after{display:none}
+  .drop:after{opacity:.05;width:90px;height:60px}
+}
+
+/* AUREL R20 DRAGON HERO + TOOLBAR */
+
+/* Top toolbar refinement */
+.topbar{
+  background:rgba(255,255,255,.98)!important;
+  border-bottom:1px solid #D6E2EA!important;
+  box-shadow:0 4px 16px rgba(16,42,63,.06)!important;
+  position:sticky!important;
+  top:0!important;
+  z-index:20!important;
+}
+.topbar:after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:3px;
+  background:linear-gradient(90deg,#2563EB 0%,#0F8B8D 62%,#F59E0B 100%);
+  opacity:.22;
+  pointer-events:none;
+}
+.crumb-icon{
+  background:linear-gradient(180deg,#EDF4FF 0%,#E4F0FF 100%)!important;
+  color:#2563EB!important;
+  border:1px solid #CFE0F7!important;
+  box-shadow:0 4px 10px rgba(37,99,235,.08)!important;
+}
+.crumb strong{
+  color:#102A3F!important;
+  font-weight:850!important;
+}
+.crumb small{color:#6E8596!important}
+.controls select{
+  background:#fff!important;
+  border:1px solid #BDD0DB!important;
+  color:#173B55!important;
+  font-weight:750!important;
+  border-radius:12px!important;
+  box-shadow:0 2px 8px rgba(15,48,71,.04)!important;
+  transition:.18s ease!important;
+}
+.controls select:hover{
+  border-color:#9FB8C9!important;
+  box-shadow:0 4px 12px rgba(15,48,71,.06)!important;
+}
+.controls select:focus{
+  outline:none!important;
+  border-color:#2563EB!important;
+  box-shadow:0 0 0 3px rgba(37,99,235,.12)!important;
+}
+.controls .status-pill:not(.empty-status){
+  background:linear-gradient(180deg,#E6F8EE 0%,#DCF4E7 100%)!important;
+  color:#117246!important;
+  border:1px solid #B7DEC8!important;
+  box-shadow:0 4px 10px rgba(22,163,74,.08)!important;
+  font-weight:800!important;
+}
+.controls .status-pill.empty-status{
+  background:#EEF3F6!important;
+  color:#5C7587!important;
+  border:1px solid #D4E0E7!important;
+}
+
+/* Refined blue hero */
+.hero{
+  background:
+    radial-gradient(circle at 84% 30%,rgba(37,99,235,.18),transparent 24%),
+    radial-gradient(circle at 92% 75%,rgba(15,139,141,.14),transparent 22%),
+    linear-gradient(120deg,#11344D 0%,#123B56 54%,#0F4D58 100%)!important;
+  border:1px solid rgba(255,255,255,.06)!important;
+  box-shadow:0 18px 36px rgba(10,42,67,.14)!important;
+  overflow:hidden!important;
+  position:relative!important;
+}
+.hero:after{
+  content:"";
+  position:absolute;
+  width:440px;
+  height:440px;
+  right:-150px;
+  top:-210px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.07);
+  box-shadow:
+    0 0 0 70px rgba(255,255,255,.04),
+    0 0 0 135px rgba(255,255,255,.025);
+  pointer-events:none;
+}
+.hero>*{position:relative;z-index:2}
+.hero .eyebrow{color:#8FE3D3!important}
+.hero h2{color:#fff!important;font-weight:900!important}
+.hero p{color:#D3E0E7!important}
+
+/* Dragon watermark replaces the old chart watermark */
+.hero:before{
+  content:"";
+  position:absolute;
+  right:20px;
+  bottom:5px;
+  width:320px;
+  height:178px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  opacity:.24;
+  pointer-events:none;
+  z-index:1;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 230'%3E%3Cg fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M29 170c24-10 41-28 58-54 8-13 27-31 47-39 17-7 33-7 48 1 12 7 19 17 19 31 0 17-12 30-31 33-9 2-19 1-31-3 16 11 33 15 51 11 20-4 38-16 49-35 6-10 10-22 11-34 15 6 31 6 46 0 17-7 32-20 41-38-1 21-8 40-22 56 16-3 31-11 43-23-7 19-20 35-38 45-12 7-26 11-41 11-12 0-22-2-32-6-3 13-10 25-19 34-15 17-35 27-58 30-24 3-48-2-69-15-19-11-35-17-50-17-18 0-34 7-52 14-7 3-14 5-23 5-8 0-15-1-21-5z' stroke='%235FA8FF' stroke-width='7'/%3E%3Cpath d='M116 122c9-24 36-43 66-43 14 0 26 4 34 12' stroke='%230F8B8D' stroke-width='7'/%3E%3Cpath d='M309 81c10 8 21 11 33 10 13-1 24-6 37-17' stroke='%23F59E0B' stroke-width='7'/%3E%3Cpath d='M261 111c8 3 16 3 23 0' stroke='%23D8E8F1' stroke-width='6'/%3E%3Cpath d='M185 62c9-17 25-26 45-28M236 37c12 5 22 13 28 24' stroke='%2389C2FF' stroke-width='5'/%3E%3Ccircle cx='123' cy='117' r='5' fill='%23F59E0B' stroke='white' stroke-width='2'/%3E%3Ccircle cx='356' cy='75' r='4.5' fill='%230F8B8D' stroke='white' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E")!important;
+}
+
+/* KPI cards slightly richer but still basic */
+.grid.metrics>.metric{
+  border-color:#C3D3DE!important;
+  box-shadow:0 10px 24px rgba(15,48,71,.06)!important;
+}
+.grid.metrics>.metric:nth-child(1){border-top:4px solid #2563EB!important}
+.grid.metrics>.metric:nth-child(2){border-top:4px solid #0F8B8D!important}
+.grid.metrics>.metric:nth-child(3){border-top:4px solid #16A34A!important}
+.grid.metrics>.metric:nth-child(4){border-top:4px solid #DC2626!important}
+.grid.metrics>.metric .metric-title{color:#5A7486!important;font-weight:750!important}
+.grid.metrics>.metric>strong{color:#0F2E46!important;font-weight
+
+=== support #2 @ 1090293 ===
+ef5fa!important;
+  color:#35576f!important;
+  font-weight:850!important;
+  border-bottom:1px solid #c9d8e3!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) tbody td{
+  color:#27465c!important;
+  border-bottom-color:#e4edf3!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) tbody tr:nth-child(even){
+  background:#f8fbfd!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) tbody tr:hover{
+  background:#eef6fb!important;
+}
+
+/* Analysis cards */
+body:not(:has(#nav button[data-page="overview"].active)) .analysis-feature{
+  position:relative!important;
+  overflow:hidden!important;
+  border-top:3px solid #3b82f6!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .analysis-feature:nth-child(2){
+  border-top-color:#17b6ae!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .analysis-feature:nth-child(3){
+  border-top-color:#55a8c8!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .analysis-feature-value{
+  color:#123754!important;
+  font-weight:950!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .analysis-feature-label{
+  color:#5e7b8f!important;
+  font-weight:780!important;
+}
+
+/* Comparison — aesthetic only, preserve R125 geometry */
+body:not(:has(#nav button[data-page="overview"].active)) .compare-settings{
+  background:linear-gradient(135deg,#ffffff,#f5fafc)!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .compare-mode-btn{
+  color:#547286!important;
+  border-radius:9px!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .compare-mode-btn.active{
+  background:linear-gradient(135deg,#2474d2,#1761b7)!important;
+  color:#fff!important;
+  box-shadow:0 5px 13px rgba(36,116,210,.18)!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .compare-kpi:nth-child(1){
+  border-top:3px solid #3b82f6!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .compare-kpi:nth-child(2){
+  border-top:3px solid #20b8b0!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .compare-kpi:nth-child(3){
+  border-top:3px solid #e5ad45!important;
+}
+
+/* Risk / scenario / data / support / reports */
+body:not(:has(#nav button[data-page="overview"].active)) .monitor-card{
+  border-top:3px solid #3b82f6!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .scenario-control{
+  border-top:3px solid #20b8b0!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .dataset-card{
+  position:relative!important;
+  overflow:hidden!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) .dataset-card:before{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:3px!important;
+  background:linear-gradient(180deg,#3b82f6,#20b8b0)!important;
+}
+body:not(:has(#nav button[data-page="overview"].active)) :is(
+  .pdf-intro-card,.pdf-intro-main,.ai-key-panel
+){
+  background:
+    linear-gradient(145deg,#ffffff 0%,#f4f9fc 100%)!important;
+}
+
+/* Small status chips */
+body:not(:has(#nav button[data-page="overview"].active)) :is(
+  .status-pill,.badge,.chip
+){
+  border-radius:999px!important;
+}
+
+/* =========================================================
+   DARK MODE — match current Tổng quan dark visual language
+   ========================================================= */
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .page{
+  background:
+    radial-gradient(circle at 88% 3%,rgba(50,123,219,.08),transparent 24%),
+    radial-gradient(circle at 14% 2%,rgba(30,183,173,.055),transparent 22%),
+    linear-gradient(180deg,#080d14 0%,#070b11 100%)!important;
+}
+
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .page-head{
+  border-color:#2b4055!important;
+  background:
+    linear-gradient(135deg,#101b28 0%,#0c151f 100%)!important;
+  box-shadow:0 11px 28px rgba(0,0,0,.20)!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .page-head:before{
+  background:linear-gradient(180deg,#4d9cff,#2fc7b3)!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .page-head h1{
+  color:#f3f8fc!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .page-head p{
+  color:#9db0c0!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  .page-head .eyebrow,.eyebrow
+){
+  color:#68aaff!important;
+}
+
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  .panel,.metric,.dataset-card,.analysis-feature,.analysis-trend,
+  .compare-settings,.compare-pair-visual,.compare-all-panel,
+  .monitor-card,.scenario-control,.pdf-intro-card,.pdf-intro-main,
+  .ai-key-panel,.compare-kpi,.compare-details
+){
+  border-color:#2b4055!important;
+  background:linear-gradient(180deg,#111d2a 0%,#0d1722 100%)!important;
+  box-shadow:0 8px 22px rgba(0,0,0,.18)!important;
+}
+
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  .dataset-card,.analysis-feature,.monitor-card,.scenario-control,.compare-kpi
+):hover{
+  border-color:#3a5872!important;
+  box-shadow:0 12px 28px rgba(0,0,0,.25)!important;
+}
+
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  .panel h2,.panel h3,.analysis-trend h2,.analysis-trend h3,
+  .compare-settings h2,.compare-pair-visual h2,.compare-all-panel h2,
+  .monitor-card h2,.monitor-card h3,.scenario-control h2,.scenario-control h3,
+  .pdf-intro-card h2,.pdf-intro-card h3,.pdf-intro-main h2,.pdf-intro-main h3,
+  .ai-key-panel h2,.ai-key-panel h3
+){
+  color:#eef5fa!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  .panel p,.analysis-trend p,.monitor-card p,.scenario-control p,
+  .pdf-intro-card p,.pdf-intro-main p,.ai-key-panel p
+){
+  color:#98adbd!important;
+}
+
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  input,select,textarea
+){
+  background:#0b1520!important;
+  border-color:#334a5f!important;
+  color:#edf5fb!important;
+  color-scheme:dark!important;
+  box-shadow:none!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) :is(
+  input,select,textarea
+):focus{
+  border-color:#578fc8!important;
+  box-shadow:0 0 0 3px rgba(77,156,255,.11)!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .field label{
+  color:#9db0bf!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .button{
+  background:linear-gradient(180deg,#152334,#101b28)!important;
+  border-color:#334a60!important;
+  color:#d8e4ed!important;
+  box-shadow:none!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .button.primary{
+  background:linear-gradient(135deg,#2b80ed,#1765c0)!important;
+  border-color:#347fd2!important;
+  color:#fff!important;
+  box-shadow:0 7px 17px rgba(35,112,218,.18)!important;
+}
+
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) .table-wrap{
+  border-color:#2b4055!important;
+  background:#0d1722!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page="overview"].active)) thead th{
+  background:#162433!important;
+  color:#b9c9d5!important;
+  border-bottom-color:#31485d!important;
+}
+body.aurel-dark-theme:not(:has(#nav button[data-page
+
+=== analysis #1 @ 32564 ===
+:baseline;margin-bottom:10px}.compare-bar-head strong{font-size:15px;color:#17324d}.compare-bar-head span{font-size:12px;color:#7c8d9f}
+.compare-track{position:relative;height:28px;background:#ecf2f6;border-radius:999px;overflow:hidden;margin-bottom:14px}.compare-track .bar-vcb,.compare-track .bar-bidv{position:absolute;left:0;border-radius:999px}.compare-track .bar-vcb{top:4px;height:9px;background:linear-gradient(90deg,#0f766e 0%,#1bb6a7 100%)}.compare-track .bar-bidv{top:15px;height:9px;background:linear-gradient(90deg,#17324d 0%,#355f87 100%)}
+.compare-legend{display:grid;gap:8px}.compare-legend .row{display:flex;justify-content:space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between
+
+=== analysis #2 @ 32675 ===
+size:12px;color:#7c8d9f}
+.compare-track{position:relative;height:28px;background:#ecf2f6;border-radius:999px;overflow:hidden;margin-bottom:14px}.compare-track .bar-vcb,.compare-track .bar-bidv{position:absolute;left:0;border-radius:999px}.compare-track .bar-vcb{top:4px;height:9px;background:linear-gradient(90deg,#0f766e 0%,#1bb6a7 100%)}.compare-track .bar-bidv{top:15px;height:9px;background:linear-gradient(90deg,#17324d 0%,#355f87 100%)}
+.compare-legend{display:grid;gap:8px}.compare-legend .row{display:flex;justify-content:space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-conne
+
+=== analysis #3 @ 32843 ===
+.compare-track .bar-bidv{position:absolute;left:0;border-radius:999px}.compare-track .bar-vcb{top:4px;height:9px;background:linear-gradient(90deg,#0f766e 0%,#1bb6a7 100%)}.compare-track .bar-bidv{top:15px;height:9px;background:linear-gradient(90deg,#17324d 0%,#355f87 100%)}
+.compare-legend{display:grid;gap:8px}.compare-legend .row{display:flex;justify-content:space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sá
+
+=== analysis #4 @ 32949 ===
+ht:9px;background:linear-gradient(90deg,#0f766e 0%,#1bb6a7 100%)}.compare-track .bar-bidv{top:15px;height:9px;background:linear-gradient(90deg,#17324d 0%,#355f87 100%)}
+.compare-legend{display:grid;gap:8px}.compare-legend .row{display:flex;justify-content:space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hid
+
+=== analysis #5 @ 33006 ===
+7 100%)}.compare-track .bar-bidv{top:15px;height:9px;background:linear-gradient(90deg,#17324d 0%,#355f87 100%)}
+.compare-legend{display:grid;gap:8px}.compare-legend .row{display:flex;justify-content:space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radiu
+
+=== analysis #6 @ 33064 ===
+round:linear-gradient(90deg,#17324d 0%,#355f87 100%)}
+.compare-legend{display:grid;gap:8px}.compare-legend .row{display:flex;justify-content:space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-heigh
+
+=== analysis #7 @ 33205 ===
+space-between;gap:10px;font-size:13px}.compare-legend .label{display:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before
+
+=== analysis #8 @ 33271 ===
+ay:flex;align-items:center;gap:8px;color:#17324d;font-weight:600}.compare-legend .dot{width:10px;height:10px;border-radius:50%}.compare-legend .dot.vcb{background:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:
+
+=== analysis #9 @ 33432 ===
+d:#11a394}.compare-legend .dot.bidv{background:#264d71}
+.dataset-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{ba
+
+=== analysis #10 @ 33500 ===
+ds{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.
+
+=== analysis #11 @ 33551 ===
+ax(0,1fr));gap:12px;margin:8px 0 18px}.dataset-card{background:#f8fbfc;border:1px solid #e3ecf1;border-radius:14px;padding:14px 16px}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{
+
+=== analysis #12 @ 33682 ===
+x}.dataset-card small{display:block;color:#7a8a9a;font-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background
+
+=== analysis #13 @ 33736 ===
+-size:12px;margin-bottom:7px}.dataset-card strong{font-size:22px;color:#17324d}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-
+
+=== analysis #14 @ 33814 ===
+}
+.upload-panel .drop{min-height:138px}.file-chip{display:inline-flex;align-items:center;gap:8px;background:#eef7f6;border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:s
+
+=== analysis #15 @ 33930 ===
+border:1px solid #d6ece8;color:#0f6e65;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-top:10px}
+.upload-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset
+
+=== analysis #16 @ 34112 ===
+fr;gap:18px}.data-lists{display:grid;grid-template-columns:1fr 1fr;gap:18px}.subtle-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap
+
+=== analysis #17 @ 34256 ===
+:6px 10px;background:#f0f5f8;border:1px solid #e1e8ee;border-radius:999px;font-size:12px;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monitor-overview .monitor-car
+
+=== analysis #18 @ 34344 ===
+;color:#6d7d8e;font-weight:600}
+@media(max-width:980px){.compare-hero,.upload-grid,.data-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monitor-overview .monitor-card{border-radius:18px;box-shadow:0 10px 26px rgba(18,48,68,.05);padding:20px 19px 17px;mi
+
+=== analysis #19 @ 34430 ===
+ta-lists{grid-template-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monitor-overview .monitor-card{border-radius:18px;box-shadow:0 10px 26px rgba(18,48,68,.05);padding:20px 19px 17px;min-height:132px}
+.monitor-overview .monitor-card small{font-size:12px;letter-spacing:.1
+
+=== analysis #20 @ 34446 ===
+mplate-columns:1fr}.compare-summary,.dataset-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.compare-summary,.dataset-cards{grid-template-columns:1fr}.compare-toolbar .field{min-width:100%;max-width:none}}
+
+/* Chỉ áp dụng trong trang Phân tích chỉ số. Các trang còn lại dùng CSS cũ. */
+.analysis-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:19px}
+.analysis-feature{position:relative;min-width:0;background:#fff;border:1px solid #e0e9f0;border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);overflow:hidden}
+.analysis-feature:before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:#1b9e8c}
+.analysis-feature:nth-child(2):before{background:#244e70}.analysis-feature:nth-child(3):before{background:#84b5bb}
+.analysis-feature-label{font-size:12px;color:#698195;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.analysis-feature-label svg{width:17px;height:17px;color:#93aabd}
+.analysis-feature-value{font-size:31px;letter-spacing:-1.2px;line-height:1.25;font-weight:800;color:#183449;margin:15px 0 7px;font-variant-numeric:tabular-nums}
+.analysis-feature-sub{font-size:12px;line-height:1.5;color:#8292a1}
+.analysis-trend{margin:0 0 19px;padding:22px 24px}
+.analysis-trend-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}
+.analysis-trend-head h2{margin:0 0 5px;font-size:17px}.analysis-trend-head p{margin:0;font-size:12px;color:#8393a0;line-height:1.6}
+.analysis-select{min-width:230px;max-width:320px;display:grid;gap:7px;font-size:11px;color:#637e91;font-weight:750}
+.analysis-select select{height:42px;border:1px solid #d9e5eb;border-radius:10px;background:#f8fbfc;color:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monitor-overview .monitor-card{border-radius:18px;box-shadow:0 10px 26px rgba(18,48,68,.05);padding:20px 19px 17px;min-height:132px}
+.monitor-overview .monitor-card small{font-size:12px;letter-spacing:.15px}
+.monitor-ov
