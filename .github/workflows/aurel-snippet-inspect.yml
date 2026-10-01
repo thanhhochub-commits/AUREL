@@ -1,4 +1,4 @@
-name: AUREL inspect support result text
+name: AUREL inspect support result classes
 on:
   push:
     branches: [main]
@@ -10,12 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect
+      - name: Inspect exact support classes
         shell: python
         run: |
           from pathlib import Path
+          import re
           s=Path("financial-intelligence.html").read_text(encoding="utf-8")
-          needles=["Tóm tắt điều hành","Chờ duyệt","Kết quả phân tích","support","analysis"]
+          needles=["Tác vụ phân tích","Kết quả phân tích","Tóm tắt điều hành","Chờ duyệt","ai-top-features","ai-connect","ai-feature"]
           out=[]
           for needle in needles:
               start=0;n=0
@@ -23,14 +24,14 @@ jobs:
                   i=s.find(needle,start)
                   if i<0: break
                   n+=1
-                  out.append(f"=== {needle} #{n} @ {i} ===\n"+s[max(0,i-2200):min(len(s),i+5200)])
+                  out.append(f"=== {needle} #{n} @ {i} ===\n"+s[max(0,i-3000):min(len(s),i+9000)])
                   start=i+len(needle)
-                  if n>=20: break
-          Path("support_result_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
+                  if n>=10: break
+          Path("support_classes_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add support_result_debug.txt
-          git commit -m "Temporary support result inspection"
+          git add support_classes_debug.txt
+          git commit -m "Temporary support classes inspection"
           git push
