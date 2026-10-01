@@ -13627,5 +13627,157 @@ body.aurel-dark-theme .scenario-results .aurel-r134-led{
   document.addEventListener("click",function(){setTimeout(apply,30)},true);
 })();
 </script>
+<style id="AUREL_R135_LED_EXTEND">
+/* LED chuẩn theo khung "Tổng hợp báo cáo": mảnh, rõ, không tô đậm card. */
+.aurel-r135-led{
+  position:relative!important;
+  overflow:hidden!important;
+}
+.aurel-r135-led::before{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  width:100%!important;
+  height:3px!important;
+  max-height:3px!important;
+  border-radius:999px 999px 0 0!important;
+  z-index:30!important;
+  pointer-events:none!important;
+  opacity:1!important;
+}
+
+.aurel-r135-blue::before{
+  background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;
+  box-shadow:0 0 5px rgba(59,130,246,.16)!important;
+}
+.aurel-r135-cyan::before{
+  background:linear-gradient(90deg,#20b8b0,#38d9cf)!important;
+  box-shadow:0 0 5px rgba(32,184,176,.15)!important;
+}
+.aurel-r135-green::before{
+  background:linear-gradient(90deg,#22c55e,#34d399)!important;
+  box-shadow:0 0 5px rgba(34,197,94,.15)!important;
+}
+.aurel-r135-yellow::before{
+  background:linear-gradient(90deg,#f59e0b,#f5c451)!important;
+  box-shadow:0 0 5px rgba(245,158,11,.14)!important;
+}
+.aurel-r135-red::before{
+  background:linear-gradient(90deg,#ef476f,#ff6b81)!important;
+  box-shadow:0 0 5px rgba(239,71,111,.15)!important;
+}
+.aurel-r135-slate::before{
+  background:linear-gradient(90deg,#7f9db5,#aabccc)!important;
+  box-shadow:0 0 4px rgba(127,157,181,.12)!important;
+}
+
+/* Không thay nền/logic; chỉ giữ bóng cực nhẹ để LED ăn vào card tự nhiên. */
+body:not(.aurel-dark-theme) .aurel-r135-led{
+  box-shadow:0 4px 12px rgba(27,70,100,.035)!important;
+}
+body.aurel-dark-theme .aurel-r135-led{
+  box-shadow:0 4px 12px rgba(0,0,0,.11)!important;
+}
+</style>
+<script id="AUREL_R135_LED_EXTEND_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function clearMarks(){
+    document.querySelectorAll(".aurel-r135-led").forEach(function(el){
+      el.classList.remove(
+        "aurel-r135-led","aurel-r135-blue","aurel-r135-cyan",
+        "aurel-r135-green","aurel-r135-yellow","aurel-r135-red","aurel-r135-slate"
+      );
+    });
+  }
+
+  function suitable(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=150 && r.width<=720 && r.height>=65 && r.height<=320 && t.length<650;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.monitor-card,.card,.panel,.dataset-card,.scenario-results,.analysis-feature,.analysis-trend");
+    if(preferred && suitable(preferred)) return preferred;
+
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(suitable(cur)) return cur;
+    }
+    return null;
+  }
+
+  function markExact(label, cls){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r135-led",cls);
+    });
+  }
+
+  function markContains(needle, cls){
+    document.querySelectorAll("body *").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t || t.indexOf(needle)<0) return;
+      if(t.length>260) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r135-led",cls);
+    });
+  }
+
+  function apply(){
+    clearMarks();
+
+    /* Ảnh 1: 4 card dữ liệu */
+    markExact("Chỉ tiêu đã chuẩn hóa","aurel-r135-blue");
+    markExact("Tệp dữ liệu","aurel-r135-cyan");
+    markExact("Tài liệu PDF","aurel-r135-slate");
+    markExact("Trạng thái","aurel-r135-green");
+
+    /* Ảnh 2: khung trạng thái chờ kết quả ở Phân tích kịch bản */
+    markContains("Điều chỉnh giả định và chọn","aurel-r135-cyan");
+
+    /* Ảnh 3: 4 card đánh giá hệ thống */
+    markExact("Độ đầy đủ chỉ tiêu","aurel-r135-cyan");
+    markExact("Khớp công thức độc lập","aurel-r135-blue");
+    markExact("Truy vết tệp nguồn","aurel-r135-green");
+    markExact("Thời gian phản hồi","aurel-r135-yellow");
+
+    /* Ảnh 4: 4 card giám sát */
+    markExact("Cảnh báo","aurel-r135-red");
+    markExact("Theo dõi","aurel-r135-yellow");
+    markExact("Bình thường","aurel-r135-green");
+    markExact("Thiếu dữ liệu","aurel-r135-slate");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
 </body></html>
 
