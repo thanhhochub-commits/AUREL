@@ -1,4 +1,4 @@
-name: AUREL compact AI key panel
+name: AUREL arrow collapse control
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Make AI key panel collapsible after key is saved
+      - name: Restyle AI collapse control as chevron
         shell: python
         run: |
           from pathlib import Path
@@ -22,242 +22,97 @@ jobs:
           p=Path("financial-intelligence.html")
           s=p.read_text(encoding="utf-8")
 
-          for tag, ident in [
-              ("style","AUREL_R142_AI_KEY_COLLAPSE"),
-              ("script","AUREL_R142_AI_KEY_COLLAPSE_JS")
-          ]:
-              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
-              s=pat.sub("",s)
-
           css=r'''
-          <style id="AUREL_R142_AI_KEY_COLLAPSE">
-          /* Chỉ áp dụng cho khung Kết nối trí tuệ nhân tạo. */
-          .ai-key-panel{
-            transition:
-              padding .22s ease,
-              margin .22s ease,
-              min-height .22s ease,
-              box-shadow .22s ease!important;
-          }
-
+          <style id="AUREL_R143_AI_ARROW_TOGGLE">
+          /* Chỉ đổi nút Thu gọn/Mở cài đặt thành chevron tối giản. */
           .ai-key-panel .aurel-ai-key-toggle{
-            min-height:32px!important;
-            height:32px!important;
-            padding:6px 11px!important;
-            border-radius:9px!important;
-            font-size:11px!important;
-            font-weight:750!important;
+            width:34px!important;
+            min-width:34px!important;
+            max-width:34px!important;
+            height:34px!important;
+            min-height:34px!important;
+            padding:0!important;
+            border-radius:10px!important;
+            font-size:0!important;
+            line-height:0!important;
             display:inline-flex!important;
             align-items:center!important;
             justify-content:center!important;
-            gap:6px!important;
-            flex:0 0 auto!important;
-            cursor:pointer!important;
-            border:1px solid #cddfe5!important;
-            background:#f7fbfd!important;
-            color:#31536b!important;
+            flex:0 0 34px!important;
+            border:1px solid #c9dbe5!important;
+            background:rgba(247,251,253,.92)!important;
+            color:#52748d!important;
+            box-shadow:none!important;
+            transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease!important;
+          }
+
+          .ai-key-panel .aurel-ai-key-toggle::before{
+            content:""!important;
+            width:8px!important;
+            height:8px!important;
+            border-right:2px solid currentColor!important;
+            border-bottom:2px solid currentColor!important;
+            transform:rotate(225deg)!important;
+            transform-origin:center!important;
+            margin-top:4px!important;
+            transition:transform .18s ease,margin .18s ease!important;
+          }
+
+          .ai-key-panel .aurel-ai-key-toggle[aria-expanded="false"]::before{
+            transform:rotate(45deg)!important;
+            margin-top:-4px!important;
           }
 
           .ai-key-panel .aurel-ai-key-toggle:hover{
             background:#edf6fa!important;
-            border-color:#adcbd9!important;
+            border-color:#a9c9d8!important;
+            color:#244f6a!important;
+            transform:translateY(-1px)!important;
           }
 
-          .ai-key-panel.aurel-ai-key-collapsed{
-            padding:13px 16px!important;
-            margin-bottom:14px!important;
-            min-height:0!important;
+          .ai-key-panel .aurel-ai-key-toggle:active{
+            transform:translateY(0)!important;
           }
 
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-top{
-            align-items:center!important;
-            gap:10px!important;
-          }
-
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
-            flex:1 1 auto!important;
-            min-width:0!important;
-          }
-
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-top h2{
-            margin:0!important;
-            font-size:15px!important;
-            line-height:1.25!important;
-          }
-
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-top p,
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-form,
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-security,
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-feedback,
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-highlights{
-            display:none!important;
-          }
-
-          .ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
-            margin-left:auto!important;
+          .ai-key-panel .aurel-ai-key-toggle:focus-visible{
+            outline:2px solid rgba(59,130,246,.38)!important;
+            outline-offset:2px!important;
           }
 
           body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle{
             background:#142333!important;
-            border-color:#324a60!important;
-            color:#b9cddd!important;
+            border-color:#304b61!important;
+            color:#9fc2dc!important;
           }
 
           body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
             background:#192c3f!important;
-            border-color:#42637f!important;
-            color:#e6f2fb!important;
+            border-color:#466a87!important;
+            color:#d7edff!important;
           }
 
           @media(max-width:700px){
-            .ai-key-panel.aurel-ai-key-collapsed{
-              padding:12px 13px!important;
-            }
-            .ai-key-panel.aurel-ai-key-collapsed .ai-key-top{
-              flex-wrap:nowrap!important;
-            }
-            .ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
-              max-width:120px!important;
-              overflow:hidden!important;
-              text-overflow:ellipsis!important;
-            }
             .ai-key-panel .aurel-ai-key-toggle{
-              padding:6px 9px!important;
+              width:32px!important;
+              min-width:32px!important;
+              max-width:32px!important;
+              height:32px!important;
+              min-height:32px!important;
+              flex-basis:32px!important;
+              border-radius:9px!important;
             }
           }
           </style>
           '''
 
-          js=r'''
-          <script id="AUREL_R142_AI_KEY_COLLAPSE_JS">
-          (function(){
-            var manualExpanded=false;
-            var manualCollapsed=false;
+          pat=re.compile(r'<style id="AUREL_R143_AI_ARROW_TOGGLE">[\s\S]*?</style>\s*',re.M)
+          if pat.search(s):
+              s=pat.sub(css.strip()+"\n",s,count=1)
+          else:
+              if "</body>" not in s:
+                  raise SystemExit("Không tìm thấy </body>.")
+              s=s.replace("</body>",css.strip()+"\n</body>",1)
 
-            function norm(v){
-              return String(v||"").replace(/\s+/g," ").trim();
-            }
-
-            function isReady(panel){
-              var status=panel && panel.querySelector(".ai-key-status");
-              if(!status) return false;
-              var txt=norm(status.textContent).toLowerCase();
-              return status.classList.contains("ready")
-                || txt.indexOf("sẵn sàng")>=0
-                || txt.indexOf("đã thiết lập")>=0
-                || txt.indexOf("đã lưu")>=0
-                || txt.indexOf("ready")>=0;
-            }
-
-            function updateButton(panel){
-              var btn=panel.querySelector(".aurel-ai-key-toggle");
-              if(!btn) return;
-              var collapsed=panel.classList.contains("aurel-ai-key-collapsed");
-              btn.textContent=collapsed ? "Mở cài đặt" : "Thu gọn";
-              btn.setAttribute("aria-expanded",collapsed ? "false" : "true");
-            }
-
-            function setCollapsed(panel,collapsed){
-              if(!panel) return;
-              panel.classList.toggle("aurel-ai-key-collapsed",!!collapsed);
-              updateButton(panel);
-            }
-
-            function ensure(){
-              var panel=document.querySelector(".ai-key-panel");
-              if(!panel) return;
-
-              var top=panel.querySelector(".ai-key-top");
-              if(!top) return;
-
-              var btn=panel.querySelector(".aurel-ai-key-toggle");
-              if(!btn){
-                btn=document.createElement("button");
-                btn.type="button";
-                btn.className="aurel-ai-key-toggle";
-                btn.addEventListener("click",function(){
-                  var collapsed=panel.classList.contains("aurel-ai-key-collapsed");
-                  if(collapsed){
-                    manualExpanded=true;
-                    manualCollapsed=false;
-                    setCollapsed(panel,false);
-                  }else{
-                    manualExpanded=false;
-                    manualCollapsed=true;
-                    setCollapsed(panel,true);
-                  }
-                });
-                top.appendChild(btn);
-              }
-
-              var ready=isReady(panel);
-
-              if(!ready && !manualCollapsed){
-                manualExpanded=false;
-                setCollapsed(panel,false);
-              }else if(ready && !manualExpanded){
-                setCollapsed(panel,true);
-              }else{
-                updateButton(panel);
-              }
-
-              panel.querySelectorAll("button").forEach(function(button){
-                if(button.dataset.aurelCollapseBound==="1") return;
-                var text=norm(button.textContent);
-
-                if(text.indexOf("Lưu khóa phiên")>=0){
-                  button.dataset.aurelCollapseBound="1";
-                  button.addEventListener("click",function(){
-                    manualExpanded=false;
-                    manualCollapsed=false;
-                    setTimeout(function(){
-                      setCollapsed(panel,true);
-                    },220);
-                  });
-                }else if(text.indexOf("Xóa khóa")>=0){
-                  button.dataset.aurelCollapseBound="1";
-                  button.addEventListener("click",function(){
-                    manualExpanded=true;
-                    manualCollapsed=false;
-                    setTimeout(function(){
-                      setCollapsed(panel,false);
-                    },80);
-                  });
-                }
-              });
-            }
-
-            var queued=false;
-            function schedule(){
-              if(queued) return;
-              queued=true;
-              requestAnimationFrame(function(){
-                queued=false;
-                ensure();
-              });
-            }
-
-            if(document.readyState==="loading"){
-              document.addEventListener("DOMContentLoaded",schedule,{once:true});
-            }else{
-              schedule();
-            }
-
-            var root=document.getElementById("root")||document.body;
-            new MutationObserver(schedule).observe(root,{
-              childList:true,
-              subtree:true,
-              attributes:true,
-              attributeFilter:["class"]
-            });
-          })();
-          </script>
-          '''
-
-          if "</body>" not in s:
-              raise SystemExit("Không tìm thấy </body>.")
-
-          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
           p.write_text(s,encoding="utf-8")
 
       - name: Commit
@@ -269,5 +124,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Make AI key panel auto-collapse after save"
+          git commit -m "Restyle AI key collapse control as chevron"
           git push
