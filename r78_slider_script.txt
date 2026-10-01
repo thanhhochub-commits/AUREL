@@ -1,0 +1,188 @@
+
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  var instances=[];
+  var globalIndex=0;
+  var masterTimer=null;
+  var animating=false;
+
+  function preload(list){
+    list.forEach(function(src){
+      var im=new Image();
+      im.decoding='async';
+      im.src=src;
+    });
+  }
+
+  function findInstance(el){
+    for(var i=0;i<instances.length;i++){
+      if(instances[i].el===el && instances[i].el.isConnected) return instances[i];
+    }
+    return null;
+  }
+
+  function mount(el,list,key){
+    if(!el || !list || list.length<2) return null;
+
+    var existing=findInstance(el);
+    if(existing) return existing;
+
+    var oldWrap=el.querySelector(':scope > .aurel-r78-slider-wrap');
+    if(oldWrap) oldWrap.remove();
+
+    var wrap=document.createElement('div');
+    wrap.className='aurel-r78-slider-wrap';
+    wrap.setAttribute('aria-hidden','true');
+
+    var a=document.createElement('img');
+    var b=document.createElement('img');
+    a.className='aurel-r78-slider-img';
+    b.className='aurel-r78-slider-img';
+    a.alt=''; b.alt='';
+    a.draggable=false; b.draggable=false;
+
+    var idx=globalIndex%list.length;
+    var nextIdx=(idx+1)%list.length;
+    a.src=list[idx];
+    b.src=list[nextIdx];
+    a.style.transition='none';
+    b.style.transition='none';
+    a.style.transform='translate3d(0,0,0)';
+    b.style.transform='translate3d(100%,0,0)';
+
+    wrap.appendChild(a);
+    wrap.appendChild(b);
+    el.insertBefore(wrap,el.firstChild);
+
+    var inst={
+      el:el,
+      list:list,
+      key:key,
+      wrap:wrap,
+      current:a,
+      next:b,
+      index:idx
+    };
+    instances.push(inst);
+    return inst;
+  }
+
+  function cleanup(){
+    instances=instances.filter(function(inst){
+      return inst.el && inst.el.isConnected && inst.wrap && inst.wrap.isConnected;
+    });
+  }
+
+  function scheduleMaster(){
+    if(masterTimer!==null) return;
+    masterTimer=setTimeout(function(){
+      masterTimer=null;
+      advanceAll();
+    },HOLD);
+  }
+
+  function advanceAll(){
+    if(animating){
+      scheduleMaster();
+      return;
+    }
+
+    cleanup();
+    if(!instances.length){
+      scheduleMaster();
+      return;
+    }
+
+    animating=true;
+    var ni=(globalIndex+1)%HERO.length;
+
+    /* Chuẩn bị tất cả slider trong cùng một lượt JS. */
+    instances.forEach(function(inst){
+      var localNext=ni%inst.list.length;
+      inst.next.src=inst.list[localNext];
+      inst.current.style.transition='none';
+      inst.next.style.transition='none';
+      inst.current.style.transform='translate3d(0,0,0)';
+      inst.next.style.transform='translate3d(100%,0,0)';
+    });
+
+    /* Một cặp requestAnimationFrame chung: tất cả bắt đầu đúng cùng frame. */
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        cleanup();
+        instances.forEach(function(inst){
+          inst.current.style.transition='transform '+MOVE+'ms '+EASE;
+          inst.next.style.transition='transform '+MOVE+'ms '+EASE;
+          inst.current.style.transform='translate3d(-100%,0,0)';
+          inst.next.style.transform='translate3d(0,0,0)';
+        });
+
+        setTimeout(function(){
+          cleanup();
+          instances.forEach(function(inst){
+            inst.current.style.transition='none';
+            inst.current.style.transform='translate3d(100%,0,0)';
+            var old=inst.current;
+            inst.current=inst.next;
+            inst.next=old;
+            inst.index=ni%inst.list.length;
+          });
+          globalIndex=ni;
+          animating=false;
+          scheduleMaster();
+        },MOVE+40);
+      });
+    });
+  }
+
+  function run(){
+    mount(document.querySelector('.sidebar'),SIDE,'side');
+    mount(document.querySelector('.ref-hero'),HERO,'hero');
+    scheduleMaster();
+  }
+
+  preload(HERO.concat(SIDE));
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',run,{once:true});
+  }else{
+    run();
+  }
+
+  var root=document.getElementById('root')||document.body;
+  var queued=false;
+  new MutationObserver(function(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      cleanup();
+      run();
+    });
+  }).observe(root,{childList:true,subtree:true});
+})();
