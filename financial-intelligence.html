@@ -15606,7 +15606,15 @@ body:not(.aurel-dark-theme) .aurel-r152-summary-theme *{
     init();
   }
 })();
-</script>\n\n\n\n<style id="AUREL_R162_CLASSIC_HERO_TEXT">
+</script><span class="aurel-mobile-stray-nl" aria-hidden="true">\n\n\n\n</span>
+<style id="AUREL_R120_MOBILE_STRAY_NL_FIX">
+/* R120 — chỉ ẩn chuỗi \\n\\n\\n\\n bị lộ trên giao diện điện thoại.
+   Desktop giữ nguyên hiển thị hiện tại. */
+@media (max-width:760px){
+  .aurel-mobile-stray-nl{display:none!important}
+}
+</style>
+<style id="AUREL_R162_CLASSIC_HERO_TEXT">
 /* Khôi phục đúng kiểu chữ cổ điển như ảnh tham chiếu:
    chỉ chữ trên ảnh, không kính mờ, không pill ở dòng AUREL, không text-stroke gây nhoè. */
 
