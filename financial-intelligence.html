@@ -9267,9 +9267,10 @@ body:has(#nav button[data-page="overview"].active)
 }
 </style>
 
-<style id="AUREL_R89_HERO3_OLD_IMAGE_EXACT_FRAME">
-/* R89 — CHỈ ảnh ngang số 3: dùng lại ảnh cũ và ép toàn ảnh khít đúng khung hero.
-   Không thay sidebar, không thay ảnh 1/2, không thay dữ liệu/chức năng khác. */
+<style id="AUREL_R90_HERO3_NATURAL_RATIO">
+/* R90 — CHỈ ảnh ngang số 3.
+   Giữ đúng tỷ lệ gốc để các tòa nhà không bị bẹt/méo; khung vẫn được phủ kín.
+   Ảnh 1/2, sidebar, dữ liệu và chức năng khác giữ nguyên. */
 body:has(#nav button[data-page="overview"].active)
 .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_hero_sunrise_20261001.png"]{
   position:absolute!important;
@@ -9284,8 +9285,8 @@ body:has(#nav button[data-page="overview"].active)
   height:100%!important;
   min-height:100%!important;
   max-height:100%!important;
-  object-fit:fill!important;
-  object-position:center center!important;
+  object-fit:cover!important;
+  object-position:center 52%!important;
   margin:0!important;
   padding:0!important;
   border:0!important;
