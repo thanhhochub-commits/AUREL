@@ -1,163 +1,36 @@
-name: AUREL dark text contrast
+name: AUREL inspect support result text
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
-
 permissions:
   contents: write
-
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Improve all dark-mode text contrast
+      - name: Inspect
         shell: python
         run: |
           from pathlib import Path
-          import re
-
-          p=Path("financial-intelligence.html")
-          s=p.read_text(encoding="utf-8")
-
-          css=r'''
-          <style id="AUREL_R145_DARK_TEXT_CONTRAST">
-          /* R145 — tăng độ rõ chữ toàn bộ Dark Mode, không đổi bố cục/chức năng. */
-
-          body.aurel-dark-theme{
-            color:#eaf4fb!important;
-            -webkit-font-smoothing:antialiased!important;
-            -moz-osx-font-smoothing:grayscale!important;
-            text-rendering:optimizeLegibility!important;
-          }
-
-          /* Tiêu đề và số liệu chính */
-          body.aurel-dark-theme :is(
-            h1,h2,h3,h4,h5,h6,strong,b,
-            .title,.section-title,.panel-title,.card-title,
-            .metric-value,.value,.big-value,.kpi-value,
-            .topbar-title,.page-title
-          ){
-            color:#f8fbff!important;
-            opacity:1!important;
-          }
-
-          /* Nội dung mô tả thông thường */
-          body.aurel-dark-theme :is(
-            p,label,li,dt,dd,td,
-            .description,.subtitle,.helper,.hint,.meta,.caption,
-            .panel-subtitle,.card-subtitle,.field-label
-          ):not([class*="positive"]):not([class*="negative"]):not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]):not([class*="trend"]){
-            color:#d8e7f1!important;
-            opacity:1!important;
-          }
-
-          /* Chữ phụ vốn đang quá chìm */
-          body.aurel-dark-theme :is(
-            small,.muted,.text-muted,.secondary,.subtle,
-            .eyebrow,.overline,.footnote,.note-text,
-            .table-note,.unit,.timestamp
-          ):not([class*="positive"]):not([class*="negative"]):not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]):not([class*="trend"]){
-            color:#a9c1d2!important;
-            opacity:1!important;
-          }
-
-          /* Điều hướng: sidebar, tab, menu */
-          body.aurel-dark-theme :is(
-            #nav button,#nav a,
-            .sidebar button,.sidebar a,.sidebar span,
-            .nav-item,.nav-item span,
-            .tab,.tabs button,.menu-item
-          ){
-            color:#eef7fd!important;
-            opacity:1!important;
-          }
-
-          body.aurel-dark-theme :is(
-            #nav button.active,#nav a.active,
-            .nav-item.active,.tab.active,.tabs button.active
-          ){
-            color:#ffffff!important;
-            font-weight:700!important;
-          }
-
-          /* Form controls */
-          body.aurel-dark-theme :is(input,select,textarea){
-            color:#f2f8fc!important;
-            caret-color:#7dd3fc!important;
-          }
-
-          body.aurel-dark-theme :is(input,textarea)::placeholder{
-            color:#9fb8c9!important;
-            opacity:1!important;
-          }
-
-          body.aurel-dark-theme option{
-            color:#eef6fb!important;
-            background:#111d2a!important;
-          }
-
-          /* Bảng */
-          body.aurel-dark-theme th{
-            color:#dceaf3!important;
-            opacity:1!important;
-          }
-
-          body.aurel-dark-theme td{
-            color:#d6e5ef!important;
-            opacity:1!important;
-          }
-
-          /* Các đường link văn bản thường */
-          body.aurel-dark-theme a:not(.nav-item):not([class*="button"]):not([class*="btn"]){
-            color:#9ed7ff!important;
-          }
-
-          /* Nút mặc định, không đè màu trạng thái đặc biệt */
-          body.aurel-dark-theme button:not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]){
-            text-shadow:none!important;
-          }
-
-          /* Một số vùng dashboard dùng opacity thấp cho chữ con */
-          body.aurel-dark-theme :is(
-            .panel,.card,.metric,.monitor-card,.scenario-control,
-            .analysis-feature,.ai-key-panel,.table-wrap
-          ) :is(p,small,label,.muted,.meta,.caption,.subtitle,.description){
-            opacity:1!important;
-          }
-
-          /* Mobile: vẫn sáng nhưng không gắt */
-          @media(max-width:700px){
-            body.aurel-dark-theme :is(p,label,li,td,.description,.subtitle,.helper,.hint,.meta,.caption){
-              color:#d3e3ee!important;
-            }
-            body.aurel-dark-theme :is(small,.muted,.text-muted,.secondary,.subtle,.footnote,.unit){
-              color:#a4bdce!important;
-            }
-          }
-          </style>
-          '''
-
-          pat=re.compile(r'<style id="AUREL_R145_DARK_TEXT_CONTRAST">[\s\S]*?</style>\s*',re.M)
-          if pat.search(s):
-              s=pat.sub(css.strip()+"\n",s,count=1)
-          else:
-              if "</body>" not in s:
-                  raise SystemExit("Không tìm thấy </body>.")
-              s=s.replace("</body>",css.strip()+"\n</body>",1)
-
-          p.write_text(s,encoding="utf-8")
-
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          needles=["Tóm tắt điều hành","Chờ duyệt","Kết quả phân tích","support","analysis"]
+          out=[]
+          for needle in needles:
+              start=0;n=0
+              while True:
+                  i=s.find(needle,start)
+                  if i<0: break
+                  n+=1
+                  out.append(f"=== {needle} #{n} @ {i} ===\n"+s[max(0,i-2200):min(len(s),i+5200)])
+                  start=i+len(needle)
+                  if n>=20: break
+          Path("support_result_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Improve dark mode text contrast across site"
+          git add support_result_debug.txt
+          git commit -m "Temporary support result inspection"
           git push
