@@ -1,4 +1,4 @@
-name: AUREL status simulation visual update
+name: AUREL inspect structure
 on:
   push:
     branches: [main]
@@ -6,36 +6,30 @@ on:
 permissions:
   contents: write
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Patch
-        shell: python
+      - name: Inspect
         run: |
+          python - <<'PY'
           from pathlib import Path
-          p=Path("financial-intelligence.html")
-          s=p.read_text(encoding="utf-8")
-          css='''<style id="AUREL_R129_COMPACT">
-          body:has(#nav button[data-page="scenario"].active) .panel{box-shadow:0 0 22px rgba(59,130,246,.12)!important}
-          body:has(#nav button[data-page="scenario"].active) .metric{border-top:3px solid #3b82f6!important}
-          body:has(#nav button[data-page="scenario"].active) .metric:nth-child(even){border-top-color:#20b8b0!important}
-          body:has(#nav button[data-page="risk"].active) .metric:nth-child(1){border-top:4px solid #ef4444!important}
-          body:has(#nav button[data-page="risk"].active) .metric:nth-child(2){border-top:4px solid #f59e0b!important}
-          body:has(#nav button[data-page="risk"].active) .metric:nth-child(3){border-top:4px solid #22c55e!important}
-          body:has(#nav button[data-page="risk"].active) .metric:nth-child(4){border-top:4px solid #60a5fa!important}
-          </style>'''
-          start=s.find('<style id="AUREL_R129_COMPACT">')
-          if start>=0:
-              end=s.find('</style>',start)+8
-              s=s[:start]+css+s[end:]
-          else:
-              s=s.replace('</body>',css+'\n</body>',1)
-          p.write_text(s,encoding="utf-8")
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          keys=["scenario","risk","monitor","metric","simulation","alert"]
+          out=[]
+          for k in keys:
+              start=0
+              for _ in range(20):
+                  i=s.lower().find(k,start)
+                  if i<0: break
+                  out.append("KEY="+k+" POS="+str(i)+"\n"+s[max(0,i-1200):i+2600])
+                  start=i+len(k)
+          Path("structure_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
+          PY
       - name: Commit
         run: |
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Improve simulation and risk status visuals"
+          git add structure_debug.txt
+          git commit -m "Temporary structure inspection"
           git push
