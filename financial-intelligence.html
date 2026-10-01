@@ -9498,90 +9498,128 @@ body:has(#nav button[data-page="overview"].active)
 }
 </style>
 
-<style id="AUREL_R110_LIGHT_DARK_THEME">
-/* Chỉ bổ sung chức năng đổi chủ đề từ nút tròn góc phải. Mặc định giữ nguyên giao diện sáng hiện tại. */
+<style id="AUREL_R111_FULL_LIGHT_DARK_THEME">
+/* R111 — chỉ nâng cấp hệ Sáng/Tối. Light mode giữ nguyên giao diện hiện tại. */
 #aurel-theme-toggle{
   cursor:pointer!important;
-  transition:transform .18s ease,background-color .22s ease,border-color .22s ease,color .22s ease!important;
+  background:#126BFF!important;
+  border-color:#126BFF!important;
+  color:#fff!important;
+  box-shadow:0 4px 14px rgba(18,107,255,.22)!important;
+  transition:transform .18s ease,background-color .22s ease,border-color .22s ease,color .22s ease,box-shadow .22s ease!important;
 }
-#aurel-theme-toggle:hover{transform:translateY(-1px)!important}
-#aurel-theme-toggle .aurel-theme-sun{display:none!important}
-#aurel-theme-toggle .aurel-theme-moon{display:block!important;width:19px!important;height:19px!important}
+#aurel-theme-toggle:hover{transform:translateY(-1px)!important;box-shadow:0 7px 18px rgba(18,107,255,.30)!important}
+#aurel-theme-toggle .aurel-theme-sun{display:block!important;width:19px!important;height:19px!important}
+#aurel-theme-toggle .aurel-theme-moon{display:none!important;width:19px!important;height:19px!important}
 
-body.aurel-dark-theme #aurel-theme-toggle .aurel-theme-moon{display:none!important}
-body.aurel-dark-theme #aurel-theme-toggle .aurel-theme-sun{display:block!important}
+/* Ở theme tối hiển thị MẶT TRĂNG; ở theme sáng hiển thị MẶT TRỜI. */
+body.aurel-dark-theme #aurel-theme-toggle .aurel-theme-sun{display:none!important}
+body.aurel-dark-theme #aurel-theme-toggle .aurel-theme-moon{display:block!important}
 body.aurel-dark-theme #aurel-theme-toggle{
-  background:#f8fafc!important;
-  border-color:#cbd5e1!important;
-  color:#0f172a!important;
+  background:linear-gradient(145deg,#17243a,#0f1726)!important;
+  border-color:#405675!important;
+  color:#dce9ff!important;
+  box-shadow:0 0 0 1px rgba(94,154,255,.08),0 8px 20px rgba(0,0,0,.30)!important;
 }
 
-/* DARK MODE: không thay cấu trúc, dữ liệu, slideshow hay bố cục; chỉ đổi bảng màu. */
+/* =========================
+   DARK DESIGN SYSTEM
+   ========================= */
 body.aurel-dark-theme{
+  --ad-bg:#070a10;
+  --ad-bg2:#0a0f17;
+  --ad-surface:#0f1722;
+  --ad-surface2:#121d2b;
+  --ad-surface3:#162334;
+  --ad-line:#26384d;
+  --ad-line2:#31465f;
+  --ad-text:#f1f5f9;
+  --ad-muted:#94a8bc;
+  --ad-blue:#4d9cff;
+  --ad-cyan:#22d3ee;
+  --ad-green:#34d399;
+  --ad-red:#fb7185;
+  --ad-gold:#f6c453;
   color-scheme:dark!important;
-  background:#070b12!important;
-  color:#dbe7f3!important;
+  background:var(--ad-bg)!important;
+  color:var(--ad-text)!important;
 }
+
+/* Nền toàn trang / topbar */
 body.aurel-dark-theme .main{
-  background:#0b111b!important;
+  background:
+    radial-gradient(circle at 78% 2%,rgba(47,111,237,.08),transparent 25%),
+    linear-gradient(180deg,#0a0f17 0%,#070b11 100%)!important;
 }
-body.aurel-dark-theme .page{
-  background:transparent!important;
-}
+body.aurel-dark-theme .page{background:transparent!important}
 body.aurel-dark-theme .topbar{
-  background:#0d1521!important;
+  background:linear-gradient(180deg,#101823 0%,#0b121c 100%)!important;
   background-image:none!important;
-  border-bottom-color:#263448!important;
-  box-shadow:0 5px 18px rgba(0,0,0,.24)!important;
+  border-bottom:1px solid #26364a!important;
+  box-shadow:0 6px 22px rgba(0,0,0,.28)!important;
 }
 body.aurel-dark-theme .topbar::before{display:none!important}
-body.aurel-dark-theme .crumb strong{color:#f3f7fb!important;text-shadow:none!important}
-body.aurel-dark-theme .crumb small{color:#91a4b7!important;text-shadow:none!important}
+body.aurel-dark-theme .crumb strong{color:#f5f8fc!important;text-shadow:none!important}
+body.aurel-dark-theme .crumb small{color:#91a5b9!important;text-shadow:none!important}
 body.aurel-dark-theme .crumb-icon{
-  background:#152133!important;
-  border-color:#2b3c52!important;
-  color:#6ea8ff!important;
+  background:linear-gradient(145deg,#17253a,#111c2b)!important;
+  border-color:#2d435e!important;
+  color:#6fa9ff!important;
+  box-shadow:inset 0 0 0 1px rgba(111,169,255,.05)!important;
 }
+
+/* Bộ lọc / trạng thái / toolbar */
 body.aurel-dark-theme .ref-control{
-  background:#111c2a!important;
-  border-color:#304158!important;
-  box-shadow:none!important;
+  background:linear-gradient(180deg,#121d2b,#0f1824)!important;
+  border-color:#30455d!important;
+  box-shadow:0 5px 15px rgba(0,0,0,.16)!important;
 }
-body.aurel-dark-theme .ref-control>svg{color:#77aaff!important}
+body.aurel-dark-theme .ref-control>svg{color:#76adff!important}
 body.aurel-dark-theme .ref-control select{
-  color:#e7eef7!important;
-  -webkit-text-fill-color:#e7eef7!important;
+  color:#e8eef6!important;
+  -webkit-text-fill-color:#e8eef6!important;
+  background:transparent!important;
   color-scheme:dark!important;
 }
 body.aurel-dark-theme .ref-control select option{
-  background:#111827!important;
-  color:#e7eef7!important;
+  background:#101925!important;
+  color:#e8eef6!important;
 }
 body.aurel-dark-theme .ref-controls .status-pill{
-  background:#10281f!important;
-  border-color:#245a43!important;
-  color:#70e2ac!important;
+  background:linear-gradient(180deg,#123326,#0d291e)!important;
+  border-color:#285b46!important;
+  color:#75e6b0!important;
+  box-shadow:0 5px 14px rgba(0,0,0,.12)!important;
 }
 body.aurel-dark-theme .ref-tools button{
-  background:#111c2a!important;
-  border-color:#304158!important;
-  color:#dce9f7!important;
+  background:#121d2b!important;
+  border-color:#30445b!important;
+  color:#cbd9e8!important;
   box-shadow:none!important;
 }
-body.aurel-dark-theme .ref-tools button.user{
-  background:#176bff!important;
-  border-color:#3d8bff!important;
-  color:#fff!important;
+
+/* Sidebar: giữ nguyên toàn bộ ảnh slideshow, chỉ cân lại lớp UI/menu cho theme tối. */
+body.aurel-dark-theme .sidebar .brand{
+  background:rgba(4,11,20,.24)!important;
+  border-bottom-color:rgba(138,181,221,.18)!important;
 }
-body.aurel-dark-theme #aurel-theme-toggle{
-  background:#f8fafc!important;
-  border-color:#d7e1eb!important;
-  color:#0b1726!important;
+body.aurel-dark-theme .sidebar .nav button{
+  background:rgba(4,12,22,.24)!important;
+  border-color:rgba(127,177,220,.16)!important;
+  color:#edf6ff!important;
+  text-shadow:0 1px 6px rgba(0,0,0,.70)!important;
+}
+body.aurel-dark-theme .sidebar .nav button:hover{
+  background:rgba(18,66,104,.44)!important;
+  border-color:rgba(113,204,255,.34)!important;
+}
+body.aurel-dark-theme .sidebar .nav button.active{
+  background:linear-gradient(100deg,rgba(27,103,232,.88),rgba(0,168,220,.72))!important;
+  border-color:rgba(108,221,255,.86)!important;
+  box-shadow:inset 3px 0 #9beaff,0 5px 16px rgba(0,82,180,.22)!important;
 }
 
-body.aurel-dark-theme .ref-kpi,
-body.aurel-dark-theme .ref-chart-panel,
-body.aurel-dark-theme .ref-key-panel,
+/* Card/panel chung cho toàn bộ các trang chức năng. */
 body.aurel-dark-theme .panel,
 body.aurel-dark-theme .metric,
 body.aurel-dark-theme .dataset-card,
@@ -9597,97 +9635,295 @@ body.aurel-dark-theme .compare-all-panel,
 body.aurel-dark-theme .report-mail-card,
 body.aurel-dark-theme .report-mail-security,
 body.aurel-dark-theme .monitor-process-step{
-  background:#111923!important;
+  background:linear-gradient(180deg,var(--ad-surface2),var(--ad-surface))!important;
   background-image:none!important;
-  border-color:#293849!important;
-  box-shadow:0 8px 24px rgba(0,0,0,.16)!important;
+  border-color:var(--ad-line)!important;
+  box-shadow:0 10px 26px rgba(0,0,0,.18)!important;
 }
-body.aurel-dark-theme .ref-kpi-icon,
-body.aurel-dark-theme .ref-panel-title>svg{
-  background:#17263a!important;
-  border-color:#2b425e!important;
+body.aurel-dark-theme .section-top{
+  border-color:#28384a!important;
 }
-body.aurel-dark-theme .ref-kpi-label,
-body.aurel-dark-theme .ref-kpi-number small,
-body.aurel-dark-theme .ref-panel-head small,
-body.aurel-dark-theme .ref-chart-tools>span,
-body.aurel-dark-theme .ref-chart-select,
-body.aurel-dark-theme .ref-chart-legend,
+body.aurel-dark-theme .section-top h2,
+body.aurel-dark-theme .page-head h1,
+body.aurel-dark-theme .page-head h2,
+body.aurel-dark-theme .metric strong{
+  color:#f3f7fb!important;
+}
+body.aurel-dark-theme .section-top small,
 body.aurel-dark-theme .metric-title,
 body.aurel-dark-theme .metric-foot,
-body.aurel-dark-theme .section-top small,
 body.aurel-dark-theme .muted{
-  color:#91a4b7!important;
+  color:#92a5b7!important;
 }
-body.aurel-dark-theme .ref-kpi-number,
-body.aurel-dark-theme .ref-panel-title h2,
-body.aurel-dark-theme .section-top h2,
-body.aurel-dark-theme .metric strong{
-  color:#f0f5fb!important;
+
+/* Nút / tag / input chung */
+body.aurel-dark-theme .button:not(.primary),
+body.aurel-dark-theme .tag{
+  background:#162231!important;
+  border-color:#33485f!important;
+  color:#d8e4ef!important;
 }
-body.aurel-dark-theme .ref-panel-head,
-body.aurel-dark-theme .section-top{
-  border-color:#293849!important;
+body.aurel-dark-theme .button:not(.primary):hover{
+  background:#1a2a3d!important;
+  border-color:#44617e!important;
 }
-body.aurel-dark-theme .ref-chart-select select,
+body.aurel-dark-theme .button.primary{
+  background:linear-gradient(135deg,#1674f3,#2766dc)!important;
+  border-color:#428dff!important;
+  color:#fff!important;
+}
 body.aurel-dark-theme input,
 body.aurel-dark-theme textarea,
 body.aurel-dark-theme select{
   background:#0e1722!important;
-  border-color:#314257!important;
-  color:#e5edf6!important;
+  border-color:#31465d!important;
+  color:#e7eef6!important;
+  box-shadow:none!important;
 }
+body.aurel-dark-theme input::placeholder,
+body.aurel-dark-theme textarea::placeholder{color:#6f8498!important}
+
+/* Bảng chung */
 body.aurel-dark-theme .table-wrap{
-  background:#111923!important;
-  border-color:#293849!important;
+  background:#0f1722!important;
+  border-color:#26384b!important;
 }
-body.aurel-dark-theme table{background:#111923!important}
-body.aurel-dark-theme thead{background:#162130!important}
+body.aurel-dark-theme table{background:#0f1722!important}
+body.aurel-dark-theme thead,
 body.aurel-dark-theme th{
-  background:#162130!important;
-  color:#aebdcb!important;
-  border-color:#2b3949!important;
+  background:#162231!important;
+  color:#b6c7d6!important;
+  border-color:#2d4054!important;
 }
 body.aurel-dark-theme td{
-  background:#111923!important;
-  color:#d9e4ee!important;
-  border-color:#243141!important;
+  background:#0f1722!important;
+  color:#dbe5ee!important;
+  border-color:#233244!important;
 }
-body.aurel-dark-theme tbody tr:hover td{background:#162130!important}
-body.aurel-dark-theme .ref-grid{stroke:#2b3949!important}
-body.aurel-dark-theme .ref-year{fill:#9bb0c4!important}
-body.aurel-dark-theme .ref-dot{stroke:#111923!important}
-body.aurel-dark-theme .footer{color:#72879a!important}
-body.aurel-dark-theme .modal{background:rgba(0,0,0,.72)!important}
-body.aurel-dark-theme .modal-box{
-  background:#111923!important;
-  color:#e5edf6!important;
-  border-color:#2a3a4c!important;
-}
+body.aurel-dark-theme tbody tr:hover td{background:#15202d!important}
+
+/* Note / modal / toast */
 body.aurel-dark-theme .note{
-  background:#15231e!important;
-  border-color:#29473b!important;
-  color:#b8cdc3!important;
+  background:#12251f!important;
+  border-color:#2a4c40!important;
+  color:#bdd3ca!important;
 }
 body.aurel-dark-theme .note.warn{
-  background:#2b2415!important;
-  border-color:#5a4721!important;
-  color:#e2c98b!important;
+  background:#2a2416!important;
+  border-color:#5d4b27!important;
+  color:#e3cd94!important;
 }
-body.aurel-dark-theme .button:not(.primary){
-  background:#162130!important;
-  border-color:#33465d!important;
-  color:#dce8f5!important;
+body.aurel-dark-theme .modal{background:rgba(0,0,0,.76)!important}
+body.aurel-dark-theme .modal-box{
+  background:#111b27!important;
+  color:#e8eef5!important;
+  border-color:#2c4055!important;
+  box-shadow:0 24px 70px rgba(0,0,0,.50)!important;
 }
-body.aurel-dark-theme .button.primary{
-  background:#176bff!important;
-  border-color:#176bff!important;
-  color:#fff!important;
+body.aurel-dark-theme .toast{
+  background:#142031!important;
+  color:#eef5fb!important;
+  border-color:#324961!important;
 }
 
-/* Giữ nguyên hình ảnh slideshow/sidebar, chỉ làm phần điều hướng phù hợp với dark mode. */
-body.aurel-dark-theme .sidebar .nav button{
-  color:#eef7ff!important;
+/* =========================
+   OVERVIEW — specificity cao hơn các style R58-R64
+   ========================= */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi{
+  background:linear-gradient(145deg,#121d2a,#0d151f)!important;
+  border-color:#293b50!important;
+  box-shadow:0 8px 24px rgba(0,0,0,.20)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.blue{
+  background:linear-gradient(145deg,rgba(28,65,118,.42),#101923 56%)!important;
+  border-color:#2a5588!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.cyan{
+  background:linear-gradient(145deg,rgba(15,79,91,.38),#101923 56%)!important;
+  border-color:#21606c!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.green{
+  background:linear-gradient(145deg,rgba(20,81,59,.34),#101923 56%)!important;
+  border-color:#27634d!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.red{
+  background:linear-gradient(145deg,rgba(98,40,53,.32),#101923 56%)!important;
+  border-color:#6a3441!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi-icon{
+  background:#172538!important;
+  border-color:#304761!important;
+  box-shadow:none!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.blue .ref-kpi-icon{background:#142b4d!important;border-color:#285b98!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.cyan .ref-kpi-icon{background:#12333b!important;border-color:#25636e!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.green .ref-kpi-icon{background:#153529!important;border-color:#2d654f!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi.red .ref-kpi-icon{background:#3a1d25!important;border-color:#6c3543!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi-label{color:#9eb0c0!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi-number,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi-value{color:#f4f8fc!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-kpi-number small{color:#8297aa!important}
+
+/* Hai panel chính */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-chart-panel,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-key-panel,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .panel{
+  background:linear-gradient(180deg,#121c29 0%,#0e1620 100%)!important;
+  background-image:none!important;
+  border-color:#293b50!important;
+  box-shadow:0 10px 28px rgba(0,0,0,.20)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-panel-head,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .section-top{
+  border-color:#2a3b4d!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-panel-title>svg{
+  background:#172a43!important;
+  color:#65a7ff!important;
+  border-color:#29486b!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-panel-title h2,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .section-top h2{
+  color:#f0f5fa!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-panel-head small,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-chart-tools>span,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-finance-tools>span{
+  color:#8fa4b8!important;
+}
+
+/* Biểu đồ tổng quan */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-finance-legend,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-chart-legend{
+  color:#a9b9c8!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-grid{stroke:#29394b!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-year{fill:#a7b8c8!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-axis-label{fill:#94a8bb!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-axis-title{fill:#a4b6c7!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-axis-right,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-axis-title-right{fill:#62c8bd!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-bar-assets{fill:#428cff!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-bar-loans{fill:#65b9ee!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-line-pat{stroke:#32d1c2!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-dot-pat{
+  fill:#32d1c2!important;
+  stroke:#101923!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-chart-select select{
+  background:#101a27!important;
+  border-color:#30465d!important;
+  color:#dce7f1!important;
+}
+
+/* Tabs Báo cáo tài chính */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-tabs{
+  background:#101a27!important;
+  border-color:#2d4157!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-tabs span,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-tabs button{
+  background:#101a27!important;
+  color:#aebfce!important;
+  border-color:#2a3d51!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-tabs button:hover{
+  background:#18273a!important;
+  color:#e7f0f8!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-tabs span:first-child,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-tabs button.active{
+  background:linear-gradient(135deg,#1d75e8,#1760c8)!important;
+  color:#fff!important;
+  box-shadow:inset 0 0 0 1px rgba(122,185,255,.18)!important;
+}
+
+/* Bảng report R59/R61 */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-table,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-table{
+  background:#0d1621!important;
+  border-color:#293c50!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-table-head,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-table-head{
+  background:#172435!important;
+  color:#b8c8d6!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-row,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-table-row{
+  background:#0f1823!important;
+  color:#b8c8d7!important;
+  border-color:#243446!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-row:hover,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-table-row:hover{
+  background:#162434!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-row strong,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-table-row strong{
+  color:#eef5fb!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-report-empty,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-empty{
+  background:#0d1621!important;
+  border-color:#2a3c50!important;
+  color:#8399ad!important;
+}
+
+/* Donut + legend */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-donut::after,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-donut::after{
+  background:#111b27!important;
+  box-shadow:inset 0 0 0 1px #2c4055!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-center,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-donut-center{
+  color:#eef5fb!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-center small,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-caption,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-donut-caption{
+  color:#8ea3b7!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-legend-row,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-legend-row span,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r60-donut-legend-row{
+  color:#a9bac9!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-legend-row strong,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r60-donut-legend-row strong{
+  color:#e6eef6!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r61-legend-row i{
+  border-color:rgba(255,255,255,.10)!important;
+  box-shadow:0 0 0 1px rgba(255,255,255,.06) inset!important;
+}
+
+/* Các thanh key/goal nếu xuất hiện */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-key-name{color:#a9bbca!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-key-track{background:#223042!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-key-row strong{color:#e6eef6!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-goal-strip{
+  background:#0e1722!important;
+  border-color:#273a4e!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-goal-item{
+  border-color:#27394b!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-goal-copy{color:#95a9bb!important}
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .r59-goal-copy strong{color:#eef5fb!important}
+
+/* Không đụng màu/brightness ảnh hero và slideshow. */
+body.aurel-dark-theme .aurel-r78-slider-img,
+body.aurel-dark-theme .ref-hero img{
+  filter:none!important;
+}
+
+/* Mobile: vẫn cho phép đổi theme; chỉ giữ nút theme, không mở lại các icon trang trí. */
+@media(max-width:900px){
+  body .ref-tools{display:flex!important}
+  body .ref-tools>button:not(#aurel-theme-toggle){display:none!important}
+  body #aurel-theme-toggle{display:grid!important}
 }
 </style>
 </head><body>
@@ -10302,7 +10538,7 @@ body.aurel-dark-theme .sidebar .nav button{
 })();
 </script>
 
-<script id="AUREL_R110_LIGHT_DARK_THEME_JS">
+<script id="AUREL_R111_FULL_LIGHT_DARK_THEME_JS">
 (function(){
   var KEY='aurel-theme-mode';
 
@@ -10318,8 +10554,8 @@ body.aurel-dark-theme .sidebar .nav button{
     var btn=getButton();
     if(btn){
       btn.setAttribute('aria-pressed',dark?'true':'false');
-      btn.setAttribute('aria-label',dark?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối');
-      btn.setAttribute('title',dark?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối');
+      btn.setAttribute('aria-label',dark?'Đang dùng giao diện tối. Nhấn để chuyển sang sáng':'Đang dùng giao diện sáng. Nhấn để chuyển sang tối');
+      btn.setAttribute('title',dark?'Giao diện tối · Nhấn để chuyển sang sáng':'Giao diện sáng · Nhấn để chuyển sang tối');
     }
 
     if(persist){
