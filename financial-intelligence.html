@@ -9321,10 +9321,15 @@ body:has(#nav button[data-page="overview"].active)
 }
 </style>
 
-<style id="AUREL_R92_HERO3_FULL_IMAGE">
-/* R92 — Chỉ ảnh ngang T3 trên desktop:
-   hiển thị TOÀN BỘ ảnh, không crop, không méo, giữ nguyên các phần khác. */
+<style id="AUREL_R93_HERO3_COVER_TOP">
+/* R93 — Chỉ ảnh ngang T3 trên desktop.
+   Phủ kín khung, giữ tỷ lệ tự nhiên, không bẹt; neo lên mép trên để giữ đủ câu chữ TP.HCM.
+   Vì tỷ lệ ảnh và khung khác nhau, phần thừa chỉ bị cắt ở mép dưới thay vì tạo hai dải trống. */
 @media (min-width:761px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap{
+    background:#0a4778!important;
+  }
   body:has(#nav button[data-page="overview"].active)
   .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_hero_sunrise_webfit_20261001.png"]{
     position:absolute!important;
@@ -9335,10 +9340,9 @@ body:has(#nav button[data-page="overview"].active)
     min-height:100%!important;
     max-width:100%!important;
     max-height:100%!important;
-    object-fit:contain!important;
-    object-position:center center!important;
-    background:
-      linear-gradient(90deg,#f5b54f 0%,#f4cb83 34%,#86b9e8 68%,#77afe4 100%)!important;
+    object-fit:cover!important;
+    object-position:center top!important;
+    background:transparent!important;
     margin:0!important;
     padding:0!important;
     border:0!important;
@@ -9776,7 +9780,7 @@ body:has(#nav button[data-page="overview"].active)
   var HERO=[
     'assets/aurel_hero_day_20261001.webp',
     'assets/aurel_hero_night_20261001.webp',
-    'https://aurel-assets-20260929.floot.app/_cdn/static/1c6c2359-51ca-4c5d-82ac-2e7d75c5b931-aurel_hero_sunrise_webfit_20261001.png?v=R92-FULL-20261001-1143'
+    'https://aurel-assets-20260929.floot.app/_cdn/static/1c6c2359-51ca-4c5d-82ac-2e7d75c5b931-aurel_hero_sunrise_webfit_20261001.png?v=R93-COVER-TOP-20261001-1150'
   ];
   var SIDE=[
     'assets/aurel_sidebar_day_20261001.webp',
