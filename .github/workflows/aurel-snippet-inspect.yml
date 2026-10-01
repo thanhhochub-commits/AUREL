@@ -1,4 +1,4 @@
-name: AUREL inspect support structure markers
+name: AUREL force result paragraph white
 on:
   push:
     branches: [main]
@@ -6,30 +6,123 @@ on:
 permissions:
   contents: write
 jobs:
-  inspect:
+  patch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect support markers
+      - name: Force exact right support panel text white on dark background
         shell: python
         run: |
           from pathlib import Path
           import re
-          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
-          cutoff=s.find('<style id="AUREL_R145_DARK_TEXT_CONTRAST">')
-          base=s[:cutoff] if cutoff>0 else s
-          needles=["ai-key-panel","ai-key-top","data-page=\"support\"","data-page='support'","support-page","page-support","ai-task","ai-result","ai-analysis","cols-equal"]
-          out=[]
-          for needle in needles:
-              poss=[m.start() for m in re.finditer(re.escape(needle),base)]
-              out.append(f"### {needle} occurrences={len(poss)}")
-              for idx,i in enumerate(poss[:20],1):
-                  out.append(f"--- {idx} @ {i} ---\n"+base[max(0,i-1000):min(len(base),i+1800)])
-          Path("support_markers.txt").write_text("\n\n".join(out),encoding="utf-8")
+          p=Path("financial-intelligence.html")
+          s=p.read_text(encoding="utf-8")
+
+          css=r'''
+          <style id="AUREL_R150_SUPPORT_RIGHT_PANEL_WHITE">
+          /* Khung Kết quả phân tích nằm ở panel thứ 2 ngay sau khối AI key.
+             Ép toàn bộ nội dung chữ trong panel này sáng rõ ở giao diện tối. */
+          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2),
+          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) *{
+            color:#ffffff!important;
+            opacity:1!important;
+          }
+
+          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) :is(
+            p,li,dd,blockquote,div,span
+          ){
+            color:#ffffff!important;
+            opacity:1!important;
+          }
+
+          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) p{
+            font-weight:500!important;
+            line-height:1.72!important;
+          }
+
+          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) :is(
+            .status-chip.warn,.tag.warn,[class*="warn"]
+          ){
+            color:#ffd36a!important;
+          }
+          </style>
+          '''
+
+          js=r'''
+          <script id="AUREL_R150_SUPPORT_RIGHT_PANEL_WHITE_JS">
+          (function(){
+            function dark(el){
+              function rgb(v){
+                var m=String(v||"").match(/rgba?\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)(?:\s*,\s*([\d.]+))?\)/i);
+                return m?{r:+m[1],g:+m[2],b:+m[3],a:m[4]===undefined?1:+m[4]}:null;
+              }
+              var cur=el;
+              for(var i=0;i<8&&cur;i++,cur=cur.parentElement){
+                var c=rgb(getComputedStyle(cur).backgroundColor);
+                if(c&&c.a>.05) return (.2126*c.r+.7152*c.g+.0722*c.b)<125;
+              }
+              return false;
+            }
+            function apply(){
+              var key=document.querySelector(".ai-key-panel");
+              if(!key) return;
+              var grids=[];
+              var n=key.nextElementSibling;
+              while(n&&grids.length<2){
+                if(n.classList&&n.classList.contains("cols-equal")) grids.push(n);
+                n=n.nextElementSibling;
+              }
+              document.querySelectorAll(".cols-equal").forEach(function(g){
+                if(key.compareDocumentPosition(g)&Node.DOCUMENT_POSITION_FOLLOWING) grids.push(g);
+              });
+              var seen=new Set();
+              grids.forEach(function(g){
+                if(seen.has(g)) return; seen.add(g);
+                var panels=Array.from(g.children).filter(function(x){return x.classList&&x.classList.contains("panel")});
+                if(panels.length<2) return;
+                var panel=panels[1];
+                if(!dark(panel)) return;
+                panel.style.setProperty("color","#ffffff","important");
+                panel.querySelectorAll("*").forEach(function(el){
+                  var t=(el.textContent||"").trim();
+                  if(!t) return;
+                  var cls=String(el.className||"");
+                  if(/warn|status-chip/i.test(cls)){
+                    if(/Chờ duyệt|Đã duyệt|Đang xử lý/.test(t)){
+                      el.style.setProperty("color","#ffd36a","important");
+                    }
+                    return;
+                  }
+                  el.style.setProperty("color","#ffffff","important");
+                  el.style.setProperty("opacity","1","important");
+                });
+              });
+            }
+            var q=false;
+            function schedule(){
+              if(q)return;q=true;
+              requestAnimationFrame(function(){q=false;apply();});
+            }
+            if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});else schedule();
+            new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:["class","style"]});
+            document.addEventListener("click",function(){setTimeout(apply,60)},true);
+            setInterval(apply,1000);
+          })();
+          </script>
+          '''
+
+          for ident in ["AUREL_R150_SUPPORT_RIGHT_PANEL_WHITE"]:
+              s=re.sub(r'<style id="'+ident+r'">[\s\S]*?</style>\s*',"",s)
+              s=re.sub(r'<script id="'+ident+r'_JS">[\s\S]*?</script>\s*',"",s)
+
+          if "</body>" not in s: raise SystemExit("Không tìm thấy </body>")
+          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
+          p.write_text(s,encoding="utf-8")
       - name: Commit
         run: |
+          if git diff --quiet -- financial-intelligence.html; then exit 0; fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add support_markers.txt
-          git commit -m "Temporary support structure marker inspection"
+          git add financial-intelligence.html
+          git commit -m "Force support result panel text white"
           git push
