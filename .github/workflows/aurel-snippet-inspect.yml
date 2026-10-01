@@ -1,4 +1,4 @@
-name: AUREL scenario LED standard thickness
+name: AUREL monitor LED colors
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Match scenario-control LED to saved standard
+      - name: Add monitor LEDs matching number colors
         shell: python
         run: |
           from pathlib import Path
@@ -23,15 +23,15 @@ jobs:
           s=p.read_text(encoding="utf-8")
 
           css=r'''
-          <style id="AUREL_R136_SCENARIO_STANDARD_LED">
-          /* R136 — chuẩn LED đã chốt: cùng độ dày với khung "Tổng hợp báo cáo". */
-          body:has(#nav button[data-page="scenario"].active) .scenario-control{
+          <style id="AUREL_R137_MONITOR_LED_MATCH_NUMBER">
+          /* R137 — 4 ô giám sát: LED đúng màu con số, độ dày theo chuẩn đã chốt. */
+          .monitor-overview .monitor-card{
             position:relative!important;
             overflow:hidden!important;
-            border-top-width:1px!important;
           }
 
-          body:has(#nav button[data-page="scenario"].active) .scenario-control::before{
+          /* Dùng ::after để không bị các pseudo-element cũ ghi đè. */
+          .monitor-overview .monitor-card::after{
             content:""!important;
             position:absolute!important;
             left:0!important;
@@ -41,23 +41,38 @@ jobs:
             height:3px!important;
             max-height:3px!important;
             border-radius:999px 999px 0 0!important;
-            z-index:25!important;
+            z-index:99!important;
             pointer-events:none!important;
             opacity:1!important;
-            background:linear-gradient(90deg,#20c7bb,#47b8ff)!important;
           }
 
-          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) .scenario-control::before{
-            box-shadow:0 0 5px rgba(32,199,187,.16)!important;
+          /* Cảnh báo = đỏ, trùng màu số 2 */
+          .monitor-overview .monitor-card:nth-child(1)::after{
+            background:linear-gradient(90deg,#ef6b82,#ff8a9a)!important;
+            box-shadow:0 0 6px rgba(239,107,130,.20)!important;
           }
 
-          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) .scenario-control::before{
-            box-shadow:0 0 6px rgba(47,199,179,.20)!important;
+          /* Theo dõi = vàng, trùng màu số 1 */
+          .monitor-overview .monitor-card:nth-child(2)::after{
+            background:linear-gradient(90deg,#dba84e,#f0c96f)!important;
+            box-shadow:0 0 6px rgba(219,168,78,.19)!important;
+          }
+
+          /* Bình thường = xanh lá, trùng màu số 3 */
+          .monitor-overview .monitor-card:nth-child(3)::after{
+            background:linear-gradient(90deg,#43bd75,#63d895)!important;
+            box-shadow:0 0 6px rgba(67,189,117,.19)!important;
+          }
+
+          /* Thiếu dữ liệu = trắng/xám xanh, trùng cảm giác màu số 0 */
+          .monitor-overview .monitor-card:nth-child(4)::after{
+            background:linear-gradient(90deg,#b8c8d6,#e0e8ef)!important;
+            box-shadow:0 0 5px rgba(184,200,214,.16)!important;
           }
           </style>
           '''
 
-          pat=re.compile(r'<style id="AUREL_R136_SCENARIO_STANDARD_LED">[\s\S]*?</style>\s*',re.M)
+          pat=re.compile(r'<style id="AUREL_R137_MONITOR_LED_MATCH_NUMBER">[\s\S]*?</style>\s*',re.M)
           if pat.search(s):
               s=pat.sub(css.strip()+"\n",s,count=1)
           else:
@@ -76,5 +91,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Match scenario control LEDs to standard thickness"
+          git commit -m "Add matching color LEDs to monitor cards"
           git push
