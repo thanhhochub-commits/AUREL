@@ -14382,5 +14382,65 @@ body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
   }
 }
 </style>
+<style id="AUREL_R144_AI_HEADER_ALIGN">
+/* Giữ trạng thái và mũi tên thành một cụm ở góc phải, cả khi mở và thu gọn. */
+.ai-key-panel .ai-key-top{
+  display:flex!important;
+  align-items:flex-start!important;
+  justify-content:flex-start!important;
+  column-gap:8px!important;
+  row-gap:10px!important;
+  flex-wrap:wrap!important;
+}
+
+.ai-key-panel .ai-key-top > div:first-child{
+  flex:1 1 540px!important;
+  min-width:260px!important;
+}
+
+.ai-key-panel .ai-key-status{
+  margin-left:auto!important;
+  flex:0 0 auto!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle{
+  margin-left:0!important;
+  flex:0 0 34px!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-top{
+  align-items:center!important;
+  flex-wrap:nowrap!important;
+  column-gap:8px!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
+  flex:1 1 auto!important;
+  min-width:0!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
+  margin-left:auto!important;
+}
+
+@media(max-width:700px){
+  .ai-key-panel .ai-key-top{
+    column-gap:7px!important;
+  }
+
+  .ai-key-panel .ai-key-top > div:first-child{
+    flex-basis:100%!important;
+    min-width:0!important;
+  }
+
+  .ai-key-panel .ai-key-status{
+    margin-left:auto!important;
+  }
+
+  .ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
+    flex-basis:auto!important;
+  }
+}
+</style>
 </body></html>
 
