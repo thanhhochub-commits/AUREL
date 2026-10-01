@@ -15492,5 +15492,101 @@ body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-li
   }
 }
 </style>
+<style id="AUREL_R156_HERO_COLOR_ONLY">
+/* R156 — chỉ chỉnh màu chữ/độ tương phản. Không đổi bố cục, kích thước hay tạo nền che ảnh. */
+
+/* Luôn giữ phần chữ nhìn xuyên ảnh */
+body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+
+/* LIGHT MODE */
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#f3fbff!important;
+  -webkit-text-fill-color:#f3fbff!important;
+  text-shadow:
+    0 1px 2px rgba(6,25,43,.95),
+    0 0 7px rgba(14,69,112,.65)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:
+    0 2px 3px rgba(3,23,41,.92),
+    0 4px 10px rgba(3,23,41,.62)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:
+    0 2px 3px rgba(3,23,41,.96),
+    0 5px 14px rgba(3,23,41,.68)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:
+    0 1px 2px rgba(3,23,41,.96),
+    0 2px 7px rgba(3,23,41,.70)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  color:#ffffff!important;
+  border-color:rgba(255,255,255,.55)!important;
+  background:rgba(4,31,52,.26)!important;
+  text-shadow:0 1px 2px rgba(0,17,31,.95)!important;
+  box-shadow:none!important;
+}
+
+/* DARK MODE */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#8fe2ff!important;
+  -webkit-text-fill-color:#8fe2ff!important;
+  text-shadow:
+    0 1px 2px rgba(0,0,0,.98),
+    0 0 8px rgba(37,184,235,.32)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,.96),
+    0 0 10px rgba(62,179,230,.18)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  color:#f7fbff!important;
+  -webkit-text-fill-color:#f7fbff!important;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,.98),
+    0 0 12px rgba(62,179,230,.16)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#eaf7ff!important;
+  -webkit-text-fill-color:#eaf7ff!important;
+  text-shadow:0 1px 3px rgba(0,0,0,.98)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  color:#eefaff!important;
+  border-color:rgba(95,205,244,.44)!important;
+  background:rgba(3,19,34,.30)!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.96)!important;
+  box-shadow:none!important;
+}
+</style>
 </body></html>
 
