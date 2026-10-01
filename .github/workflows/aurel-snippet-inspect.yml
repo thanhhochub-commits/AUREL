@@ -1,4 +1,4 @@
-name: AUREL inspect AI panel exact
+name: AUREL inspect AI panel classes
 on:
   push:
     branches: [main]
@@ -10,19 +10,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract exact AI key panel
+      - name: Extract AI key panel class contexts
         shell: python
         run: |
           from pathlib import Path
           s=Path("financial-intelligence.html").read_text(encoding="utf-8")
-          needle="Kết nối trí tuệ nhân tạo"
-          i=s.find(needle)
-          if i<0: raise SystemExit("not found")
-          Path("ai_panel_exact.txt").write_text(s[max(0,i-3500):min(len(s),i+12000)],encoding="utf-8")
+          out=[]
+          for needle in ["ai-key-panel","ai-key-status","ai-key-form","aiKey","ai-key"]:
+              start=0
+              while True:
+                  i=s.find(needle,start)
+                  if i<0: break
+                  out.append("=== "+needle+" @ "+str(i)+" ===\n"+s[max(0,i-2200):min(len(s),i+5200)])
+                  start=i+len(needle)
+          if not out:
+              raise SystemExit("no ai key markers")
+          Path("ai_panel_classes.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add ai_panel_exact.txt
-          git commit -m "Temporary exact AI panel inspection"
+          git add ai_panel_classes.txt
+          git commit -m "Temporary AI panel class inspection"
           git push
