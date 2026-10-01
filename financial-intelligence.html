@@ -14557,5 +14557,45 @@ body.aurel-dark-theme :is(
   }
 }
 </style>
+<style id="AUREL_R146_SUPPORT_OUTPUT_CONTRAST">
+/* Chỉ tăng độ rõ phần nội dung phân tích ở trang Phân tích hỗ trợ, Dark Mode. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .panel,.ai-feature,.ai-connect,.analysis-result,.result-card,
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(p,li,dd,.content,.body,.text,.description,.summary,.analysis-text){
+  color:#bfd3e1!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.05)!important;
+}
+
+/* Nếu đoạn phân tích được render trực tiếp bằng div/span thay vì p. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(div,span):not(
+  .badge,.chip,.status-pill,.ai-key-status,.button,button,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  color:#bfd3e1!important;
+  opacity:1!important;
+}
+
+/* Tiêu đề kết quả giữ sáng rõ hơn nội dung. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"],.panel
+) :is(h2,h3,h4,strong){
+  color:#f5f9fc!important;
+  opacity:1!important;
+}
+
+/* Giữ badge trạng thái như "Chờ duyệt" có màu riêng. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .badge,.chip,.status-pill,.ai-key-status,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  opacity:1!important;
+}
+</style>
 </body></html>
 
