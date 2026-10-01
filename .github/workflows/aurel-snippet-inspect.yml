@@ -1,4 +1,4 @@
-name: AUREL source metric LEDs
+name: AUREL full border LED for financial metrics
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Add LEDs to four source metric cards
+      - name: Add full-border LEDs to ROA ROE CIR cards
         shell: python
         run: |
           from pathlib import Path
@@ -23,61 +23,47 @@ jobs:
           s=p.read_text(encoding="utf-8")
 
           for tag, ident in [
-              ("style","AUREL_R138_SOURCE_METRIC_LEDS"),
-              ("script","AUREL_R138_SOURCE_METRIC_LEDS_JS")
+              ("style","AUREL_R139_FULL_BORDER_LED_METRICS"),
+              ("script","AUREL_R139_FULL_BORDER_LED_METRICS_JS")
           ]:
               pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
               s=pat.sub("",s)
 
           css=r'''
-          <style id="AUREL_R138_SOURCE_METRIC_LEDS">
-          /* 4 card dữ liệu: LED mảnh đúng chuẩn đã chốt */
-          .aurel-r138-source-led{
+          <style id="AUREL_R139_FULL_BORDER_LED_METRICS">
+          .aurel-r139-full-led{
             position:relative!important;
             overflow:hidden!important;
-          }
-          .aurel-r138-source-led::after{
-            content:""!important;
-            position:absolute!important;
-            left:0!important;
-            right:0!important;
-            top:0!important;
-            width:100%!important;
-            height:3px!important;
-            max-height:3px!important;
-            border-radius:999px 999px 0 0!important;
-            z-index:90!important;
-            pointer-events:none!important;
-            opacity:1!important;
-          }
-          .aurel-r138-blue::after{
-            background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;
-            box-shadow:0 0 6px rgba(59,130,246,.18)!important;
-          }
-          .aurel-r138-cyan::after{
-            background:linear-gradient(90deg,#20b8b0,#38d9cf)!important;
-            box-shadow:0 0 6px rgba(32,184,176,.17)!important;
-          }
-          .aurel-r138-slate::after{
-            background:linear-gradient(90deg,#8aa4bb,#c3d2de)!important;
-            box-shadow:0 0 5px rgba(138,164,187,.14)!important;
-          }
-          .aurel-r138-green::after{
-            background:linear-gradient(90deg,#22c55e,#34d399)!important;
-            box-shadow:0 0 6px rgba(34,197,94,.17)!important;
+            border-radius:18px!important;
           }
 
-          body:not(.aurel-dark-theme) .aurel-r138-source-led{
-            box-shadow:0 4px 12px rgba(27,70,100,.035)!important;
+          .aurel-r139-full-led::after{
+            content:""!important;
+            position:absolute!important;
+            inset:0!important;
+            border-radius:18px!important;
+            padding:1.5px!important;
+            background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+            -webkit-mask:
+              linear-gradient(#000 0 0) content-box,
+              linear-gradient(#000 0 0)!important;
+            -webkit-mask-composite:xor!important;
+            mask-composite:exclude!important;
+            pointer-events:none!important;
+            z-index:50!important;
+            opacity:.95!important;
+            box-shadow:0 0 10px rgba(41,211,255,.10)!important;
           }
-          body.aurel-dark-theme .aurel-r138-source-led{
-            box-shadow:0 4px 12px rgba(0,0,0,.11)!important;
+
+          body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+            opacity:.82!important;
+            box-shadow:0 0 8px rgba(41,211,255,.08)!important;
           }
           </style>
           '''
 
           js=r'''
-          <script id="AUREL_R138_SOURCE_METRIC_LEDS_JS">
+          <script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
           (function(){
             function norm(v){
               return String(v||"").replace(/\s+/g," ").trim();
@@ -87,14 +73,13 @@ jobs:
               if(!el || el===document.body) return false;
               var r=el.getBoundingClientRect();
               var t=norm(el.textContent);
-              return r.width>=150 && r.width<=620 && r.height>=70 && r.height<=220 && t.length<350;
+              return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
             }
 
             function nearestCard(el){
               if(!el) return null;
-              var preferred=el.closest(".metric,.card,.panel,.dataset-card,.source-card,.data-card");
+              var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
               if(preferred && validCard(preferred)) return preferred;
-
               var cur=el;
               for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
                 if(validCard(cur)) return cur;
@@ -102,29 +87,21 @@ jobs:
               return null;
             }
 
-            function mark(label, cls){
+            function mark(label){
               document.querySelectorAll("body *").forEach(function(el){
                 if(norm(el.textContent)!==label) return;
                 var card=nearestCard(el);
-                if(card) card.classList.add("aurel-r138-source-led",cls);
+                if(card) card.classList.add("aurel-r139-full-led");
               });
             }
 
             function apply(){
-              document.querySelectorAll(".aurel-r138-source-led").forEach(function(el){
-                el.classList.remove(
-                  "aurel-r138-source-led",
-                  "aurel-r138-blue",
-                  "aurel-r138-cyan",
-                  "aurel-r138-slate",
-                  "aurel-r138-green"
-                );
+              document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+                el.classList.remove("aurel-r139-full-led");
               });
-
-              mark("Chỉ tiêu đã chuẩn hóa","aurel-r138-blue");
-              mark("Tệp dữ liệu","aurel-r138-cyan");
-              mark("Tài liệu PDF","aurel-r138-slate");
-              mark("Trạng thái","aurel-r138-green");
+              mark("ROA - Hiệu quả tài sản");
+              mark("ROE - Hiệu quả vốn");
+              mark("CIR - Chi phí / Thu nhập");
             }
 
             var queued=false;
@@ -165,5 +142,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Add LEDs to source data metric cards"
+          git commit -m "Add full border LEDs to financial metric cards"
           git push
