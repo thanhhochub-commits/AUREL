@@ -11424,9 +11424,9 @@ body:not(.aurel-dark-theme) .crumb small{
     'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
-    'https://aurel-assets-20260929.floot.app/_cdn/static/401515e0-6e9b-4a9b-84ae-1f0a3d64dc38-aurel_t4_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
-    'https://aurel-assets-20260929.floot.app/_cdn/static/b99fb51b-7e7b-41c2-89d7-9f17d5496d61-aurel_t6_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
   ];
@@ -12142,6 +12142,69 @@ body:has(#nav button[data-page="overview"].active)
   object-fit:fill!important;
   object-position:center center!important;
 }
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
 }
 </style>
 </body></html>
