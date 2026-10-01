@@ -1,4 +1,4 @@
-name: AUREL force risk status colors
+name: AUREL thin risk status cards
 on:
   push:
     branches: [main]
@@ -10,93 +10,130 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Force exact status colors at runtime
+      - name: Make four risk cards thin and clean
         shell: python
         run: |
           from pathlib import Path
+          import re
           p=Path("financial-intelligence.html")
           s=p.read_text(encoding="utf-8")
-          css='''<style id="AUREL_R131_FORCE_STATUS">
+
+          # Remove the previous heavy runtime coloring so it cannot override the new subtle design.
+          for tag, ident in [
+              ("style","AUREL_R131_FORCE_STATUS"),
+              ("script","AUREL_R131_FORCE_STATUS_JS"),
+              ("style","AUREL_R130_EXACT_FIX")
+          ]:
+              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
+              s=pat.sub("",s)
+
+          css=r'''
+          <style id="AUREL_R132_THIN_STATUS">
+          /* R132 — 4 ô trạng thái mảnh, sạch, đồng bộ KPI Tổng quan. */
           .monitor-overview .monitor-card{
             position:relative!important;
             overflow:hidden!important;
             border-width:1px!important;
             border-style:solid!important;
-            border-radius:18px!important;
-            transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease!important;
+            border-radius:12px!important;
+            box-shadow:none!important;
+            transform:none!important;
           }
-          .monitor-overview .monitor-card:hover{transform:translateY(-2px)!important}
-          .monitor-overview .monitor-card:after{
+          .monitor-overview .monitor-card:before{
             content:""!important;
             position:absolute!important;
             left:0!important;
             right:0!important;
             top:0!important;
-            height:4px!important;
-            z-index:5!important;
+            width:100%!important;
+            height:3px!important;
+            opacity:1!important;
             pointer-events:none!important;
           }
-          .monitor-overview .monitor-card[data-aurel-status="warning"]:after{background:linear-gradient(90deg,#ff4d5a,#dc2626)!important}
-          .monitor-overview .monitor-card[data-aurel-status="watch"]:after{background:linear-gradient(90deg,#ffc247,#d97706)!important}
-          .monitor-overview .monitor-card[data-aurel-status="normal"]:after{background:linear-gradient(90deg,#36d875,#16a34a)!important}
-          .monitor-overview .monitor-card[data-aurel-status="missing"]:after{background:linear-gradient(90deg,#67b0ff,#3b82f6)!important}
-          </style>'''
-          js='''<script id="AUREL_R131_FORCE_STATUS_JS">
-          (function(){
-            function apply(){
-              var dark=document.body.classList.contains("aurel-dark-theme");
-              document.querySelectorAll(".monitor-overview .monitor-card").forEach(function(card){
-                var t=(card.textContent||"").replace(/\\s+/g," ").trim();
-                var kind=null;
-                if(t.indexOf("Cảnh báo")===0) kind="warning";
-                else if(t.indexOf("Theo dõi")===0) kind="watch";
-                else if(t.indexOf("Bình thường")===0) kind="normal";
-                else if(t.indexOf("Thiếu dữ liệu")===0) kind="missing";
-                if(!kind) return;
-                card.setAttribute("data-aurel-status",kind);
-                var cfg={
-                  warning: dark
-                    ? ["#71383b","linear-gradient(145deg,#24161a 0%,#171116 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(239,68,68,.20)","#ff7b86"]
-                    : ["#ef9fa5","linear-gradient(145deg,#fffafa 0%,#fff1f2 100%)","0 10px 24px rgba(220,38,38,.12),0 0 22px rgba(239,68,68,.10)","#d83b46"],
-                  watch: dark
-                    ? ["#755d29","linear-gradient(145deg,#241e12 0%,#17140d 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(245,158,11,.18)","#f0bd5b"]
-                    : ["#e9c46f","linear-gradient(145deg,#fffdf6 0%,#fff7e6 100%)","0 10px 24px rgba(217,119,6,.11),0 0 22px rgba(245,158,11,.09)","#c58a22"],
-                  normal: dark
-                    ? ["#2f6844","linear-gradient(145deg,#142219 0%,#0f1611 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(34,197,94,.18)","#71e29a"]
-                    : ["#9bd7b2","linear-gradient(145deg,#fbfffc 0%,#eefaf2 100%)","0 10px 24px rgba(22,163,74,.11),0 0 22px rgba(34,197,94,.09)","#18994a"],
-                  missing: dark
-                    ? ["#365d7e","linear-gradient(145deg,#132130 0%,#0d151f 100%)","0 12px 28px rgba(0,0,0,.28),0 0 24px rgba(96,165,250,.17)","#8cc4ff"]
-                    : ["#adc7df","linear-gradient(145deg,#fbfdff 0%,#eef5fb 100%)","0 10px 24px rgba(59,130,246,.10),0 0 22px rgba(96,165,250,.08)","#477fbd"]
-                }[kind];
-                card.style.setProperty("border-color",cfg[0],"important");
-                card.style.setProperty("background",cfg[1],"important");
-                card.style.setProperty("box-shadow",cfg[2],"important");
-                var strong=card.querySelector("strong");
-                if(strong) strong.style.setProperty("color",cfg[3],"important");
-              });
-            }
-            function schedule(){requestAnimationFrame(apply)}
-            if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",schedule,{once:true});
-            else schedule();
-            new MutationObserver(schedule).observe(document.getElementById("root")||document.body,{childList:true,subtree:true,attributes:true,attributeFilter:["class"]});
-            document.addEventListener("click",function(){setTimeout(apply,40)},true);
-          })();
-          </script>'''
-          for ident,tag,block in [
-              ("AUREL_R131_FORCE_STATUS","style",css),
-              ("AUREL_R131_FORCE_STATUS_JS","script",js)
-          ]:
-              a=s.find('<'+tag+' id="'+ident+'">')
-              if a>=0:
-                  b=s.find('</'+tag+'>',a)+len('</'+tag+'>')
-                  s=s[:a]+block+s[b:]
-              else:
-                  s=s.replace('</body>',block+'\n</body>',1)
+
+          /* Light mode: nền trắng, chỉ nhấn màu rất nhẹ bằng viền trên */
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card{
+            background:#ffffff!important;
+            border-color:#c9d8e3!important;
+          }
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(1){
+            border-color:#e6c9cc!important;
+          }
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(2){
+            border-color:#ead9b8!important;
+          }
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(3){
+            border-color:#c7dfcf!important;
+          }
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4){
+            border-color:#c8d7e6!important;
+          }
+
+          /* Dark mode: cùng nền navy như KPI Tổng quan, không phủ màu cả card */
+          body.aurel-dark-theme .monitor-overview .monitor-card{
+            background:#111d2a!important;
+            border-color:#31485b!important;
+          }
+          body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(1){
+            border-color:#583942!important;
+          }
+          body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(2){
+            border-color:#5b4b2d!important;
+          }
+          body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(3){
+            border-color:#2f5140!important;
+          }
+          body.aurel-dark-theme .monitor-overview .monitor-card:nth-child(4){
+            border-color:#314c67!important;
+          }
+
+          /* Thanh màu mảnh đúng nghĩa trạng thái */
+          .monitor-overview .monitor-card:nth-child(1):before{
+            background:#ef476f!important;
+          }
+          .monitor-overview .monitor-card:nth-child(2):before{
+            background:#e3ad49!important;
+          }
+          .monitor-overview .monitor-card:nth-child(3):before{
+            background:#27b768!important;
+          }
+          .monitor-overview .monitor-card:nth-child(4):before{
+            background:#4d91d9!important;
+          }
+
+          /* Chỉ màu con số, không tô nền đậm */
+          .monitor-overview .monitor-card:nth-child(1) strong{color:#ef6b82!important}
+          .monitor-overview .monitor-card:nth-child(2) strong{color:#dba84e!important}
+          .monitor-overview .monitor-card:nth-child(3) strong{color:#43bd75!important}
+          .monitor-overview .monitor-card:nth-child(4) strong{color:inherit!important}
+
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(1) strong{color:#cf405b!important}
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(2) strong{color:#b07b27!important}
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(3) strong{color:#218c50!important}
+          body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4) strong{color:#315a79!important}
+
+          .monitor-overview .monitor-card:hover{
+            transform:none!important;
+            box-shadow:none!important;
+          }
+          </style>
+          '''
+
+          pat=re.compile(r'<style id="AUREL_R132_THIN_STATUS">[\s\S]*?</style>\s*',re.M)
+          if pat.search(s):
+              s=pat.sub(css.strip()+"\n",s,count=1)
+          else:
+              s=s.replace("</body>",css.strip()+"\n</body>",1)
+
           p.write_text(s,encoding="utf-8")
       - name: Commit
         run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Force semantic colors on risk status cards"
+          git commit -m "Make risk status cards thin and subtle"
           git push
