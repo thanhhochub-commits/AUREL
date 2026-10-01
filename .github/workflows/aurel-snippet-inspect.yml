@@ -1,191 +1,37 @@
-name: AUREL summary text theme colors
+name: AUREL inspect banner rotation
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
-
 permissions:
   contents: write
-
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Make executive summary white in dark and black in light
+      - name: Inspect banner code
         shell: python
         run: |
           from pathlib import Path
           import re
-
-          p=Path("financial-intelligence.html")
-          s=p.read_text(encoding="utf-8")
-
-          # Remove the previous unconditional white rule.
-          for tag, ident in [
-              ("style","AUREL_R151_EXACT_SUMMARY_WHITE"),
-              ("script","AUREL_R151_EXACT_SUMMARY_WHITE_JS"),
-              ("style","AUREL_R152_SUMMARY_THEME_COLOR"),
-              ("script","AUREL_R152_SUMMARY_THEME_COLOR_JS")
-          ]:
-              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
-              s=pat.sub("",s)
-
-          css=r'''
-          <style id="AUREL_R152_SUMMARY_THEME_COLOR">
-          /* Exact executive-summary paragraph:
-             Dark mode = white, Light mode = black. */
-          body.aurel-dark-theme .aurel-r152-summary-theme,
-          body.aurel-dark-theme .aurel-r152-summary-theme *{
-            color:#ffffff!important;
-            -webkit-text-fill-color:#ffffff!important;
-            opacity:1!important;
-          }
-
-          body:not(.aurel-dark-theme) .aurel-r152-summary-theme,
-          body:not(.aurel-dark-theme) .aurel-r152-summary-theme *{
-            color:#111111!important;
-            -webkit-text-fill-color:#111111!important;
-            opacity:1!important;
-          }
-
-          .aurel-r152-summary-theme{
-            font-weight:500!important;
-            line-height:1.72!important;
-            text-shadow:none!important;
-            filter:none!important;
-          }
-          </style>
-          '''
-
-          js=r'''
-          <script id="AUREL_R152_SUMMARY_THEME_COLOR_JS">
-          (function(){
-            var PREFIX="Trong năm 2025, VPB";
-
-            function norm(v){
-              return String(v||"").replace(/\s+/g," ").trim();
-            }
-
-            function isDarkMode(){
-              return document.body.classList.contains("aurel-dark-theme");
-            }
-
-            function findSummaryBlock(){
-              var walker=document.createTreeWalker(
-                document.body,
-                NodeFilter.SHOW_TEXT,
-                {
-                  acceptNode:function(node){
-                    var t=norm(node.nodeValue);
-                    return t.indexOf(PREFIX)===0
-                      ? NodeFilter.FILTER_ACCEPT
-                      : NodeFilter.FILTER_SKIP;
-                  }
-                }
-              );
-
-              var node=walker.nextNode();
-              if(!node) return null;
-
-              var el=node.parentElement;
-              if(!el) return null;
-
-              var cur=el;
-              for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
-                var t=norm(cur.textContent);
-                var r=cur.getBoundingClientRect();
-                if(
-                  t.indexOf(PREFIX)===0 &&
-                  t.length>220 &&
-                  t.length<5000 &&
-                  r.width>200 &&
-                  r.height>40
-                ){
-                  return cur;
-                }
-              }
-              return el;
-            }
-
-            function paint(){
-              var el=findSummaryBlock();
-              if(!el) return;
-
-              document.querySelectorAll(".aurel-r152-summary-theme").forEach(function(x){
-                if(x!==el) x.classList.remove("aurel-r152-summary-theme");
-              });
-
-              el.classList.add("aurel-r152-summary-theme");
-
-              var color=isDarkMode() ? "#ffffff" : "#111111";
-
-              function applyColor(x){
-                x.style.setProperty("color",color,"important");
-                x.style.setProperty("-webkit-text-fill-color",color,"important");
-                x.style.setProperty("opacity","1","important");
-                x.style.setProperty("filter","none","important");
-              }
-
-              applyColor(el);
-              el.style.setProperty("font-weight","500","important");
-              el.style.setProperty("line-height","1.72","important");
-
-              el.querySelectorAll("*").forEach(applyColor);
-
-              /* Remove any inherited dimming from immediate wrappers. */
-              var p=el.parentElement;
-              for(var i=0;i<3 && p && p!==document.body;i++,p=p.parentElement){
-                p.style.setProperty("opacity","1","important");
-                p.style.setProperty("filter","none","important");
-              }
-            }
-
-            var queued=false;
-            function schedule(){
-              if(queued) return;
-              queued=true;
-              requestAnimationFrame(function(){
-                queued=false;
-                paint();
-              });
-            }
-
-            if(document.readyState==="loading"){
-              document.addEventListener("DOMContentLoaded",schedule,{once:true});
-            }else{
-              schedule();
-            }
-
-            new MutationObserver(schedule).observe(document.body,{
-              childList:true,
-              subtree:true,
-              characterData:true,
-              attributes:true,
-              attributeFilter:["class","style"]
-            });
-
-            document.addEventListener("click",function(){setTimeout(paint,80)},true);
-            setInterval(paint,800);
-          })();
-          </script>
-          '''
-
-          if "</body>" not in s:
-              raise SystemExit("Không tìm thấy </body>.")
-
-          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
-          p.write_text(s,encoding="utf-8")
-
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          needles=[
+            "ref-bank-banner","background-image","backgroundImage",
+            ".webp",".jpg",".jpeg",".png",
+            "hero","banner","month","setInterval","currentMonth"
+          ]
+          out=[]
+          for needle in needles:
+              poss=[m.start() for m in re.finditer(re.escape(needle),s,re.I)]
+              out.append(f"### {needle} occurrences={len(poss)}")
+              for idx,i in enumerate(poss[:80],1):
+                  out.append(f"--- {idx} @ {i} ---\n"+s[max(0,i-1400):min(len(s),i+3200)])
+          Path("banner_rotation_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Use black summary text in light mode and white in dark"
+          git add banner_rotation_debug.txt
+          git commit -m "Temporary banner rotation inspection"
           git push
