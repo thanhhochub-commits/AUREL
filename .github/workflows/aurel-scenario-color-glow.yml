@@ -1,0 +1,347 @@
+name: AUREL scenario color and glow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aurel-scenario-color-glow.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Polish only scenario page
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p=Path("financial-intelligence.html")
+          s=p.read_text(encoding="utf-8")
+
+          css=r'''
+          <style id="AUREL_R127_SCENARIO_COLOR_GLOW">
+          /* R127 — chỉ chỉnh trang Phân tích kịch bản.
+             Thêm màu cho range slider và ánh màu cho các khung ở cả Light/Dark Mode. */
+
+          /* ---------- LIGHT MODE ---------- */
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) .page{
+            background:
+              radial-gradient(circle at 15% 2%,rgba(20,184,166,.055),transparent 24%),
+              radial-gradient(circle at 87% 4%,rgba(59,130,246,.07),transparent 25%),
+              linear-gradient(180deg,#f4f8fb 0%,#edf3f7 100%)!important;
+          }
+
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) :is(
+            .panel,.scenario-control,.metric,.card,.kpi,.compare-kpi,.table-wrap
+          ){
+            border-color:#bfd5e5!important;
+            background:
+              linear-gradient(145deg,rgba(255,255,255,.985),rgba(246,251,253,.97))!important;
+            box-shadow:
+              0 0 0 1px rgba(72,140,190,.025),
+              0 10px 24px rgba(34,88,126,.07),
+              0 0 26px rgba(63,140,203,.045)!important;
+          }
+
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) .scenario-control{
+            border-top:3px solid #21b8b0!important;
+            box-shadow:
+              0 9px 24px rgba(32,184,176,.075),
+              0 0 24px rgba(32,184,176,.055)!important;
+          }
+
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) .scenario-control:nth-of-type(even){
+            border-top-color:#3b82f6!important;
+            box-shadow:
+              0 9px 24px rgba(59,130,246,.07),
+              0 0 24px rgba(59,130,246,.05)!important;
+          }
+
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) :is(
+            .panel,.metric,.card,.kpi,.compare-kpi
+          ):nth-child(3n+1){
+            box-shadow:
+              0 10px 24px rgba(59,130,246,.07),
+              0 0 22px rgba(59,130,246,.045)!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) :is(
+            .panel,.metric,.card,.kpi,.compare-kpi
+          ):nth-child(3n+2){
+            box-shadow:
+              0 10px 24px rgba(20,184,166,.07),
+              0 0 22px rgba(20,184,166,.045)!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) :is(
+            .panel,.metric,.card,.kpi,.compare-kpi
+          ):nth-child(3n){
+            box-shadow:
+              0 10px 24px rgba(245,158,11,.055),
+              0 0 20px rgba(245,158,11,.035)!important;
+          }
+
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="range"]{
+            --range-pct:50%;
+            --range-a:#16a6a0;
+            --range-b:#3b82f6;
+            --range-track:#dce7ef;
+            width:100%!important;
+            height:8px!important;
+            border:0!important;
+            border-radius:999px!important;
+            outline:none!important;
+            appearance:none!important;
+            -webkit-appearance:none!important;
+            background:
+              linear-gradient(90deg,var(--range-a) 0%,var(--range-b) var(--range-pct),var(--range-track) var(--range-pct),var(--range-track) 100%)!important;
+            box-shadow:
+              inset 0 1px 2px rgba(33,62,82,.10),
+              0 0 0 1px rgba(101,142,169,.16)!important;
+            cursor:pointer!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="range"]::-webkit-slider-runnable-track{
+            height:8px!important;
+            border-radius:999px!important;
+            background:transparent!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="range"]::-webkit-slider-thumb{
+            -webkit-appearance:none!important;
+            appearance:none!important;
+            width:20px!important;
+            height:20px!important;
+            margin-top:-6px!important;
+            border-radius:50%!important;
+            border:3px solid #fff!important;
+            background:linear-gradient(145deg,#1a7c96,#0f566e)!important;
+            box-shadow:
+              0 0 0 1px rgba(22,89,116,.30),
+              0 4px 11px rgba(17,85,112,.28),
+              0 0 14px rgba(34,181,178,.18)!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="range"]::-moz-range-track{
+            height:8px!important;
+            border-radius:999px!important;
+            background:#dce7ef!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="range"]::-moz-range-progress{
+            height:8px!important;
+            border-radius:999px!important;
+            background:linear-gradient(90deg,#16a6a0,#3b82f6)!important;
+          }
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="range"]::-moz-range-thumb{
+            width:16px!important;
+            height:16px!important;
+            border-radius:50%!important;
+            border:3px solid #fff!important;
+            background:#135f79!important;
+            box-shadow:0 3px 10px rgba(17,85,112,.28)!important;
+          }
+
+          /* ---------- DARK MODE ---------- */
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) .page{
+            background:
+              radial-gradient(circle at 15% 2%,rgba(32,199,190,.075),transparent 24%),
+              radial-gradient(circle at 87% 4%,rgba(77,156,255,.085),transparent 25%),
+              linear-gradient(180deg,#080d14 0%,#070b11 100%)!important;
+          }
+
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) :is(
+            .panel,.scenario-control,.metric,.card,.kpi,.compare-kpi,.table-wrap
+          ){
+            border-color:#2d465b!important;
+            background:
+              linear-gradient(145deg,rgba(17,29,42,.985),rgba(12,21,31,.985))!important;
+            box-shadow:
+              0 0 0 1px rgba(90,155,205,.025),
+              0 12px 28px rgba(0,0,0,.24),
+              0 0 28px rgba(59,130,246,.055)!important;
+          }
+
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) .scenario-control{
+            border-top:3px solid #2fc7b3!important;
+            box-shadow:
+              0 12px 28px rgba(0,0,0,.24),
+              0 0 26px rgba(47,199,179,.08)!important;
+          }
+
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) .scenario-control:nth-of-type(even){
+            border-top-color:#4d9cff!important;
+            box-shadow:
+              0 12px 28px rgba(0,0,0,.24),
+              0 0 26px rgba(77,156,255,.075)!important;
+          }
+
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) :is(
+            .panel,.metric,.card,.kpi,.compare-kpi
+          ):nth-child(3n+1){
+            box-shadow:
+              0 12px 28px rgba(0,0,0,.24),
+              0 0 24px rgba(77,156,255,.07)!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) :is(
+            .panel,.metric,.card,.kpi,.compare-kpi
+          ):nth-child(3n+2){
+            box-shadow:
+              0 12px 28px rgba(0,0,0,.24),
+              0 0 24px rgba(47,199,179,.07)!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) :is(
+            .panel,.metric,.card,.kpi,.compare-kpi
+          ):nth-child(3n){
+            box-shadow:
+              0 12px 28px rgba(0,0,0,.24),
+              0 0 22px rgba(240,185,90,.05)!important;
+          }
+
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="range"]{
+            --range-pct:50%;
+            --range-a:#20c7bb;
+            --range-b:#4d9cff;
+            --range-track:#203244;
+            width:100%!important;
+            height:8px!important;
+            border:0!important;
+            border-radius:999px!important;
+            outline:none!important;
+            appearance:none!important;
+            -webkit-appearance:none!important;
+            background:
+              linear-gradient(90deg,var(--range-a) 0%,var(--range-b) var(--range-pct),var(--range-track) var(--range-pct),var(--range-track) 100%)!important;
+            box-shadow:
+              inset 0 1px 2px rgba(0,0,0,.38),
+              0 0 0 1px rgba(79,111,137,.30),
+              0 0 14px rgba(49,157,212,.06)!important;
+            cursor:pointer!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="range"]::-webkit-slider-runnable-track{
+            height:8px!important;
+            border-radius:999px!important;
+            background:transparent!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="range"]::-webkit-slider-thumb{
+            -webkit-appearance:none!important;
+            appearance:none!important;
+            width:20px!important;
+            height:20px!important;
+            margin-top:-6px!important;
+            border-radius:50%!important;
+            border:3px solid #d9f5f2!important;
+            background:linear-gradient(145deg,#25b8b0,#176b7f)!important;
+            box-shadow:
+              0 0 0 1px #48d0c1,
+              0 4px 12px rgba(0,0,0,.38),
+              0 0 16px rgba(47,199,179,.24)!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="range"]::-moz-range-track{
+            height:8px!important;
+            border-radius:999px!important;
+            background:#203244!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="range"]::-moz-range-progress{
+            height:8px!important;
+            border-radius:999px!important;
+            background:linear-gradient(90deg,#20c7bb,#4d9cff)!important;
+          }
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="range"]::-moz-range-thumb{
+            width:16px!important;
+            height:16px!important;
+            border-radius:50%!important;
+            border:3px solid #d9f5f2!important;
+            background:#1b7285!important;
+            box-shadow:0 3px 11px rgba(0,0,0,.38)!important;
+          }
+
+          /* Direct input box + result cards */
+          body:has(#nav button[data-page="scenario"].active) input[type="number"]{
+            font-weight:850!important;
+            text-align:center!important;
+          }
+
+          body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) input[type="number"]{
+            background:linear-gradient(180deg,#f8fcff,#f1f7fb)!important;
+            border-color:#bed4e3!important;
+            color:#173b55!important;
+          }
+
+          body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) input[type="number"]{
+            background:linear-gradient(180deg,#132231,#0e1924)!important;
+            border-color:#35526a!important;
+            color:#eef7fb!important;
+          }
+          </style>
+          '''
+
+          js=r'''
+          <script id="AUREL_R127_SCENARIO_RANGE_JS">
+          (function(){
+            function syncRange(el){
+              if(!el||el.type!=='range') return;
+              var min=parseFloat(el.min);
+              var max=parseFloat(el.max);
+              var val=parseFloat(el.value);
+              if(!isFinite(min)) min=0;
+              if(!isFinite(max)) max=100;
+              if(!isFinite(val)) val=min;
+              var pct=max===min?0:((val-min)/(max-min))*100;
+              pct=Math.max(0,Math.min(100,pct));
+              el.style.setProperty('--range-pct',pct+'%');
+            }
+
+            function initScenarioRanges(){
+              document.querySelectorAll('input[type="range"]').forEach(function(el){
+                syncRange(el);
+                if(el.dataset.aurelRangeReady==='1') return;
+                el.dataset.aurelRangeReady='1';
+                el.addEventListener('input',function(){syncRange(el);});
+                el.addEventListener('change',function(){syncRange(el);});
+              });
+            }
+
+            if(document.readyState==='loading'){
+              document.addEventListener('DOMContentLoaded',initScenarioRanges,{once:true});
+            }else{
+              initScenarioRanges();
+            }
+
+            var root=document.getElementById('root')||document.body;
+            if(root){
+              new MutationObserver(function(){initScenarioRanges();})
+                .observe(root,{childList:true,subtree:true});
+            }
+          })();
+          </script>
+          '''
+
+          css_pat=re.compile(r'<style id="AUREL_R127_SCENARIO_COLOR_GLOW">[\s\S]*?</style>\s*',re.M)
+          js_pat=re.compile(r'<script id="AUREL_R127_SCENARIO_RANGE_JS">[\s\S]*?</script>\s*',re.M)
+
+          if css_pat.search(s):
+              s=css_pat.sub(css.strip()+"\n",s,count=1)
+          else:
+              s=s.replace("</body>",css.strip()+"\n</body>",1)
+
+          if js_pat.search(s):
+              s=js_pat.sub(js.strip()+"\n",s,count=1)
+          else:
+              s=s.replace("</body>",js.strip()+"\n</body>",1)
+
+          p.write_text(s,encoding="utf-8")
+
+      - name: Commit website update
+        run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add financial-intelligence.html
+          git commit -m "Color scenario sliders and add card glow"
+          git push
