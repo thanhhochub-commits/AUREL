@@ -1,4 +1,4 @@
-name: AUREL monitor LED colors
+name: AUREL source metric LEDs
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Add monitor LEDs matching number colors
+      - name: Add LEDs to four source metric cards
         shell: python
         run: |
           from pathlib import Path
@@ -22,16 +22,21 @@ jobs:
           p=Path("financial-intelligence.html")
           s=p.read_text(encoding="utf-8")
 
+          for tag, ident in [
+              ("style","AUREL_R138_SOURCE_METRIC_LEDS"),
+              ("script","AUREL_R138_SOURCE_METRIC_LEDS_JS")
+          ]:
+              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
+              s=pat.sub("",s)
+
           css=r'''
-          <style id="AUREL_R137_MONITOR_LED_MATCH_NUMBER">
-          /* R137 — 4 ô giám sát: LED đúng màu con số, độ dày theo chuẩn đã chốt. */
-          .monitor-overview .monitor-card{
+          <style id="AUREL_R138_SOURCE_METRIC_LEDS">
+          /* 4 card dữ liệu: LED mảnh đúng chuẩn đã chốt */
+          .aurel-r138-source-led{
             position:relative!important;
             overflow:hidden!important;
           }
-
-          /* Dùng ::after để không bị các pseudo-element cũ ghi đè. */
-          .monitor-overview .monitor-card::after{
+          .aurel-r138-source-led::after{
             content:""!important;
             position:absolute!important;
             left:0!important;
@@ -41,45 +46,114 @@ jobs:
             height:3px!important;
             max-height:3px!important;
             border-radius:999px 999px 0 0!important;
-            z-index:99!important;
+            z-index:90!important;
             pointer-events:none!important;
             opacity:1!important;
           }
-
-          /* Cảnh báo = đỏ, trùng màu số 2 */
-          .monitor-overview .monitor-card:nth-child(1)::after{
-            background:linear-gradient(90deg,#ef6b82,#ff8a9a)!important;
-            box-shadow:0 0 6px rgba(239,107,130,.20)!important;
+          .aurel-r138-blue::after{
+            background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;
+            box-shadow:0 0 6px rgba(59,130,246,.18)!important;
+          }
+          .aurel-r138-cyan::after{
+            background:linear-gradient(90deg,#20b8b0,#38d9cf)!important;
+            box-shadow:0 0 6px rgba(32,184,176,.17)!important;
+          }
+          .aurel-r138-slate::after{
+            background:linear-gradient(90deg,#8aa4bb,#c3d2de)!important;
+            box-shadow:0 0 5px rgba(138,164,187,.14)!important;
+          }
+          .aurel-r138-green::after{
+            background:linear-gradient(90deg,#22c55e,#34d399)!important;
+            box-shadow:0 0 6px rgba(34,197,94,.17)!important;
           }
 
-          /* Theo dõi = vàng, trùng màu số 1 */
-          .monitor-overview .monitor-card:nth-child(2)::after{
-            background:linear-gradient(90deg,#dba84e,#f0c96f)!important;
-            box-shadow:0 0 6px rgba(219,168,78,.19)!important;
+          body:not(.aurel-dark-theme) .aurel-r138-source-led{
+            box-shadow:0 4px 12px rgba(27,70,100,.035)!important;
           }
-
-          /* Bình thường = xanh lá, trùng màu số 3 */
-          .monitor-overview .monitor-card:nth-child(3)::after{
-            background:linear-gradient(90deg,#43bd75,#63d895)!important;
-            box-shadow:0 0 6px rgba(67,189,117,.19)!important;
-          }
-
-          /* Thiếu dữ liệu = trắng/xám xanh, trùng cảm giác màu số 0 */
-          .monitor-overview .monitor-card:nth-child(4)::after{
-            background:linear-gradient(90deg,#b8c8d6,#e0e8ef)!important;
-            box-shadow:0 0 5px rgba(184,200,214,.16)!important;
+          body.aurel-dark-theme .aurel-r138-source-led{
+            box-shadow:0 4px 12px rgba(0,0,0,.11)!important;
           }
           </style>
           '''
 
-          pat=re.compile(r'<style id="AUREL_R137_MONITOR_LED_MATCH_NUMBER">[\s\S]*?</style>\s*',re.M)
-          if pat.search(s):
-              s=pat.sub(css.strip()+"\n",s,count=1)
-          else:
-              if "</body>" not in s:
-                  raise SystemExit("Không tìm thấy </body>.")
-              s=s.replace("</body>",css.strip()+"\n</body>",1)
+          js=r'''
+          <script id="AUREL_R138_SOURCE_METRIC_LEDS_JS">
+          (function(){
+            function norm(v){
+              return String(v||"").replace(/\s+/g," ").trim();
+            }
 
+            function validCard(el){
+              if(!el || el===document.body) return false;
+              var r=el.getBoundingClientRect();
+              var t=norm(el.textContent);
+              return r.width>=150 && r.width<=620 && r.height>=70 && r.height<=220 && t.length<350;
+            }
+
+            function nearestCard(el){
+              if(!el) return null;
+              var preferred=el.closest(".metric,.card,.panel,.dataset-card,.source-card,.data-card");
+              if(preferred && validCard(preferred)) return preferred;
+
+              var cur=el;
+              for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+                if(validCard(cur)) return cur;
+              }
+              return null;
+            }
+
+            function mark(label, cls){
+              document.querySelectorAll("body *").forEach(function(el){
+                if(norm(el.textContent)!==label) return;
+                var card=nearestCard(el);
+                if(card) card.classList.add("aurel-r138-source-led",cls);
+              });
+            }
+
+            function apply(){
+              document.querySelectorAll(".aurel-r138-source-led").forEach(function(el){
+                el.classList.remove(
+                  "aurel-r138-source-led",
+                  "aurel-r138-blue",
+                  "aurel-r138-cyan",
+                  "aurel-r138-slate",
+                  "aurel-r138-green"
+                );
+              });
+
+              mark("Chỉ tiêu đã chuẩn hóa","aurel-r138-blue");
+              mark("Tệp dữ liệu","aurel-r138-cyan");
+              mark("Tài liệu PDF","aurel-r138-slate");
+              mark("Trạng thái","aurel-r138-green");
+            }
+
+            var queued=false;
+            function schedule(){
+              if(queued) return;
+              queued=true;
+              requestAnimationFrame(function(){
+                queued=false;
+                apply();
+              });
+            }
+
+            if(document.readyState==="loading"){
+              document.addEventListener("DOMContentLoaded",schedule,{once:true});
+            }else{
+              schedule();
+            }
+
+            var root=document.getElementById("root")||document.body;
+            new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+            document.addEventListener("click",function(){setTimeout(apply,40)},true);
+          })();
+          </script>
+          '''
+
+          if "</body>" not in s:
+              raise SystemExit("Không tìm thấy </body>.")
+
+          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
           p.write_text(s,encoding="utf-8")
 
       - name: Commit
@@ -91,5 +165,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Add matching color LEDs to monitor cards"
+          git commit -m "Add LEDs to source data metric cards"
           git push
