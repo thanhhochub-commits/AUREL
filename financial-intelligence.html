@@ -15707,5 +15707,93 @@ body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-li
   font-weight:800!important;
 }
 </style>
+<style id="AUREL_R158_HERO_FULL_TRANSPARENT">
+/* R158 — xoá hoàn toàn nền trắng/blur của khối chữ hero.
+   Chỉ giữ chữ trực tiếp trên ảnh, trong suốt 100%. */
+
+body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-copy,
+body:has(#nav button[data-page="overview"].active) .ref-hero .ref-hero-live-copy{
+  background:transparent!important;
+  background-color:transparent!important;
+  background-image:none!important;
+  border:0!important;
+  outline:0!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+  filter:none!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-copy::before,
+body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-copy::after,
+body:has(#nav button[data-page="overview"].active) .ref-hero .ref-hero-live-copy::before,
+body:has(#nav button[data-page="overview"].active) .ref-hero .ref-hero-live-copy::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+
+/* Phòng trường hợp nền trắng nằm ở wrapper bên trong khối chữ */
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-copy > div{
+  background:transparent!important;
+  background-color:transparent!important;
+  background-image:none!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+  filter:none!important;
+}
+
+/* Giữ chữ rõ trực tiếp trên ảnh, không tạo nền hộp */
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-bank,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-title,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  text-shadow:0 1px 2px rgba(3,20,36,.98),0 2px 7px rgba(3,20,36,.72)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-bank,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  text-shadow:0 2px 3px rgba(3,20,36,.98),0 5px 13px rgba(3,20,36,.74)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  text-shadow:0 1px 2px rgba(3,20,36,.98),0 2px 6px rgba(3,20,36,.72)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#8fe7ff!important;
+  -webkit-text-fill-color:#8fe7ff!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.98),0 0 9px rgba(46,198,240,.24)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-bank,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-title,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  text-shadow:0 2px 4px rgba(0,0,0,.98)!important;
+}
+
+/* Badge chỉ hơi trong để đọc được nhưng vẫn nhìn xuyên ảnh */
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  background:rgba(0,0,0,.22)!important;
+  box-shadow:none!important;
+}
+</style>
 </body></html>
 
