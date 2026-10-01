@@ -1,0 +1,108 @@
+name: AUREL fix T5 side gaps
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aurel-fix-t5-side-gaps.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fix only T5 horizontal side gaps
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p=Path("financial-intelligence.html")
+          s=p.read_text(encoding="utf-8")
+
+          css=r'''
+          <style id="AUREL_R123_T5_SIDE_GAP_FIX">
+          /* R123 — chỉ sửa ảnh ngang T5 bị lộ viền trái/phải.
+             Giữ nguyên hero, slideshow, mobile, dữ liệu và toàn bộ phần khác. */
+          @media (min-width:1101px){
+            body:has(#nav button[data-page="overview"].active)
+            .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+              position:absolute!important;
+              top:0!important;
+              bottom:0!important;
+              width:101%!important;
+              min-width:101%!important;
+              max-width:101%!important;
+              left:-0.5%!important;
+              right:auto!important;
+              height:100%!important;
+              min-height:100%!important;
+              max-height:100%!important;
+              object-fit:fill!important;
+              object-position:center center!important;
+              scale:1 1.10!important;
+              transform-origin:center center!important;
+              margin:0!important;
+              padding:0!important;
+              border:0!important;
+              border-radius:0!important;
+              clip-path:none!important;
+              filter:none!important;
+              opacity:1!important;
+            }
+          }
+
+          @media (min-width:761px) and (max-width:1100px){
+            body:has(#nav button[data-page="overview"].active)
+            .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+              width:100.6%!important;
+              min-width:100.6%!important;
+              max-width:100.6%!important;
+              left:-0.3%!important;
+              right:auto!important;
+              height:100%!important;
+              min-height:100%!important;
+              max-height:100%!important;
+              object-fit:fill!important;
+              object-position:center center!important;
+              scale:1 1.06!important;
+              transform-origin:center center!important;
+              margin:0!important;
+              padding:0!important;
+              border:0!important;
+              border-radius:0!important;
+              clip-path:none!important;
+              filter:none!important;
+              opacity:1!important;
+            }
+          }
+          </style>
+          '''
+
+          pat=re.compile(r'<style id="AUREL_R123_T5_SIDE_GAP_FIX">[\s\S]*?</style>\s*',re.M)
+          if pat.search(s):
+              s=pat.sub(css.strip()+"\n",s,count=1)
+          else:
+              if "</body>" not in s:
+                  raise SystemExit("Không tìm thấy </body>.")
+              s=s.replace("</body>",css.strip()+"\n</body>",1)
+
+          p.write_text(s,encoding="utf-8")
+
+      - name: Commit website update
+        run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add financial-intelligence.html
+          git commit -m "Fix T5 horizontal side gaps"
+          git push
