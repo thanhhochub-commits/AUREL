@@ -14597,5 +14597,140 @@ body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
   opacity:1!important;
 }
 </style>
+<style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
+body.aurel-dark-theme .aurel-r147-summary-card{
+  color:#d9e8f2!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
+  color:#d3e4ef!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
 </body></html>
 
