@@ -1,0 +1,48 @@
+name: AUREL inspect slider code
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aurel-inspect-slider-code.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Extract slider code context
+        shell: python
+        run: |
+          from pathlib import Path
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          terms=[
+            "a.className='aurel-r78-slider-img'",
+            "aurel_t4_user_exact_t3frame_2172x724.webp",
+            "aurel_t5_hanoi_hero_user_exact_20261001.webp",
+            "aurel_t7_danang_hero_sunrise_20261001.png",
+            "aurel_hero_day_20261001",
+            "aurel_hero_night_20261001",
+            "aurel_hero_sunrise_webfit_20261001"
+          ]
+          out=[]
+          for t in terms:
+            start=0
+            while True:
+              i=s.find(t,start)
+              if i<0: break
+              out.append(f"=== {t} @ {i} ===\n"+s[max(0,i-4000):min(len(s),i+8000)])
+              start=i+1
+          Path("slider_code_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
+      - name: Commit report
+        run: |
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add slider_code_debug.txt
+          git commit -m "Temporary slider code inspection"
+          git push
