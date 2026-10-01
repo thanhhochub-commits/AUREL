@@ -15004,5 +15004,116 @@ body:not(.aurel-dark-theme) .aurel-r152-summary-theme *{
   setInterval(paint,800);
 })();
 </script>
-</body></html>
+<script id="AUREL_R153_THEME_IMAGE_FILTER">
+(function(){
+  var HERO_RAW=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE_RAW=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var LIGHT_HERO=[HERO_RAW[0],HERO_RAW[2],HERO_RAW[4],HERO_RAW[6]];
+  var DARK_HERO=[HERO_RAW[1],HERO_RAW[3],HERO_RAW[5],HERO_RAW[7]];
+  var LIGHT_SIDE=[SIDE_RAW[0],SIDE_RAW[2],SIDE_RAW[4],SIDE_RAW[6]];
+  var DARK_SIDE=[SIDE_RAW[1],SIDE_RAW[3],SIDE_RAW[5],SIDE_RAW[7]];
+  var lastDark=document.body.classList.contains('aurel-dark-theme');
+
+  function clean(u){ return String(u||'').split('#')[0]; }
+  function rawIndex(src,list){
+    var value=clean(src);
+    for(var i=0;i<list.length;i++){
+      var base=clean(list[i]);
+      var marker=base.split('/').pop().split('?')[0];
+      if(value===base || value.indexOf(marker)>=0) return i;
+    }
+    return -1;
+  }
+  function mapped(type,index){
+    var dark=document.body.classList.contains('aurel-dark-theme');
+    var slot=((index%4)+4)%4;
+    return type==='hero'
+      ? (dark?DARK_HERO:LIGHT_HERO)[slot]
+      : (dark?DARK_SIDE:LIGHT_SIDE)[slot];
+  }
+  function enforce(img,forceStored){
+    if(!img || !img.classList.contains('aurel-r78-slider-img')) return;
+    var hero=!!img.closest('.ref-hero');
+    var side=!!img.closest('.sidebar');
+    if(!hero && !side) return;
+    var type=hero?'hero':'side';
+    var list=hero?HERO_RAW:SIDE_RAW;
+    var src=img.getAttribute('src')||'';
+    var stored=parseInt(img.dataset.aurelThemeSourceIndex||'',10);
+    var index=-1;
+
+    if(forceStored && Number.isFinite(stored)){
+      index=stored;
+    }else if(Number.isFinite(stored) && src===mapped(type,stored)){
+      index=stored;
+    }else{
+      index=rawIndex(src,list);
+      if(index<0 && Number.isFinite(stored)) index=stored;
+    }
+    if(index<0) return;
+
+    img.dataset.aurelThemeSourceIndex=String(index);
+    var target=mapped(type,index);
+    if(src!==target) img.setAttribute('src',target);
+  }
+  function scan(forceStored){
+    document.querySelectorAll('.aurel-r78-slider-img').forEach(function(img){
+      enforce(img,!!forceStored);
+    });
+  }
+  function checkTheme(){
+    var dark=document.body.classList.contains('aurel-dark-theme');
+    if(dark===lastDark) return;
+    lastDark=dark;
+    scan(true);
+  }
+  function init(){
+    lastDark=document.body.classList.contains('aurel-dark-theme');
+    scan(false);
+
+    new MutationObserver(function(records){
+      records.forEach(function(rec){
+        if(rec.type==='attributes' && rec.target instanceof HTMLImageElement){
+          enforce(rec.target,false);
+        }
+      });
+    }).observe(document.body,{subtree:true,attributes:true,attributeFilter:['src']});
+
+    new MutationObserver(checkTheme).observe(document.body,{attributes:true,attributeFilter:['class']});
+
+    new MutationObserver(function(){
+      requestAnimationFrame(function(){scan(false);});
+    }).observe(document.body,{childList:true,subtree:true});
+
+    document.addEventListener('click',function(e){
+      if(e.target && e.target.closest && e.target.closest('#aurel-theme-toggle')){
+        setTimeout(function(){ checkTheme(); scan(true); },0);
+      }
+    },true);
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',init,{once:true});
+  }else{
+    init();
+  }
+})();
+</script>\n</body></html>
 
