@@ -1,146 +1,35 @@
-name: AUREL full border LED for financial metrics
+name: AUREL inspect financial metric markup
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
-
 permissions:
   contents: write
-
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Add full-border LEDs to ROA ROE CIR cards
+      - name: Inspect exact markup
         shell: python
         run: |
           from pathlib import Path
-          import re
-
-          p=Path("financial-intelligence.html")
-          s=p.read_text(encoding="utf-8")
-
-          for tag, ident in [
-              ("style","AUREL_R139_FULL_BORDER_LED_METRICS"),
-              ("script","AUREL_R139_FULL_BORDER_LED_METRICS_JS")
-          ]:
-              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
-              s=pat.sub("",s)
-
-          css=r'''
-          <style id="AUREL_R139_FULL_BORDER_LED_METRICS">
-          .aurel-r139-full-led{
-            position:relative!important;
-            overflow:hidden!important;
-            border-radius:18px!important;
-          }
-
-          .aurel-r139-full-led::after{
-            content:""!important;
-            position:absolute!important;
-            inset:0!important;
-            border-radius:18px!important;
-            padding:1.5px!important;
-            background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
-            -webkit-mask:
-              linear-gradient(#000 0 0) content-box,
-              linear-gradient(#000 0 0)!important;
-            -webkit-mask-composite:xor!important;
-            mask-composite:exclude!important;
-            pointer-events:none!important;
-            z-index:50!important;
-            opacity:.95!important;
-            box-shadow:0 0 10px rgba(41,211,255,.10)!important;
-          }
-
-          body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
-            opacity:.82!important;
-            box-shadow:0 0 8px rgba(41,211,255,.08)!important;
-          }
-          </style>
-          '''
-
-          js=r'''
-          <script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
-          (function(){
-            function norm(v){
-              return String(v||"").replace(/\s+/g," ").trim();
-            }
-
-            function validCard(el){
-              if(!el || el===document.body) return false;
-              var r=el.getBoundingClientRect();
-              var t=norm(el.textContent);
-              return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
-            }
-
-            function nearestCard(el){
-              if(!el) return null;
-              var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
-              if(preferred && validCard(preferred)) return preferred;
-              var cur=el;
-              for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
-                if(validCard(cur)) return cur;
-              }
-              return null;
-            }
-
-            function mark(label){
-              document.querySelectorAll("body *").forEach(function(el){
-                if(norm(el.textContent)!==label) return;
-                var card=nearestCard(el);
-                if(card) card.classList.add("aurel-r139-full-led");
-              });
-            }
-
-            function apply(){
-              document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
-                el.classList.remove("aurel-r139-full-led");
-              });
-              mark("ROA - Hiệu quả tài sản");
-              mark("ROE - Hiệu quả vốn");
-              mark("CIR - Chi phí / Thu nhập");
-            }
-
-            var queued=false;
-            function schedule(){
-              if(queued) return;
-              queued=true;
-              requestAnimationFrame(function(){
-                queued=false;
-                apply();
-              });
-            }
-
-            if(document.readyState==="loading"){
-              document.addEventListener("DOMContentLoaded",schedule,{once:true});
-            }else{
-              schedule();
-            }
-
-            var root=document.getElementById("root")||document.body;
-            new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
-            document.addEventListener("click",function(){setTimeout(apply,40)},true);
-          })();
-          </script>
-          '''
-
-          if "</body>" not in s:
-              raise SystemExit("Không tìm thấy </body>.")
-
-          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
-          p.write_text(s,encoding="utf-8")
-
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          needles=["ROA - Hiệu quả tài sản","ROE - Hiệu quả vốn","CIR - Chi phí / Thu nhập","AUREL_R139_FULL_BORDER_LED_METRICS"]
+          out=[]
+          for needle in needles:
+              start=0;n=0
+              while True:
+                  i=s.find(needle,start)
+                  if i<0: break
+                  n+=1
+                  out.append(f"=== {needle} #{n} @ {i} ===\n"+s[max(0,i-2200):min(len(s),i+4200)])
+                  start=i+len(needle)
+          Path("financial_metric_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Add full border LEDs to financial metric cards"
+          git add financial_metric_debug.txt
+          git commit -m "Temporary financial metric markup inspection"
           git push
