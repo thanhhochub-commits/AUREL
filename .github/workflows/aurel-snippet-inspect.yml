@@ -1,4 +1,4 @@
-name: AUREL exact executive summary white text
+name: AUREL summary text theme colors
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Force exact executive summary paragraph white
+      - name: Make executive summary white in dark and black in light
         shell: python
         run: |
           from pathlib import Path
@@ -22,40 +22,57 @@ jobs:
           p=Path("financial-intelligence.html")
           s=p.read_text(encoding="utf-8")
 
+          # Remove the previous unconditional white rule.
           for tag, ident in [
               ("style","AUREL_R151_EXACT_SUMMARY_WHITE"),
-              ("script","AUREL_R151_EXACT_SUMMARY_WHITE_JS")
+              ("script","AUREL_R151_EXACT_SUMMARY_WHITE_JS"),
+              ("style","AUREL_R152_SUMMARY_THEME_COLOR"),
+              ("script","AUREL_R152_SUMMARY_THEME_COLOR_JS")
           ]:
               pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
               s=pat.sub("",s)
 
           css=r'''
-          <style id="AUREL_R151_EXACT_SUMMARY_WHITE">
-          .aurel-r151-exact-summary,
-          .aurel-r151-exact-summary *{
+          <style id="AUREL_R152_SUMMARY_THEME_COLOR">
+          /* Exact executive-summary paragraph:
+             Dark mode = white, Light mode = black. */
+          body.aurel-dark-theme .aurel-r152-summary-theme,
+          body.aurel-dark-theme .aurel-r152-summary-theme *{
             color:#ffffff!important;
-            opacity:1!important;
             -webkit-text-fill-color:#ffffff!important;
-            text-shadow:none!important;
-            filter:none!important;
+            opacity:1!important;
           }
-          .aurel-r151-exact-summary{
+
+          body:not(.aurel-dark-theme) .aurel-r152-summary-theme,
+          body:not(.aurel-dark-theme) .aurel-r152-summary-theme *{
+            color:#111111!important;
+            -webkit-text-fill-color:#111111!important;
+            opacity:1!important;
+          }
+
+          .aurel-r152-summary-theme{
             font-weight:500!important;
             line-height:1.72!important;
+            text-shadow:none!important;
+            filter:none!important;
           }
           </style>
           '''
 
           js=r'''
-          <script id="AUREL_R151_EXACT_SUMMARY_WHITE_JS">
+          <script id="AUREL_R152_SUMMARY_THEME_COLOR_JS">
           (function(){
-            var PREFIX="Trong năm 2025, VPB ghi nhận sự tăng trưởng ổn định";
+            var PREFIX="Trong năm 2025, VPB";
 
             function norm(v){
               return String(v||"").replace(/\s+/g," ").trim();
             }
 
-            function findExactBlock(){
+            function isDarkMode(){
+              return document.body.classList.contains("aurel-dark-theme");
+            }
+
+            function findSummaryBlock(){
               var walker=document.createTreeWalker(
                 document.body,
                 NodeFilter.SHOW_TEXT,
@@ -75,17 +92,16 @@ jobs:
               var el=node.parentElement;
               if(!el) return null;
 
-              /* Prefer semantic paragraph/block containing the whole generated summary. */
               var cur=el;
               for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
                 var t=norm(cur.textContent);
                 var r=cur.getBoundingClientRect();
                 if(
                   t.indexOf(PREFIX)===0 &&
-                  t.length>250 &&
-                  t.length<4000 &&
-                  r.width>220 &&
-                  r.height>60
+                  t.length>220 &&
+                  t.length<5000 &&
+                  r.width>200 &&
+                  r.height>40
                 ){
                   return cur;
                 }
@@ -94,29 +110,31 @@ jobs:
             }
 
             function paint(){
-              var el=findExactBlock();
+              var el=findSummaryBlock();
               if(!el) return;
 
-              document.querySelectorAll(".aurel-r151-exact-summary").forEach(function(x){
-                if(x!==el) x.classList.remove("aurel-r151-exact-summary");
+              document.querySelectorAll(".aurel-r152-summary-theme").forEach(function(x){
+                if(x!==el) x.classList.remove("aurel-r152-summary-theme");
               });
 
-              el.classList.add("aurel-r151-exact-summary");
-              el.style.setProperty("color","#ffffff","important");
-              el.style.setProperty("-webkit-text-fill-color","#ffffff","important");
-              el.style.setProperty("opacity","1","important");
-              el.style.setProperty("font-weight","500","important");
-              el.style.setProperty("line-height","1.72","important");
-              el.style.setProperty("filter","none","important");
+              el.classList.add("aurel-r152-summary-theme");
 
-              el.querySelectorAll("*").forEach(function(x){
-                x.style.setProperty("color","#ffffff","important");
-                x.style.setProperty("-webkit-text-fill-color","#ffffff","important");
+              var color=isDarkMode() ? "#ffffff" : "#111111";
+
+              function applyColor(x){
+                x.style.setProperty("color",color,"important");
+                x.style.setProperty("-webkit-text-fill-color",color,"important");
                 x.style.setProperty("opacity","1","important");
                 x.style.setProperty("filter","none","important");
-              });
+              }
 
-              /* Also clear opacity/filter on immediate ancestors in case a parent dims the whole paragraph. */
+              applyColor(el);
+              el.style.setProperty("font-weight","500","important");
+              el.style.setProperty("line-height","1.72","important");
+
+              el.querySelectorAll("*").forEach(applyColor);
+
+              /* Remove any inherited dimming from immediate wrappers. */
               var p=el.parentElement;
               for(var i=0;i<3 && p && p!==document.body;i++,p=p.parentElement){
                 p.style.setProperty("opacity","1","important");
@@ -145,11 +163,11 @@ jobs:
               subtree:true,
               characterData:true,
               attributes:true,
-              attributeFilter:["style","class"]
+              attributeFilter:["class","style"]
             });
 
             document.addEventListener("click",function(){setTimeout(paint,80)},true);
-            setInterval(paint,700);
+            setInterval(paint,800);
           })();
           </script>
           '''
@@ -169,5 +187,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Force exact executive summary paragraph white"
+          git commit -m "Use black summary text in light mode and white in dark"
           git push
