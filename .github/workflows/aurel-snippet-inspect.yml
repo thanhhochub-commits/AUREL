@@ -1,4 +1,4 @@
-name: AUREL arrow collapse control
+name: AUREL AI header align
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Restyle AI collapse control as chevron
+      - name: Keep AI status chip close to chevron
         shell: python
         run: |
           from pathlib import Path
@@ -23,89 +23,69 @@ jobs:
           s=p.read_text(encoding="utf-8")
 
           css=r'''
-          <style id="AUREL_R143_AI_ARROW_TOGGLE">
-          /* Chỉ đổi nút Thu gọn/Mở cài đặt thành chevron tối giản. */
+          <style id="AUREL_R144_AI_HEADER_ALIGN">
+          /* Giữ trạng thái và mũi tên thành một cụm ở góc phải, cả khi mở và thu gọn. */
+          .ai-key-panel .ai-key-top{
+            display:flex!important;
+            align-items:flex-start!important;
+            justify-content:flex-start!important;
+            column-gap:8px!important;
+            row-gap:10px!important;
+            flex-wrap:wrap!important;
+          }
+
+          .ai-key-panel .ai-key-top > div:first-child{
+            flex:1 1 540px!important;
+            min-width:260px!important;
+          }
+
+          .ai-key-panel .ai-key-status{
+            margin-left:auto!important;
+            flex:0 0 auto!important;
+          }
+
           .ai-key-panel .aurel-ai-key-toggle{
-            width:34px!important;
-            min-width:34px!important;
-            max-width:34px!important;
-            height:34px!important;
-            min-height:34px!important;
-            padding:0!important;
-            border-radius:10px!important;
-            font-size:0!important;
-            line-height:0!important;
-            display:inline-flex!important;
-            align-items:center!important;
-            justify-content:center!important;
+            margin-left:0!important;
             flex:0 0 34px!important;
-            border:1px solid #c9dbe5!important;
-            background:rgba(247,251,253,.92)!important;
-            color:#52748d!important;
-            box-shadow:none!important;
-            transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease!important;
           }
 
-          .ai-key-panel .aurel-ai-key-toggle::before{
-            content:""!important;
-            width:8px!important;
-            height:8px!important;
-            border-right:2px solid currentColor!important;
-            border-bottom:2px solid currentColor!important;
-            transform:rotate(225deg)!important;
-            transform-origin:center!important;
-            margin-top:4px!important;
-            transition:transform .18s ease,margin .18s ease!important;
+          .ai-key-panel.aurel-ai-key-collapsed .ai-key-top{
+            align-items:center!important;
+            flex-wrap:nowrap!important;
+            column-gap:8px!important;
           }
 
-          .ai-key-panel .aurel-ai-key-toggle[aria-expanded="false"]::before{
-            transform:rotate(45deg)!important;
-            margin-top:-4px!important;
+          .ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
+            flex:1 1 auto!important;
+            min-width:0!important;
           }
 
-          .ai-key-panel .aurel-ai-key-toggle:hover{
-            background:#edf6fa!important;
-            border-color:#a9c9d8!important;
-            color:#244f6a!important;
-            transform:translateY(-1px)!important;
-          }
-
-          .ai-key-panel .aurel-ai-key-toggle:active{
-            transform:translateY(0)!important;
-          }
-
-          .ai-key-panel .aurel-ai-key-toggle:focus-visible{
-            outline:2px solid rgba(59,130,246,.38)!important;
-            outline-offset:2px!important;
-          }
-
-          body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle{
-            background:#142333!important;
-            border-color:#304b61!important;
-            color:#9fc2dc!important;
-          }
-
-          body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
-            background:#192c3f!important;
-            border-color:#466a87!important;
-            color:#d7edff!important;
+          .ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
+            margin-left:auto!important;
           }
 
           @media(max-width:700px){
-            .ai-key-panel .aurel-ai-key-toggle{
-              width:32px!important;
-              min-width:32px!important;
-              max-width:32px!important;
-              height:32px!important;
-              min-height:32px!important;
-              flex-basis:32px!important;
-              border-radius:9px!important;
+            .ai-key-panel .ai-key-top{
+              column-gap:7px!important;
+            }
+
+            .ai-key-panel .ai-key-top > div:first-child{
+              flex-basis:100%!important;
+              min-width:0!important;
+            }
+
+            .ai-key-panel .ai-key-status{
+              margin-left:auto!important;
+            }
+
+            .ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
+              flex-basis:auto!important;
             }
           }
           </style>
           '''
 
-          pat=re.compile(r'<style id="AUREL_R143_AI_ARROW_TOGGLE">[\s\S]*?</style>\s*',re.M)
+          pat=re.compile(r'<style id="AUREL_R144_AI_HEADER_ALIGN">[\s\S]*?</style>\s*',re.M)
           if pat.search(s):
               s=pat.sub(css.strip()+"\n",s,count=1)
           else:
@@ -124,5 +104,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Restyle AI key collapse control as chevron"
+          git commit -m "Keep AI status chip aligned beside chevron"
           git push
