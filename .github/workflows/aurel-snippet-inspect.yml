@@ -1,44 +1,33 @@
-name: AUREL hero text contrast
+name: AUREL inspect hero live text
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
-
 permissions:
   contents: write
-
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Improve overview hero text in light and dark mode
+      - name: Inspect hero live markup
         shell: python
         run: |
           from pathlib import Path
           import re
-          p=Path('financial-intelligence.html')
-          s=p.read_text(encoding='utf-8')
-          ident='AUREL_R154_HERO_TEXT_CONTRAST'
-          s=re.sub(r'<style id="'+ident+r'">[\\s\\S]*?</style>\\s*','',s,flags=re.M)
-          css="<style id=\"AUREL_R154_HERO_TEXT_CONTRAST\">\n/* Chỉ tinh chỉnh phần chữ overlay của ảnh ngang Tổng quan. Không đổi ảnh, khung, dữ liệu hay bố cục. */\n\n/* LIGHT MODE */\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker{\n  color:#e8f7ff!important;\n  text-shadow:\n    0 1px 2px rgba(5,31,55,.95),\n    0 0 8px rgba(26,137,218,.45)!important;\n}\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-bank{\n  color:#ffffff!important;\n  -webkit-text-stroke:.35px rgba(6,39,69,.42)!important;\n  text-shadow:\n    0 2px 3px rgba(4,28,51,.82),\n    0 4px 10px rgba(4,28,51,.46)!important;\n}\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-title{\n  color:#ffffff!important;\n  -webkit-text-stroke:.45px rgba(5,35,63,.46)!important;\n  text-shadow:\n    0 2px 2px rgba(4,28,51,.82),\n    0 5px 14px rgba(4,28,51,.58)!important;\n}\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p strong{\n  color:#f7fbff!important;\n  -webkit-text-fill-color:#f7fbff!important;\n  text-shadow:\n    0 1px 2px rgba(4,28,51,.95),\n    0 2px 7px rgba(4,28,51,.60)!important;\n}\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-badges span{\n  color:#ffffff!important;\n  background:rgba(5,42,75,.42)!important;\n  border-color:rgba(224,245,255,.58)!important;\n  box-shadow:\n    inset 0 1px 0 rgba(255,255,255,.10),\n    0 2px 8px rgba(4,28,51,.18)!important;\n  text-shadow:0 1px 2px rgba(2,20,38,.92)!important;\n}\n\n/* DARK MODE */\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker{\n  color:#7ddcff!important;\n  text-shadow:\n    0 1px 3px rgba(0,0,0,.96),\n    0 0 10px rgba(34,211,238,.22)!important;\n}\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-bank{\n  color:#ffffff!important;\n  -webkit-text-stroke:.3px rgba(0,0,0,.58)!important;\n  text-shadow:\n    0 2px 4px rgba(0,0,0,.92),\n    0 0 10px rgba(77,156,255,.16)!important;\n}\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-title{\n  color:#ffffff!important;\n  -webkit-text-stroke:.4px rgba(0,0,0,.62)!important;\n  text-shadow:\n    0 2px 4px rgba(0,0,0,.96),\n    0 0 12px rgba(34,211,238,.14)!important;\n}\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p,\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p strong{\n  color:#e4f2fb!important;\n  -webkit-text-fill-color:#e4f2fb!important;\n  text-shadow:0 1px 3px rgba(0,0,0,.96)!important;\n}\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-badges span{\n  color:#eafaff!important;\n  background:rgba(6,22,39,.68)!important;\n  border-color:rgba(92,190,231,.48)!important;\n  box-shadow:\n    inset 0 1px 0 rgba(255,255,255,.05),\n    0 0 0 1px rgba(43,149,199,.06)!important;\n  text-shadow:0 1px 2px rgba(0,0,0,.92)!important;\n}\n</style>"
-          if '</head>' in s:
-              s=s.replace('</head>',css+'\n</head>',1)
-          elif '</body>' in s:
-              s=s.replace('</body>',css+'\n</body>',1)
-          else:
-              raise SystemExit('Không tìm thấy vị trí chèn CSS')
-          p.write_text(s,encoding='utf-8')
-
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          needles=["ref-hero-live-copy","ref-hero-live-kicker","ref-hero-live-bank","ref-hero-live-title","ref-hero-live-badges"]
+          out=[]
+          for needle in needles:
+              poss=[m.start() for m in re.finditer(re.escape(needle),s)]
+              out.append(f"### {needle} occurrences={len(poss)}")
+              for i in poss[:20]:
+                  out.append(s[max(0,i-1600):min(len(s),i+3500)])
+          Path("hero_live_text_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Improve overview hero text contrast in both themes"
+          git add hero_live_text_debug.txt
+          git commit -m "Temporary hero text inspection"
           git push
