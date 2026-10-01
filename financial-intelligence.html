@@ -14442,5 +14442,120 @@ body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
   }
 }
 </style>
+<style id="AUREL_R145_DARK_TEXT_CONTRAST">
+/* R145 — tăng độ rõ chữ toàn bộ Dark Mode, không đổi bố cục/chức năng. */
+
+body.aurel-dark-theme{
+  color:#eaf4fb!important;
+  -webkit-font-smoothing:antialiased!important;
+  -moz-osx-font-smoothing:grayscale!important;
+  text-rendering:optimizeLegibility!important;
+}
+
+/* Tiêu đề và số liệu chính */
+body.aurel-dark-theme :is(
+  h1,h2,h3,h4,h5,h6,strong,b,
+  .title,.section-title,.panel-title,.card-title,
+  .metric-value,.value,.big-value,.kpi-value,
+  .topbar-title,.page-title
+){
+  color:#f8fbff!important;
+  opacity:1!important;
+}
+
+/* Nội dung mô tả thông thường */
+body.aurel-dark-theme :is(
+  p,label,li,dt,dd,td,
+  .description,.subtitle,.helper,.hint,.meta,.caption,
+  .panel-subtitle,.card-subtitle,.field-label
+):not([class*="positive"]):not([class*="negative"]):not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]):not([class*="trend"]){
+  color:#d8e7f1!important;
+  opacity:1!important;
+}
+
+/* Chữ phụ vốn đang quá chìm */
+body.aurel-dark-theme :is(
+  small,.muted,.text-muted,.secondary,.subtle,
+  .eyebrow,.overline,.footnote,.note-text,
+  .table-note,.unit,.timestamp
+):not([class*="positive"]):not([class*="negative"]):not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]):not([class*="trend"]){
+  color:#a9c1d2!important;
+  opacity:1!important;
+}
+
+/* Điều hướng: sidebar, tab, menu */
+body.aurel-dark-theme :is(
+  #nav button,#nav a,
+  .sidebar button,.sidebar a,.sidebar span,
+  .nav-item,.nav-item span,
+  .tab,.tabs button,.menu-item
+){
+  color:#eef7fd!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme :is(
+  #nav button.active,#nav a.active,
+  .nav-item.active,.tab.active,.tabs button.active
+){
+  color:#ffffff!important;
+  font-weight:700!important;
+}
+
+/* Form controls */
+body.aurel-dark-theme :is(input,select,textarea){
+  color:#f2f8fc!important;
+  caret-color:#7dd3fc!important;
+}
+
+body.aurel-dark-theme :is(input,textarea)::placeholder{
+  color:#9fb8c9!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme option{
+  color:#eef6fb!important;
+  background:#111d2a!important;
+}
+
+/* Bảng */
+body.aurel-dark-theme th{
+  color:#dceaf3!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme td{
+  color:#d6e5ef!important;
+  opacity:1!important;
+}
+
+/* Các đường link văn bản thường */
+body.aurel-dark-theme a:not(.nav-item):not([class*="button"]):not([class*="btn"]){
+  color:#9ed7ff!important;
+}
+
+/* Nút mặc định, không đè màu trạng thái đặc biệt */
+body.aurel-dark-theme button:not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]){
+  text-shadow:none!important;
+}
+
+/* Một số vùng dashboard dùng opacity thấp cho chữ con */
+body.aurel-dark-theme :is(
+  .panel,.card,.metric,.monitor-card,.scenario-control,
+  .analysis-feature,.ai-key-panel,.table-wrap
+) :is(p,small,label,.muted,.meta,.caption,.subtitle,.description){
+  opacity:1!important;
+}
+
+/* Mobile: vẫn sáng nhưng không gắt */
+@media(max-width:700px){
+  body.aurel-dark-theme :is(p,label,li,td,.description,.subtitle,.helper,.hint,.meta,.caption){
+    color:#d3e3ee!important;
+  }
+  body.aurel-dark-theme :is(small,.muted,.text-muted,.secondary,.subtle,.footnote,.unit){
+    color:#a4bdce!important;
+  }
+}
+</style>
 </body></html>
 
