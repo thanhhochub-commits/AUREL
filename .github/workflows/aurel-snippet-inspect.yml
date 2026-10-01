@@ -1,128 +1,173 @@
-name: AUREL force result paragraph white
+name: AUREL exact executive summary white text
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
+
 permissions:
   contents: write
+
 jobs:
   patch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Force exact right support panel text white on dark background
+
+      - name: Force exact executive summary paragraph white
         shell: python
         run: |
           from pathlib import Path
           import re
+
           p=Path("financial-intelligence.html")
           s=p.read_text(encoding="utf-8")
 
+          for tag, ident in [
+              ("style","AUREL_R151_EXACT_SUMMARY_WHITE"),
+              ("script","AUREL_R151_EXACT_SUMMARY_WHITE_JS")
+          ]:
+              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
+              s=pat.sub("",s)
+
           css=r'''
-          <style id="AUREL_R150_SUPPORT_RIGHT_PANEL_WHITE">
-          /* Khung Kết quả phân tích nằm ở panel thứ 2 ngay sau khối AI key.
-             Ép toàn bộ nội dung chữ trong panel này sáng rõ ở giao diện tối. */
-          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2),
-          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) *{
+          <style id="AUREL_R151_EXACT_SUMMARY_WHITE">
+          .aurel-r151-exact-summary,
+          .aurel-r151-exact-summary *{
             color:#ffffff!important;
             opacity:1!important;
+            -webkit-text-fill-color:#ffffff!important;
+            text-shadow:none!important;
+            filter:none!important;
           }
-
-          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) :is(
-            p,li,dd,blockquote,div,span
-          ){
-            color:#ffffff!important;
-            opacity:1!important;
-          }
-
-          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) p{
+          .aurel-r151-exact-summary{
             font-weight:500!important;
             line-height:1.72!important;
-          }
-
-          body.aurel-dark-theme .ai-key-panel ~ .cols-equal > .panel:nth-child(2) :is(
-            .status-chip.warn,.tag.warn,[class*="warn"]
-          ){
-            color:#ffd36a!important;
           }
           </style>
           '''
 
           js=r'''
-          <script id="AUREL_R150_SUPPORT_RIGHT_PANEL_WHITE_JS">
+          <script id="AUREL_R151_EXACT_SUMMARY_WHITE_JS">
           (function(){
-            function dark(el){
-              function rgb(v){
-                var m=String(v||"").match(/rgba?\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)(?:\s*,\s*([\d.]+))?\)/i);
-                return m?{r:+m[1],g:+m[2],b:+m[3],a:m[4]===undefined?1:+m[4]}:null;
-              }
-              var cur=el;
-              for(var i=0;i<8&&cur;i++,cur=cur.parentElement){
-                var c=rgb(getComputedStyle(cur).backgroundColor);
-                if(c&&c.a>.05) return (.2126*c.r+.7152*c.g+.0722*c.b)<125;
-              }
-              return false;
+            var PREFIX="Trong năm 2025, VPB ghi nhận sự tăng trưởng ổn định";
+
+            function norm(v){
+              return String(v||"").replace(/\s+/g," ").trim();
             }
-            function apply(){
-              var key=document.querySelector(".ai-key-panel");
-              if(!key) return;
-              var grids=[];
-              var n=key.nextElementSibling;
-              while(n&&grids.length<2){
-                if(n.classList&&n.classList.contains("cols-equal")) grids.push(n);
-                n=n.nextElementSibling;
-              }
-              document.querySelectorAll(".cols-equal").forEach(function(g){
-                if(key.compareDocumentPosition(g)&Node.DOCUMENT_POSITION_FOLLOWING) grids.push(g);
-              });
-              var seen=new Set();
-              grids.forEach(function(g){
-                if(seen.has(g)) return; seen.add(g);
-                var panels=Array.from(g.children).filter(function(x){return x.classList&&x.classList.contains("panel")});
-                if(panels.length<2) return;
-                var panel=panels[1];
-                if(!dark(panel)) return;
-                panel.style.setProperty("color","#ffffff","important");
-                panel.querySelectorAll("*").forEach(function(el){
-                  var t=(el.textContent||"").trim();
-                  if(!t) return;
-                  var cls=String(el.className||"");
-                  if(/warn|status-chip/i.test(cls)){
-                    if(/Chờ duyệt|Đã duyệt|Đang xử lý/.test(t)){
-                      el.style.setProperty("color","#ffd36a","important");
-                    }
-                    return;
+
+            function findExactBlock(){
+              var walker=document.createTreeWalker(
+                document.body,
+                NodeFilter.SHOW_TEXT,
+                {
+                  acceptNode:function(node){
+                    var t=norm(node.nodeValue);
+                    return t.indexOf(PREFIX)===0
+                      ? NodeFilter.FILTER_ACCEPT
+                      : NodeFilter.FILTER_SKIP;
                   }
-                  el.style.setProperty("color","#ffffff","important");
-                  el.style.setProperty("opacity","1","important");
-                });
+                }
+              );
+
+              var node=walker.nextNode();
+              if(!node) return null;
+
+              var el=node.parentElement;
+              if(!el) return null;
+
+              /* Prefer semantic paragraph/block containing the whole generated summary. */
+              var cur=el;
+              for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+                var t=norm(cur.textContent);
+                var r=cur.getBoundingClientRect();
+                if(
+                  t.indexOf(PREFIX)===0 &&
+                  t.length>250 &&
+                  t.length<4000 &&
+                  r.width>220 &&
+                  r.height>60
+                ){
+                  return cur;
+                }
+              }
+              return el;
+            }
+
+            function paint(){
+              var el=findExactBlock();
+              if(!el) return;
+
+              document.querySelectorAll(".aurel-r151-exact-summary").forEach(function(x){
+                if(x!==el) x.classList.remove("aurel-r151-exact-summary");
+              });
+
+              el.classList.add("aurel-r151-exact-summary");
+              el.style.setProperty("color","#ffffff","important");
+              el.style.setProperty("-webkit-text-fill-color","#ffffff","important");
+              el.style.setProperty("opacity","1","important");
+              el.style.setProperty("font-weight","500","important");
+              el.style.setProperty("line-height","1.72","important");
+              el.style.setProperty("filter","none","important");
+
+              el.querySelectorAll("*").forEach(function(x){
+                x.style.setProperty("color","#ffffff","important");
+                x.style.setProperty("-webkit-text-fill-color","#ffffff","important");
+                x.style.setProperty("opacity","1","important");
+                x.style.setProperty("filter","none","important");
+              });
+
+              /* Also clear opacity/filter on immediate ancestors in case a parent dims the whole paragraph. */
+              var p=el.parentElement;
+              for(var i=0;i<3 && p && p!==document.body;i++,p=p.parentElement){
+                p.style.setProperty("opacity","1","important");
+                p.style.setProperty("filter","none","important");
+              }
+            }
+
+            var queued=false;
+            function schedule(){
+              if(queued) return;
+              queued=true;
+              requestAnimationFrame(function(){
+                queued=false;
+                paint();
               });
             }
-            var q=false;
-            function schedule(){
-              if(q)return;q=true;
-              requestAnimationFrame(function(){q=false;apply();});
+
+            if(document.readyState==="loading"){
+              document.addEventListener("DOMContentLoaded",schedule,{once:true});
+            }else{
+              schedule();
             }
-            if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});else schedule();
-            new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:["class","style"]});
-            document.addEventListener("click",function(){setTimeout(apply,60)},true);
-            setInterval(apply,1000);
+
+            new MutationObserver(schedule).observe(document.body,{
+              childList:true,
+              subtree:true,
+              characterData:true,
+              attributes:true,
+              attributeFilter:["style","class"]
+            });
+
+            document.addEventListener("click",function(){setTimeout(paint,80)},true);
+            setInterval(paint,700);
           })();
           </script>
           '''
 
-          for ident in ["AUREL_R150_SUPPORT_RIGHT_PANEL_WHITE"]:
-              s=re.sub(r'<style id="'+ident+r'">[\s\S]*?</style>\s*',"",s)
-              s=re.sub(r'<script id="'+ident+r'_JS">[\s\S]*?</script>\s*',"",s)
+          if "</body>" not in s:
+              raise SystemExit("Không tìm thấy </body>.")
 
-          if "</body>" not in s: raise SystemExit("Không tìm thấy </body>")
           s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
           p.write_text(s,encoding="utf-8")
+
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then exit 0; fi
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Force support result panel text white"
+          git commit -m "Force exact executive summary paragraph white"
           git push
