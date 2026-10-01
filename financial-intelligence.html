@@ -15795,5 +15795,71 @@ body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
   box-shadow:none!important;
 }
 </style>
-</body></html>
+<style id="AUREL_R160_HERO_TEXT_ONLY_FINAL">
+.ref-hero-copy.ref-hero-live-copy,
+.ref-hero .ref-hero-copy.ref-hero-live-copy,
+.ref-hero > .ref-hero-copy.ref-hero-live-copy{
+  background:transparent!important;
+  background-color:transparent!important;
+  background-image:none!important;
+  border:none!important;
+  outline:none!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+  filter:none!important;
+  opacity:1!important;
+}
+.ref-hero-copy.ref-hero-live-copy::before,
+.ref-hero-copy.ref-hero-live-copy::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+.ref-hero-live-badges span{
+  background:transparent!important;
+  background-color:transparent!important;
+  background-image:none!important;
+  border:none!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+</style>\n<script id="AUREL_R160_HERO_TEXT_ONLY_FINAL_JS">
+(function(){
+  function fix(){
+    document.querySelectorAll('.ref-hero-copy.ref-hero-live-copy').forEach(function(el){
+      el.style.setProperty('background','transparent','important');
+      el.style.setProperty('background-color','transparent','important');
+      el.style.setProperty('background-image','none','important');
+      el.style.setProperty('border','none','important');
+      el.style.setProperty('outline','none','important');
+      el.style.setProperty('box-shadow','none','important');
+      el.style.setProperty('-webkit-backdrop-filter','none','important');
+      el.style.setProperty('backdrop-filter','none','important');
+      el.style.setProperty('filter','none','important');
+      el.style.setProperty('opacity','1','important');
+    });
+    document.querySelectorAll('.ref-hero-live-badges span').forEach(function(el){
+      el.style.setProperty('background','transparent','important');
+      el.style.setProperty('background-color','transparent','important');
+      el.style.setProperty('background-image','none','important');
+      el.style.setProperty('border','none','important');
+      el.style.setProperty('box-shadow','none','important');
+      el.style.setProperty('-webkit-backdrop-filter','none','important');
+      el.style.setProperty('backdrop-filter','none','important');
+    });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',fix,{once:true});
+  }else{
+    fix();
+  }
+  new MutationObserver(function(){requestAnimationFrame(fix);})
+    .observe(document.getElementById('root')||document.body,{childList:true,subtree:true});
+})();
+</script>\n</body></html>
 
