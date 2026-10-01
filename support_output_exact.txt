@@ -1,0 +1,3004 @@
+=== Chờ duyệt #1 @ 1155123 ===
+;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
+  margin-left:auto!important;
+}
+
+@media(max-width:700px){
+  .ai-key-panel .ai-key-top{
+    column-gap:7px!important;
+  }
+
+  .ai-key-panel .ai-key-top > div:first-child{
+    flex-basis:100%!important;
+    min-width:0!important;
+  }
+
+  .ai-key-panel .ai-key-status{
+    margin-left:auto!important;
+  }
+
+  .ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
+    flex-basis:auto!important;
+  }
+}
+</style>
+<style id="AUREL_R145_DARK_TEXT_CONTRAST">
+/* R145 — tăng độ rõ chữ toàn bộ Dark Mode, không đổi bố cục/chức năng. */
+
+body.aurel-dark-theme{
+  color:#eaf4fb!important;
+  -webkit-font-smoothing:antialiased!important;
+  -moz-osx-font-smoothing:grayscale!important;
+  text-rendering:optimizeLegibility!important;
+}
+
+/* Tiêu đề và số liệu chính */
+body.aurel-dark-theme :is(
+  h1,h2,h3,h4,h5,h6,strong,b,
+  .title,.section-title,.panel-title,.card-title,
+  .metric-value,.value,.big-value,.kpi-value,
+  .topbar-title,.page-title
+){
+  color:#f8fbff!important;
+  opacity:1!important;
+}
+
+/* Nội dung mô tả thông thường */
+body.aurel-dark-theme :is(
+  p,label,li,dt,dd,td,
+  .description,.subtitle,.helper,.hint,.meta,.caption,
+  .panel-subtitle,.card-subtitle,.field-label
+):not([class*="positive"]):not([class*="negative"]):not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]):not([class*="trend"]){
+  color:#d8e7f1!important;
+  opacity:1!important;
+}
+
+/* Chữ phụ vốn đang quá chìm */
+body.aurel-dark-theme :is(
+  small,.muted,.text-muted,.secondary,.subtle,
+  .eyebrow,.overline,.footnote,.note-text,
+  .table-note,.unit,.timestamp
+):not([class*="positive"]):not([class*="negative"]):not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]):not([class*="trend"]){
+  color:#a9c1d2!important;
+  opacity:1!important;
+}
+
+/* Điều hướng: sidebar, tab, menu */
+body.aurel-dark-theme :is(
+  #nav button,#nav a,
+  .sidebar button,.sidebar a,.sidebar span,
+  .nav-item,.nav-item span,
+  .tab,.tabs button,.menu-item
+){
+  color:#eef7fd!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme :is(
+  #nav button.active,#nav a.active,
+  .nav-item.active,.tab.active,.tabs button.active
+){
+  color:#ffffff!important;
+  font-weight:700!important;
+}
+
+/* Form controls */
+body.aurel-dark-theme :is(input,select,textarea){
+  color:#f2f8fc!important;
+  caret-color:#7dd3fc!important;
+}
+
+body.aurel-dark-theme :is(input,textarea)::placeholder{
+  color:#9fb8c9!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme option{
+  color:#eef6fb!important;
+  background:#111d2a!important;
+}
+
+/* Bảng */
+body.aurel-dark-theme th{
+  color:#dceaf3!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme td{
+  color:#d6e5ef!important;
+  opacity:1!important;
+}
+
+/* Các đường link văn bản thường */
+body.aurel-dark-theme a:not(.nav-item):not([class*="button"]):not([class*="btn"]){
+  color:#9ed7ff!important;
+}
+
+/* Nút mặc định, không đè màu trạng thái đặc biệt */
+body.aurel-dark-theme button:not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]){
+  text-shadow:none!important;
+}
+
+/* Một số vùng dashboard dùng opacity thấp cho chữ con */
+body.aurel-dark-theme :is(
+  .panel,.card,.metric,.monitor-card,.scenario-control,
+  .analysis-feature,.ai-key-panel,.table-wrap
+) :is(p,small,label,.muted,.meta,.caption,.subtitle,.description){
+  opacity:1!important;
+}
+
+/* Mobile: vẫn sáng nhưng không gắt */
+@media(max-width:700px){
+  body.aurel-dark-theme :is(p,label,li,td,.description,.subtitle,.helper,.hint,.meta,.caption){
+    color:#d3e3ee!important;
+  }
+  body.aurel-dark-theme :is(small,.muted,.text-muted,.secondary,.subtle,.footnote,.unit){
+    color:#a4bdce!important;
+  }
+}
+</style>
+<style id="AUREL_R146_SUPPORT_OUTPUT_CONTRAST">
+/* Chỉ tăng độ rõ phần nội dung phân tích ở trang Phân tích hỗ trợ, Dark Mode. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .panel,.ai-feature,.ai-connect,.analysis-result,.result-card,
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(p,li,dd,.content,.body,.text,.description,.summary,.analysis-text){
+  color:#bfd3e1!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.05)!important;
+}
+
+/* Nếu đoạn phân tích được render trực tiếp bằng div/span thay vì p. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(div,span):not(
+  .badge,.chip,.status-pill,.ai-key-status,.button,button,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  color:#bfd3e1!important;
+  opacity:1!important;
+}
+
+/* Tiêu đề kết quả giữ sáng rõ hơn nội dung. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"],.panel
+) :is(h2,h3,h4,strong){
+  color:#f5f9fc!important;
+  opacity:1!important;
+}
+
+/* Giữ badge trạng thái như "Chờ duyệt" có màu riêng. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .badge,.chip,.status-pill,.ai-key-status,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  opacity:1!important;
+}
+</style>
+<style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
+body.aurel-dark-theme .aurel-r147-summary-card{
+  color:#d9e8f2!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
+  color:#d3e4ef!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Chờ duyệt #2 @ 1157415 ===
+rm controls */
+body.aurel-dark-theme :is(input,select,textarea){
+  color:#f2f8fc!important;
+  caret-color:#7dd3fc!important;
+}
+
+body.aurel-dark-theme :is(input,textarea)::placeholder{
+  color:#9fb8c9!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme option{
+  color:#eef6fb!important;
+  background:#111d2a!important;
+}
+
+/* Bảng */
+body.aurel-dark-theme th{
+  color:#dceaf3!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme td{
+  color:#d6e5ef!important;
+  opacity:1!important;
+}
+
+/* Các đường link văn bản thường */
+body.aurel-dark-theme a:not(.nav-item):not([class*="button"]):not([class*="btn"]){
+  color:#9ed7ff!important;
+}
+
+/* Nút mặc định, không đè màu trạng thái đặc biệt */
+body.aurel-dark-theme button:not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]){
+  text-shadow:none!important;
+}
+
+/* Một số vùng dashboard dùng opacity thấp cho chữ con */
+body.aurel-dark-theme :is(
+  .panel,.card,.metric,.monitor-card,.scenario-control,
+  .analysis-feature,.ai-key-panel,.table-wrap
+) :is(p,small,label,.muted,.meta,.caption,.subtitle,.description){
+  opacity:1!important;
+}
+
+/* Mobile: vẫn sáng nhưng không gắt */
+@media(max-width:700px){
+  body.aurel-dark-theme :is(p,label,li,td,.description,.subtitle,.helper,.hint,.meta,.caption){
+    color:#d3e3ee!important;
+  }
+  body.aurel-dark-theme :is(small,.muted,.text-muted,.secondary,.subtle,.footnote,.unit){
+    color:#a4bdce!important;
+  }
+}
+</style>
+<style id="AUREL_R146_SUPPORT_OUTPUT_CONTRAST">
+/* Chỉ tăng độ rõ phần nội dung phân tích ở trang Phân tích hỗ trợ, Dark Mode. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .panel,.ai-feature,.ai-connect,.analysis-result,.result-card,
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(p,li,dd,.content,.body,.text,.description,.summary,.analysis-text){
+  color:#bfd3e1!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.05)!important;
+}
+
+/* Nếu đoạn phân tích được render trực tiếp bằng div/span thay vì p. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(div,span):not(
+  .badge,.chip,.status-pill,.ai-key-status,.button,button,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  color:#bfd3e1!important;
+  opacity:1!important;
+}
+
+/* Tiêu đề kết quả giữ sáng rõ hơn nội dung. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"],.panel
+) :is(h2,h3,h4,strong){
+  color:#f5f9fc!important;
+  opacity:1!important;
+}
+
+/* Giữ badge trạng thái như "Chờ duyệt" có màu riêng. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .badge,.chip,.status-pill,.ai-key-status,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  opacity:1!important;
+}
+</style>
+<style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
+body.aurel-dark-theme .aurel-r147-summary-card{
+  color:#d9e8f2!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
+  color:#d3e4ef!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Chờ duyệt #3 @ 1161569 ===
+0){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Tóm tắt điều hành #1 @ 1157056 ===
+nav button,#nav a,
+  .sidebar button,.sidebar a,.sidebar span,
+  .nav-item,.nav-item span,
+  .tab,.tabs button,.menu-item
+){
+  color:#eef7fd!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme :is(
+  #nav button.active,#nav a.active,
+  .nav-item.active,.tab.active,.tabs button.active
+){
+  color:#ffffff!important;
+  font-weight:700!important;
+}
+
+/* Form controls */
+body.aurel-dark-theme :is(input,select,textarea){
+  color:#f2f8fc!important;
+  caret-color:#7dd3fc!important;
+}
+
+body.aurel-dark-theme :is(input,textarea)::placeholder{
+  color:#9fb8c9!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme option{
+  color:#eef6fb!important;
+  background:#111d2a!important;
+}
+
+/* Bảng */
+body.aurel-dark-theme th{
+  color:#dceaf3!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme td{
+  color:#d6e5ef!important;
+  opacity:1!important;
+}
+
+/* Các đường link văn bản thường */
+body.aurel-dark-theme a:not(.nav-item):not([class*="button"]):not([class*="btn"]){
+  color:#9ed7ff!important;
+}
+
+/* Nút mặc định, không đè màu trạng thái đặc biệt */
+body.aurel-dark-theme button:not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]){
+  text-shadow:none!important;
+}
+
+/* Một số vùng dashboard dùng opacity thấp cho chữ con */
+body.aurel-dark-theme :is(
+  .panel,.card,.metric,.monitor-card,.scenario-control,
+  .analysis-feature,.ai-key-panel,.table-wrap
+) :is(p,small,label,.muted,.meta,.caption,.subtitle,.description){
+  opacity:1!important;
+}
+
+/* Mobile: vẫn sáng nhưng không gắt */
+@media(max-width:700px){
+  body.aurel-dark-theme :is(p,label,li,td,.description,.subtitle,.helper,.hint,.meta,.caption){
+    color:#d3e3ee!important;
+  }
+  body.aurel-dark-theme :is(small,.muted,.text-muted,.secondary,.subtle,.footnote,.unit){
+    color:#a4bdce!important;
+  }
+}
+</style>
+<style id="AUREL_R146_SUPPORT_OUTPUT_CONTRAST">
+/* Chỉ tăng độ rõ phần nội dung phân tích ở trang Phân tích hỗ trợ, Dark Mode. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .panel,.ai-feature,.ai-connect,.analysis-result,.result-card,
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(p,li,dd,.content,.body,.text,.description,.summary,.analysis-text){
+  color:#bfd3e1!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.05)!important;
+}
+
+/* Nếu đoạn phân tích được render trực tiếp bằng div/span thay vì p. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(div,span):not(
+  .badge,.chip,.status-pill,.ai-key-status,.button,button,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  color:#bfd3e1!important;
+  opacity:1!important;
+}
+
+/* Tiêu đề kết quả giữ sáng rõ hơn nội dung. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"],.panel
+) :is(h2,h3,h4,strong){
+  color:#f5f9fc!important;
+  opacity:1!important;
+}
+
+/* Giữ badge trạng thái như "Chờ duyệt" có màu riêng. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .badge,.chip,.status-pill,.ai-key-status,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  opacity:1!important;
+}
+</style>
+<style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
+body.aurel-dark-theme .aurel-r147-summary-card{
+  color:#d9e8f2!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
+  color:#d3e4ef!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Tóm tắt điều hành #2 @ 1160316 ===
+p"]
+){
+  opacity:1!important;
+}
+</style>
+<style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
+body.aurel-dark-theme .aurel-r147-summary-card{
+  color:#d9e8f2!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
+  color:#d3e4ef!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Tóm tắt điều hành #3 @ 1160651 ===
+!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Trong năm #1 @ 1158064 ===
+ Nút mặc định, không đè màu trạng thái đặc biệt */
+body.aurel-dark-theme button:not([class*="success"]):not([class*="danger"]):not([class*="warning"]):not([class*="status"]){
+  text-shadow:none!important;
+}
+
+/* Một số vùng dashboard dùng opacity thấp cho chữ con */
+body.aurel-dark-theme :is(
+  .panel,.card,.metric,.monitor-card,.scenario-control,
+  .analysis-feature,.ai-key-panel,.table-wrap
+) :is(p,small,label,.muted,.meta,.caption,.subtitle,.description){
+  opacity:1!important;
+}
+
+/* Mobile: vẫn sáng nhưng không gắt */
+@media(max-width:700px){
+  body.aurel-dark-theme :is(p,label,li,td,.description,.subtitle,.helper,.hint,.meta,.caption){
+    color:#d3e3ee!important;
+  }
+  body.aurel-dark-theme :is(small,.muted,.text-muted,.secondary,.subtle,.footnote,.unit){
+    color:#a4bdce!important;
+  }
+}
+</style>
+<style id="AUREL_R146_SUPPORT_OUTPUT_CONTRAST">
+/* Chỉ tăng độ rõ phần nội dung phân tích ở trang Phân tích hỗ trợ, Dark Mode. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .panel,.ai-feature,.ai-connect,.analysis-result,.result-card,
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(p,li,dd,.content,.body,.text,.description,.summary,.analysis-text){
+  color:#bfd3e1!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.05)!important;
+}
+
+/* Nếu đoạn phân tích được render trực tiếp bằng div/span thay vì p. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"]
+) :is(div,span):not(
+  .badge,.chip,.status-pill,.ai-key-status,.button,button,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  color:#bfd3e1!important;
+  opacity:1!important;
+}
+
+/* Tiêu đề kết quả giữ sáng rõ hơn nội dung. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  [class*="result"],[class*="summary"],[class*="output"],.panel
+) :is(h2,h3,h4,strong){
+  color:#f5f9fc!important;
+  opacity:1!important;
+}
+
+/* Giữ badge trạng thái như "Chờ duyệt" có màu riêng. */
+body.aurel-dark-theme:has(#nav button[data-page="support"].active) :is(
+  .badge,.chip,.status-pill,.ai-key-status,
+  [class*="status"],[class*="badge"],[class*="chip"]
+){
+  opacity:1!important;
+}
+</style>
+<style id="AUREL_R147_SUPPORT_SUMMARY_FORCE">
+body.aurel-dark-theme .aurel-r147-summary-card{
+  color:#d9e8f2!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-text{
+  color:#d3e4ef!important;
+  opacity:1!important;
+  font-weight:500!important;
+  line-height:1.72!important;
+  text-shadow:0 0 1px rgba(255,255,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Trong năm #2 @ 1160696 ===
+5,255,.06)!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R147_SUPPORT_SUMMARY_FORCE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findCard(titleEl){
+    var cur=titleEl;
+    for(var i=0;i<9 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var r=cur.getBoundingClientRect();
+      var t=norm(cur.textContent);
+      if(r.width>=280 && r.height>=120 && r.height<=900 && t.length>=120 && t.length<=6000){
+        return cur;
+      }
+    }
+    return null;
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    document.querySelectorAll(".aurel-r147-summary-card").forEach(function(el){
+      el.classList.remove("aurel-r147-summary-card");
+    });
+
+    var title=null;
+    document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== Trong năm #3 @ 1161895 ===
+.querySelectorAll("h1,h2,h3,h4,strong,b,div,span").forEach(function(el){
+      if(title) return;
+      if(!visible(el)) return;
+      if(norm(el.textContent)==="Tóm tắt điều hành") title=el;
+    });
+
+    if(!title) return;
+
+    var card=findCard(title);
+    if(!card) return;
+
+    card.classList.add("aurel-r147-summary-card");
+    title.classList.add("aurel-r147-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    var statusWords=["Chờ duyệt","Đã duyệt","Đang xử lý"];
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(statusWords.includes(t)){
+        el.classList.add("aurel-r147-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      var childrenText=Array.from(el.children||[]).map(function(c){return norm(c.textContent)}).join(" ");
+      var ownText=t;
+      if(childrenText && childrenText===t) return;
+
+      if(
+        ownText.length>=35 ||
+        ownText.startsWith("Trong năm") ||
+        ownText.indexOf("VPB")>=0 ||
+        ownText.indexOf("tỷ đồng")>=0
+      ){
+        el.classList.add("aurel-r147-summary-text");
+        el.style.setProperty("color","#d3e4ef","important");
+        el.style.setProperty("opacity","1","important");
+        el.style.setProperty("font-weight","500","important");
+        el.style.setProperty("line-height","1.72","important");
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
+</body></html>
+
+
+
+=== NPL #1 @ 515768 ===
+nDL4zzl38NTKFH5rsln4YZiPQo4pXIwKgYehy3buBvkQyL20+THdSFYYBht+wDqMZtMfXMeIKlh3dYibc3x5SUhGTa0utpVpaJmM9BxyHSMqVyIjgRP2KdVKKO5KA2szANr3tpVaK694OYiYfNt/9MGdH+X8R1053R/C1V4j8p0H3wTlEMtJtnGI/GUC/kY1/M+0W9aGeAPVgbnTBucHTW/eLDGLXFVN6Q4I3tXm8BjVjQ214ZsuV9/FikyKFukz8DuSqkNlZSKagcfYCAk6n8pTvFZgLSTwHd7qyycz6WfzdJAHrGcrbu1lbf908JDunYp/hwWxelzXmfLBs3JtoNXvLpRUN0USGAH/l2Pb9N9gjNta6CCEKQ6SDA/4b/rE7NFUoBZU+VRng7P77ZS5hne8yLCFmc5QzIASDupswvK3Tubc8MJGNJQ2uo5IUDg6nyC3Dpf0Ca3OnHw+sEcInps6HytSzOJ9SoGKUHDAO5xqLD9wNmtYpxsu7s/VdxVyex24HtqKMIzKPVSwYlap/gaHQzRJVJ3X+tS6gZhiVVFclS3JASHoLBJ3wYQoAA") !important;
+    background-size:cover!important;
+    background-position:center center!important;
+    background-repeat:no-repeat!important;
+  }
+
+  .sidebar::before {
+    content:none!important;
+    display:none!important;
+    background:none!important;
+  }
+
+  .sidebar::after{
+    content:none!important;
+    display:none!important;
+    background:none!important;
+  }
+
+  .sidebar .brand {
+    position:relative!important;
+    z-index:8!important;
+    background:rgba(2,23,45,.08)!important;
+    border-bottom:1px solid rgba(150,220,255,.18)!important;
+    box-shadow:none!important;
+    -webkit-backdrop-filter:none!important;
+    backdrop-filter:none!important;
+  }
+
+  .sidebar>.menu-title,
+  .sidebar .nav {
+    position:relative!important;
+    z-index:8!important;
+  }
+
+  .sidebar>.menu-title,
+  .sidebar .nav .menu-title {
+    color:rgba(226,243,255,.88)!important;
+    text-shadow:0 2px 7px rgba(0,15,32,.72)!important;
+  }
+
+  .sidebar .nav button {
+    color:#f5fbff!important;
+    background:rgba(4,43,78,.05)!important;
+    border:1px solid rgba(128,213,255,.15)!important;
+    box-shadow:inset 0 0 12px rgba(28,129,220,.035)!important;
+    -webkit-backdrop-filter:none!important;
+    backdrop-filter:none!important;
+    text-shadow:0 1px 5px rgba(0,15,32,.75)!important;
+  }
+
+  .sidebar .nav button:hover {
+    background:rgba(8,85,151,.18)!important;
+    border-color:rgba(104,220,255,.30)!important;
+  }
+
+  .sidebar .nav button.active {
+    color:#fff!important;
+    background:transparent!important;
+    border:1px solid rgba(115,230,255,.92)!important;
+    box-shadow:
+      inset 3px 0 rgba(167,241,255,.96),
+      inset 0 0 18px rgba(74,204,255,.10),
+      0 0 12px rgba(0,175,255,.18)!important;
+  }
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  background:url("data:image/webp;base64,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
+
+=== NPL #2 @ 594099 ===
+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") center center/cover no-repeat!important;
+  background-image:url("data:image/webp;base64,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
+
+=== NPL #3 @ 674701 ===
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==")!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero::before{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy {
+  display:flex!important;
+  position:relative!important;
+  z-index:4!important;
+  width:58%!important;
+  height:100%!important;
+  padding:25px 34px!important;
+  justify-content:center!important;
+  background:transparent!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker {
+  color:#d8efff!important;
+  text-shadow:0 2px 7px rgba(0,20,45,.65)!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b {
+  color:#bfe8ff!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-bank {
+  color:#ffffff!important;
+  text-shadow:0 3px 12px rgba(0,19,42,.70)!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-title {
+  color:#d9f2ff!important;
+  text-shadow:0 3px 12px rgba(0,19,42,.62)!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p {
+  color:#edf8ff!important;
+  text-shadow:0 2px 7px rgba(0,18,40,.72)!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong {
+  color:#ffffff!important;
+}
+
+body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span {
+  color:#f4fbff!important;
+  border-color:rgba(196,235,255,.32)!important;
+  background:rgba(5,43,77,.08)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08)!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+  text-shadow:0 1px 4px rgba(0,15,35,.68)!important;
+}
+
+@media(max-width:1100px) and (min-width:761px) {
+  body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy {
+    width:68%!important;
+    padding:22px 28px!important;
+  }
+}
+
+@media(max-width:760px) {
+  body:has(#nav button[data-page="overview"].active) .ref-hero {
+    background:
+      linear-gradient(90deg,rgba(3,29,58,.42),rgba(3,29,58,.08)),
+      url("data:image/webp;base64,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
