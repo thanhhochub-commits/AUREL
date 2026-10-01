@@ -1,33 +1,105 @@
-name: AUREL inspect page ids
+name: AUREL analysis full-border LEDs
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
+
 permissions:
   contents: write
+
 jobs:
-  inspect:
+  patch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect page ids
+
+      - name: Apply full-border LEDs to exact analysis cards
         shell: python
         run: |
           from pathlib import Path
           import re
-          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
-          out=[]
-          for m in re.finditer(r'<button[^>]*data-page=["\']([^"\']+)["\'][^>]*>([\s\S]*?)</button>',s,re.I):
-              txt=re.sub(r'<[^>]+>',' ',m.group(2))
-              txt=re.sub(r'\s+',' ',txt).strip()
-              out.append(f"BUTTON {m.group(1)} :: {txt}")
-          for m in re.finditer(r'<section[^>]*id=["\']([^"\']+)["\'][^>]*class=["\']([^"\']*)["\']',s,re.I):
-              out.append(f"SECTION {m.group(1)} :: {m.group(2)}")
-          Path("page_ids_debug.txt").write_text("\n".join(out),encoding="utf-8")
+
+          p=Path("financial-intelligence.html")
+          s=p.read_text(encoding="utf-8")
+
+          # Remove the ineffective R139 runtime attempt.
+          for tag, ident in [
+              ("style","AUREL_R139_FULL_BORDER_LED_METRICS"),
+              ("script","AUREL_R139_FULL_BORDER_LED_METRICS_JS"),
+              ("style","AUREL_R140_ANALYSIS_FULL_BORDER")
+          ]:
+              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
+              s=pat.sub("",s)
+
+          css=r'''
+          <style id="AUREL_R140_ANALYSIS_FULL_BORDER">
+          /* R140 — đúng class thật của 3 card ROA / ROE / CIR là .analysis-feature */
+          body:has(#nav button[data-page="analysis"].active) .analysis-feature{
+            position:relative!important;
+            overflow:hidden!important;
+            isolation:isolate!important;
+          }
+
+          body:has(#nav button[data-page="analysis"].active) .analysis-feature::after{
+            content:""!important;
+            position:absolute!important;
+            inset:0!important;
+            border-radius:16px!important;
+            padding:1.5px!important;
+            pointer-events:none!important;
+            z-index:40!important;
+            -webkit-mask:
+              linear-gradient(#000 0 0) content-box,
+              linear-gradient(#000 0 0)!important;
+            -webkit-mask-composite:xor!important;
+            mask-composite:exclude!important;
+            opacity:.98!important;
+          }
+
+          /* ROA */
+          body:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(1)::after{
+            background:linear-gradient(135deg,#2dd4bf 0%,#22c7b8 46%,#60a5fa 100%)!important;
+            box-shadow:0 0 9px rgba(45,212,191,.14)!important;
+          }
+
+          /* ROE */
+          body:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(2)::after{
+            background:linear-gradient(135deg,#3b82f6 0%,#60a5fa 48%,#22c7b8 100%)!important;
+            box-shadow:0 0 9px rgba(59,130,246,.14)!important;
+          }
+
+          /* CIR */
+          body:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(3)::after{
+            background:linear-gradient(135deg,#38bdf8 0%,#22c7b8 52%,#60a5fa 100%)!important;
+            box-shadow:0 0 9px rgba(56,189,248,.13)!important;
+          }
+
+          /* Light mode dịu hơn một chút */
+          body:not(.aurel-dark-theme):has(#nav button[data-page="analysis"].active) .analysis-feature::after{
+            opacity:.78!important;
+          }
+
+          /* Dark mode rõ nhưng không chói */
+          body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature::after{
+            opacity:1!important;
+          }
+          </style>
+          '''
+
+          if "</body>" not in s:
+              raise SystemExit("Không tìm thấy </body>.")
+
+          s=s.replace("</body>",css.strip()+"\n</body>",1)
+          p.write_text(s,encoding="utf-8")
+
       - name: Commit
         run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add page_ids_debug.txt
-          git commit -m "Temporary page id inspection"
+          git add financial-intelligence.html
+          git commit -m "Apply full border LEDs to analysis cards"
           git push
