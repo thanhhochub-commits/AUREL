@@ -15194,5 +15194,303 @@ body:not(.aurel-dark-theme) .aurel-r152-summary-theme *{
     init();
   }
 })();
-</script>\n</body></html>
+</script>\n<style id="AUREL_R155_HERO_TYPOGRAPHY_REDESIGN">
+/* R155 — thiết kế lại toàn bộ chữ overlay của ảnh ngang Tổng quan cho khung mới.
+   Chỉ đổi typography/overlay text, không đổi ảnh, dữ liệu, slideshow hay bố cục phần khác. */
+
+body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+  display:flex!important;
+  position:absolute!important;
+  z-index:6!important;
+  left:clamp(18px,2.4vw,38px)!important;
+  top:50%!important;
+  transform:translateY(-50%)!important;
+  flex-direction:column!important;
+  align-items:flex-start!important;
+  justify-content:center!important;
+  width:min(52%,680px)!important;
+  height:auto!important;
+  padding:clamp(18px,2vw,28px) clamp(20px,2.4vw,34px)!important;
+  border-radius:18px!important;
+  pointer-events:none!important;
+  overflow:visible!important;
+}
+
+/* ---------- LIGHT MODE ---------- */
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+  background:
+    linear-gradient(90deg,
+      rgba(248,252,255,.91) 0%,
+      rgba(248,252,255,.78) 58%,
+      rgba(248,252,255,.28) 84%,
+      rgba(248,252,255,0) 100%)!important;
+  border-left:3px solid rgba(20,126,199,.78)!important;
+  box-shadow:0 12px 34px rgba(5,35,61,.10)!important;
+  -webkit-backdrop-filter:blur(2px)!important;
+  backdrop-filter:blur(2px)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker{
+  display:inline-flex!important;
+  align-items:center!important;
+  min-height:24px!important;
+  margin:0 0 9px!important;
+  padding:0 10px!important;
+  border:1px solid rgba(15,103,163,.20)!important;
+  border-radius:999px!important;
+  background:rgba(225,243,255,.78)!important;
+  color:#155983!important;
+  font-size:clamp(9px,.68vw,11px)!important;
+  line-height:1!important;
+  font-weight:850!important;
+  letter-spacing:.12em!important;
+  text-transform:uppercase!important;
+  text-shadow:none!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.72)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#0876b8!important;
+  font-weight:900!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+  display:block!important;
+  margin:0 0 2px!important;
+  color:#0a5f98!important;
+  -webkit-text-fill-color:#0a5f98!important;
+  -webkit-text-stroke:0!important;
+  font-size:clamp(28px,2.45vw,42px)!important;
+  line-height:.98!important;
+  font-weight:900!important;
+  letter-spacing:.01em!important;
+  text-shadow:none!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  display:block!important;
+  margin:0!important;
+  max-width:100%!important;
+  color:#092d49!important;
+  -webkit-text-fill-color:#092d49!important;
+  -webkit-text-stroke:0!important;
+  font-size:clamp(34px,3.35vw,56px)!important;
+  line-height:.98!important;
+  font-weight:900!important;
+  letter-spacing:-.035em!important;
+  text-shadow:none!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p{
+  max-width:560px!important;
+  margin:12px 0 0!important;
+  color:#214b68!important;
+  -webkit-text-fill-color:#214b68!important;
+  font-size:clamp(11px,.82vw,13px)!important;
+  line-height:1.45!important;
+  font-weight:650!important;
+  text-shadow:none!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#123a57!important;
+  -webkit-text-fill-color:#123a57!important;
+  font-weight:800!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-badges{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  gap:7px!important;
+  margin-top:12px!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  min-height:28px!important;
+  padding:0 11px!important;
+  border:1px solid rgba(19,104,160,.18)!important;
+  border-radius:999px!important;
+  background:rgba(247,252,255,.84)!important;
+  color:#174d70!important;
+  font-size:clamp(8.5px,.62vw,10px)!important;
+  line-height:1!important;
+  font-weight:750!important;
+  text-shadow:none!important;
+  box-shadow:0 3px 10px rgba(7,55,89,.06)!important;
+}
+
+/* ---------- DARK MODE ---------- */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+  background:
+    linear-gradient(90deg,
+      rgba(3,16,31,.84) 0%,
+      rgba(3,18,34,.68) 58%,
+      rgba(3,18,34,.22) 84%,
+      rgba(3,18,34,0) 100%)!important;
+  border-left:3px solid rgba(50,189,229,.82)!important;
+  box-shadow:0 14px 38px rgba(0,0,0,.20)!important;
+  -webkit-backdrop-filter:blur(2px)!important;
+  backdrop-filter:blur(2px)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker{
+  display:inline-flex!important;
+  align-items:center!important;
+  min-height:24px!important;
+  margin:0 0 9px!important;
+  padding:0 10px!important;
+  border:1px solid rgba(78,190,232,.34)!important;
+  border-radius:999px!important;
+  background:rgba(7,39,62,.62)!important;
+  color:#86dcff!important;
+  font-size:clamp(9px,.68vw,11px)!important;
+  line-height:1!important;
+  font-weight:850!important;
+  letter-spacing:.12em!important;
+  text-transform:uppercase!important;
+  text-shadow:none!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#b4ebff!important;
+  font-weight:900!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+  display:block!important;
+  margin:0 0 2px!important;
+  color:#75d5ff!important;
+  -webkit-text-fill-color:#75d5ff!important;
+  -webkit-text-stroke:0!important;
+  font-size:clamp(28px,2.45vw,42px)!important;
+  line-height:.98!important;
+  font-weight:900!important;
+  letter-spacing:.01em!important;
+  text-shadow:0 2px 12px rgba(0,0,0,.50)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  display:block!important;
+  margin:0!important;
+  max-width:100%!important;
+  color:#f7fbff!important;
+  -webkit-text-fill-color:#f7fbff!important;
+  -webkit-text-stroke:0!important;
+  font-size:clamp(34px,3.35vw,56px)!important;
+  line-height:.98!important;
+  font-weight:900!important;
+  letter-spacing:-.035em!important;
+  text-shadow:0 3px 15px rgba(0,0,0,.50)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p{
+  max-width:560px!important;
+  margin:12px 0 0!important;
+  color:#d5e9f5!important;
+  -webkit-text-fill-color:#d5e9f5!important;
+  font-size:clamp(11px,.82vw,13px)!important;
+  line-height:1.45!important;
+  font-weight:650!important;
+  text-shadow:0 1px 5px rgba(0,0,0,.55)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  font-weight:800!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-badges{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  gap:7px!important;
+  margin-top:12px!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  min-height:28px!important;
+  padding:0 11px!important;
+  border:1px solid rgba(85,194,230,.30)!important;
+  border-radius:999px!important;
+  background:rgba(5,30,49,.70)!important;
+  color:#e8f7ff!important;
+  font-size:clamp(8.5px,.62vw,10px)!important;
+  line-height:1!important;
+  font-weight:750!important;
+  text-shadow:none!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04)!important;
+}
+
+/* ---------- TABLET ---------- */
+@media(max-width:1100px) and (min-width:761px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+    left:24px!important;
+    width:min(59%,600px)!important;
+    padding:20px 24px!important;
+  }
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+    font-size:clamp(32px,4vw,46px)!important;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+@media(max-width:760px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+    left:16px!important;
+    top:50%!important;
+    transform:translateY(-50%)!important;
+    width:calc(100% - 32px)!important;
+    max-width:none!important;
+    padding:16px 17px!important;
+    border-radius:16px!important;
+  }
+
+  body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+    background:linear-gradient(90deg,rgba(248,252,255,.92),rgba(248,252,255,.72),rgba(248,252,255,.26))!important;
+  }
+
+  body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+    background:linear-gradient(90deg,rgba(3,16,31,.88),rgba(3,18,34,.70),rgba(3,18,34,.28))!important;
+  }
+
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker{
+    min-height:22px!important;
+    margin-bottom:8px!important;
+    padding:0 9px!important;
+    font-size:8.5px!important;
+    letter-spacing:.10em!important;
+  }
+
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+    font-size:27px!important;
+  }
+
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+    max-width:92%!important;
+    font-size:clamp(33px,10vw,44px)!important;
+    line-height:1!important;
+    letter-spacing:-.03em!important;
+  }
+
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p{
+    max-width:92%!important;
+    margin-top:10px!important;
+    font-size:10.5px!important;
+    line-height:1.4!important;
+  }
+
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges{
+    gap:6px!important;
+    margin-top:10px!important;
+  }
+
+  body:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+    min-height:26px!important;
+    padding:0 9px!important;
+    font-size:8.5px!important;
+  }
+}
+</style>
+</body></html>
 
