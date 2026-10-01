@@ -14083,5 +14083,224 @@ body:has(#nav button[data-page="analysis"].active) .analysis-feature::before{
   content:none!important;
 }
 </style>
+<style id="AUREL_R142_AI_KEY_COLLAPSE">
+/* Chỉ áp dụng cho khung Kết nối trí tuệ nhân tạo. */
+.ai-key-panel{
+  transition:
+    padding .22s ease,
+    margin .22s ease,
+    min-height .22s ease,
+    box-shadow .22s ease!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle{
+  min-height:32px!important;
+  height:32px!important;
+  padding:6px 11px!important;
+  border-radius:9px!important;
+  font-size:11px!important;
+  font-weight:750!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:6px!important;
+  flex:0 0 auto!important;
+  cursor:pointer!important;
+  border:1px solid #cddfe5!important;
+  background:#f7fbfd!important;
+  color:#31536b!important;
+}
+
+.ai-key-panel .aurel-ai-key-toggle:hover{
+  background:#edf6fa!important;
+  border-color:#adcbd9!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed{
+  padding:13px 16px!important;
+  margin-bottom:14px!important;
+  min-height:0!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-top{
+  align-items:center!important;
+  gap:10px!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-top > div:first-child{
+  flex:1 1 auto!important;
+  min-width:0!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-top h2{
+  margin:0!important;
+  font-size:15px!important;
+  line-height:1.25!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-top p,
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-form,
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-security,
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-feedback,
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-highlights{
+  display:none!important;
+}
+
+.ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
+  margin-left:auto!important;
+}
+
+body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle{
+  background:#142333!important;
+  border-color:#324a60!important;
+  color:#b9cddd!important;
+}
+
+body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
+  background:#192c3f!important;
+  border-color:#42637f!important;
+  color:#e6f2fb!important;
+}
+
+@media(max-width:700px){
+  .ai-key-panel.aurel-ai-key-collapsed{
+    padding:12px 13px!important;
+  }
+  .ai-key-panel.aurel-ai-key-collapsed .ai-key-top{
+    flex-wrap:nowrap!important;
+  }
+  .ai-key-panel.aurel-ai-key-collapsed .ai-key-status{
+    max-width:120px!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+  }
+  .ai-key-panel .aurel-ai-key-toggle{
+    padding:6px 9px!important;
+  }
+}
+</style>
+<script id="AUREL_R142_AI_KEY_COLLAPSE_JS">
+(function(){
+  var manualExpanded=false;
+  var manualCollapsed=false;
+
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function isReady(panel){
+    var status=panel && panel.querySelector(".ai-key-status");
+    if(!status) return false;
+    var txt=norm(status.textContent).toLowerCase();
+    return status.classList.contains("ready")
+      || txt.indexOf("sẵn sàng")>=0
+      || txt.indexOf("đã thiết lập")>=0
+      || txt.indexOf("đã lưu")>=0
+      || txt.indexOf("ready")>=0;
+  }
+
+  function updateButton(panel){
+    var btn=panel.querySelector(".aurel-ai-key-toggle");
+    if(!btn) return;
+    var collapsed=panel.classList.contains("aurel-ai-key-collapsed");
+    btn.textContent=collapsed ? "Mở cài đặt" : "Thu gọn";
+    btn.setAttribute("aria-expanded",collapsed ? "false" : "true");
+  }
+
+  function setCollapsed(panel,collapsed){
+    if(!panel) return;
+    panel.classList.toggle("aurel-ai-key-collapsed",!!collapsed);
+    updateButton(panel);
+  }
+
+  function ensure(){
+    var panel=document.querySelector(".ai-key-panel");
+    if(!panel) return;
+
+    var top=panel.querySelector(".ai-key-top");
+    if(!top) return;
+
+    var btn=panel.querySelector(".aurel-ai-key-toggle");
+    if(!btn){
+      btn=document.createElement("button");
+      btn.type="button";
+      btn.className="aurel-ai-key-toggle";
+      btn.addEventListener("click",function(){
+        var collapsed=panel.classList.contains("aurel-ai-key-collapsed");
+        if(collapsed){
+          manualExpanded=true;
+          manualCollapsed=false;
+          setCollapsed(panel,false);
+        }else{
+          manualExpanded=false;
+          manualCollapsed=true;
+          setCollapsed(panel,true);
+        }
+      });
+      top.appendChild(btn);
+    }
+
+    var ready=isReady(panel);
+
+    if(!ready && !manualCollapsed){
+      manualExpanded=false;
+      setCollapsed(panel,false);
+    }else if(ready && !manualExpanded){
+      setCollapsed(panel,true);
+    }else{
+      updateButton(panel);
+    }
+
+    panel.querySelectorAll("button").forEach(function(button){
+      if(button.dataset.aurelCollapseBound==="1") return;
+      var text=norm(button.textContent);
+
+      if(text.indexOf("Lưu khóa phiên")>=0){
+        button.dataset.aurelCollapseBound="1";
+        button.addEventListener("click",function(){
+          manualExpanded=false;
+          manualCollapsed=false;
+          setTimeout(function(){
+            setCollapsed(panel,true);
+          },220);
+        });
+      }else if(text.indexOf("Xóa khóa")>=0){
+        button.dataset.aurelCollapseBound="1";
+        button.addEventListener("click",function(){
+          manualExpanded=true;
+          manualCollapsed=false;
+          setTimeout(function(){
+            setCollapsed(panel,false);
+          },80);
+        });
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      ensure();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    attributes:true,
+    attributeFilter:["class"]
+  });
+})();
+</script>
 </body></html>
 
