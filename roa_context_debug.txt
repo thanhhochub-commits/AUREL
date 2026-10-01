@@ -1,0 +1,686 @@
+=== ROA #1 @ 35833 ===
+:#183449;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monito
+
+=== ROA #2 @ 410526 ===
+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
+
+=== ROA #3 @ 471164 ===
+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
+
+=== ROA #4 @ 1138025 ===
+""!important;
+  position:absolute!important;
+  inset:0!important;
+  border-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
+</body></html>
+
+
+
+=== ROE #1 @ 35839 ===
+49;padding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monitor-over
+
+=== ROE #2 @ 1138061 ===
+portant;
+  inset:0!important;
+  border-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
+</body></html>
+
+
+
+=== CIR #1 @ 35845 ===
+ding:0 34px 0 12px;font-size:13px;font-weight:650;max-width:100%}
+.analysis-chart-wrap{border:1px solid #e8eff2;border-radius:14px;background:linear-gradient(180deg,#fff 0%,#fbfdfd 100%);padding:14px 15px 8px}
+.analysis-chart{display:block;width:100%;max-height:330px;height:auto;overflow:visible}
+.analysis-chart text{font-family:inherit;fill:#758a9b;font-size:12px;font-weight:550}
+.analysis-chart .analysis-grid{stroke:#e5edf0;stroke-width:1;stroke-dasharray:4 6}
+.analysis-chart .analysis-line{stroke:#0b9386;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.analysis-chart .analysis-dot{fill:#0c968a;stroke:#fff;stroke-width:3}
+.analysis-chart .analysis-label{fill:#153f4c;font-size:13px;font-weight:800}
+.analysis-chart .analysis-year{font-size:12px;font-weight:750;fill:#526d80}
+.analysis-periods{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
+.analysis-period{background:#f4f8fa;border:1px solid #e3ecef;border-radius:10px;padding:10px 13px;min-width:140px;flex:1}
+.analysis-period small{display:block;color:#758b9b;font-size:11px;margin-bottom:4px}
+.analysis-period strong{font-size:17px;font-weight:800;color:#17384a;font-variant-numeric:tabular-nums}
+.analysis-period .missing{font-size:12px;color:#778b97;font-weight:500}
+.analysis-explainer{font-size:12px;color:#708795;margin:14px 0 0;line-height:1.65}
+.analysis-explainer b{color:#25475a}
+@media(max-width:1050px){.analysis-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:690px){.analysis-feature-grid{grid-template-columns:1fr}.analysis-feature{padding:17px}.analysis-trend{padding:16px}.analysis-trend-head{display:block}.analysis-select{max-width:100%;margin-top:14px}.analysis-period{min-width:calc(50% - 8px)}}
+
+/* AUREL metric tiles: same restrained design as ROA / ROE / CIR cards. */
+.grid.metrics>.metric{position:relative;overflow:hidden;min-height:137px;border-radius:16px;border:1px solid #dae5ed;box-shadow:0 9px 24px rgba(17,48,70,.035);padding:21px 22px 19px;background:#fff}
+.grid.metrics>.metric:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:#15977f}
+.grid.metrics>.metric:nth-child(2):before{background:#244e70}
+.grid.metrics>.metric:nth-child(3):before{background:#83b5bc}
+.grid.metrics>.metric:nth-child(4):before{background:#547c9f}
+.grid.metrics>.metric .metric-title{font-size:12px;font-weight:700;color:#6a8094}
+.grid.metrics>.metric>strong{font-size:30px;line-height:1.22;color:#1c3449;letter-spacing:-.9px}
+.grid.metrics>.metric .metric-foot{font-size:11.5px;color:#8395a5}
+.ai-top-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.ai-feature{position:relative;overflow:hidden;background:linear-gradient(180deg,#ffffff 0%,#fbfdfd 100%);border:1px solid #dce7ee;box-shadow:0 10px 24px rgba(17,48,70,.04);border-radius:16px;padding:18px 20px;min-width:0}
+.ai-feature:before{content:"";position:absolute;top:0;right:0;left:0;height:3px;background:#15977f}
+.ai-feature:nth-child(2):before{background:#244e70}.ai-feature:nth-child(3):before{background:#83b5bc}
+.ai-feature .label{font-size:11.5px;letter-spacing:.2px;font-weight:750;color:#607a8d;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ai-feature .label svg{width:17px;height:17px;color:#86a4b8;flex-shrink:0}
+.ai-feature strong{display:block;font-size:18px;line-height:1.35;letter-spacing:-.4px;color:#1c3449;margin:11px 0 6px}
+.ai-feature p{font-size:11.5px;line-height:1.65;color:#8798a6;margin:0}
+.ai-connect{border-radius:13px;padding:12px 14px;margin-top:14px;background:linear-gradient(180deg,#f3faf8 0%,#eef7f5 100%);border:1px solid #deece9;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ai-connect .ai-connect-status{font-size:12px;line-height:1.6;color:#416474}.ai-connect .button{min-height:35px;padding:8px 11px}
+@media(max-width:980px){.ai-top-features{grid-template-columns:1fr}}
+
+/* Phong cách thẻ: chỉ Nguồn dữ liệu và trang Giám sát chỉ tiêu. */
+.dataset-cards .dataset-card,.monitor-overview .monitor-card{position:relative;overflow:hidden;background:#fff;border:1px solid #dfe9ef;border-radius:17px;box-shadow:0 8px 24px rgba(19,48,69,.045);min-height:125px;padding:19px 18px 16px;display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.dataset-cards .dataset-card:before,.monitor-overview .monitor-card:before{position:absolute;content:'';left:0;top:0;width:100%;height:3px;background:#129b88}
+.dataset-cards .dataset-card:nth-child(2):before,.monitor-overview .monitor-card:nth-child(2):before{background:#204b70}
+.dataset-cards .dataset-card:nth-child(3):before,.monitor-overview .monitor-card:nth-child(3):before{background:#84b5bb}
+.dataset-cards .dataset-card:nth-child(4):before,.monitor-overview .monitor-card:nth-child(4):before{background:#b59d7b}
+.dataset-cards .dataset-card small,.monitor-overview .monitor-card small{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#6a8195;font-size:12px;font-weight:700;margin:0;line-height:1.45}
+.dataset-cards .dataset-card strong,.monitor-overview .monitor-card strong{font-size:29px;letter-spacing:-.9px;line-height:1.15;font-weight:800;color:#193449;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.monitor-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:0 0 20px}
+.monitor-overview .
+
+=== CIR #2 @ 1138093 ===
+border-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
+</body></html>
+
+
+
+=== Hiệu quả tài sản #1 @ 1138031 ===
+ortant;
+  position:absolute!important;
+  inset:0!important;
+  border-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
+</body></html>
+
+
+
+=== Hiệu quả vốn #1 @ 1138067 ===
+t;
+  inset:0!important;
+  border-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
+</body></html>
+
+
+
+=== Chi phí / Thu nhập #1 @ 1138099 ===
+-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
+</body></html>
+
