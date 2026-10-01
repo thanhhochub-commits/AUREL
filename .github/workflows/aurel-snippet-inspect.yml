@@ -1,4 +1,4 @@
-name: AUREL scenario LED medium
+name: AUREL scenario LED medium retry
 on:
   push:
     branches: [main]
@@ -10,55 +10,53 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Increase scenario result LED slightly
+      - name: Increase LED thickness robustly
         shell: python
         run: |
           from pathlib import Path
+          import re
           p=Path("financial-intelligence.html")
           s=p.read_text(encoding="utf-8")
-          old='''          .scenario-results .aurel-r134-led::before{
-            content:""!important;
-            position:absolute!important;
-            left:0!important;
-            right:0!important;
-            top:0!important;
-            width:100%!important;
-            height:2px!important;
-            max-height:2px!important;
-            z-index:20!important;
-            display:block!important;
-            opacity:1!important;
-            pointer-events:none!important;
-          }'''
-          new='''          .scenario-results .aurel-r134-led::before{
-            content:""!important;
-            position:absolute!important;
-            left:0!important;
-            right:0!important;
-            top:0!important;
-            width:100%!important;
-            height:3px!important;
-            max-height:3px!important;
-            border-radius:999px!important;
-            z-index:20!important;
-            display:block!important;
-            opacity:1!important;
-            pointer-events:none!important;
-          }'''
-          if old not in s:
-              raise SystemExit("Không tìm thấy block LED R134 hiện tại.")
-          s=s.replace(old,new,1)
-          s=s.replace(
-            '.scenario-results .aurel-r134-led-current::before{\n            background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;\n          }',
-            '.scenario-results .aurel-r134-led-current::before{\n            background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;\n            box-shadow:0 0 6px rgba(59,130,246,.20)!important;\n          }',
-            1
+
+          m=re.search(r'<style id="AUREL_R134_SCENARIO_EXACT">([\s\S]*?)</style>',s)
+          if not m:
+              raise SystemExit("Không tìm thấy style AUREL_R134_SCENARIO_EXACT.")
+          block=m.group(0)
+
+          block=re.sub(
+              r'(\.scenario-results \.aurel-r134-led::before\{[\s\S]*?height:)2px(!important;[\s\S]*?max-height:)2px',
+              r'\g<1>3px\g<2>3px',
+              block,
+              count=1
           )
-          s=s.replace(
-            '.scenario-results .aurel-r134-led-after::before{\n            background:linear-gradient(90deg,#20b8b0,#34d399)!important;\n          }',
-            '.scenario-results .aurel-r134-led-after::before{\n            background:linear-gradient(90deg,#20b8b0,#34d399)!important;\n            box-shadow:0 0 6px rgba(52,211,153,.17)!important;\n          }',
-            1
-          )
+
+          if 'border-radius:999px!important;' not in block:
+              block=block.replace(
+                  'max-height:3px!important;',
+                  'max-height:3px!important;\n            border-radius:999px!important;',
+                  1
+              )
+
+          if 'box-shadow:0 0 6px rgba(59,130,246,.20)!important;' not in block:
+              block=block.replace(
+                  'background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;',
+                  'background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;\n            box-shadow:0 0 6px rgba(59,130,246,.20)!important;',
+                  1
+              )
+
+          if 'box-shadow:0 0 6px rgba(52,211,153,.17)!important;' not in block:
+              block=block.replace(
+                  'background:linear-gradient(90deg,#20b8b0,#34d399)!important;',
+                  'background:linear-gradient(90deg,#20b8b0,#34d399)!important;\n            box-shadow:0 0 6px rgba(52,211,153,.17)!important;',
+                  1
+              )
+
+          if block==m.group(0):
+              raise SystemExit("Không có thay đổi trong block R134.")
+
+          s=s[:m.start()]+block+s[m.end():]
           p.write_text(s,encoding="utf-8")
+
       - name: Commit
         run: |
           if git diff --quiet -- financial-intelligence.html; then
@@ -68,5 +66,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Increase scenario result LED thickness slightly"
+          git commit -m "Increase scenario result LED thickness to medium"
           git push
