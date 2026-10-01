@@ -15588,5 +15588,124 @@ body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-li
   box-shadow:none!important;
 }
 </style>
+<style id="AUREL_R157_HERO_TEXT_CLARITY">
+/* R157 — giữ đúng kiểu chữ overlay hiện tại, chỉ làm lại màu/độ tương phản để rõ ở cả Light/Dark.
+   Không thêm nền hộp, không đổi ảnh, không đổi slideshow, không đổi vị trí/bố cục. */
+
+body:has(#nav button[data-page="overview"].active) .ref-hero>.ref-hero-live-copy{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+
+/* ===== LIGHT MODE ===== */
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  -webkit-text-stroke:.28px rgba(6,34,58,.85)!important;
+  text-shadow:
+    0 1px 1px rgba(5,25,44,.98),
+    0 2px 5px rgba(5,25,44,.78),
+    0 0 10px rgba(5,25,44,.34)!important;
+  font-weight:850!important;
+  letter-spacing:.10em!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  -webkit-text-stroke:.55px rgba(5,31,54,.82)!important;
+  text-shadow:
+    0 2px 2px rgba(3,20,36,.96),
+    0 4px 9px rgba(3,20,36,.72)!important;
+  font-weight:900!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  -webkit-text-stroke:.65px rgba(5,31,54,.84)!important;
+  text-shadow:
+    0 2px 2px rgba(3,20,36,.98),
+    0 5px 13px rgba(3,20,36,.75)!important;
+  font-weight:900!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  -webkit-text-stroke:.22px rgba(5,31,54,.72)!important;
+  text-shadow:
+    0 1px 1px rgba(3,20,36,.98),
+    0 2px 6px rgba(3,20,36,.72)!important;
+  font-weight:750!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  border-color:rgba(255,255,255,.78)!important;
+  background:rgba(3,22,39,.30)!important;
+  text-shadow:0 1px 2px rgba(0,15,28,.98)!important;
+  box-shadow:0 2px 7px rgba(3,22,39,.16)!important;
+  font-weight:800!important;
+}
+
+/* ===== DARK MODE ===== */
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-kicker b{
+  color:#8fe7ff!important;
+  -webkit-text-fill-color:#8fe7ff!important;
+  -webkit-text-stroke:.18px rgba(0,0,0,.70)!important;
+  text-shadow:
+    0 1px 2px rgba(0,0,0,.98),
+    0 0 9px rgba(46,198,240,.26)!important;
+  font-weight:850!important;
+  letter-spacing:.10em!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-bank{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  -webkit-text-stroke:.35px rgba(0,0,0,.76)!important;
+  text-shadow:
+    0 2px 3px rgba(0,0,0,.98),
+    0 0 10px rgba(58,190,235,.14)!important;
+  font-weight:900!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-title{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+  -webkit-text-stroke:.42px rgba(0,0,0,.80)!important;
+  text-shadow:
+    0 2px 3px rgba(0,0,0,.98),
+    0 0 12px rgba(58,190,235,.12)!important;
+  font-weight:900!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p,
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-copy p strong{
+  color:#f4fbff!important;
+  -webkit-text-fill-color:#f4fbff!important;
+  -webkit-text-stroke:.14px rgba(0,0,0,.70)!important;
+  text-shadow:0 1px 3px rgba(0,0,0,.98)!important;
+  font-weight:750!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-live-badges span{
+  color:#f4fbff!important;
+  -webkit-text-fill-color:#f4fbff!important;
+  border-color:rgba(109,215,248,.58)!important;
+  background:rgba(3,16,29,.34)!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.98)!important;
+  box-shadow:0 0 0 1px rgba(61,176,220,.04)!important;
+  font-weight:800!important;
+}
+</style>
 </body></html>
 
