@@ -1,0 +1,3048 @@
+=== aurel_t1_horizontal_user_20261001.png #1 @ 1042010 ===
+rySelectorAll('.ref-kpi .ref-spark').forEach(function(el){
+      el.remove();
+    });
+
+    document.querySelectorAll('.ref-kpi-number').forEach(function(el){
+      var span=wrapKpiValue(el);
+      if(span) fitValue(el,span);
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      run();
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded',schedule);
+  window.addEventListener('resize',schedule,{passive:true});
+
+  var root=document.getElementById('root');
+  if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+
+  setTimeout(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t
+
+=== aurel_t1_horizontal_user_20261001.png #2 @ 1062827 ===
+t(){
+    var saved='light';
+    try{
+      var v=localStorage.getItem(KEY);
+      if(v==='dark'||v==='light') saved=v;
+    }catch(e){}
+    apply(saved,false);
+
+    var btn=getButton();
+    if(!btn||btn.dataset.themeReady==='1') return;
+    btn.dataset.themeReady='1';
+    btn.addEventListener('click',function(){
+      apply(document.body.classList.contains('aurel-dark-theme')?'light':'dark',true);
+    });
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',init,{once:true});
+  }else{
+    init();
+  }
+
+  var root=document.getElementById('root');
+  if(root){
+    new MutationObserver(function(){requestAnimationFrame(init);}).observe(root,{childList:true,subtree:true});
+  }
+})();
+</script>
+<style id="AUREL_R118_USER_T1_T8_HERO_EXACT_FIT">
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+ 
+
+=== aurel_t1_horizontal_user_20261001.png #3 @ 1067651 ===
+der-wrap > .aurel-r78-slider-img{
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+  }
+}
+
+@media (min-width:1440px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:455px!important;
+    min-height:455px!important;
+    max-height:455px!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:350px!important;
+    min-height:350px!important;
+    max-height:350px!important;
+    overflow:hidden!important;
+  }
+}
+</style>
+<style id="AUREL_R121_HERO_TALLER_SLIMMER">
+/* R121 — chỉ tinh chỉnh tỷ lệ 8 ảnh ngang trên desktop/tablet.
+   Tòa nhà cao hơn và thon hơn; mobile cùng toàn bộ phần khác giữ nguyên. */
+
+@media (min-width:1101px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t1_horizontal_user_20261001.png #4 @ 1069322 ===
+der-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+b
+
+=== aurel_t2_horizontal_user_20261001.png #1 @ 1042144 ===
+).forEach(function(el){
+      var span=wrapKpiValue(el);
+      if(span) fitValue(el,span);
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      run();
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded',schedule);
+  window.addEventListener('resize',schedule,{passive:true});
+
+  var root=document.getElementById('root');
+  if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+
+  setTimeout(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17a
+
+=== aurel_t2_horizontal_user_20261001.png #2 @ 1062984 ===
+;
+
+    var btn=getButton();
+    if(!btn||btn.dataset.themeReady==='1') return;
+    btn.dataset.themeReady='1';
+    btn.addEventListener('click',function(){
+      apply(document.body.classList.contains('aurel-dark-theme')?'light':'dark',true);
+    });
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',init,{once:true});
+  }else{
+    init();
+  }
+
+  var root=document.getElementById('root');
+  if(root){
+    new MutationObserver(function(){requestAnimationFrame(init);}).observe(root,{childList:true,subtree:true});
+  }
+})();
+</script>
+<style id="AUREL_R118_USER_T1_T8_HERO_EXACT_FIT">
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!
+
+=== aurel_t2_horizontal_user_20261001.png #3 @ 1067808 ===
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:455px!important;
+    min-height:455px!important;
+    max-height:455px!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:350px!important;
+    min-height:350px!important;
+    max-height:350px!important;
+    overflow:hidden!important;
+  }
+}
+</style>
+<style id="AUREL_R121_HERO_TALLER_SLIMMER">
+/* R121 — chỉ tinh chỉnh tỷ lệ 8 ảnh ngang trên desktop/tablet.
+   Tòa nhà cao hơn và thon hơn; mobile cùng toàn bộ phần khác giữ nguyên. */
+
+@media (min-width:1101px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t2_horizontal_user_20261001.png #4 @ 1069479 ===
+der-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+bo
+
+=== aurel_t3_horizontal_user_20261001.png #1 @ 1042278 ===
+ schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      run();
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded',schedule);
+  window.addEventListener('resize',schedule,{passive:true});
+
+  var root=document.getElementById('root');
+  if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+
+  setTimeout(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  v
+
+=== aurel_t3_horizontal_user_20261001.png #2 @ 1063141 ===
+     apply(document.body.classList.contains('aurel-dark-theme')?'light':'dark',true);
+    });
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',init,{once:true});
+  }else{
+    init();
+  }
+
+  var root=document.getElementById('root');
+  if(root){
+    new MutationObserver(function(){requestAnimationFrame(init);}).observe(root,{childList:true,subtree:true});
+  }
+})();
+</script>
+<style id="AUREL_R118_USER_T1_T8_HERO_EXACT_FIT">
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!important;
+  min-height:360px!important;
+  max-height:360px!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wr
+
+=== aurel_t3_horizontal_user_20261001.png #3 @ 1067965 ===
+ }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:350px!important;
+    min-height:350px!important;
+    max-height:350px!important;
+    overflow:hidden!important;
+  }
+}
+</style>
+<style id="AUREL_R121_HERO_TALLER_SLIMMER">
+/* R121 — chỉ tinh chỉnh tỷ lệ 8 ảnh ngang trên desktop/tablet.
+   Tòa nhà cao hơn và thon hơn; mobile cùng toàn bộ phần khác giữ nguyên. */
+
+@media (min-width:1101px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t3_horizontal_user_20261001.png #4 @ 1069636 ===
+der-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+bo
+
+=== aurel_t3_horizontal_user_20261001.png #5 @ 1071080 ===
+overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*=
+
+=== aurel_t3_horizontal_user_20261001.png #6 @ 1075376 ===
+er-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.06!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+</style>
+<style id="AUREL_R124_T3_SIDE_GAP_FIX">
+/* Chỉ sửa ảnh ngang T3 bị lộ viền trái/phải. Các phần khác giữ nguyên. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.06!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+</style>
+<style id="AUREL_R125_COMPARE_REAL_CHART_ALIGN">
+/* R125 — chỉ sửa biểu đồ Đối chiếu ngân hàng:
+   cùng một hệ trục, cùng điểm bắt đầu, cùng chiều rộng vùng vẽ. */
+
+body:has(#nav button[data-page="comparison"].active) .compare-plot{
+  padding:20px 18px 16px!important;
+}
+
+body:has(#nav button[data-page="comparison"].
+
+=== aurel_t3_horizontal_user_20261001.png #7 @ 1076234 ===
+slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.06!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+</style>
+<style id="AUREL_R125_COMPARE_REAL_CHART_ALIGN">
+/* R125 — chỉ sửa biểu đồ Đối chiếu ngân hàng:
+   cùng một hệ trục, cùng điểm bắt đầu, cùng chiều rộng vùng vẽ. */
+
+body:has(#nav button[data-page="comparison"].active) .compare-plot{
+  padding:20px 18px 16px!important;
+}
+
+body:has(#nav button[data-page="comparison"].active) .compare-viz-list{
+  display:grid!important;
+  gap:12px!important;
+}
+
+body:has(#nav button[data-page="comparison"].active) .compare-viz-row{
+  display:grid!important;
+  grid-template-columns:74px minmax(0,1fr) 86px!important;
+  align-items:center!important;
+  column-gap:10px!important;
+  min-height:38px!important;
+  padding:0!important;
+  border:0!important;
+  border-left:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+body:has(#nav button[data-page="comparison"].active) .compare-viz-row:hover{
+  background:transparent!important;
+  filter:none!important;
+}
+
+body:has(#nav button[data-page="comparison"].active) .compare-viz-name{
+  width:74px!important;
+  min-width:74px!important;
+  max-width:74px!important;
+  padding:0 2px!important;
+  overflow:hidden!important;
+  text-overflow:
+
+=== aurel_t4_horizontal_user_20261001.png #1 @ 1063298 ===
+ntListener('DOMContentLoaded',init,{once:true});
+  }else{
+    init();
+  }
+
+  var root=document.getElementById('root');
+  if(root){
+    new MutationObserver(function(){requestAnimationFrame(init);}).observe(root,{childList:true,subtree:true});
+  }
+})();
+</script>
+<style id="AUREL_R118_USER_T1_T8_HERO_EXACT_FIT">
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!important;
+  min-height:360px!important;
+  max-height:360px!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap{
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aur
+
+=== aurel_t4_horizontal_user_20261001.png #2 @ 1068122 ===
+ight:350px!important;
+    max-height:350px!important;
+    overflow:hidden!important;
+  }
+}
+</style>
+<style id="AUREL_R121_HERO_TALLER_SLIMMER">
+/* R121 — chỉ tinh chỉnh tỷ lệ 8 ảnh ngang trên desktop/tablet.
+   Tòa nhà cao hơn và thon hơn; mobile cùng toàn bộ phần khác giữ nguyên. */
+
+@media (min-width:1101px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t4_horizontal_user_20261001.png #3 @ 1069793 ===
+ortant;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+ 
+
+=== aurel_t5_horizontal_user_20261001.png #1 @ 1042545 ===
+=document.getElementById('root');
+  if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+
+  setTimeout(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  var instances=[];
+  var globalIndex=0;
+  var masterTimer=null;
+  var animating=false;
+
+  function pr
+
+=== aurel_t5_horizontal_user_20261001.png #2 @ 1063455 ===
+unction(){requestAnimationFrame(init);}).observe(root,{childList:true,subtree:true});
+  }
+})();
+</script>
+<style id="AUREL_R118_USER_T1_T8_HERO_EXACT_FIT">
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!important;
+  min-height:360px!important;
+  max-height:360px!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap{
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img{
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-w
+
+=== aurel_t5_horizontal_user_20261001.png #3 @ 1068279 ===
+ tinh chỉnh tỷ lệ 8 ảnh ngang trên desktop/tablet.
+   Tòa nhà cao hơn và thon hơn; mobile cùng toàn bộ phần khác giữ nguyên. */
+
+@media (min-width:1101px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t5_horizontal_user_20261001.png #4 @ 1069950 ===
+igin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+
+
+=== aurel_t5_horizontal_user_20261001.png #5 @ 1071393 ===
+-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!im
+
+=== aurel_t5_horizontal_user_20261001.png #6 @ 1073631 ===
+61px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
+}
+</style>
+<style id="AUREL_R123_T5_SIDE_GAP_FIX">
+/* R123 — chỉ sửa ảnh ngang T5 bị lộ viền trái/phải.
+   Giữ nguyên hero, slideshow, mobile, dữ liệu và toàn bộ phần khác. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.06!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+</style>
+<style id="AUREL_R124_T3_SIDE_GAP_FIX">
+/* Chỉ sửa ảnh ngang T3 bị lộ viền trái/phải. Các phần khác giữ nguyên. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    position:a
+
+=== aurel_t5_horizontal_user_20261001.png #7 @ 1074489 ===
+slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.06!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+</style>
+<style id="AUREL_R124_T3_SIDE_GAP_FIX">
+/* Chỉ sửa ảnh ngang T3 bị lộ viền trái/phải. Các phần khác giữ nguyên. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"]{
+    width:100.
+
+=== aurel_t6_horizontal_user_20261001.png #1 @ 1063612 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!important;
+  min-height:360px!important;
+  max-height:360px!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap{
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img{
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+}
+
+@media (min-width:1440px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:39
+
+=== aurel_t6_horizontal_user_20261001.png #2 @ 1068436 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t6_horizontal_user_20261001.png #3 @ 1070107 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!
+
+=== aurel_t7_horizontal_user_20261001.png #1 @ 1042814 ===
+[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  var instances=[];
+  var globalIndex=0;
+  var masterTimer=null;
+  var animating=false;
+
+  function preload(list){
+    list.forEach(function(src){
+      var im=new Image();
+      im.decoding='async';
+      im.src=src;
+    });
+  }
+
+  function findInstance(el){
+    for(var i=0;i<instances.length;i++){
+      if(instances[i].el===el && instances[i].el.isConnected) return i
+
+=== aurel_t7_horizontal_user_20261001.png #2 @ 1063769 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!important;
+  min-height:360px!important;
+  max-height:360px!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap{
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img{
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+}
+
+@media (min-width:1440px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:390px!important;
+    min-height:390px!important;
+    max-height:390px!important;
+  }
+}
+
+@media (max-width:1100px) and (min-width:761px){
+  body:has(#nav button
+
+=== aurel_t7_horizontal_user_20261001.png #3 @ 1068593 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > 
+
+=== aurel_t7_horizontal_user_20261001.png #4 @ 1070264 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opaci
+
+=== aurel_t8_horizontal_user_20261001.png #1 @ 1042948 ===
+,
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  var instances=[];
+  var globalIndex=0;
+  var masterTimer=null;
+  var animating=false;
+
+  function preload(list){
+    list.forEach(function(src){
+      var im=new Image();
+      im.decoding='async';
+      im.src=src;
+    });
+  }
+
+  function findInstance(el){
+    for(var i=0;i<instances.length;i++){
+      if(instances[i].el===el && instances[i].el.isConnected) return instances[i];
+    }
+    return null;
+  }
+
+  function mount(el,list,key){
+    if(!el || !list || list.length<2) return null;
+
+    var ex
+
+=== aurel_t8_horizontal_user_20261001.png #2 @ 1063926 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+<style id="AUREL_R119_OVERVIEW_HERO_LARGER">
+/* R119 — chỉ tăng chiều cao khung ảnh ngang trang Tổng quan.
+   Giữ nguyên ảnh T1-T8, slideshow, sidebar, dữ liệu và toàn bộ phần còn lại. */
+body:has(#nav button[data-page="overview"].active) .ref-hero{
+  height:360px!important;
+  min-height:360px!important;
+  max-height:360px!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap{
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+}
+
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img{
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+}
+
+@media (min-width:1440px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:390px!important;
+    min-height:390px!important;
+    max-height:390px!important;
+  }
+}
+
+@media (max-width:1100px) and (min-width:761px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:330px!important;
+    min-height:330px!important;
+    max-height:330px!important;
+  }
+}
+
+@media (max-widt
+
+=== aurel_t8_horizontal_user_20261001.png #3 @ 1068750 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:104.2%!important;
+  min-width:104.2%!important;
+  max-width:104.2%!important;
+  left:-2.1%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.96 1.10!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+
+@media (min-width:761px) and (max-width:1100px){
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t1_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t2_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  
+
+=== aurel_t8_horizontal_user_20261001.png #4 @ 1070421 ===
+ody:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .re
+
+=== aurel_t4_hcm_user_exact_20261001.png #1 @ 1042412 ===
+}
+
+  document.addEventListener('DOMContentLoaded',schedule);
+  window.addEventListener('resize',schedule,{passive:true});
+
+  var root=document.getElementById('root');
+  if(root) new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+
+  setTimeout(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riê
+
+=== aurel_t4_hcm_user_exact_20261001.png #2 @ 1071237 ===
+overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_horizontal_user_20261001.png"]{
+  width:102.1%!important;
+  min-width:102.1%!important;
+  max-width:102.1%!important;
+  left:-1.05%!important;
+  right:auto!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[sr
+
+=== aurel_t4_hcm_user_exact_20261001.png #3 @ 1072283 ===
+img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
+}
+</style>
+<style id="AUREL_R123_T5_SIDE_GAP_FIX">
+/* R123 — chỉ sửa ảnh ngang T5 bị lộ viền trái/phải.
+   Giữ nguyên hero, slideshow, mobile, dữ liệu và toàn bộ phần khác. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+  
+
+=== aurel_t4_hcm_user_exact_20261001.png #4 @ 1072881 ===
+;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
+}
+</style>
+<style id="AUREL_R123_T5_SIDE_GAP_FIX">
+/* R123 — chỉ sửa ảnh ngang T5 bị lộ viền trái/phải.
+   Giữ nguyên hero, slideshow, mobile, dữ liệu và toàn bộ phần khác. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    hei
+
+=== aurel_t5_hanoi_hero_user_exact_20261001.webp #1 @ 795909 ===
+age="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_user_exact_t3frame_2172x724.webp"]{
+    position:absolute!important;
+    inset:0!important;
+    width:100%!important;
+    height:100%!important;
+    min-width:100%!important;
+    min-height:100%!important;
+    max-width:100%!important;
+    max-height:100%!important;
+    object-fit:cover!important;
+    object-position:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    opacity:1!important;
+    filter:none!important;
+    clip-path:none!important;
+  }
+}
+</style>
+
+<style id="AUREL_R105_T5_HANOI_FULL_VISIBLE">
+/* T5 ngang: giữ nguyên toàn bộ ảnh nguồn, không crop mất chữ, cờ Việt Nam hay Lăng Bác. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_hanoi_hero_user_exact_20261001.webp"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_hero_user_exact_20261001.webp"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+
+<style id="AUREL_R108_T7_DANANG_EXACT_FIT">
+/* Chỉ T7 Đà Nẵng: ép ảnh ngang và dọc khít đúng khung hiện tại, không crop. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_danang_hero_sunrise_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_danang_hero_night_20261001.png"],
+.sidebar > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_danang_sidebar_sunrise_20261001.png"],
+.sidebar > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_danang_sidebar_night_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+
+
+=== aurel_t6_hanoi_user_exact_20261001.png #1 @ 1042679 ===
+(run,60);
+  setTimeout(run,250);
+  setTimeout(run,800);
+})();
+</script>
+<script id="AUREL_R78_REAL_SLIDER_JS">
+(function(){
+  var HERO=[
+    'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/793a700b-cab0-422b-b7b6-2137bc11d3b9-aurel_t3_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/420092ec-2fdf-4b79-a067-35ce35b14cb0-aurel_t4_hcm_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/637e1e0a-45ae-476c-8d73-6c6dbd610614-aurel_t5_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/70ee8ed7-386f-49c1-ac3f-c9ec2d87148a-aurel_t6_hanoi_user_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
+  ];
+  var SIDE=[
+    'assets/aurel_sidebar_day_20261001.webp',
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/8add7565-63fc-45a1-bc11-a74370f6e5a9-aurel_sidebar_sunrise_exact_20261001.png',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/2b9ccf62-48db-49be-b87a-6b58fc31c351-aurel_sidebar_night_t4_match_t3.webp?v=R97-REAL-CROP',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/845429f8-f5df-40ca-ba6e-becfe004a7e7-aurel_t5_hanoi_sidebar_morning_20261001.png?v=R102-T5-HANOI-MORNING',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/377dcc56-bd1c-4ada-92f6-91900b46756f-aurel_t6_hanoi_sidebar_night_20261001.png?v=R106-T6-HANOI-NIGHT',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
+  ];
+  var HOLD=10000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
+
+  /* Một đồng hồ chung cho toàn bộ slideshow.
+     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  var instances=[];
+  var globalIndex=0;
+  var masterTimer=null;
+  var animating=false;
+
+  function preload(list){
+    list.forEach(function(src){
+      var im=new Image();
+      im.decoding='async';
+      im.src=src;
+    });
+  }
+
+  fun
+
+=== aurel_t6_hanoi_user_exact_20261001.png #2 @ 1071550 ===
+
+  max-height:100%!important;
+  scale:.98 1.06!important;
+  transform-origin:center center!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+}
+}
+</style>
+<style id="AUREL_R122_T4_T6_EXACT_PAIR_FIT">
+/* T4 dùng cùng geometry T3; T6 dùng cùng geometry T5. Chỉ ảnh ngang overview. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t3_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
+}
+</style>
+<style id="AUREL_R123_T5_SIDE_G
+
+=== aurel_t6_hanoi_user_exact_20261001.png #3 @ 1072443 ===
+[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
+}
+</style>
+<style id="AUREL_R123_T5_SIDE_GAP_FIX">
+/* R123 — chỉ sửa ảnh ngang T5 bị lộ viền trái/phải.
+   Giữ nguyên hero, slideshow, mobile, dữ liệu và toàn bộ phần khác. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-pat
+
+=== aurel_t6_hanoi_user_exact_20261001.png #4 @ 1073041 ===
+a (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:104.2%!important;
+    min-width:104.2%!important;
+    max-width:104.2%!important;
+    left:-2.1%!important;
+    right:auto!important;
+    scale:.96 1.10!important;
+    transform-origin:center center!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t4_hcm_user_exact_20261001.png"],
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_user_exact_20261001.png"]{
+    width:102.1%!important;
+    min-width:102.1%!important;
+    max-width:102.1%!important;
+    left:-1.05%!important;
+    right:auto!important;
+    scale:.98 1.06!important;
+    transform-origin:center center!important;
+  }
+}
+</style>
+<style id="AUREL_R123_T5_SIDE_GAP_FIX">
+/* R123 — chỉ sửa ảnh ngang T5 bị lộ viền trái/phải.
+   Giữ nguyên hero, slideshow, mobile, dữ liệu và toàn bộ phần khác. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    position:absolute!important;
+    top:0!important;
+    bottom:0!important;
+    width:101%!important;
+    min-width:101%!important;
+    max-width:101%!important;
+    left:-0.5%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+    scale:1 1.10!important;
+    transform-origin:center center!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    clip-path:none!important;
+    filter:none!important;
+    opacity:1!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t5_horizontal_user_20261001.png"]{
+    width:100.6%!important;
+    min-width:100.6%!important;
+    max-width:100.6%!important;
+    left:-0.3%!important;
+    right:auto!important;
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+    object-fit:fill!important;
+    object-position:center center!important;
+  
+
+=== aurel_t7_danang_hero_sunrise_20261001.png #1 @ 796914 ===
+ero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t6_hanoi_hero_user_exact_20261001.webp"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+
+<style id="AUREL_R108_T7_DANANG_EXACT_FIT">
+/* Chỉ T7 Đà Nẵng: ép ảnh ngang và dọc khít đúng khung hiện tại, không crop. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_danang_hero_sunrise_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_danang_hero_night_20261001.png"],
+.sidebar > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_danang_sidebar_sunrise_20261001.png"],
+.sidebar > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_danang_sidebar_night_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  clip-path:none!important;
+}
+</style>
+
+<style id="AUREL_R111_FULL_LIGHT_DARK_THEME">
+/* R111 — chỉ nâng cấp hệ Sáng/Tối. Light mode giữ nguyên giao diện hiện tại. */
+#aurel-theme-toggle{
+  cursor:pointer!important;
+  background:#126BFF!important;
+  border-color:#126BFF!important;
+  color:#fff!important;
+  box-shadow:0 4px 14px rgba(18,107,255,.22)!important;
+  transition:transform .18s ease,background-color .22s ease,border-color .22s ease,color .22s ease,box-shadow .22s ease!important;
+}
+#aurel-theme-toggle:hover{transform:translateY(-1px)!important;box-shadow:0 7px 18px rgba(18,107,255,.30)!important}
+#aurel-theme-toggle .aurel-theme-sun{display:block!important;width:19px!important;height:19px!important}
+#aurel-theme-toggle .aurel-theme-moon{display:none!important;width:19px!important;height:19px!important}
+
+/* Ở theme tối hiển thị MẶT TRĂNG; ở theme sáng hiển thị MẶT TR
+
+=== aurel_t8_danang_hero_night_20261001.png #1 @ 797075 ===
+left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  filter:none!important;
+  clip-path:none!important;
+}
+</style>
+
+<style id="AUREL_R108_T7_DANANG_EXACT_FIT">
+/* Chỉ T7 Đà Nẵng: ép ảnh ngang và dọc khít đúng khung hiện tại, không crop. */
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_danang_hero_sunrise_20261001.png"],
+body:has(#nav button[data-page="overview"].active)
+.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_danang_hero_night_20261001.png"],
+.sidebar > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t7_danang_sidebar_sunrise_20261001.png"],
+.sidebar > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t8_danang_sidebar_night_20261001.png"]{
+  position:absolute!important;
+  inset:0!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  bottom:0!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:fill!important;
+  object-position:center center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  opacity:1!important;
+  clip-path:none!important;
+}
+</style>
+
+<style id="AUREL_R111_FULL_LIGHT_DARK_THEME">
+/* R111 — chỉ nâng cấp hệ Sáng/Tối. Light mode giữ nguyên giao diện hiện tại. */
+#aurel-theme-toggle{
+  cursor:pointer!important;
+  background:#126BFF!important;
+  border-color:#126BFF!important;
+  color:#fff!important;
+  box-shadow:0 4px 14px rgba(18,107,255,.22)!important;
+  transition:transform .18s ease,background-color .22s ease,border-color .22s ease,color .22s ease,box-shadow .22s ease!important;
+}
+#aurel-theme-toggle:hover{transform:translateY(-1px)!important;box-shadow:0 7px 18px rgba(18,107,255,.30)!important}
+#aurel-theme-toggle .aurel-theme-sun{display:block!important;width:19px!important;height:19px!important}
+#aurel-theme-toggle .aurel-theme-moon{display:none!important;width:19px!important;height:19px!important}
+
+/* Ở theme tối hiển thị MẶT TRĂNG; ở theme sáng hiển thị MẶT TRỜI. */
+body.aurel-dark-theme #aurel-theme-toggle .aurel-theme-sun{display:none!important}
+body.aurel-dark-theme #aurel-theme-toggle .aurel-theme-moon{display:blo
