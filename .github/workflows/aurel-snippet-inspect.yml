@@ -1,0 +1,22 @@
+name: AUREL snippet inspect
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/aurel-snippet-inspect.yml"]
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect
+        run: |
+          grep -n -C 8 -E "Cảnh báo|Theo dõi|Bình thường|Thiếu dữ liệu|Kết quả mô phỏng|Tỷ lệ nợ xấu ban đầu" financial-intelligence.html > snippet_debug.txt || true
+      - name: Commit
+        run: |
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add snippet_debug.txt
+          git commit -m "Temporary UI snippet inspection"
+          git push
