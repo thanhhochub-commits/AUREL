@@ -1,241 +1,39 @@
-name: AUREL hard fix support result white text
+name: AUREL inspect real support template
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
-
 permissions:
   contents: write
-
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Force actual support result body to white on dark background
+      - name: Inspect pre-patch support template
         shell: python
         run: |
           from pathlib import Path
-          import re
-
-          p=Path("financial-intelligence.html")
-          s=p.read_text(encoding="utf-8")
-
-          # Remove earlier attempts so they cannot fight this exact runtime fix.
-          for ident in [
-              "AUREL_R147_SUPPORT_SUMMARY_FORCE",
-              "AUREL_R148_SUPPORT_SUMMARY_WHITE",
-              "AUREL_R149_SUPPORT_RESULT_WHITE_HARD"
-          ]:
-              s=re.sub(r'<style id="'+re.escape(ident)+r'">[\s\S]*?</style>\s*',"",s,flags=re.M)
-              s=re.sub(r'<script id="'+re.escape(ident)+r'_JS">[\s\S]*?</script>\s*',"",s,flags=re.M)
-
-          css=r'''
-          <style id="AUREL_R149_SUPPORT_RESULT_WHITE_HARD">
-          .aurel-r149-support-result-white,
-          .aurel-r149-support-result-white p,
-          .aurel-r149-support-result-white li,
-          .aurel-r149-support-result-white dd,
-          .aurel-r149-support-result-white blockquote,
-          .aurel-r149-support-result-white .aurel-r149-white-text{
-            color:#ffffff!important;
-            opacity:1!important;
-          }
-
-          .aurel-r149-support-result-white .aurel-r149-white-text{
-            font-weight:500!important;
-            line-height:1.72!important;
-            text-shadow:none!important;
-          }
-
-          .aurel-r149-support-result-white :is(h1,h2,h3,h4,h5,h6,strong,b){
-            color:#ffffff!important;
-            opacity:1!important;
-          }
-
-          .aurel-r149-support-result-white .aurel-r149-status{
-            color:#ffd36a!important;
-            opacity:1!important;
-          }
-          </style>
-          '''
-
-          js=r'''
-          <script id="AUREL_R149_SUPPORT_RESULT_WHITE_HARD_JS">
-          (function(){
-            function norm(v){
-              return String(v||"").replace(/\s+/g," ").trim();
-            }
-
-            function visible(el){
-              if(!el) return false;
-              var r=el.getBoundingClientRect();
-              return r.width>0 && r.height>0;
-            }
-
-            function parseRgb(str){
-              var m=String(str||"").match(/rgba?\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)(?:\s*,\s*([\d.]+))?\)/i);
-              if(!m) return null;
-              return {r:+m[1],g:+m[2],b:+m[3],a:m[4]===undefined?1:+m[4]};
-            }
-
-            function effectiveBg(el){
-              var cur=el;
-              for(var i=0;i<8 && cur;i++,cur=cur.parentElement){
-                var c=parseRgb(getComputedStyle(cur).backgroundColor);
-                if(c && c.a>0.05) return c;
-              }
-              return null;
-            }
-
-            function isDark(el){
-              var c=effectiveBg(el);
-              if(!c) return false;
-              var lum=(0.2126*c.r+0.7152*c.g+0.0722*c.b);
-              return lum<120;
-            }
-
-            function findExactText(text){
-              var nodes=document.querySelectorAll("h1,h2,h3,h4,h5,h6,strong,b,span,div,p");
-              for(var i=0;i<nodes.length;i++){
-                if(visible(nodes[i]) && norm(nodes[i].textContent)===text) return nodes[i];
-              }
-              return null;
-            }
-
-            function findResultCard(){
-              var heading=findExactText("Kết quả phân tích");
-              if(!heading) return null;
-
-              var cur=heading;
-              for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
-                var t=norm(cur.textContent);
-                var r=cur.getBoundingClientRect();
-                if(
-                  r.width>=300 &&
-                  r.height>=180 &&
-                  t.indexOf("Kết quả phân tích")>=0 &&
-                  t.indexOf("Tóm tắt điều hành")>=0
-                ){
-                  return cur;
-                }
-              }
-              return null;
-            }
-
-            function isStatus(el){
-              var t=norm(el.textContent);
-              return t==="Chờ duyệt" || t==="Đã duyệt" || t==="Đang xử lý";
-            }
-
-            function ownText(el){
-              var out="";
-              el.childNodes.forEach(function(n){
-                if(n.nodeType===3) out+=n.nodeValue+" ";
-              });
-              return norm(out);
-            }
-
-            function paint(){
-              var card=findResultCard();
-              if(!card || !isDark(card)) return;
-
-              card.classList.add("aurel-r149-support-result-white");
-
-              card.querySelectorAll("*").forEach(function(el){
-                if(!visible(el)) return;
-
-                if(isStatus(el)){
-                  el.classList.add("aurel-r149-status");
-                  el.style.setProperty("color","#ffd36a","important");
-                  el.style.setProperty("opacity","1","important");
-                  return;
-                }
-
-                var t=norm(el.textContent);
-                var own=ownText(el);
-
-                if(
-                  t==="Kết quả phân tích" ||
-                  t==="Tóm tắt điều hành" ||
-                  t==="Tóm tắt điều hành" ||
-                  /^Tóm tắt/.test(t)
-                ){
-                  el.style.setProperty("color","#ffffff","important");
-                  el.style.setProperty("opacity","1","important");
-                  return;
-                }
-
-                if(
-                  own.length>=20 ||
-                  t.startsWith("Trong năm") ||
-                  t.indexOf("VPB")>=0 ||
-                  t.indexOf("tỷ đồng")>=0 ||
-                  t.indexOf("NPL")>=0 ||
-                  t.indexOf("LDR")>=0
-                ){
-                  el.classList.add("aurel-r149-white-text");
-                  el.style.setProperty("color","#ffffff","important");
-                  el.style.setProperty("opacity","1","important");
-                  el.style.setProperty("font-weight","500","important");
-                  el.style.setProperty("line-height","1.72","important");
-                }
-              });
-
-              // Absolute last-resort: paint every leaf text element in the result card white,
-              // except the status badge and small top-right mode label.
-              card.querySelectorAll("p,li,dd,blockquote").forEach(function(el){
-                if(isStatus(el)) return;
-                el.style.setProperty("color","#ffffff","important");
-                el.style.setProperty("opacity","1","important");
-              });
-            }
-
-            var queued=false;
-            function schedule(){
-              if(queued) return;
-              queued=true;
-              requestAnimationFrame(function(){
-                queued=false;
-                paint();
-              });
-            }
-
-            if(document.readyState==="loading"){
-              document.addEventListener("DOMContentLoaded",schedule,{once:true});
-            }else{
-              schedule();
-            }
-
-            var root=document.getElementById("root")||document.body;
-            new MutationObserver(schedule).observe(root,{
-              childList:true,
-              subtree:true,
-              characterData:true,
-              attributes:true,
-              attributeFilter:["class","style"]
-            });
-
-            document.addEventListener("click",function(){setTimeout(paint,80)},true);
-            setInterval(paint,1200);
-          })();
-          </script>
-          '''
-
-          if "</body>" not in s:
-              raise SystemExit("Không tìm thấy </body>.")
-          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
-          p.write_text(s,encoding="utf-8")
-
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          # Ignore our appended patches near end.
+          cutoff=s.find('<style id="AUREL_R145_DARK_TEXT_CONTRAST">')
+          base=s[:cutoff] if cutoff>0 else s
+          needles=["Kết quả phân tích","Tóm tắt điều hành","Chờ duyệt","Câu hỏi tiếp theo","Tạo nội dung phân tích","result"]
+          out=[]
+          for needle in needles:
+              start=0;n=0
+              while True:
+                  i=base.find(needle,start)
+                  if i<0: break
+                  n+=1
+                  out.append(f"=== {needle} #{n} @ {i} ===\n"+base[max(0,i-5000):min(len(base),i+10000)])
+                  start=i+len(needle)
+                  if n>=15: break
+          Path("support_template_real.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Hard force support result text white on dark card"
+          git add support_template_real.txt
+          git commit -m "Temporary real support template inspection"
           git push
