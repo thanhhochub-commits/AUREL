@@ -14732,5 +14732,144 @@ body.aurel-dark-theme .aurel-r147-summary-card .aurel-r147-status{
   },true);
 })();
 </script>
+<style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
+body.aurel-dark-theme .aurel-r148-summary-card,
+body.aurel-dark-theme .aurel-r148-summary-card p,
+body.aurel-dark-theme .aurel-r148-summary-card li,
+body.aurel-dark-theme .aurel-r148-summary-card dd,
+body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
+  color:#ffffff!important;
+  opacity:1!important;
+  font-weight:500!important;
+  text-shadow:none!important;
+}
+
+body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
+body.aurel-dark-theme .aurel-r148-summary-title{
+  color:#ffffff!important;
+  opacity:1!important;
+}
+
+body.aurel-dark-theme .aurel-r148-status{
+  color:#ffd36a!important;
+  opacity:1!important;
+}
+</style>
+<script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function visible(el){
+    if(!el) return false;
+    var r=el.getBoundingClientRect();
+    return r.width>0 && r.height>0;
+  }
+
+  function findSummaryCard(){
+    var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
+    var title=titleEls.find(function(el){
+      return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
+    });
+    if(!title) return null;
+
+    var cur=title;
+    for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      var t=norm(cur.textContent);
+      var r=cur.getBoundingClientRect();
+      if(
+        r.width>=280 &&
+        r.height>=140 &&
+        r.height<=1200 &&
+        t.indexOf("Tóm tắt điều hành")>=0 &&
+        t.indexOf("Trong năm")>=0
+      ){
+        return {card:cur,title:title};
+      }
+    }
+    return null;
+  }
+
+  function paintWhite(el){
+    if(!el) return;
+    el.style.setProperty("color","#ffffff","important");
+    el.style.setProperty("opacity","1","important");
+    el.style.setProperty("font-weight","500","important");
+  }
+
+  function apply(){
+    if(!document.body.classList.contains("aurel-dark-theme")) return;
+
+    var found=findSummaryCard();
+    if(!found) return;
+
+    var card=found.card;
+    var title=found.title;
+    card.classList.add("aurel-r148-summary-card");
+    title.classList.add("aurel-r148-summary-title");
+    title.style.setProperty("color","#ffffff","important");
+    title.style.setProperty("opacity","1","important");
+
+    card.querySelectorAll("*").forEach(function(el){
+      var t=norm(el.textContent);
+      if(!t) return;
+
+      if(
+        t==="Chờ duyệt" ||
+        t==="Đã duyệt" ||
+        t==="Đang xử lý"
+      ){
+        el.classList.add("aurel-r148-status");
+        el.style.setProperty("color","#ffd36a","important");
+        el.style.setProperty("opacity","1","important");
+        return;
+      }
+
+      if(el===title) return;
+
+      if(
+        t.startsWith("Trong năm") ||
+        t.indexOf("VPB duy trì")>=0 ||
+        t.indexOf("tổng tài sản")>=0 ||
+        t.indexOf("dư nợ cho vay")>=0 ||
+        t.length>=60
+      ){
+        el.classList.add("aurel-r148-summary-text");
+        paintWhite(el);
+      }
+    });
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{
+    childList:true,
+    subtree:true,
+    characterData:true,
+    attributes:true,
+    attributeFilter:["class","style"]
+  });
+
+  document.addEventListener("click",function(){
+    setTimeout(apply,60);
+  },true);
+})();
+</script>
 </body></html>
 
