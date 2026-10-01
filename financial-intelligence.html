@@ -14029,5 +14029,59 @@ body:not(.aurel-dark-theme) .analysis-feature-grid .analysis-feature:nth-child(3
   display:none!important;
 }
 </style>
+<style id="AUREL_R141_ANALYSIS_FULL_BORDER_FORCE">
+/* R141 — full LED border, exact .analysis-feature cards, no mask tricks. */
+body:has(#nav button[data-page="analysis"].active) .analysis-feature{
+  position:relative!important;
+  overflow:visible!important;
+  border:2px solid transparent!important;
+  border-radius:16px!important;
+}
+
+/* Keep the existing card fill, add a second background layer only for the border. */
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(1){
+  background:
+    linear-gradient(145deg,rgba(20,184,166,.105),#101b28 44%,#0d1722 100%) padding-box,
+    linear-gradient(135deg,#2dd4bf,#22c7b8,#60a5fa) border-box!important;
+  box-shadow:0 0 10px rgba(45,212,191,.16),0 10px 26px rgba(0,0,0,.20)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(2){
+  background:
+    linear-gradient(145deg,rgba(59,130,246,.12),#101b28 44%,#0d1722 100%) padding-box,
+    linear-gradient(135deg,#4d9cff,#60a5fa,#2dd4bf) border-box!important;
+  box-shadow:0 0 10px rgba(77,156,255,.16),0 10px 26px rgba(0,0,0,.20)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(3){
+  background:
+    linear-gradient(145deg,rgba(56,189,248,.09),#101b28 44%,#0d1722 100%) padding-box,
+    linear-gradient(135deg,#38bdf8,#22c7b8,#60a5fa) border-box!important;
+  box-shadow:0 0 10px rgba(56,189,248,.15),0 10px 26px rgba(0,0,0,.20)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(1){
+  background:
+    linear-gradient(#ffffff,#fbfdfd) padding-box,
+    linear-gradient(135deg,#2bbcab,#55a8ff,#2bbcab) border-box!important;
+  box-shadow:0 0 8px rgba(43,188,171,.11),0 9px 24px rgba(17,48,70,.035)!important;
+}
+body:not(.aurel-dark-theme):has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(2){
+  background:
+    linear-gradient(#ffffff,#fbfdfd) padding-box,
+    linear-gradient(135deg,#4b91e8,#63adff,#2bbcab) border-box!important;
+  box-shadow:0 0 8px rgba(75,145,232,.11),0 9px 24px rgba(17,48,70,.035)!important;
+}
+body:not(.aurel-dark-theme):has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(3){
+  background:
+    linear-gradient(#ffffff,#fbfdfd) padding-box,
+    linear-gradient(135deg,#46b7d8,#2bbcab,#63adff) border-box!important;
+  box-shadow:0 0 8px rgba(70,183,216,.10),0 9px 24px rgba(17,48,70,.035)!important;
+}
+
+/* Remove the old top-only strip on these 3 cards so the full border is obvious. */
+body:has(#nav button[data-page="analysis"].active) .analysis-feature::before{
+  display:none!important;
+  content:none!important;
+}
+</style>
 </body></html>
 
