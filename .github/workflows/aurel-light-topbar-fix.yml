@@ -1,0 +1,144 @@
+name: AUREL light topbar contrast fix
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aurel-light-topbar-fix.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Patch only light-mode topbar title and bank/year controls
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p = Path("financial-intelligence.html")
+          s = p.read_text(encoding="utf-8")
+
+          block = r'''
+          <style id="AUREL_R115_LIGHT_TOPBAR_CONTRAST_FIX">
+          /* R115 — chỉ chỉnh LIGHT MODE ở topbar: tiêu đề tab + bộ chọn ngân hàng/năm. */
+          body:not(.aurel-dark-theme) .topbar{
+            background:linear-gradient(180deg,#F8FBFE 0%,#F2F7FB 100%)!important;
+            border-bottom:1px solid #C7D8E5!important;
+            box-shadow:0 5px 18px rgba(24,59,86,.08)!important;
+          }
+
+          body:not(.aurel-dark-theme) .crumb{
+            padding:8px 13px 8px 9px!important;
+            border:1px solid #C8DBEA!important;
+            border-radius:13px!important;
+            background:linear-gradient(135deg,#EAF3FC 0%,#EDF8F7 100%)!important;
+            box-shadow:0 4px 12px rgba(28,72,105,.07)!important;
+          }
+          body:not(.aurel-dark-theme) .crumb-icon{
+            background:linear-gradient(145deg,#DCEBFA,#E2F3F1)!important;
+            border:1px solid #B8D0E2!important;
+            color:#2563A7!important;
+            box-shadow:inset 0 1px 0 rgba(255,255,255,.75)!important;
+          }
+          body:not(.aurel-dark-theme) .crumb strong,
+          body:not(.aurel-dark-theme) #crumb-title{
+            color:#143A57!important;
+            -webkit-text-fill-color:#143A57!important;
+            text-shadow:none!important;
+            font-weight:850!important;
+          }
+          body:not(.aurel-dark-theme) .crumb small{
+            color:#5C7A90!important;
+            -webkit-text-fill-color:#5C7A90!important;
+            text-shadow:none!important;
+            font-weight:650!important;
+          }
+
+          body:not(.aurel-dark-theme) .ref-control{
+            min-height:48px!important;
+            border-radius:13px!important;
+            border:1px solid #BDD3E3!important;
+            box-shadow:0 4px 12px rgba(28,72,105,.06),inset 0 1px 0 rgba(255,255,255,.8)!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control:has(#bank-select){
+            background:linear-gradient(180deg,#EEF6FF 0%,#E7F1FC 100%)!important;
+            border-color:#B8D0E5!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control:has(#year-select){
+            background:linear-gradient(180deg,#EFFAF8 0%,#E7F5F2 100%)!important;
+            border-color:#B9DCD5!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control:has(#bank-select)>svg{
+            color:#2E70B8!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control:has(#year-select)>svg{
+            color:#158E84!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control select,
+          body:not(.aurel-dark-theme) #bank-select,
+          body:not(.aurel-dark-theme) #year-select{
+            background:transparent!important;
+            color:#123754!important;
+            -webkit-text-fill-color:#123754!important;
+            border-color:#BFD3E2!important;
+            font-weight:800!important;
+            box-shadow:none!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control:has(#bank-select) select{
+            border-color:#B8D0E5!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control:has(#year-select) select{
+            border-color:#B8DCD5!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control select:hover{
+            border-color:#88AEC9!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control select:focus{
+            border-color:#4F91C4!important;
+            box-shadow:0 0 0 3px rgba(66,133,185,.11)!important;
+            outline:none!important;
+          }
+          body:not(.aurel-dark-theme) .ref-control select option{
+            background:#FFFFFF!important;
+            color:#173B55!important;
+          }
+
+          @media(max-width:900px){
+            body:not(.aurel-dark-theme) .crumb{
+              padding:7px 10px 7px 7px!important;
+            }
+            body:not(.aurel-dark-theme) .ref-control{
+              min-height:44px!important;
+            }
+          }
+          </style>
+          '''
+
+          pat = re.compile(r'<style id="AUREL_R115_LIGHT_TOPBAR_CONTRAST_FIX">[\s\S]*?</style>\s*', re.M)
+          if pat.search(s):
+              s = pat.sub(block.strip() + "\n", s, count=1)
+          else:
+              marker = "</head>"
+              if marker not in s:
+                  raise SystemExit("Không tìm thấy </head>")
+              s = s.replace(marker, block.strip() + "\n" + marker, 1)
+
+          p.write_text(s, encoding="utf-8")
+      - name: Commit patch
+        run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add financial-intelligence.html
+          git commit -m "Improve light topbar title and selectors contrast"
+          git push
