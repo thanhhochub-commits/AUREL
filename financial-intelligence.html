@@ -16326,21 +16326,6 @@ body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-li
 <style id="AUREL_R124_DATA16_RISK_TABLE">
 /* R124 — Giám sát rủi ro chỉ dựa trên đúng 16 metric_id của Data.xlsx.
    Không thêm CAR, Tier1, LDR pháp lý, NIM hay bất kỳ tiêu chí nguồn nào khác. */
-.monitor-rules .aurel-r124-source-note{
-  margin:10px 0 14px;
-  padding:11px 13px;
-  border:1px solid #d7e4ed;
-  border-radius:11px;
-  background:#f7fafc;
-  color:#587084;
-  font-size:10.5px;
-  line-height:1.6;
-}
-body.aurel-dark-theme .monitor-rules .aurel-r124-source-note{
-  background:#111d2a!important;
-  border-color:#30475c!important;
-  color:#adc1d2!important;
-}
 .monitor-rules tr[data-aurel-r124-status="critical"] td:first-child{box-shadow:inset 3px 0 #ef6b82}
 .monitor-rules tr[data-aurel-r124-status="watch"] td:first-child{box-shadow:inset 3px 0 #dba84e}
 .monitor-rules tr[data-aurel-r124-status="normal"] td:first-child{box-shadow:inset 3px 0 #43bd75}
@@ -16749,9 +16734,9 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
     var cards=document.querySelectorAll('.monitor-overview .monitor-card');
     var vals=[counts.critical,counts.watch,counts.normal,counts.insufficient];
     var hints=[
-      'Trong 16 tiêu chí Data.xlsx',
-      'Trong 16 tiêu chí Data.xlsx',
-      'Trong 16 tiêu chí Data.xlsx',
+      'Trong 16 tiêu chí',
+      'Trong 16 tiêu chí',
+      'Trong 16 tiêu chí',
       'Thiếu kỳ trước hoặc giá trị nguồn'
     ];
     cards.forEach(function(card,i){
@@ -16763,7 +16748,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
     if(overall){
       var st=overall.querySelector('strong'),sp=overall.querySelector('span');
       if(st)st.textContent=counts.critical?'Có '+counts.critical+' tiêu chí cảnh báo':counts.watch?'Có '+counts.watch+' tiêu chí cần theo dõi':'Chưa có tiêu chí cảnh báo';
-      if(sp)sp.textContent='Đánh giá đúng 16 tiêu chí nguồn trong Data.xlsx, không thêm hoặc bớt tiêu chí.';
+      if(sp)sp.textContent='Đánh giá đúng 16 tiêu chí, không thêm hoặc bớt tiêu chí.';
     }
   }
 
@@ -16789,6 +16774,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
       }catch(_){}
 
       var rows=buildRows(cur,prev);
+      document.querySelectorAll('.monitor-rules .aurel-r124-source-note').forEach(function(n){n.remove()});
       if(rows.length!==16)throw new Error('Bảng không đủ 16 tiêu chí.');
 
       var cMap=rawMap(cur);
@@ -16798,7 +16784,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
       }).length;
 
       table.querySelector('thead').innerHTML=
-        '<tr><th>Nhóm</th><th class="num">Tiêu chí Data.xlsx</th><th class="num">Giá trị gốc</th>'+
+        '<tr><th>Nhóm</th><th class="num">Tiêu chí</th><th class="num">Giá trị gốc</th>'+
         '<th class="num">Chỉ báo giám sát</th><th class="num">Ngưỡng sàng lọc</th>'+
         '<th class="num">Mức độ</th><th class="num">Ý nghĩa rủi ro</th></tr>';
 
@@ -16812,20 +16798,15 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
       if(panel){
         var h2=panel.querySelector('.section-top h2');
         var small=panel.querySelector('.section-top small');
-        if(h2)h2.textContent='Bảng giám sát rủi ro từ 16 tiêu chí Data.xlsx';
-        if(small)small.textContent='16/16 tiêu chí · '+foundCount+'/16 có dữ liệu kỳ đang chọn · không thêm, không bớt';
-        if(!panel.querySelector('.aurel-r124-source-note')){
-          var note=document.createElement('div');
-          note.className='aurel-r124-source-note';
-          note.innerHTML='<strong>Nguyên tắc:</strong> Mỗi hàng tương ứng đúng 1 trong 16 metric_id của Data.xlsx. Backend có thể đổi tên kỹ thuật một số ID lõi (ví dụ assets ↔ total_assets), nhưng bảng quy ngược về ID nguồn trước khi tính. Riêng chi phí dự phòng rủi ro tín dụng sẽ lấy trực tiếp từ Data.xlsx nếu backend làm rơi trường này; không thêm tiêu chí ngoài file.';
-          var wrap=panel.querySelector('.table-wrap');
-          if(wrap)panel.insertBefore(note,wrap);
-        }
+        if(h2)h2.textContent='Bảng giám sát rủi ro từ 16 tiêu chí';
+        if(small)small.textContent='16/16 tiêu chí';
+        var oldSourceNote=panel.querySelector('.aurel-r124-source-note');
+        if(oldSourceNote)oldSourceNote.remove();
       }
 
       var limitation=document.querySelector('.monitor-rules + .note');
       if(limitation){
-        limitation.innerHTML='<strong>Phạm vi dữ liệu:</strong> Bảng này cố ý chỉ dùng đúng 16 tiêu chí nguồn trong Data.xlsx. Không bổ sung CAR, Tier 1, LCR, NSFR, NIM hay chỉ tiêu ngoài file. Vì vậy đây là lớp sàng lọc rủi ro từ dữ liệu BCTC hiện có, không phải bộ kiểm tra đầy đủ các tỷ lệ an toàn ngân hàng.';
+        limitation.innerHTML='<strong>Phạm vi dữ liệu:</strong> Bảng chỉ dùng đúng 16 tiêu chí nguồn, không thêm hoặc bớt. Đây là lớp sàng lọc rủi ro từ dữ liệu BCTC hiện có, không phải bộ kiểm tra đầy đủ các tỷ lệ an toàn ngân hàng.';
       }
       updateSummary(rows);
     }catch(e){
