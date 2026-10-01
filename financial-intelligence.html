@@ -16406,14 +16406,129 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
       new Intl.NumberFormat('vi-VN',{maximumFractionDigits:2}).format(Number(v));
   }
   function normalizeId(v){return String(v||'').trim().toLowerCase()}
+  function normalizeText(v){
+    return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+      .replace(/[–—−]/g,'-').replace(/\s+/g,' ').trim().toLowerCase();
+  }
+
+  /* Backend AUREL chuẩn hóa một số metric_id lõi thành alias ngắn
+     (assets/loans/deposits/equity/pat...), trong khi Data.xlsx dùng
+     total_assets/customer_loans/... Vì vậy phải quy về đúng 16 ID nguồn
+     bằng cả metric_id lẫn tên chỉ tiêu, không được coi alias là thiếu dữ liệu. */
+  var ID_ALIASES={
+    assets:'total_assets',
+    total_assets:'total_assets',
+
+    loans:'customer_loans',
+    customer_loans:'customer_loans',
+
+    deposits:'customer_deposits',
+    customer_deposits:'customer_deposits',
+
+    cash:'cash_and_equivalents',
+    cash_equivalents:'cash_and_equivalents',
+    cash_and_equivalents:'cash_and_equivalents',
+
+    equity:'total_equity',
+    total_equity:'total_equity',
+
+    group1:'group1_loans',
+    group1_loans:'group1_loans',
+    group2:'group2_loans',
+    group2_loans:'group2_loans',
+    group3:'group3_loans',
+    group3_loans:'group3_loans',
+    group4:'group4_loans',
+    group4_loans:'group4_loans',
+    group5:'group5_loans',
+    group5_loans:'group5_loans',
+
+    nii:'net_interest_income',
+    net_interest_income:'net_interest_income',
+
+    net_fee:'net_fee_income',
+    fee_income:'net_fee_income',
+    net_fee_income:'net_fee_income',
+
+    operating_income:'total_operating_income',
+    total_operating_income:'total_operating_income',
+
+    opex:'operating_expenses',
+    operating_expenses:'operating_expenses',
+
+    provision:'credit_loss_provision_expense',
+    credit_loss_provision_expense:'credit_loss_provision_expense',
+
+    pat:'profit_after_tax',
+    profit_after_tax:'profit_after_tax'
+  };
+
+  function idFromName(name){
+    var t=normalizeText(name);
+    if(!t)return '';
+    if(t==='tong tai san')return 'total_assets';
+    if(t.indexOf('cho vay khach hang')>=0)return 'customer_loans';
+    if(t.indexOf('tien gui')>=0&&t.indexOf('khach hang')>=0)return 'customer_deposits';
+    if(t.indexOf('tien va tuong duong tien')>=0)return 'cash_and_equivalents';
+    if(t.indexOf('von chu so huu')>=0)return 'total_equity';
+
+    if(t.indexOf('no nhom 1')>=0)return 'group1_loans';
+    if(t.indexOf('no nhom 2')>=0)return 'group2_loans';
+    if(t.indexOf('no nhom 3')>=0)return 'group3_loans';
+    if(t.indexOf('no nhom 4')>=0)return 'group4_loans';
+    if(t.indexOf('no nhom 5')>=0)return 'group5_loans';
+
+    if(t.indexOf('thu nhap lai thuan')>=0)return 'net_interest_income';
+    if((t.indexOf('hoat dong dich vu')>=0||t.indexOf('thu nhap phi')>=0)&&t.indexOf('thuan')>=0)return 'net_fee_income';
+    if(t.indexOf('tong thu nhap hoat dong')>=0)return 'total_operating_income';
+    if(t.indexOf('chi phi hoat dong')>=0)return 'operating_expenses';
+    if(t.indexOf('chi phi du phong')>=0&&t.indexOf('tin dung')>=0)return 'credit_loss_provision_expense';
+    if(t.indexOf('loi nhuan sau thue')>=0)return 'profit_after_tax';
+    return '';
+  }
+
+  function canonicalSourceId(row){
+    var id=normalizeId(row&& (row.metric_id||row.id));
+    if(ID_ALIASES[id])return ID_ALIASES[id];
+    return idFromName(row&&row.name);
+  }
+
+  function syntheticRow(state,id){
+    var v=state&&state.values||{};
+    var map={
+      total_assets:['assets','Tổng tài sản'],
+      customer_loans:['loans','Cho vay khách hàng'],
+      customer_deposits:['deposits','Tiền gửi của khách hàng'],
+      total_equity:['equity','Tổng cộng vốn chủ sở hữu'],
+      total_operating_income:['operating_income','Tổng thu nhập hoạt động – TOI'],
+      operating_expenses:['operating_expenses','Chi phí hoạt động – OPEX'],
+      profit_after_tax:['pat','Lợi nhuận sau thuế – PAT']
+    };
+    var spec=map[id];
+    if(!spec)return null;
+    var x=num(v[spec[0]]);
+    if(x==null)return null;
+    return {metric_id:id,name:spec[1],value:x,unit:'billion_vnd',_aurelFallback:true};
+  }
+
   function rawMap(state){
     var out={};
     (state&&state.raw||[]).forEach(function(r){
-      var id=normalizeId(r.metric_id||r.id);
-      if(id)out[id]=r;
+      var id=canonicalSourceId(r);
+      if(id && EXPECTED_IDS.indexOf(id)>=0 && !out[id])out[id]=r;
+    });
+
+    /* Chỉ fallback cho những metric lõi mà backend đã gom vào state.values.
+       Không tạo dữ liệu mới; đây vẫn chính là số liệu đã được backend đọc từ Data.xlsx. */
+    EXPECTED_IDS.forEach(function(id){
+      if(!out[id]){
+        var r=syntheticRow(state,id);
+        if(r)out[id]=r;
+      }
     });
     return out;
   }
+
   function getRaw(map,id){return map[normalizeId(id)]||null}
   function value(map,id){var r=getRaw(map,id);return r?num(r.value):null}
   function ratio(a,b){return a==null||b==null||b===0?null:a/b*100}
@@ -16647,6 +16762,12 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
       var rows=buildRows(cur,prev);
       if(rows.length!==16)throw new Error('Bảng không đủ 16 tiêu chí.');
 
+      var cMap=rawMap(cur);
+      var foundCount=EXPECTED_IDS.filter(function(id){
+        var r=cMap[id];
+        return r && num(r.value)!=null;
+      }).length;
+
       table.querySelector('thead').innerHTML=
         '<tr><th>Nhóm</th><th class="num">Tiêu chí Data.xlsx</th><th class="num">Giá trị gốc</th>'+
         '<th class="num">Chỉ báo giám sát</th><th class="num">Ngưỡng sàng lọc</th>'+
@@ -16663,11 +16784,11 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
         var h2=panel.querySelector('.section-top h2');
         var small=panel.querySelector('.section-top small');
         if(h2)h2.textContent='Bảng giám sát rủi ro từ 16 tiêu chí Data.xlsx';
-        if(small)small.textContent='16/16 tiêu chí · không thêm, không bớt';
+        if(small)small.textContent='16/16 tiêu chí · '+foundCount+'/16 có dữ liệu kỳ đang chọn · không thêm, không bớt';
         if(!panel.querySelector('.aurel-r124-source-note')){
           var note=document.createElement('div');
           note.className='aurel-r124-source-note';
-          note.innerHTML='<strong>Nguyên tắc:</strong> Mỗi hàng tương ứng đúng 1 metric_id trong Data.xlsx. Chỉ báo được chuẩn hóa bằng tăng trưởng hoặc tỷ lệ tính từ chính 16 trường dữ liệu này. Các ngưỡng là ngưỡng sàng lọc phân tích AUREL, không phải kết luận tuân thủ pháp lý NHNN.';
+          note.innerHTML='<strong>Nguyên tắc:</strong> Mỗi hàng tương ứng đúng 1 trong 16 metric_id của Data.xlsx. Backend có thể đổi tên kỹ thuật một số ID lõi (ví dụ assets ↔ total_assets), nhưng bảng quy ngược về ID nguồn trước khi tính. Chỉ báo chỉ dùng dữ liệu thuộc đúng 16 trường này; không thêm tiêu chí ngoài file.';
           var wrap=panel.querySelector('.table-wrap');
           if(wrap)panel.insertBefore(note,wrap);
         }
