@@ -12038,5 +12038,43 @@ body:has(#nav button[data-page="overview"].active)
   }
 }
 </style>
+<style id="AUREL_R120_TALLER_DESKTOP_HERO">
+/* R120 — chỉ chỉnh khung ảnh ngang trang Tổng quan trên desktop/tablet.
+   Mục tiêu: tăng chiều cao hiển thị để các tòa nhà trông cao, rõ và cân đối hơn
+   giống cảm giác trên giao diện điện thoại. Mobile giữ nguyên. */
+@media (min-width:1101px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:420px!important;
+    min-height:420px!important;
+    max-height:420px!important;
+    overflow:hidden!important;
+  }
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap,
+  body:has(#nav button[data-page="overview"].active)
+  .ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img{
+    height:100%!important;
+    min-height:100%!important;
+    max-height:100%!important;
+  }
+}
+
+@media (min-width:1440px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:455px!important;
+    min-height:455px!important;
+    max-height:455px!important;
+  }
+}
+
+@media (min-width:761px) and (max-width:1100px){
+  body:has(#nav button[data-page="overview"].active) .ref-hero{
+    height:350px!important;
+    min-height:350px!important;
+    max-height:350px!important;
+    overflow:hidden!important;
+  }
+}
+</style>
 </body></html>
 
