@@ -1,0 +1,96 @@
+name: AUREL hero taller slimmer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/aurel-hero-taller-slimmer.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Adjust only overview horizontal hero proportions
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p=Path("financial-intelligence.html")
+          s=p.read_text(encoding="utf-8")
+
+          selectors=",\n".join(
+              'body:has(#nav button[data-page="overview"].active)\n'
+              '.ref-hero > .aurel-r78-slider-wrap > .aurel-r78-slider-img[src*="aurel_t%d_horizontal_user_20261001.png"]' % i
+              for i in range(1,9)
+          )
+
+          css = f'''
+          <style id="AUREL_R121_HERO_TALLER_SLIMMER">
+          /* R121 — chỉ tinh chỉnh tỷ lệ 8 ảnh ngang trên desktop/tablet.
+             Tòa nhà cao hơn và thon hơn; mobile cùng toàn bộ phần khác giữ nguyên. */
+
+          @media (min-width:1101px){{
+          {selectors}{{
+            width:104.2%!important;
+            min-width:104.2%!important;
+            max-width:104.2%!important;
+            left:-2.1%!important;
+            right:auto!important;
+            height:100%!important;
+            min-height:100%!important;
+            max-height:100%!important;
+            scale:.96 1.10!important;
+            transform-origin:center center!important;
+            object-fit:fill!important;
+            object-position:center center!important;
+          }}
+          }}
+
+          @media (min-width:761px) and (max-width:1100px){{
+          {selectors}{{
+            width:102.1%!important;
+            min-width:102.1%!important;
+            max-width:102.1%!important;
+            left:-1.05%!important;
+            right:auto!important;
+            height:100%!important;
+            min-height:100%!important;
+            max-height:100%!important;
+            scale:.98 1.06!important;
+            transform-origin:center center!important;
+            object-fit:fill!important;
+            object-position:center center!important;
+          }}
+          }}
+          </style>
+          '''
+
+          pat=re.compile(r'<style id="AUREL_R121_HERO_TALLER_SLIMMER">[\s\S]*?</style>\s*',re.M)
+          if pat.search(s):
+              s=pat.sub(css.strip()+"\n",s,count=1)
+          else:
+              if "</body>" not in s:
+                  raise SystemExit("Không tìm thấy </body>.")
+              s=s.replace("</body>",css.strip()+"\n</body>",1)
+
+          p.write_text(s,encoding="utf-8")
+
+      - name: Commit website update
+        run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "AUREL UI Bot"
+          git config user.email "actions@github.com"
+          git add financial-intelligence.html
+          git commit -m "Make overview hero buildings taller and slimmer"
+          git push
