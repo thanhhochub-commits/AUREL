@@ -1,4 +1,4 @@
-name: AUREL transparent hero text
+name: AUREL remove hero glass permanently
 on:
   push:
     branches: [main]
@@ -13,21 +13,177 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Remove hero white glass panel completely
+      - name: Remove every hero text glass background and keep text only
         shell: python
         run: |
           from pathlib import Path
           import re
-          p=Path('financial-intelligence.html')
-          s=p.read_text(encoding='utf-8')
-          # Dọn các lớp hero text cũ có thể tạo nền/blur
-          for ident in ['AUREL_R155_HERO_TYPOGRAPHY_REDESIGN','AUREL_R156_HERO_COLOR_ONLY','AUREL_R157_HERO_TEXT_CLARITY','AUREL_R158_HERO_FULL_TRANSPARENT']:
-              s=re.sub(r'<style id="'+re.escape(ident)+r'">[\\s\\S]*?</style>\\s*','',s,flags=re.M)
-          css="<style id=\"AUREL_R158_HERO_FULL_TRANSPARENT\">\n/* R158 — xoá hoàn toàn nền trắng/blur của khối chữ hero.\n   Chỉ giữ chữ trực tiếp trên ảnh, trong suốt 100%. */\n\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero > .ref-hero-live-copy,\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero .ref-hero-live-copy{\n  background:transparent!important;\n  background-color:transparent!important;\n  background-image:none!important;\n  border:0!important;\n  outline:0!important;\n  box-shadow:none!important;\n  -webkit-backdrop-filter:none!important;\n  backdrop-filter:none!important;\n  filter:none!important;\n}\n\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero > .ref-hero-live-copy::before,\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero > .ref-hero-live-copy::after,\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero .ref-hero-live-copy::before,\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero .ref-hero-live-copy::after{\n  content:none!important;\n  display:none!important;\n  background:none!important;\n  box-shadow:none!important;\n  -webkit-backdrop-filter:none!important;\n  backdrop-filter:none!important;\n}\n\n/* Phòng trường hợp nền trắng nằm ở wrapper bên trong khối chữ */\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy > div{\n  background:transparent!important;\n  background-color:transparent!important;\n  background-image:none!important;\n  box-shadow:none!important;\n  -webkit-backdrop-filter:none!important;\n  backdrop-filter:none!important;\n  filter:none!important;\n}\n\n/* Giữ chữ rõ trực tiếp trên ảnh, không tạo nền hộp */\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker b,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-bank,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-title,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p strong{\n  color:#fff!important;\n  -webkit-text-fill-color:#fff!important;\n}\n\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker b{\n  text-shadow:0 1px 2px rgba(3,20,36,.98),0 2px 7px rgba(3,20,36,.72)!important;\n}\n\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-bank,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-title{\n  text-shadow:0 2px 3px rgba(3,20,36,.98),0 5px 13px rgba(3,20,36,.74)!important;\n}\n\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p,\nbody:not(.aurel-dark-theme):has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p strong{\n  text-shadow:0 1px 2px rgba(3,20,36,.98),0 2px 6px rgba(3,20,36,.72)!important;\n}\n\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker,\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-kicker b{\n  color:#8fe7ff!important;\n  -webkit-text-fill-color:#8fe7ff!important;\n  text-shadow:0 1px 2px rgba(0,0,0,.98),0 0 9px rgba(46,198,240,.24)!important;\n}\n\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-bank,\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-title,\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p,\nbody.aurel-dark-theme:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-copy p strong{\n  color:#fff!important;\n  -webkit-text-fill-color:#fff!important;\n  text-shadow:0 2px 4px rgba(0,0,0,.98)!important;\n}\n\n/* Badge chỉ hơi trong để đọc được nhưng vẫn nhìn xuyên ảnh */\nbody:has(#nav button[data-page=\"overview\"].active) .ref-hero-live-badges span{\n  background:rgba(0,0,0,.22)!important;\n  box-shadow:none!important;\n}\n</style>"
-          if '</body>' not in s:
-              raise SystemExit('Không tìm thấy </body>.')
-          s=s.replace('</body>',css+'\n</body>',1)
-          p.write_text(s,encoding='utf-8')
+
+          p=Path("financial-intelligence.html")
+          s=p.read_text(encoding="utf-8")
+
+          # Dọn các lớp thử nghiệm cuối file.
+          for ident in [
+              "AUREL_R155_HERO_TYPOGRAPHY_REDESIGN",
+              "AUREL_R156_HERO_COLOR_ONLY",
+              "AUREL_R157_HERO_TEXT_CLARITY",
+              "AUREL_R158_HERO_FULL_TRANSPARENT",
+              "AUREL_R159_HERO_TEXT_ONLY"
+          ]:
+              s=re.sub(
+                  r'<style id="'+re.escape(ident)+r'">[\s\S]*?</style>\s*',
+                  '',
+                  s,
+                  flags=re.M
+              )
+              s=re.sub(
+                  r'<script id="'+re.escape(ident)+r'_JS">[\s\S]*?</script>\s*',
+                  '',
+                  s,
+                  flags=re.M
+              )
+
+          # Sửa tận gốc mọi CSS block lịch sử của ref-hero-copy / ref-hero-live-copy.
+          pat=re.compile(
+              r'([^{}]*\.(?:ref-hero-live-copy|ref-hero-copy)[^{}]*\{)([^{}]*)(\})',
+              re.M
+          )
+          def clear_block(m):
+              head, body, tail = m.group(1), m.group(2), m.group(3)
+              body=re.sub(r'(?:background|background-color|background-image)\s*:[^;{}]+;?', '', body, flags=re.I)
+              body=re.sub(r'-webkit-backdrop-filter\s*:[^;{}]+;?', '', body, flags=re.I)
+              body=re.sub(r'(?<!-webkit-)backdrop-filter\s*:[^;{}]+;?', '', body, flags=re.I)
+              body=re.sub(r'box-shadow\s*:[^;{}]+;?', '', body, flags=re.I)
+              body=re.sub(r'(?:border|outline)\s*:[^;{}]+;?', '', body, flags=re.I)
+              body += '''
+  background:transparent!important;
+  background-color:transparent!important;
+  background-image:none!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+  box-shadow:none!important;
+  border:0!important;
+  outline:0!important;
+  filter:none!important;
+'''
+              return head+body+tail
+          s=pat.sub(clear_block,s)
+
+          css=r'''
+          <style id="AUREL_R159_HERO_TEXT_ONLY">
+          .ref-hero .ref-hero-copy.ref-hero-live-copy,
+          body .ref-hero .ref-hero-copy.ref-hero-live-copy{
+            background:transparent!important;
+            background-color:transparent!important;
+            background-image:none!important;
+            border:0!important;
+            outline:0!important;
+            box-shadow:none!important;
+            -webkit-backdrop-filter:none!important;
+            backdrop-filter:none!important;
+            filter:none!important;
+          }
+          .ref-hero .ref-hero-copy.ref-hero-live-copy::before,
+          .ref-hero .ref-hero-copy.ref-hero-live-copy::after{
+            content:none!important;
+            display:none!important;
+            background:none!important;
+            box-shadow:none!important;
+            -webkit-backdrop-filter:none!important;
+            backdrop-filter:none!important;
+          }
+          .ref-hero .ref-hero-live-badges span{
+            background:transparent!important;
+            background-color:transparent!important;
+            background-image:none!important;
+            border:0!important;
+            box-shadow:none!important;
+            -webkit-backdrop-filter:none!important;
+            backdrop-filter:none!important;
+          }
+
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-kicker,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-kicker b,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-bank,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-title,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-copy p,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-copy p strong,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-badges span{
+            color:#fff!important;
+            -webkit-text-fill-color:#fff!important;
+          }
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-kicker,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-kicker b{
+            text-shadow:0 1px 2px rgba(1,18,34,.98),0 2px 7px rgba(1,18,34,.78)!important;
+          }
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-bank,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-title{
+            text-shadow:0 2px 3px rgba(1,18,34,.98),0 5px 13px rgba(1,18,34,.78)!important;
+          }
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-copy p,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-copy p strong,
+          body:not(.aurel-dark-theme) .ref-hero .ref-hero-live-badges span{
+            text-shadow:0 1px 2px rgba(1,18,34,.98),0 2px 6px rgba(1,18,34,.76)!important;
+          }
+
+          body.aurel-dark-theme .ref-hero .ref-hero-live-kicker,
+          body.aurel-dark-theme .ref-hero .ref-hero-live-kicker b{
+            color:#8fe7ff!important;
+            -webkit-text-fill-color:#8fe7ff!important;
+            text-shadow:0 1px 2px rgba(0,0,0,.98),0 0 8px rgba(48,196,240,.22)!important;
+          }
+          body.aurel-dark-theme .ref-hero .ref-hero-live-bank,
+          body.aurel-dark-theme .ref-hero .ref-hero-live-title,
+          body.aurel-dark-theme .ref-hero .ref-hero-live-copy p,
+          body.aurel-dark-theme .ref-hero .ref-hero-live-copy p strong,
+          body.aurel-dark-theme .ref-hero .ref-hero-live-badges span{
+            color:#fff!important;
+            -webkit-text-fill-color:#fff!important;
+            text-shadow:0 2px 4px rgba(0,0,0,.98)!important;
+          }
+          </style>
+          '''
+
+          js=r'''
+          <script id="AUREL_R159_HERO_TEXT_ONLY_JS">
+          (function(){
+            function clearHero(){
+              document.querySelectorAll('.ref-hero .ref-hero-copy.ref-hero-live-copy').forEach(function(el){
+                el.style.setProperty('background','transparent','important');
+                el.style.setProperty('background-color','transparent','important');
+                el.style.setProperty('background-image','none','important');
+                el.style.setProperty('border','0','important');
+                el.style.setProperty('outline','0','important');
+                el.style.setProperty('box-shadow','none','important');
+                el.style.setProperty('-webkit-backdrop-filter','none','important');
+                el.style.setProperty('backdrop-filter','none','important');
+                el.style.setProperty('filter','none','important');
+              });
+              document.querySelectorAll('.ref-hero .ref-hero-live-badges span').forEach(function(el){
+                el.style.setProperty('background','transparent','important');
+                el.style.setProperty('border','0','important');
+                el.style.setProperty('box-shadow','none','important');
+                el.style.setProperty('-webkit-backdrop-filter','none','important');
+                el.style.setProperty('backdrop-filter','none','important');
+              });
+            }
+            if(document.readyState==='loading'){
+              document.addEventListener('DOMContentLoaded',clearHero,{once:true});
+            }else{
+              clearHero();
+            }
+            new MutationObserver(function(){
+              requestAnimationFrame(clearHero);
+            }).observe(document.getElementById('root')||document.body,{childList:true,subtree:true});
+          })();
+          </script>
+          '''
+
+          if "</body>" not in s:
+              raise SystemExit("Không tìm thấy </body>.")
+
+          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
+          p.write_text(s,encoding="utf-8")
 
       - name: Commit
         run: |
@@ -38,5 +194,5 @@ jobs:
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
           git add financial-intelligence.html
-          git commit -m "Remove overview hero white glass panel"
+          git commit -m "Remove hero white glass panel permanently"
           git push
