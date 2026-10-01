@@ -1,4 +1,4 @@
-name: AUREL inspect AI connect markup
+name: AUREL inspect AI panel exact
 on:
   push:
     branches: [main]
@@ -10,27 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect exact AI connect markup
+      - name: Extract exact AI key panel
         shell: python
         run: |
           from pathlib import Path
           s=Path("financial-intelligence.html").read_text(encoding="utf-8")
-          needles=["Kết nối trí tuệ nhân tạo","Lưu khóa phiên","Xóa khóa","Chưa thiết lập","Ưu tiên Gemini 3 Flash","analysis-support","ai-connect"]
-          out=[]
-          for needle in needles:
-              start=0;n=0
-              while True:
-                  i=s.find(needle,start)
-                  if i<0: break
-                  n+=1
-                  out.append(f"=== {needle} #{n} @ {i} ===\n"+s[max(0,i-2200):min(len(s),i+5000)])
-                  start=i+len(needle)
-                  if n>=12: break
-          Path("ai_connect_debug.txt").write_text("\n\n".join(out),encoding="utf-8")
+          needle="Kết nối trí tuệ nhân tạo"
+          i=s.find(needle)
+          if i<0: raise SystemExit("not found")
+          Path("ai_panel_exact.txt").write_text(s[max(0,i-3500):min(len(s),i+12000)],encoding="utf-8")
       - name: Commit
         run: |
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add ai_connect_debug.txt
-          git commit -m "Temporary AI connect markup inspection"
+          git add ai_panel_exact.txt
+          git commit -m "Temporary exact AI panel inspection"
           git push
