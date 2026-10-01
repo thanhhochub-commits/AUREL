@@ -11483,6 +11483,285 @@ body.aurel-dark-theme .sidebar img{
 })();
 </script>
 
+
+<style id="AUREL_R114_DARK_ANALYSIS_COMPARE_REFINEMENT">
+/* R114 — chỉ tinh chỉnh DARK MODE cho 2 tab:
+   Phân tích chỉ số + Đối chiếu ngân hàng.
+   Không đổi layout, dữ liệu, JS, light mode hoặc các tab khác. */
+
+/* =========================================================
+   PHÂN TÍCH CHỈ SỐ — tăng tương phản dữ liệu, bỏ cảm giác xám đục
+   ========================================================= */
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature{
+  background:linear-gradient(180deg,#111d2b 0%,#0d1722 100%)!important;
+  border-color:#2d4359!important;
+  box-shadow:0 10px 26px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.025)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(1){
+  background:linear-gradient(145deg,rgba(20,184,166,.105),#101b28 44%,#0d1722 100%)!important;
+  border-left-color:#22c7b8!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(2){
+  background:linear-gradient(145deg,rgba(59,130,246,.12),#101b28 44%,#0d1722 100%)!important;
+  border-left-color:#4d9cff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature:nth-child(3){
+  background:linear-gradient(145deg,rgba(56,189,248,.09),#101b28 44%,#0d1722 100%)!important;
+  border-left-color:#60bcd5!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-label{
+  color:#a9bdcd!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-label svg{
+  color:#78a6c9!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-value{
+  color:#f7fbff!important;
+  text-shadow:none!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-sub{
+  color:#a6b8c7!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-compare{
+  border-top-color:#2b4054!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-trend-sub{
+  color:#8fa6b8!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-compare.good .analysis-feature-trend-main{
+  background:#102f29!important;
+  border-color:#276253!important;
+  color:#79e0b6!important;
+  box-shadow:inset 0 0 0 1px rgba(121,224,182,.035)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-compare.bad .analysis-feature-trend-main{
+  background:#341e26!important;
+  border-color:#6b3744!important;
+  color:#f39aa7!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-compare.neutral .analysis-feature-trend-main{
+  background:#182433!important;
+  border-color:#344b61!important;
+  color:#b7c8d6!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-trend-main strong,
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-feature-arrow{
+  color:inherit!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-trend{
+  background:linear-gradient(180deg,#101b28 0%,#0c151f 100%)!important;
+  border-color:#2a4055!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-trend-head h2{
+  color:#f5f9fd!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-trend-head p,
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-select{
+  color:#a1b4c4!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-select select{
+  background:#0b1520!important;
+  border-color:#334a61!important;
+  color:#edf5fb!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart-wrap{
+  background:
+    linear-gradient(180deg,rgba(22,37,53,.74),rgba(9,16,24,.92))!important;
+  border-color:#2c4257!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.018)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart text{
+  fill:#a9bbc9!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart .analysis-grid{
+  stroke:#2b3d4f!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart .analysis-line{
+  stroke:#5aa7ff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart .analysis-dot{
+  fill:#36c5c1!important;
+  stroke:#0c1621!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart .analysis-label{
+  fill:#f2f7fb!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-chart .analysis-year{
+  fill:#b0c1ce!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-period{
+  background:#111d2a!important;
+  border-color:#2b4156!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-period small{
+  color:#9fb2c2!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-period strong{
+  color:#f1f7fb!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-explainer{
+  color:#9fb1c1!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="analysis"].active) .analysis-explainer b{
+  color:#d7e4ee!important;
+}
+
+/* =========================================================
+   ĐỐI CHIẾU NGÂN HÀNG — bỏ mảng trắng, làm thanh và số rõ hơn
+   ========================================================= */
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-settings,
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-pair-visual,
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-all-panel{
+  background:linear-gradient(180deg,#111c29 0%,#0d1621 100%)!important;
+  border-color:#2b4156!important;
+  box-shadow:0 10px 28px rgba(0,0,0,.18)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-modes{
+  background:#0d1722!important;
+  border-color:#2e455c!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-mode-btn{
+  color:#a9bac8!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-mode-btn.active{
+  background:linear-gradient(135deg,#287fee,#1e65ca)!important;
+  color:#fff!important;
+  box-shadow:0 5px 15px rgba(30,101,202,.24)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-period{
+  color:#92a7b9!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-plot{
+  background:linear-gradient(180deg,#101b28 0%,#0b141e 100%)!important;
+  border-color:#2f475d!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.025)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-plot-heading strong{
+  color:#f3f8fc!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-plot-heading small{
+  color:#9cb0c1!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-row{
+  background:#111d2a!important;
+  border-color:#273c50!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-row:nth-child(1){
+  background:linear-gradient(90deg,rgba(44,112,229,.17),rgba(17,29,42,.96) 38%)!important;
+  border-color:#315b91!important;
+  border-left-color:#4c93ff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-row:nth-child(2){
+  background:linear-gradient(90deg,rgba(20,184,166,.15),rgba(17,29,42,.96) 38%)!important;
+  border-color:#2b665f!important;
+  border-left-color:#2cc8b6!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-row:nth-child(n+3):nth-child(even){
+  background:#101b27!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-row:hover{
+  background:#172638!important;
+  filter:none!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-name{
+  color:#d9e6f0!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-number{
+  color:#f7fbff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-track{
+  background:#1b2a3a!important;
+  border-color:#33485c!important;
+  box-shadow:inset 0 1px 2px rgba(0,0,0,.30)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-zero{
+  border-left-color:#73899b!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-bar.first{
+  background:linear-gradient(90deg,#287cff,#4b9cff)!important;
+  border-color:#5ba4ff!important;
+  box-shadow:0 3px 10px rgba(40,124,255,.24)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-bar.second{
+  background:linear-gradient(90deg,#14a89c,#2fc7b3)!important;
+  border-color:#46d2c0!important;
+  box-shadow:0 3px 10px rgba(20,168,156,.22)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-dot.first{
+  background:#4b9cff!important;
+  border-color:#0d1722!important;
+  box-shadow:0 0 0 2px #4b9cff,0 3px 10px rgba(75,156,255,.24)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-dot.second{
+  background:#2fc7b3!important;
+  border-color:#0d1722!important;
+  box-shadow:0 0 0 2px #2fc7b3,0 3px 10px rgba(47,199,179,.22)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-viz-axis{
+  color:#96aabd!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-all-summary span{
+  background:#121f2d!important;
+  border-color:#2d4358!important;
+  color:#a8bbc9!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-all-summary strong{
+  color:#f0f6fb!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi{
+  background:#101a27!important;
+  border-color:#2c4257!important;
+  box-shadow:0 7px 18px rgba(0,0,0,.16)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi:nth-child(1){
+  background:linear-gradient(145deg,rgba(40,124,255,.13),#101a27 48%)!important;
+  border-top-color:#4b9cff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi:nth-child(2){
+  background:linear-gradient(145deg,rgba(47,199,179,.11),#101a27 48%)!important;
+  border-top-color:#2fc7b3!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi:nth-child(3){
+  background:linear-gradient(145deg,rgba(240,185,90,.10),#101a27 48%)!important;
+  border-top-color:#f0b95a!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi small,
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi .sub{
+  color:#9eb1c1!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-kpi strong{
+  color:#f5f9fd!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-insight{
+  background:
+    radial-gradient(circle at 100% 0%,rgba(47,199,179,.14),transparent 38%),
+    linear-gradient(145deg,#102942 0%,#12364d 62%,#102c3e 100%)!important;
+  border-color:#2d5871!important;
+  box-shadow:0 12px 30px rgba(0,0,0,.20)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-insight .eyebrow{
+  color:#69afff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-insight h3{
+  color:#f7fbff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-insight p{
+  color:#d0dee8!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-insight .delta{
+  background:#16384c!important;
+  border-color:#35627a!important;
+  color:#eff8ff!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-details{
+  background:#0e1823!important;
+  border-color:#2b4055!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-details summary{
+  color:#dbe8f2!important;
+}
+</style>
+
 <script id="AUREL_R111_FULL_LIGHT_DARK_THEME_JS">
 (function(){
   var KEY='aurel-theme-mode';
