@@ -13779,5 +13779,37 @@ body.aurel-dark-theme .aurel-r135-led{
   document.addEventListener("click",function(){setTimeout(apply,40)},true);
 })();
 </script>
+<style id="AUREL_R136_SCENARIO_STANDARD_LED">
+/* R136 — chuẩn LED đã chốt: cùng độ dày với khung "Tổng hợp báo cáo". */
+body:has(#nav button[data-page="scenario"].active) .scenario-control{
+  position:relative!important;
+  overflow:hidden!important;
+  border-top-width:1px!important;
+}
+
+body:has(#nav button[data-page="scenario"].active) .scenario-control::before{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  width:100%!important;
+  height:3px!important;
+  max-height:3px!important;
+  border-radius:999px 999px 0 0!important;
+  z-index:25!important;
+  pointer-events:none!important;
+  opacity:1!important;
+  background:linear-gradient(90deg,#20c7bb,#47b8ff)!important;
+}
+
+body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) .scenario-control::before{
+  box-shadow:0 0 5px rgba(32,199,187,.16)!important;
+}
+
+body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) .scenario-control::before{
+  box-shadow:0 0 6px rgba(47,199,179,.20)!important;
+}
+</style>
 </body></html>
 
