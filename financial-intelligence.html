@@ -9638,11 +9638,13 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
 (function(){
   var HERO=[
     'assets/aurel_hero_day_20261001.webp',
-    'assets/aurel_hero_night_20261001.webp'
+    'assets/aurel_hero_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/975bc1d1-e8e1-4fee-a766-1300375e6ad9-aurel_hero_sunrise_20261001.png'
   ];
   var SIDE=[
     'assets/aurel_sidebar_day_20261001.webp',
-    'assets/aurel_sidebar_night_20261001.webp'
+    'assets/aurel_sidebar_night_20261001.webp',
+    'https://aurel-assets-20260929.floot.app/_cdn/static/fb739621-4e96-4ddc-b090-c1fe92a321ea-aurel_sidebar_sunrise_20261001.png'
   ];
   var HOLD=10000;
   var MOVE=900;
@@ -9743,7 +9745,7 @@ body:has(#nav button[data-page="overview"].active) .ref-hero > .ref-hero-live-co
     }
 
     animating=true;
-    var ni=(globalIndex+1)%2;
+    var ni=(globalIndex+1)%HERO.length;
 
     /* Chuẩn bị tất cả slider trong cùng một lượt JS. */
     instances.forEach(function(inst){
