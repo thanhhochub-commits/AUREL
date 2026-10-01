@@ -13973,5 +13973,97 @@ body.aurel-dark-theme .aurel-r138-source-led{
   document.addEventListener("click",function(){setTimeout(apply,40)},true);
 })();
 </script>
+<style id="AUREL_R139_FULL_BORDER_LED_METRICS">
+.aurel-r139-full-led{
+  position:relative!important;
+  overflow:hidden!important;
+  border-radius:18px!important;
+}
+
+.aurel-r139-full-led::after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  border-radius:18px!important;
+  padding:1.5px!important;
+  background:linear-gradient(135deg,#29d3ff,#31e0b8,#5aa8ff)!important;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0)!important;
+  -webkit-mask-composite:xor!important;
+  mask-composite:exclude!important;
+  pointer-events:none!important;
+  z-index:50!important;
+  opacity:.95!important;
+  box-shadow:0 0 10px rgba(41,211,255,.10)!important;
+}
+
+body:not(.aurel-dark-theme) .aurel-r139-full-led::after{
+  opacity:.82!important;
+  box-shadow:0 0 8px rgba(41,211,255,.08)!important;
+}
+</style>
+<script id="AUREL_R139_FULL_BORDER_LED_METRICS_JS">
+(function(){
+  function norm(v){
+    return String(v||"").replace(/\s+/g," ").trim();
+  }
+
+  function validCard(el){
+    if(!el || el===document.body) return false;
+    var r=el.getBoundingClientRect();
+    var t=norm(el.textContent);
+    return r.width>=220 && r.width<=620 && r.height>=120 && r.height<=360 && t.length<520;
+  }
+
+  function nearestCard(el){
+    if(!el) return null;
+    var preferred=el.closest(".metric,.card,.panel,.analysis-feature,.analysis-card");
+    if(preferred && validCard(preferred)) return preferred;
+    var cur=el;
+    for(var i=0;i<8 && cur && cur!==document.body;i++,cur=cur.parentElement){
+      if(validCard(cur)) return cur;
+    }
+    return null;
+  }
+
+  function mark(label){
+    document.querySelectorAll("body *").forEach(function(el){
+      if(norm(el.textContent)!==label) return;
+      var card=nearestCard(el);
+      if(card) card.classList.add("aurel-r139-full-led");
+    });
+  }
+
+  function apply(){
+    document.querySelectorAll(".aurel-r139-full-led").forEach(function(el){
+      el.classList.remove("aurel-r139-full-led");
+    });
+    mark("ROA - Hiệu quả tài sản");
+    mark("ROE - Hiệu quả vốn");
+    mark("CIR - Chi phí / Thu nhập");
+  }
+
+  var queued=false;
+  function schedule(){
+    if(queued) return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      apply();
+    });
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  var root=document.getElementById("root")||document.body;
+  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener("click",function(){setTimeout(apply,40)},true);
+})();
+</script>
 </body></html>
 
