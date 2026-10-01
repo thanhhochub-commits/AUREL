@@ -1,193 +1,35 @@
-name: AUREL force white support summary text
+name: AUREL inspect exact support output
 on:
   push:
     branches: [main]
     paths: [".github/workflows/aurel-snippet-inspect.yml"]
-
 permissions:
   contents: write
-
 jobs:
-  patch:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Force executive summary text to white in dark mode
+      - name: Inspect exact dynamic output
         shell: python
         run: |
           from pathlib import Path
-          import re
-
-          p=Path("financial-intelligence.html")
-          s=p.read_text(encoding="utf-8")
-
-          for tag, ident in [
-              ("style","AUREL_R148_SUPPORT_SUMMARY_WHITE"),
-              ("script","AUREL_R148_SUPPORT_SUMMARY_WHITE_JS")
-          ]:
-              pat=re.compile(r'<'+tag+r' id="'+re.escape(ident)+r'">[\s\S]*?</'+tag+r'>\s*',re.M)
-              s=pat.sub("",s)
-
-          css=r'''
-          <style id="AUREL_R148_SUPPORT_SUMMARY_WHITE">
-          body.aurel-dark-theme .aurel-r148-summary-card,
-          body.aurel-dark-theme .aurel-r148-summary-card p,
-          body.aurel-dark-theme .aurel-r148-summary-card li,
-          body.aurel-dark-theme .aurel-r148-summary-card dd,
-          body.aurel-dark-theme .aurel-r148-summary-card .aurel-r148-summary-text{
-            color:#ffffff!important;
-            opacity:1!important;
-            font-weight:500!important;
-            text-shadow:none!important;
-          }
-
-          body.aurel-dark-theme .aurel-r148-summary-card :is(h1,h2,h3,h4,strong,b),
-          body.aurel-dark-theme .aurel-r148-summary-title{
-            color:#ffffff!important;
-            opacity:1!important;
-          }
-
-          body.aurel-dark-theme .aurel-r148-status{
-            color:#ffd36a!important;
-            opacity:1!important;
-          }
-          </style>
-          '''
-
-          js=r'''
-          <script id="AUREL_R148_SUPPORT_SUMMARY_WHITE_JS">
-          (function(){
-            function norm(v){
-              return String(v||"").replace(/\s+/g," ").trim();
-            }
-
-            function visible(el){
-              if(!el) return false;
-              var r=el.getBoundingClientRect();
-              return r.width>0 && r.height>0;
-            }
-
-            function findSummaryCard(){
-              var titleEls=[].slice.call(document.querySelectorAll("h1,h2,h3,h4,strong,b,div,span"));
-              var title=titleEls.find(function(el){
-                return visible(el) && norm(el.textContent)==="Tóm tắt điều hành";
-              });
-              if(!title) return null;
-
-              var cur=title;
-              for(var i=0;i<10 && cur && cur!==document.body;i++,cur=cur.parentElement){
-                var t=norm(cur.textContent);
-                var r=cur.getBoundingClientRect();
-                if(
-                  r.width>=280 &&
-                  r.height>=140 &&
-                  r.height<=1200 &&
-                  t.indexOf("Tóm tắt điều hành")>=0 &&
-                  t.indexOf("Trong năm")>=0
-                ){
-                  return {card:cur,title:title};
-                }
-              }
-              return null;
-            }
-
-            function paintWhite(el){
-              if(!el) return;
-              el.style.setProperty("color","#ffffff","important");
-              el.style.setProperty("opacity","1","important");
-              el.style.setProperty("font-weight","500","important");
-            }
-
-            function apply(){
-              if(!document.body.classList.contains("aurel-dark-theme")) return;
-
-              var found=findSummaryCard();
-              if(!found) return;
-
-              var card=found.card;
-              var title=found.title;
-              card.classList.add("aurel-r148-summary-card");
-              title.classList.add("aurel-r148-summary-title");
-              title.style.setProperty("color","#ffffff","important");
-              title.style.setProperty("opacity","1","important");
-
-              card.querySelectorAll("*").forEach(function(el){
-                var t=norm(el.textContent);
-                if(!t) return;
-
-                if(
-                  t==="Chờ duyệt" ||
-                  t==="Đã duyệt" ||
-                  t==="Đang xử lý"
-                ){
-                  el.classList.add("aurel-r148-status");
-                  el.style.setProperty("color","#ffd36a","important");
-                  el.style.setProperty("opacity","1","important");
-                  return;
-                }
-
-                if(el===title) return;
-
-                if(
-                  t.startsWith("Trong năm") ||
-                  t.indexOf("VPB duy trì")>=0 ||
-                  t.indexOf("tổng tài sản")>=0 ||
-                  t.indexOf("dư nợ cho vay")>=0 ||
-                  t.length>=60
-                ){
-                  el.classList.add("aurel-r148-summary-text");
-                  paintWhite(el);
-                }
-              });
-            }
-
-            var queued=false;
-            function schedule(){
-              if(queued) return;
-              queued=true;
-              requestAnimationFrame(function(){
-                queued=false;
-                apply();
-              });
-            }
-
-            if(document.readyState==="loading"){
-              document.addEventListener("DOMContentLoaded",schedule,{once:true});
-            }else{
-              schedule();
-            }
-
-            var root=document.getElementById("root")||document.body;
-            new MutationObserver(schedule).observe(root,{
-              childList:true,
-              subtree:true,
-              characterData:true,
-              attributes:true,
-              attributeFilter:["class","style"]
-            });
-
-            document.addEventListener("click",function(){
-              setTimeout(apply,60);
-            },true);
-          })();
-          </script>
-          '''
-
-          if "</body>" not in s:
-              raise SystemExit("Không tìm thấy </body>.")
-
-          s=s.replace("</body>",css.strip()+"\n"+js.strip()+"\n</body>",1)
-          p.write_text(s,encoding="utf-8")
-
+          s=Path("financial-intelligence.html").read_text(encoding="utf-8")
+          needles=["Chờ duyệt","Tóm tắt điều hành","Kết quả phân tích","Trong năm","LDR proxy","NPL"]
+          out=[]
+          for needle in needles:
+              start=0;n=0
+              while True:
+                  i=s.find(needle,start)
+                  if i<0: break
+                  n+=1
+                  out.append(f"=== {needle} #{n} @ {i} ===\n"+s[max(0,i-5000):min(len(s),i+10000)])
+                  start=i+len(needle)
+          Path("support_output_exact.txt").write_text("\n\n".join(out),encoding="utf-8")
       - name: Commit
         run: |
-          if git diff --quiet -- financial-intelligence.html; then
-            echo "No changes"
-            exit 0
-          fi
           git config user.name "AUREL UI Bot"
           git config user.email "actions@github.com"
-          git add financial-intelligence.html
-          git commit -m "Force support executive summary text to white"
+          git add support_output_exact.txt
+          git commit -m "Temporary exact support output inspection"
           git push
