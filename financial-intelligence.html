@@ -16322,289 +16322,380 @@ body.aurel-dark-theme:has(#nav button[data-page="overview"].active) .ref-hero-li
 </script>
 
 
-<style id="AUREL_R123_BANK_STANDARD_MONITOR_TABLE">
-/* R123 — Chỉ phần Giám sát rủi ro ngân hàng.
-   Chuẩn hóa bảng theo TT21/2025, TT14/2025 và LDR hiện hành; tách rõ proxy BCTC. */
-.monitor-rules .aurel-r123-basis{
-  display:flex;
-  flex-wrap:wrap;
-  gap:7px;
+
+<style id="AUREL_R124_DATA16_RISK_TABLE">
+/* R124 — Giám sát rủi ro chỉ dựa trên đúng 16 metric_id của Data.xlsx.
+   Không thêm CAR, Tier1, LDR pháp lý, NIM hay bất kỳ tiêu chí nguồn nào khác. */
+.monitor-rules .aurel-r124-source-note{
   margin:10px 0 14px;
-}
-.monitor-rules .aurel-r123-basis span{
-  display:inline-flex;
-  align-items:center;
-  min-height:28px;
-  padding:5px 9px;
-  border-radius:999px;
-  border:1px solid #d8e5ee;
-  background:#f5f9fc;
-  color:#587187;
-  font-size:9.5px;
-  font-weight:800;
-}
-body.aurel-dark-theme .monitor-rules .aurel-r123-basis span{
-  background:#142130!important;
-  border-color:#31485f!important;
-  color:#b9cee0!important;
-}
-.monitor-rules .aurel-r123-standard-note{
-  margin-top:12px;
+  padding:11px 13px;
+  border:1px solid #d7e4ed;
+  border-radius:11px;
+  background:#f7fafc;
+  color:#587084;
   font-size:10.5px;
-  line-height:1.65;
+  line-height:1.6;
 }
-.monitor-rules tr[data-aurel-r123-kind="legal"] td:first-child{
-  box-shadow:inset 3px 0 #4d9cff;
+body.aurel-dark-theme .monitor-rules .aurel-r124-source-note{
+  background:#111d2a!important;
+  border-color:#30475c!important;
+  color:#adc1d2!important;
 }
-.monitor-rules tr[data-aurel-r123-kind="proxy"] td:first-child{
-  box-shadow:inset 3px 0 #39c7b1;
+.monitor-rules tr[data-aurel-r124-status="critical"] td:first-child{box-shadow:inset 3px 0 #ef6b82}
+.monitor-rules tr[data-aurel-r124-status="watch"] td:first-child{box-shadow:inset 3px 0 #dba84e}
+.monitor-rules tr[data-aurel-r124-status="normal"] td:first-child{box-shadow:inset 3px 0 #43bd75}
+.monitor-rules tr[data-aurel-r124-status="insufficient"] td:first-child{box-shadow:inset 3px 0 #8095a8}
+.monitor-rules .aurel-r124-id{
+  display:block;
+  margin-top:3px;
+  color:#8295a5;
+  font-size:9px;
+  font-weight:650;
+  letter-spacing:.1px;
 }
-.monitor-rules tr[data-aurel-r123-kind="missing"] td:first-child{
-  box-shadow:inset 3px 0 #8095a8;
+body.aurel-dark-theme .monitor-rules .aurel-r124-id{color:#7690a6!important}
+.monitor-rules .aurel-r124-formula{
+  color:#6f8495;
+  font-size:10px;
+  line-height:1.5;
 }
-body.aurel-dark-theme .monitor-rules tr[data-aurel-r123-kind="legal"] td:first-child{
-  box-shadow:inset 3px 0 #69a9ff;
-}
-body.aurel-dark-theme .monitor-rules tr[data-aurel-r123-kind="proxy"] td:first-child{
-  box-shadow:inset 3px 0 #52d7c4;
-}
-body.aurel-dark-theme .monitor-rules tr[data-aurel-r123-kind="missing"] td:first-child{
-  box-shadow:inset 3px 0 #6d8398;
+body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important}
+.monitor-rules .aurel-r124-raw{
+  white-space:nowrap;
+  font-variant-numeric:tabular-nums;
 }
 </style>
 
-<script id="AUREL_R123_BANK_STANDARD_MONITOR_TABLE_JS">
+<script id="AUREL_R124_DATA16_RISK_TABLE_JS">
 (function(){
-  function norm(v){return String(v||'').replace(/\s+/g,' ').trim();}
-  function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-  function parsePct(v){
-    var m=String(v||'').replace(/\./g,'').replace(',','.').match(/-?\d+(?:\.\d+)?/);
-    return m?Number(m[0]):null;
+  var EXPECTED_IDS=[
+    'total_assets',
+    'customer_loans',
+    'customer_deposits',
+    'cash_and_equivalents',
+    'total_equity',
+    'group1_loans',
+    'group2_loans',
+    'group3_loans',
+    'group4_loans',
+    'group5_loans',
+    'net_interest_income',
+    'net_fee_income',
+    'total_operating_income',
+    'operating_expenses',
+    'credit_loss_provision_expense',
+    'profit_after_tax'
+  ];
+
+  function esc(v){
+    return String(v==null?'':v).replace(/[&<>"']/g,function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
   }
-  function tag(text,kind){
-    return '<span class="tag '+(kind||'')+'">'+esc(text)+'</span>';
+  function num(v){var n=Number(v);return Number.isFinite(n)?n:null}
+  function pct(v){
+    return v==null||!Number.isFinite(Number(v))?'—':
+      new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(Number(v))+'%';
   }
-  function statusTag(kind){
-    if(kind==='critical')return tag('Cảnh báo','danger');
-    if(kind==='watch')return tag('Theo dõi','warn');
-    if(kind==='normal')return tag('Bình thường','good');
-    if(kind==='reference')return tag('Tham khảo','');
-    return tag('Thiếu dữ liệu','');
+  function signedPct(v){
+    return v==null||!Number.isFinite(Number(v))?'—':
+      (Number(v)>0?'+':'')+new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(Number(v))+'%';
   }
-  function rowHtml(kind,domain,name,desc,value,delta,reference,status,action){
-    return '<tr data-aurel-r123-kind="'+kind+'">'+
-      '<td><span class="monitor-domain">'+esc(domain)+'</span></td>'+
-      '<td class="num"><div><strong>'+esc(name)+'</strong><div class="monitor-reference">'+esc(desc)+'</div></div></td>'+
-      '<td class="num"><span class="monitor-value">'+esc(value)+'</span></td>'+
-      '<td class="num">'+(delta?'<span class="monitor-delta">'+esc(delta)+'</span>':'<span class="monitor-delta">—</span>')+'</td>'+
-      '<td class="num"><div class="monitor-reference">'+esc(reference)+'</div></td>'+
-      '<td class="num">'+statusTag(status)+'</td>'+
-      '<td class="num"><div class="monitor-action">'+esc(action)+'</div></td>'+
+  function money(v){
+    return v==null||!Number.isFinite(Number(v))?'—':
+      new Intl.NumberFormat('vi-VN',{maximumFractionDigits:2}).format(Number(v));
+  }
+  function normalizeId(v){return String(v||'').trim().toLowerCase()}
+  function rawMap(state){
+    var out={};
+    (state&&state.raw||[]).forEach(function(r){
+      var id=normalizeId(r.metric_id||r.id);
+      if(id)out[id]=r;
+    });
+    return out;
+  }
+  function getRaw(map,id){return map[normalizeId(id)]||null}
+  function value(map,id){var r=getRaw(map,id);return r?num(r.value):null}
+  function ratio(a,b){return a==null||b==null||b===0?null:a/b*100}
+  function growth(cur,prev){return cur==null||prev==null||prev===0?null:(cur/prev-1)*100}
+  function avg(a,b){return a!=null&&b!=null?(a+b)/2:(a!=null?a:b)}
+  function unitText(r){
+    var u=String(r&&r.unit||'').toLowerCase();
+    if(u==='billion_vnd'||u.indexOf('tỷ')>=0)return 'tỷ VND';
+    if(u==='million_vnd'||u.indexOf('triệu')>=0)return 'triệu VND';
+    if(u==='percent'||u==='%')return '%';
+    return r&&r.unit?String(r.unit):'';
+  }
+  function rawDisplay(r){
+    if(!r||num(r.value)==null)return '—';
+    var u=unitText(r);
+    return money(r.value)+(u?' '+u:'');
+  }
+  function band(v,watchFn,criticalFn){
+    if(v==null||!Number.isFinite(v))return 'insufficient';
+    if(criticalFn(v))return 'critical';
+    if(watchFn(v))return 'watch';
+    return 'normal';
+  }
+  function tag(kind){
+    if(kind==='critical')return '<span class="tag danger">Cảnh báo</span>';
+    if(kind==='watch')return '<span class="tag warn">Theo dõi</span>';
+    if(kind==='normal')return '<span class="tag good">Bình thường</span>';
+    return '<span class="tag">Thiếu dữ liệu</span>';
+  }
+  function apiBase(){
+    var q='';
+    try{q=new URLSearchParams(location.search).get('api')||''}catch(_){}
+    var v=q||localStorage.getItem('aurel_api_base')||'https://aurel-thanhhochub-backend.onrender.com/';
+    v=String(v||'').trim();
+    if(v && !/\/$/.test(v))v+='/';
+    return v;
+  }
+  async function fetchState(bank,year){
+    var u=new URL('api/state',apiBase());
+    u.searchParams.set('bank',bank||'');
+    u.searchParams.set('year',String(year||''));
+    var r=await fetch(u.toString(),{method:'GET',cache:'no-store',redirect:'follow'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    return await r.json();
+  }
+  function metricName(map,id,fallback){
+    var r=getRaw(map,id);
+    return r&&r.name?String(r.name):fallback;
+  }
+  function rowHtml(i,group,id,name,raw,indicator,formula,threshold,status,meaning){
+    return '<tr data-aurel-r124-status="'+status+'">'+
+      '<td><span class="monitor-domain">'+esc(group)+'</span></td>'+
+      '<td class="num"><div><strong>'+i+'. '+esc(name)+'</strong><span class="aurel-r124-id">'+esc(id)+'</span></div></td>'+
+      '<td class="num"><span class="monitor-value aurel-r124-raw">'+esc(raw)+'</span></td>'+
+      '<td class="num"><strong>'+esc(indicator)+'</strong><div class="aurel-r124-formula">'+esc(formula)+'</div></td>'+
+      '<td class="num"><div class="monitor-reference">'+esc(threshold)+'</div></td>'+
+      '<td class="num">'+tag(status)+'</td>'+
+      '<td class="num"><div class="monitor-action">'+esc(meaning)+'</div></td>'+
     '</tr>';
   }
 
-  function findRaw(rows,needle){
-    for(var i=0;i<rows.length;i++){
-      var t=norm(rows[i].textContent);
-      if(t.indexOf(needle)>=0)return rows[i];
-    }
-    return null;
-  }
-  function rawCell(row,i,fallback){
-    if(!row||!row.cells||!row.cells[i])return fallback||'—';
-    return norm(row.cells[i].textContent)||fallback||'—';
-  }
-  function nplStatus(v){
-    if(v==null||!Number.isFinite(v))return 'insufficient';
-    if(v<=2)return 'normal';
-    if(v<=3)return 'watch';
-    return 'critical';
-  }
+  function buildRows(cur,prev){
+    var c=rawMap(cur),p=rawMap(prev||{});
+    var assets=value(c,'total_assets'), loans=value(c,'customer_loans'),
+        deps=value(c,'customer_deposits'), cash=value(c,'cash_and_equivalents'),
+        equity=value(c,'total_equity'), g1=value(c,'group1_loans'),
+        g2=value(c,'group2_loans'), g3=value(c,'group3_loans'),
+        g4=value(c,'group4_loans'), g5=value(c,'group5_loans'),
+        nii=value(c,'net_interest_income'), fee=value(c,'net_fee_income'),
+        toi=value(c,'total_operating_income'), opex=value(c,'operating_expenses'),
+        prov=value(c,'credit_loss_provision_expense'), pat=value(c,'profit_after_tax');
 
-  function updateCards(nplKind,missingCount){
-    var cards=document.querySelectorAll('.monitor-overview .monitor-card');
-    if(cards.length<4)return;
-    var counts={critical:0,watch:0,normal:0};
-    if(nplKind==='critical')counts.critical=1;
-    if(nplKind==='watch')counts.watch=1;
-    if(nplKind==='normal')counts.normal=1;
-    var vals=[counts.critical,counts.watch,counts.normal,missingCount];
-    var labels=['Cảnh báo','Theo dõi','Bình thường','Thiếu dữ liệu chuẩn'];
-    var hints=[
-      'Chỉ tiêu chuẩn vượt vùng cảnh báo',
-      'Chỉ tiêu chuẩn nằm trong vùng cần theo dõi',
-      'Chỉ tiêu chuẩn đang trong vùng tốt',
-      'Chưa đủ dữ liệu để tính đúng chỉ tiêu NHNN'
+    var pAssets=value(p,'total_assets'), pLoans=value(p,'customer_loans'),
+        pDeps=value(p,'customer_deposits'), pNii=value(p,'net_interest_income'),
+        pFee=value(p,'net_fee_income'), pToi=value(p,'total_operating_income'),
+        pPat=value(p,'profit_after_tax');
+
+    var assetGr=growth(assets,pAssets);
+    var loanGr=growth(loans,pLoans);
+    var depGr=growth(deps,pDeps);
+    var cashA=ratio(cash,assets);
+    var eqA=ratio(equity,assets);
+    var g1R=ratio(g1,loans),g2R=ratio(g2,loans),g3R=ratio(g3,loans),g4R=ratio(g4,loans),g5R=ratio(g5,loans);
+    var niiGr=growth(nii,pNii),feeGr=growth(fee,pFee),toiGr=growth(toi,pToi);
+    var cir=ratio(opex==null?null:Math.abs(opex),toi);
+    var avgLoans=avg(loans,pLoans);
+    var creditCost=ratio(prov==null?null:Math.abs(prov),avgLoans);
+    var patGr=growth(pat,pPat);
+
+    var defs=[
+      {g:'Quy mô',id:'total_assets',name:'Tổng tài sản',r:assetGr,f:'Tăng trưởng TTS YoY',
+       formula:'(TTS hiện tại / TTS năm trước − 1) × 100',
+       th:'Cảnh báo < −5% hoặc >35%; Theo dõi <0% hoặc >25%.',
+       s:band(assetGr,function(v){return v<0||v>25},function(v){return v<-5||v>35}),
+       m:'Theo dõi co hẹp bảng cân đối hoặc tăng trưởng quá nhanh.'},
+      {g:'Tín dụng',id:'customer_loans',name:'Cho vay khách hàng',r:loanGr,f:'Tăng trưởng cho vay YoY',
+       formula:'(Cho vay hiện tại / Cho vay năm trước − 1) × 100',
+       th:'Cảnh báo < −5% hoặc >25%; Theo dõi <0% hoặc >18%.',
+       s:band(loanGr,function(v){return v<0||v>18},function(v){return v<-5||v>25}),
+       m:'Tín dụng giảm mạnh hoặc tăng quá nhanh đều cần rà soát.'},
+      {g:'Nguồn vốn',id:'customer_deposits',name:'Tiền gửi của khách hàng',r:depGr,f:'Tăng trưởng tiền gửi YoY',
+       formula:'(Tiền gửi hiện tại / Tiền gửi năm trước − 1) × 100',
+       th:'Cảnh báo < −10%; Theo dõi <0%.',
+       s:band(depGr,function(v){return v<0},function(v){return v<-10}),
+       m:'Tiền gửi suy giảm có thể tạo áp lực nguồn vốn và thanh khoản.'},
+      {g:'Thanh khoản',id:'cash_and_equivalents',name:'Tiền và tương đương tiền',r:cashA,f:'Tiền & TĐT / Tổng tài sản',
+       formula:'Tiền và tương đương tiền / Tổng tài sản × 100',
+       th:'Cảnh báo <5%; Theo dõi 5–10%.',
+       s:band(cashA,function(v){return v<10},function(v){return v<5}),
+       m:'Proxy thanh khoản tức thời từ đúng dữ liệu hiện có; không phải LCR.'},
+      {g:'Đệm vốn',id:'total_equity',name:'Tổng cộng vốn chủ sở hữu',r:eqA,f:'VCSH / Tổng tài sản',
+       formula:'Vốn chủ sở hữu / Tổng tài sản × 100',
+       th:'Cảnh báo <4%; Theo dõi 4–6%.',
+       s:band(eqA,function(v){return v<6},function(v){return v<4}),
+       m:'Proxy đòn bẩy kế toán; không phải CAR hay Tier 1.'},
+      {g:'Chất lượng TS',id:'group1_loans',name:'Nợ nhóm 1 – Nợ đủ tiêu chuẩn',r:g1R,f:'Nợ nhóm 1 / Cho vay',
+       formula:'Nợ nhóm 1 / Cho vay khách hàng × 100',
+       th:'Cảnh báo <95%; Theo dõi 95–97%.',
+       s:band(g1R,function(v){return v<97},function(v){return v<95}),
+       m:'Tỷ trọng nợ đủ tiêu chuẩn càng cao càng tốt.'},
+      {g:'Chất lượng TS',id:'group2_loans',name:'Nợ nhóm 2 – Nợ cần chú ý',r:g2R,f:'Nợ nhóm 2 / Cho vay',
+       formula:'Nợ nhóm 2 / Cho vay khách hàng × 100',
+       th:'Cảnh báo >3%; Theo dõi >1,5%.',
+       s:band(g2R,function(v){return v>1.5},function(v){return v>3}),
+       m:'Nợ nhóm 2 tăng là tín hiệu sớm trước khi chuyển thành nợ xấu.'},
+      {g:'Chất lượng TS',id:'group3_loans',name:'Nợ nhóm 3 – Nợ dưới tiêu chuẩn',r:g3R,f:'Nợ nhóm 3 / Cho vay',
+       formula:'Nợ nhóm 3 / Cho vay khách hàng × 100',
+       th:'Cảnh báo >1%; Theo dõi >0,5%.',
+       s:band(g3R,function(v){return v>0.5},function(v){return v>1}),
+       m:'Thành phần nợ xấu; tỷ trọng tăng làm xấu chất lượng tín dụng.'},
+      {g:'Chất lượng TS',id:'group4_loans',name:'Nợ nhóm 4 – Nợ nghi ngờ',r:g4R,f:'Nợ nhóm 4 / Cho vay',
+       formula:'Nợ nhóm 4 / Cho vay khách hàng × 100',
+       th:'Cảnh báo >1%; Theo dõi >0,5%.',
+       s:band(g4R,function(v){return v>0.5},function(v){return v>1}),
+       m:'Nhóm nợ có mức suy giảm tín dụng cao hơn nhóm 3.'},
+      {g:'Chất lượng TS',id:'group5_loans',name:'Nợ nhóm 5 – Có khả năng mất vốn',r:g5R,f:'Nợ nhóm 5 / Cho vay',
+       formula:'Nợ nhóm 5 / Cho vay khách hàng × 100',
+       th:'Cảnh báo >1,5%; Theo dõi >0,75%.',
+       s:band(g5R,function(v){return v>0.75},function(v){return v>1.5}),
+       m:'Tập trung vào phần nợ có rủi ro mất vốn cao nhất.'},
+      {g:'Thu nhập',id:'net_interest_income',name:'Thu nhập lãi thuần – NII',r:niiGr,f:'Tăng trưởng NII YoY',
+       formula:'(NII hiện tại / NII năm trước − 1) × 100',
+       th:'Cảnh báo < −10%; Theo dõi <0%.',
+       s:band(niiGr,function(v){return v<0},function(v){return v<-10}),
+       m:'Suy giảm NII kéo dài có thể phản ánh áp lực biên lãi hoặc chất lượng tài sản.'},
+      {g:'Thu nhập',id:'net_fee_income',name:'Lãi thuần từ hoạt động dịch vụ',r:feeGr,f:'Tăng trưởng thu nhập phí YoY',
+       formula:'(Thu nhập phí hiện tại / năm trước − 1) × 100',
+       th:'Cảnh báo < −20%; Theo dõi <0%.',
+       s:band(feeGr,function(v){return v<0},function(v){return v<-20}),
+       m:'Theo dõi độ bền của nguồn thu ngoài lãi.'},
+      {g:'Thu nhập',id:'total_operating_income',name:'Tổng thu nhập hoạt động – TOI',r:toiGr,f:'Tăng trưởng TOI YoY',
+       formula:'(TOI hiện tại / TOI năm trước − 1) × 100',
+       th:'Cảnh báo < −10%; Theo dõi <0%.',
+       s:band(toiGr,function(v){return v<0},function(v){return v<-10}),
+       m:'TOI suy giảm cho thấy nền thu nhập hoạt động yếu đi.'},
+      {g:'Hiệu quả',id:'operating_expenses',name:'Chi phí hoạt động – OPEX',r:cir,f:'CIR = |OPEX| / TOI',
+       formula:'|Chi phí hoạt động| / Tổng thu nhập hoạt động × 100',
+       th:'Cảnh báo >50%; Theo dõi >45%.',
+       s:band(cir,function(v){return v>45},function(v){return v>50}),
+       m:'Chi phí chiếm tỷ trọng càng cao thì hiệu quả hoạt động càng yếu.'},
+      {g:'Rủi ro tín dụng',id:'credit_loss_provision_expense',name:'Chi phí dự phòng rủi ro tín dụng',r:creditCost,f:'Credit cost proxy',
+       formula:'|Chi phí dự phòng| / Dư nợ cho vay bình quân × 100',
+       th:'Cảnh báo >2%; Theo dõi >1%.',
+       s:band(creditCost,function(v){return v>1},function(v){return v>2}),
+       m:'Proxy chi phí tín dụng; dùng chi phí dự phòng chứ không phải số dư dự phòng.'},
+      {g:'Sinh lời',id:'profit_after_tax',name:'Lợi nhuận sau thuế – PAT',r:patGr,f:'Tăng trưởng PAT YoY',
+       formula:'(PAT hiện tại / PAT năm trước − 1) × 100',
+       th:'Cảnh báo < −10%; Theo dõi <0%.',
+       s:band(patGr,function(v){return v<0},function(v){return v<-10}),
+       m:'Lợi nhuận suy giảm là tín hiệu tổng hợp cần đối chiếu với thu nhập, chi phí và dự phòng.'}
     ];
-    cards.forEach(function(card,i){
-      var small=card.querySelector('small');
-      var strong=card.querySelector('strong');
-      var hint=card.querySelector('.monitor-hint');
-      if(small){
-        var svg=small.querySelector('svg');
-        small.childNodes.forEach(function(n){if(n.nodeType===3)n.remove()});
-        small.insertAdjacentText('afterbegin',labels[i]);
-        if(svg&&!small.contains(svg))small.appendChild(svg);
-      }
-      if(strong)strong.textContent=String(vals[i]);
-      if(hint)hint.textContent=hints[i];
+
+    return defs.map(function(d,i){
+      var rr=getRaw(c,d.id);
+      return {
+        i:i+1, group:d.g, id:d.id,
+        name:metricName(c,d.id,d.name),
+        raw:rawDisplay(rr),
+        indicator:d.r==null?'—':pct(d.r),
+        formula:d.f+' · '+d.formula,
+        threshold:d.th,status:d.s,meaning:d.m
+      };
     });
   }
 
-  function apply(){
-    var monitorActive=document.querySelector('#nav button[data-page="monitor"].active');
-    if(!monitorActive)return;
-
-    var table=document.querySelector('.monitor-rules table');
-    if(!table||table.dataset.aurelR123==='1')return;
-
-    var rawRows=Array.from(table.querySelectorAll('tbody tr'));
-    var nplRow=findRaw(rawRows,'Tỷ lệ nợ xấu');
-    var nplGrowthRow=findRaw(rawRows,'Tăng trưởng nợ xấu');
-    var proxyLdrRow=findRaw(rawRows,'Dư nợ / Tiền gửi khách hàng');
-    var cirRow=findRaw(rawRows,'CIR');
-
-    var nplText=rawCell(nplRow,2,'—');
-    var nplValue=parsePct(nplText);
-    var nplDelta=rawCell(nplRow,3,'—');
-    var nplKind=nplStatus(nplValue);
-
-    var nplGrowthText=rawCell(nplGrowthRow,2,'—');
-    var nplGrowthDelta=rawCell(nplGrowthRow,3,'—');
-    var proxyLdrText=rawCell(proxyLdrRow,2,'—');
-    var proxyLdrDelta=rawCell(proxyLdrRow,3,'—');
-    var cirText=rawCell(cirRow,2,'—');
-    var cirDelta=rawCell(cirRow,3,'—');
-
-    table.dataset.aurelR123='1';
-    table.querySelector('thead').innerHTML=
-      '<tr><th>Nhóm rủi ro</th><th class="num">Chỉ báo</th><th class="num">Hiện tại</th>'+
-      '<th class="num">So với năm trước</th><th class="num">Chuẩn / ngưỡng tham chiếu</th>'+
-      '<th class="num">Mức độ</th><th class="num">Cách dùng đúng</th></tr>';
-
-    var html='';
-    html+=rowHtml(
-      'legal','Chất lượng tài sản','NPL BCTC',
-      'Tỷ lệ nợ xấu từ dữ liệu BCTC công khai; chưa bao gồm đầy đủ VAMC và nợ cơ cấu tiềm ẩn như định nghĩa TT21.',
-      nplText,nplDelta,
-      'TT21/2025: 2% / 3% / 5% / 7% cho NHTM lớn và nhỏ.',
-      nplKind,
-      nplKind==='critical'?'Đã vượt mốc 3%; rà soát cơ cấu nợ, nợ nhóm 2, VAMC và dự phòng.':nplKind==='watch'?'Đang trên 2%; theo dõi xu hướng và chất lượng tài sản.':'Đang trong vùng ≤2% theo mốc đầu TT21.'
-    );
-    html+=rowHtml(
-      'proxy','Chất lượng tài sản','Xu hướng NPL YoY · chỉ báo phụ',
-      'Dùng để xác nhận chiều hướng xấu/tốt; không phải một tỷ lệ an toàn pháp lý độc lập.',
-      nplGrowthText,nplGrowthDelta,
-      'Không có ngưỡng NHNN cố định 15%/30%; không dùng riêng để kết luận.',
-      'reference',
-      'Đọc cùng mức NPL, biến động điểm %, nợ nhóm 2 và dự phòng.'
-    );
-    html+=rowHtml(
-      'proxy','Thanh khoản','Loans / Customer Deposits · Proxy BCTC',
-      'Dư nợ cho vay chia tiền gửi khách hàng từ BCTC; mẫu số hẹp hơn LDR pháp lý.',
-      proxyLdrText,proxyLdrDelta,
-      'Không đối chiếu trực tiếp với giới hạn LDR 85% của NHNN.',
-      'reference',
-      'Chỉ dùng như proxy. Muốn kiểm tra LDR phải tính đúng L và D theo Điều 20.'
-    );
-    html+=rowHtml(
-      'missing','Thanh khoản','LDR NHNN',
-      'Tỷ lệ dư nợ cho vay / tổng tiền gửi theo đúng phạm vi và các khoản điều chỉnh của NHNN.',
-      '—','—',
-      'Giới hạn pháp lý tối đa 85%. TT21: NH lớn 70/80/90/95%; NH nhỏ 60/70/80/90%.',
-      'insufficient',
-      'Cần thêm cấu phần tiền gửi, giấy tờ có giá và các khoản loại trừ/điều chỉnh để tính đúng.'
-    );
-    html+=rowHtml(
-      'legal','Quản trị điều hành','CIR',
-      'Chi phí hoạt động / Tổng thu nhập hoạt động.',
-      cirText,cirDelta,
-      'TT21: NH lớn 35/45/50/60%; NH nhỏ 40/50/60/70%.',
-      'reference',
-      'Muốn phân loại chính thức phải xác định nhóm lớn/nhỏ bằng tổng tài sản bình quân theo quý, không dùng TTS cuối kỳ.'
-    );
-    html+=rowHtml(
-      'missing','Vốn','CAR',
-      'Tỷ lệ an toàn vốn trên tài sản có rủi ro; không thể thay bằng VCSH/Tổng tài sản.',
-      '—','—',
-      'TT14/2025: tối thiểu 8%. TT21 dùng mốc tham chiếu 11/9/7/5% theo khung tương ứng.',
-      'insufficient',
-      'Cần vốn tự có và RWA/KOR/KMR đúng chuẩn; thiếu thì để N/A.'
-    );
-    html+=rowHtml(
-      'missing','Vốn','Tier 1',
-      'Tỷ lệ vốn cấp 1; khác hoàn toàn tỷ lệ VCSH/Tổng tài sản kế toán.',
-      '—','—',
-      'TT14/2025: tối thiểu 6%. TT21: 8,5/7/5,5/4%.',
-      'insufficient',
-      'Cần dữ liệu vốn cấp 1 và mẫu số rủi ro theo quy định.'
-    );
-    html+=rowHtml(
-      'missing','Kết quả hoạt động','PBT / Tổng tài sản bình quân',
-      'TT21 dùng lợi nhuận trước thuế và tổng tài sản bình quân theo quý, không dùng tăng trưởng LNST làm ngưỡng chính.',
-      '—','—',
-      'TT21: NH lớn 1,5/1,1/0,8/0,6%; NH nhỏ 1,3/1,0/0,7/0,5%.',
-      'insufficient',
-      'Cần PBT và tổng tài sản bình quân quý để tính đúng.'
-    );
-    html+=rowHtml(
-      'missing','Kết quả hoạt động','NIM',
-      'Thu nhập lãi cận biên theo định nghĩa dùng trong xếp hạng ngân hàng.',
-      '—','—',
-      'TT21: NH lớn 3,0/2,5/2,0/1,5%; NH nhỏ 2,8/2,4/1,9/1,4%.',
-      'insufficient',
-      'Cần thu nhập lãi thuần và tài sản sinh lãi bình quân theo định nghĩa phù hợp.'
-    );
-
-    table.querySelector('tbody').innerHTML=html;
-
-    var panel=table.closest('.panel');
-    if(panel){
-      var h2=panel.querySelector('.section-top h2');
-      var small=panel.querySelector('.section-top small');
-      if(h2)h2.textContent='Bảng chỉ báo chuẩn & proxy';
-      if(small)small.textContent='Chuẩn NHNN hiện hành + dữ liệu BCTC công khai';
-      var basis=document.createElement('div');
-      basis.className='aurel-r123-basis';
-      basis.innerHTML='<span>TT21/2025 · xếp hạng NHTM</span><span>TT14/2025 · CAR/Tier 1</span><span>TT22/2019 sửa đổi 2026 · LDR</span><span>Proxy BCTC được tách riêng</span>';
-      var wrap=panel.querySelector('.table-wrap');
-      if(wrap)panel.insertBefore(basis,wrap);
-    }
-
-    var note=document.querySelector('.monitor-rules + .note');
-    if(note){
-      var yearSel=document.getElementById('year-select');
-      var year=yearSel?String(yearSel.value||''):'';
-      note.innerHTML='<strong>Phạm vi sử dụng:</strong> AUREL chỉ gắn nhãn chuẩn khi chỉ tiêu có thể tính đúng từ dữ liệu hiện có. NPL BCTC là tham chiếu gần đúng TT21; Loans/Customer Deposits là proxy và không phải LDR pháp lý. CAR, Tier 1, LDR NHNN, PBT/TTS bình quân và NIM được để “Thiếu dữ liệu” thay vì lấy tỷ số gần giống để thay thế.'+
-        (year==='2025'?'<br><strong>Lưu ý năm 2025:</strong> các ngưỡng TT21/2025 được hiển thị như benchmark hiện hành; không đồng nghĩa đây là kết quả xếp hạng NHNN chính thức cho năm 2025.':'');
-    }
-
-    updateCards(nplKind,5);
-
+  function updateSummary(rows){
+    var counts={critical:0,watch:0,normal:0,insufficient:0};
+    rows.forEach(function(r){counts[r.status]=(counts[r.status]||0)+1});
+    var cards=document.querySelectorAll('.monitor-overview .monitor-card');
+    var vals=[counts.critical,counts.watch,counts.normal,counts.insufficient];
+    var hints=[
+      'Trong 16 tiêu chí Data.xlsx',
+      'Trong 16 tiêu chí Data.xlsx',
+      'Trong 16 tiêu chí Data.xlsx',
+      'Thiếu kỳ trước hoặc giá trị nguồn'
+    ];
+    cards.forEach(function(card,i){
+      var strong=card.querySelector('strong'),hint=card.querySelector('.monitor-hint');
+      if(strong)strong.textContent=String(vals[i]||0);
+      if(hint)hint.textContent=hints[i];
+    });
     var overall=document.querySelector('.monitor-overall');
     if(overall){
-      var strong=overall.querySelector('strong');
-      var span=overall.querySelector('span');
-      if(strong){
-        strong.textContent=nplKind==='critical'?'Có chỉ báo chuẩn cảnh báo':nplKind==='watch'?'Có chỉ báo chuẩn cần theo dõi':nplKind==='normal'?'NPL chuẩn đang trong vùng tốt':'Chưa đủ dữ liệu chuẩn';
-      }
-      if(span){
-        span.textContent='Các proxy không được dùng để kết luận vi phạm tỷ lệ an toàn pháp lý.';
-      }
+      var st=overall.querySelector('strong'),sp=overall.querySelector('span');
+      if(st)st.textContent=counts.critical?'Có '+counts.critical+' tiêu chí cảnh báo':counts.watch?'Có '+counts.watch+' tiêu chí cần theo dõi':'Chưa có tiêu chí cảnh báo';
+      if(sp)sp.textContent='Đánh giá đúng 16 tiêu chí nguồn trong Data.xlsx, không thêm hoặc bớt tiêu chí.';
     }
   }
 
-  var queued=false;
+  async function apply(){
+    if(!document.querySelector('#nav button[data-page="monitor"].active'))return;
+    var table=document.querySelector('.monitor-rules table');
+    if(!table||table.dataset.aurelR124Busy==='1')return;
+
+    var bankSel=document.getElementById('bank-select'),yearSel=document.getElementById('year-select');
+    var bank=bankSel?bankSel.value:'',year=yearSel?Number(yearSel.value):NaN;
+    if(!bank||!Number.isFinite(year))return;
+
+    var key=bank+'|'+year;
+    if(table.dataset.aurelR124===key)return;
+    table.dataset.aurelR124Busy='1';
+
+    try{
+      var cur=await fetchState(bank,year);
+      var prev=null;
+      try{
+        var p=await fetchState(bank,year-1);
+        if(p&&p.has_data&&String(p.bank)===String(bank)&&Number(p.year)===year-1)prev=p;
+      }catch(_){}
+
+      var rows=buildRows(cur,prev);
+      if(rows.length!==16)throw new Error('Bảng không đủ 16 tiêu chí.');
+
+      table.querySelector('thead').innerHTML=
+        '<tr><th>Nhóm</th><th class="num">Tiêu chí Data.xlsx</th><th class="num">Giá trị gốc</th>'+
+        '<th class="num">Chỉ báo giám sát</th><th class="num">Ngưỡng sàng lọc</th>'+
+        '<th class="num">Mức độ</th><th class="num">Ý nghĩa rủi ro</th></tr>';
+
+      table.querySelector('tbody').innerHTML=rows.map(function(r){
+        return rowHtml(r.i,r.group,r.id,r.name,r.raw,r.indicator,r.formula,r.threshold,r.status,r.meaning);
+      }).join('');
+
+      table.dataset.aurelR124=key;
+
+      var panel=table.closest('.panel');
+      if(panel){
+        var h2=panel.querySelector('.section-top h2');
+        var small=panel.querySelector('.section-top small');
+        if(h2)h2.textContent='Bảng giám sát rủi ro từ 16 tiêu chí Data.xlsx';
+        if(small)small.textContent='16/16 tiêu chí · không thêm, không bớt';
+        if(!panel.querySelector('.aurel-r124-source-note')){
+          var note=document.createElement('div');
+          note.className='aurel-r124-source-note';
+          note.innerHTML='<strong>Nguyên tắc:</strong> Mỗi hàng tương ứng đúng 1 metric_id trong Data.xlsx. Chỉ báo được chuẩn hóa bằng tăng trưởng hoặc tỷ lệ tính từ chính 16 trường dữ liệu này. Các ngưỡng là ngưỡng sàng lọc phân tích AUREL, không phải kết luận tuân thủ pháp lý NHNN.';
+          var wrap=panel.querySelector('.table-wrap');
+          if(wrap)panel.insertBefore(note,wrap);
+        }
+      }
+
+      var limitation=document.querySelector('.monitor-rules + .note');
+      if(limitation){
+        limitation.innerHTML='<strong>Phạm vi dữ liệu:</strong> Bảng này cố ý chỉ dùng đúng 16 tiêu chí nguồn trong Data.xlsx. Không bổ sung CAR, Tier 1, LCR, NSFR, NIM hay chỉ tiêu ngoài file. Vì vậy đây là lớp sàng lọc rủi ro từ dữ liệu BCTC hiện có, không phải bộ kiểm tra đầy đủ các tỷ lệ an toàn ngân hàng.';
+      }
+      updateSummary(rows);
+    }catch(e){
+      /* Fail closed: giữ bảng gốc nếu API chưa sẵn sàng, không bịa dữ liệu. */
+    }finally{
+      table.dataset.aurelR124Busy='0';
+    }
+  }
+
+  var timer=null;
   function schedule(){
-    if(queued)return;
-    queued=true;
-    requestAnimationFrame(function(){queued=false;apply()});
+    clearTimeout(timer);
+    timer=setTimeout(apply,60);
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',schedule,{once:true});
   else schedule();
   var root=document.getElementById('root')||document.body;
   new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
-  document.addEventListener('click',function(){setTimeout(schedule,25)},true);
+  document.addEventListener('click',function(){setTimeout(schedule,80)},true);
+  document.addEventListener('change',function(){setTimeout(schedule,120)},true);
 })();
 </script>
 
