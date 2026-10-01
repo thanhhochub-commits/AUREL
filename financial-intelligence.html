@@ -13523,5 +13523,54 @@ body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4) strong{
   box-shadow:none!important;
 }
 </style>
+<style id="AUREL_R133_SCENARIO_THIN_ACCENTS">
+/* R133 — chỉ tinh chỉnh trang Phân tích kịch bản:
+   dải màu trên khối điều chỉnh mảnh hơn + LED mảnh cho 2 ô kết quả. */
+
+/* Hai khối điều chỉnh: mài mỏng dải màu trên đầu */
+body:has(#nav button[data-page="scenario"].active) .scenario-control{
+  border-top-width:1px!important;
+}
+body:has(#nav button[data-page="scenario"].active) .scenario-control::before{
+  height:1px!important;
+}
+
+/* Nếu theme cũ dùng panel/control wrapper khác thì vẫn giữ accent thật mảnh */
+body:has(#nav button[data-page="scenario"].active) :is(.scenario-panel,.simulation-control)::before{
+  height:1px!important;
+}
+
+/* Kết quả mô phỏng: 2 ô tỷ lệ nợ xấu có LED mảnh riêng */
+body:has(#nav button[data-page="scenario"].active) .scenario-results .metric{
+  position:relative!important;
+  overflow:hidden!important;
+}
+body:has(#nav button[data-page="scenario"].active) .scenario-results .metric::before{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  width:100%!important;
+  height:2px!important;
+  z-index:4!important;
+  pointer-events:none!important;
+  opacity:.95!important;
+}
+body:has(#nav button[data-page="scenario"].active) .scenario-results .metric:nth-child(1)::before{
+  background:linear-gradient(90deg,#3b82f6,#60a5fa)!important;
+}
+body:has(#nav button[data-page="scenario"].active) .scenario-results .metric:nth-child(2)::before{
+  background:linear-gradient(90deg,#20b8b0,#34d399)!important;
+}
+
+/* Giữ hiệu ứng rất nhẹ, không tô đậm card */
+body:not(.aurel-dark-theme):has(#nav button[data-page="scenario"].active) .scenario-results .metric{
+  box-shadow:0 4px 12px rgba(30,74,104,.045)!important;
+}
+body.aurel-dark-theme:has(#nav button[data-page="scenario"].active) .scenario-results .metric{
+  box-shadow:0 5px 14px rgba(0,0,0,.16)!important;
+}
+</style>
 </body></html>
 
