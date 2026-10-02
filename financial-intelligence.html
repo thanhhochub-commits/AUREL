@@ -19410,169 +19410,15 @@ body.aurel-perf-scrolling .button{
 
 
 
-<!-- AUREL_R130_MOBILE_SELECT_ONE_GEOMETRY_START -->
-<style id="AUREL_R130_MOBILE_SELECT_ONE_GEOMETRY">
-/* MOBILE ONLY: one and only one Bank/Year geometry for EVERY tab.
-   Fixed 60/40 ratio at all phone widths. Desktop >=761px untouched. */
+<!-- AUREL_R132_OVERVIEW_MOBILE_WAITING_MATCH_REFERENCE_START -->
+<style id="AUREL_R132_OVERVIEW_MOBILE_WAITING_MATCH_REFERENCE_STYLE">
+/* MOBILE ONLY, OVERVIEW WAITING STATE ONLY.
+   Reference = existing non-overview mobile waiting-room design.
+   No selectors below target other tabs. Desktop >=761px untouched. */
 @media (max-width:760px){
 
-  html body.aurel-page-overview .topbar .controls.ref-controls,
-  html body.aurel-page-overview .topbar .ref-controls,
-  html body:not(.aurel-page-overview) .topbar .controls.ref-controls,
-  html body:not(.aurel-page-overview) .topbar .ref-controls{
-    display:grid!important;
-    grid-template-columns:minmax(0,3fr) minmax(0,2fr)!important;
-    column-gap:10px!important;
-    row-gap:0!important;
-    gap:10px!important;
-    width:100%!important;
-    min-width:0!important;
-    max-width:100%!important;
-    margin:0!important;
-    padding:0!important;
-    align-items:stretch!important;
-    justify-items:stretch!important;
-    overflow:visible!important;
-    box-sizing:border-box!important;
-  }
-
-  html body.aurel-page-overview .topbar label.ref-control,
-  html body:not(.aurel-page-overview) .topbar label.ref-control{
-    position:relative!important;
-    display:block!important;
-    width:100%!important;
-    min-width:0!important;
-    max-width:100%!important;
-    height:66px!important;
-    min-height:66px!important;
-    max-height:66px!important;
-    margin:0!important;
-    padding:0!important;
-    overflow:hidden!important;
-    border-radius:16px!important;
-    box-sizing:border-box!important;
-    align-self:stretch!important;
-  }
-
-  html body.aurel-page-overview .topbar label.ref-control::before,
-  html body:not(.aurel-page-overview) .topbar label.ref-control::before{
-    position:absolute!important;
-    left:49px!important;
-    right:40px!important;
-    top:10px!important;
-    z-index:7!important;
-    margin:0!important;
-    padding:0!important;
-    overflow:hidden!important;
-    white-space:nowrap!important;
-    text-overflow:ellipsis!important;
-    font-size:11px!important;
-    line-height:13px!important;
-    font-weight:780!important;
-    letter-spacing:.05px!important;
-    pointer-events:none!important;
-  }
-
-  html body.aurel-page-overview .topbar label.ref-control>svg,
-  html body.aurel-page-overview .topbar label.aurel-bank-control>svg,
-  html body:not(.aurel-page-overview) .topbar label.ref-control>svg,
-  html body:not(.aurel-page-overview) .topbar label.aurel-bank-control>svg{
-    display:block!important;
-    position:absolute!important;
-    left:14px!important;
-    top:50%!important;
-    z-index:8!important;
-    width:23px!important;
-    height:23px!important;
-    min-width:23px!important;
-    max-width:23px!important;
-    transform:translateY(-50%)!important;
-    pointer-events:none!important;
-  }
-
-  html body.aurel-page-overview .topbar label.ref-control::after,
-  html body:not(.aurel-page-overview) .topbar label.ref-control::after{
-    content:""!important;
-    position:absolute!important;
-    right:16px!important;
-    top:50%!important;
-    z-index:8!important;
-    width:10px!important;
-    height:10px!important;
-    margin-top:-5px!important;
-    border-right:2px solid currentColor!important;
-    border-bottom:2px solid currentColor!important;
-    transform:rotate(45deg)!important;
-    pointer-events:none!important;
-    box-sizing:border-box!important;
-  }
-
-  /* Both mobile display mechanisms are normalized to the same coordinates.
-     R126 display is the visible one; legacy R122 stays hidden where applicable. */
-  html body.aurel-page-overview .topbar .aurel-mobile-select-display-v2,
-  html body:not(.aurel-page-overview) .topbar .aurel-mobile-select-display-v2{
-    position:absolute!important;
-    left:49px!important;
-    right:40px!important;
-    top:30px!important;
-    z-index:9!important;
-    display:block!important;
-    min-width:0!important;
-    margin:0!important;
-    padding:0!important;
-    overflow:hidden!important;
-    white-space:nowrap!important;
-    text-overflow:ellipsis!important;
-    font-size:16px!important;
-    line-height:22px!important;
-    font-weight:850!important;
-    letter-spacing:0!important;
-    text-align:left!important;
-    pointer-events:none!important;
-  }
-
-  html body.aurel-page-overview .topbar .aurel-mobile-select-value,
-  html body:not(.aurel-page-overview) .topbar .aurel-mobile-select-value{
-    display:none!important;
-    visibility:hidden!important;
-    opacity:0!important;
-    pointer-events:none!important;
-  }
-
-  /* Native select remains the full hit target but never contributes geometry. */
-  html body.aurel-page-overview .topbar label.ref-control select,
-  html body.aurel-page-overview .topbar #bank-select,
-  html body.aurel-page-overview .topbar #year-select,
-  html body:not(.aurel-page-overview) .topbar label.ref-control select,
-  html body:not(.aurel-page-overview) .topbar #bank-select,
-  html body:not(.aurel-page-overview) .topbar #year-select{
-    position:absolute!important;
-    inset:0!important;
-    width:100%!important;
-    height:100%!important;
-    min-width:0!important;
-    max-width:none!important;
-    min-height:0!important;
-    margin:0!important;
-    padding:0!important;
-    border:0!important;
-    border-radius:inherit!important;
-    box-sizing:border-box!important;
-    opacity:0!important;
-  }
-}
-</style>
-<!-- AUREL_R130_MOBILE_SELECT_ONE_GEOMETRY_END -->
-
-
-
-<!-- AUREL_R131_MOBILE_WAITING_ROOM_ONE_SYSTEM_START -->
-<style id="AUREL_R131_MOBILE_WAITING_ROOM_ONE_SYSTEM_STYLE">
-/* MOBILE ONLY: one shared waiting-room geometry and palette for every tab.
-   This removes all Overview-only sizing drift. Desktop >=761px untouched. */
-@media (max-width:760px){
-
-  html body.aurel-mobile-waiting-sync .page{
+  /* Page canvas and heading: same geometry/palette as functional pages */
+  html body.aurel-page-overview.aurel-overview-waiting-only .page{
     width:100%!important;
     max-width:none!important;
     margin:0!important;
@@ -19583,9 +19429,8 @@ body.aurel-perf-scrolling .button{
       linear-gradient(180deg,#f4f8fb 0%,#edf3f7 100%)!important;
   }
 
-  /* Same heading card on every waiting page. */
-  html body.aurel-mobile-waiting-sync #root>.page-head,
-  html body.aurel-mobile-waiting-sync #root>.page-head.aurel-overview-hero-head{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head,
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head.aurel-overview-hero-head{
     position:relative!important;
     display:block!important;
     visibility:visible!important;
@@ -19603,8 +19448,8 @@ body.aurel-perf-scrolling .button{
     transform:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root>.page-head::before,
-  html body.aurel-mobile-waiting-sync #root>.page-head.aurel-overview-hero-head::before{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head::before,
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head.aurel-overview-hero-head::before{
     content:""!important;
     display:block!important;
     position:absolute!important;
@@ -19614,17 +19459,17 @@ body.aurel-perf-scrolling .button{
     right:auto!important;
     width:4px!important;
     height:auto!important;
-    background:linear-gradient(180deg,#287cff,#20b8b0)!important;
     border:0!important;
     border-radius:0!important;
+    background:linear-gradient(180deg,#287cff,#20b8b0)!important;
     box-shadow:none!important;
     opacity:1!important;
     transform:none!important;
     pointer-events:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root>.page-head::after,
-  html body.aurel-mobile-waiting-sync #root>.page-head.aurel-overview-hero-head::after{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head::after,
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head.aurel-overview-hero-head::after{
     content:""!important;
     display:block!important;
     position:absolute!important;
@@ -19634,19 +19479,20 @@ body.aurel-perf-scrolling .button{
     top:-95px!important;
     left:auto!important;
     bottom:auto!important;
+    border:0!important;
     border-radius:50%!important;
     background:radial-gradient(circle,rgba(48,153,255,.10),rgba(48,153,255,0) 70%)!important;
     opacity:1!important;
-    pointer-events:none!important;
     transform:none!important;
+    pointer-events:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root>.page-head>*{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head>*{
     position:relative!important;
     z-index:1!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root>.page-head .eyebrow{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head .eyebrow{
     display:block!important;
     margin:0!important;
     color:#2873b7!important;
@@ -19658,7 +19504,7 @@ body.aurel-perf-scrolling .button{
     text-shadow:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root>.page-head h1{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head h1{
     max-width:none!important;
     margin:5px 0 6px!important;
     padding:0!important;
@@ -19671,7 +19517,7 @@ body.aurel-perf-scrolling .button{
     text-shadow:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root>.page-head p{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root>.page-head p{
     max-width:820px!important;
     margin:0!important;
     padding:0!important;
@@ -19683,19 +19529,19 @@ body.aurel-perf-scrolling .button{
     text-shadow:none!important;
   }
 
-  /* ===== EXACT SAME MAIN WAITING CARD ===== */
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard{
+  /* Main waiting card: copy the existing mobile waiting-room geometry */
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard{
     display:grid!important;
     gap:12px!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-hero{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-hero{
     position:relative!important;
     display:block!important;
     grid-template-columns:1fr!important;
     width:100%!important;
-    min-height:0!important;
     height:auto!important;
+    min-height:0!important;
     margin:0!important;
     padding:20px 18px!important;
     overflow:hidden!important;
@@ -19704,18 +19550,18 @@ body.aurel-perf-scrolling .button{
     background:
       radial-gradient(circle at 82% 28%,rgba(37,99,235,.16),transparent 30%),
       radial-gradient(circle at 90% 78%,rgba(15,139,141,.14),transparent 28%),
-      linear-gradient(125deg,#ffffff 0%,#f8fbff 55%,#eaf2ff 78%,#e5f5f2 100%)!important;
+      linear-gradient(125deg,#fff 0%,#f8fbff 55%,#eaf2ff 78%,#e5f5f2 100%)!important;
     box-shadow:0 18px 45px rgba(24,49,58,.075)!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-copy{
     position:relative!important;
     z-index:3!important;
     width:100%!important;
     max-width:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-kicker{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-kicker{
     display:inline-flex!important;
     align-items:center!important;
     gap:8px!important;
@@ -19732,7 +19578,7 @@ body.aurel-perf-scrolling .button{
     box-shadow:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-kicker-dot{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-kicker-dot{
     width:7px!important;
     height:7px!important;
     border-radius:50%!important;
@@ -19740,7 +19586,7 @@ body.aurel-perf-scrolling .button{
     box-shadow:0 0 0 4px rgba(37,99,235,.12)!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy h1{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-copy h1{
     margin:18px 0 13px!important;
     color:#0b2d45!important;
     -webkit-text-fill-color:#0b2d45!important;
@@ -19750,12 +19596,12 @@ body.aurel-perf-scrolling .button{
     font-weight:900!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy h1 span{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-copy h1 span{
     color:#0d7378!important;
     -webkit-text-fill-color:#0d7378!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy p{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-copy p{
     max-width:none!important;
     margin:0!important;
     color:#526e81!important;
@@ -19764,14 +19610,14 @@ body.aurel-perf-scrolling .button{
     line-height:1.68!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-actions{
     display:grid!important;
     grid-template-columns:1fr!important;
     gap:9px!important;
     margin-top:18px!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions .button{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-actions .button{
     width:100%!important;
     min-height:46px!important;
     padding:10px 14px!important;
@@ -19780,8 +19626,8 @@ body.aurel-perf-scrolling .button{
     font-weight:800!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions .button.primary,
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions .welcome-primary{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-actions .button.primary,
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-actions .welcome-primary{
     background:linear-gradient(135deg,#2175d9,#1665bd)!important;
     background-color:#2175d9!important;
     border:1px solid #1665bd!important;
@@ -19791,9 +19637,9 @@ body.aurel-perf-scrolling .button{
     text-shadow:none!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions .welcome-secondary,
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions .button:not(.primary){
-    background:linear-gradient(180deg,#ffffff,#f6fafc)!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-actions .welcome-secondary,
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-actions .button:not(.primary){
+    background:linear-gradient(180deg,#fff,#f6fafc)!important;
     background-color:#fff!important;
     border:1px solid #bfd2df!important;
     color:#214760!important;
@@ -19801,7 +19647,7 @@ body.aurel-perf-scrolling .button{
     box-shadow:0 3px 8px rgba(28,65,91,.05)!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-trust{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-trust{
     display:flex!important;
     flex-wrap:wrap!important;
     gap:6px 8px!important;
@@ -19812,12 +19658,12 @@ body.aurel-perf-scrolling .button{
     line-height:1.45!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-trust i{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-trust i{
     display:none!important;
   }
 
-  /* ===== BCTC ILLUSTRATION: EXACT SAME GEOMETRY ===== */
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-visual{
+  /* BCTC illustration: exact reference dimensions, no Overview scale */
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-visual{
     position:relative!important;
     display:grid!important;
     place-items:center!important;
@@ -19833,48 +19679,39 @@ body.aurel-perf-scrolling .button{
     z-index:2!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-orbit{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-orbit{
     position:absolute!important;
     border:1px solid rgba(37,99,235,.25)!important;
     border-radius:50%!important;
     transform:rotate(-7deg)!important;
   }
-
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .orbit-one{
-    width:330px!important;
-    height:160px!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .orbit-one{width:330px!important;height:160px!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .orbit-two{
+    width:260px!important;height:115px!important;border-color:rgba(15,139,141,.26)!important;border-style:dashed!important
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .orbit-two{
-    width:260px!important;
-    height:115px!important;
-    border-color:rgba(15,139,141,.26)!important;
-    border-style:dashed!important;
-  }
-
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-paper{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-paper{
     position:absolute!important;
     width:230px!important;
     height:285px!important;
     border-radius:13px!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-paper-main{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-paper-main{
     width:205px!important;
     height:258px!important;
     left:50%!important;
     top:50%!important;
     padding:20px 18px!important;
     transform:translate(-50%,-50%) rotate(-2deg)!important;
-    background:linear-gradient(180deg,#ffffff,#f8fbfd)!important;
+    background:linear-gradient(180deg,#fff,#f8fbfd)!important;
     border:1px solid #b8cbd8!important;
     color:#1d3c52!important;
     box-shadow:0 25px 48px rgba(23,48,57,.16)!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-paper-back{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-paper-back{
     left:50%!important;
-    top:auto!important;
     width:230px!important;
     height:285px!important;
     background:#d7e8f5!important;
@@ -19883,36 +19720,28 @@ body.aurel-perf-scrolling .button{
     box-shadow:0 18px 40px rgba(25,51,61,.10)!important;
   }
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-brand{
-    color:#2563eb!important;
-    -webkit-text-fill-color:#2563eb!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-brand{
+    color:#2563eb!important;-webkit-text-fill-color:#2563eb!important
   }
-
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-top b{
-    color:#0b2d45!important;
-    -webkit-text-fill-color:#0b2d45!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-top b{
+    color:#0b2d45!important;-webkit-text-fill-color:#0b2d45!important
   }
-
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-year{
-    background:#e7f0ff!important;
-    color:#29608a!important;
-    -webkit-text-fill-color:#29608a!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-year{
+    background:#e7f0ff!important;color:#29608a!important;-webkit-text-fill-color:#29608a!important
   }
-
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-rule{
-    background:linear-gradient(90deg,#2563eb,#0f8b8d)!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-rule{
+    background:linear-gradient(90deg,#2563eb,#0f8b8d)!important
   }
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-summary span:nth-child(1){background:#d7e7ff!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-summary span:nth-child(2){background:#d8f1ed!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-summary span:nth-child(3){background:#ffeab9!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-table i{background:#d8e5ed!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .pc-grid{stroke:#d8e3ea!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .pc-area{fill:rgba(37,99,235,.10)!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .pc-line{stroke:#2563eb!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .paper-chart circle{fill:#0f8b8d!important}
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-summary span:nth-child(1){background:#d7e7ff!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-summary span:nth-child(2){background:#d8f1ed!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-summary span:nth-child(3){background:#ffeab9!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-table i{background:#d8e5ed!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .pc-grid{stroke:#d8e3ea!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .pc-area{fill:rgba(37,99,235,.10)!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .pc-line{stroke:#2563eb!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .paper-chart circle{fill:#0f8b8d!important}
-
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .visual-badge{
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .visual-badge{
     position:absolute!important;
     display:flex!important;
     align-items:center!important;
@@ -19926,28 +19755,15 @@ body.aurel-perf-scrolling .button{
     font-weight:750!important;
     box-shadow:0 8px 20px rgba(15,55,80,.09)!important;
   }
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .badge-shield{left:0!important;bottom:34px!important;background:#ecf9f6!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .badge-chart{right:0!important;top:38px!important;background:#eff5ff!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .badge-doc{right:4px!important;bottom:20px!important;background:#fff7e6!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .badge-chart svg{color:#2563eb!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .badge-shield svg{color:#0f8b8d!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .badge-doc svg{color:#e99a12!important}
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .badge-shield{
-    left:0!important;
-    bottom:34px!important;
-    background:#ecf9f6!important;
-  }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .badge-chart{
-    right:0!important;
-    top:38px!important;
-    background:#eff5ff!important;
-  }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .badge-doc{
-    right:4px!important;
-    bottom:20px!important;
-    background:#fff7e6!important;
-  }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .badge-chart svg{color:#2563eb!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .badge-shield svg{color:#0f8b8d!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .badge-doc svg{color:#e99a12!important}
-
-  /* ===== LOWER WAITING SECTIONS ===== */
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-flow{
+  /* Lower blocks: same reference spacing and radii */
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-flow{
     display:grid!important;
     grid-template-columns:1fr!important;
     gap:8px!important;
@@ -19957,131 +19773,59 @@ body.aurel-perf-scrolling .button{
     background:#fff!important;
     box-shadow:0 8px 22px rgba(22,46,56,.04)!important;
   }
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .flow-label{margin-bottom:2px!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .flow-label span{color:#6a8293!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .flow-label strong{color:#23475e!important}
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .flow-step{
+    min-width:0!important;padding:9px 10px!important;border-radius:11px!important;background:#f3f7fa!important
+  }
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .flow-arrow{display:none!important}
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-label{
-    margin-bottom:2px!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-capabilities{
+    display:grid!important;grid-template-columns:1fr!important;gap:9px!important
   }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-label span{color:#6a8293!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-label strong{color:#23475e!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-step{
-    min-width:0!important;
-    padding:9px 10px!important;
-    border-radius:11px!important;
-    background:#f3f7fa!important;
+  html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-capabilities article{
+    min-height:0!important;padding:14px!important;border:1px solid #c2d2dc!important;border-radius:14px!important;
+    background:#fff!important;box-shadow:0 8px 22px rgba(20,46,57,.035)!important
   }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-step:nth-of-type(2) em{background:#e7f0ff!important;color:#1d5ba0!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-step:nth-of-type(4) em{background:#e4f6f3!important;color:#0b716e!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-step:nth-of-type(6) em{background:#fff3d9!important;color:#9b6205!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .flow-arrow{display:none!important}
 
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities{
-    display:grid!important;
-    grid-template-columns:1fr!important;
-    gap:9px!important;
-  }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article{
-    min-height:0!important;
-    padding:14px!important;
-    border:1px solid #c2d2dc!important;
-    border-radius:14px!important;
-    background:#fff!important;
-    box-shadow:0 8px 22px rgba(20,46,57,.035)!important;
-  }
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(1){border-top-color:#2563eb!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(2){border-top-color:#0f8b8d!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(3){border-top-color:#e99a12!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(4){border-top-color:#7555c7!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(1) .cap-icon{background:#e7f0ff!important;color:#2563eb!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(2) .cap-icon{background:#e4f6f3!important;color:#0f8b8d!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(3) .cap-icon{background:#fff3d9!important;color:#e99a12!important}
-  html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(4) .cap-icon{background:#eee9fa!important;color:#7555c7!important}
-
-  /* Same compact BCTC geometry on very narrow phones, regardless of tab. */
   @media (max-width:390px){
-    html body.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy h1{
-      font-size:28px!important;
+    html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .welcome-copy h1{font-size:28px!important}
+    html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-visual{
+      height:220px!important;min-height:220px!important;max-height:220px!important
     }
-    html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-visual{
-      height:220px!important;
-      min-height:220px!important;
-      max-height:220px!important;
+    html body.aurel-page-overview.aurel-overview-waiting-only #root .welcome-dashboard .report-paper-main{
+      width:188px!important;height:238px!important
     }
-    html body.aurel-mobile-waiting-sync #root .welcome-dashboard .report-paper-main{
-      width:188px!important;
-      height:238px!important;
-    }
-  }
-
-  /* Dark mode uses one shared waiting-room palette too. */
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync .page{
-    background:
-      radial-gradient(circle at 88% 3%,rgba(50,123,219,.08),transparent 24%),
-      radial-gradient(circle at 14% 2%,rgba(30,183,173,.055),transparent 22%),
-      linear-gradient(180deg,#080d14 0%,#070b11 100%)!important;
-  }
-
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root>.page-head{
-    border-color:#2b4055!important;
-    background:linear-gradient(135deg,#101b28 0%,#0c151f 100%)!important;
-    box-shadow:0 11px 28px rgba(0,0,0,.20)!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root>.page-head::before{
-    background:linear-gradient(180deg,#4d9cff,#2fc7b3)!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root>.page-head .eyebrow{color:#68aaff!important;-webkit-text-fill-color:#68aaff!important}
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root>.page-head h1{color:#f3f8fc!important;-webkit-text-fill-color:#f3f8fc!important}
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root>.page-head p{color:#9db0c0!important;-webkit-text-fill-color:#9db0c0!important}
-
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-hero,
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-flow,
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-capabilities article{
-    border-color:#293d51!important;
-    background:linear-gradient(180deg,#111b27 0%,#0e1721 100%)!important;
-    box-shadow:0 8px 20px rgba(0,0,0,.14)!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-kicker{
-    background:#142236!important;border-color:#31506d!important;color:#9ecaff!important;-webkit-text-fill-color:#9ecaff!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-kicker-dot{
-    background:#4d9cff!important;box-shadow:0 0 0 4px rgba(77,156,255,.11)!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy h1,
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy h1 span{
-    color:#f3f7fb!important;-webkit-text-fill-color:#f3f7fb!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-copy p{
-    color:#a2b5c5!important;-webkit-text-fill-color:#a2b5c5!important;
-  }
-  html body.aurel-dark-theme.aurel-mobile-waiting-sync #root .welcome-dashboard .welcome-actions .welcome-secondary{
-    background:#152130!important;border-color:#334a62!important;color:#dce7f1!important;-webkit-text-fill-color:#dce7f1!important;
   }
 }
 </style>
 
-<script id="AUREL_R131_MOBILE_WAITING_ROOM_ONE_SYSTEM_JS">
+<script id="AUREL_R132_OVERVIEW_MOBILE_WAITING_MATCH_REFERENCE_JS">
 (function(){
   'use strict';
   if(!window.matchMedia)return;
   var mq=window.matchMedia('(max-width:760px)');
 
-  function syncWaitingClass(){
+  function sync(){
+    var isOverview=document.body.classList.contains('aurel-page-overview');
     var waiting=!!document.querySelector('#root .welcome-dashboard');
-    document.body.classList.toggle('aurel-mobile-waiting-sync',mq.matches&&waiting);
+    document.body.classList.toggle('aurel-overview-waiting-only',mq.matches&&isOverview&&waiting);
   }
 
   if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',syncWaitingClass,{once:true});
+    document.addEventListener('DOMContentLoaded',sync,{once:true});
   }else{
-    syncWaitingClass();
+    sync();
   }
 
-  document.addEventListener('aurel:dom-render',syncWaitingClass);
-  window.addEventListener('pageshow',syncWaitingClass,{passive:true});
-  if(mq.addEventListener)mq.addEventListener('change',syncWaitingClass);
-  else if(mq.addListener)mq.addListener(syncWaitingClass);
+  document.addEventListener('aurel:dom-render',sync);
+  window.addEventListener('pageshow',sync,{passive:true});
+  if(mq.addEventListener)mq.addEventListener('change',sync);
+  else if(mq.addListener)mq.addListener(sync);
 })();
 </script>
-<!-- AUREL_R131_MOBILE_WAITING_ROOM_ONE_SYSTEM_END -->
+<!-- AUREL_R132_OVERVIEW_MOBILE_WAITING_MATCH_REFERENCE_END -->
 
 </body></html>
 
