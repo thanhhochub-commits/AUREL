@@ -11981,16 +11981,32 @@ body:has(#nav button[data-page="monitor"].active)
   document.addEventListener('pointerdown',directSwitch,true);
   document.addEventListener('click',directSwitch,true);
 
+  function scheduleRenderBurst(){
+    [0,60,160,360,700,1200].forEach(function(ms){
+      setTimeout(render,ms);
+    });
+  }
+
   document.addEventListener('change',function(e){
     if(e.target&& (e.target.id==='year-select'||e.target.id==='bank-select')){
-      setTimeout(render,160);
-      setTimeout(render,650);
+      scheduleRenderBurst();
     }
   });
 
-  /* Không theo dõi toàn bộ DOM: biểu đồ chỉ render khi vào trang, đổi tab, ngân hàng hoặc năm. */
-  setTimeout(render,150);
-  setTimeout(render,700);
+  /* Khi chuyển vào Tổng quan, root được ứng dụng dựng lại.
+     Gọi render theo nhịp ngắn cho tới khi panel nguồn xuất hiện; signature guard bảo đảm không dựng lại thừa. */
+  document.addEventListener('click',function(e){
+    var b=e.target&&e.target.closest?e.target.closest('#nav button[data-page]'):null;
+    if(b&&b.getAttribute('data-page')==='overview'){
+      scheduleRenderBurst();
+    }
+  },true);
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',scheduleRenderBurst,{once:true});
+  }else{
+    scheduleRenderBurst();
+  }
 })();
 </script>
 <script id="AUREL_R64_NUMBER_OVERFLOW_FIX_JS">
