@@ -12159,6 +12159,8 @@ body:has(#nav button[data-page="monitor"].active)
 </script>
 <script id="AUREL_R78_REAL_SLIDER_JS">
 (function(){
+  'use strict';
+
   var HERO=[
     'https://aurel-assets-20260929.floot.app/_cdn/static/aa18ae40-4e8a-40e4-9e3c-4eae054e2ba3-aurel_t1_horizontal_user_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/25fa8f0f-36a9-4c92-b684-bde47976c501-aurel_t2_horizontal_user_20261001.png',
@@ -12169,6 +12171,7 @@ body:has(#nav button[data-page="monitor"].active)
     'https://aurel-assets-20260929.floot.app/_cdn/static/0af3d24c-6082-4e14-a606-064af9245f2d-aurel_t7_horizontal_user_20261001.png',
     'https://aurel-assets-20260929.floot.app/_cdn/static/586439d3-65a8-4cb0-ac31-68c3acce97bb-aurel_t8_horizontal_user_20261001.png'
   ];
+
   var SIDE=[
     'assets/aurel_sidebar_day_20261001.webp',
     'assets/aurel_sidebar_night_20261001.webp',
@@ -12179,22 +12182,25 @@ body:has(#nav button[data-page="monitor"].active)
     'https://aurel-assets-20260929.floot.app/_cdn/static/409534f9-e53a-4146-8486-1efcb0fbb763-aurel_t7_danang_sidebar_sunrise_20261001.png?v=R108-T7-DANANG-SUNRISE',
     'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
   ];
-  var HOLD=10000;
-  var MOVE=900;
-  var EASE='cubic-bezier(.22,.61,.36,1)';
 
-  /* Một đồng hồ chung cho toàn bộ slideshow.
-     Hero và sidebar không còn tự chạy timer riêng nên không thể lệch nhịp. */
+  /* Chỉ khung ngang đổi từ 10s xuống 5s. Sidebar giữ nguyên 10s. */
+  var HERO_HOLD=5000;
+  var SIDE_HOLD=10000;
+
+  /* Khung ngang chuyển chậm hơn một chút để mắt nhìn mượt, nhưng vẫn kết thúc gọn. */
+  var HERO_MOVE=1100;
+  var SIDE_MOVE=900;
+  var HERO_EASE='cubic-bezier(.22,.72,.24,1)';
+  var SIDE_EASE='cubic-bezier(.22,.61,.36,1)';
+
   var instances=[];
-  var globalIndex=0;
-  var masterTimer=null;
-  var animating=false;
 
   function preload(list){
     list.forEach(function(src){
       var im=new Image();
       im.decoding='async';
       im.src=src;
+      if(im.decode) im.decode().catch(function(){});
     });
   }
 
@@ -12205,7 +12211,15 @@ body:has(#nav button[data-page="monitor"].active)
     return null;
   }
 
-  function mount(el,list,key){
+  function primeImage(img,src){
+    if(img.src!==src) img.src=src;
+    img.decoding='async';
+    if(img.decode){
+      img.decode().catch(function(){});
+    }
+  }
+
+  function mount(el,list,key,hold,move,ease){
     if(!el || !list || list.length<2) return null;
 
     var existing=findInstance(el);
@@ -12222,13 +12236,17 @@ body:has(#nav button[data-page="monitor"].active)
     var b=document.createElement('img');
     a.className='aurel-r78-slider-img';
     b.className='aurel-r78-slider-img';
-    a.alt=''; b.alt='';
-    a.draggable=false; b.draggable=false;
+    a.alt='';
+    b.alt='';
+    a.draggable=false;
+    b.draggable=false;
+    a.decoding='async';
+    b.decoding='async';
 
-    var idx=globalIndex%list.length;
-    var nextIdx=(idx+1)%list.length;
+    var idx=0;
     a.src=list[idx];
-    b.src=list[nextIdx];
+    b.src=list[(idx+1)%list.length];
+
     a.style.transition='none';
     b.style.transition='none';
     a.style.transform='translate3d(0,0,0)';
@@ -12245,84 +12263,130 @@ body:has(#nav button[data-page="monitor"].active)
       wrap:wrap,
       current:a,
       next:b,
-      index:idx
+      index:idx,
+      hold:hold,
+      move:move,
+      ease:ease,
+      timer:null,
+      finishTimer:null,
+      animating:false
     };
+
     instances.push(inst);
+    schedule(inst);
     return inst;
+  }
+
+  function clearInst(inst){
+    if(inst.timer!==null){
+      clearTimeout(inst.timer);
+      inst.timer=null;
+    }
+    if(inst.finishTimer!==null){
+      clearTimeout(inst.finishTimer);
+      inst.finishTimer=null;
+    }
   }
 
   function cleanup(){
     instances=instances.filter(function(inst){
-      return inst.el && inst.el.isConnected && inst.wrap && inst.wrap.isConnected;
+      var alive=inst.el && inst.el.isConnected && inst.wrap && inst.wrap.isConnected;
+      if(!alive) clearInst(inst);
+      return alive;
     });
   }
 
-  function scheduleMaster(){
-    if(masterTimer!==null) return;
-    masterTimer=setTimeout(function(){
-      masterTimer=null;
-      advanceAll();
-    },HOLD);
+  function schedule(inst){
+    if(!inst || !inst.el.isConnected || inst.timer!==null) return;
+    inst.timer=setTimeout(function(){
+      inst.timer=null;
+      advance(inst);
+    },inst.hold);
   }
 
-  function advanceAll(){
-    if(animating){
-      scheduleMaster();
+  function finish(inst,nextIndex){
+    if(!inst.el.isConnected){
+      clearInst(inst);
       return;
     }
 
-    cleanup();
-    if(!instances.length){
-      scheduleMaster();
+    inst.current.style.transition='none';
+    inst.current.style.transform='translate3d(100%,0,0)';
+
+    var old=inst.current;
+    inst.current=inst.next;
+    inst.next=old;
+    inst.index=nextIndex;
+    inst.animating=false;
+    inst.finishTimer=null;
+
+    /* Chuẩn bị sẵn ảnh kế tiếp trước 5/10 giây, tránh khựng lúc chuyển. */
+    var following=(inst.index+1)%inst.list.length;
+    inst.next.style.transition='none';
+    inst.next.style.transform='translate3d(100%,0,0)';
+    primeImage(inst.next,inst.list[following]);
+
+    schedule(inst);
+  }
+
+  function beginMove(inst,nextIndex){
+    if(!inst.el.isConnected){
+      clearInst(inst);
       return;
     }
 
-    animating=true;
-    var ni=(globalIndex+1)%HERO.length;
+    /* Ép browser ghi nhận trạng thái ban đầu trước khi chạy transform. */
+    inst.current.style.transition='none';
+    inst.next.style.transition='none';
+    inst.current.style.transform='translate3d(0,0,0)';
+    inst.next.style.transform='translate3d(100%,0,0)';
 
-    /* Chuẩn bị tất cả slider trong cùng một lượt JS. */
-    instances.forEach(function(inst){
-      var localNext=ni%inst.list.length;
-      inst.next.src=inst.list[localNext];
-      inst.current.style.transition='none';
-      inst.next.style.transition='none';
-      inst.current.style.transform='translate3d(0,0,0)';
-      inst.next.style.transform='translate3d(100%,0,0)';
-    });
-
-    /* Một cặp requestAnimationFrame chung: tất cả bắt đầu đúng cùng frame. */
     requestAnimationFrame(function(){
       requestAnimationFrame(function(){
-        cleanup();
-        instances.forEach(function(inst){
-          inst.current.style.transition='transform '+MOVE+'ms '+EASE;
-          inst.next.style.transition='transform '+MOVE+'ms '+EASE;
-          inst.current.style.transform='translate3d(-100%,0,0)';
-          inst.next.style.transform='translate3d(0,0,0)';
-        });
+        if(!inst.el.isConnected){
+          clearInst(inst);
+          return;
+        }
 
-        setTimeout(function(){
-          cleanup();
-          instances.forEach(function(inst){
-            inst.current.style.transition='none';
-            inst.current.style.transform='translate3d(100%,0,0)';
-            var old=inst.current;
-            inst.current=inst.next;
-            inst.next=old;
-            inst.index=ni%inst.list.length;
-          });
-          globalIndex=ni;
-          animating=false;
-          scheduleMaster();
-        },MOVE+40);
+        var tr='transform '+inst.move+'ms '+inst.ease;
+        inst.current.style.transition=tr;
+        inst.next.style.transition=tr;
+        inst.current.style.transform='translate3d(-100%,0,0)';
+        inst.next.style.transform='translate3d(0,0,0)';
+
+        inst.finishTimer=setTimeout(function(){
+          finish(inst,nextIndex);
+        },inst.move+30);
       });
     });
   }
 
+  function advance(inst){
+    if(!inst || !inst.el.isConnected) return;
+    if(inst.animating){
+      schedule(inst);
+      return;
+    }
+
+    inst.animating=true;
+    var nextIndex=(inst.index+1)%inst.list.length;
+    var src=inst.list[nextIndex];
+    primeImage(inst.next,src);
+
+    /* Nếu decode hỗ trợ, chờ ảnh sẵn sàng rồi mới trượt. */
+    if(inst.next.decode){
+      inst.next.decode()
+        .catch(function(){})
+        .then(function(){beginMove(inst,nextIndex);});
+    }else{
+      beginMove(inst,nextIndex);
+    }
+  }
+
   function run(){
-    mount(document.querySelector('.sidebar'),SIDE,'side');
-    mount(document.querySelector('.ref-hero'),HERO,'hero');
-    scheduleMaster();
+    cleanup();
+    mount(document.querySelector('.sidebar'),SIDE,'side',SIDE_HOLD,SIDE_MOVE,SIDE_EASE);
+    mount(document.querySelector('.ref-hero'),HERO,'hero',HERO_HOLD,HERO_MOVE,HERO_EASE);
   }
 
   preload(HERO.concat(SIDE));
@@ -12333,6 +12397,7 @@ body:has(#nav button[data-page="monitor"].active)
     run();
   }
 
+  /* Khi DOM trang đổi chỉ mount lại phần bị dựng mới; timer của phần còn sống không bị reset. */
   var root=document.getElementById('root')||document.body;
   var queued=false;
   new MutationObserver(function(){
@@ -12340,10 +12405,25 @@ body:has(#nav button[data-page="monitor"].active)
     queued=true;
     requestAnimationFrame(function(){
       queued=false;
-      cleanup();
       run();
     });
   }).observe(root,{childList:true,subtree:true});
+
+  document.addEventListener('visibilitychange',function(){
+    cleanup();
+    if(document.hidden){
+      instances.forEach(function(inst){
+        if(inst.timer!==null){
+          clearTimeout(inst.timer);
+          inst.timer=null;
+        }
+      });
+    }else{
+      instances.forEach(function(inst){
+        if(!inst.animating) schedule(inst);
+      });
+    }
+  });
 })();
 </script>
 
@@ -18537,6 +18617,26 @@ body:has(#nav button[data-page="overview"].active) .r61-center small{
 }
 </style>
 <!-- AUREL_R61_DONUT_HARD_STABLE_V2_END -->
+
+
+<!-- AUREL_HERO_SLIDER_SMOOTH_V2_START -->
+<style id="AUREL_HERO_SLIDER_SMOOTH_V2_STYLE">
+/* Chỉ tối ưu compositor cho slideshow hiện có, không đổi bố cục/ảnh. */
+.aurel-r78-slider-wrap{
+  transform:translateZ(0)!important;
+  backface-visibility:hidden!important;
+  -webkit-backface-visibility:hidden!important;
+  contain:paint!important;
+}
+.aurel-r78-slider-img{
+  will-change:transform!important;
+  backface-visibility:hidden!important;
+  -webkit-backface-visibility:hidden!important;
+  transform-style:preserve-3d!important;
+  image-rendering:auto!important;
+}
+</style>
+<!-- AUREL_HERO_SLIDER_SMOOTH_V2_END -->
 
 </body></html>
 
