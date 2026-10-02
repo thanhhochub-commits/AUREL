@@ -17710,5 +17710,122 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-th-line b{color:#edf4fa!importa
 </script>
 <!-- AUREL_RISK_READABILITY_V2_END -->
 
+
+<!-- AUREL_RISK_CLARITY_V3_START -->
+<style id="AUREL_RISK_CLARITY_V3_STYLE">
+/* Chỉ chỉnh phần bảng Giám sát rủi ro theo yêu cầu mới. */
+.monitor-rules .section-top > small{
+  display:none!important;
+}
+
+/* Làm chữ cả Bảng 1 và Bảng 2 rõ, đậm và dễ đọc hơn. */
+.monitor-rules .aurel-risk-original th,
+.monitor-rules .aurel-risk-derived th{
+  font-size:11.4px!important;
+  line-height:1.4!important;
+  font-weight:850!important;
+  color:#28485d!important;
+  letter-spacing:.35px!important;
+}
+.monitor-rules .aurel-risk-original td,
+.monitor-rules .aurel-risk-original td.num,
+.monitor-rules .aurel-risk-derived td{
+  font-size:12.5px!important;
+  line-height:1.62!important;
+  color:#405f73!important;
+}
+.monitor-rules .aurel-risk-original td:nth-child(2) strong,
+.monitor-rules .aurel-risk-derived .aurel-risk-criterion strong{
+  font-size:13.2px!important;
+  line-height:1.5!important;
+  font-weight:850!important;
+  color:#15364d!important;
+}
+.monitor-rules .aurel-risk-original .aurel-r124-id,
+.monitor-rules .aurel-risk-derived .aurel-risk-key{
+  font-size:10.9px!important;
+  font-weight:650!important;
+  color:#7890a0!important;
+}
+.monitor-rules .aurel-risk-original .aurel-r124-raw,
+.monitor-rules .aurel-risk-derived .aurel-risk-raw{
+  font-size:11.7px!important;
+  font-weight:750!important;
+  color:#37566b!important;
+}
+.monitor-rules .aurel-risk-original td:nth-child(4)>strong,
+.monitor-rules .aurel-risk-derived .aurel-risk-indicator strong{
+  font-size:14.6px!important;
+  font-weight:900!important;
+  color:#103650!important;
+}
+.monitor-rules .aurel-risk-original .aurel-r124-formula,
+.monitor-rules .aurel-risk-derived .aurel-risk-formula{
+  font-size:10.9px!important;
+  line-height:1.58!important;
+  color:#718896!important;
+}
+.monitor-rules .aurel-risk-original .monitor-reference,
+.monitor-rules .aurel-risk-derived .aurel-risk-threshold{
+  font-size:11.5px!important;
+  line-height:1.74!important;
+  color:#496578!important;
+}
+.monitor-rules .aurel-risk-original .monitor-action,
+.monitor-rules .aurel-risk-derived .aurel-risk-meaning{
+  font-size:11.6px!important;
+  line-height:1.68!important;
+  color:#526f82!important;
+}
+.monitor-rules .aurel-risk-original .monitor-domain,
+.monitor-rules .aurel-risk-derived .aurel-risk-group{
+  font-size:10.8px!important;
+  font-weight:850!important;
+}
+.monitor-rules .aurel-risk-original .tag,
+.monitor-rules .aurel-risk-derived .tag{
+  font-size:11px!important;
+  font-weight:850!important;
+  padding:7px 10px!important;
+}
+.monitor-rules .aurel-risk-th-line b{
+  font-weight:900!important;
+  color:#17384a!important;
+}
+
+/* Giữ độ tương phản tương ứng trong dark mode. */
+body.aurel-dark-theme .monitor-rules .aurel-risk-original th,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived th{
+  color:#c9d8e5!important;
+}
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td{
+  color:#aabcca!important;
+}
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(2) strong,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived .aurel-risk-criterion strong,
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(4)>strong,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived .aurel-risk-indicator strong{
+  color:#f1f6fb!important;
+}
+body.aurel-dark-theme .monitor-rules .aurel-risk-original .aurel-r124-raw,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived .aurel-risk-raw,
+body.aurel-dark-theme .monitor-rules .aurel-risk-original .monitor-reference,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived .aurel-risk-threshold,
+body.aurel-dark-theme .monitor-rules .aurel-risk-original .monitor-action,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived .aurel-risk-meaning{
+  color:#b2c4d2!important;
+}
+
+@media(max-width:760px){
+  .monitor-rules .aurel-risk-original th,
+  .monitor-rules .aurel-risk-derived th{font-size:10.8px!important}
+  .monitor-rules .aurel-risk-original td,
+  .monitor-rules .aurel-risk-original td.num,
+  .monitor-rules .aurel-risk-derived td{font-size:12px!important}
+}
+</style>
+<!-- AUREL_RISK_CLARITY_V3_END -->
+
 </body></html>
 
