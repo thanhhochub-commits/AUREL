@@ -19408,5 +19408,161 @@ body.aurel-perf-scrolling .button{
 </style>
 <!-- AUREL_R129_MOBILE_OVERVIEW_SELECT_EXACT_GEOMETRY_END -->
 
+
+
+<!-- AUREL_R130_MOBILE_SELECT_ONE_GEOMETRY_START -->
+<style id="AUREL_R130_MOBILE_SELECT_ONE_GEOMETRY">
+/* MOBILE ONLY: one and only one Bank/Year geometry for EVERY tab.
+   Fixed 60/40 ratio at all phone widths. Desktop >=761px untouched. */
+@media (max-width:760px){
+
+  html body.aurel-page-overview .topbar .controls.ref-controls,
+  html body.aurel-page-overview .topbar .ref-controls,
+  html body:not(.aurel-page-overview) .topbar .controls.ref-controls,
+  html body:not(.aurel-page-overview) .topbar .ref-controls{
+    display:grid!important;
+    grid-template-columns:minmax(0,3fr) minmax(0,2fr)!important;
+    column-gap:10px!important;
+    row-gap:0!important;
+    gap:10px!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    margin:0!important;
+    padding:0!important;
+    align-items:stretch!important;
+    justify-items:stretch!important;
+    overflow:visible!important;
+    box-sizing:border-box!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control,
+  html body:not(.aurel-page-overview) .topbar label.ref-control{
+    position:relative!important;
+    display:block!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    height:66px!important;
+    min-height:66px!important;
+    max-height:66px!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    border-radius:16px!important;
+    box-sizing:border-box!important;
+    align-self:stretch!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control::before,
+  html body:not(.aurel-page-overview) .topbar label.ref-control::before{
+    position:absolute!important;
+    left:49px!important;
+    right:40px!important;
+    top:10px!important;
+    z-index:7!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    white-space:nowrap!important;
+    text-overflow:ellipsis!important;
+    font-size:11px!important;
+    line-height:13px!important;
+    font-weight:780!important;
+    letter-spacing:.05px!important;
+    pointer-events:none!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control>svg,
+  html body.aurel-page-overview .topbar label.aurel-bank-control>svg,
+  html body:not(.aurel-page-overview) .topbar label.ref-control>svg,
+  html body:not(.aurel-page-overview) .topbar label.aurel-bank-control>svg{
+    display:block!important;
+    position:absolute!important;
+    left:14px!important;
+    top:50%!important;
+    z-index:8!important;
+    width:23px!important;
+    height:23px!important;
+    min-width:23px!important;
+    max-width:23px!important;
+    transform:translateY(-50%)!important;
+    pointer-events:none!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control::after,
+  html body:not(.aurel-page-overview) .topbar label.ref-control::after{
+    content:""!important;
+    position:absolute!important;
+    right:16px!important;
+    top:50%!important;
+    z-index:8!important;
+    width:10px!important;
+    height:10px!important;
+    margin-top:-5px!important;
+    border-right:2px solid currentColor!important;
+    border-bottom:2px solid currentColor!important;
+    transform:rotate(45deg)!important;
+    pointer-events:none!important;
+    box-sizing:border-box!important;
+  }
+
+  /* Both mobile display mechanisms are normalized to the same coordinates.
+     R126 display is the visible one; legacy R122 stays hidden where applicable. */
+  html body.aurel-page-overview .topbar .aurel-mobile-select-display-v2,
+  html body:not(.aurel-page-overview) .topbar .aurel-mobile-select-display-v2{
+    position:absolute!important;
+    left:49px!important;
+    right:40px!important;
+    top:30px!important;
+    z-index:9!important;
+    display:block!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    white-space:nowrap!important;
+    text-overflow:ellipsis!important;
+    font-size:16px!important;
+    line-height:22px!important;
+    font-weight:850!important;
+    letter-spacing:0!important;
+    text-align:left!important;
+    pointer-events:none!important;
+  }
+
+  html body.aurel-page-overview .topbar .aurel-mobile-select-value,
+  html body:not(.aurel-page-overview) .topbar .aurel-mobile-select-value{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    pointer-events:none!important;
+  }
+
+  /* Native select remains the full hit target but never contributes geometry. */
+  html body.aurel-page-overview .topbar label.ref-control select,
+  html body.aurel-page-overview .topbar #bank-select,
+  html body.aurel-page-overview .topbar #year-select,
+  html body:not(.aurel-page-overview) .topbar label.ref-control select,
+  html body:not(.aurel-page-overview) .topbar #bank-select,
+  html body:not(.aurel-page-overview) .topbar #year-select{
+    position:absolute!important;
+    inset:0!important;
+    width:100%!important;
+    height:100%!important;
+    min-width:0!important;
+    max-width:none!important;
+    min-height:0!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:inherit!important;
+    box-sizing:border-box!important;
+    opacity:0!important;
+  }
+}
+</style>
+<!-- AUREL_R130_MOBILE_SELECT_ONE_GEOMETRY_END -->
+
 </body></html>
 
