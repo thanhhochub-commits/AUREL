@@ -11739,6 +11739,7 @@ body:has(#nav button[data-page="monitor"].active)
     income:'Kết quả kinh doanh',
     cashflow:'Lưu chuyển tiền tệ'
   };
+  var lastRenderSignature='';
 
   function norm(s){return String(s||'').replace(/\s+/g,' ').trim()}
   function ascii(s){
@@ -11858,6 +11859,19 @@ body:has(#nav button[data-page="monitor"].active)
     if(!root||!p||!nav)return;
 
     var year=norm((document.getElementById('year-select')||{}).value)||'—';
+
+    /* Chống render lặp: chỉ dựng lại bảng/biểu đồ khi dữ liệu, năm hoặc tab thực sự đổi. */
+    var previewAll=sourceRows(root,p);
+    var previewRows=rowsFor(previewAll,active);
+    var signature=active+'|'+year+'|'+previewRows.map(function(r){
+      return [r.name,r.display,r.unit,r.value].join('~');
+    }).join('|');
+    var existingBody=p.querySelector('.r61-report-body');
+    if(existingBody && existingBody.getAttribute('data-r61-signature')===signature && p.querySelector('.r59-report-tabs')){
+      return;
+    }
+    lastRenderSignature=signature;
+
     var title=p.querySelector('.ref-panel-title h2,.section-top h2,h2');
     if(title)title.textContent='Báo cáo tài chính';
     var sm=p.querySelector('.ref-panel-head small,.section-top small');
@@ -11884,10 +11898,11 @@ body:has(#nav button[data-page="monitor"].active)
     var old=p.querySelector('.r59-report-body,.r61-report-body');
     if(old)old.remove();
 
-    var all=sourceRows(root,p);
-    var rows=rowsFor(all,active);
+    var all=previewAll;
+    var rows=previewRows;
     var body=document.createElement('div');
     body.className='r61-report-body';
+    body.setAttribute('data-r61-signature',signature);
 
     var left=document.createElement('div');
     if(!rows.length){
@@ -11912,7 +11927,7 @@ body:has(#nav button[data-page="monitor"].active)
     var side=document.createElement('div');
     side.className='r61-donut-side';
     var ring=document.createElement('div');
-    ring.className='r61-donut changed';
+    ring.className='r61-donut';
     ring.style.background=parts.length?grad(parts):'#e6edf3';
     var center=document.createElement('div');
     center.className='r61-center';
@@ -18237,6 +18252,21 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(7) *{
 })();
 </script>
 <!-- AUREL_RISK_NO_FLASH_V6_SCRIPT_END -->
+
+
+<!-- AUREL_R61_DONUT_STABLE_V1_START -->
+<style id="AUREL_R61_DONUT_STABLE_V1">
+/* Chỉ cố định biểu đồ tròn trong Báo cáo tài chính. */
+body:has(#nav button[data-page="overview"].active) .r61-donut,
+body:has(#nav button[data-page="overview"].active) .r61-donut.changed{
+  animation:none!important;
+  transition:none!important;
+  transform:none!important;
+  opacity:1!important;
+  will-change:auto!important;
+}
+</style>
+<!-- AUREL_R61_DONUT_STABLE_V1_END -->
 
 </body></html>
 
