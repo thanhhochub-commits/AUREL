@@ -16179,8 +16179,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
     opex:'operating_expenses',
     operating_expenses:'operating_expenses',
 
-    provision:'credit_loss_provision_expense',
-    credit_loss_provision_expense:'credit_loss_provision_expense',
+    provision:'credit_loss_provision_expense',provisions:'credit_loss_provision_expense',credit_loss_provision_expense:'credit_loss_provision_expense',
 
     pat:'profit_after_tax',
     profit_after_tax:'profit_after_tax'
@@ -16205,7 +16204,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
     if((t.indexOf('hoat dong dich vu')>=0||t.indexOf('thu nhap phi')>=0)&&t.indexOf('thuan')>=0)return 'net_fee_income';
     if(t.indexOf('tong thu nhap hoat dong')>=0)return 'total_operating_income';
     if(t.indexOf('chi phi hoat dong')>=0)return 'operating_expenses';
-    if(t.indexOf('chi phi du phong')>=0&&t.indexOf('tin dung')>=0)return 'credit_loss_provision_expense';
+    if(t.indexOf('chi phi du phong')>=0)return 'credit_loss_provision_expense';
     if(t.indexOf('loi nhuan sau thue')>=0)return 'profit_after_tax';
     return '';
   }
@@ -16880,7 +16879,7 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
     fee:'net_fee_income',net_fee_income:'net_fee_income',
     operating_income:'total_operating_income',total_operating_income:'total_operating_income',
     opex:'operating_expenses',operating_expenses:'operating_expenses',
-    provision:'credit_loss_provision_expense',credit_loss_provision_expense:'credit_loss_provision_expense',
+    provision:'credit_loss_provision_expense',provisions:'credit_loss_provision_expense',credit_loss_provision_expense:'credit_loss_provision_expense',
     pat:'profit_after_tax',profit_after_tax:'profit_after_tax'
   };
   function normId(v){return String(v||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'')}
@@ -16904,7 +16903,7 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
     if((t.indexOf('hoat dong dich vu')>=0||t.indexOf('thu nhap phi')>=0)&&t.indexOf('thuan')>=0)return 'net_fee_income';
     if(t.indexOf('tong thu nhap hoat dong')>=0)return 'total_operating_income';
     if(t.indexOf('chi phi hoat dong')>=0)return 'operating_expenses';
-    if(t.indexOf('chi phi du phong')>=0&&t.indexOf('tin dung')>=0)return 'credit_loss_provision_expense';
+    if(t.indexOf('chi phi du phong')>=0)return 'credit_loss_provision_expense';
     if(t.indexOf('loi nhuan sau thue')>=0)return 'profit_after_tax';
     return '';
   }
@@ -16923,7 +16922,7 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
       group4_loans:v.group4_loans,group5_loans:v.group5_loans,
       net_interest_income:v.nii,net_fee_income:v.net_fee_income,
       total_operating_income:v.operating_income,operating_expenses:v.operating_expenses,
-      credit_loss_provision_expense:v.credit_loss_provision_expense,profit_after_tax:v.pat
+      credit_loss_provision_expense:(v.credit_loss_provision_expense!=null?v.credit_loss_provision_expense:v.provisions),profit_after_tax:v.pat
     };
     Object.keys(fallback).forEach(function(k){
       if(out[k]==null&&num(fallback[k])!=null)out[k]=num(fallback[k]);
