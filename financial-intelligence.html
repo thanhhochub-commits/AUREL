@@ -19301,5 +19301,112 @@ body.aurel-perf-scrolling .button{
 </style>
 <!-- AUREL_R128_MOBILE_OVERVIEW_EXACT_PARITY_END -->
 
+
+
+<!-- AUREL_R129_MOBILE_OVERVIEW_SELECT_EXACT_GEOMETRY_START -->
+<style id="AUREL_R129_MOBILE_OVERVIEW_SELECT_EXACT_GEOMETRY">
+/* MOBILE ONLY: make Overview Bank/Year controls geometrically identical
+   to the non-overview mobile controls. Desktop >=761px untouched. */
+@media (max-width:760px){
+  html body.aurel-page-overview .topbar .controls.ref-controls,
+  html body.aurel-page-overview .topbar .ref-controls{
+    display:grid!important;
+    grid-template-columns:minmax(0,1.16fr) minmax(0,.84fr)!important;
+    gap:10px!important;
+    width:100%!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    align-items:stretch!important;
+    overflow:visible!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control{
+    position:relative!important;
+    display:block!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    height:66px!important;
+    min-height:66px!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    border-radius:16px!important;
+    box-sizing:border-box!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control::before{
+    left:49px!important;
+    right:40px!important;
+    top:10px!important;
+    font-size:11px!important;
+    line-height:13px!important;
+    font-weight:780!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control>svg,
+  html body.aurel-page-overview .topbar label.aurel-bank-control>svg{
+    left:14px!important;
+    top:50%!important;
+    width:23px!important;
+    height:23px!important;
+    min-width:23px!important;
+    transform:translateY(-50%)!important;
+  }
+
+  html body.aurel-page-overview .topbar label.ref-control::after{
+    right:16px!important;
+    top:50%!important;
+    width:10px!important;
+    height:10px!important;
+    margin-top:-5px!important;
+  }
+
+  html body.aurel-page-overview .topbar .aurel-mobile-select-display-v2{
+    left:49px!important;
+    right:40px!important;
+    top:30px!important;
+    font-size:16px!important;
+    line-height:22px!important;
+    font-weight:850!important;
+  }
+
+  /* Match the exact narrow-phone ratio used by the other tabs. */
+  @media (max-width:390px){
+    html body.aurel-page-overview .topbar .controls.ref-controls,
+    html body.aurel-page-overview .topbar .ref-controls{
+      grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)!important;
+      gap:8px!important;
+    }
+
+    html body.aurel-page-overview .topbar label.ref-control::before,
+    html body.aurel-page-overview .topbar .aurel-mobile-select-display-v2{
+      left:45px!important;
+      right:34px!important;
+    }
+
+    html body.aurel-page-overview .topbar label.ref-control>svg,
+    html body.aurel-page-overview .topbar label.aurel-bank-control>svg{
+      left:12px!important;
+      width:21px!important;
+      height:21px!important;
+      min-width:21px!important;
+    }
+
+    html body.aurel-page-overview .topbar label.ref-control::after{
+      right:12px!important;
+      width:9px!important;
+      height:9px!important;
+    }
+
+    html body.aurel-page-overview .topbar .aurel-mobile-select-display-v2{
+      font-size:15px!important;
+    }
+  }
+}
+</style>
+<!-- AUREL_R129_MOBILE_OVERVIEW_SELECT_EXACT_GEOMETRY_END -->
+
 </body></html>
 
