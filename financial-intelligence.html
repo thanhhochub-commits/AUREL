@@ -21955,5 +21955,126 @@ body.aurel-page-overview .r61-center-value{
 }
 </style>
 
+
+<style id="AUREL_REPORT_CHART_SELF_HEAL_V1_STYLE">
+/* Chỉ sửa lỗi panel Báo cáo tài chính/Chỉ tiêu trọng yếu bị trống.
+   Nếu bộ dựng báo cáo chưa kịp chạy, hiển thị lại biểu đồ nguồn thay vì để khung trắng. */
+body.aurel-page-overview .ref-key-panel.aurel-report-fallback > .ref-key-list{
+  display:grid!important;
+  position:static!important;
+  width:auto!important;
+  height:auto!important;
+  min-width:0!important;
+  min-height:0!important;
+  overflow:visible!important;
+  clip:auto!important;
+  clip-path:none!important;
+  white-space:normal!important;
+  visibility:visible!important;
+  opacity:1!important;
+  pointer-events:auto!important;
+  padding:4px 2px!important;
+}
+body.aurel-page-overview .ref-key-panel.aurel-report-fallback{
+  min-height:330px!important;
+}
+@media(max-width:760px){
+  body.aurel-page-overview .ref-key-panel.aurel-report-fallback > .ref-key-list{
+    gap:11px!important;
+  }
+  body.aurel-page-overview .ref-key-panel.aurel-report-fallback .ref-key-row{
+    grid-template-columns:minmax(108px,130px) minmax(70px,1fr) minmax(60px,80px)!important;
+    gap:9px!important;
+  }
+}
+</style>
+<script id="AUREL_REPORT_CHART_SELF_HEAL_V1_JS">
+(function(){
+  'use strict';
+  var queued=false;
+  var timer=0;
+
+  function isOverview(root){
+    if(document.body.classList.contains('aurel-page-overview'))return true;
+    var nav=document.querySelector('#nav button.active[data-page="overview"]');
+    if(nav)return true;
+    return !!(root&&root.querySelector('.ref-lower-grid .ref-key-panel'));
+  }
+
+  function repair(){
+    queued=false;
+    var root=document.getElementById('root');
+    if(!root||!isOverview(root))return;
+
+    var panel=root.querySelector('.ref-key-panel');
+    if(!panel)return;
+
+    if(panel.querySelector('.r61-report-body')){
+      panel.classList.remove('aurel-report-fallback');
+      return;
+    }
+
+    /* R61 trước đây chỉ thử render trong ~1,2 giây. Khi API/DOM chậm hơn,
+       panel nguồn đã bị ẩn nhưng bảng + donut chưa được dựng, tạo khung trắng.
+       Gọi lại đúng renderer hiện có khi panel thật sự đã xuất hiện. */
+    if(typeof window.AURELReportSwitch==='function'){
+      var activeBtn=panel.querySelector('.r59-report-tabs button.active[data-report-tab]');
+      var tab=activeBtn?activeBtn.getAttribute('data-report-tab'):'balance';
+      try{ window.AURELReportSwitch(tab||'balance'); }catch(e){}
+    }
+
+    if(panel.querySelector('.r61-report-body')){
+      panel.classList.remove('aurel-report-fallback');
+    }else{
+      /* Fail-open về biểu đồ Chỉ tiêu trọng yếu gốc, tuyệt đối không để panel trắng. */
+      var source=panel.querySelector(':scope > .ref-key-list');
+      panel.classList.toggle('aurel-report-fallback',!!source);
+    }
+  }
+
+  function schedule(){
+    if(queued)return;
+    queued=true;
+    requestAnimationFrame(repair);
+  }
+
+  document.addEventListener('aurel:dom-render',schedule);
+  document.addEventListener('change',function(e){
+    if(e.target&&(e.target.id==='bank-select'||e.target.id==='year-select')){
+      clearTimeout(timer);
+      timer=setTimeout(schedule,40);
+      setTimeout(schedule,350);
+      setTimeout(schedule,1200);
+      setTimeout(schedule,3000);
+    }
+  },true);
+
+  document.addEventListener('click',function(e){
+    var b=e.target&&e.target.closest?e.target.closest('#nav button[data-page]'):null;
+    if(b&&b.getAttribute('data-page')==='overview'){
+      setTimeout(schedule,0);
+      setTimeout(schedule,250);
+      setTimeout(schedule,1000);
+      setTimeout(schedule,3000);
+    }
+  },true);
+
+  var mo=new MutationObserver(schedule);
+  function observe(){
+    var root=document.getElementById('root');
+    if(root)mo.observe(root,{childList:true,subtree:true});
+    schedule();
+    [100,400,1000,2000,4000,7000].forEach(function(ms){setTimeout(schedule,ms);});
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',observe,{once:true});
+  }else{
+    observe();
+  }
+  window.addEventListener('pageshow',schedule,{passive:true});
+})();
+</script>
+
 </body></html>
 
