@@ -12183,22 +12183,22 @@ body:has(#nav button[data-page="monitor"].active)
     'https://aurel-assets-20260929.floot.app/_cdn/static/b055cbff-17aa-4d5d-a249-9f1ed07d69fb-aurel_t8_danang_sidebar_night_20261001.png?v=R109-T8-DANANG-NIGHT'
   ];
 
-  /* Chỉ khung ngang đổi từ 10s xuống 5s. Sidebar giữ nguyên 10s. */
-  var HERO_HOLD=5000;
-  var SIDE_HOLD=10000;
-
-  /* Khung ngang chuyển chậm hơn một chút để mắt nhìn mượt, nhưng vẫn kết thúc gọn. */
-  var HERO_MOVE=1100;
-  var SIDE_MOVE=900;
-  var HERO_EASE='cubic-bezier(.22,.72,.24,1)';
-  var SIDE_EASE='cubic-bezier(.22,.61,.36,1)';
+  /* Một master clock duy nhất: khung ngang và sidebar đổi cùng ảnh, cùng frame, mỗi 5 giây. */
+  var HOLD=5000;
+  var MOVE=900;
+  var EASE='cubic-bezier(.22,.61,.36,1)';
 
   var instances=[];
+  var masterIndex=0;
+  var masterTimer=null;
+  var finishTimer=null;
+  var animating=false;
 
   function preload(list){
     list.forEach(function(src){
       var im=new Image();
       im.decoding='async';
+      im.loading='eager';
       im.src=src;
       if(im.decode) im.decode().catch(function(){});
     });
@@ -12212,16 +12212,22 @@ body:has(#nav button[data-page="monitor"].active)
   }
 
   function primeImage(img,src){
-    if(img.src!==src) img.src=src;
+    if(!img || !src) return Promise.resolve();
+    if(img.getAttribute('src')!==src) img.src=src;
     img.decoding='async';
-    if(img.decode){
-      img.decode().catch(function(){});
-    }
+    img.loading='eager';
+    try{ img.fetchPriority='high'; }catch(e){}
+    if(img.complete && img.naturalWidth>0) return Promise.resolve();
+    if(img.decode) return img.decode().catch(function(){});
+    return new Promise(function(resolve){
+      var done=function(){resolve();};
+      img.addEventListener('load',done,{once:true});
+      img.addEventListener('error',done,{once:true});
+    });
   }
 
-  function mount(el,list,key,hold,move,ease){
+  function mount(el,list,key){
     if(!el || !list || list.length<2) return null;
-
     var existing=findInstance(el);
     if(existing) return existing;
 
@@ -12242,8 +12248,11 @@ body:has(#nav button[data-page="monitor"].active)
     b.draggable=false;
     a.decoding='async';
     b.decoding='async';
+    a.loading='eager';
+    b.loading='eager';
+    try{a.fetchPriority='high';b.fetchPriority='high';}catch(e){}
 
-    var idx=0;
+    var idx=masterIndex%list.length;
     a.src=list[idx];
     b.src=list[(idx+1)%list.length];
 
@@ -12263,141 +12272,151 @@ body:has(#nav button[data-page="monitor"].active)
       wrap:wrap,
       current:a,
       next:b,
-      index:idx,
-      hold:hold,
-      move:move,
-      ease:ease,
-      timer:null,
-      finishTimer:null,
-      animating:false
+      index:idx
     };
-
     instances.push(inst);
-    schedule(inst);
+    primeImage(a,list[idx]);
+    primeImage(b,list[(idx+1)%list.length]);
     return inst;
-  }
-
-  function clearInst(inst){
-    if(inst.timer!==null){
-      clearTimeout(inst.timer);
-      inst.timer=null;
-    }
-    if(inst.finishTimer!==null){
-      clearTimeout(inst.finishTimer);
-      inst.finishTimer=null;
-    }
   }
 
   function cleanup(){
     instances=instances.filter(function(inst){
-      var alive=inst.el && inst.el.isConnected && inst.wrap && inst.wrap.isConnected;
-      if(!alive) clearInst(inst);
-      return alive;
+      return !!(inst.el && inst.el.isConnected && inst.wrap && inst.wrap.isConnected);
     });
-  }
-
-  function schedule(inst){
-    if(!inst || !inst.el.isConnected || inst.timer!==null) return;
-    inst.timer=setTimeout(function(){
-      inst.timer=null;
-      advance(inst);
-    },inst.hold);
-  }
-
-  function finish(inst,nextIndex){
-    if(!inst.el.isConnected){
-      clearInst(inst);
-      return;
-    }
-
-    inst.current.style.transition='none';
-    inst.current.style.transform='translate3d(100%,0,0)';
-
-    var old=inst.current;
-    inst.current=inst.next;
-    inst.next=old;
-    inst.index=nextIndex;
-    inst.animating=false;
-    inst.finishTimer=null;
-
-    /* Chuẩn bị sẵn ảnh kế tiếp trước 5/10 giây, tránh khựng lúc chuyển. */
-    var following=(inst.index+1)%inst.list.length;
-    inst.next.style.transition='none';
-    inst.next.style.transform='translate3d(100%,0,0)';
-    primeImage(inst.next,inst.list[following]);
-
-    schedule(inst);
-  }
-
-  function beginMove(inst,nextIndex){
-    if(!inst.el.isConnected){
-      clearInst(inst);
-      return;
-    }
-
-    /* Ép browser ghi nhận trạng thái ban đầu trước khi chạy transform. */
-    inst.current.style.transition='none';
-    inst.next.style.transition='none';
-    inst.current.style.transform='translate3d(0,0,0)';
-    inst.next.style.transform='translate3d(100%,0,0)';
-
-    requestAnimationFrame(function(){
-      requestAnimationFrame(function(){
-        if(!inst.el.isConnected){
-          clearInst(inst);
-          return;
-        }
-
-        var tr='transform '+inst.move+'ms '+inst.ease;
-        inst.current.style.transition=tr;
-        inst.next.style.transition=tr;
-        inst.current.style.transform='translate3d(-100%,0,0)';
-        inst.next.style.transform='translate3d(0,0,0)';
-
-        inst.finishTimer=setTimeout(function(){
-          finish(inst,nextIndex);
-        },inst.move+30);
-      });
-    });
-  }
-
-  function advance(inst){
-    if(!inst || !inst.el.isConnected) return;
-    if(inst.animating){
-      schedule(inst);
-      return;
-    }
-
-    inst.animating=true;
-    var nextIndex=(inst.index+1)%inst.list.length;
-    var src=inst.list[nextIndex];
-    primeImage(inst.next,src);
-
-    /* Nếu decode hỗ trợ, chờ ảnh sẵn sàng rồi mới trượt. */
-    if(inst.next.decode){
-      inst.next.decode()
-        .catch(function(){})
-        .then(function(){beginMove(inst,nextIndex);});
-    }else{
-      beginMove(inst,nextIndex);
-    }
   }
 
   function run(){
     cleanup();
-    mount(document.querySelector('.sidebar'),SIDE,'side',SIDE_HOLD,SIDE_MOVE,SIDE_EASE);
-    mount(document.querySelector('.ref-hero'),HERO,'hero',HERO_HOLD,HERO_MOVE,HERO_EASE);
+    mount(document.querySelector('.sidebar'),SIDE,'side');
+    mount(document.querySelector('.ref-hero'),HERO,'hero');
+  }
+
+  function schedule(){
+    if(masterTimer!==null || document.hidden) return;
+    masterTimer=setTimeout(function(){
+      masterTimer=null;
+      advanceAll();
+    },HOLD);
+  }
+
+  function finishAll(nextMasterIndex,active){
+    active.forEach(function(inst){
+      if(!inst.el.isConnected) return;
+
+      inst.current.style.transition='none';
+      inst.current.style.transform='translate3d(100%,0,0)';
+
+      var old=inst.current;
+      inst.current=inst.next;
+      inst.next=old;
+      inst.index=nextMasterIndex%inst.list.length;
+
+      var following=(inst.index+1)%inst.list.length;
+      inst.next.style.transition='none';
+      inst.next.style.transform='translate3d(100%,0,0)';
+      primeImage(inst.next,inst.list[following]);
+    });
+
+    masterIndex=nextMasterIndex;
+    animating=false;
+    finishTimer=null;
+    run();
+    schedule();
+  }
+
+  function beginMoveAll(nextMasterIndex,active){
+    active=active.filter(function(inst){
+      return inst.el && inst.el.isConnected && inst.current && inst.next;
+    });
+
+    if(!active.length){
+      masterIndex=nextMasterIndex;
+      animating=false;
+      schedule();
+      return;
+    }
+
+    active.forEach(function(inst){
+      inst.current.style.transition='none';
+      inst.next.style.transition='none';
+      inst.current.style.transform='translate3d(0,0,0)';
+      inst.next.style.transform='translate3d(100%,0,0)';
+    });
+
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){
+        active=active.filter(function(inst){return inst.el && inst.el.isConnected;});
+        if(!active.length){
+          masterIndex=nextMasterIndex;
+          animating=false;
+          schedule();
+          return;
+        }
+
+        var tr='transform '+MOVE+'ms '+EASE;
+        active.forEach(function(inst){
+          inst.current.style.transition=tr;
+          inst.next.style.transition=tr;
+        });
+
+        /* Cùng một animation frame: hai khung bắt đầu và kết thúc tuyệt đối cùng nhịp. */
+        active.forEach(function(inst){
+          inst.current.style.transform='translate3d(-100%,0,0)';
+          inst.next.style.transform='translate3d(0,0,0)';
+        });
+
+        finishTimer=setTimeout(function(){
+          finishAll(nextMasterIndex,active);
+        },MOVE+34);
+      });
+    });
+  }
+
+  function advanceAll(){
+    if(animating){
+      schedule();
+      return;
+    }
+
+    run();
+    cleanup();
+    var active=instances.slice();
+    if(!active.length){
+      schedule();
+      return;
+    }
+
+    animating=true;
+    var nextMasterIndex=(masterIndex+1)%Math.max(HERO.length,SIDE.length);
+
+    /* Đợi toàn bộ ảnh kế tiếp sẵn sàng rồi mới cho cả hai khung chạy cùng frame. */
+    Promise.all(active.map(function(inst){
+      var idx=nextMasterIndex%inst.list.length;
+      return primeImage(inst.next,inst.list[idx]);
+    })).then(function(){
+      if(document.hidden){
+        animating=false;
+        schedule();
+        return;
+      }
+      beginMoveAll(nextMasterIndex,active);
+    });
   }
 
   preload(HERO.concat(SIDE));
 
   if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',run,{once:true});
+    document.addEventListener('DOMContentLoaded',function(){
+      run();
+      schedule();
+    },{once:true});
   }else{
     run();
+    schedule();
   }
 
-  /* Khi DOM trang đổi chỉ mount lại phần bị dựng mới; timer của phần còn sống không bị reset. */
+  /* DOM có thể được dựng lại khi đổi trang; phần mới luôn bám đúng masterIndex hiện tại. */
   var root=document.getElementById('root')||document.body;
   var queued=false;
   new MutationObserver(function(){
@@ -12410,18 +12429,29 @@ body:has(#nav button[data-page="monitor"].active)
   }).observe(root,{childList:true,subtree:true});
 
   document.addEventListener('visibilitychange',function(){
-    cleanup();
     if(document.hidden){
-      instances.forEach(function(inst){
-        if(inst.timer!==null){
-          clearTimeout(inst.timer);
-          inst.timer=null;
-        }
-      });
+      if(masterTimer!==null){
+        clearTimeout(masterTimer);
+        masterTimer=null;
+      }
+      if(finishTimer!==null){
+        clearTimeout(finishTimer);
+        finishTimer=null;
+      }
+      animating=false;
     }else{
+      run();
       instances.forEach(function(inst){
-        if(!inst.animating) schedule(inst);
+        var idx=masterIndex%inst.list.length;
+        inst.index=idx;
+        inst.current.style.transition='none';
+        inst.next.style.transition='none';
+        inst.current.style.transform='translate3d(0,0,0)';
+        inst.next.style.transform='translate3d(100%,0,0)';
+        primeImage(inst.current,inst.list[idx]);
+        primeImage(inst.next,inst.list[(idx+1)%inst.list.length]);
       });
+      schedule();
     }
   });
 })();
