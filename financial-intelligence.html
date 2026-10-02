@@ -17898,5 +17898,233 @@ body.aurel-perf-scrolling .button{
 </script>
 <!-- AUREL_MOBILE_SCROLL_SMOOTH_V2_END -->
 
+
+
+<!-- AUREL_R125_MOBILE_SELECT_SINGLE_RENDER_START -->
+<style id="AUREL_R125_MOBILE_SELECT_SINGLE_RENDER">
+/* MOBILE ONLY: one visual renderer for Bank/Year controls on every page.
+   The native select remains full-size and tappable, but invisible, avoiding
+   Android/Chrome duplicate text and native-arrow overlap. Desktop is untouched. */
+@media (max-width:760px){
+  .topbar .controls.ref-controls,
+  .topbar .ref-controls{
+    display:grid!important;
+    grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr)!important;
+    gap:8px!important;
+    width:100%!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    align-items:stretch!important;
+  }
+
+  .topbar label.ref-control{
+    position:relative!important;
+    display:block!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    height:66px!important;
+    min-height:66px!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    border-radius:16px!important;
+    box-sizing:border-box!important;
+  }
+
+  /* Stable labels, independent of the async structural-class pass. */
+  .topbar label.ref-control:first-of-type::before,
+  .topbar label.ref-control.aurel-bank-control::before{
+    content:"Ngân hàng"!important;
+  }
+  .topbar label.ref-control:nth-of-type(2)::before,
+  .topbar label.ref-control.aurel-year-control::before{
+    content:"Năm"!important;
+  }
+
+  .topbar label.ref-control::before{
+    position:absolute!important;
+    left:46px!important;
+    right:35px!important;
+    top:9px!important;
+    z-index:7!important;
+    display:block!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+    white-space:nowrap!important;
+    font-size:10.5px!important;
+    line-height:13px!important;
+    font-weight:780!important;
+    letter-spacing:0!important;
+    pointer-events:none!important;
+  }
+
+  .topbar label.ref-control>svg,
+  .topbar label.aurel-bank-control>svg{
+    display:block!important;
+    position:absolute!important;
+    left:13px!important;
+    top:50%!important;
+    z-index:8!important;
+    width:22px!important;
+    height:22px!important;
+    min-width:22px!important;
+    transform:translateY(-50%)!important;
+    pointer-events:none!important;
+  }
+
+  .topbar label.ref-control::after{
+    content:""!important;
+    position:absolute!important;
+    right:13px!important;
+    top:50%!important;
+    z-index:8!important;
+    width:9px!important;
+    height:9px!important;
+    margin-top:-5px!important;
+    border-right:2px solid currentColor!important;
+    border-bottom:2px solid currentColor!important;
+    transform:rotate(45deg)!important;
+    pointer-events:none!important;
+  }
+
+  /* Native control handles tap only. Never paint its own text/arrow. */
+  .topbar label.ref-control select,
+  .topbar #bank-select,
+  .topbar #year-select{
+    position:absolute!important;
+    inset:0!important;
+    z-index:10!important;
+    display:block!important;
+    visibility:visible!important;
+    width:100%!important;
+    height:100%!important;
+    min-width:0!important;
+    max-width:none!important;
+    min-height:0!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:inherit!important;
+    outline:0!important;
+    box-shadow:none!important;
+    background:transparent!important;
+    background-image:none!important;
+    color:transparent!important;
+    -webkit-text-fill-color:transparent!important;
+    opacity:0!important;
+    appearance:auto!important;
+    -webkit-appearance:menulist!important;
+    cursor:pointer!important;
+  }
+
+  .topbar label.ref-control select:disabled,
+  .topbar #bank-select:disabled,
+  .topbar #year-select:disabled{
+    opacity:0!important;
+    cursor:default!important;
+  }
+
+  /* The single visible value layer is maintained by R122's existing sync JS. */
+  .topbar .aurel-mobile-select-value{
+    position:absolute!important;
+    left:46px!important;
+    right:35px!important;
+    top:31px!important;
+    z-index:9!important;
+    display:block!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+    white-space:nowrap!important;
+    font-size:15px!important;
+    line-height:22px!important;
+    font-weight:850!important;
+    letter-spacing:0!important;
+    pointer-events:none!important;
+  }
+
+  /* Light mode */
+  body:not(.aurel-dark-theme) .topbar label.ref-control{
+    color:#365a75!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-bank-control,
+  body:not(.aurel-dark-theme) .topbar label.ref-control:first-of-type{
+    background:linear-gradient(180deg,#eef6ff 0%,#e7f1fc 100%)!important;
+    border:1px solid #b8d0e5!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-year-control,
+  body:not(.aurel-dark-theme) .topbar label.ref-control:nth-of-type(2){
+    background:linear-gradient(180deg,#effaf8 0%,#e7f5f2 100%)!important;
+    border:1px solid #b9dcd5!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control::before{
+    color:#607d94!important;
+    -webkit-text-fill-color:#607d94!important;
+  }
+  body:not(.aurel-dark-theme) .topbar .aurel-mobile-select-value{
+    color:#143a57!important;
+    -webkit-text-fill-color:#143a57!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control:first-of-type>svg,
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-bank-control>svg{
+    color:#2e70b8!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control:nth-of-type(2)>svg,
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-year-control>svg{
+    color:#158e84!important;
+  }
+
+  /* Dark mode */
+  body.aurel-dark-theme .topbar label.ref-control{
+    background:linear-gradient(180deg,#121e2c 0%,#0e1824 100%)!important;
+    border:1px solid #30465e!important;
+    color:#e8f2fb!important;
+  }
+  body.aurel-dark-theme .topbar label.ref-control::before,
+  body.aurel-dark-theme .topbar .aurel-mobile-select-value{
+    color:#fff!important;
+    -webkit-text-fill-color:#fff!important;
+  }
+  body.aurel-dark-theme .topbar label.ref-control>svg{
+    color:#69a9ff!important;
+  }
+
+  @media (max-width:390px){
+    .topbar .controls.ref-controls,
+    .topbar .ref-controls{
+      grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)!important;
+      gap:7px!important;
+    }
+    .topbar label.ref-control::before,
+    .topbar .aurel-mobile-select-value{
+      left:43px!important;
+      right:31px!important;
+    }
+    .topbar label.ref-control>svg,
+    .topbar label.aurel-bank-control>svg{
+      left:11px!important;
+      width:20px!important;
+      height:20px!important;
+      min-width:20px!important;
+    }
+    .topbar label.ref-control::after{
+      right:11px!important;
+      width:8px!important;
+      height:8px!important;
+    }
+    .topbar .aurel-mobile-select-value{
+      font-size:14px!important;
+    }
+  }
+}
+</style>
+<!-- AUREL_R125_MOBILE_SELECT_SINGLE_RENDER_END -->
+
 </body></html>
 
