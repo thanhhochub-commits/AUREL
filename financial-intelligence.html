@@ -18026,7 +18026,23 @@ body.aurel-perf-scrolling .button{
     })();
     cache.set(key,{time:now,promise:promise});try{return await promise;}catch(e){cache.delete(key);throw e;}
   };
-  document.addEventListener("pointerdown",function(e){var b=e.target&&e.target.closest?e.target.closest("#nav button[data-page]"):null;if(b)setPage(b.getAttribute("data-page"));},{capture:true,passive:true});
+  /* AUREL_OVERVIEW_TAB_SWITCH_NO_JUMP_V3: do not restyle the OLD tab during pointerdown when
+     entering/leaving Overview. The click handler below syncs the page class
+     after draw() has replaced #root, all inside the same event task. */
+  document.addEventListener("pointerdown",function(e){
+    var b=e.target&&e.target.closest?e.target.closest("#nav button[data-page]"):null;
+    if(!b)return;
+    var next=b.getAttribute("data-page");
+    var overviewTransition=next==="overview"||document.body.classList.contains("aurel-page-overview");
+    if(!overviewTransition)setPage(next);
+  },{capture:true,passive:true});
+  document.addEventListener("click",function(e){
+    var b=e.target&&e.target.closest?e.target.closest("[data-page]"):null;
+    if(!b)return;
+    var next=b.getAttribute("data-page");
+    var overviewTransition=next==="overview"||document.body.classList.contains("aurel-page-overview");
+    if(overviewTransition)setPage(next);
+  },false);
   window.addEventListener("scroll",function(){
     if(!document.body.classList.contains("aurel-perf-scrolling"))document.body.classList.add("aurel-perf-scrolling");
     clearTimeout(scrollTimer);scrollTimer=setTimeout(function(){document.body.classList.remove("aurel-perf-scrolling");},110);
