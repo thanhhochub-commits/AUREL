@@ -12496,12 +12496,13 @@ html body.aurel-dark-theme.aurel-page-overview:has(#root .welcome-dashboard) #ro
     var old=el.querySelector(':scope > .aurel-r78-slider-wrap');if(old)old.remove();
     var wrap=document.createElement('div');wrap.className='aurel-r78-slider-wrap';wrap.setAttribute('aria-hidden','true');
     var a=document.createElement('img'),b=document.createElement('img');
-    [a,b].forEach(function(img){img.className='aurel-r78-slider-img';img.alt='';img.draggable=false;img.decoding='async';img.loading='eager';});
+    [a,b].forEach(function(img){img.className='aurel-r78-slider-img';img.alt='';img.draggable=false;img.decoding='async';});
+    a.loading='eager';b.loading='lazy';
     var idx=masterIndex%4;a.src=sourceFor(list,idx);b.src=sourceFor(list,idx+1);
     a.style.transition=b.style.transition='none';a.style.transform='translate3d(0,0,0)';b.style.transform='translate3d(100%,0,0)';
     wrap.appendChild(a);wrap.appendChild(b);el.insertBefore(wrap,el.firstChild);
     var inst={el:el,list:list,key:key,wrap:wrap,current:a,next:b,index:idx};instances.push(inst);
-    primeImage(a,sourceFor(list,idx),'high');primeImage(b,sourceFor(list,idx+1),'auto');return inst;
+    primeImage(a,sourceFor(list,idx),'high');primeImage(b,sourceFor(list,idx+1),'low');return inst;
   }
   function cleanup(){instances=instances.filter(function(x){return !!(x.el&&x.el.isConnected&&x.wrap&&x.wrap.isConnected);});}
   function run(){cleanup();mount(document.querySelector('.sidebar'),SIDE,'side');mount(document.querySelector('.ref-hero'),HERO,'hero');}
@@ -12510,7 +12511,7 @@ html body.aurel-dark-theme.aurel-page-overview:has(#root .welcome-dashboard) #ro
     active.forEach(function(inst){
       if(!inst.el.isConnected)return;inst.current.style.transition='none';inst.current.style.transform='translate3d(100%,0,0)';
       var old=inst.current;inst.current=inst.next;inst.next=old;inst.index=next%4;
-      inst.next.style.transition='none';inst.next.style.transform='translate3d(100%,0,0)';primeImage(inst.next,sourceFor(inst.list,inst.index+1),'auto');
+      inst.next.style.transition='none';inst.next.style.transform='translate3d(100%,0,0)';primeImage(inst.next,sourceFor(inst.list,inst.index+1),'low');
     });
     masterIndex=next%4;animating=false;finishTimer=null;run();schedule();
   }
@@ -12537,7 +12538,7 @@ html body.aurel-dark-theme.aurel-page-overview:has(#root .welcome-dashboard) #ro
     run();instances.forEach(function(x){
       var idx=masterIndex%4;x.index=idx;x.current.style.transition=x.next.style.transition='none';
       x.current.style.transform='translate3d(0,0,0)';x.next.style.transform='translate3d(100%,0,0)';
-      primeImage(x.current,sourceFor(x.list,idx),'high');primeImage(x.next,sourceFor(x.list,idx+1),'auto');
+      primeImage(x.current,sourceFor(x.list,idx),'high');primeImage(x.next,sourceFor(x.list,idx+1),'low');
     });
   }
   function scheduleRun(){if(queued)return;queued=true;requestAnimationFrame(function(){queued=false;run();});}
@@ -17999,7 +18000,7 @@ body.aurel-perf-scrolling .button{
   'use strict';
   var PAGES=["overview","analysis","comparison","monitor","risk","scenario","support"];
   var PAGE_CLASSES=PAGES.map(function(x){return "aurel-page-"+x;});
-  var renderQueued=false,scrollTimer=null,cache=new Map();
+  var renderQueued=false,scrollTimer=null,scrollQueued=false,cache=new Map();
   function setPage(page){
     if(!page)return;var cls="aurel-page-"+page;if(document.body.classList.contains(cls))return;
     PAGE_CLASSES.forEach(function(x){document.body.classList.remove(x);});document.body.classList.add(cls);
@@ -18046,13 +18047,19 @@ body.aurel-perf-scrolling .button{
     if(overviewTransition)setPage(next);
   },false);
   window.addEventListener("scroll",function(){
-    if(!document.body.classList.contains("aurel-perf-scrolling"))document.body.classList.add("aurel-perf-scrolling");
-    clearTimeout(scrollTimer);scrollTimer=setTimeout(function(){document.body.classList.remove("aurel-perf-scrolling");},110);
+    if(scrollQueued)return;
+    scrollQueued=true;
+    requestAnimationFrame(function(){
+      scrollQueued=false;
+      if(!document.body.classList.contains("aurel-perf-scrolling"))document.body.classList.add("aurel-perf-scrolling");
+      clearTimeout(scrollTimer);
+      scrollTimer=setTimeout(function(){document.body.classList.remove("aurel-perf-scrolling");},120);
+    });
   },{passive:true});
   applyStructuralClasses();
   dispatchRender();
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){applyStructuralClasses();dispatchRender();},{once:true});
-  var root=document.getElementById("root")||document.body;new MutationObserver(dispatchRender).observe(root,{childList:true,subtree:true});
+  var root=document.getElementById("root")||document.body;new MutationObserver(dispatchRender).observe(root,{childList:true});
 })();
 </script>
 
@@ -18860,10 +18867,6 @@ body.aurel-perf-scrolling .button{
   document.addEventListener('aurel:dom-render',schedule);
   window.addEventListener('pageshow',schedule,{passive:true});
 
-  var root=document.getElementById('root')||document.body;
-  if(root){
-    new MutationObserver(schedule).observe(root,{childList:true,subtree:true,attributes:true,attributeFilter:['disabled','value']});
-  }
 })();
 </script>
 <!-- AUREL_R126_MOBILE_SELECT_CLEAN_RENDER_END -->
@@ -21507,10 +21510,6 @@ html body.aurel-dark-theme.aurel-page-overview.aurel-overview-waiting-reference 
   document.addEventListener('aurel:dom-render',syncOverviewWaiting);
   window.addEventListener('pageshow',syncOverviewWaiting,{passive:true});
 
-  var root=document.getElementById('root')||document.body;
-  if(root){
-    new MutationObserver(syncOverviewWaiting).observe(root,{childList:true,subtree:true});
-  }
 })();
 </script>
 <!-- AUREL_R135_WAITING_EXACT_REFERENCE_PARITY_END -->
@@ -21870,5 +21869,77 @@ body:not(.aurel-dark-theme) .monitor-overview .monitor-card:not(.critical):not(.
   border-left-color:#c8d7e6!important;
 }
 </style>
+
+<style id="AUREL_PERFORMANCE_ADAPTIVE_V2_STYLE">
+/* Performance-only patch. Static design, content, data and layout stay unchanged. */
+body.aurel-perf-scrolling :is(
+  .panel,.metric,.kpi,.dataset-card,.analysis-feature,.analysis-trend,
+  .compare-kpi,.compare-settings,.compare-pair-visual,.compare-all-panel,
+  .monitor-card,.monitor-process-step,.scenario-control,.pdf-intro-card,
+  .pdf-intro-main,.ai-key-panel,.ai-feature,.report-mail-card,
+  .report-mail-security,.result-card,.sim-card
+){
+  transition:none!important;
+}
+
+/* On genuinely constrained devices, temporarily remove costly raster effects
+   only while scrolling. They return immediately after scrolling stops. */
+html.aurel-low-power body.aurel-perf-scrolling :is(
+  .panel,.metric,.kpi,.dataset-card,.analysis-feature,.analysis-trend,
+  .compare-kpi,.compare-settings,.compare-pair-visual,.compare-all-panel,
+  .monitor-card,.monitor-process-step,.scenario-control,.pdf-intro-card,
+  .pdf-intro-main,.ai-key-panel,.ai-feature,.report-mail-card,
+  .report-mail-security,.result-card,.sim-card
+){
+  box-shadow:none!important;
+}
+
+html.aurel-low-power body.aurel-perf-scrolling :is(
+  .panel,.metric,.kpi,.dataset-card,.analysis-feature,.analysis-trend,
+  .compare-kpi,.compare-settings,.compare-pair-visual,.compare-all-panel,
+  .monitor-card,.scenario-control,.ai-key-panel
+)::before,
+html.aurel-low-power body.aurel-perf-scrolling :is(
+  .panel,.metric,.kpi,.dataset-card,.analysis-feature,.analysis-trend,
+  .compare-kpi,.compare-settings,.compare-pair-visual,.compare-all-panel,
+  .monitor-card,.scenario-control,.ai-key-panel
+)::after{
+  box-shadow:none!important;
+  filter:none!important;
+}
+
+/* Avoid keeping extra compositor memory reserved on weak devices while idle.
+   The slider still uses transform animation and keeps the same images/timing. */
+html.aurel-low-power .aurel-r78-slider-img{
+  will-change:auto!important;
+}
+
+/* Native scrolling and taps get priority over decorative transitions on phones. */
+@media (max-width:760px){
+  body.aurel-perf-scrolling .topbar,
+  body.aurel-perf-scrolling .sidebar,
+  body.aurel-perf-scrolling .nav button,
+  body.aurel-perf-scrolling .button{
+    transition:none!important;
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .aurel-r78-slider-img,
+  #root>.page{
+    animation:none!important;
+  }
+}
+</style>
+<script id="AUREL_PERFORMANCE_ADAPTIVE_V2_JS">
+(function(){
+  'use strict';
+  var mem=Number(navigator.deviceMemory||0);
+  var cores=Number(navigator.hardwareConcurrency||0);
+  var save=!!(navigator.connection&&navigator.connection.saveData);
+  var low=(mem>0&&mem<=4)||(cores>0&&cores<=4)||save;
+  document.documentElement.classList.toggle('aurel-low-power',low);
+})();
+</script>
 </body></html>
 
