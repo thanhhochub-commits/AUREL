@@ -12634,19 +12634,7 @@ html.aurel-theme-vt-running body{
     init();
   }
 
-  /* Root có thể được dựng lại khi chuyển trang. Chỉ bind nút mới, tuyệt đối không re-apply theme. */
-  var root=document.getElementById('root');
-  if(root){
-    var queued=false;
-    new MutationObserver(function(){
-      if(queued)return;
-      queued=true;
-      requestAnimationFrame(function(){
-        queued=false;
-        bindButton();
-      });
-    }).observe(root,{childList:true,subtree:true});
-  }
+  document.addEventListener('aurel:dom-render',bindButton);
 })();
 </script>
 <style id="AUREL_R118_USER_T1_T8_HERO_EXACT_FIT">
@@ -14074,29 +14062,23 @@ body.aurel-dark-theme.aurel-page-comparison .compare-all-panel{
 </style>
 <script id="AUREL_R128_RANGE_SYNC">
 (function(){
+  'use strict';
   function syncRange(el){
-    if(!el||el.type!=='range') return;
-    var min=parseFloat(el.min), max=parseFloat(el.max), val=parseFloat(el.value);
-    if(!isFinite(min)) min=0;
-    if(!isFinite(max)) max=100;
-    if(!isFinite(val)) val=min;
+    if(!el||el.type!=='range')return;
+    var min=parseFloat(el.min),max=parseFloat(el.max),val=parseFloat(el.value);
+    if(!isFinite(min))min=0;if(!isFinite(max))max=100;if(!isFinite(val))val=min;
     var pct=max===min?0:((val-min)/(max-min))*100;
-    pct=Math.max(0,Math.min(100,pct));
-    el.style.setProperty('--range-pct',pct+'%');
+    el.style.setProperty('--range-pct',Math.max(0,Math.min(100,pct))+'%');
   }
-  function init(){
-    document.querySelectorAll('input[type="range"]').forEach(function(el){
-      syncRange(el);
-      if(el.dataset.aurelR128==='1') return;
-      el.dataset.aurelR128='1';
-      el.addEventListener('input',function(){syncRange(el);});
-      el.addEventListener('change',function(){syncRange(el);});
-    });
+  function bind(el){
+    if(!el)return;syncRange(el);if(el.dataset.aurelR128==='1')return;
+    el.dataset.aurelR128='1';
+    el.addEventListener('input',function(){syncRange(el);},{passive:true});
+    el.addEventListener('change',function(){syncRange(el);});
   }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init,{once:true});
-  else init();
-  var root=document.getElementById('root')||document.body;
-  if(root) new MutationObserver(init).observe(root,{childList:true,subtree:true});
+  function init(){document.querySelectorAll('input[type="range"]').forEach(bind);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+  document.addEventListener('aurel:dom-render',init);
 })();
 </script>
 <style id="AUREL_R129_COMPACT">
@@ -14249,35 +14231,22 @@ body.aurel-dark-theme .scenario-results .aurel-r134-led{
 (function(){
   'use strict';
   var queued=false;
-
   function norm(v){return String(v||"").replace(/\s+/g," ").trim();}
-  function findCard(el){
-    if(!el)return null;
-    return el.closest(".metric,.card,.panel,.result-card,.sim-card");
-  }
   function apply(){
+    if(!document.body.classList.contains('aurel-page-scenario'))return;
     document.querySelectorAll(".scenario-control").forEach(function(card){
-      card.classList.add("aurel-r134-control");
-      card.style.setProperty("border-top-width","1px","important");
+      card.classList.add("aurel-r134-control");card.style.setProperty("border-top-width","1px","important");
     });
-    var root=document.querySelector(".scenario-results");
-    if(!root)return;
+    var root=document.querySelector(".scenario-results");if(!root)return;
     root.querySelectorAll(".metric-title,strong,h1,h2,h3,p,span").forEach(function(el){
-      var t=norm(el.textContent);
-      if(t!=="Tỷ lệ nợ xấu ban đầu" && t!=="Tỷ lệ nợ xấu sau giả định")return;
-      var card=findCard(el);
-      if(!card)return;
+      var t=norm(el.textContent);if(t!=="Tỷ lệ nợ xấu ban đầu"&&t!=="Tỷ lệ nợ xấu sau giả định")return;
+      var card=el.closest(".metric,.card,.panel,.result-card,.sim-card");if(!card)return;
       card.classList.add("aurel-r134-led",t==="Tỷ lệ nợ xấu ban đầu"?"aurel-r134-led-current":"aurel-r134-led-after");
     });
   }
-  function schedule(){
-    if(queued)return;
-    queued=true;
-    requestAnimationFrame(function(){queued=false;apply();});
-  }
+  function schedule(){if(queued)return;queued=true;requestAnimationFrame(function(){queued=false;apply();});}
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});else schedule();
-  var root=document.getElementById("root")||document.body;
-  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener('aurel:dom-render',schedule);
 })();
 </script>
 <style id="AUREL_R135_LED_EXTEND">
@@ -14339,57 +14308,33 @@ body.aurel-dark-theme .aurel-r135-led{
   'use strict';
   var queued=false;
   var exact={
-    "Chỉ tiêu đã chuẩn hóa":["aurel-r135-blue","aurel-r138-blue"],
-    "Tệp dữ liệu":["aurel-r135-cyan","aurel-r138-cyan"],
-    "Tài liệu PDF":["aurel-r135-slate","aurel-r138-slate"],
-    "Trạng thái":["aurel-r135-green","aurel-r138-green"],
-    "Độ đầy đủ chỉ tiêu":["aurel-r135-cyan"],
-    "Khớp công thức độc lập":["aurel-r135-blue"],
-    "Truy vết tệp nguồn":["aurel-r135-green"],
-    "Thời gian phản hồi":["aurel-r135-yellow"],
-    "Cảnh báo":["aurel-r135-red"],
-    "Theo dõi":["aurel-r135-yellow"],
-    "Bình thường":["aurel-r135-green"],
-    "Thiếu dữ liệu":["aurel-r135-slate"]
+    "Chỉ tiêu đã chuẩn hóa":["aurel-r135-blue","aurel-r138-blue"],"Tệp dữ liệu":["aurel-r135-cyan","aurel-r138-cyan"],
+    "Tài liệu PDF":["aurel-r135-slate","aurel-r138-slate"],"Trạng thái":["aurel-r135-green","aurel-r138-green"],
+    "Độ đầy đủ chỉ tiêu":["aurel-r135-cyan"],"Khớp công thức độc lập":["aurel-r135-blue"],
+    "Truy vết tệp nguồn":["aurel-r135-green"],"Thời gian phản hồi":["aurel-r135-yellow"],
+    "Cảnh báo":["aurel-r135-red"],"Theo dõi":["aurel-r135-yellow"],"Bình thường":["aurel-r135-green"],"Thiếu dữ liệu":["aurel-r135-slate"]
   };
   var sourceLabels=new Set(["Chỉ tiêu đã chuẩn hóa","Tệp dữ liệu","Tài liệu PDF","Trạng thái"]);
-
   function norm(v){return String(v||"").replace(/\s+/g," ").trim();}
-  function cardFor(el){
-    return el&&el.closest(".metric,.monitor-card,.dataset-card,.analysis-feature,.card,.panel,.scenario-results,.analysis-trend");
-  }
   function clear(){
     document.querySelectorAll(".aurel-r135-led,.aurel-r138-source-led").forEach(function(el){
-      el.classList.remove(
-        "aurel-r135-led","aurel-r135-blue","aurel-r135-cyan","aurel-r135-green",
-        "aurel-r135-yellow","aurel-r135-red","aurel-r135-slate",
-        "aurel-r138-source-led","aurel-r138-blue","aurel-r138-cyan","aurel-r138-slate","aurel-r138-green"
-      );
+      el.classList.remove("aurel-r135-led","aurel-r135-blue","aurel-r135-cyan","aurel-r135-green","aurel-r135-yellow","aurel-r135-red","aurel-r135-slate","aurel-r138-source-led","aurel-r138-blue","aurel-r138-cyan","aurel-r138-slate","aurel-r138-green");
     });
   }
   function apply(){
     clear();
     var selector=".metric-title,.analysis-feature-label,.section-top h2,.monitor-card small,.dataset-card small,.card small,.panel small,.panel strong,.scenario-results p,.scenario-results span";
     document.querySelectorAll(selector).forEach(function(el){
-      var t=norm(el.textContent);
-      var classes=exact[t];
-      var containsScenario=t.length<260&&t.indexOf("Điều chỉnh giả định và chọn")>=0;
-      if(!classes&&!containsScenario)return;
-      var card=cardFor(el);
-      if(!card)return;
-      card.classList.add("aurel-r135-led");
-      (classes||["aurel-r135-cyan"]).forEach(function(cls){card.classList.add(cls);});
+      var t=norm(el.textContent),classes=exact[t],contains=t.length<260&&t.indexOf("Điều chỉnh giả định và chọn")>=0;
+      if(!classes&&!contains)return;
+      var card=el.closest(".metric,.monitor-card,.dataset-card,.analysis-feature,.card,.panel,.scenario-results,.analysis-trend");if(!card)return;
+      card.classList.add("aurel-r135-led");(classes||["aurel-r135-cyan"]).forEach(function(cls){card.classList.add(cls);});
       if(sourceLabels.has(t))card.classList.add("aurel-r138-source-led");
     });
   }
-  function schedule(){
-    if(queued)return;
-    queued=true;
-    requestAnimationFrame(function(){queued=false;apply();});
-  }
+  function schedule(){if(queued)return;queued=true;requestAnimationFrame(function(){queued=false;apply();});}
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});else schedule();
-  var root=document.getElementById("root")||document.body;
-  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  document.addEventListener('aurel:dom-render',schedule);
 })();
 </script>
 <style id="AUREL_R136_SCENARIO_STANDARD_LED">
@@ -14838,13 +14783,7 @@ body.aurel-dark-theme .ai-key-panel .aurel-ai-key-toggle:hover{
     schedule();
   }
 
-  var root=document.getElementById("root")||document.body;
-  new MutationObserver(schedule).observe(root,{
-    childList:true,
-    subtree:true,
-    attributes:true,
-    attributeFilter:["class"]
-  });
+  document.addEventListener('aurel:dom-render',schedule);
 })();
 </script>
 <style id="AUREL_R143_AI_ARROW_TOGGLE">
@@ -15676,45 +15615,29 @@ body.aurel-dark-theme.aurel-page-overview .ref-hero-live-badges span{
   var queued=false;
   function ensureValueNode(select){
     if(!select||!select.parentElement)return null;
-    var label=select.parentElement;
-    var node=label.querySelector(".aurel-mobile-select-value");
-    if(!node){
-      node=document.createElement("span");
-      node.className="aurel-mobile-select-value";
-      node.setAttribute("aria-hidden","true");
-      label.appendChild(node);
-    }
+    var label=select.parentElement,node=label.querySelector('.aurel-mobile-select-value');
+    if(!node){node=document.createElement('span');node.className='aurel-mobile-select-value';node.setAttribute('aria-hidden','true');label.appendChild(node);}
     return node;
   }
   function sync(select){
-    if(!select)return;
-    var node=ensureValueNode(select);
-    if(!node)return;
+    if(!select)return;var node=ensureValueNode(select);if(!node)return;
     var opt=select.options&&select.selectedIndex>=0?select.options[select.selectedIndex]:null;
-    var txt=opt?(opt.textContent||opt.innerText||"").trim():"";
-    node.textContent=txt||(select.id==="year-select"?"Chọn năm":"Chọn ngân hàng");
+    var txt=opt?(opt.textContent||opt.innerText||'').trim():'';
+    node.textContent=txt||(select.id==='year-select'?'Chọn năm':'Chọn ngân hàng');
   }
   function bind(select){
     if(!select)return;
-    if(select.dataset.aurelMobileSelectBound!=="1"){
-      select.dataset.aurelMobileSelectBound="1";
-      select.addEventListener("change",function(){sync(select)},true);
-      select.addEventListener("input",function(){sync(select)},true);
+    if(select.dataset.aurelMobileSelectBound!=='1'){
+      select.dataset.aurelMobileSelectBound='1';
+      select.addEventListener('change',function(){sync(select);},true);
+      select.addEventListener('input',function(){sync(select);},true);
     }
     sync(select);
   }
-  function syncAll(){
-    bind(document.getElementById("bank-select"));
-    bind(document.getElementById("year-select"));
-  }
-  function schedule(){
-    if(queued)return;
-    queued=true;
-    requestAnimationFrame(function(){queued=false;syncAll();});
-  }
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});else schedule();
-  var root=document.getElementById("root")||document.body;
-  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
+  function syncAll(){bind(document.getElementById('bank-select'));bind(document.getElementById('year-select'));}
+  function schedule(){if(queued)return;queued=true;requestAnimationFrame(function(){queued=false;syncAll();});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',schedule,{once:true});else schedule();
+  document.addEventListener('aurel:dom-render',schedule);
 })();
 </script>
 
