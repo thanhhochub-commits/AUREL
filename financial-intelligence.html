@@ -21844,5 +21844,31 @@ body:not(.aurel-dark-theme) .monitor-overview .monitor-card{
   transform:none!important;
 }
 </style>
+
+<style id="AUREL_MONITOR_REMOVE_LAST_TWO_LEFT_STRIP_V11">
+/* Fix đúng 2 ô cuối: rule cũ .monitor-card:not(.critical):not(.watch)
+   đang ép border-left 5px. Override bằng selector đặc hiệu hơn để 2 ô cuối
+   có cạnh trái mảnh y hệt Cảnh báo/Theo dõi. */
+.monitor-overview .monitor-card:not(.critical):not(.watch):nth-child(3),
+.monitor-overview .monitor-card:not(.critical):not(.watch):nth-child(4){
+  border-left-width:1px!important;
+  border-left-style:solid!important;
+  box-shadow:none!important;
+}
+
+/* Giữ đúng màu viền hiện tại của từng card, chỉ bỏ dải dày bên trái. */
+body.aurel-dark-theme .monitor-overview .monitor-card:not(.critical):not(.watch):nth-child(3){
+  border-left-color:#2f5140!important;
+}
+body.aurel-dark-theme .monitor-overview .monitor-card:not(.critical):not(.watch):nth-child(4){
+  border-left-color:#314c67!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:not(.critical):not(.watch):nth-child(3){
+  border-left-color:#c7dfcf!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:not(.critical):not(.watch):nth-child(4){
+  border-left-color:#c8d7e6!important;
+}
+</style>
 </body></html>
 
