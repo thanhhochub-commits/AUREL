@@ -12626,45 +12626,209 @@ body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-d
 }
 </style>
 
+
+<!-- AUREL_THEME_SMOOTH_V2_START -->
+<style id="AUREL_THEME_SMOOTH_V2_STYLE">
+/* Chỉ tối ưu chuyển cảnh Light/Dark. Không đổi giao diện, dữ liệu hay bố cục. */
+::view-transition-old(root),
+::view-transition-new(root){
+  animation-duration:.34s!important;
+  animation-timing-function:cubic-bezier(.22,.61,.36,1)!important;
+  animation-fill-mode:both!important;
+}
+::view-transition-old(root){animation-name:aurel-theme-fade-out!important}
+::view-transition-new(root){animation-name:aurel-theme-fade-in!important}
+
+@keyframes aurel-theme-fade-out{
+  from{opacity:1}
+  to{opacity:0}
+}
+@keyframes aurel-theme-fade-in{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+html.aurel-theme-vt-running,
+html.aurel-theme-vt-running body{
+  scroll-behavior:auto!important;
+  overflow-anchor:none!important;
+}
+
+/* Fallback nhẹ cho trình duyệt không hỗ trợ View Transitions API. */
+#aurel-theme-fade-layer{
+  position:fixed!important;
+  inset:0!important;
+  z-index:2147483647!important;
+  pointer-events:none!important;
+  opacity:0!important;
+  transition:opacity .12s ease!important;
+  will-change:opacity!important;
+}
+#aurel-theme-fade-layer.aurel-show{opacity:1!important}
+
+@media(prefers-reduced-motion:reduce){
+  ::view-transition-old(root),
+  ::view-transition-new(root){
+    animation-duration:.001s!important;
+  }
+  #aurel-theme-fade-layer{transition:none!important}
+}
+</style>
+<!-- AUREL_THEME_SMOOTH_V2_END -->
+
 <script id="AUREL_R111_FULL_LIGHT_DARK_THEME_JS">
 (function(){
+  'use strict';
+
   var KEY='aurel-theme-mode';
+  var switching=false;
+  var initialized=false;
 
   function getButton(){
     return document.getElementById('aurel-theme-toggle');
   }
 
-  function apply(mode,persist){
-    var dark=mode==='dark';
-    document.body.classList.toggle('aurel-dark-theme',dark);
-    document.documentElement.style.colorScheme=dark?'dark':'light';
+  function currentMode(){
+    return document.body.classList.contains('aurel-dark-theme')?'dark':'light';
+  }
 
-    var btn=getButton();
-    if(btn){
-      btn.setAttribute('aria-pressed',dark?'true':'false');
-      btn.setAttribute('aria-label',dark?'Đang dùng giao diện tối. Nhấn để chuyển sang sáng':'Đang dùng giao diện sáng. Nhấn để chuyển sang tối');
-      btn.setAttribute('title',dark?'Giao diện tối · Nhấn để chuyển sang sáng':'Giao diện sáng · Nhấn để chuyển sang tối');
+  function savedMode(){
+    try{
+      var v=localStorage.getItem(KEY);
+      if(v==='dark'||v==='light') return v;
+    }catch(e){}
+    return 'light';
+  }
+
+  function syncButton(btn,dark){
+    if(!btn)return;
+    btn.setAttribute('aria-pressed',dark?'true':'false');
+    btn.setAttribute(
+      'aria-label',
+      dark
+        ?'Đang dùng giao diện tối. Nhấn để chuyển sang sáng'
+        :'Đang dùng giao diện sáng. Nhấn để chuyển sang tối'
+    );
+    btn.setAttribute(
+      'title',
+      dark
+        ?'Giao diện tối · Nhấn để chuyển sang sáng'
+        :'Giao diện sáng · Nhấn để chuyển sang tối'
+    );
+  }
+
+  function applyInstant(mode,persist){
+    var dark=mode==='dark';
+    var already=document.body.classList.contains('aurel-dark-theme')===dark;
+
+    if(!already){
+      document.body.classList.toggle('aurel-dark-theme',dark);
     }
+    document.documentElement.style.colorScheme=dark?'dark':'light';
+    syncButton(getButton(),dark);
 
     if(persist){
       try{localStorage.setItem(KEY,dark?'dark':'light');}catch(e){}
     }
   }
 
-  function init(){
-    var saved='light';
-    try{
-      var v=localStorage.getItem(KEY);
-      if(v==='dark'||v==='light') saved=v;
-    }catch(e){}
-    apply(saved,false);
+  function reducedMotion(){
+    try{return window.matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){return false}
+  }
 
-    var btn=getButton();
-    if(!btn||btn.dataset.themeReady==='1') return;
-    btn.dataset.themeReady='1';
-    btn.addEventListener('click',function(){
-      apply(document.body.classList.contains('aurel-dark-theme')?'light':'dark',true);
+  function ensureFallbackLayer(targetMode){
+    var layer=document.getElementById('aurel-theme-fade-layer');
+    if(!layer){
+      layer=document.createElement('div');
+      layer.id='aurel-theme-fade-layer';
+      document.body.appendChild(layer);
+    }
+    layer.style.background=targetMode==='dark'?'#0a0f17':'#f7fbff';
+    return layer;
+  }
+
+  function fallbackTransition(targetMode){
+    var layer=ensureFallbackLayer(targetMode);
+    switching=true;
+
+    requestAnimationFrame(function(){
+      layer.classList.add('aurel-show');
+
+      setTimeout(function(){
+        applyInstant(targetMode,true);
+
+        requestAnimationFrame(function(){
+          layer.classList.remove('aurel-show');
+
+          setTimeout(function(){
+            switching=false;
+            syncButton(getButton(),currentMode()==='dark');
+          },150);
+        });
+      },120);
     });
+  }
+
+  function transitionTo(targetMode){
+    if(switching||targetMode===currentMode())return;
+
+    if(!reducedMotion()&&typeof document.startViewTransition==='function'){
+      switching=true;
+      document.documentElement.classList.add('aurel-theme-vt-running');
+
+      var vt;
+      try{
+        vt=document.startViewTransition(function(){
+          applyInstant(targetMode,true);
+        });
+      }catch(e){
+        document.documentElement.classList.remove('aurel-theme-vt-running');
+        switching=false;
+        fallbackTransition(targetMode);
+        return;
+      }
+
+      vt.finished
+        .catch(function(){})
+        .then(function(){
+          document.documentElement.classList.remove('aurel-theme-vt-running');
+          switching=false;
+          syncButton(getButton(),currentMode()==='dark');
+        });
+      return;
+    }
+
+    if(reducedMotion()){
+      applyInstant(targetMode,true);
+      switching=false;
+      return;
+    }
+
+    fallbackTransition(targetMode);
+  }
+
+  function onToggle(){
+    transitionTo(currentMode()==='dark'?'light':'dark');
+  }
+
+  function bindButton(){
+    var btn=getButton();
+    if(!btn)return;
+
+    syncButton(btn,currentMode()==='dark');
+
+    if(btn.dataset.themeReady==='2')return;
+    btn.dataset.themeReady='2';
+    btn.addEventListener('click',onToggle);
+  }
+
+  function init(){
+    if(!initialized){
+      initialized=true;
+      /* Chỉ áp theme đã lưu đúng một lần, tránh repaint lại mỗi khi #root thay đổi. */
+      applyInstant(savedMode(),false);
+    }
+    bindButton();
   }
 
   if(document.readyState==='loading'){
@@ -12673,9 +12837,18 @@ body.aurel-dark-theme:has(#nav button[data-page="comparison"].active) .compare-d
     init();
   }
 
+  /* Root có thể được dựng lại khi chuyển trang. Chỉ bind nút mới, tuyệt đối không re-apply theme. */
   var root=document.getElementById('root');
   if(root){
-    new MutationObserver(function(){requestAnimationFrame(init);}).observe(root,{childList:true,subtree:true});
+    var queued=false;
+    new MutationObserver(function(){
+      if(queued)return;
+      queued=true;
+      requestAnimationFrame(function(){
+        queued=false;
+        bindButton();
+      });
+    }).observe(root,{childList:true,subtree:true});
   }
 })();
 </script>
