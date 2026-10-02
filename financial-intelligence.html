@@ -18449,5 +18449,561 @@ body.aurel-perf-scrolling .button{
 </script>
 <!-- AUREL_R126_MOBILE_SELECT_CLEAN_RENDER_END -->
 
+
+
+<!-- AUREL_R127_MOBILE_OVERVIEW_VISUAL_SYNC_START -->
+<style id="AUREL_R127_MOBILE_OVERVIEW_VISUAL_SYNC">
+/* MOBILE ONLY: đồng bộ Tổng quan với visual system của các trang chức năng.
+   Desktop >=761px giữ nguyên. Không đổi dữ liệu, JS hay chức năng. */
+@media (max-width:760px){
+
+  /* ===== PAGE BACKGROUND + HEADER CARD ===== */
+  body.aurel-page-overview .page{
+    background:
+      radial-gradient(circle at 88% 4%,rgba(37,99,235,.055),transparent 23%),
+      radial-gradient(circle at 16% 2%,rgba(14,165,164,.045),transparent 22%),
+      linear-gradient(180deg,#f4f8fb 0%,#edf3f7 100%)!important;
+  }
+
+  body.aurel-page-overview .page-head{
+    position:relative!important;
+    display:block!important;
+    overflow:hidden!important;
+    margin:0 0 16px!important;
+    padding:16px 15px!important;
+    border:1px solid #cbdbe7!important;
+    border-radius:13px!important;
+    background:linear-gradient(120deg,rgba(255,255,255,.98),rgba(242,248,252,.96))!important;
+    box-shadow:0 9px 24px rgba(25,58,82,.065)!important;
+  }
+
+  body.aurel-page-overview .page-head:before{
+    content:""!important;
+    position:absolute!important;
+    left:0!important;
+    top:0!important;
+    bottom:0!important;
+    width:4px!important;
+    background:linear-gradient(180deg,#287cff,#20b8b0)!important;
+  }
+
+  body.aurel-page-overview .page-head:after{
+    content:""!important;
+    position:absolute!important;
+    width:150px!important;
+    height:150px!important;
+    right:-52px!important;
+    top:-90px!important;
+    border-radius:50%!important;
+    background:radial-gradient(circle,rgba(48,153,255,.09),rgba(48,153,255,0) 70%)!important;
+    pointer-events:none!important;
+  }
+
+  body.aurel-page-overview .page-head h1{
+    color:#123754!important;
+    font-size:23px!important;
+    line-height:1.2!important;
+    font-weight:900!important;
+    letter-spacing:-.4px!important;
+    margin:5px 0 6px!important;
+  }
+
+  body.aurel-page-overview .page-head p{
+    color:#607d91!important;
+    font-size:12px!important;
+    line-height:1.58!important;
+    margin:0!important;
+    max-width:none!important;
+  }
+
+  body.aurel-page-overview .page-head .eyebrow,
+  body.aurel-page-overview .eyebrow{
+    color:#2873b7!important;
+    font-size:9px!important;
+    line-height:1.2!important;
+    font-weight:850!important;
+    letter-spacing:1.55px!important;
+  }
+
+  /* ===== EMPTY / WAITING STATE ===== */
+  body.aurel-page-overview .welcome-dashboard{
+    display:grid!important;
+    gap:12px!important;
+  }
+
+  body.aurel-page-overview .welcome-hero{
+    position:relative!important;
+    display:block!important;
+    min-height:0!important;
+    padding:19px 16px!important;
+    border:1px solid #cbd9e4!important;
+    border-radius:12px!important;
+    background:
+      radial-gradient(circle at 92% 8%,rgba(59,130,246,.07),transparent 29%),
+      linear-gradient(180deg,#ffffff 0%,#f9fbfd 100%)!important;
+    box-shadow:0 7px 20px rgba(25,55,77,.055)!important;
+    overflow:hidden!important;
+  }
+
+  body.aurel-page-overview .welcome-hero:before{
+    width:210px!important;
+    height:210px!important;
+    right:-90px!important;
+    top:-110px!important;
+    background:radial-gradient(circle,rgba(32,184,176,.075),rgba(32,184,176,0) 68%)!important;
+  }
+
+  body.aurel-page-overview .welcome-hero:after{
+    left:0!important;
+    right:0!important;
+    bottom:0!important;
+    height:2px!important;
+    background:linear-gradient(90deg,#3b82f6,#20b8b0,transparent)!important;
+    opacity:.72!important;
+  }
+
+  body.aurel-page-overview .welcome-copy{
+    width:100%!important;
+    max-width:none!important;
+    position:relative!important;
+    z-index:3!important;
+  }
+
+  body.aurel-page-overview .welcome-kicker{
+    display:inline-flex!important;
+    align-items:center!important;
+    gap:7px!important;
+    padding:7px 10px!important;
+    border-radius:999px!important;
+    background:#eef5fb!important;
+    border:1px solid #cbdde9!important;
+    color:#2873b7!important;
+    font-size:9px!important;
+    line-height:1!important;
+    font-weight:850!important;
+    letter-spacing:1.05px!important;
+    box-shadow:none!important;
+  }
+
+  body.aurel-page-overview .welcome-kicker-dot{
+    width:7px!important;
+    height:7px!important;
+    background:#3b82f6!important;
+    box-shadow:0 0 0 4px rgba(59,130,246,.09)!important;
+  }
+
+  body.aurel-page-overview .welcome-copy h1{
+    margin:18px 0 11px!important;
+    color:#123754!important;
+    font-size:29px!important;
+    line-height:1.05!important;
+    letter-spacing:-1px!important;
+    font-weight:900!important;
+  }
+
+  body.aurel-page-overview .welcome-copy h1 span{
+    color:#2873b7!important;
+  }
+
+  body.aurel-page-overview .welcome-copy p{
+    max-width:none!important;
+    margin:0!important;
+    color:#698295!important;
+    font-size:12.5px!important;
+    line-height:1.62!important;
+  }
+
+  body.aurel-page-overview .welcome-actions{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:9px!important;
+    margin-top:17px!important;
+  }
+
+  body.aurel-page-overview .welcome-actions .button{
+    width:100%!important;
+    min-height:44px!important;
+    border-radius:10px!important;
+    font-size:12px!important;
+    font-weight:800!important;
+  }
+
+  body.aurel-page-overview .welcome-actions .welcome-primary,
+  body.aurel-page-overview .welcome-actions .button.primary{
+    background:linear-gradient(135deg,#2175d9,#1665bd)!important;
+    border:1px solid #1665bd!important;
+    color:#fff!important;
+    box-shadow:0 6px 15px rgba(33,117,217,.20)!important;
+  }
+
+  body.aurel-page-overview .welcome-secondary{
+    background:linear-gradient(180deg,#ffffff,#f6fafc)!important;
+    border:1px solid #bfd2df!important;
+    color:#214760!important;
+    box-shadow:0 3px 8px rgba(28,65,91,.05)!important;
+  }
+
+  body.aurel-page-overview .welcome-trust{
+    gap:8px!important;
+    margin-top:14px!important;
+    color:#7c91a1!important;
+    font-size:9.5px!important;
+    line-height:1.45!important;
+  }
+
+  body.aurel-page-overview .welcome-trust i{
+    background:#9bb0bf!important;
+  }
+
+  /* Decorative report art remains, but adopts the same restrained palette. */
+  body.aurel-page-overview .report-visual{
+    height:220px!important;
+    margin:4px 0 -4px!important;
+    transform:scale(.88)!important;
+    transform-origin:center center!important;
+  }
+
+  body.aurel-page-overview .report-orbit{
+    border-color:rgba(58,126,185,.16)!important;
+  }
+
+  body.aurel-page-overview .report-paper-back{
+    background:#e9f0f5!important;
+    border-color:#d5e1e9!important;
+  }
+
+  body.aurel-page-overview .report-paper-main{
+    background:linear-gradient(180deg,#fff,#f9fbfd)!important;
+    border-color:#ccdbe6!important;
+    color:#29485e!important;
+  }
+
+  body.aurel-page-overview .paper-brand,
+  body.aurel-page-overview .pc-line{
+    color:#2873b7!important;
+    stroke:#2873b7!important;
+  }
+
+  body.aurel-page-overview .pc-area{
+    fill:rgba(40,115,183,.10)!important;
+  }
+
+  body.aurel-page-overview .paper-chart circle{
+    fill:#20b8b0!important;
+  }
+
+  body.aurel-page-overview .visual-badge{
+    background:#fff!important;
+    border-color:#cbd9e4!important;
+    color:#567286!important;
+    box-shadow:0 8px 18px rgba(25,55,77,.08)!important;
+  }
+
+  body.aurel-page-overview .visual-badge svg{
+    color:#2873b7!important;
+  }
+
+  body.aurel-page-overview .visual-badge:before{
+    background:#20b8b0!important;
+  }
+
+  body.aurel-page-overview .welcome-flow{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:8px!important;
+    padding:13px!important;
+    border:1px solid #cbd9e4!important;
+    border-radius:12px!important;
+    background:linear-gradient(180deg,#ffffff 0%,#f9fbfd 100%)!important;
+    box-shadow:0 7px 20px rgba(25,55,77,.045)!important;
+  }
+
+  body.aurel-page-overview .flow-label span{
+    color:#7890a1!important;
+  }
+
+  body.aurel-page-overview .flow-label strong{
+    color:#173a55!important;
+  }
+
+  body.aurel-page-overview .welcome-flow .flow-step{
+    padding:10px!important;
+    border:1px solid #dce7ee!important;
+    border-radius:10px!important;
+    background:#f5f9fc!important;
+  }
+
+  body.aurel-page-overview .welcome-flow .flow-step em{
+    background:#eaf3fb!important;
+    border:1px solid #cbddea!important;
+    color:#2873b7!important;
+  }
+
+  body.aurel-page-overview .welcome-flow .flow-step:nth-child(4) em{
+    background:#e9f7f5!important;
+    border-color:#c6e5df!important;
+    color:#15978f!important;
+  }
+
+  body.aurel-page-overview .welcome-flow .flow-step:nth-child(6) em{
+    background:#fff7e9!important;
+    border-color:#ecd9b8!important;
+    color:#b27c28!important;
+  }
+
+  body.aurel-page-overview .flow-step b{
+    color:#27465c!important;
+  }
+
+  body.aurel-page-overview .flow-step span{
+    color:#7890a1!important;
+  }
+
+  body.aurel-page-overview .flow-arrow{
+    display:none!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:8px!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities article{
+    min-height:0!important;
+    padding:14px!important;
+    border:1px solid #cbd9e4!important;
+    border-radius:12px!important;
+    background:linear-gradient(180deg,#ffffff 0%,#f9fbfd 100%)!important;
+    box-shadow:0 7px 20px rgba(25,55,77,.045)!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities b{
+    color:#173a55!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities p{
+    color:#698295!important;
+  }
+
+  body.aurel-page-overview .cap-icon{
+    width:38px!important;
+    height:38px!important;
+    border-radius:10px!important;
+    background:#eaf3fb!important;
+    border:1px solid #cbddea!important;
+    color:#2873b7!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities article:nth-child(2) .cap-icon{
+    background:#e9f7f5!important;
+    border-color:#c6e5df!important;
+    color:#15978f!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities article:nth-child(3) .cap-icon{
+    background:#fff7e9!important;
+    border-color:#ecd9b8!important;
+    color:#b27c28!important;
+  }
+
+  body.aurel-page-overview .welcome-capabilities article:nth-child(4) .cap-icon{
+    background:#f2effb!important;
+    border-color:#ddd4f2!important;
+    color:#7258b8!important;
+  }
+
+  /* ===== LOADED OVERVIEW ===== */
+  body.aurel-page-overview :is(
+    .ref-kpi,.ref-chart-panel,.ref-key-panel,.panel,.metric,.table-wrap
+  ){
+    border-color:#cbd9e4!important;
+    border-radius:12px!important;
+    background:linear-gradient(180deg,#ffffff 0%,#f9fbfd 100%)!important;
+    box-shadow:0 7px 20px rgba(25,55,77,.055)!important;
+  }
+
+  body.aurel-page-overview .ref-kpi{
+    border-top:3px solid #3b82f6!important;
+  }
+  body.aurel-page-overview .ref-kpi:nth-child(2){
+    border-top-color:#20b8b0!important;
+  }
+  body.aurel-page-overview .ref-kpi:nth-child(3){
+    border-top-color:#55a8c8!important;
+  }
+  body.aurel-page-overview .ref-kpi:nth-child(4){
+    border-top-color:#e5ad45!important;
+  }
+
+  body.aurel-page-overview .ref-panel-title h2,
+  body.aurel-page-overview .section-top h2{
+    color:#173a55!important;
+    font-weight:850!important;
+  }
+
+  body.aurel-page-overview .ref-panel-head small,
+  body.aurel-page-overview .section-top small,
+  body.aurel-page-overview .ref-finance-legend{
+    color:#698295!important;
+  }
+
+  body.aurel-page-overview .r59-report-tabs{
+    border:1px solid #cbd9e4!important;
+    background:#eef5fa!important;
+    box-shadow:none!important;
+  }
+
+  body.aurel-page-overview .r59-report-tabs button,
+  body.aurel-page-overview .r59-report-tabs span{
+    color:#547286!important;
+    background:transparent!important;
+  }
+
+  body.aurel-page-overview .r59-report-tabs button.active,
+  body.aurel-page-overview .r59-report-tabs span:first-child{
+    color:#fff!important;
+    background:linear-gradient(135deg,#2474d2,#1761b7)!important;
+    box-shadow:0 5px 13px rgba(36,116,210,.18)!important;
+  }
+
+  body.aurel-page-overview .table-wrap{
+    background:#fff!important;
+    box-shadow:none!important;
+  }
+
+  body.aurel-page-overview thead th{
+    background:#eef5fa!important;
+    color:#35576f!important;
+    border-bottom-color:#c9d8e3!important;
+  }
+
+  body.aurel-page-overview tbody td{
+    color:#27465c!important;
+    border-bottom-color:#e4edf3!important;
+  }
+
+  /* Hero dữ liệu: giữ ảnh/chức năng, chỉ đồng bộ khung và độ đậm. */
+  body.aurel-page-overview .ref-hero{
+    border:1px solid #cbd9e4!important;
+    border-radius:12px!important;
+    box-shadow:0 7px 20px rgba(25,55,77,.08)!important;
+  }
+
+  /* ===== DARK MODE: same mobile language as the other tabs ===== */
+  body.aurel-dark-theme.aurel-page-overview .page{
+    background:
+      radial-gradient(circle at 88% 3%,rgba(50,123,219,.08),transparent 24%),
+      radial-gradient(circle at 14% 2%,rgba(30,183,173,.055),transparent 22%),
+      linear-gradient(180deg,#080d14 0%,#070b11 100%)!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .page-head{
+    border-color:#2b4055!important;
+    background:linear-gradient(135deg,#101b28 0%,#0c151f 100%)!important;
+    box-shadow:0 11px 28px rgba(0,0,0,.20)!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .page-head:before{
+    background:linear-gradient(180deg,#4d9cff,#2fc7b3)!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .page-head h1{
+    color:#f3f8fc!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .page-head p{
+    color:#9db0c0!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .page-head .eyebrow,
+  body.aurel-dark-theme.aurel-page-overview .eyebrow{
+    color:#68aaff!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview :is(
+    .welcome-hero,.welcome-flow,.welcome-capabilities article,
+    .ref-kpi,.ref-chart-panel,.ref-key-panel,.panel,.metric,.table-wrap
+  ){
+    border-color:#2b4055!important;
+    background:linear-gradient(180deg,#111d2a 0%,#0d1722 100%)!important;
+    box-shadow:0 8px 22px rgba(0,0,0,.18)!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-kicker{
+    background:#142236!important;
+    border-color:#31506d!important;
+    color:#9ecaff!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-kicker-dot{
+    background:#4d9cff!important;
+    box-shadow:0 0 0 4px rgba(77,156,255,.11)!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-copy h1,
+  body.aurel-dark-theme.aurel-page-overview .welcome-capabilities b,
+  body.aurel-dark-theme.aurel-page-overview .flow-label strong,
+  body.aurel-dark-theme.aurel-page-overview .flow-step b,
+  body.aurel-dark-theme.aurel-page-overview .ref-panel-title h2,
+  body.aurel-dark-theme.aurel-page-overview .section-top h2{
+    color:#eef5fa!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-copy h1 span{
+    color:#69b6ff!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-copy p,
+  body.aurel-dark-theme.aurel-page-overview .welcome-capabilities p,
+  body.aurel-dark-theme.aurel-page-overview .flow-step span,
+  body.aurel-dark-theme.aurel-page-overview .ref-panel-head small,
+  body.aurel-dark-theme.aurel-page-overview .section-top small,
+  body.aurel-dark-theme.aurel-page-overview .ref-finance-legend{
+    color:#98adbd!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-flow .flow-step{
+    background:#142130!important;
+    border-color:#263b50!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .welcome-secondary{
+    background:linear-gradient(180deg,#152334,#101b28)!important;
+    border-color:#334a60!important;
+    color:#d8e4ed!important;
+    box-shadow:none!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .r59-report-tabs{
+    border-color:#2b4055!important;
+    background:#162433!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .r59-report-tabs button,
+  body.aurel-dark-theme.aurel-page-overview .r59-report-tabs span{
+    color:#9fb3c3!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview .r59-report-tabs button.active,
+  body.aurel-dark-theme.aurel-page-overview .r59-report-tabs span:first-child{
+    color:#fff!important;
+    background:linear-gradient(135deg,#2a7ee8,#1762b9)!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview thead th{
+    background:#162433!important;
+    color:#b9c9d5!important;
+    border-bottom-color:#31485d!important;
+  }
+
+  body.aurel-dark-theme.aurel-page-overview tbody td{
+    color:#d3e0e9!important;
+    border-bottom-color:#223548!important;
+  }
+}
+</style>
+<!-- AUREL_R127_MOBILE_OVERVIEW_VISUAL_SYNC_END -->
+
 </body></html>
 
