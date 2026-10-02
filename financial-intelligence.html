@@ -16978,7 +16978,7 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
   }
   function rawLine(label,v){return '<div><b>'+esc(label)+':</b> '+esc(money(v))+'</div>'}
   function row(i,group,key,name,raw,indicator,formula,threshold,status,meaning){
-    return '<tr>'+
+    return '<tr data-aurel-r124-status="'+esc(status)+'">'+
       '<td><span class="aurel-risk-group">'+esc(group)+'</span></td>'+
       '<td class="aurel-risk-criterion"><strong>'+i+'. '+esc(name)+'</strong><span class="aurel-risk-key">'+esc(key)+'</span></td>'+
       '<td><div class="aurel-risk-raw">'+raw+'</div></td>'+
