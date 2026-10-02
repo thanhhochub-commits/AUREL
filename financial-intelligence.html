@@ -21761,5 +21761,64 @@ html body.aurel-dark-theme.aurel-page-overview.aurel-overview-waiting-reference 
   }
 }
 </style>
+
+<style id="AUREL_DESKTOP_TOPBAR_BANK_YEAR_CLEAN_FIX_V7">
+/* DESKTOP ONLY. Mobile <=760px is intentionally untouched. */
+@media (min-width:761px){
+
+  /* Remove the duplicated blue value layer beside the native selects.
+     These nodes are mobile-only renderers that can remain in the DOM after
+     responsive changes, so desktop must never paint them. */
+  .topbar .aurel-mobile-select-display-v2,
+  .topbar .aurel-mobile-select-value{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    width:0!important;
+    height:0!important;
+    overflow:hidden!important;
+    pointer-events:none!important;
+  }
+
+  /* Bank control: use the existing #i-bank SVG from the markup, matching
+     the visible calendar icon of the Year control. */
+  .topbar .controls.ref-controls > label.ref-control:first-of-type{
+    display:flex!important;
+    align-items:center!important;
+    gap:8px!important;
+  }
+
+  .topbar .controls.ref-controls > label.ref-control:first-of-type > svg,
+  .topbar label.ref-control.aurel-bank-control > svg{
+    display:block!important;
+    visibility:visible!important;
+    opacity:1!important;
+    position:static!important;
+    flex:0 0 19px!important;
+    width:19px!important;
+    height:19px!important;
+    min-width:19px!important;
+    margin:0!important;
+    transform:none!important;
+    color:#2e70b8!important;
+    pointer-events:none!important;
+  }
+
+  .topbar .controls.ref-controls > label.ref-control:first-of-type > select,
+  .topbar #bank-select{
+    position:static!important;
+    flex:1 1 auto!important;
+    min-width:100px!important;
+    width:auto!important;
+    margin:0!important;
+    padding-left:0!important;
+  }
+
+  body.aurel-dark-theme .topbar .controls.ref-controls > label.ref-control:first-of-type > svg,
+  body.aurel-dark-theme .topbar label.ref-control.aurel-bank-control > svg{
+    color:#76adff!important;
+  }
+}
+</style>
 </body></html>
 
