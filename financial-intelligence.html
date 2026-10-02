@@ -11931,10 +11931,14 @@ body:has(#nav button[data-page="monitor"].active)
     ring.style.background=parts.length?grad(parts):'#e6edf3';
     var center=document.createElement('div');
     center.className='r61-center';
-    center.textContent=(rows[0]&&rows[0].display)||'—';
+    var cv=document.createElement('span');
+    cv.className='r61-center-value';
+    cv.textContent=(rows[0]&&rows[0].display)||'—';
     var cs=document.createElement('small');
     cs.textContent=labels[active]+' · '+year;
-    center.appendChild(cs);ring.appendChild(center);
+    center.appendChild(cv);
+    center.appendChild(cs);
+    ring.appendChild(center);
 
     var legend=document.createElement('div');
     legend.className='r61-legend';
@@ -11984,15 +11988,7 @@ body:has(#nav button[data-page="monitor"].active)
     }
   });
 
-  var root=document.getElementById('root');
-  if(root){
-    var queued=false;
-    new MutationObserver(function(){
-      if(queued)return;
-      queued=true;
-      requestAnimationFrame(function(){queued=false;render()});
-    }).observe(root,{childList:true,subtree:true});
-  }
+  /* Không theo dõi toàn bộ DOM: biểu đồ chỉ render khi vào trang, đổi tab, ngân hàng hoặc năm. */
   setTimeout(render,150);
   setTimeout(render,700);
 })();
@@ -12037,10 +12033,7 @@ body:has(#nav button[data-page="monitor"].active)
     document.querySelectorAll('.ref-kpi-number').forEach(function(el){
       fitText(el,17);
     });
-    document.querySelectorAll('.r61-center').forEach(function(center){
-      var value=ensureCenterValue(center);
-      if(value) fitText(value,8.5);
-    });
+    /* Donut R61 đã có kích thước/tâm cố định; không can thiệp DOM hoặc font tại đây. */
   }
 
   var queued=false;
@@ -18267,6 +18260,94 @@ body:has(#nav button[data-page="overview"].active) .r61-donut.changed{
 }
 </style>
 <!-- AUREL_R61_DONUT_STABLE_V1_END -->
+
+
+<!-- AUREL_R61_DONUT_HARD_STABLE_V2_START -->
+<style id="AUREL_R61_DONUT_HARD_STABLE_V2">
+/* Khóa hoàn toàn biểu đồ donut Báo cáo tài chính: không animation, không resize, không nhấp nhô. */
+body:has(#nav button[data-page="overview"].active) .r61-donut-side{
+  position:relative!important;
+  align-self:center!important;
+  justify-self:stretch!important;
+  align-content:center!important;
+  justify-items:center!important;
+  transform:none!important;
+  transition:none!important;
+  animation:none!important;
+}
+body:has(#nav button[data-page="overview"].active) .r61-donut,
+body:has(#nav button[data-page="overview"].active) .r61-donut.changed{
+  position:relative!important;
+  box-sizing:border-box!important;
+  width:126px!important;
+  min-width:126px!important;
+  max-width:126px!important;
+  height:126px!important;
+  min-height:126px!important;
+  max-height:126px!important;
+  flex:0 0 126px!important;
+  align-self:center!important;
+  justify-self:center!important;
+  margin:0 auto!important;
+  padding:0!important;
+  transform:none!important;
+  translate:none!important;
+  scale:1!important;
+  rotate:0deg!important;
+  animation:none!important;
+  transition:none!important;
+  will-change:auto!important;
+  contain:layout paint style!important;
+  opacity:1!important;
+}
+body:has(#nav button[data-page="overview"].active) .r61-donut::before,
+body:has(#nav button[data-page="overview"].active) .r61-donut::after{
+  animation:none!important;
+  transition:none!important;
+  transform:none!important;
+}
+body:has(#nav button[data-page="overview"].active) .r61-center{
+  position:absolute!important;
+  inset:23px!important;
+  width:auto!important;
+  height:auto!important;
+  min-width:0!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0 3px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  transform:none!important;
+  animation:none!important;
+  transition:none!important;
+  contain:layout style!important;
+}
+body:has(#nav button[data-page="overview"].active) .r61-center-value{
+  display:block!important;
+  width:100%!important;
+  max-width:76px!important;
+  margin:0!important;
+  padding:0!important;
+  font-size:13.5px!important;
+  line-height:1!important;
+  font-weight:900!important;
+  white-space:nowrap!important;
+  text-align:center!important;
+  transform:none!important;
+  transition:none!important;
+  animation:none!important;
+}
+body:has(#nav button[data-page="overview"].active) .r61-center small{
+  margin:5px 0 0!important;
+  transform:none!important;
+  transition:none!important;
+  animation:none!important;
+}
+</style>
+<!-- AUREL_R61_DONUT_HARD_STABLE_V2_END -->
 
 </body></html>
 
