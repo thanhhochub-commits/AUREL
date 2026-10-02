@@ -17739,5 +17739,164 @@ body.aurel-perf-scrolling .button{
   document.addEventListener('aurel:dom-render',unlock);
 })();
 </script>
+
+
+<!-- AUREL_MOBILE_SCROLL_SMOOTH_V2_START -->
+<style id="AUREL_MOBILE_SCROLL_SMOOTH_V2_STYLE">
+/* MOBILE ONLY. Desktop >= 761px remains untouched.
+   Keep one native vertical scroll owner and explicitly allow nested horizontal scrollers. */
+@media (max-width:760px){
+  html{
+    width:100%!important;
+    max-width:100%!important;
+    height:auto!important;
+    min-height:100%!important;
+    max-height:none!important;
+    overflow-x:clip!important;
+    overflow-y:auto!important;
+    overscroll-behavior-x:none!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:auto!important;
+    scroll-behavior:auto!important;
+    scrollbar-gutter:auto!important;
+    -webkit-overflow-scrolling:touch!important;
+  }
+
+  body{
+    position:static!important;
+    width:100%!important;
+    max-width:100%!important;
+    height:auto!important;
+    min-height:100dvh!important;
+    max-height:none!important;
+    overflow-x:clip!important;
+    overflow-y:visible!important;
+    overscroll-behavior-x:none!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:auto!important;
+    -webkit-overflow-scrolling:auto!important;
+  }
+
+  .shell,
+  .main,
+  #root,
+  #root>.page{
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    overflow-y:visible!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:auto!important;
+  }
+
+  .shell,
+  .main,
+  #root{
+    overflow-x:clip!important;
+  }
+
+  /* Horizontal areas: allow diagonal/native gestures without stealing vertical page scroll. */
+  .table-wrap,
+  .compare-viz-list.many,
+  .ref-hero-live-badges,
+  .r59-report-tabs,
+  .sidebar .nav{
+    -webkit-overflow-scrolling:touch!important;
+    overscroll-behavior-x:contain!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:pan-x pan-y pinch-zoom!important;
+    scroll-behavior:auto!important;
+  }
+
+  .table-wrap{
+    overflow-x:auto!important;
+    overflow-y:visible!important;
+  }
+
+  /* Remove snap resistance from the bottom dock on touch devices. */
+  .sidebar .nav{
+    scroll-snap-type:none!important;
+  }
+  .sidebar .nav button{
+    scroll-snap-align:none!important;
+  }
+
+  /* The fixed translucent dock was forcing continuous backdrop recomposition while scrolling. */
+  .sidebar{
+    -webkit-backdrop-filter:none!important;
+    backdrop-filter:none!important;
+    background:rgba(5,34,63,.985)!important;
+    transform:translateZ(0)!important;
+    backface-visibility:hidden!important;
+    -webkit-backface-visibility:hidden!important;
+  }
+
+  /* Decorative layers should never participate in gesture hit-testing. */
+  .aurel-r78-slider-wrap,
+  .aurel-r78-slider-img{
+    pointer-events:none!important;
+    touch-action:none!important;
+  }
+
+  /* Avoid keeping a large image layer permanently promoted on memory-constrained phones. */
+  .aurel-r78-slider-img{
+    will-change:auto!important;
+  }
+
+  .topbar{
+    touch-action:pan-x pan-y pinch-zoom!important;
+  }
+
+  button,
+  .button,
+  select,
+  input,
+  textarea{
+    touch-action:manipulation!important;
+  }
+}
+</style>
+
+<script id="AUREL_MOBILE_SCROLL_SMOOTH_V2_JS">
+(function(){
+  'use strict';
+  if(!window.matchMedia||!window.matchMedia('(max-width:760px)').matches)return;
+
+  function unlockMobileScroll(){
+    var de=document.documentElement,b=document.body;
+    if(!de||!b)return;
+
+    /* Clear stale inline locks left by renders/theme transitions without touching desktop. */
+    ['height','max-height','overflow-y','position','touch-action'].forEach(function(p){
+      b.style.removeProperty(p);
+    });
+    ['height','max-height','overflow-y','touch-action'].forEach(function(p){
+      de.style.removeProperty(p);
+    });
+  }
+
+  var queued=false;
+  function scheduleUnlock(){
+    if(queued)return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      unlockMobileScroll();
+    });
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',scheduleUnlock,{once:true});
+  }else{
+    scheduleUnlock();
+  }
+
+  window.addEventListener('pageshow',scheduleUnlock,{passive:true});
+  window.addEventListener('orientationchange',scheduleUnlock,{passive:true});
+  document.addEventListener('aurel:dom-render',scheduleUnlock,{passive:true});
+})();
+</script>
+<!-- AUREL_MOBILE_SCROLL_SMOOTH_V2_END -->
+
 </body></html>
 
