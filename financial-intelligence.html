@@ -18126,5 +18126,328 @@ body.aurel-perf-scrolling .button{
 </style>
 <!-- AUREL_R125_MOBILE_SELECT_SINGLE_RENDER_END -->
 
+
+
+<!-- AUREL_R126_MOBILE_SELECT_CLEAN_RENDER_START -->
+<style id="AUREL_R126_MOBILE_SELECT_CLEAN_RENDER_STYLE">
+/* MOBILE ONLY. Clean single-render Bank/Year controls. Desktop >=761px untouched. */
+@media (max-width:760px){
+  .topbar .controls.ref-controls,
+  .topbar .ref-controls{
+    display:grid!important;
+    grid-template-columns:minmax(0,1.16fr) minmax(0,.84fr)!important;
+    gap:8px!important;
+    width:100%!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    align-items:stretch!important;
+  }
+
+  .topbar label.ref-control{
+    position:relative!important;
+    display:block!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    height:62px!important;
+    min-height:62px!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    border-radius:15px!important;
+    box-sizing:border-box!important;
+  }
+
+  .topbar label.ref-control:first-of-type::before,
+  .topbar label.ref-control.aurel-bank-control::before{
+    content:"Ngân hàng"!important;
+  }
+  .topbar label.ref-control:nth-of-type(2)::before,
+  .topbar label.ref-control.aurel-year-control::before{
+    content:"Năm"!important;
+  }
+
+  .topbar label.ref-control::before{
+    position:absolute!important;
+    left:42px!important;
+    right:28px!important;
+    top:8px!important;
+    z-index:6!important;
+    display:block!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+    white-space:nowrap!important;
+    font-size:10px!important;
+    line-height:12px!important;
+    font-weight:780!important;
+    letter-spacing:0!important;
+    pointer-events:none!important;
+  }
+
+  .topbar label.ref-control>svg,
+  .topbar label.aurel-bank-control>svg{
+    display:block!important;
+    position:absolute!important;
+    left:12px!important;
+    top:50%!important;
+    z-index:7!important;
+    width:20px!important;
+    height:20px!important;
+    min-width:20px!important;
+    transform:translateY(-50%)!important;
+    pointer-events:none!important;
+  }
+
+  .topbar label.ref-control::after{
+    content:""!important;
+    position:absolute!important;
+    right:11px!important;
+    top:50%!important;
+    z-index:7!important;
+    width:8px!important;
+    height:8px!important;
+    margin-top:-5px!important;
+    border-right:2px solid currentColor!important;
+    border-bottom:2px solid currentColor!important;
+    transform:rotate(45deg)!important;
+    pointer-events:none!important;
+  }
+
+  /* Completely suppress every legacy visible value layer. */
+  .topbar .aurel-mobile-select-value{
+    display:none!important;
+    visibility:hidden!important;
+    opacity:0!important;
+    pointer-events:none!important;
+  }
+
+  /* Native select handles tap only. It must never paint text/arrow on mobile. */
+  .topbar label.ref-control select,
+  .topbar #bank-select,
+  .topbar #year-select{
+    position:absolute!important;
+    inset:0!important;
+    z-index:10!important;
+    display:block!important;
+    visibility:visible!important;
+    width:100%!important;
+    height:100%!important;
+    min-width:0!important;
+    max-width:none!important;
+    min-height:0!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:inherit!important;
+    outline:0!important;
+    box-shadow:none!important;
+    background:transparent!important;
+    background-image:none!important;
+    color:transparent!important;
+    -webkit-text-fill-color:transparent!important;
+    text-shadow:none!important;
+    opacity:0!important;
+    appearance:none!important;
+    -webkit-appearance:none!important;
+    -moz-appearance:none!important;
+    cursor:pointer!important;
+  }
+
+  .topbar label.ref-control select:disabled,
+  .topbar #bank-select:disabled,
+  .topbar #year-select:disabled{
+    opacity:0!important;
+    cursor:default!important;
+  }
+
+  /* Exactly one visible value renderer. */
+  .topbar .aurel-mobile-select-display-v2{
+    position:absolute!important;
+    left:42px!important;
+    right:28px!important;
+    top:29px!important;
+    z-index:8!important;
+    display:block!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+    white-space:nowrap!important;
+    font-size:13.5px!important;
+    line-height:20px!important;
+    font-weight:850!important;
+    letter-spacing:0!important;
+    pointer-events:none!important;
+    text-align:left!important;
+  }
+
+  body:not(.aurel-dark-theme) .topbar label.ref-control:first-of-type,
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-bank-control{
+    background:linear-gradient(180deg,#eef6ff 0%,#e7f1fc 100%)!important;
+    border:1px solid #b8d0e5!important;
+    color:#365a75!important;
+  }
+
+  body:not(.aurel-dark-theme) .topbar label.ref-control:nth-of-type(2),
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-year-control{
+    background:linear-gradient(180deg,#effaf8 0%,#e7f5f2 100%)!important;
+    border:1px solid #b9dcd5!important;
+    color:#365a75!important;
+  }
+
+  body:not(.aurel-dark-theme) .topbar label.ref-control::before{
+    color:#607d94!important;
+    -webkit-text-fill-color:#607d94!important;
+  }
+  body:not(.aurel-dark-theme) .topbar .aurel-mobile-select-display-v2{
+    color:#143a57!important;
+    -webkit-text-fill-color:#143a57!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control:first-of-type>svg,
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-bank-control>svg{
+    color:#2e70b8!important;
+  }
+  body:not(.aurel-dark-theme) .topbar label.ref-control:nth-of-type(2)>svg,
+  body:not(.aurel-dark-theme) .topbar label.ref-control.aurel-year-control>svg{
+    color:#158e84!important;
+  }
+
+  body.aurel-dark-theme .topbar label.ref-control{
+    background:linear-gradient(180deg,#121e2c 0%,#0e1824 100%)!important;
+    border:1px solid #30465e!important;
+    color:#e8f2fb!important;
+  }
+  body.aurel-dark-theme .topbar label.ref-control::before,
+  body.aurel-dark-theme .topbar .aurel-mobile-select-display-v2{
+    color:#fff!important;
+    -webkit-text-fill-color:#fff!important;
+  }
+  body.aurel-dark-theme .topbar label.ref-control>svg{
+    color:#69a9ff!important;
+  }
+
+  @media (max-width:390px){
+    .topbar .controls.ref-controls,
+    .topbar .ref-controls{
+      grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)!important;
+      gap:7px!important;
+    }
+    .topbar label.ref-control::before,
+    .topbar .aurel-mobile-select-display-v2{
+      left:39px!important;
+      right:25px!important;
+    }
+    .topbar label.ref-control>svg,
+    .topbar label.aurel-bank-control>svg{
+      left:10px!important;
+      width:19px!important;
+      height:19px!important;
+      min-width:19px!important;
+    }
+    .topbar label.ref-control::after{
+      right:9px!important;
+      width:7px!important;
+      height:7px!important;
+    }
+    .topbar .aurel-mobile-select-display-v2{
+      font-size:13px!important;
+    }
+  }
+}
+</style>
+
+<script id="AUREL_R126_MOBILE_SELECT_CLEAN_RENDER_JS">
+(function(){
+  'use strict';
+  if(!window.matchMedia||!window.matchMedia('(max-width:760px)').matches)return;
+
+  var queued=false;
+
+  function forceNativeInvisible(select){
+    if(!select)return;
+    [
+      ['opacity','0'],
+      ['color','transparent'],
+      ['-webkit-text-fill-color','transparent'],
+      ['background','transparent'],
+      ['background-image','none'],
+      ['text-shadow','none']
+    ].forEach(function(x){
+      try{select.style.setProperty(x[0],x[1],'important');}catch(e){}
+    });
+  }
+
+  function syncOne(select,fallback){
+    if(!select||!select.parentElement)return;
+    var label=select.parentElement;
+
+    /* Legacy renderer may be recreated by older code. Keep it physically hidden. */
+    var legacy=label.querySelectorAll('.aurel-mobile-select-value');
+    legacy.forEach(function(n){
+      n.setAttribute('aria-hidden','true');
+      n.style.setProperty('display','none','important');
+      n.style.setProperty('visibility','hidden','important');
+      n.style.setProperty('opacity','0','important');
+    });
+
+    var nodes=label.querySelectorAll('.aurel-mobile-select-display-v2');
+    var display=nodes[0]||null;
+    for(var i=1;i<nodes.length;i++)nodes[i].remove();
+
+    if(!display){
+      display=document.createElement('span');
+      display.className='aurel-mobile-select-display-v2';
+      display.setAttribute('aria-hidden','true');
+      label.appendChild(display);
+    }
+
+    var opt=select.options&&select.selectedIndex>=0?select.options[select.selectedIndex]:null;
+    var txt=opt?(opt.textContent||opt.innerText||'').trim():'';
+    display.textContent=txt||fallback;
+
+    forceNativeInvisible(select);
+
+    if(select.dataset.aurelCleanMobileSelectBound!=='1'){
+      select.dataset.aurelCleanMobileSelectBound='1';
+      select.addEventListener('change',schedule,true);
+      select.addEventListener('input',schedule,true);
+    }
+  }
+
+  function syncAll(){
+    syncOne(document.getElementById('bank-select'),'Chọn ngân hàng');
+    syncOne(document.getElementById('year-select'),'Chọn năm');
+  }
+
+  function schedule(){
+    if(queued)return;
+    queued=true;
+    requestAnimationFrame(function(){
+      queued=false;
+      syncAll();
+    });
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',schedule,{once:true});
+  }else{
+    schedule();
+  }
+
+  document.addEventListener('aurel:dom-render',schedule);
+  window.addEventListener('pageshow',schedule,{passive:true});
+
+  var root=document.getElementById('root')||document.body;
+  if(root){
+    new MutationObserver(schedule).observe(root,{childList:true,subtree:true,attributes:true,attributeFilter:['disabled','value']});
+  }
+})();
+</script>
+<!-- AUREL_R126_MOBILE_SELECT_CLEAN_RENDER_END -->
+
 </body></html>
 
