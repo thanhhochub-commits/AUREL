@@ -20179,5 +20179,527 @@ body.aurel-perf-scrolling .button{
 </style>
 <!-- AUREL_R133_OVERVIEW_MOBILE_DARK_DESKTOP_PALETTE_END -->
 
+
+
+<!-- AUREL_R134_WAITING_MOBILE_DESKTOP_TOKENS_START -->
+<style id="AUREL_R134_WAITING_MOBILE_DESKTOP_TOKENS">
+/* MOBILE WAITING ROOM ONLY.
+   Desktop is the source of truth for palette + typography.
+   Layout remains responsive; desktop >=761px is untouched. */
+@media (max-width:760px){
+
+  html body.aurel-mobile-waiting-desktop-sync,
+  html body.aurel-mobile-waiting-desktop-sync button,
+  html body.aurel-mobile-waiting-desktop-sync input,
+  html body.aurel-mobile-waiting-desktop-sync select,
+  html body.aurel-mobile-waiting-desktop-sync textarea,
+  html body.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard,
+  html body.aurel-mobile-waiting-desktop-sync #root>.page-head{
+    font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important;
+  }
+
+  /* ---------- LIGHT: desktop palette ---------- */
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .main{
+    background:linear-gradient(180deg,#F0F5F9 0%,#E7EFF5 100%)!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .page{
+    background:transparent!important;
+    color:#102C42!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .topbar{
+    background:#FFFFFF!important;
+    background-image:none!important;
+    border-bottom-color:#BCD0DD!important;
+    box-shadow:0 2px 8px rgba(15,42,63,.05)!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .crumb-icon{
+    background:#E7F0FF!important;
+    border-color:#BFD2E0!important;
+    color:#2563EB!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .crumb strong{
+    color:#102C42!important;
+    -webkit-text-fill-color:#102C42!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .topbar label.ref-control{
+    background:#FFFFFF!important;
+    border-color:#B9CBD7!important;
+    box-shadow:none!important;
+    color:#173B55!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .topbar label.ref-control::before{
+    color:#667F91!important;
+    -webkit-text-fill-color:#667F91!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .topbar .aurel-mobile-select-display-v2{
+    color:#173B55!important;
+    -webkit-text-fill-color:#173B55!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .topbar label.ref-control>svg{
+    color:#2563EB!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) .topbar label.ref-control::after{
+    color:#587184!important;
+  }
+
+  /* Page heading follows desktop waiting-page language, not a separate mobile theme. */
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head,
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head.aurel-overview-hero-head{
+    background:#FFFFFF!important;
+    border:1px solid #B8CBD8!important;
+    border-left:6px solid #2563EB!important;
+    border-radius:10px!important;
+    box-shadow:none!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head::before,
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head.aurel-overview-hero-head::before,
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head::after,
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head.aurel-overview-hero-head::after{
+    content:none!important;
+    display:none!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head .eyebrow{
+    color:#2563EB!important;
+    -webkit-text-fill-color:#2563EB!important;
+    font-weight:900!important;
+    letter-spacing:1.7px!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head h1{
+    color:#0B2D45!important;
+    -webkit-text-fill-color:#0B2D45!important;
+    font-weight:900!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root>.page-head p{
+    color:#587184!important;
+    -webkit-text-fill-color:#587184!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-hero{
+    background:
+      radial-gradient(circle at 82% 28%,rgba(37,99,235,.16),transparent 30%),
+      radial-gradient(circle at 90% 78%,rgba(15,139,141,.14),transparent 28%),
+      linear-gradient(125deg,#FFFFFF 0%,#F8FBFF 55%,#EAF2FF 78%,#E5F5F2 100%)!important;
+    border-color:#ABC3D3!important;
+    box-shadow:0 18px 45px rgba(24,49,58,.075)!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-kicker{
+    background:#EDF4FF!important;
+    border-color:#C9DAF1!important;
+    color:#205A92!important;
+    -webkit-text-fill-color:#205A92!important;
+    font-size:9.5px!important;
+    letter-spacing:1.15px!important;
+    font-weight:820!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-kicker-dot{
+    background:#2563EB!important;
+    box-shadow:0 0 0 4px rgba(37,99,235,.12)!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-copy h1{
+    color:#0B2D45!important;
+    -webkit-text-fill-color:#0B2D45!important;
+    font-weight:820!important;
+    letter-spacing:-1.75px!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-copy h1 span{
+    color:#0D7378!important;
+    -webkit-text-fill-color:#0D7378!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-copy p{
+    color:#526E81!important;
+    -webkit-text-fill-color:#526E81!important;
+    font-size:13.5px!important;
+    line-height:1.72!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-trust{
+    color:#617B8D!important;
+    -webkit-text-fill-color:#617B8D!important;
+    font-size:10px!important;
+    font-weight:650!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-trust i{
+    background:#5E91B8!important;
+  }
+
+  /* Desktop light buttons exactly */
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-actions .button.primary,
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-actions .welcome-primary{
+    background:#0B2D45!important;
+    border-color:#0B2D45!important;
+    color:#FFFFFF!important;
+    -webkit-text-fill-color:#FFFFFF!important;
+    box-shadow:none!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-actions .welcome-secondary,
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-actions .button:not(.primary){
+    background:#E7F0FF!important;
+    border-color:#BFD4F0!important;
+    color:#1D5BA0!important;
+    -webkit-text-fill-color:#1D5BA0!important;
+    box-shadow:none!important;
+  }
+
+  /* Desktop light BCTC palette */
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .report-orbit{
+    border-color:rgba(37,99,235,.25)!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .orbit-two{
+    border-color:rgba(15,139,141,.26)!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .report-paper-back{
+    background:#D7E8F5!important;
+    border-color:#BFD2E0!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .report-paper-main{
+    background:linear-gradient(180deg,#FFFFFF,#F8FBFD)!important;
+    border-color:#B8CBD8!important;
+    color:#1D3C52!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-brand{
+    color:#2563EB!important;
+    -webkit-text-fill-color:#2563EB!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-top b{
+    color:#0B2D45!important;
+    -webkit-text-fill-color:#0B2D45!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-year{
+    background:#E7F0FF!important;
+    color:#29608A!important;
+    -webkit-text-fill-color:#29608A!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-rule{
+    background:linear-gradient(90deg,#2563EB,#0F8B8D)!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-summary span:nth-child(1){background:#D7E7FF!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-summary span:nth-child(2){background:#D8F1ED!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-summary span:nth-child(3){background:#FFEAB9!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-table i{background:#D8E5ED!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .pc-grid{stroke:#D8E3EA!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .pc-area{fill:rgba(37,99,235,.10)!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .pc-line{stroke:#2563EB!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-chart circle{fill:#0F8B8D!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-footer span{
+    color:#6D8392!important;-webkit-text-fill-color:#6D8392!important
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .paper-footer b{
+    color:#183C56!important;-webkit-text-fill-color:#183C56!important
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .visual-badge{
+    background:#FFFFFF!important;
+    border-color:#B9CDD9!important;
+    color:#244C67!important;
+    -webkit-text-fill-color:#244C67!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .badge-chart{background:#EFF5FF!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .badge-shield{background:#ECF9F6!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .badge-doc{background:#FFF7E6!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .badge-chart svg{color:#2563EB!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .badge-shield svg{color:#0F8B8D!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .badge-doc svg{color:#E99A12!important}
+
+  /* Desktop light workflow/capability palette + typography */
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-flow{
+    background:#FFFFFF!important;
+    border-color:#C2D1DB!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-label span{
+    color:#6A8293!important;
+    -webkit-text-fill-color:#6A8293!important;
+    font-size:8.5px!important;
+    letter-spacing:1.35px!important;
+    font-weight:800!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-label strong{
+    color:#23475E!important;
+    -webkit-text-fill-color:#23475E!important;
+    font-size:12px!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-step{
+    background:#F3F7FA!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-step b{
+    color:#2B4654!important;
+    -webkit-text-fill-color:#2B4654!important;
+    font-size:10.5px!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-step span{
+    color:#89999F!important;
+    -webkit-text-fill-color:#89999F!important;
+    font-size:8.7px!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-step:nth-of-type(2) em{
+    background:#E7F0FF!important;color:#1D5BA0!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-step:nth-of-type(4) em{
+    background:#E4F6F3!important;color:#0B716E!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .flow-step:nth-of-type(6) em{
+    background:#FFF3D9!important;color:#9B6205!important;
+  }
+
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article{
+    background:#FFFFFF!important;
+    border-color:#C2D2DC!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(1){border-top-color:#2563EB!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(2){border-top-color:#0F8B8D!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(3){border-top-color:#E99A12!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(4){border-top-color:#7555C7!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities b{
+    color:#213D4D!important;
+    -webkit-text-fill-color:#213D4D!important;
+    font-size:11.5px!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities p{
+    color:#84949C!important;
+    -webkit-text-fill-color:#84949C!important;
+    font-size:9.8px!important;
+    line-height:1.5!important;
+  }
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(1) .cap-icon{background:#E7F0FF!important;color:#2563EB!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(2) .cap-icon{background:#E4F6F3!important;color:#0F8B8D!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(3) .cap-icon{background:#FFF3D9!important;color:#E99A12!important}
+  html body.aurel-mobile-waiting-desktop-sync:not(.aurel-dark-theme) #root .welcome-dashboard .welcome-capabilities article:nth-child(4) .cap-icon{background:#EEE9FA!important;color:#7555C7!important}
+
+  /* ---------- DARK: same desktop Dark Mode tokens ---------- */
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .main{
+    background:
+      radial-gradient(circle at 86% 0%,rgba(47,115,220,.08),transparent 26%),
+      linear-gradient(180deg,#090e16 0%,#070b12 100%)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .page{
+    background:transparent!important;
+    color:#e6eef6!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .topbar{
+    background:linear-gradient(180deg,#101823 0%,#0b121c 100%)!important;
+    background-image:none!important;
+    border-bottom-color:#26364a!important;
+    box-shadow:0 6px 22px rgba(0,0,0,.28)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .crumb-icon{
+    background:linear-gradient(145deg,#17253a,#111c2b)!important;
+    border-color:#2d435e!important;
+    color:#6fa9ff!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .crumb strong{
+    color:#f5f8fc!important;
+    -webkit-text-fill-color:#f5f8fc!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .topbar label.ref-control{
+    background:linear-gradient(180deg,#121d2b,#0f1824)!important;
+    border-color:#30455d!important;
+    box-shadow:0 5px 15px rgba(0,0,0,.16)!important;
+    color:#e8eef6!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .topbar label.ref-control::before{
+    color:#91a5b9!important;
+    -webkit-text-fill-color:#91a5b9!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .topbar .aurel-mobile-select-display-v2{
+    color:#e8eef6!important;
+    -webkit-text-fill-color:#e8eef6!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .topbar label.ref-control>svg{color:#76adff!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync .topbar label.ref-control::after{color:#9bb5ca!important}
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root>.page-head,
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root>.page-head.aurel-overview-hero-head{
+    border-color:#273c52!important;
+    background:
+      linear-gradient(120deg,rgba(30,71,117,.20),transparent 42%),
+      linear-gradient(180deg,#111b28 0%,#0d1520 100%)!important;
+    box-shadow:0 10px 28px rgba(0,0,0,.16)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root>.page-head::before{
+    background:linear-gradient(180deg,#5aa7ff,#33c7e6)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root>.page-head .eyebrow{
+    color:#67afff!important;-webkit-text-fill-color:#67afff!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root>.page-head h1{
+    color:#f4f8fc!important;-webkit-text-fill-color:#f4f8fc!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root>.page-head p{
+    color:#9db1c2!important;-webkit-text-fill-color:#9db1c2!important;
+  }
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-hero{
+    background:
+      radial-gradient(circle at 88% 16%,rgba(77,156,255,.10),transparent 28%),
+      linear-gradient(135deg,#111b28 0%,#0f1823 58%,#0c141e 100%)!important;
+    border-color:#2a3d52!important;
+    box-shadow:0 18px 42px rgba(0,0,0,.24)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-hero::before{
+    background:radial-gradient(circle,rgba(53,200,232,.09),rgba(53,200,232,0) 68%)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-kicker{
+    background:#142236!important;border-color:#31506d!important;color:#9ecaff!important;-webkit-text-fill-color:#9ecaff!important;
+    font-size:9.5px!important;letter-spacing:1.15px!important;font-weight:820!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-kicker-dot{
+    background:#4d9cff!important;box-shadow:0 0 0 4px rgba(77,156,255,.11)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-copy h1{
+    color:#f3f7fb!important;-webkit-text-fill-color:#f3f7fb!important;font-weight:820!important;letter-spacing:-1.75px!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-copy h1 span{
+    color:#69b6ff!important;-webkit-text-fill-color:#69b6ff!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-copy p{
+    color:#a2b5c5!important;-webkit-text-fill-color:#a2b5c5!important;font-size:13.5px!important;line-height:1.72!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-trust{
+    color:#8fa4b6!important;-webkit-text-fill-color:#8fa4b6!important;font-size:10px!important;font-weight:650!important;
+  }
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-actions .button.primary,
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-actions .welcome-primary{
+    background:linear-gradient(180deg,#2f82f4 0%,#256fe8 100%)!important;
+    border-color:#3a8df7!important;color:#fff!important;-webkit-text-fill-color:#fff!important;
+    box-shadow:0 8px 20px rgba(37,111,232,.22)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-actions .welcome-secondary,
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-actions .button:not(.primary){
+    background:#152130!important;border-color:#334a62!important;color:#dce7f1!important;-webkit-text-fill-color:#dce7f1!important;box-shadow:none!important;
+  }
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .report-orbit{border-color:rgba(97,165,226,.20)!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .orbit-two{border-color:rgba(57,199,177,.20)!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .report-paper-back{
+    background:#162332!important;border-color:#30475e!important;box-shadow:0 20px 42px rgba(0,0,0,.24)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .report-paper-main{
+    background:linear-gradient(180deg,#121d29 0%,#0f1822 100%)!important;
+    border-color:#38516a!important;color:#dce8f2!important;box-shadow:0 24px 50px rgba(0,0,0,.30)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-brand{color:#7ebcff!important;-webkit-text-fill-color:#7ebcff!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-top b{color:#f0f5f9!important;-webkit-text-fill-color:#f0f5f9!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-year{background:#1a2938!important;color:#a8bac9!important;-webkit-text-fill-color:#a8bac9!important;border-color:#31485e!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-rule{background:linear-gradient(90deg,#4d9cff,#2b4055)!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-summary span{background:#223244!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-summary span:first-child{background:#28445c!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-table i{background:#314354!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .pc-grid{stroke:#2a3b4d!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .pc-area{fill:rgba(77,156,255,.11)!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .pc-line{stroke:#4d9cff!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-chart circle{fill:#35c8e8!important;stroke:#101923!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-footer{border-top-color:#2a3e52!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-footer span{color:#7f95a8!important;-webkit-text-fill-color:#7f95a8!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .paper-footer b{color:#dce8f2!important;-webkit-text-fill-color:#dce8f2!important}
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .visual-badge,
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .badge-chart,
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .badge-shield,
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .badge-doc{
+    background:#142130!important;border-color:#31495f!important;color:#c5d4df!important;-webkit-text-fill-color:#c5d4df!important;
+    box-shadow:0 12px 26px rgba(0,0,0,.22)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .visual-badge svg{color:#75b7ff!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .visual-badge::before{background:#35c8e8!important}
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-flow{
+    background:#0f1823!important;border-color:#293d51!important;box-shadow:0 10px 24px rgba(0,0,0,.16)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-label span{
+    color:#7890a4!important;-webkit-text-fill-color:#7890a4!important;font-size:8.5px!important;letter-spacing:1.35px!important;font-weight:800!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-label strong{
+    color:#e7eef5!important;-webkit-text-fill-color:#e7eef5!important;font-size:12px!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-step{
+    background:#142130!important;border-color:#263b50!important;color:#dce7f0!important;box-shadow:none!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-step b{
+    color:#edf4f9!important;-webkit-text-fill-color:#edf4f9!important;font-size:10.5px!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-step span{
+    color:#8fa5b8!important;-webkit-text-fill-color:#8fa5b8!important;font-size:8.7px!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-step:nth-of-type(2) em{background:#172e4b!important;color:#78b7ff!important;border-color:#315a83!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-step:nth-of-type(4) em{background:#123632!important;color:#70dec9!important;border-color:#285f58!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .flow-step:nth-of-type(6) em{background:#382b19!important;color:#f1c36f!important;border-color:#68502a!important}
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities article{
+    background:linear-gradient(180deg,#111b27 0%,#0e1721 100%)!important;border-color:#293d51!important;box-shadow:0 10px 24px rgba(0,0,0,.14)!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities b{
+    color:#edf4f9!important;-webkit-text-fill-color:#edf4f9!important;font-size:11.5px!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities p{
+    color:#91a6b8!important;-webkit-text-fill-color:#91a6b8!important;font-size:9.8px!important;line-height:1.5!important;
+  }
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(1) .cap-icon{background:#172d49!important;border-color:#31577c!important;color:#72b2ff!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(2) .cap-icon{background:#113431!important;border-color:#275e57!important;color:#65d8c3!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(3) .cap-icon{background:#3a2b17!important;border-color:#6c5029!important;color:#efbc61!important}
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-capabilities article:nth-child(4) .cap-icon{background:#26213f!important;border-color:#4e4672!important;color:#b8a7ff!important}
+
+  html body.aurel-dark-theme.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard :is(.paper-grid,.paper-summary,.paper-chart,.paper-table){
+    background:transparent!important;
+    border-color:transparent!important;
+  }
+
+  /* Overview-specific request: no LED/gradient strip under BCTC on mobile. */
+  html body.aurel-page-overview.aurel-mobile-waiting-desktop-sync #root .welcome-dashboard .welcome-hero::after{
+    content:none!important;
+    display:none!important;
+    width:0!important;
+    height:0!important;
+    background:none!important;
+    box-shadow:none!important;
+    opacity:0!important;
+  }
+}
+</style>
+
+<script id="AUREL_R134_WAITING_MOBILE_DESKTOP_TOKENS_JS">
+(function(){
+  'use strict';
+  if(!window.matchMedia)return;
+  var mq=window.matchMedia('(max-width:760px)');
+
+  function sync(){
+    var waiting=!!document.querySelector('#root .welcome-dashboard');
+    document.body.classList.toggle('aurel-mobile-waiting-desktop-sync',mq.matches&&waiting);
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',sync,{once:true});
+  }else{
+    sync();
+  }
+
+  document.addEventListener('aurel:dom-render',sync);
+  window.addEventListener('pageshow',sync,{passive:true});
+  if(mq.addEventListener)mq.addEventListener('change',sync);
+  else if(mq.addListener)mq.addListener(sync);
+})();
+</script>
+<!-- AUREL_R134_WAITING_MOBILE_DESKTOP_TOKENS_END -->
+
 </body></html>
 
