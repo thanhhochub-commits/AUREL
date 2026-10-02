@@ -17636,5 +17636,108 @@ body.aurel-perf-scrolling .button{
   var root=document.getElementById("root")||document.body;new MutationObserver(dispatchRender).observe(root,{childList:true,subtree:true});
 })();
 </script>
+
+<style id="AUREL_MOBILE_SCROLL_HARD_FIX_V1">
+/* MOBILE ONLY: restore native vertical scrolling. Desktop >= 761px is untouched. */
+@media (max-width:760px){
+  html,
+  body{
+    position:static!important;
+    width:100%!important;
+    max-width:100%!important;
+    height:auto!important;
+    min-height:100%!important;
+    max-height:none!important;
+    overflow-x:hidden!important;
+    overflow-y:auto!important;
+    overscroll-behavior-x:none!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:pan-y pinch-zoom!important;
+    -webkit-overflow-scrolling:touch!important;
+  }
+
+  body{
+    min-height:100dvh!important;
+  }
+
+  .shell,
+  .main,
+  #root,
+  #root>.page{
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    overflow-y:visible!important;
+    overscroll-behavior-y:auto!important;
+    touch-action:pan-y pinch-zoom!important;
+  }
+
+  .shell,
+  .main,
+  #root{
+    overflow-x:clip!important;
+  }
+
+  /* Decorative slider layers must never capture a finger gesture. */
+  .aurel-r78-slider-wrap,
+  .aurel-r78-slider-img{
+    pointer-events:none!important;
+    touch-action:none!important;
+  }
+
+  /* Bottom dock remains horizontally swipeable, while vertical swipes can
+     continue to the page instead of trapping the gesture. */
+  .sidebar,
+  .sidebar .nav{
+    touch-action:pan-x pan-y!important;
+    overscroll-behavior-x:contain!important;
+    overscroll-behavior-y:auto!important;
+  }
+
+  .sidebar .nav{
+    -webkit-overflow-scrolling:touch!important;
+  }
+
+  /* Do not let the desktop performance containment alter Android page scroll. */
+  .aurel-r78-slider-wrap{
+    contain:paint!important;
+  }
+
+  /* Keep sticky header, but allow a vertical drag started on its empty area. */
+  .topbar{
+    touch-action:pan-y pinch-zoom!important;
+  }
+
+  .topbar button,
+  .topbar select,
+  .sidebar button,
+  .button{
+    touch-action:manipulation!important;
+  }
+}
+</style>
+<script id="AUREL_MOBILE_SCROLL_HARD_FIX_V1_JS">
+(function(){
+  'use strict';
+  if(!window.matchMedia||!window.matchMedia('(max-width:760px)').matches)return;
+
+  function unlock(){
+    document.documentElement.style.removeProperty('overflow-y');
+    document.documentElement.style.removeProperty('height');
+    document.body.style.removeProperty('overflow-y');
+    document.body.style.removeProperty('height');
+    document.body.style.removeProperty('position');
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',unlock,{once:true});
+  }else{
+    unlock();
+  }
+
+  window.addEventListener('pageshow',unlock,{passive:true});
+  document.addEventListener('aurel:dom-render',unlock);
+})();
+</script>
 </body></html>
 
