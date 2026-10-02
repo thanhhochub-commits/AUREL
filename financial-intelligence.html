@@ -21820,5 +21820,48 @@ html body.aurel-dark-theme.aurel-page-overview.aurel-overview-waiting-reference 
   }
 }
 </style>
+
+<style id="AUREL_MONITOR_FOUR_CARD_LEFT_ACCENT_PARITY_V8">
+/* Chỉ 4 ô trạng thái Giám sát rủi ro:
+   đồng bộ dải nhấn bên trái mà Bình thường/Thiếu dữ liệu đang có. */
+.monitor-overview .monitor-card{
+  border-left-width:5px!important;
+  border-left-style:solid!important;
+}
+
+/* Cảnh báo */
+.monitor-overview .monitor-card:nth-child(1){
+  border-left-color:#ef6b82!important;
+}
+
+/* Theo dõi */
+.monitor-overview .monitor-card:nth-child(2){
+  border-left-color:#dba84e!important;
+}
+
+/* Bình thường */
+.monitor-overview .monitor-card:nth-child(3){
+  border-left-color:#43bd75!important;
+}
+
+/* Thiếu dữ liệu */
+.monitor-overview .monitor-card:nth-child(4){
+  border-left-color:#6f91ad!important;
+}
+
+/* Light mode: giữ cùng ngôn ngữ màu, chỉ dịu hơn theo nền sáng. */
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(1){
+  border-left-color:#cf405b!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(2){
+  border-left-color:#b07b27!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(3){
+  border-left-color:#218c50!important;
+}
+body:not(.aurel-dark-theme) .monitor-overview .monitor-card:nth-child(4){
+  border-left-color:#315a79!important;
+}
+</style>
 </body></html>
 
