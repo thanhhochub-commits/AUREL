@@ -18407,7 +18407,7 @@ body.aurel-perf-scrolling .button{
 
     var opt=select.options&&select.selectedIndex>=0?select.options[select.selectedIndex]:null;
     var txt=opt?(opt.textContent||opt.innerText||'').trim():'';
-    display.textContent=txt||fallback;
+    var next=txt||fallback;if(display.textContent!==next)display.textContent=next;
 
     forceNativeInvisible(select);
 
