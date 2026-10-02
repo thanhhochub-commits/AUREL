@@ -17965,5 +17965,178 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-derived .aurel-risk-meaning{
 </style>
 <!-- AUREL_RISK_TYPOGRAPHY_LOCK_V4_END -->
 
+
+<!-- AUREL_RISK_TYPOGRAPHY_FINAL_V5_START -->
+<style id="AUREL_RISK_TYPOGRAPHY_FINAL_V5_STYLE">
+/* 1) Bỏ hoàn toàn dòng tiêu đề phụ riêng của Bảng 2. */
+.monitor-rules .aurel-risk-derived-head{display:none!important}
+
+/* 2) Khóa typography Bảng 1 và Bảng 2 theo cùng một bộ quy tắc. */
+.monitor-rules .aurel-risk-original table,
+.monitor-rules .aurel-risk-derived table{
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important;
+  font-size:12.5px!important;
+  line-height:1.62!important;
+  font-weight:400!important;
+  letter-spacing:0!important;
+}
+
+.monitor-rules .aurel-risk-original th,
+.monitor-rules .aurel-risk-derived th{
+  font-family:inherit!important;
+  font-size:11.4px!important;
+  line-height:1.4!important;
+  font-weight:850!important;
+  letter-spacing:.35px!important;
+  color:#28485d!important;
+}
+
+.monitor-rules .aurel-risk-original td,
+.monitor-rules .aurel-risk-derived td{
+  font-family:inherit!important;
+  font-size:12.5px!important;
+  line-height:1.62!important;
+  font-weight:400!important;
+  letter-spacing:0!important;
+  color:#405f73!important;
+}
+
+/* Nhóm */
+.monitor-rules .aurel-risk-original td:nth-child(1) .monitor-domain,
+.monitor-rules .aurel-risk-derived td:nth-child(1) .aurel-risk-group{
+  font-family:inherit!important;
+  font-size:10.8px!important;
+  line-height:1.35!important;
+  font-weight:850!important;
+  letter-spacing:0!important;
+}
+
+/* Tiêu chí */
+.monitor-rules .aurel-risk-original td:nth-child(2) strong,
+.monitor-rules .aurel-risk-derived td:nth-child(2) strong{
+  font-family:inherit!important;
+  font-size:13.2px!important;
+  line-height:1.5!important;
+  font-weight:850!important;
+  letter-spacing:0!important;
+  color:#15364d!important;
+}
+.monitor-rules .aurel-risk-original td:nth-child(2) .aurel-r124-id,
+.monitor-rules .aurel-risk-derived td:nth-child(2) .aurel-risk-key{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace!important;
+  font-size:10.9px!important;
+  line-height:1.45!important;
+  font-weight:650!important;
+  letter-spacing:0!important;
+  color:#7890a0!important;
+}
+
+/* Giá trị gốc: toàn bộ chữ bên trong giống nhau tuyệt đối. */
+.monitor-rules .aurel-risk-original td:nth-child(3),
+.monitor-rules .aurel-risk-original td:nth-child(3) *,
+.monitor-rules .aurel-risk-derived td:nth-child(3),
+.monitor-rules .aurel-risk-derived td:nth-child(3) *{
+  font-family:inherit!important;
+  font-size:11.7px!important;
+  line-height:1.62!important;
+  font-weight:750!important;
+  letter-spacing:0!important;
+  color:#37566b!important;
+}
+
+/* Chỉ báo giám sát: fix selector Bảng 2 để cùng cỡ với Bảng 1. */
+.monitor-rules .aurel-risk-original td:nth-child(4)>strong,
+.monitor-rules .aurel-risk-derived td:nth-child(4)>strong{
+  font-family:inherit!important;
+  font-size:14.6px!important;
+  line-height:1.4!important;
+  font-weight:900!important;
+  letter-spacing:0!important;
+  color:#103650!important;
+}
+.monitor-rules .aurel-risk-original td:nth-child(4) .aurel-r124-formula,
+.monitor-rules .aurel-risk-derived td:nth-child(4) .aurel-risk-formula{
+  font-family:inherit!important;
+  font-size:10.9px!important;
+  line-height:1.58!important;
+  font-weight:400!important;
+  letter-spacing:0!important;
+  color:#718896!important;
+}
+
+/* Ngưỡng sàng lọc */
+.monitor-rules .aurel-risk-original td:nth-child(5),
+.monitor-rules .aurel-risk-original td:nth-child(5) *,
+.monitor-rules .aurel-risk-derived td:nth-child(5),
+.monitor-rules .aurel-risk-derived td:nth-child(5) *{
+  font-family:inherit!important;
+  font-size:11.5px!important;
+  line-height:1.74!important;
+  letter-spacing:0!important;
+  color:#496578!important;
+}
+.monitor-rules .aurel-risk-original td:nth-child(5) b,
+.monitor-rules .aurel-risk-derived td:nth-child(5) b{
+  font-weight:900!important;
+  color:#17384a!important;
+}
+
+/* Mức độ */
+.monitor-rules .aurel-risk-original td:nth-child(6) .tag,
+.monitor-rules .aurel-risk-derived td:nth-child(6) .tag{
+  font-family:inherit!important;
+  font-size:11px!important;
+  line-height:1.35!important;
+  font-weight:850!important;
+  letter-spacing:0!important;
+  padding:7px 10px!important;
+}
+
+/* Ý nghĩa rủi ro */
+.monitor-rules .aurel-risk-original td:nth-child(7),
+.monitor-rules .aurel-risk-original td:nth-child(7) *,
+.monitor-rules .aurel-risk-derived td:nth-child(7),
+.monitor-rules .aurel-risk-derived td:nth-child(7) *{
+  font-family:inherit!important;
+  font-size:11.6px!important;
+  line-height:1.68!important;
+  font-weight:400!important;
+  letter-spacing:0!important;
+  color:#526f82!important;
+}
+
+/* Dark mode: cùng typography, chỉ đổi màu. */
+body.aurel-dark-theme .monitor-rules .aurel-risk-original th,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived th{color:#c9d8e5!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td{color:#aabcca!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(2) strong,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(2) strong,
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(4)>strong,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(4)>strong{color:#f1f6fb!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(3),
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(3) *,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(3),
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(3) *,
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(5),
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(5) *,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(5),
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(5) *,
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(7),
+body.aurel-dark-theme .monitor-rules .aurel-risk-original td:nth-child(7) *,
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(7),
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(7) *{
+  color:#b2c4d2!important;
+}
+
+@media(max-width:760px){
+  .monitor-rules .aurel-risk-original th,
+  .monitor-rules .aurel-risk-derived th{font-size:10.8px!important}
+  .monitor-rules .aurel-risk-original td,
+  .monitor-rules .aurel-risk-derived td{font-size:12px!important}
+}
+</style>
+<!-- AUREL_RISK_TYPOGRAPHY_FINAL_V5_END -->
+
 </body></html>
 
