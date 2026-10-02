@@ -15900,6 +15900,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
     return v;
   }
   async function fetchState(bank,year){
+    if(window.AURELPerfFetchState)return window.AURELPerfFetchState(bank,year);
     var u=new URL('api/state',apiBase());
     u.searchParams.set('bank',bank||'');
     u.searchParams.set('year',String(year||''));
@@ -16128,6 +16129,7 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
         limitation.innerHTML='<strong>Phạm vi dữ liệu:</strong> Bảng chỉ dùng đúng 16 tiêu chí nguồn, không thêm hoặc bớt. Đây là lớp sàng lọc rủi ro từ dữ liệu BCTC hiện có, không phải bộ kiểm tra đầy đủ các tỷ lệ an toàn ngân hàng.';
       }
       updateSummary(rows);
+      document.dispatchEvent(new CustomEvent('aurel:risk-rendered',{detail:{key:key}}));
     }catch(e){
       /* Fail closed: giữ bảng gốc nếu API chưa sẵn sàng, không bịa dữ liệu. */
     }finally{
@@ -16136,16 +16138,26 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
   }
 
   var timer=null;
-  function schedule(){
-    clearTimeout(timer);
-    timer=setTimeout(apply,60);
+  function expectedKey(){
+    var b=document.getElementById('bank-select'),y=document.getElementById('year-select');
+    return b&&b.value&&y&&y.value?String(b.value)+'|'+String(y.value):'';
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',schedule,{once:true});
-  else schedule();
-  var root=document.getElementById('root')||document.body;
-  new MutationObserver(schedule).observe(root,{childList:true,subtree:true});
-  document.addEventListener('click',function(){setTimeout(schedule,80)},true);
-  document.addEventListener('change',function(){setTimeout(schedule,120)},true);
+  function schedule(delay){clearTimeout(timer);timer=setTimeout(apply,delay==null?40:delay);}
+  function needsRun(){
+    if(!document.body.classList.contains('aurel-page-monitor'))return false;
+    var table=document.querySelector('.monitor-rules table');
+    return !!(table&&table.dataset.aurelR124!==expectedKey()&&table.dataset.aurelR124Busy!=='1');
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){if(needsRun())schedule(50)},{once:true});
+  else if(needsRun())schedule(50);
+  document.addEventListener('aurel:dom-render',function(){if(needsRun())schedule(30);});
+  document.addEventListener('pointerdown',function(e){
+    var b=e.target&&e.target.closest?e.target.closest('#nav button[data-page="monitor"]'):null;
+    if(b)schedule(60);
+  },{capture:true,passive:true});
+  document.addEventListener('change',function(e){
+    var t=e.target;if(t&&(t.id==='bank-select'||t.id==='year-select'))schedule(50);
+  },true);
 })();
 </script>
 
@@ -16520,6 +16532,7 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
     return v;
   }
   async function fetchState(bank,year){
+    if(window.AURELPerfFetchState)return window.AURELPerfFetchState(bank,year);
     var u=new URL('api/state',apiBase());
     u.searchParams.set('bank',bank);u.searchParams.set('year',String(year));
     var r=await fetch(u.toString(),{cache:'no-store'});
@@ -16767,6 +16780,7 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
         '<th>Nhóm</th><th>Tiêu chí</th><th>Giá trị gốc</th><th>Chỉ báo giám sát</th><th>Ngưỡng sàng lọc</th><th>Mức độ</th><th>Ý nghĩa rủi ro</th>'+
         '</tr></thead><tbody><tr><td colspan="7"><div class="aurel-risk-loading">Đang tính các chỉ số rủi ro…</div></td></tr></tbody></table></div>';
       originalWrap.insertAdjacentElement('afterend',derived);
+      document.dispatchEvent(new CustomEvent('aurel:risk-derived-ready'));
 
       switcher.addEventListener('click',function(e){
         var b=e.target.closest('button[data-risk-pane]');
@@ -16786,6 +16800,8 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
   async function apply(force){
     var panel=setup();
     if(!panel)return;
+    var derivedPane=panel.querySelector('.aurel-risk-derived');
+    if(derivedPane&&derivedPane.hidden)return;
     var bankSel=document.getElementById('bank-select'),yearSel=document.getElementById('year-select');
     var bank=bankSel&&bankSel.value, year=yearSel?Number(yearSel.value):NaN;
     if(!bank||!Number.isFinite(year))return;
@@ -16807,16 +16823,20 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-original tbody tr:hover{
       tbody.innerHTML='<tr><td colspan="7"><div class="aurel-risk-loading">Chưa đủ dữ liệu để tính Bảng 2.</div></td></tr>';
     }
   }
-  function schedule(force){
-    clearTimeout(timer);
-    timer=setTimeout(function(){setup();apply(!!force)},90);
+  function schedule(force,delay){
+    clearTimeout(timer);timer=setTimeout(function(){setup();apply(!!force)},delay==null?50:delay);
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){schedule(false)},{once:true});
-  else schedule(false);
-  document.addEventListener('click',function(){setTimeout(function(){schedule(false)},90)},true);
-  document.addEventListener('change',function(){lastKey='';setTimeout(function(){schedule(true)},130)},true);
-  var root=document.getElementById('root')||document.body;
-  new MutationObserver(function(){schedule(false)}).observe(root,{childList:true,subtree:true});
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){setup()},{once:true});
+  else setup();
+  document.addEventListener('aurel:dom-render',function(){
+    if(document.body.classList.contains('aurel-page-monitor'))setup();
+  });
+  document.addEventListener('change',function(e){
+    var t=e.target;if(!t||(t.id!=='bank-select'&&t.id!=='year-select'))return;
+    lastKey='';
+    var panel=document.querySelector('.monitor-rules'),pane=panel&&panel.querySelector('.aurel-risk-derived');
+    if(pane&&!pane.hidden)schedule(true,70);
+  },true);
 })();
 </script>
 <!-- AUREL_RISK_DERIVED_TABLE_V1_END -->
@@ -16906,7 +16926,6 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-th-line b{color:#edf4fa!importa
 <script id="AUREL_RISK_READABILITY_V2_SCRIPT">
 (function(){
   'use strict';
-  var timer=null;
   var THRESHOLDS={
     total_assets:[["Cảnh báo","< −5% hoặc > 35%"],["Theo dõi","−5% đến < 0% hoặc > 25% đến 35%"],["Bình thường","0% đến 25%"]],
     customer_loans:[["Cảnh báo","< −5% hoặc > 25%"],["Theo dõi","−5% đến < 0% hoặc > 18% đến 25%"],["Bình thường","0% đến 18%"]],
@@ -16929,21 +16948,14 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-th-line b{color:#edf4fa!importa
   function run(){
     if(!document.body.classList.contains("aurel-page-monitor"))return;
     document.querySelectorAll(".monitor-rules .aurel-risk-original tbody tr").forEach(function(tr){
-      var idEl=tr.querySelector(".aurel-r124-id"),box=tr.querySelector(".monitor-reference");
-      if(!idEl||!box)return;
-      var def=THRESHOLDS[String(idEl.textContent||"").trim()];
-      if(!def)return;
+      var idEl=tr.querySelector(".aurel-r124-id"),box=tr.querySelector(".monitor-reference");if(!idEl||!box)return;
+      var def=THRESHOLDS[String(idEl.textContent||"").trim()];if(!def)return;
       var html=def.map(function(x){return '<span class="aurel-risk-th-line"><b>'+esc(x[0])+':</b> '+esc(x[1])+'</span>';}).join("");
       if(box.innerHTML!==html)box.innerHTML=html;
     });
   }
-  function schedule(ms){
-    clearTimeout(timer);
-    timer=setTimeout(run,ms==null?40:ms);
-  }
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){schedule(80)},{once:true});else schedule(80);
-  var root=document.getElementById("root")||document.body;
-  new MutationObserver(function(){schedule(40);}).observe(root,{childList:true,subtree:true});
+  document.addEventListener('aurel:risk-rendered',run);
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){setTimeout(run,100)},{once:true});else setTimeout(run,100);
 })();
 </script>
 <!-- AUREL_RISK_READABILITY_V2_END -->
@@ -17382,79 +17394,34 @@ body.aurel-dark-theme .monitor-rules .aurel-risk-derived td:nth-child(7) *{
 (function(){
   'use strict';
   var timer=null;
-
   function expectedKey(){
-    var b=document.getElementById('bank-select');
-    var y=document.getElementById('year-select');
-    var bank=b&&b.value?String(b.value):'';
-    var year=y&&y.value?Number(y.value):NaN;
+    var b=document.getElementById('bank-select'),y=document.getElementById('year-select');
+    var bank=b&&b.value?String(b.value):'',year=y&&y.value?Number(y.value):NaN;
     return bank&&Number.isFinite(year)?bank+'|'+year:'';
   }
-
-  function panel(){
-    return document.querySelector('.monitor-rules');
-  }
-
-  function hideNow(){
-    var p=panel();
-    if(p)p.classList.remove('aurel-risk-ready');
-  }
-
+  function panel(){return document.querySelector('.monitor-rules');}
+  function hideNow(){var p=panel();if(p)p.classList.remove('aurel-risk-ready');}
   function syncReady(){
-    if(!document.querySelector('#nav button[data-page="monitor"].active'))return;
-    var p=panel();
-    if(!p)return;
-
+    if(!document.body.classList.contains('aurel-page-monitor'))return;
+    var p=panel();if(!p)return;
     var expected=expectedKey();
-    var original=p.querySelector('.aurel-risk-original table') || p.querySelector('.table-wrap table');
-    var switcher=p.querySelector('.aurel-risk-table-switch');
-    var derived=p.querySelector('.aurel-risk-derived');
-
-    /* Chỉ hiện sau khi:
-       1) Bảng 1 mới đã được R124 dựng xong cho đúng bank|year hiện tại.
-       2) Bộ chuyển Bảng 1/Bảng 2 và Bảng 2 đã được gắn vào DOM. */
-    var sourceReady=!!(expected && original && original.dataset && original.dataset.aurelR124===expected);
-    var uiReady=!!(switcher && derived);
-
-    if(sourceReady && uiReady){
-      p.classList.add('aurel-risk-ready');
-    }else{
-      p.classList.remove('aurel-risk-ready');
-    }
+    var original=p.querySelector('.aurel-risk-original table')||p.querySelector('.table-wrap table');
+    var switcher=p.querySelector('.aurel-risk-table-switch'),derived=p.querySelector('.aurel-risk-derived');
+    var sourceReady=!!(expected&&original&&original.dataset&&original.dataset.aurelR124===expected);
+    p.classList.toggle('aurel-risk-ready',!!(sourceReady&&switcher&&derived));
   }
-
-  function schedule(ms){
-    clearTimeout(timer);
-    timer=setTimeout(syncReady,ms==null?0:ms);
-  }
-
-  document.addEventListener('click',function(e){
+  function schedule(ms){clearTimeout(timer);timer=setTimeout(syncReady,ms==null?0:ms);}
+  document.addEventListener('pointerdown',function(e){
     var nav=e.target&&e.target.closest?e.target.closest('#nav button[data-page]'):null;
-    if(nav){
-      if(nav.getAttribute('data-page')==='monitor')hideNow();
-      schedule(0);schedule(80);schedule(220);
-    }
-  },true);
-
+    if(nav&&nav.getAttribute('data-page')==='monitor'){hideNow();schedule(80);}
+  },{capture:true,passive:true});
   document.addEventListener('change',function(e){
-    var t=e.target;
-    if(t && (t.id==='bank-select'||t.id==='year-select')){
-      hideNow();
-      schedule(20);schedule(180);schedule(500);
-    }
+    var t=e.target;if(t&&(t.id==='bank-select'||t.id==='year-select')){hideNow();schedule(100);}
   },true);
-
-  var root=document.getElementById('root')||document.body;
-  new MutationObserver(function(){schedule(0)}).observe(root,{
-    childList:true,subtree:true,attributes:true,
-    attributeFilter:['data-aurel-r124','class']
-  });
-
-  if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',function(){schedule(0)},{once:true});
-  }else{
-    schedule(0);
-  }
+  document.addEventListener('aurel:risk-rendered',function(){schedule(0);});
+  document.addEventListener('aurel:risk-derived-ready',function(){schedule(0);});
+  document.addEventListener('aurel:dom-render',function(){if(document.body.classList.contains('aurel-page-monitor'))schedule(40);});
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){schedule(0)},{once:true});else schedule(0);
 })();
 </script>
 <!-- AUREL_RISK_NO_FLASH_V6_SCRIPT_END -->
