@@ -16830,5 +16830,532 @@ body.aurel-dark-theme .monitor-rules .aurel-r124-formula{color:#93a9bb!important
 })();
 </script>
 
+
+<!-- AUREL_RISK_DERIVED_TABLE_V1_START -->
+<style id="AUREL_RISK_DERIVED_TABLE_V1_STYLE">
+/* Chỉ áp dụng cho bảng Giám sát rủi ro. Không thay đổi các tab/giao diện khác. */
+.monitor-rules .aurel-risk-table-switch{
+  display:inline-flex;align-items:center;gap:4px;padding:4px;
+  border:1px solid #dbe6ed;border-radius:11px;background:#f4f7f9;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.75);
+}
+.monitor-rules .aurel-risk-table-switch button{
+  appearance:none;border:0;background:transparent;color:#6e8291;
+  min-height:34px;padding:8px 13px;border-radius:8px;font-size:11px;
+  font-weight:780;letter-spacing:.05px;white-space:nowrap;transition:.18s ease;
+}
+.monitor-rules .aurel-risk-table-switch button:hover{color:#24465d;background:#fff}
+.monitor-rules .aurel-risk-table-switch button.active{
+  background:#fff;color:#17384a;box-shadow:0 2px 8px rgba(20,54,75,.10);
+}
+.monitor-rules .aurel-risk-table-pane{display:block}
+.monitor-rules .aurel-risk-table-pane[hidden]{display:none!important}
+.monitor-rules .aurel-risk-derived-head{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  padding:14px 2px 12px;
+}
+.monitor-rules .aurel-risk-derived-head strong{
+  font-size:12px;color:#244157;font-weight:800;
+}
+.monitor-rules .aurel-risk-derived-head span{
+  font-size:10.5px;color:#8799a7;
+}
+.monitor-rules .aurel-risk-derived .table-wrap{
+  border-radius:12px;border-color:#dfe9ef;background:#fff;
+  box-shadow:0 7px 20px rgba(18,48,68,.035);
+}
+.monitor-rules .aurel-risk-derived table{min-width:1180px}
+.monitor-rules .aurel-risk-derived thead{
+  background:linear-gradient(180deg,#f9fbfc 0%,#f5f8fa 100%);
+}
+.monitor-rules .aurel-risk-derived th{
+  padding:13px 12px;font-size:9.7px;color:#7e919f;letter-spacing:.48px;
+  border-bottom:1px solid #e6edf2;
+}
+.monitor-rules .aurel-risk-derived td{
+  padding:15px 12px;vertical-align:top;font-size:11px;line-height:1.52;
+}
+.monitor-rules .aurel-risk-derived tbody tr{transition:background .15s ease}
+.monitor-rules .aurel-risk-derived tbody tr:hover{background:#f9fcfd}
+.aurel-risk-derived .aurel-risk-group{
+  display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;
+  background:#eef4f7;color:#526f82;font-size:9.8px;font-weight:800;white-space:nowrap;
+}
+.aurel-risk-derived .aurel-risk-criterion strong{
+  display:block;color:#213f55;font-size:11.4px;font-weight:800;line-height:1.45;
+}
+.aurel-risk-derived .aurel-risk-key{
+  display:block;margin-top:4px;color:#92a2ad;font-size:9.8px;font-weight:600;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+.aurel-risk-derived .aurel-risk-raw{
+  color:#5e7688;font-size:10.4px;line-height:1.58;font-variant-numeric:tabular-nums;
+}
+.aurel-risk-derived .aurel-risk-indicator strong{
+  display:block;color:#183b53;font-size:13px;font-weight:850;
+  font-variant-numeric:tabular-nums;line-height:1.35;
+}
+.aurel-risk-derived .aurel-risk-formula{
+  margin-top:5px;color:#93a1ab;font-size:9.7px;line-height:1.5;
+}
+.aurel-risk-derived .aurel-risk-threshold{
+  color:#5d7383;font-size:10px;line-height:1.62;min-width:180px;
+}
+.aurel-risk-derived .aurel-risk-threshold b{font-weight:800;color:#324f63}
+.aurel-risk-derived .aurel-risk-meaning{
+  color:#607789;font-size:10.3px;line-height:1.6;min-width:190px;
+}
+.aurel-risk-derived .aurel-risk-loading{
+  padding:22px;text-align:center;color:#7f929f;font-size:11px;
+}
+.aurel-risk-derived .tag{white-space:nowrap}
+@media(max-width:760px){
+  .monitor-rules .section-top{align-items:flex-start;gap:10px;flex-wrap:wrap}
+  .monitor-rules .aurel-risk-table-switch{width:100%;display:grid;grid-template-columns:1fr 1fr}
+  .monitor-rules .aurel-risk-table-switch button{white-space:normal;line-height:1.3;padding:9px 8px}
+  .monitor-rules .aurel-risk-derived-head{align-items:flex-start;flex-direction:column;gap:4px;padding-top:12px}
+  .monitor-rules .aurel-risk-derived .table-wrap{-webkit-overflow-scrolling:touch}
+}
+/* Đồng bộ dark mode hiện có. */
+body.aurel-dark-theme .monitor-rules .aurel-risk-table-switch{
+  background:#0f1824!important;border-color:#30455d!important;box-shadow:none!important;
+}
+body.aurel-dark-theme .monitor-rules .aurel-risk-table-switch button{color:#91a5b8!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-table-switch button:hover{background:#172436!important;color:#e9f1f8!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-table-switch button.active{
+  background:#1b2b3e!important;color:#f2f7fb!important;box-shadow:0 3px 10px rgba(0,0,0,.22)!important;
+}
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived-head strong,
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-criterion strong,
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-indicator strong{color:#edf4fa!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived-head span,
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-key,
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-formula{color:#8297aa!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived .table-wrap{
+  background:#0f1722!important;border-color:#26384d!important;box-shadow:none!important;
+}
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived thead{
+  background:#121d2b!important;
+}
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-group{
+  background:#182638!important;color:#aec1d2!important;
+}
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-raw,
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-threshold,
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-meaning{color:#9aafc0!important}
+body.aurel-dark-theme .aurel-risk-derived .aurel-risk-threshold b{color:#d5e1eb!important}
+body.aurel-dark-theme .monitor-rules .aurel-risk-derived tbody tr:hover{background:#132131!important}
+</style>
+
+<script id="AUREL_RISK_DERIVED_TABLE_V1_SCRIPT">
+(function(){
+  'use strict';
+  var ROOT_CLASS='aurel-risk-derived';
+  var lastKey='', timer=null;
+
+  function esc(v){
+    return String(v==null?'':v).replace(/[&<>"']/g,function(ch){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch];
+    });
+  }
+  function num(v){var n=Number(v);return Number.isFinite(n)?n:null}
+  function pct(v){
+    return v==null||!Number.isFinite(v)?'—':
+      new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(v)+'%';
+  }
+  function pp(v){
+    if(v==null||!Number.isFinite(v))return '—';
+    var s=v>0?'+':'';
+    return s+new Intl.NumberFormat('vi-VN',{minimumFractionDigits:2,maximumFractionDigits:2}).format(v)+' điểm %';
+  }
+  function money(v){
+    if(v==null||!Number.isFinite(v))return '—';
+    return new Intl.NumberFormat('vi-VN',{maximumFractionDigits:1}).format(v)+' tỷ VND';
+  }
+  function ratio(a,b){return a==null||b==null||b===0?null:a/b*100}
+  function growth(a,b){return a==null||b==null||b===0?null:(a/b-1)*100}
+  function avg(a,b){return a!=null&&b!=null?(a+b)/2:(a!=null?a:b)}
+  function sum(vals){
+    if(vals.some(function(x){return x==null}))return null;
+    return vals.reduce(function(a,b){return a+b},0);
+  }
+  function epsGt(a,b){return a!=null&&b!=null&&a>b+0.0001}
+  function epsLt(a,b){return a!=null&&b!=null&&a<b-0.0001}
+
+  var aliases={
+    assets:'total_assets',total_assets:'total_assets',
+    loans:'customer_loans',customer_loans:'customer_loans',
+    deposits:'customer_deposits',customer_deposits:'customer_deposits',
+    cash:'cash_and_equivalents',cash_and_equivalents:'cash_and_equivalents',
+    equity:'total_equity',total_equity:'total_equity',
+    group1:'group1_loans',group1_loans:'group1_loans',
+    group2:'group2_loans',group2_loans:'group2_loans',
+    group3:'group3_loans',group3_loans:'group3_loans',
+    group4:'group4_loans',group4_loans:'group4_loans',
+    group5:'group5_loans',group5_loans:'group5_loans',
+    nii:'net_interest_income',net_interest_income:'net_interest_income',
+    fee:'net_fee_income',net_fee_income:'net_fee_income',
+    operating_income:'total_operating_income',total_operating_income:'total_operating_income',
+    opex:'operating_expenses',operating_expenses:'operating_expenses',
+    provision:'credit_loss_provision_expense',credit_loss_provision_expense:'credit_loss_provision_expense',
+    pat:'profit_after_tax',profit_after_tax:'profit_after_tax'
+  };
+  function normId(v){return String(v||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'')}
+  function normText(v){
+    return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
+      .replace(/đ/g,'d').replace(/[^a-z0-9]+/g,' ').trim();
+  }
+  function idFromName(name){
+    var t=normText(name);
+    if(t==='tong tai san')return 'total_assets';
+    if(t.indexOf('cho vay khach hang')>=0)return 'customer_loans';
+    if(t.indexOf('tien gui')>=0&&t.indexOf('khach hang')>=0)return 'customer_deposits';
+    if(t.indexOf('tien va tuong duong tien')>=0)return 'cash_and_equivalents';
+    if(t.indexOf('von chu so huu')>=0)return 'total_equity';
+    if(t.indexOf('no nhom 1')>=0)return 'group1_loans';
+    if(t.indexOf('no nhom 2')>=0)return 'group2_loans';
+    if(t.indexOf('no nhom 3')>=0)return 'group3_loans';
+    if(t.indexOf('no nhom 4')>=0)return 'group4_loans';
+    if(t.indexOf('no nhom 5')>=0)return 'group5_loans';
+    if(t.indexOf('thu nhap lai thuan')>=0)return 'net_interest_income';
+    if((t.indexOf('hoat dong dich vu')>=0||t.indexOf('thu nhap phi')>=0)&&t.indexOf('thuan')>=0)return 'net_fee_income';
+    if(t.indexOf('tong thu nhap hoat dong')>=0)return 'total_operating_income';
+    if(t.indexOf('chi phi hoat dong')>=0)return 'operating_expenses';
+    if(t.indexOf('chi phi du phong')>=0&&t.indexOf('tin dung')>=0)return 'credit_loss_provision_expense';
+    if(t.indexOf('loi nhuan sau thue')>=0)return 'profit_after_tax';
+    return '';
+  }
+  function mapState(state){
+    var out={};
+    (state&&state.raw||[]).forEach(function(r){
+      var id=normId(r&&(r.metric_id||r.id));
+      id=aliases[id]||idFromName(r&&r.name)||id;
+      if(id&&!out[id]&&num(r.value)!=null)out[id]=num(r.value);
+    });
+    var v=state&&state.values||{};
+    var fallback={
+      total_assets:v.assets,customer_loans:v.loans,customer_deposits:v.deposits,
+      cash_and_equivalents:v.cash_and_equivalents,total_equity:v.equity,
+      group1_loans:v.group1_loans,group2_loans:v.group2_loans,group3_loans:v.group3_loans,
+      group4_loans:v.group4_loans,group5_loans:v.group5_loans,
+      net_interest_income:v.nii,net_fee_income:v.net_fee_income,
+      total_operating_income:v.operating_income,operating_expenses:v.operating_expenses,
+      credit_loss_provision_expense:v.credit_loss_provision_expense,profit_after_tax:v.pat
+    };
+    Object.keys(fallback).forEach(function(k){
+      if(out[k]==null&&num(fallback[k])!=null)out[k]=num(fallback[k]);
+    });
+    return out;
+  }
+  function apiBase(){
+    var q='';
+    try{q=new URLSearchParams(location.search).get('api')||''}catch(_){}
+    var v=q||localStorage.getItem('aurel_api_base')||'https://aurel-thanhhochub-backend.onrender.com/';
+    v=String(v||'').trim();
+    if(v&&!/\/$/.test(v))v+='/';
+    return v;
+  }
+  async function fetchState(bank,year){
+    var u=new URL('api/state',apiBase());
+    u.searchParams.set('bank',bank);u.searchParams.set('year',String(year));
+    var r=await fetch(u.toString(),{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    var j=await r.json();
+    return j&&j.has_data===false?null:j;
+  }
+  function vals(state){
+    var m=mapState(state||{});
+    var g=[m.group1_loans,m.group2_loans,m.group3_loans,m.group4_loans,m.group5_loans];
+    var totalClass=sum(g), nplAmt=sum([m.group3_loans,m.group4_loans,m.group5_loans]);
+    return {
+      m:m,totalClass:totalClass,nplAmt:nplAmt,
+      npl:ratio(nplAmt,totalClass),g2r:ratio(m.group2_loans,totalClass),
+      problem:ratio(sum([m.group2_loans,m.group3_loans,m.group4_loans,m.group5_loans]),totalClass),
+      g5share:ratio(m.group5_loans,nplAmt),
+      ldr:ratio(m.customer_loans,m.customer_deposits),
+      cashDep:ratio(m.cash_and_equivalents,m.customer_deposits),
+      eqAssets:ratio(m.total_equity,m.total_assets),
+      cir:ratio(m.operating_expenses==null?null:Math.abs(m.operating_expenses),m.total_operating_income),
+      niiShare:ratio(m.net_interest_income,m.total_operating_income),
+      feeShare:ratio(m.net_fee_income,m.total_operating_income)
+    };
+  }
+  function statusTag(s){
+    if(s==='critical')return '<span class="tag danger">Cảnh báo</span>';
+    if(s==='watch')return '<span class="tag warn">Theo dõi</span>';
+    if(s==='normal')return '<span class="tag good">Bình thường</span>';
+    return '<span class="tag">Thiếu dữ liệu</span>';
+  }
+  function trendStatus(cur,prev,prev2,dir){
+    if(cur==null||prev==null)return 'insufficient';
+    var bad1=dir==='up'?epsGt(cur,prev):epsLt(cur,prev);
+    var bad2=prev2!=null&&(dir==='up'?epsGt(prev,prev2):epsLt(prev,prev2));
+    if(bad1&&bad2)return 'critical';
+    if(bad1)return 'watch';
+    return 'normal';
+  }
+  function rawLine(label,v){return '<div><b>'+esc(label)+':</b> '+esc(money(v))+'</div>'}
+  function row(i,group,key,name,raw,indicator,formula,threshold,status,meaning){
+    return '<tr>'+
+      '<td><span class="aurel-risk-group">'+esc(group)+'</span></td>'+
+      '<td class="aurel-risk-criterion"><strong>'+i+'. '+esc(name)+'</strong><span class="aurel-risk-key">'+esc(key)+'</span></td>'+
+      '<td><div class="aurel-risk-raw">'+raw+'</div></td>'+
+      '<td class="aurel-risk-indicator"><strong>'+indicator+'</strong><div class="aurel-risk-formula">'+esc(formula)+'</div></td>'+
+      '<td><div class="aurel-risk-threshold">'+threshold+'</div></td>'+
+      '<td>'+statusTag(status)+'</td>'+
+      '<td><div class="aurel-risk-meaning">'+esc(meaning)+'</div></td>'+
+    '</tr>';
+  }
+
+  function build(curS,prevS,prev2S){
+    var c=vals(curS), p=vals(prevS), p2=vals(prev2S), m=c.m, pm=p.m, p2m=p2.m;
+    var loanGr=growth(m.customer_loans,pm.customer_loans), depGr=growth(m.customer_deposits,pm.customer_deposits);
+    var pLoanGr=growth(pm.customer_loans,p2m.customer_loans), pDepGr=growth(pm.customer_deposits,p2m.customer_deposits);
+    var assetGr=growth(m.total_assets,pm.total_assets), eqGr=growth(m.total_equity,pm.total_equity);
+    var pAssetGr=growth(pm.total_assets,p2m.total_assets), pEqGr=growth(pm.total_equity,p2m.total_equity);
+    var loanDepGap=loanGr==null||depGr==null?null:loanGr-depGr;
+    var pLoanDepGap=pLoanGr==null||pDepGr==null?null:pLoanGr-pDepGr;
+    var assetEqGap=assetGr==null||eqGr==null?null:assetGr-eqGr;
+    var pAssetEqGap=pAssetGr==null||pEqGr==null?null:pAssetGr-pEqGr;
+    var avgLoans=avg(m.customer_loans,pm.customer_loans);
+    var cor=ratio(m.credit_loss_provision_expense==null?null:Math.abs(m.credit_loss_provision_expense),avgLoans);
+    var pAvgLoans=avg(pm.customer_loans,p2m.customer_loans);
+    var pCor=ratio(pm.credit_loss_provision_expense==null?null:Math.abs(pm.credit_loss_provision_expense),pAvgLoans);
+    var ppop=m.total_operating_income==null||m.operating_expenses==null?null:m.total_operating_income-Math.abs(m.operating_expenses);
+    var pPpop=pm.total_operating_income==null||pm.operating_expenses==null?null:pm.total_operating_income-Math.abs(pm.operating_expenses);
+    var p2Ppop=p2m.total_operating_income==null||p2m.operating_expenses==null?null:p2m.total_operating_income-Math.abs(p2m.operating_expenses);
+    var provPpop=ratio(m.credit_loss_provision_expense==null?null:Math.abs(m.credit_loss_provision_expense),ppop);
+    var pProvPpop=ratio(pm.credit_loss_provision_expense==null?null:Math.abs(pm.credit_loss_provision_expense),pPpop);
+    var p2ProvPpop=ratio(p2m.credit_loss_provision_expense==null?null:Math.abs(p2m.credit_loss_provision_expense),p2Ppop);
+    var roa=ratio(m.profit_after_tax,avg(m.total_assets,pm.total_assets));
+    var roe=ratio(m.profit_after_tax,avg(m.total_equity,pm.total_equity));
+    var nplDelta=c.npl==null||p.npl==null?null:c.npl-p.npl;
+    var g2Delta=c.g2r==null||p.g2r==null?null:c.g2r-p.g2r;
+
+    var rows=[];
+    function add(x){rows.push(x)}
+
+    add(row(1,'Chất lượng tài sản','npl_ratio','Tỷ lệ nợ xấu',
+      rawLine('N3',m.group3_loans)+rawLine('N4',m.group4_loans)+rawLine('N5',m.group5_loans)+rawLine('Tổng N1–N5',c.totalClass),
+      esc(pct(c.npl)),'(N3 + N4 + N5) / Tổng N1–N5 × 100',
+      '<b>Cảnh báo:</b> &gt; 3,00%<br><b>Theo dõi:</b> 1,60–3,00%<br><b>Bình thường:</b> ≤ 1,60%',
+      c.npl==null?'insufficient':c.npl>3?'critical':c.npl>1.6?'watch':'normal',
+      'Đo mức độ nợ xấu hiện hữu trong danh mục tín dụng.'));
+
+    add(row(2,'Cảnh báo sớm','group2_ratio','Tỷ lệ nợ nhóm 2',
+      rawLine('N2',m.group2_loans)+rawLine('Tổng N1–N5',c.totalClass),
+      esc(pct(c.g2r)),'N2 / Tổng N1–N5 × 100',
+      '<b>Cảnh báo:</b> &gt; 1,68%<br><b>Theo dõi:</b> 1,05–1,68%<br><b>Bình thường:</b> ≤ 1,05%',
+      c.g2r==null?'insufficient':c.g2r>1.68?'critical':c.g2r>1.05?'watch':'normal',
+      'Phát hiện áp lực nợ xấu trước khi chuyển thành nhóm 3–5.'));
+
+    add(row(3,'Chất lượng tài sản','problem_loan_ratio','Tỷ lệ khoản vay có vấn đề',
+      rawLine('N2–N5',sum([m.group2_loans,m.group3_loans,m.group4_loans,m.group5_loans]))+rawLine('Tổng N1–N5',c.totalClass),
+      esc(pct(c.problem)),'(N2 + N3 + N4 + N5) / Tổng N1–N5 × 100',
+      '<b>Cảnh báo:</b> &gt; 5,33%<br><b>Theo dõi:</b> 2,85–5,33%<br><b>Bình thường:</b> ≤ 2,85%',
+      c.problem==null?'insufficient':c.problem>5.33?'critical':c.problem>2.85?'watch':'normal',
+      'Phản ánh rủi ro tín dụng rộng hơn chỉ riêng NPL.'));
+
+    add(row(4,'Cấu trúc nợ xấu','group5_npl_share','Tỷ trọng nợ nhóm 5 trong NPL',
+      rawLine('N5',m.group5_loans)+rawLine('NPL',c.nplAmt),
+      esc(pct(c.g5share)),'N5 / (N3 + N4 + N5) × 100',
+      '<b>Cảnh báo:</b> tăng 2 năm liên tiếp<br><b>Theo dõi:</b> tăng so với năm trước<br><b>Bình thường:</b> ổn định hoặc giảm',
+      trendStatus(c.g5share,p.g5share,p2.g5share,'up'),
+      'Cho biết phần nghiêm trọng nhất bên trong tổng nợ xấu.'));
+
+    add(row(5,'Xu hướng rủi ro','npl_yoy_change','Biến động tỷ lệ nợ xấu',
+      '<div><b>NPL hiện tại:</b> '+esc(pct(c.npl))+'</div><div><b>NPL năm trước:</b> '+esc(pct(p.npl))+'</div>',
+      esc(pp(nplDelta)),'NPL hiện tại − NPL năm trước',
+      '<b>Cảnh báo:</b> tăng 2 năm liên tiếp<br><b>Theo dõi:</b> tăng trong năm<br><b>Bình thường:</b> ổn định hoặc giảm',
+      trendStatus(c.npl,p.npl,p2.npl,'up'),
+      'Phát hiện chất lượng tín dụng đang xấu đi hay cải thiện.'));
+
+    var g2Status='insufficient';
+    if(c.g2r!=null&&p.g2r!=null){
+      var g2Up=epsGt(c.g2r,p.g2r), nplUp=epsGt(c.npl,p.npl);
+      var g2Two=p2.g2r!=null&&epsGt(p.g2r,p2.g2r);
+      g2Status=(g2Up&&(nplUp||g2Two))?'critical':g2Up?'watch':'normal';
+    }
+    add(row(6,'Cảnh báo sớm','group2_yoy_change','Biến động tỷ lệ nợ nhóm 2',
+      '<div><b>Nhóm 2 hiện tại:</b> '+esc(pct(c.g2r))+'</div><div><b>Năm trước:</b> '+esc(pct(p.g2r))+'</div>',
+      esc(pp(g2Delta)),'Tỷ lệ nhóm 2 hiện tại − năm trước',
+      '<b>Cảnh báo:</b> tăng cùng NPL hoặc tăng 2 năm<br><b>Theo dõi:</b> tăng trong năm<br><b>Bình thường:</b> ổn định hoặc giảm',
+      g2Status,'Cảnh báo sớm nợ xấu có khả năng hình thành.'));
+
+    add(row(7,'Chi phí tín dụng','cost_of_risk_proxy','Chi phí rủi ro tín dụng',
+      rawLine('Dự phòng',m.credit_loss_provision_expense==null?null:Math.abs(m.credit_loss_provision_expense))+rawLine('Cho vay bình quân',avgLoans),
+      esc(pct(cor)),'|Chi phí dự phòng| / Cho vay bình quân × 100',
+      '<b>Cảnh báo:</b> &gt; 1,45%<br><b>Theo dõi:</b> 1,05–1,45%<br><b>Bình thường:</b> ≤ 1,05%',
+      cor==null?'insufficient':cor>1.45?'critical':cor>1.05?'watch':'normal',
+      'Đo mức chi phí phải ghi nhận để hấp thụ rủi ro tín dụng.'));
+
+    add(row(8,'Sức hấp thụ','provision_to_ppop','Dự phòng / Lợi nhuận trước dự phòng',
+      rawLine('Dự phòng',m.credit_loss_provision_expense==null?null:Math.abs(m.credit_loss_provision_expense))+rawLine('PPOP',ppop),
+      esc(pct(provPpop)),'|Dự phòng| / (TOI − |OPEX|) × 100',
+      '<b>Cảnh báo:</b> tăng 2 năm liên tiếp<br><b>Theo dõi:</b> tăng YoY<br><b>Bình thường:</b> ổn định hoặc giảm',
+      trendStatus(provPpop,pProvPpop,p2ProvPpop,'up'),
+      'Cho biết lợi nhuận hoạt động bị chi phí tín dụng tiêu hao bao nhiêu.'));
+
+    var ldrStatus='insufficient';
+    if(c.ldr!=null){
+      if(p.ldr!=null&&c.ldr>100&&epsGt(c.ldr,p.ldr))ldrStatus='critical';
+      else if(c.ldr>100||(p.ldr!=null&&epsGt(c.ldr,p.ldr)))ldrStatus='watch';
+      else ldrStatus='normal';
+    }
+    add(row(9,'Thanh khoản','ldr_proxy','Cho vay / Tiền gửi khách hàng',
+      rawLine('Cho vay',m.customer_loans)+rawLine('Tiền gửi',m.customer_deposits),
+      esc(pct(c.ldr)),'Cho vay khách hàng / Tiền gửi khách hàng × 100',
+      '<b>Cảnh báo:</b> &gt;100% và tăng<br><b>Theo dõi:</b> tăng so với năm trước hoặc &gt;100%<br><b>Bình thường:</b> ổn định hoặc giảm',
+      ldrStatus,'Theo dõi áp lực nguồn vốn tài trợ tín dụng; đây là LDR proxy, không phải LDR pháp lý.'));
+
+    add(row(10,'Thanh khoản','cash_deposit_ratio','Tiền và tương đương tiền / Tiền gửi',
+      rawLine('Tiền & TĐT',m.cash_and_equivalents)+rawLine('Tiền gửi',m.customer_deposits),
+      esc(pct(c.cashDep)),'Tiền & tương đương tiền / Tiền gửi × 100',
+      '<b>Cảnh báo:</b> giảm 2 năm liên tiếp<br><b>Theo dõi:</b> giảm YoY<br><b>Bình thường:</b> ổn định hoặc tăng',
+      trendStatus(c.cashDep,p.cashDep,p2.cashDep,'down'),
+      'Proxy bộ đệm thanh khoản ngắn hạn; không phải LCR.'));
+
+    add(row(11,'Đệm vốn','equity_asset_ratio','Vốn chủ sở hữu / Tổng tài sản',
+      rawLine('VCSH',m.total_equity)+rawLine('Tổng tài sản',m.total_assets),
+      esc(pct(c.eqAssets)),'VCSH / Tổng tài sản × 100',
+      '<b>Cảnh báo:</b> giảm 2 năm liên tiếp<br><b>Theo dõi:</b> giảm YoY<br><b>Bình thường:</b> ổn định hoặc tăng',
+      trendStatus(c.eqAssets,p.eqAssets,p2.eqAssets,'down'),
+      'Theo dõi đòn bẩy kế toán và bộ đệm vốn; không phải CAR/CET1.'));
+
+    add(row(12,'Nguồn vốn','loan_deposit_growth_gap','Chênh lệch tăng trưởng cho vay – tiền gửi',
+      '<div><b>Tăng cho vay:</b> '+esc(pct(loanGr))+'</div><div><b>Tăng tiền gửi:</b> '+esc(pct(depGr))+'</div>',
+      esc(pp(loanDepGap)),'Tăng trưởng cho vay − tăng trưởng tiền gửi',
+      '<b>Cảnh báo:</b> &gt; 5,90 điểm %<br><b>Theo dõi:</b> 3,05–5,90 điểm %<br><b>Bình thường:</b> ≤ 3,05 điểm %',
+      loanDepGap==null?'insufficient':loanDepGap>5.90?'critical':loanDepGap>3.05?'watch':'normal',
+      'Phát hiện tín dụng tăng nhanh hơn nguồn huy động.'));
+
+    var gapStatus='insufficient';
+    if(assetEqGap!=null){
+      if(assetEqGap>0&&pAssetEqGap!=null&&pAssetEqGap>0)gapStatus='critical';
+      else if(assetEqGap>0)gapStatus='watch';
+      else gapStatus='normal';
+    }
+    add(row(13,'Đòn bẩy','asset_equity_growth_gap','Chênh lệch tăng trưởng tài sản – vốn chủ',
+      '<div><b>Tăng tài sản:</b> '+esc(pct(assetGr))+'</div><div><b>Tăng VCSH:</b> '+esc(pct(eqGr))+'</div>',
+      esc(pp(assetEqGap)),'Tăng trưởng tổng tài sản − tăng trưởng VCSH',
+      '<b>Cảnh báo:</b> dương 2 năm liên tiếp<br><b>Theo dõi:</b> tài sản tăng nhanh hơn VCSH<br><b>Bình thường:</b> VCSH tăng tương ứng hoặc nhanh hơn',
+      gapStatus,'Phát hiện mở rộng bảng cân đối nhanh hơn năng lực vốn.'));
+
+    add(row(14,'Hiệu quả','cir_ratio','Tỷ lệ chi phí / thu nhập',
+      rawLine('OPEX',m.operating_expenses==null?null:Math.abs(m.operating_expenses))+rawLine('TOI',m.total_operating_income),
+      esc(pct(c.cir)),'|OPEX| / TOI × 100',
+      '<b>Cảnh báo:</b> &gt; 35,78%<br><b>Theo dõi:</b> 32,85–35,78%<br><b>Bình thường:</b> ≤ 32,85%',
+      c.cir==null?'insufficient':c.cir>35.78?'critical':c.cir>32.85?'watch':'normal',
+      'Chi phí cao làm giảm bộ đệm lợi nhuận hấp thụ rủi ro.'));
+
+    var roaStatus='insufficient';
+    if(roa!=null&&roe!=null){
+      roaStatus=(roa<1.33||roe<15.63)?'critical':(roa<1.60||roe<17.10)?'watch':'normal';
+    }
+    add(row(15,'Sinh lời','roa_roe','Khả năng sinh lời trên tài sản và vốn',
+      rawLine('PAT',m.profit_after_tax)+rawLine('Tài sản bình quân',avg(m.total_assets,pm.total_assets))+rawLine('VCSH bình quân',avg(m.total_equity,pm.total_equity)),
+      '<span>ROA '+esc(pct(roa))+'</span><br><span>ROE '+esc(pct(roe))+'</span>',
+      'ROA = PAT / tài sản bình quân; ROE = PAT / VCSH bình quân',
+      '<b>Cảnh báo:</b> ROA &lt;1,33% hoặc ROE &lt;15,63%<br><b>Theo dõi:</b> ROA 1,33–1,60% hoặc ROE 15,63–17,10%<br><b>Bình thường:</b> ROA ≥1,60% và ROE ≥17,10%',
+      roaStatus,'Đo khả năng sinh lợi và tự bổ sung vốn.'));
+
+    var incomeStatus='insufficient';
+    if(c.niiShare!=null&&c.feeShare!=null&&p.niiShare!=null&&p.feeShare!=null){
+      var badNow=epsGt(c.niiShare,p.niiShare)&&epsLt(c.feeShare,p.feeShare);
+      var badPrev=p2.niiShare!=null&&p2.feeShare!=null&&epsGt(p.niiShare,p2.niiShare)&&epsLt(p.feeShare,p2.feeShare);
+      incomeStatus=badNow&&badPrev?'critical':badNow?'watch':'normal';
+    }
+    add(row(16,'Cơ cấu thu nhập','income_concentration','Mức phụ thuộc vào thu nhập lãi',
+      rawLine('NII',m.net_interest_income)+rawLine('Thu nhập phí',m.net_fee_income)+rawLine('TOI',m.total_operating_income),
+      '<span>NII/TOI '+esc(pct(c.niiShare))+'</span><br><span>Fee/TOI '+esc(pct(c.feeShare))+'</span>',
+      'NII / TOI và Thu nhập phí / TOI',
+      '<b>Cảnh báo:</b> NII tăng tỷ trọng và Fee giảm 2 năm<br><b>Theo dõi:</b> cơ cấu xấu đi YoY<br><b>Bình thường:</b> ổn định hoặc đa dạng hơn',
+      incomeStatus,'Theo dõi mức độ phụ thuộc vào thu nhập tín dụng và độ đa dạng nguồn thu.'));
+
+    return rows.join('');
+  }
+
+  function setup(){
+    if(!document.querySelector('#nav button[data-page="monitor"].active'))return null;
+    var panel=document.querySelector('.monitor-rules');
+    if(!panel)return null;
+    var originalWrap=panel.querySelector('.table-wrap');
+    if(!originalWrap)return null;
+
+    var switcher=panel.querySelector('.aurel-risk-table-switch');
+    if(!switcher){
+      originalWrap.classList.add('aurel-risk-table-pane','aurel-risk-original');
+      switcher=document.createElement('div');
+      switcher.className='aurel-risk-table-switch';
+      switcher.setAttribute('role','tablist');
+      switcher.innerHTML=
+        '<button type="button" class="active" data-risk-pane="original" role="tab" aria-selected="true">Bảng 1 · Chỉ tiêu gốc</button>'+
+        '<button type="button" data-risk-pane="derived" role="tab" aria-selected="false">Bảng 2 · Chỉ số rủi ro dẫn xuất</button>';
+      var top=panel.querySelector('.section-top');
+      if(top)top.appendChild(switcher);
+
+      var derived=document.createElement('div');
+      derived.className='aurel-risk-table-pane aurel-risk-derived';
+      derived.hidden=true;
+      derived.innerHTML=
+        '<div class="aurel-risk-derived-head"><strong>Bảng 2 · Giám sát rủi ro từ 16 chỉ số dẫn xuất</strong><span>Tính trực tiếp từ 16 chỉ tiêu BCTC hiện có</span></div>'+
+        '<div class="table-wrap"><table><thead><tr>'+
+        '<th>Nhóm</th><th>Tiêu chí</th><th>Giá trị gốc</th><th>Chỉ báo giám sát</th><th>Ngưỡng sàng lọc</th><th>Mức độ</th><th>Ý nghĩa rủi ro</th>'+
+        '</tr></thead><tbody><tr><td colspan="7"><div class="aurel-risk-loading">Đang tính các chỉ số rủi ro…</div></td></tr></tbody></table></div>';
+      originalWrap.insertAdjacentElement('afterend',derived);
+
+      switcher.addEventListener('click',function(e){
+        var b=e.target.closest('button[data-risk-pane]');
+        if(!b)return;
+        var pane=b.getAttribute('data-risk-pane');
+        switcher.querySelectorAll('button').forEach(function(x){
+          var on=x===b;x.classList.toggle('active',on);x.setAttribute('aria-selected',on?'true':'false');
+        });
+        originalWrap.hidden=pane!=='original';
+        derived.hidden=pane!=='derived';
+        if(pane==='derived')schedule(true);
+      });
+    }
+    return panel;
+  }
+
+  async function apply(force){
+    var panel=setup();
+    if(!panel)return;
+    var bankSel=document.getElementById('bank-select'),yearSel=document.getElementById('year-select');
+    var bank=bankSel&&bankSel.value, year=yearSel?Number(yearSel.value):NaN;
+    if(!bank||!Number.isFinite(year))return;
+    var key=bank+'|'+year;
+    if(!force&&lastKey===key)return;
+    lastKey=key;
+    var tbody=panel.querySelector('.aurel-risk-derived tbody');
+    if(!tbody)return;
+    tbody.innerHTML='<tr><td colspan="7"><div class="aurel-risk-loading">Đang tính các chỉ số rủi ro…</div></td></tr>';
+    try{
+      var res=await Promise.all([
+        fetchState(bank,year),
+        fetchState(bank,year-1).catch(function(){return null}),
+        fetchState(bank,year-2).catch(function(){return null})
+      ]);
+      if(!res[0])throw new Error('Không có dữ liệu');
+      tbody.innerHTML=build(res[0],res[1],res[2]);
+    }catch(e){
+      tbody.innerHTML='<tr><td colspan="7"><div class="aurel-risk-loading">Chưa đủ dữ liệu để tính Bảng 2.</div></td></tr>';
+    }
+  }
+  function schedule(force){
+    clearTimeout(timer);
+    timer=setTimeout(function(){setup();apply(!!force)},90);
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){schedule(false)},{once:true});
+  else schedule(false);
+  document.addEventListener('click',function(){setTimeout(function(){schedule(false)},90)},true);
+  document.addEventListener('change',function(){lastKey='';setTimeout(function(){schedule(true)},130)},true);
+  var root=document.getElementById('root')||document.body;
+  new MutationObserver(function(){schedule(false)}).observe(root,{childList:true,subtree:true});
+})();
+</script>
+<!-- AUREL_RISK_DERIVED_TABLE_V1_END -->
+
 </body></html>
 
