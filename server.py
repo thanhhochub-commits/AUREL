@@ -157,6 +157,27 @@ class Store:
         self.pdf_jobs={}
         self.gemini_session_key=None
 STORE=Store()
+
+# Per-request/thread row index.  snapshot(), ratios, risk rules and charts call val()
+# many times for the same immutable row snapshot.  Building this index once turns
+# hundreds of full-table scans into O(1) lookups without changing any formula.
+_ROW_INDEX_TLS=threading.local()
+
+def _row_index(rows):
+    cached_rows=getattr(_ROW_INDEX_TLS,'rows',None)
+    if cached_rows is rows:
+        return getattr(_ROW_INDEX_TLS,'index',{})
+    index={}
+    for r in rows:
+        try:
+            bucket=index.setdefault((r['bank'],r['year']),{})
+            bucket[r['metric_id']]=r['value']
+        except (KeyError,TypeError):
+            continue
+    _ROW_INDEX_TLS.rows=rows
+    _ROW_INDEX_TLS.index=index
+    return index
+
 # Temporary upload staging (only file bytes; never committed before checksum and validation).
 UPLOAD_LOCK=threading.RLock()
 UPLOAD_SESSIONS={}
@@ -295,8 +316,12 @@ def parse_rows(raw, existing=None, replace=False, file_name=''):
             statement_type=statement,origin='uploaded'
         ))
     merged=[r for r in (existing or []) if (r['bank'],r['year'],r['metric_id']) not in seen]+rows
-    for bank,year in {(r['bank'],r['year']) for r in merged}:
-        same=[r for r in merged if r['bank']==bank and r['year']==year]
+    # Group once.  The previous implementation rescanned the whole dataset for
+    # every bank/year pair, which becomes noticeably slow on Colab.
+    merged_groups={}
+    for item in merged:
+        merged_groups.setdefault((item['bank'],item['year']),[]).append(item)
+    for (bank,year),same in merged_groups.items():
         scopes={r['statement_type'] for r in same}
         explicit={x for x in scopes if x!='unspecified'}
         if len(explicit)>1:
@@ -500,7 +525,9 @@ def val(rows,bank,year):
     # bad debt = loan groups 3 + 4 + 5.  Derive it centrally so every
     # downstream module (ratios, risk rules, charts, scenarios, growth) sees
     # the same value without creating a 17th uploaded/raw metric.
-    v={r['metric_id']:r['value'] for r in rows if r['bank']==bank and r['year']==year}
+    # Performance note: _row_index() is cached per request thread, so repeated
+    # lookups during snapshot/ratio/risk generation do not rescan the full table.
+    v=dict(_row_index(rows).get((bank,year),{}))
     if 'npl' not in v and all(k in v for k in ('group3_loans','group4_loans','group5_loans')):
         v['npl']=round(v['group3_loans']+v['group4_loans']+v['group5_loans'],9)
     return v
@@ -3356,8 +3383,11 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 class Handler(BaseHTTPRequestHandler):
     server_version='AUREL-BREVO-20260929-R9-DATA16-VIEFAST'
     def log_message(self,fmt,*args):
-        # Avoid logging request bodies or credentials.
-        print('[AUREL] '+fmt%args,flush=True)
+        # Colab writes stdout to a notebook/file bridge.  Polling /health and
+        # /api/pdf/job every second can create more I/O than useful work.
+        # Keep HTTP logging opt-in; application errors are still printed by error().
+        if os.getenv('AUREL_HTTP_LOG','0')=='1':
+            print('[AUREL] '+fmt%args,flush=True)
     def reply(self,payload,status=200,content_type='application/json; charset=utf-8',filename=None):
         if isinstance(payload,(dict,list)): data=json.dumps(payload,ensure_ascii=False,allow_nan=False).encode('utf-8')
         elif isinstance(payload,str): data=payload.encode('utf-8')
@@ -3564,8 +3594,15 @@ class Handler(BaseHTTPRequestHandler):
         return self.reply({'error':str(e) if code!=500 else 'Hệ thống gặp lỗi nội bộ. Vui lòng kiểm tra nhật ký máy chủ.'},code)
 
 
+class AurelThreadingHTTPServer(ThreadingHTTPServer):
+    # Friendlier defaults for Colab proxy bursts and notebook re-runs.
+    daemon_threads=True
+    allow_reuse_address=True
+    request_queue_size=32
+    block_on_close=False
+
 def build_server(host='127.0.0.1',port=8501):
-    server=ThreadingHTTPServer((host,port),Handler);server.daemon_threads=True;return server
+    return AurelThreadingHTTPServer((host,port),Handler)
 
 if __name__=='__main__':
     srv=build_server(host=os.getenv('AUREL_HOST','0.0.0.0'),port=int(os.getenv('PORT',os.getenv('AUREL_PORT','8501'))))
