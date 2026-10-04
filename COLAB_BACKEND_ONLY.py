@@ -2,7 +2,7 @@
 # Chay 1 o tren Google Colab. Khong nhung HTML/CSS, khong Streamlit/WebSocket.
 # Backend va cong thuc luon duoc tai tu server.py moi nhat tren GitHub.
 
-import base64, hashlib, importlib.util, json, os, pathlib, socket, subprocess, sys, time, urllib.error, urllib.request
+import base64, hashlib, importlib.util, json, os, pathlib, socket, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 
 REPO_RAW = "https://raw.githubusercontent.com/thanhhochub-commits/AUREL/main/server.py"
 ROOT = pathlib.Path("/content/aurel_backend_only") if pathlib.Path("/content").exists() else pathlib.Path("/mnt/data/aurel_backend_only")
