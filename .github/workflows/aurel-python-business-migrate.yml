@@ -1,0 +1,53 @@
+name: AUREL Python business migration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/aurel-python-business-migrate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate Python backend
+        run: python -m py_compile server.py
+      - name: Move frontend business logic to Python-backed payloads
+        run: python .github/scripts/aurel_python_business_migrate.py
+      - name: Validate migrated frontend
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import base64,re
+          h=Path('financial-intelligence.html').read_text('utf-8')
+          assert 'DATA_XLSX_PROVISION_MILLION' not in h
+          m=re.search(r'<script>\(\(\)=>\{const b="([A-Za-z0-9+/=]+)",s=atob\(b\),a=new Uint8Array\(s.length\);',h)
+          assert m
+          js=base64.b64decode(m.group(1)).decode()
+          assert "comparison_python" in js
+          assert "api/evaluation" in js
+          assert "risk_source16" in h
+          assert "risk_derived16" in h
+          print('validation ok')
+          PY
+      - name: Commit frontend migration
+        shell: bash
+        run: |
+          if git diff --quiet -- financial-intelligence.html; then
+            echo "No frontend changes needed."
+            exit 0
+          fi
+          git config user.name "aurel-migration-bot"
+          git config user.email "aurel-migration-bot@users.noreply.github.com"
+          git add financial-intelligence.html
+          git commit -m "Use Python backend for AUREL business calculations"
+          git push origin HEAD:main
