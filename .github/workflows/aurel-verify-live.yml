@@ -1,0 +1,42 @@
+name: AUREL verify live migration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/aurel-verify-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for Python backend deployment
+        shell: bash
+        run: |
+          set -e
+          for i in $(seq 1 60); do
+            BODY="$(curl -fsS --max-time 20 https://aurel-thanhhochub-backend.onrender.com/health || true)"
+            echo "Attempt $i: $BODY"
+            if echo "$BODY" | grep -q 'AUREL-PYBUS-20261008-V1'; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Backend did not expose the new Python-business version in time."
+          exit 1
+      - name: Verify public GitHub Pages frontend
+        shell: bash
+        run: |
+          set -e
+          curl -fsS --max-time 30 'https://thanhhochub-commits.github.io/AUREL/financial-intelligence.html' -o /tmp/aurel.html
+          grep -q 'risk_source16' /tmp/aurel.html
+          grep -q 'risk_derived16' /tmp/aurel.html
+          if grep -q 'DATA_XLSX_PROVISION_MILLION' /tmp/aurel.html; then
+            echo "Hard-coded fallback still present on public page."
+            exit 1
+          fi
+          echo "Public AUREL frontend verified."
