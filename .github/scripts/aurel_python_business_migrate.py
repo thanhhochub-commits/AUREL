@@ -113,9 +113,9 @@ js=js[:s]+"""async function exportEvaluationCsv(){
 }
 """+js[e:]
 
-old_refresh="""async function refresh(){try{const s=await request(\`api/state?bank=\${encodeURIComponent(app.bank||'')}&year=\${encodeURIComponent(app.year||'')}\`,null,18000);app.state=s;if(s.has_data){app.bank=s.bank;app.year=s.year}controls();draw()}catch(e){$('#root').innerHTML=title('Chưa thể kết nối','Không lấy được thông tin từ backend AUREL.')+backendSetupHtml(e.message)}}
+old_refresh="""async function refresh(){try{const s=await request(`api/state?bank=${encodeURIComponent(app.bank||'')}&year=${encodeURIComponent(app.year||'')}`,null,18000);app.state=s;if(s.has_data){app.bank=s.bank;app.year=s.year}controls();draw()}catch(e){$('#root').innerHTML=title('Chưa thể kết nối','Không lấy được thông tin từ backend AUREL.')+backendSetupHtml(e.message)}}
 function navigate(p){app.page=p;draw();window.scrollTo({top:0,behavior:'smooth'})}"""
-new_refresh="""async function refresh(){try{const s=await request(\`api/state?bank=\${encodeURIComponent(app.bank||'')}&year=\${encodeURIComponent(app.year||'')}\`,null,18000);app.state=s;if(s.has_data){app.bank=s.bank;app.year=s.year}if(app.page==='evaluation'&&s.has_data)await hydrateEvaluation();controls();draw()}catch(e){$('#root').innerHTML=title('Chưa thể kết nối','Không lấy được thông tin từ backend AUREL.')+backendSetupHtml(e.message)}}
+new_refresh="""async function refresh(){try{const s=await request(`api/state?bank=${encodeURIComponent(app.bank||'')}&year=${encodeURIComponent(app.year||'')}`,null,18000);app.state=s;if(s.has_data){app.bank=s.bank;app.year=s.year}if(app.page==='evaluation'&&s.has_data)await hydrateEvaluation();controls();draw()}catch(e){$('#root').innerHTML=title('Chưa thể kết nối','Không lấy được thông tin từ backend AUREL.')+backendSetupHtml(e.message)}}
 async function navigate(p){app.page=p;if(p==='evaluation'&&has()){try{await hydrateEvaluation()}catch(e){toast(e.message,true)}}draw();window.scrollTo({top:0,behavior:'smooth'})}"""
 if js.count(old_refresh)!=1:
     raise SystemExit("Khối refresh/navigate không đúng phiên bản dự kiến")
