@@ -676,6 +676,330 @@ def risk_rules(rows,bank,year):
     ]
 
 
+
+# --- AUREL PYTHON BUSINESS LOGIC V1 ----------------------------------------
+# Frontend renders only. Financial comparison, 16-source risk screening,
+# 16-derived risk screening, and evaluation calculations live here.
+
+AUREL_COMPARE_SPECS = [
+    dict(id='assets', label='Tổng tài sản', type='value', key='assets', unit='tỷ VND', fmt='money'),
+    dict(id='loans', label='Dư nợ cho vay', type='value', key='loans', unit='tỷ VND', fmt='money'),
+    dict(id='deposits', label='Tiền gửi khách hàng', type='value', key='deposits', unit='tỷ VND', fmt='money'),
+    dict(id='equity', label='Vốn chủ sở hữu', type='value', key='equity', unit='tỷ VND', fmt='money'),
+    dict(id='pat', label='Lợi nhuận sau thuế', type='value', key='pat', unit='tỷ VND', fmt='money'),
+    dict(id='npl', label='Nợ xấu', type='value', key='npl', unit='tỷ VND', fmt='money'),
+    dict(id='npl_ratio', label='Tỷ lệ nợ xấu', type='ratio', key='npl_ratio', unit='%', fmt='percent'),
+    dict(id='ldr', label='Dư nợ / Tiền gửi', type='ratio', key='ldr', unit='%', fmt='percent'),
+    dict(id='equity_assets', label='Vốn chủ sở hữu / Tài sản', type='ratio', key='equity_assets', unit='%', fmt='percent'),
+    dict(id='cir', label='Chi phí / Thu nhập (CIR)', type='ratio', key='cir', unit='%', fmt='percent'),
+    dict(id='roa', label='ROA', type='ratio', key='roa', unit='%', fmt='percent'),
+    dict(id='roe', label='ROE', type='ratio', key='roe', unit='%', fmt='percent'),
+    dict(id='pat_growth', label='Tăng trưởng lợi nhuận sau thuế', type='ratio', key='pat_growth', unit='%', fmt='percent'),
+    dict(id='asset_growth', label='Tăng trưởng tổng tài sản', type='ratio', key='asset_growth', unit='%', fmt='percent'),
+    dict(id='loan_growth', label='Tăng trưởng dư nợ cho vay', type='ratio', key='loan_growth', unit='%', fmt='percent'),
+]
+
+AUREL_SOURCE16 = [
+    ('total_assets','assets','Tổng tài sản'),
+    ('customer_loans','loans','Cho vay khách hàng'),
+    ('customer_deposits','deposits','Tiền gửi của khách hàng'),
+    ('cash_and_equivalents','cash','Tiền và tương đương tiền'),
+    ('total_equity','equity','Tổng cộng vốn chủ sở hữu'),
+    ('group1_loans','group1_loans','Nợ nhóm 1 – Nợ đủ tiêu chuẩn'),
+    ('group2_loans','group2_loans','Nợ nhóm 2 – Nợ cần chú ý'),
+    ('group3_loans','group3_loans','Nợ nhóm 3 – Nợ dưới tiêu chuẩn'),
+    ('group4_loans','group4_loans','Nợ nhóm 4 – Nợ nghi ngờ'),
+    ('group5_loans','group5_loans','Nợ nhóm 5 – Có khả năng mất vốn'),
+    ('net_interest_income','net_interest_income','Thu nhập lãi thuần – NII'),
+    ('net_fee_income','net_fee_income','Lãi thuần từ hoạt động dịch vụ'),
+    ('total_operating_income','operating_income','Tổng thu nhập hoạt động – TOI'),
+    ('operating_expenses','operating_expenses','Chi phí hoạt động – OPEX'),
+    ('credit_loss_provision_expense','provisions','Chi phí dự phòng rủi ro tín dụng'),
+    ('profit_after_tax','pat','Lợi nhuận sau thuế – PAT'),
+]
+
+def _aurel_ratio(a,b):
+    if a is None or b in (None,0): return None
+    return a/b*100
+
+def _aurel_growth(a,b):
+    if a is None or b in (None,0): return None
+    return (a/b-1)*100
+
+def _aurel_avg(a,b):
+    if a is not None and b is not None: return (a+b)/2
+    return a if a is not None else b
+
+def _aurel_sum(values):
+    if any(x is None for x in values): return None
+    return sum(values)
+
+def _aurel_eps_gt(a,b):
+    return a is not None and b is not None and a>b+0.0001
+
+def _aurel_eps_lt(a,b):
+    return a is not None and b is not None and a<b-0.0001
+
+def _aurel_trend_status(cur,prev,prev2,direction):
+    if cur is None or prev is None: return 'insufficient'
+    bad1=_aurel_eps_gt(cur,prev) if direction=='up' else _aurel_eps_lt(cur,prev)
+    bad2=prev2 is not None and (_aurel_eps_gt(prev,prev2) if direction=='up' else _aurel_eps_lt(prev,prev2))
+    if bad1 and bad2: return 'critical'
+    if bad1: return 'watch'
+    return 'normal'
+
+def _aurel_source_values(rows,bank,year):
+    v=val(rows,bank,year)
+    return {external:v.get(internal) for external,internal,_ in AUREL_SOURCE16}
+
+def source16_risk_rows(rows,bank,year):
+    c=_aurel_source_values(rows,bank,year)
+    p=_aurel_source_values(rows,bank,year-1)
+    assets=c.get('total_assets'); loans=c.get('customer_loans')
+    deps=c.get('customer_deposits'); cash=c.get('cash_and_equivalents')
+    equity=c.get('total_equity'); g1=c.get('group1_loans')
+    g2=c.get('group2_loans'); g3=c.get('group3_loans')
+    g4=c.get('group4_loans'); g5=c.get('group5_loans')
+    nii=c.get('net_interest_income'); fee=c.get('net_fee_income')
+    toi=c.get('total_operating_income'); opex=c.get('operating_expenses')
+    prov=c.get('credit_loss_provision_expense'); pat=c.get('profit_after_tax')
+    p_assets=p.get('total_assets'); p_loans=p.get('customer_loans')
+    p_deps=p.get('customer_deposits'); p_nii=p.get('net_interest_income')
+    p_fee=p.get('net_fee_income'); p_toi=p.get('total_operating_income')
+    p_pat=p.get('profit_after_tax')
+    asset_gr=_aurel_growth(assets,p_assets)
+    loan_gr=_aurel_growth(loans,p_loans)
+    dep_gr=_aurel_growth(deps,p_deps)
+    cash_a=_aurel_ratio(cash,assets)
+    eq_a=_aurel_ratio(equity,assets)
+    g1_r=_aurel_ratio(g1,loans); g2_r=_aurel_ratio(g2,loans)
+    g3_r=_aurel_ratio(g3,loans); g4_r=_aurel_ratio(g4,loans); g5_r=_aurel_ratio(g5,loans)
+    nii_gr=_aurel_growth(nii,p_nii); fee_gr=_aurel_growth(fee,p_fee); toi_gr=_aurel_growth(toi,p_toi)
+    cir=_aurel_ratio(abs(opex) if opex is not None else None,toi)
+    avg_loans=_aurel_avg(loans,p_loans)
+    credit_cost=_aurel_ratio(abs(prov) if prov is not None else None,avg_loans)
+    pat_gr=_aurel_growth(pat,p_pat)
+    def band(value,watch,critical):
+        if value is None or not math.isfinite(float(value)): return 'insufficient'
+        if critical(value): return 'critical'
+        if watch(value): return 'watch'
+        return 'normal'
+    defs=[
+      dict(group='Quy mô',id='total_assets',name='Tổng tài sản',value=asset_gr,label='Tăng trưởng TTS YoY',formula='(TTS hiện tại / TTS năm trước − 1) × 100',threshold='Cảnh báo < −5% hoặc >35%; Theo dõi <0% hoặc >25%.',status=band(asset_gr,lambda x:x<0 or x>25,lambda x:x<-5 or x>35),meaning='Theo dõi co hẹp bảng cân đối hoặc tăng trưởng quá nhanh.'),
+      dict(group='Tín dụng',id='customer_loans',name='Cho vay khách hàng',value=loan_gr,label='Tăng trưởng cho vay YoY',formula='(Cho vay hiện tại / Cho vay năm trước − 1) × 100',threshold='Cảnh báo < −5% hoặc >25%; Theo dõi <0% hoặc >18%.',status=band(loan_gr,lambda x:x<0 or x>18,lambda x:x<-5 or x>25),meaning='Tín dụng giảm mạnh hoặc tăng quá nhanh đều cần rà soát.'),
+      dict(group='Nguồn vốn',id='customer_deposits',name='Tiền gửi của khách hàng',value=dep_gr,label='Tăng trưởng tiền gửi YoY',formula='(Tiền gửi hiện tại / Tiền gửi năm trước − 1) × 100',threshold='Cảnh báo < −10%; Theo dõi <0%.',status=band(dep_gr,lambda x:x<0,lambda x:x<-10),meaning='Tiền gửi suy giảm có thể tạo áp lực nguồn vốn và thanh khoản.'),
+      dict(group='Thanh khoản',id='cash_and_equivalents',name='Tiền và tương đương tiền',value=cash_a,label='Tiền & TĐT / Tổng tài sản',formula='Tiền và tương đương tiền / Tổng tài sản × 100',threshold='Cảnh báo <5%; Theo dõi 5–10%.',status=band(cash_a,lambda x:x<10,lambda x:x<5),meaning='Proxy thanh khoản tức thời từ đúng dữ liệu hiện có; không phải LCR.'),
+      dict(group='Đệm vốn',id='total_equity',name='Tổng cộng vốn chủ sở hữu',value=eq_a,label='VCSH / Tổng tài sản',formula='Vốn chủ sở hữu / Tổng tài sản × 100',threshold='Cảnh báo <4%; Theo dõi 4–6%.',status=band(eq_a,lambda x:x<6,lambda x:x<4),meaning='Proxy đòn bẩy kế toán; không phải CAR hay Tier 1.'),
+      dict(group='Chất lượng TS',id='group1_loans',name='Nợ nhóm 1 – Nợ đủ tiêu chuẩn',value=g1_r,label='Nợ nhóm 1 / Cho vay',formula='Nợ nhóm 1 / Cho vay khách hàng × 100',threshold='Cảnh báo <95%; Theo dõi 95–97%.',status=band(g1_r,lambda x:x<97,lambda x:x<95),meaning='Tỷ trọng nợ đủ tiêu chuẩn càng cao càng tốt.'),
+      dict(group='Chất lượng TS',id='group2_loans',name='Nợ nhóm 2 – Nợ cần chú ý',value=g2_r,label='Nợ nhóm 2 / Cho vay',formula='Nợ nhóm 2 / Cho vay khách hàng × 100',threshold='Cảnh báo >3%; Theo dõi >1,5%.',status=band(g2_r,lambda x:x>1.5,lambda x:x>3),meaning='Nợ nhóm 2 tăng là tín hiệu sớm trước khi chuyển thành nợ xấu.'),
+      dict(group='Chất lượng TS',id='group3_loans',name='Nợ nhóm 3 – Nợ dưới tiêu chuẩn',value=g3_r,label='Nợ nhóm 3 / Cho vay',formula='Nợ nhóm 3 / Cho vay khách hàng × 100',threshold='Cảnh báo >1%; Theo dõi >0,5%.',status=band(g3_r,lambda x:x>0.5,lambda x:x>1),meaning='Thành phần nợ xấu; tỷ trọng tăng làm xấu chất lượng tín dụng.'),
+      dict(group='Chất lượng TS',id='group4_loans',name='Nợ nhóm 4 – Nợ nghi ngờ',value=g4_r,label='Nợ nhóm 4 / Cho vay',formula='Nợ nhóm 4 / Cho vay khách hàng × 100',threshold='Cảnh báo >1%; Theo dõi >0,5%.',status=band(g4_r,lambda x:x>0.5,lambda x:x>1),meaning='Nhóm nợ có mức suy giảm tín dụng cao hơn nhóm 3.'),
+      dict(group='Chất lượng TS',id='group5_loans',name='Nợ nhóm 5 – Có khả năng mất vốn',value=g5_r,label='Nợ nhóm 5 / Cho vay',formula='Nợ nhóm 5 / Cho vay khách hàng × 100',threshold='Cảnh báo >1,5%; Theo dõi >0,75%.',status=band(g5_r,lambda x:x>0.75,lambda x:x>1.5),meaning='Tập trung vào phần nợ có rủi ro mất vốn cao nhất.'),
+      dict(group='Thu nhập',id='net_interest_income',name='Thu nhập lãi thuần – NII',value=nii_gr,label='Tăng trưởng NII YoY',formula='(NII hiện tại / NII năm trước − 1) × 100',threshold='Cảnh báo < −10%; Theo dõi <0%.',status=band(nii_gr,lambda x:x<0,lambda x:x<-10),meaning='Suy giảm NII kéo dài có thể phản ánh áp lực biên lãi hoặc chất lượng tài sản.'),
+      dict(group='Thu nhập',id='net_fee_income',name='Lãi thuần từ hoạt động dịch vụ',value=fee_gr,label='Tăng trưởng thu nhập phí YoY',formula='(Thu nhập phí hiện tại / năm trước − 1) × 100',threshold='Cảnh báo < −20%; Theo dõi <0%.',status=band(fee_gr,lambda x:x<0,lambda x:x<-20),meaning='Theo dõi độ bền của nguồn thu ngoài lãi.'),
+      dict(group='Thu nhập',id='total_operating_income',name='Tổng thu nhập hoạt động – TOI',value=toi_gr,label='Tăng trưởng TOI YoY',formula='(TOI hiện tại / TOI năm trước − 1) × 100',threshold='Cảnh báo < −10%; Theo dõi <0%.',status=band(toi_gr,lambda x:x<0,lambda x:x<-10),meaning='TOI suy giảm cho thấy nền thu nhập hoạt động yếu đi.'),
+      dict(group='Hiệu quả',id='operating_expenses',name='Chi phí hoạt động – OPEX',value=cir,label='CIR = |OPEX| / TOI',formula='|Chi phí hoạt động| / Tổng thu nhập hoạt động × 100',threshold='Cảnh báo >50%; Theo dõi >45%.',status=band(cir,lambda x:x>45,lambda x:x>50),meaning='Chi phí chiếm tỷ trọng càng cao thì hiệu quả hoạt động càng yếu.'),
+      dict(group='Rủi ro tín dụng',id='credit_loss_provision_expense',name='Chi phí dự phòng rủi ro tín dụng',value=credit_cost,label='Credit cost proxy',formula='|Chi phí dự phòng| / Dư nợ cho vay bình quân × 100',threshold='Cảnh báo >2%; Theo dõi >1%.',status=band(credit_cost,lambda x:x>1,lambda x:x>2),meaning='Proxy chi phí tín dụng; dùng chi phí dự phòng chứ không phải số dư dự phòng.'),
+      dict(group='Sinh lời',id='profit_after_tax',name='Lợi nhuận sau thuế – PAT',value=pat_gr,label='Tăng trưởng PAT YoY',formula='(PAT hiện tại / PAT năm trước − 1) × 100',threshold='Cảnh báo < −10%; Theo dõi <0%.',status=band(pat_gr,lambda x:x<0,lambda x:x<-10),meaning='Lợi nhuận suy giảm là tín hiệu tổng hợp cần đối chiếu với thu nhập, chi phí và dự phòng.')
+    ]
+    out=[]
+    for i,d in enumerate(defs,1):
+        item=dict(d); item.update(i=i,raw_value=c.get(d['id']),raw_unit='billion_vnd'); out.append(item)
+    return out
+
+def _aurel_derived_values(rows,bank,year):
+    m=_aurel_source_values(rows,bank,year)
+    g=[m.get('group1_loans'),m.get('group2_loans'),m.get('group3_loans'),m.get('group4_loans'),m.get('group5_loans')]
+    total_class=_aurel_sum(g)
+    npl_amt=_aurel_sum([m.get('group3_loans'),m.get('group4_loans'),m.get('group5_loans')])
+    return dict(m=m,totalClass=total_class,nplAmt=npl_amt,npl=_aurel_ratio(npl_amt,total_class),
+        g2r=_aurel_ratio(m.get('group2_loans'),total_class),
+        problem=_aurel_ratio(_aurel_sum([m.get('group2_loans'),m.get('group3_loans'),m.get('group4_loans'),m.get('group5_loans')]),total_class),
+        g5share=_aurel_ratio(m.get('group5_loans'),npl_amt),ldr=_aurel_ratio(m.get('customer_loans'),m.get('customer_deposits')),
+        cashDep=_aurel_ratio(m.get('cash_and_equivalents'),m.get('customer_deposits')),eqAssets=_aurel_ratio(m.get('total_equity'),m.get('total_assets')),
+        cir=_aurel_ratio(abs(m.get('operating_expenses')) if m.get('operating_expenses') is not None else None,m.get('total_operating_income')),
+        niiShare=_aurel_ratio(m.get('net_interest_income'),m.get('total_operating_income')),feeShare=_aurel_ratio(m.get('net_fee_income'),m.get('total_operating_income')))
+
+def derived16_risk_rows(rows,bank,year):
+    c=_aurel_derived_values(rows,bank,year); p=_aurel_derived_values(rows,bank,year-1); p2=_aurel_derived_values(rows,bank,year-2)
+    m=c['m']; pm=p['m']; p2m=p2['m']
+    loan_gr=_aurel_growth(m.get('customer_loans'),pm.get('customer_loans')); dep_gr=_aurel_growth(m.get('customer_deposits'),pm.get('customer_deposits'))
+    p_loan_gr=_aurel_growth(pm.get('customer_loans'),p2m.get('customer_loans')); p_dep_gr=_aurel_growth(pm.get('customer_deposits'),p2m.get('customer_deposits'))
+    asset_gr=_aurel_growth(m.get('total_assets'),pm.get('total_assets')); eq_gr=_aurel_growth(m.get('total_equity'),pm.get('total_equity'))
+    p_asset_gr=_aurel_growth(pm.get('total_assets'),p2m.get('total_assets')); p_eq_gr=_aurel_growth(pm.get('total_equity'),p2m.get('total_equity'))
+    loan_dep_gap=None if loan_gr is None or dep_gr is None else loan_gr-dep_gr
+    p_loan_dep_gap=None if p_loan_gr is None or p_dep_gr is None else p_loan_gr-p_dep_gr
+    asset_eq_gap=None if asset_gr is None or eq_gr is None else asset_gr-eq_gr
+    p_asset_eq_gap=None if p_asset_gr is None or p_eq_gr is None else p_asset_gr-p_eq_gr
+    avg_loans=_aurel_avg(m.get('customer_loans'),pm.get('customer_loans'))
+    cor=_aurel_ratio(abs(m.get('credit_loss_provision_expense')) if m.get('credit_loss_provision_expense') is not None else None,avg_loans)
+    p_avg_loans=_aurel_avg(pm.get('customer_loans'),p2m.get('customer_loans'))
+    p_cor=_aurel_ratio(abs(pm.get('credit_loss_provision_expense')) if pm.get('credit_loss_provision_expense') is not None else None,p_avg_loans)
+    ppop=None if m.get('total_operating_income') is None or m.get('operating_expenses') is None else m.get('total_operating_income')-abs(m.get('operating_expenses'))
+    p_ppop=None if pm.get('total_operating_income') is None or pm.get('operating_expenses') is None else pm.get('total_operating_income')-abs(pm.get('operating_expenses'))
+    p2_ppop=None if p2m.get('total_operating_income') is None or p2m.get('operating_expenses') is None else p2m.get('total_operating_income')-abs(p2m.get('operating_expenses'))
+    prov_ppop=_aurel_ratio(abs(m.get('credit_loss_provision_expense')) if m.get('credit_loss_provision_expense') is not None else None,ppop)
+    p_prov_ppop=_aurel_ratio(abs(pm.get('credit_loss_provision_expense')) if pm.get('credit_loss_provision_expense') is not None else None,p_ppop)
+    p2_prov_ppop=_aurel_ratio(abs(p2m.get('credit_loss_provision_expense')) if p2m.get('credit_loss_provision_expense') is not None else None,p2_ppop)
+    roa=_aurel_ratio(m.get('profit_after_tax'),_aurel_avg(m.get('total_assets'),pm.get('total_assets')))
+    roe=_aurel_ratio(m.get('profit_after_tax'),_aurel_avg(m.get('total_equity'),pm.get('total_equity')))
+    npl_delta=None if c['npl'] is None or p['npl'] is None else c['npl']-p['npl']
+    g2_delta=None if c['g2r'] is None or p['g2r'] is None else c['g2r']-p['g2r']
+    def item(i,group,key,name,raw_items,indicator,formula,threshold,status,meaning):
+        return dict(i=i,group=group,id=key,name=name,raw_items=raw_items,indicator=indicator,formula=formula,threshold=threshold,status=status,meaning=meaning)
+    def raw(*pairs):
+        out=[]
+        for entry in pairs:
+            out.append(dict(label=entry[0],value=entry[1],format=entry[2] if len(entry)>2 else 'money'))
+        return out
+    out=[]
+    out.append(item(1,'Chất lượng tài sản','npl_ratio','Tỷ lệ nợ xấu',raw(('N3',m.get('group3_loans')),('N4',m.get('group4_loans')),('N5',m.get('group5_loans')),('Tổng N1–N5',c['totalClass'])),dict(kind='percent',value=c['npl']),'(N3 + N4 + N5) / Tổng N1–N5 × 100','<b>Cảnh báo:</b> &gt; 3,00%<br><b>Theo dõi:</b> 1,60–3,00%<br><b>Bình thường:</b> ≤ 1,60%','insufficient' if c['npl'] is None else ('critical' if c['npl']>3 else 'watch' if c['npl']>1.6 else 'normal'),'Đo mức độ nợ xấu hiện hữu trong danh mục tín dụng.'))
+    out.append(item(2,'Cảnh báo sớm','group2_ratio','Tỷ lệ nợ nhóm 2',raw(('N2',m.get('group2_loans')),('Tổng N1–N5',c['totalClass'])),dict(kind='percent',value=c['g2r']),'N2 / Tổng N1–N5 × 100','<b>Cảnh báo:</b> &gt; 1,68%<br><b>Theo dõi:</b> 1,05–1,68%<br><b>Bình thường:</b> ≤ 1,05%','insufficient' if c['g2r'] is None else ('critical' if c['g2r']>1.68 else 'watch' if c['g2r']>1.05 else 'normal'),'Phát hiện áp lực nợ xấu trước khi chuyển thành nhóm 3–5.'))
+    problem_sum=_aurel_sum([m.get('group2_loans'),m.get('group3_loans'),m.get('group4_loans'),m.get('group5_loans')])
+    out.append(item(3,'Chất lượng tài sản','problem_loan_ratio','Tỷ lệ khoản vay có vấn đề',raw(('N2–N5',problem_sum),('Tổng N1–N5',c['totalClass'])),dict(kind='percent',value=c['problem']),'(N2 + N3 + N4 + N5) / Tổng N1–N5 × 100','<b>Cảnh báo:</b> &gt; 5,33%<br><b>Theo dõi:</b> 2,85–5,33%<br><b>Bình thường:</b> ≤ 2,85%','insufficient' if c['problem'] is None else ('critical' if c['problem']>5.33 else 'watch' if c['problem']>2.85 else 'normal'),'Phản ánh rủi ro tín dụng rộng hơn chỉ riêng NPL.'))
+    out.append(item(4,'Cấu trúc nợ xấu','group5_npl_share','Tỷ trọng nợ nhóm 5 trong NPL',raw(('N5',m.get('group5_loans')),('NPL',c['nplAmt'])),dict(kind='percent',value=c['g5share']),'N5 / (N3 + N4 + N5) × 100','<b>Cảnh báo:</b> tăng 2 năm liên tiếp<br><b>Theo dõi:</b> tăng so với năm trước<br><b>Bình thường:</b> ổn định hoặc giảm',_aurel_trend_status(c['g5share'],p['g5share'],p2['g5share'],'up'),'Cho biết phần nghiêm trọng nhất bên trong tổng nợ xấu.'))
+    out.append(item(5,'Xu hướng rủi ro','npl_yoy_change','Biến động tỷ lệ nợ xấu',raw(('NPL hiện tại',c['npl'],'percent'),('NPL năm trước',p['npl'],'percent')),dict(kind='pp',value=npl_delta),'NPL hiện tại − NPL năm trước','<b>Cảnh báo:</b> tăng 2 năm liên tiếp<br><b>Theo dõi:</b> tăng trong năm<br><b>Bình thường:</b> ổn định hoặc giảm',_aurel_trend_status(c['npl'],p['npl'],p2['npl'],'up'),'Phát hiện chất lượng tín dụng đang xấu đi hay cải thiện.'))
+    g2_status='insufficient'
+    if c['g2r'] is not None and p['g2r'] is not None:
+        g2_up=_aurel_eps_gt(c['g2r'],p['g2r']); npl_up=_aurel_eps_gt(c['npl'],p['npl']); g2_two=p2['g2r'] is not None and _aurel_eps_gt(p['g2r'],p2['g2r'])
+        g2_status='critical' if g2_up and (npl_up or g2_two) else 'watch' if g2_up else 'normal'
+    out.append(item(6,'Cảnh báo sớm','group2_yoy_change','Biến động tỷ lệ nợ nhóm 2',raw(('Nhóm 2 hiện tại',c['g2r'],'percent'),('Năm trước',p['g2r'],'percent')),dict(kind='pp',value=g2_delta),'Tỷ lệ nhóm 2 hiện tại − năm trước','<b>Cảnh báo:</b> tăng cùng NPL hoặc tăng 2 năm<br><b>Theo dõi:</b> tăng trong năm<br><b>Bình thường:</b> ổn định hoặc giảm',g2_status,'Cảnh báo sớm nợ xấu có khả năng hình thành.'))
+    out.append(item(7,'Chi phí tín dụng','cost_of_risk_proxy','Chi phí rủi ro tín dụng',raw(('Dự phòng',abs(m.get('credit_loss_provision_expense')) if m.get('credit_loss_provision_expense') is not None else None),('Cho vay bình quân',avg_loans)),dict(kind='percent',value=cor),'|Chi phí dự phòng| / Cho vay bình quân × 100','<b>Cảnh báo:</b> &gt; 1,45%<br><b>Theo dõi:</b> 1,05–1,45%<br><b>Bình thường:</b> ≤ 1,05%','insufficient' if cor is None else ('critical' if cor>1.45 else 'watch' if cor>1.05 else 'normal'),'Đo mức chi phí phải ghi nhận để hấp thụ rủi ro tín dụng.'))
+    out.append(item(8,'Sức hấp thụ','provision_to_ppop','Dự phòng / Lợi nhuận trước dự phòng',raw(('Dự phòng',abs(m.get('credit_loss_provision_expense')) if m.get('credit_loss_provision_expense') is not None else None),('PPOP',ppop)),dict(kind='percent',value=prov_ppop),'|Dự phòng| / (TOI − |OPEX|) × 100','<b>Cảnh báo:</b> tăng 2 năm liên tiếp<br><b>Theo dõi:</b> tăng YoY<br><b>Bình thường:</b> ổn định hoặc giảm',_aurel_trend_status(prov_ppop,p_prov_ppop,p2_prov_ppop,'up'),'Cho biết lợi nhuận hoạt động bị chi phí tín dụng tiêu hao bao nhiêu.'))
+    ldr_status='insufficient'
+    if c['ldr'] is not None:
+        if p['ldr'] is not None and c['ldr']>100 and _aurel_eps_gt(c['ldr'],p['ldr']): ldr_status='critical'
+        elif c['ldr']>100 or (p['ldr'] is not None and _aurel_eps_gt(c['ldr'],p['ldr'])): ldr_status='watch'
+        else: ldr_status='normal'
+    out.append(item(9,'Thanh khoản','ldr_proxy','Cho vay / Tiền gửi khách hàng',raw(('Cho vay',m.get('customer_loans')),('Tiền gửi',m.get('customer_deposits'))),dict(kind='percent',value=c['ldr']),'Cho vay khách hàng / Tiền gửi khách hàng × 100','<b>Cảnh báo:</b> &gt;100% và tăng<br><b>Theo dõi:</b> tăng so với năm trước hoặc &gt;100%<br><b>Bình thường:</b> ổn định hoặc giảm',ldr_status,'Theo dõi áp lực nguồn vốn tài trợ tín dụng; đây là LDR proxy, không phải LDR pháp lý.'))
+    out.append(item(10,'Thanh khoản','cash_deposit_ratio','Tiền và tương đương tiền / Tiền gửi',raw(('Tiền & TĐT',m.get('cash_and_equivalents')),('Tiền gửi',m.get('customer_deposits'))),dict(kind='percent',value=c['cashDep']),'Tiền & tương đương tiền / Tiền gửi × 100','<b>Cảnh báo:</b> giảm 2 năm liên tiếp<br><b>Theo dõi:</b> giảm YoY<br><b>Bình thường:</b> ổn định hoặc tăng',_aurel_trend_status(c['cashDep'],p['cashDep'],p2['cashDep'],'down'),'Proxy bộ đệm thanh khoản ngắn hạn; không phải LCR.'))
+    out.append(item(11,'Đệm vốn','equity_asset_ratio','Vốn chủ sở hữu / Tổng tài sản',raw(('VCSH',m.get('total_equity')),('Tổng tài sản',m.get('total_assets'))),dict(kind='percent',value=c['eqAssets']),'VCSH / Tổng tài sản × 100','<b>Cảnh báo:</b> giảm 2 năm liên tiếp<br><b>Theo dõi:</b> giảm YoY<br><b>Bình thường:</b> ổn định hoặc tăng',_aurel_trend_status(c['eqAssets'],p['eqAssets'],p2['eqAssets'],'down'),'Theo dõi đòn bẩy kế toán và bộ đệm vốn; không phải CAR/CET1.'))
+    out.append(item(12,'Nguồn vốn','loan_deposit_growth_gap','Chênh lệch tăng trưởng cho vay – tiền gửi',raw(('Tăng cho vay',loan_gr,'percent'),('Tăng tiền gửi',dep_gr,'percent')),dict(kind='pp',value=loan_dep_gap),'Tăng trưởng cho vay − tăng trưởng tiền gửi','<b>Cảnh báo:</b> &gt; 5,90 điểm %<br><b>Theo dõi:</b> 3,05–5,90 điểm %<br><b>Bình thường:</b> ≤ 3,05 điểm %','insufficient' if loan_dep_gap is None else ('critical' if loan_dep_gap>5.90 else 'watch' if loan_dep_gap>3.05 else 'normal'),'Phát hiện tín dụng tăng nhanh hơn nguồn huy động.'))
+    gap_status='insufficient'
+    if asset_eq_gap is not None:
+        if asset_eq_gap>0 and p_asset_eq_gap is not None and p_asset_eq_gap>0: gap_status='critical'
+        elif asset_eq_gap>0: gap_status='watch'
+        else: gap_status='normal'
+    out.append(item(13,'Đòn bẩy','asset_equity_growth_gap','Chênh lệch tăng trưởng tài sản – vốn chủ',raw(('Tăng tài sản',asset_gr,'percent'),('Tăng VCSH',eq_gr,'percent')),dict(kind='pp',value=asset_eq_gap),'Tăng trưởng tổng tài sản − tăng trưởng VCSH','<b>Cảnh báo:</b> dương 2 năm liên tiếp<br><b>Theo dõi:</b> tài sản tăng nhanh hơn VCSH<br><b>Bình thường:</b> VCSH tăng tương ứng hoặc nhanh hơn',gap_status,'Phát hiện mở rộng bảng cân đối nhanh hơn năng lực vốn.'))
+    out.append(item(14,'Hiệu quả','cir_ratio','Tỷ lệ chi phí / thu nhập',raw(('OPEX',abs(m.get('operating_expenses')) if m.get('operating_expenses') is not None else None),('TOI',m.get('total_operating_income'))),dict(kind='percent',value=c['cir']),'|OPEX| / TOI × 100','<b>Cảnh báo:</b> &gt; 35,78%<br><b>Theo dõi:</b> 32,85–35,78%<br><b>Bình thường:</b> ≤ 32,85%','insufficient' if c['cir'] is None else ('critical' if c['cir']>35.78 else 'watch' if c['cir']>32.85 else 'normal'),'Chi phí cao làm giảm bộ đệm lợi nhuận hấp thụ rủi ro.'))
+    roa_status='insufficient'
+    if roa is not None and roe is not None: roa_status='critical' if roa<1.33 or roe<15.63 else 'watch' if roa<1.60 or roe<17.10 else 'normal'
+    out.append(item(15,'Sinh lời','roa_roe','Khả năng sinh lời trên tài sản và vốn',raw(('PAT',m.get('profit_after_tax')),('Tài sản bình quân',_aurel_avg(m.get('total_assets'),pm.get('total_assets'))),('VCSH bình quân',_aurel_avg(m.get('total_equity'),pm.get('total_equity')))),dict(kind='dual',roa=roa,roe=roe),'ROA = PAT / tài sản bình quân; ROE = PAT / VCSH bình quân','<b>Cảnh báo:</b> ROA &lt;1,33% hoặc ROE &lt;15,63%<br><b>Theo dõi:</b> ROA 1,33–1,60% hoặc ROE 15,63–17,10%<br><b>Bình thường:</b> ROA ≥1,60% và ROE ≥17,10%',roa_status,'Đo khả năng sinh lợi và tự bổ sung vốn.'))
+    income_status='insufficient'
+    if c['niiShare'] is not None and c['feeShare'] is not None and p['niiShare'] is not None and p['feeShare'] is not None:
+        bad_now=_aurel_eps_gt(c['niiShare'],p['niiShare']) and _aurel_eps_lt(c['feeShare'],p['feeShare'])
+        bad_prev=p2['niiShare'] is not None and p2['feeShare'] is not None and _aurel_eps_gt(p['niiShare'],p2['niiShare']) and _aurel_eps_lt(p['feeShare'],p2['feeShare'])
+        income_status='critical' if bad_now and bad_prev else 'watch' if bad_now else 'normal'
+    out.append(item(16,'Cơ cấu thu nhập','income_concentration','Mức phụ thuộc vào thu nhập lãi',raw(('NII',m.get('net_interest_income')),('Thu nhập phí',m.get('net_fee_income')),('TOI',m.get('total_operating_income'))),dict(kind='income',niiShare=c['niiShare'],feeShare=c['feeShare']),'NII / TOI và Thu nhập phí / TOI','<b>Cảnh báo:</b> NII tăng tỷ trọng và Fee giảm 2 năm<br><b>Theo dõi:</b> cơ cấu xấu đi YoY<br><b>Bình thường:</b> ổn định hoặc đa dạng hơn',income_status,'Theo dõi mức độ phụ thuộc vào thu nhập tín dụng và độ đa dạng nguồn thu.'))
+    return out
+
+def comparison_payload(rows,year):
+    banks=sorted({r['bank'] for r in rows if r['year']==year})
+    buckets={}
+    for bank in banks:
+        buckets[bank]=dict(values=val(rows,bank,year),ratios={x['id']:x['value'] for x in financial_ratios(rows,bank,year)})
+    result={}
+    for spec in AUREL_COMPARE_SPECS:
+        by_bank={}
+        for bank in banks:
+            bucket=buckets[bank]
+            by_bank[bank]=bucket['values'].get(spec['key']) if spec['type']=='value' else bucket['ratios'].get(spec['key'])
+        sorted_rows=sorted([dict(bank=bank,value=by_bank[bank]) for bank in banks],
+            key=lambda x:(x['value'] is None,-float(x['value']) if x['value'] is not None else 0,x['bank']))
+        pairs={}
+        for a in banks:
+            pairs[a]={}
+            for b in banks:
+                av=by_bank[a]; bv=by_bank[b]
+                if av is None or bv is None: pairs[a][b]=dict(a_value=av,b_value=bv,diff=None,winner=None)
+                else:
+                    diff=abs(float(av)-float(bv)); winner=a if float(av)>float(bv) else b if float(av)<float(bv) else None
+                    pairs[a][b]=dict(a_value=av,b_value=bv,diff=diff,winner=winner)
+        result[spec['id']]=dict(spec=spec,by_bank=by_bank,rows=sorted_rows,pairs=pairs)
+    return result
+
+def _aurel_eval_ratio_system(ratios,id_):
+    for item in ratios:
+        if item.get('id')==id_:
+            value=item.get('value')
+            return float(value) if value is not None and math.isfinite(float(value)) else None
+    return None
+
+def evaluation_payload(bank,year,manual_truth=None):
+    manual_truth=manual_truth if isinstance(manual_truth,dict) else {}
+    with STORE.lock:
+        rows=[r.copy() for r in STORE.rows]; docs=[dict(name=k,pages=len(v['pages']),text_pages=v['text_pages']) for k,v in STORE.docs.items()]; ai={k:dict(v) for k,v in STORE.ai.items()}
+    choices=sorted({(r['bank'],r['year']) for r in rows})
+    if (bank,year) not in choices: raise ValueError('Không có dữ liệu ngân hàng/năm để đánh giá.')
+    v=val(rows,bank,year)
+    raw_rows=[dict(r,name=FIELDS[r['metric_id']],has_document=r['source_file'] in {d['name'] for d in docs}) for r in rows if r['bank']==bank and r['year']==year]
+    periods=sorted({r['year'] for r in rows if r['bank']==bank})
+    series={key:[dict(year=p,value=val(rows,bank,p).get(key)) for p in periods] for key in FIELDS}
+    ratios=financial_ratios(rows,bank,year); risks=risk_rules(rows,bank,year)
+    def series_value(key,target):
+        for item in series.get(key,[]):
+            if int(item.get('year'))==int(target):
+                z=item.get('value'); return float(z) if z is not None and math.isfinite(float(z)) else None
+        return None
+    prev_assets=series_value('assets',year-1); prev_equity=series_value('equity',year-1)
+    checks=[
+      ('Tỷ lệ nợ xấu','npl_ratio',_aurel_ratio(v.get('npl'),v.get('loans')),'(Nợ nhóm 3 + 4 + 5) / Dư nợ × 100'),
+      ('Dư nợ / Tiền gửi','ldr',_aurel_ratio(v.get('loans'),v.get('deposits')),'Dư nợ / Tiền gửi khách hàng × 100'),
+      ('Vốn chủ sở hữu / Tài sản','equity_assets',_aurel_ratio(v.get('equity'),v.get('assets')),'Vốn chủ sở hữu / Tổng tài sản × 100'),
+      ('Chi phí / Thu nhập','cir',_aurel_ratio(abs(v.get('operating_expenses')) if v.get('operating_expenses') is not None else None,v.get('operating_income')),'|Chi phí hoạt động| / Tổng thu nhập hoạt động × 100'),
+      ('Dư nợ / Tổng tài sản','loans_assets',_aurel_ratio(v.get('loans'),v.get('assets')),'Dư nợ / Tổng tài sản × 100'),
+      ('Tiền gửi / Tổng tài sản','deposits_assets',_aurel_ratio(v.get('deposits'),v.get('assets')),'Tiền gửi / Tổng tài sản × 100'),
+      ('ROA','roa',None if prev_assets is None or v.get('assets') is None else _aurel_ratio(v.get('pat'),(float(v.get('assets'))+prev_assets)/2),'LNST / Tài sản bình quân × 100'),
+      ('ROE','roe',None if prev_equity is None or v.get('equity') is None else _aurel_ratio(v.get('pat'),(float(v.get('equity'))+prev_equity)/2),'LNST / Vốn chủ sở hữu bình quân × 100'),
+    ]
+    formula=[]
+    for name,id_,manual,formula_text in checks:
+        system=_aurel_eval_ratio_system(ratios,id_); diff=None if manual is None or system is None else abs(manual-system); passed=None if diff is None else diff<=0.01
+        formula.append(dict(name=name,id=id_,manual=manual,system=system,diff=diff,pass_=passed,formula=formula_text))
+    details=[]; checked=0; passed_count=0
+    for r in raw_rows:
+        key=str(r.get('metric_id') or ''); mv=manual_truth.get(key); has=mv not in (None,'')
+        try: mv=float(mv) if has else None; has=has and math.isfinite(mv)
+        except Exception: has=False; mv=None
+        diff=None; rel=None; passed=None
+        if has:
+            checked+=1; diff=abs(float(r['value'])-mv); rel=0 if mv==0 and diff==0 else (None if mv==0 else diff/abs(mv)*100); passed=diff<=max(.01,abs(mv)*.001)
+            if passed: passed_count+=1
+        details.append(dict(row=r,manual=mv if has else None,diff=diff,rel=rel,pass_=passed))
+    banks=sorted({b for b,_ in choices}); years_by_bank={}
+    for b,y in choices: years_by_bank.setdefault(b,set()).add(int(y))
+    multi_period=len(banks)>=2 or any(len(x)>=2 for x in years_by_bank.values())
+    unique_metrics=len({r.get('metric_id') for r in raw_rows}); ratio_count=sum(1 for r in ratios if r.get('value') is not None); risk_count=len(risks)
+    approved=sum(1 for k,item in ai.items() if k.startswith(f'{bank}:{year}:') and item.get('status')=='approved')
+    source_rows=sum(1 for r in raw_rows if str(r.get('source_file') or '').strip()); trace=source_rows/len(raw_rows)*100 if raw_rows else 0
+    checklist=[
+      ['Phạm vi dữ liệu: ít nhất 2 năm hoặc 2 ngân hàng',multi_period,f'{len(banks)} ngân hàng · {len(choices)} kỳ dữ liệu'],
+      ['Tối thiểu 10 chỉ tiêu tài chính',unique_metrics>=10,f'{unique_metrics} chỉ tiêu ở kỳ đang chọn'],
+      ['Tối thiểu 5 tỷ số / tăng trưởng',ratio_count>=5,f'{ratio_count} chỉ số tính được'],
+      ['Tối thiểu 3 nhóm cảnh báo / bất thường',risk_count>=3,f'{risk_count} chỉ báo giám sát'],
+      ['Tối thiểu 3 tác vụ mô hình ngôn ngữ',True,'Tóm tắt · Phân tích biến động · Câu hỏi phân tích'],
+      ['Có bước người dùng phê duyệt nội dung',True,f'{approved} nội dung đã duyệt ở kỳ hiện tại'],
+      ['Có phân tích kịch bản',v.get('npl') is not None and v.get('loans') is not None,'Mô phỏng nợ xấu và dư nợ'],
+      ['Có truy vết nguồn dữ liệu',trace>0,f'{trace:.1f}% dòng có tệp nguồn'],
+      ['Có xuất báo cáo PDF',True,'Bảng số liệu, tỷ số, biểu đồ, cảnh báo và nội dung đã duyệt']]
+    usable=[x for x in formula if x['pass_'] is not None]; formula_accuracy=(sum(1 for x in usable if x['pass_'])/len(usable)*100) if usable else None
+    for x in formula: x['pass']=x.pop('pass_')
+    for x in details: x['pass']=x.pop('pass_')
+    return dict(formula=formula,manual=dict(truth=manual_truth,details=details,checked=checked,passed=passed_count,accuracy=(passed_count/checked*100) if checked else None),
+        checklist=checklist,formulaAccuracy=formula_accuracy,trace=trace,completeness=min(100,unique_metrics/16*100))
+
+def evaluation_csv_payload(bank,year,manual_truth=None):
+    e=evaluation_payload(bank,year,manual_truth); lines=[['Nhóm','Hạng mục','Kết quả','Trạng thái']]
+    for name,passed,detail in e['checklist']: lines.append(['Yêu cầu Đồ án 03',name,detail,'Đạt' if passed else 'Chưa đạt'])
+    for x in e['formula']: lines.append(['Kiểm chứng công thức',x['name'],'Chưa đủ dữ liệu' if x['diff'] is None else str(x['diff']),'Chưa đủ dữ liệu' if x['pass'] is None else 'Khớp' if x['pass'] else 'Cần kiểm tra'])
+    for x in e['manual']['details']:
+        if x['manual'] is not None:
+            r=x['row']; lines.append(['Kiểm chứng thủ công',r.get('name') or r.get('metric_id'),'' if x['rel'] is None else str(x['rel'])+'%','Khớp' if x['pass'] else 'Sai lệch'])
+    out=io.StringIO(); csv.writer(out,lineterminator='\r\n').writerows(lines)
+    return dict(filename=f'AUREL_Danh_gia_{bank or "du_lieu"}_{year or ""}.csv',csv='\ufeff'+out.getvalue())
+# --- END AUREL PYTHON BUSINESS LOGIC V1 -----------------------------------
+
+
 def snapshot(bank=None,year=None):
     with STORE.lock:
         rows=[r.copy() for r in STORE.rows]; docs=[dict(name=k,pages=len(v['pages']),text_pages=v['text_pages']) for k,v in STORE.docs.items()];rev=STORE.revision;ai={k:dict(v) for k,v in STORE.ai.items()}
@@ -689,7 +1013,7 @@ def snapshot(bank=None,year=None):
     choices=sorted({(r['bank'],r['year']) for r in rows})
     if not choices:
         return dict(has_data=False,choices=[],rows_count=0,documents=docs,data_files=data_files,data_files_count=len(data_files),revision=rev,ai=ai,
-                    fields=FIELDS,units='tỷ VND',rules=RULES)
+                    fields=FIELDS,units='tỷ VND',rules=RULES,risk_source16=[],risk_derived16=[],comparison_python={})
     if (bank,year) not in choices:
         same_bank=[(b,y) for b,y in choices if b==bank]
         bank,year=(same_bank[-1] if same_bank else choices[-1])
@@ -709,6 +1033,8 @@ def snapshot(bank=None,year=None):
         rows_count=len(rows),docs_count=len(docs),documents=docs,data_files=data_files,data_files_count=len(data_files),revision=rev,ai=ai,
         fields=FIELDS,values=v,raw=raw,ratios=financial_ratios(rows,bank,year),risk=risk_rules(rows,bank,year),
         growth={k:growth(rows,bank,year,k) for k in FIELDS},series=series,ratio_series=ratio_series,comparison=pairs,
+        comparison_python=comparison_payload(rows,year),risk_source16=source16_risk_rows(rows,bank,year),
+        risk_derived16=derived16_risk_rows(rows,bank,year),
         evidence_count=has_refs,unit='tỷ VND',rules=RULES)
 
 
@@ -3381,7 +3707,7 @@ def send_report_email(bank,year,recipient,sender='',app_password='',subject='',m
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version='AUREL-BREVO-20260929-R9-DATA16-VIEFAST'
+    server_version='AUREL-PYBUS-20261008-V1'
     def log_message(self,fmt,*args):
         # Colab writes stdout to a notebook/file bridge.  Polling /health and
         # /api/pdf/job every second can create more I/O than useful work.
@@ -3427,8 +3753,8 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-BREVO-20260929-R9-DATA16-VIEFAST','email_backend':'brevo','brevo_ready':True})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-BREVO-20260929-R9-DATA16-VIEFAST','email_backend':'brevo'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True})
+            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo'})
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
@@ -3511,6 +3837,10 @@ class Handler(BaseHTTPRequestHandler):
                 return self.reply(pdf_commit_batch(data.get('selections'),bool(data.get('replace'))))
             if path=='/api/scenario':
                 return self.reply(simulate(str(data.get('bank','')).upper(),int(data.get('year')),data.get('npl_change'),data.get('loan_change')))
+            if path=='/api/evaluation':
+                return self.reply(evaluation_payload(str(data.get('bank','')).upper(),int(data.get('year')),data.get('manual') or {}))
+            if path=='/api/evaluation/export':
+                return self.reply(evaluation_csv_payload(str(data.get('bank','')).upper(),int(data.get('year')),data.get('manual') or {}))
             if path=='/api/ai/key':
                 key=str(data.get('key','')).strip()
                 if len(key)<20 or len(key)>512 or not re.fullmatch(r'[-A-Za-z0-9._~+/=]{20,512}',key):
