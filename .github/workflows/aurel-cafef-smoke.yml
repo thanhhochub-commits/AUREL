@@ -26,7 +26,8 @@ jobs:
           html=Path('financial-intelligence.html').read_text('utf-8')
           js=Path('assets/aurel-cafef.js').read_text('utf-8')
           feed=json.loads(Path('assets/cafef-cache.json').read_text('utf-8'))
-          assert "assets/aurel-cafef.js?v=20261008-CF-BLUR-BG-V10" in html
+          assert "assets/aurel-cafef.js?v=20261008-CF-FINAL-V11" in html
+          assert "width:0!important;min-width:0!important;max-width:0!important;" in js
           assert "cfBindSlideBackdrop(hero)" in js
           assert "new MutationObserver(sync)" in js
           assert "--cf-slide-background" in js
