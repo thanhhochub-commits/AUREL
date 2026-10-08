@@ -92,7 +92,7 @@ def _company_disclosures(symbol, url):
         # Only the requested company's own disclosures are eligible.
         # Generic cross-company headlines appear around the event table and
         # must not be mistaken for statements of this selected company.
-        if not re.match(r"^\\s*" + re.escape(symbol) + r"\\s*:", title, re.I):
+        if not re.match(r"^\s*" + re.escape(symbol) + r"\s*:", title, re.I):
             continue
         low = title.lower()
         if (title, href) in seen:
@@ -100,9 +100,9 @@ def _company_disclosures(symbol, url):
         seen.add((title, href))
         # A commentary ABOUT a BCTC is not the financial statement itself.
         # Keep these reports separate so the UI never advertises a fake PDF.
-        headline = re.sub(r"^\\s*" + re.escape(symbol) + r"\\s*:\\s*", "", title, flags=re.I)
+        headline = re.sub(r"^\s*" + re.escape(symbol) + r"\s*:\s*", "", title, flags=re.I)
         is_report = bool(re.match(
-            r"^(?:báo cáo tài chính|bctc)(?:\\s|$)|^báo cáo bán niên.*tài chính",
+            r"^(?:báo cáo tài chính|bctc)(?:\s|$)|^báo cáo bán niên.*tài chính",
             headline, re.I,
         ))
         # The dedicated symbol disclosures page is the source context.
