@@ -3851,6 +3851,9 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
             if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True})
             if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo'})
+            if path=='/api/cafef':
+                from aurel_cafef import lookup_cafef
+                return self.reply(lookup_cafef(query.get('symbol',[''])[0]))
             if path=='/api/state':
                 bank,year=self.choose(query);return self.reply(snapshot(bank,year))
             if path=='/api/pdf/job':
