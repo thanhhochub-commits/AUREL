@@ -4,7 +4,7 @@ if(window.__AUREL_CAFEF_OVERVIEW_V2__)return;
 window.__AUREL_CAFEF_OVERVIEW_V2__=true;
 var style=document.createElement('style');
 style.id='aurel-cafef-overview-v2-style';
-style.textContent="\n/* Chỉ áp dụng cho trang Tổng quan; không đụng đến trang khác. */\nbody.aurel-page-overview #root > .aurel-cafef-hero-row {\n  --cfh:clamp(430px,37.5vw,605px);\n  display:grid!important;grid-template-columns:minmax(0,2fr) minmax(0,1fr)!important;\n  align-items:stretch!important;gap:14px!important;margin:0 0 14px!important;\n  min-width:0!important;max-width:100%!important;\n}\nbody.aurel-page-overview #root > .aurel-cafef-hero-row > .ref-hero {\n  margin:0!important;min-width:0!important;width:100%!important;\n  height:var(--cfh)!important;min-height:var(--cfh)!important;max-height:var(--cfh)!important;\n  border-radius:14px!important;overflow:hidden!important;\n  box-shadow:0 0 0 1px rgba(37,149,255,.22),0 12px 28px rgba(0,29,65,.14);\n}\nbody.aurel-page-overview #root > .aurel-cafef-hero-row .ref-hero > .aurel-r78-slider-wrap{\n  height:100%!important;width:100%!important;\n}\nbody.aurel-page-overview #root > .aurel-cafef-hero-row .ref-hero-live-copy{\n  max-width:100%!important;\n}\nbody.aurel-page-overview #aurel-cafef-overview {\n  --cf-bg:#07192e;--cf-layer:#0b223c;--cf-line:#173e60;\n  --cf-line-soft:#1a344e;--cf-fg:#eaf5ff;--cf-muted:#a2b5cb;--cf-link:#36b7ff;\n  box-sizing:border-box;min-width:0;min-height:0;max-width:100%;\n  height:var(--cfh);margin:0!important;padding:13px 12px 10px!important;\n  display:flex;flex-direction:column;gap:9px;overflow:hidden;\n  border:1px solid #e13f72;border-radius:15px;\n  background:radial-gradient(ellipse 105% 52% at 9% 0%,rgba(117,26,75,.36),transparent 63%),\n             linear-gradient(165deg,#0c1529,#071a30 45%,#071b31);\n  color:var(--cf-fg);box-shadow:inset 0 0 22px rgba(17,73,134,.13),0 10px 28px rgba(6,17,43,.20);\n  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;\n  line-height:1.4;\n}\nbody.aurel-page-overview #aurel-cafef-overview * {box-sizing:border-box}\n#aurel-cafef-overview .cf-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;min-height:51px}\n#aurel-cafef-overview .cf-logo{font-size:27px;line-height:1;letter-spacing:-1.3px;font-weight:950;color:#ff3c50}\n#aurel-cafef-overview .cf-logo span{color:#197ff7}\n#aurel-cafef-overview .cf-subtitle{font-size:9px;font-weight:720;letter-spacing:.55px;color:#c9d8ec;margin:6px 0 0}\n#aurel-cafef-overview .cf-connection{align-self:flex-start;display:inline-flex;gap:6px;align-items:center;\n  font-size:9px;font-weight:750;max-width:130px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;\n  padding:7px 9px;background:#163144;border:1px solid #265368;border-radius:12px;color:#b3d5e0}\n#aurel-cafef-overview .cf-connection:before{content:\"\";width:7px;height:7px;flex-shrink:0;background:#f0ad4e;border-radius:50%}\n#aurel-cafef-overview .cf-connection.ok{color:#73efb8;border-color:#1d775c;background:#10382f}\n#aurel-cafef-overview .cf-connection.ok:before{background:#1bed97}\n#aurel-cafef-overview .cf-connection.busy:before{background:#4ac2ff;box-shadow:0 0 0 3px rgba(74,194,255,.14)}\n#aurel-cafef-overview .cf-search{display:grid;grid-template-columns:minmax(0,1fr) 108px;gap:8px}\n#aurel-cafef-overview .cf-search-field{display:flex;align-items:center;gap:7px;min-width:0;min-height:43px;\n  padding:0 11px;background:#0e2846;border:1px solid #36597e;border-radius:9px}\n#aurel-cafef-overview .cf-search-field svg{width:18px;height:18px;flex:0 0 auto;color:#79b9ff}\n#aurel-cafef-overview .cf-search-field input{border:0!important;box-shadow:none!important;background:transparent!important;\n  outline:0!important;color:#f8fbff!important;flex:1;min-width:0;width:100%;font-size:14px;\n  font-weight:750;text-transform:uppercase;padding:0!important;height:39px;letter-spacing:.35px}\n#aurel-cafef-overview .cf-search-field input::placeholder{color:#7994ab}\n#aurel-cafef-overview .cf-load{border:1px solid #2288ff;border-radius:9px;min-height:43px;padding:6px 5px;\n  background:linear-gradient(100deg,#159df7,#1261eb);color:#fff;cursor:pointer;font-size:11px;font-weight:850;\n  box-shadow:0 0 14px rgba(5,118,255,.24)}\n#aurel-cafef-overview .cf-load:disabled{opacity:.68;cursor:wait}\n#aurel-cafef-overview .cf-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;min-height:41px}\n#aurel-cafef-overview .cf-tab{min-width:0;cursor:pointer;background:#0b1a30;color:#bdd0e7;\n  border:1px solid #2f628e;border-radius:9px;font-size:11px;font-weight:750;padding:7px 4px;white-space:nowrap}\n#aurel-cafef-overview .cf-tab[aria-selected=\"true\"]{background:linear-gradient(110deg,#008fe7,#135fef);color:white;\n  border-color:#00b8ff;box-shadow:0 0 0 1px rgba(0,190,255,.38),0 0 11px rgba(0,137,255,.26)}\n#aurel-cafef-overview button:focus-visible,#aurel-cafef-overview a:focus-visible,\n#aurel-cafef-overview input:focus-visible{outline:2px solid #57cbff!important;outline-offset:2px!important}\n#aurel-cafef-overview .cf-feed{flex:1;display:grid;grid-template-rows:minmax(0,1fr) minmax(0,1fr);\n  gap:8px;min-height:0;overflow:hidden}\n#aurel-cafef-overview .cf-feed[data-active=\"reports\"]{grid-template-rows:minmax(0,1.1fr) minmax(0,.9fr)}\n#aurel-cafef-overview .cf-feed[data-active=\"news\"]{grid-template-rows:minmax(0,.82fr) minmax(0,1.18fr)}\n#aurel-cafef-overview .cf-group{display:flex;flex-direction:column;min-height:0;min-width:0;overflow:hidden;\n  border:1px solid var(--cf-line);border-radius:10px;background:rgba(14,36,62,.80)}\n#aurel-cafef-overview .cf-group-head{flex:0 0 auto;min-height:32px;display:flex;justify-content:space-between;align-items:center;gap:4px;\n  padding:7px 9px;border-bottom:1px solid rgba(64,107,142,.25)}\n#aurel-cafef-overview .cf-group-head strong{font-size:10px;font-weight:850;color:#f0f7ff;line-height:1.2}\n#aurel-cafef-overview .cf-group-head a{font-size:10px;text-decoration:none;color:#24baff;white-space:nowrap;font-weight:750}\n#aurel-cafef-overview .cf-group-items{flex:1;min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#285477 transparent}\n#aurel-cafef-overview .cf-item{padding:7px 9px;display:grid;grid-template-columns:31px minmax(0,1fr) auto;\n  align-items:center;gap:7px;min-height:47px}\n#aurel-cafef-overview .cf-item + .cf-item{border-top:1px solid rgba(57,104,145,.26)}\n#aurel-cafef-overview .cf-icon{display:flex;align-items:center;justify-content:center;\n  width:29px;height:29px;border-radius:7px;background:#102f4e;color:#2adaff}\n#aurel-cafef-overview .cf-icon svg{width:19px;height:19px}\n#aurel-cafef-overview .cf-item a.cf-title{display:block;font-size:10.5px;font-weight:700;color:#f1f7ff;\n  text-decoration:none;line-height:1.35;max-width:100%;overflow:hidden;text-overflow:ellipsis;\n  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow-wrap:anywhere}\n#aurel-cafef-overview .cf-item a.cf-title:hover{color:#53caff}\n#aurel-cafef-overview .cf-item small{display:block;font-size:9px;color:#93a9c3;margin-top:3px}\n#aurel-cafef-overview .cf-item .cf-action{font-size:9px;font-weight:850;border:1px solid #277db5;\n  text-decoration:none;color:#48c4fb;padding:5px 6px;border-radius:6px;white-space:nowrap}\n#aurel-cafef-overview .cf-empty{padding:15px 10px;display:flex;flex-direction:column;gap:8px;\n  font-size:10.5px;line-height:1.5;color:#b2c5dc}\n#aurel-cafef-overview .cf-empty a{color:#52c7fd;text-decoration:none;font-weight:700}\n#aurel-cafef-overview .cf-footer{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;\n  border-top:1px solid rgba(66,118,154,.22);padding:5px 2px 0;gap:8px;min-height:16px}\n#aurel-cafef-overview .cf-foot-copy{font-size:9px;color:#95a9c1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}\n#aurel-cafef-overview .cf-time{font-size:9px;color:#9fc4dd;white-space:nowrap}\n#aurel-cafef-overview .cf-error{font-size:9.5px;line-height:1.35;color:#ffc4a4;min-height:0;\n  max-height:24px;overflow:hidden}\n#aurel-cafef-overview .cf-error:empty{display:none}\n@media(min-width:1271px) and (max-width:1410px) {\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{\n    grid-template-columns:minmax(0,2fr) minmax(0,1fr)!important\n  }\n  #aurel-cafef-overview .cf-logo{font-size:24px}\n}\n@media(max-width:1270px){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{display:flex!important;flex-direction:column;--cfh:clamp(340px,46vw,490px)}\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > .ref-hero{flex:0 0 auto}\n  body.aurel-page-overview #aurel-cafef-overview{width:100%;height:auto;min-height:350px;max-height:none;padding:14px!important}\n  #aurel-cafef-overview .cf-feed{min-height:270px}\n}\n@media(max-width:760px){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{gap:11px!important;--cfh:clamp(260px,63vw,410px)}\n  body.aurel-page-overview #aurel-cafef-overview{padding:12px!important;gap:8px;min-height:360px}\n  #aurel-cafef-overview .cf-feed{min-height:290px}\n  #aurel-cafef-overview .cf-top{min-height:43px}\n  #aurel-cafef-overview .cf-search{grid-template-columns:minmax(0,1fr) 100px}\n}\n@media(prefers-reduced-motion:reduce) {\n  #aurel-cafef-overview *,#aurel-cafef-overview *:before{transition:none!important;animation:none!important}\n}\n/* Light mode chỉ thay màu của khối CafeF, không đổi các khối khác. */\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview{\n  --cf-layer:#f7fbff;--cf-line:#d5e4f1;--cf-fg:#18354d;--cf-muted:#587086;--cf-link:#006dae;\n  border-color:#6a9cbc;background:linear-gradient(165deg,#fff,#eef7ff);color:#18354d\n}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-subtitle{color:#5b768e}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-search-field{background:#f5faff;border-color:#a6c2da}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-search-field input{color:#18354d!important}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-group{background:#f5faff;border-color:#cfdfeb}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-group-head strong,\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-item a.cf-title{color:#24465d}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-tab{background:#f1f8ff;color:#32516c}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-tab[aria-selected=true]{background:linear-gradient(110deg,#089ad9,#1374ea);color:#fff}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-icon{background:#e2f3ff;color:#118acc}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-item small,\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-footer,\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-foot-copy{color:#617b92}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-empty{color:#587086}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-error{color:#a04323}\n\n/* AUREL CafeF slider V5: only the hero/CafeF row, desktop. Restore old size and ratio.\n   Other pages, existing KPI cards, and mobile layout are untouched. */\n@media (min-width:1271px) {\n  body.aurel-page-overview #root > .aurel-cafef-hero-row {\n    --cf-panel-default:calc((100% - 14px) * .322581);\n    --cf-panel-width:var(--cf-panel-default);\n    position:relative!important;\n    grid-template-columns:minmax(0,1fr) minmax(0,var(--cf-panel-width))!important;\n    transition:grid-template-columns .38s cubic-bezier(.24,.75,.24,1),gap .38s ease;\n    will-change:auto;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row[data-cf-closed=\"true\"]{\n    --cf-panel-width:0px;\n    grid-template-columns:minmax(0,1fr) 0px!important;\n    gap:0!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row[data-cf-closed=\"true\"] > #aurel-cafef-overview{\n    opacity:0!important;visibility:hidden!important;pointer-events:none!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row.cf-dragging{\n    transition:none!important;user-select:none;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row.cf-dragging > #aurel-cafef-overview{\n    transition:none!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > #aurel-cafef-overview {\n    opacity:1;transition:opacity .18s ease;min-width:0!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-grip{\n    position:absolute;z-index:30;top:50%;\n    right:max(0px,calc(var(--cf-panel-width) - 8px));\n    transform:translateY(-50%);width:33px;height:110px;\n    display:flex;flex-direction:column;align-items:center;justify-content:space-around;gap:2px;\n    cursor:ew-resize;touch-action:none;user-select:none;\n    background:linear-gradient(180deg,#07385f,#095582);border:1px solid #58b3ea;border-radius:14px;\n    box-shadow:0 0 0 2px rgba(5,30,61,.30),0 6px 18px rgba(0,30,73,.24);outline:none;padding:4px 2px;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-dots{\n    flex:1;display:flex;align-items:center;justify-content:center;\n    color:#9cdfff;font-size:23px;line-height:1;cursor:ew-resize;pointer-events:none;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-toggle{\n    width:27px;height:32px;flex:0 0 32px;\n    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;\n    padding:0;border:1px solid #56aaff;border-radius:9px;\n    color:#eefaff;background:linear-gradient(180deg,#07355e,#075591);\n    box-shadow:0 0 0 2px rgba(8,25,48,.40),0 3px 16px rgba(0,47,98,.27);\n    font-size:15px;font-weight:850;cursor:pointer;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-toggle span{\n    display:none;\n    letter-spacing:.5px;line-height:1;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-grip:focus-visible,\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-toggle:focus-visible{\n    outline:3px solid #47c8ff!important;outline-offset:3px!important;\n  }\n  body:not(.aurel-dark-theme).aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-toggle{\n    color:#fff;background:linear-gradient(180deg,#0b5fab,#0b83c7);\n  }\n}\n@media (max-width:1270px) {\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-resize-grip{display:none!important;}\n}\n@media (prefers-reduced-motion:reduce) {\n  body.aurel-page-overview #root > .aurel-cafef-hero-row,\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > #aurel-cafef-overview{\n    transition:none!important;\n  }\n}\n";
+style.textContent="\n/* Chỉ áp dụng cho trang Tổng quan; không đụng đến trang khác. */\nbody.aurel-page-overview #root > .aurel-cafef-hero-row {\n  --cfh:clamp(430px,37.5vw,605px);\n  display:grid!important;grid-template-columns:minmax(0,2fr) minmax(0,1fr)!important;\n  align-items:stretch!important;gap:14px!important;margin:0 0 14px!important;\n  min-width:0!important;max-width:100%!important;\n}\nbody.aurel-page-overview #root > .aurel-cafef-hero-row > .ref-hero {\n  margin:0!important;min-width:0!important;width:100%!important;\n  height:var(--cfh)!important;min-height:var(--cfh)!important;max-height:var(--cfh)!important;\n  border-radius:14px!important;overflow:hidden!important;\n  box-shadow:0 0 0 1px rgba(37,149,255,.22),0 12px 28px rgba(0,29,65,.14);\n}\nbody.aurel-page-overview #root > .aurel-cafef-hero-row .ref-hero > .aurel-r78-slider-wrap{\n  height:100%!important;width:100%!important;\n}\nbody.aurel-page-overview #root > .aurel-cafef-hero-row .ref-hero-live-copy{\n  max-width:100%!important;\n}\nbody.aurel-page-overview #aurel-cafef-overview {\n  --cf-bg:#07192e;--cf-layer:#0b223c;--cf-line:#173e60;\n  --cf-line-soft:#1a344e;--cf-fg:#eaf5ff;--cf-muted:#a2b5cb;--cf-link:#36b7ff;\n  box-sizing:border-box;min-width:0;min-height:0;max-width:100%;\n  height:var(--cfh);margin:0!important;padding:13px 12px 10px!important;\n  display:flex;flex-direction:column;gap:9px;overflow:hidden;\n  border:1px solid #e13f72;border-radius:15px;\n  background:radial-gradient(ellipse 105% 52% at 9% 0%,rgba(117,26,75,.36),transparent 63%),\n             linear-gradient(165deg,#0c1529,#071a30 45%,#071b31);\n  color:var(--cf-fg);box-shadow:inset 0 0 22px rgba(17,73,134,.13),0 10px 28px rgba(6,17,43,.20);\n  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;\n  line-height:1.4;\n}\nbody.aurel-page-overview #aurel-cafef-overview * {box-sizing:border-box}\n#aurel-cafef-overview .cf-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;min-height:51px}\n#aurel-cafef-overview .cf-logo{font-size:27px;line-height:1;letter-spacing:-1.3px;font-weight:950;color:#ff3c50}\n#aurel-cafef-overview .cf-logo span{color:#197ff7}\n#aurel-cafef-overview .cf-subtitle{font-size:9px;font-weight:720;letter-spacing:.55px;color:#c9d8ec;margin:6px 0 0}\n#aurel-cafef-overview .cf-connection{align-self:flex-start;display:inline-flex;gap:6px;align-items:center;\n  font-size:9px;font-weight:750;max-width:130px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;\n  padding:7px 9px;background:#163144;border:1px solid #265368;border-radius:12px;color:#b3d5e0}\n#aurel-cafef-overview .cf-connection:before{content:\"\";width:7px;height:7px;flex-shrink:0;background:#f0ad4e;border-radius:50%}\n#aurel-cafef-overview .cf-connection.ok{color:#73efb8;border-color:#1d775c;background:#10382f}\n#aurel-cafef-overview .cf-connection.ok:before{background:#1bed97}\n#aurel-cafef-overview .cf-connection.busy:before{background:#4ac2ff;box-shadow:0 0 0 3px rgba(74,194,255,.14)}\n#aurel-cafef-overview .cf-search{display:grid;grid-template-columns:minmax(0,1fr) 108px;gap:8px}\n#aurel-cafef-overview .cf-search-field{display:flex;align-items:center;gap:7px;min-width:0;min-height:43px;\n  padding:0 11px;background:#0e2846;border:1px solid #36597e;border-radius:9px}\n#aurel-cafef-overview .cf-search-field svg{width:18px;height:18px;flex:0 0 auto;color:#79b9ff}\n#aurel-cafef-overview .cf-search-field input{border:0!important;box-shadow:none!important;background:transparent!important;\n  outline:0!important;color:#f8fbff!important;flex:1;min-width:0;width:100%;font-size:14px;\n  font-weight:750;text-transform:uppercase;padding:0!important;height:39px;letter-spacing:.35px}\n#aurel-cafef-overview .cf-search-field input::placeholder{color:#7994ab}\n#aurel-cafef-overview .cf-load{border:1px solid #2288ff;border-radius:9px;min-height:43px;padding:6px 5px;\n  background:linear-gradient(100deg,#159df7,#1261eb);color:#fff;cursor:pointer;font-size:11px;font-weight:850;\n  box-shadow:0 0 14px rgba(5,118,255,.24)}\n#aurel-cafef-overview .cf-load:disabled{opacity:.68;cursor:wait}\n#aurel-cafef-overview .cf-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;min-height:41px}\n#aurel-cafef-overview .cf-tab{min-width:0;cursor:pointer;background:#0b1a30;color:#bdd0e7;\n  border:1px solid #2f628e;border-radius:9px;font-size:11px;font-weight:750;padding:7px 4px;white-space:nowrap}\n#aurel-cafef-overview .cf-tab[aria-selected=\"true\"]{background:linear-gradient(110deg,#008fe7,#135fef);color:white;\n  border-color:#00b8ff;box-shadow:0 0 0 1px rgba(0,190,255,.38),0 0 11px rgba(0,137,255,.26)}\n#aurel-cafef-overview button:focus-visible,#aurel-cafef-overview a:focus-visible,\n#aurel-cafef-overview input:focus-visible{outline:2px solid #57cbff!important;outline-offset:2px!important}\n#aurel-cafef-overview .cf-feed{flex:1;display:grid;grid-template-rows:minmax(0,1fr) minmax(0,1fr);\n  gap:8px;min-height:0;overflow:hidden}\n#aurel-cafef-overview .cf-feed[data-active=\"reports\"]{grid-template-rows:minmax(0,1.1fr) minmax(0,.9fr)}\n#aurel-cafef-overview .cf-feed[data-active=\"news\"]{grid-template-rows:minmax(0,.82fr) minmax(0,1.18fr)}\n#aurel-cafef-overview .cf-group{display:flex;flex-direction:column;min-height:0;min-width:0;overflow:hidden;\n  border:1px solid var(--cf-line);border-radius:10px;background:rgba(14,36,62,.80)}\n#aurel-cafef-overview .cf-group-head{flex:0 0 auto;min-height:32px;display:flex;justify-content:space-between;align-items:center;gap:4px;\n  padding:7px 9px;border-bottom:1px solid rgba(64,107,142,.25)}\n#aurel-cafef-overview .cf-group-head strong{font-size:10px;font-weight:850;color:#f0f7ff;line-height:1.2}\n#aurel-cafef-overview .cf-group-head a{font-size:10px;text-decoration:none;color:#24baff;white-space:nowrap;font-weight:750}\n#aurel-cafef-overview .cf-group-items{flex:1;min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#285477 transparent}\n#aurel-cafef-overview .cf-item{padding:7px 9px;display:grid;grid-template-columns:31px minmax(0,1fr) auto;\n  align-items:center;gap:7px;min-height:47px}\n#aurel-cafef-overview .cf-item + .cf-item{border-top:1px solid rgba(57,104,145,.26)}\n#aurel-cafef-overview .cf-icon{display:flex;align-items:center;justify-content:center;\n  width:29px;height:29px;border-radius:7px;background:#102f4e;color:#2adaff}\n#aurel-cafef-overview .cf-icon svg{width:19px;height:19px}\n#aurel-cafef-overview .cf-item a.cf-title{display:block;font-size:10.5px;font-weight:700;color:#f1f7ff;\n  text-decoration:none;line-height:1.35;max-width:100%;overflow:hidden;text-overflow:ellipsis;\n  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow-wrap:anywhere}\n#aurel-cafef-overview .cf-item a.cf-title:hover{color:#53caff}\n#aurel-cafef-overview .cf-item small{display:block;font-size:9px;color:#93a9c3;margin-top:3px}\n#aurel-cafef-overview .cf-item .cf-action{font-size:9px;font-weight:850;border:1px solid #277db5;\n  text-decoration:none;color:#48c4fb;padding:5px 6px;border-radius:6px;white-space:nowrap}\n#aurel-cafef-overview .cf-empty{padding:15px 10px;display:flex;flex-direction:column;gap:8px;\n  font-size:10.5px;line-height:1.5;color:#b2c5dc}\n#aurel-cafef-overview .cf-empty a{color:#52c7fd;text-decoration:none;font-weight:700}\n#aurel-cafef-overview .cf-footer{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;\n  border-top:1px solid rgba(66,118,154,.22);padding:5px 2px 0;gap:8px;min-height:16px}\n#aurel-cafef-overview .cf-foot-copy{font-size:9px;color:#95a9c1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}\n#aurel-cafef-overview .cf-time{font-size:9px;color:#9fc4dd;white-space:nowrap}\n#aurel-cafef-overview .cf-error{font-size:9.5px;line-height:1.35;color:#ffc4a4;min-height:0;\n  max-height:24px;overflow:hidden}\n#aurel-cafef-overview .cf-error:empty{display:none}\n@media(min-width:1271px) and (max-width:1410px) {\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{\n    grid-template-columns:minmax(0,2fr) minmax(0,1fr)!important\n  }\n  #aurel-cafef-overview .cf-logo{font-size:24px}\n}\n@media(max-width:1270px){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{display:flex!important;flex-direction:column;--cfh:clamp(340px,46vw,490px)}\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > .ref-hero{flex:0 0 auto}\n  body.aurel-page-overview #aurel-cafef-overview{width:100%;height:auto;min-height:350px;max-height:none;padding:14px!important}\n  #aurel-cafef-overview .cf-feed{min-height:270px}\n}\n@media(max-width:760px){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{gap:11px!important;--cfh:clamp(260px,63vw,410px)}\n  body.aurel-page-overview #aurel-cafef-overview{padding:12px!important;gap:8px;min-height:360px}\n  #aurel-cafef-overview .cf-feed{min-height:290px}\n  #aurel-cafef-overview .cf-top{min-height:43px}\n  #aurel-cafef-overview .cf-search{grid-template-columns:minmax(0,1fr) 100px}\n}\n@media(prefers-reduced-motion:reduce) {\n  #aurel-cafef-overview *,#aurel-cafef-overview *:before{transition:none!important;animation:none!important}\n}\n/* Light mode chỉ thay màu của khối CafeF, không đổi các khối khác. */\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview{\n  --cf-layer:#f7fbff;--cf-line:#d5e4f1;--cf-fg:#18354d;--cf-muted:#587086;--cf-link:#006dae;\n  border-color:#6a9cbc;background:linear-gradient(165deg,#fff,#eef7ff);color:#18354d\n}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-subtitle{color:#5b768e}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-search-field{background:#f5faff;border-color:#a6c2da}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-search-field input{color:#18354d!important}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-group{background:#f5faff;border-color:#cfdfeb}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-group-head strong,\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-item a.cf-title{color:#24465d}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-tab{background:#f1f8ff;color:#32516c}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-tab[aria-selected=true]{background:linear-gradient(110deg,#089ad9,#1374ea);color:#fff}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-icon{background:#e2f3ff;color:#118acc}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-item small,\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-footer,\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-foot-copy{color:#617b92}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-empty{color:#587086}\nbody:not(.aurel-dark-theme).aurel-page-overview #aurel-cafef-overview .cf-error{color:#a04323}\n\n\n/* CafeF v7: independent tabs, wider single-pane list, drag the actual hero image. */\n#aurel-cafef-overview .cf-feed{\n  grid-template-rows:minmax(0,1fr)!important;\n  gap:0!important;\n  overflow:hidden!important;\n}\n#aurel-cafef-overview .cf-feed .cf-group{\n  height:100%!important;\n  min-height:0!important;\n  border-radius:11px!important;\n}\n#aurel-cafef-overview .cf-feed .cf-group[hidden]{display:none!important}\n#aurel-cafef-overview .cf-feed .cf-group-items{\n  overflow-x:hidden!important;\n  overflow-y:auto!important;\n  scrollbar-gutter:stable;\n  overscroll-behavior:contain;\n}\n#aurel-cafef-overview .cf-feed .cf-item{\n  padding:10px 10px!important;\n  min-height:59px!important;\n  grid-template-columns:32px minmax(0,1fr) auto!important;\n  gap:10px!important;\n}\n#aurel-cafef-overview .cf-feed .cf-item a.cf-title{\n  font-size:12px!important;\n  -webkit-line-clamp:2!important;\n  line-height:1.5!important;\n}\n#aurel-cafef-overview .cf-feed .cf-item .cf-icon{width:32px!important;height:32px!important}\n#aurel-cafef-overview .cf-feed .cf-item .cf-action{padding:6px 9px!important}\n#aurel-cafef-overview .cf-feed .cf-item small{font-size:10px!important}\n#aurel-cafef-overview .cf-feed .cf-group-head{padding:11px 12px!important}\n#aurel-cafef-overview .cf-feed .cf-group-head strong{font-size:11px!important}\n#aurel-cafef-overview .cf-tabs{margin-bottom:1px}\n#aurel-cafef-overview .cf-empty{\n  padding:19px!important;min-height:145px;justify-content:center;\n  background:radial-gradient(circle at top right,rgba(33,149,240,.08),transparent 58%);\n}\n@media(min-width:1271px){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row{\n    --cf-panel-default:calc((100% - 14px) * .39);\n    --cf-panel-width:var(--cf-panel-default);\n    position:relative!important;\n    grid-template-columns:minmax(0,1fr) minmax(0,var(--cf-panel-width))!important;\n    transition:grid-template-columns .36s cubic-bezier(.22,.65,.3,1),gap .36s ease;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row[data-cf-closed=\"true\"]{\n    --cf-panel-width:0px;\n    grid-template-columns:minmax(0,1fr) 0px!important;\n    gap:0!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row[data-cf-closed=\"true\"] > #aurel-cafef-overview{\n    opacity:0!important;visibility:hidden!important;pointer-events:none!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > #aurel-cafef-overview{\n    opacity:1;min-width:0!important;transition:opacity .22s ease;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row.cf-dragging{\n    transition:none!important;user-select:none!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row.cf-dragging > #aurel-cafef-overview{\n    transition:none!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > .ref-hero{\n    cursor:grab!important;\n    touch-action:pan-y;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row.cf-dragging > .ref-hero{\n    cursor:grabbing!important;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-swipe-hint{\n    position:absolute;z-index:8;bottom:12px;right:14px;max-width:calc(100% - 28px);\n    padding:8px 12px;display:inline-flex;align-items:center;justify-content:center;\n    color:#fff;background:rgba(4,30,59,.68);\n    border:1px solid rgba(169,220,255,.6);border-radius:999px;\n    font-size:11px;line-height:1.3;font-weight:780;letter-spacing:.03px;\n    box-shadow:0 3px 12px rgba(0,0,0,.15);\n    pointer-events:none;user-select:none;\n  }\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > .ref-hero:focus-visible{\n    outline:3px solid #23baff!important;outline-offset:2px!important;\n  }\n}\n@media(max-width:1270px){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row .cf-swipe-hint{display:none!important}\n}\n@media(max-width:760px){\n  #aurel-cafef-overview .cf-feed .cf-item{padding:8px 9px!important;min-height:52px!important}\n  #aurel-cafef-overview .cf-feed .cf-item a.cf-title{font-size:11px!important}\n}\n@media(prefers-reduced-motion:reduce){\n  body.aurel-page-overview #root > .aurel-cafef-hero-row,\n  body.aurel-page-overview #root > .aurel-cafef-hero-row > #aurel-cafef-overview{\n    transition:none!important\n  }\n}\n";
 document.head.appendChild(style);
 
 var cache=new Map(),active='reports',running=null,queued=false;
@@ -64,9 +64,9 @@ function updateLists(data){
  if(!pane)return;
  var sym=String(pane.dataset.symbol||'').toUpperCase(),p=links(sym);
  var reports=getItems(data,'reports');
- var news=getItems(data,'disclosures');
+ var news=getItems(data,'disclosures').filter(function(x){return x.type!=='bctc'});
  var market=getItems(data,'market_news');
- /* Tin thị trường không phải tin riêng của mã; chỉ dùng khi phân biệt minh bạch. */
+ /* Public market RSS is NOT symbol-specific. Clearly label it if used. */
  var mainNews=news.length?news:market;
  var isGeneral=!news.length&&market.length>0;
  var reportTitle=document.getElementById('cf-report-head');
@@ -76,17 +76,26 @@ function updateLists(data){
  if(reportTitle)reportTitle.textContent='BÁO CÁO TÀI CHÍNH '+(reports.length?'('+reports.length+')':'MỚI NHẤT');
  if(newsTitle)newsTitle.textContent=isGeneral?'TIN THỊ TRƯỜNG CAFEF':'TIN TỨC & CÔNG BỐ';
  if(rlinks)rlinks.href=p.financial;
- if(nlinks)nlinks.href=p.disclosures;
+ if(nlinks)nlinks.href=isGeneral?'https://cafef.vn/thi-truong-chung-khoan.chn':p.disclosures;
  var left=document.getElementById('cf-report-items'),right=document.getElementById('cf-news-items');
- if(left)left.innerHTML=drawItems(reports,active==='reports'?6:3,'reports',sym);
- if(right)right.innerHTML=drawItems(mainNews,active==='news'?7:4,'news',sym);
+ if(left)left.innerHTML=drawItems(reports,25,'reports',sym);
+ if(right)right.innerHTML=drawItems(mainNews,25,'news',sym);
  updateFooter(data);
  var msg=document.getElementById('cf-errors');
- if(msg)msg.textContent=(data&&Array.isArray(data.messages)&&data.messages.length)?data.messages.join(' · '):'';
- var feed=document.querySelector('#aurel-cafef-overview .cf-feed');
+ if(msg)msg.textContent=data&&Array.isArray(data.messages)&&data.messages.length?data.messages.join(' · '):'';
+ var feed=pane.querySelector('.cf-feed');
  if(feed)feed.setAttribute('data-active',active);
- document.querySelectorAll('#aurel-cafef-overview .cf-tab').forEach(function(t){
-   t.setAttribute('aria-selected',t.dataset.tab===active?'true':'false');
+ pane.querySelectorAll('.cf-group[data-view]').forEach(function(group){
+   var visible=group.dataset.view===active;
+   group.hidden=!visible;
+   group.setAttribute('aria-hidden',visible?'false':'true');
+   if(visible)group.removeAttribute('inert');
+   else group.setAttribute('inert','');
+ });
+ pane.querySelectorAll('.cf-tab').forEach(function(tab){
+   var selected=tab.dataset.tab===active;
+   tab.setAttribute('aria-selected',selected?'true':'false');
+   tab.tabIndex=selected?0:-1;
  });
 }
 function apiBase(){
@@ -205,14 +214,14 @@ function makeCard(symbol){
  '<input id="aurel-cafef-symbol" type="text" aria-label="Nhập mã cổ phiếu CafeF" maxlength="6" autocomplete="off" spellcheck="false" value="'+esc(symbol)+'" placeholder="Mã cổ phiếu"></label>'+
  '<button id="aurel-cafef-load" class="cf-load" type="button">Lấy dữ liệu</button></div>'+
  '<div class="cf-tabs" role="tablist" aria-label="Loại dữ liệu CafeF">'+
- '<button type="button" class="cf-tab" role="tab" data-tab="reports" aria-selected="true">Báo cáo tài chính</button>'+
- '<button type="button" class="cf-tab" role="tab" data-tab="news" aria-selected="false">Tin doanh nghiệp</button></div>'+
+ '<button type="button" class="cf-tab" role="tab" data-tab="reports" aria-controls="cf-report-panel" aria-selected="true">Báo cáo tài chính</button>'+
+ '<button type="button" class="cf-tab" role="tab" data-tab="news" aria-controls="cf-news-panel" aria-selected="false" tabindex="-1">Tin doanh nghiệp</button></div>'+
  '<div class="cf-feed" data-active="reports">'+
- '<section class="cf-group" aria-label="Báo cáo tài chính">'+
+ '<section class="cf-group" data-view="reports" aria-label="Báo cáo tài chính" id="cf-report-panel" role="tabpanel">'+
  '<div class="cf-group-head"><strong id="cf-report-head">BÁO CÁO TÀI CHÍNH MỚI NHẤT</strong>'+
  '<a id="cf-reports-link" href="'+esc(links(symbol).financial)+'" target="_blank" rel="noopener noreferrer">Xem tất cả →</a></div>'+
  '<div class="cf-group-items" id="cf-report-items"></div></section>'+
- '<section class="cf-group" aria-label="Tin tức doanh nghiệp">'+
+ '<section class="cf-group" data-view="news" aria-label="Tin tức doanh nghiệp" id="cf-news-panel" role="tabpanel" hidden>'+
  '<div class="cf-group-head"><strong id="cf-news-head">TIN TỨC &amp; CÔNG BỐ</strong>'+
  '<a id="cf-news-link" href="'+esc(links(symbol).disclosures)+'" target="_blank" rel="noopener noreferrer">Xem tất cả →</a></div>'+
  '<div class="cf-group-items" id="cf-news-items"></div></section></div>'+
@@ -222,124 +231,92 @@ function makeCard(symbol){
  return card;
 }
 
-/* Resize handle (no images, financial calculations, API handlers or slides are touched). */
+/* Drag directly on the Overview hero. No overlay button or grab handle. */
 var CF_PANEL_KEY='aurel-cafef-panel-hidden-v1';
 var cfPanelHidden=false;
 try{cfPanelHidden=localStorage.getItem(CF_PANEL_KEY)==='1'}catch(e){}
 function cfDesktop(){return window.matchMedia&&window.matchMedia('(min-width:1271px)').matches}
 function cfSetPanel(row,hidden,persist){
-  if(!row)return;
-  cfPanelHidden=!!hidden;
-  row.dataset.cfClosed=hidden?'true':'false';
-  row.style.removeProperty('--cf-panel-width');
-  var card=row.querySelector('#aurel-cafef-overview');
-  if(card){
-    if(cfDesktop()&&hidden)card.setAttribute('inert','');
-    else card.removeAttribute('inert');
-    card.setAttribute('aria-hidden',cfDesktop()&&hidden?'true':'false');
-  }
-  var h=row.querySelector('.cf-resize-grip');
-  if(h){
-    h.setAttribute('aria-valuenow',hidden?'0':'100');
-    h.setAttribute('aria-valuetext',hidden?'CafeF đang ẩn':'CafeF đang hiển thị');
-  }
-  var btn=row.querySelector('.cf-resize-toggle');
-  if(btn){
-    btn.setAttribute('aria-label',hidden?'Mở CafeF bên phải ảnh Tổng quan':'Ẩn CafeF, mở rộng ảnh Tổng quan');
-    btn.setAttribute('aria-expanded',hidden?'false':'true');
-    btn.innerHTML=(hidden?'❮':'❯')+'<span>'+(hidden?'Mở CafeF':'Ẩn CafeF')+'</span>';
-  }
-  if(persist){
-    try{localStorage.setItem(CF_PANEL_KEY,hidden?'1':'0')}catch(e){}
-  }
+ if(!row)return;
+ cfPanelHidden=!!hidden;
+ row.dataset.cfClosed=hidden?'true':'false';
+ row.style.removeProperty('--cf-panel-width');
+ var card=row.querySelector('#aurel-cafef-overview');
+ if(card){
+   if(cfDesktop()&&hidden)card.setAttribute('inert','');
+   else card.removeAttribute('inert');
+   card.setAttribute('aria-hidden',cfDesktop()&&hidden?'true':'false');
+ }
+ var hint=row.querySelector('.cf-swipe-hint');
+ if(hint)hint.textContent=hidden?'← Kéo sang trái để mở CafeF':'Kéo sang phải để ẩn CafeF →';
+ var hero=row.querySelector('.ref-hero');
+ if(hero){
+   hero.setAttribute('aria-label',hidden?'Tổng quan tài chính. Kéo sang trái hoặc nhấn mũi tên trái để mở CafeF.':'Tổng quan tài chính. Kéo sang phải hoặc nhấn mũi tên phải để ẩn CafeF.');
+ }
+ if(persist)try{localStorage.setItem(CF_PANEL_KEY,hidden?'1':'0')}catch(e){}
 }
-function cfInstallResizer(row){
-  if(!row||row.querySelector('.cf-resize-grip'))return;
-  var grip=document.createElement('div');
-  grip.className='cf-resize-grip';
-  grip.setAttribute('role','separator');
-  grip.setAttribute('tabindex','0');
-  grip.setAttribute('aria-orientation','vertical');
-  grip.setAttribute('aria-label','Kéo sang phải để ẩn CafeF, kéo sang trái để mở. Phím mũi tên cũng dùng được.');
-  grip.setAttribute('aria-valuemin','0');
-  grip.setAttribute('aria-valuemax','100');
-  grip.setAttribute('title','Kéo để ẩn hoặc mở CafeF');
-  var btn=document.createElement('button');
-  btn.type='button';
-  btn.className='cf-resize-toggle';
-  btn.setAttribute('aria-controls','aurel-cafef-overview');
-  var dots=document.createElement('span');
-  dots.className='cf-resize-dots';
-  dots.setAttribute('aria-hidden','true');
-  dots.textContent='⋮';
-  grip.appendChild(dots);
-  grip.appendChild(btn);
-  row.appendChild(grip);
-  cfSetPanel(row,cfPanelHidden,false);
-  btn.addEventListener('click',function(e){
-    e.preventDefault();
-    e.stopPropagation();
-    cfSetPanel(row,!cfPanelHidden,true);
-  });
-  grip.addEventListener('keydown',function(e){
-    if(!cfDesktop())return;
-    if(e.target===btn)return; // Native button handles Enter/Space.
-    if(e.key==='ArrowRight'||e.key==='End'){
-      e.preventDefault();cfSetPanel(row,true,true);
-    } else if(e.key==='ArrowLeft'||e.key==='Home'){
-      e.preventDefault();cfSetPanel(row,false,true);
-    } else if(e.key==='Enter'||e.key===' '){
-      e.preventDefault();cfSetPanel(row,!cfPanelHidden,true);
-    }
-  });
-  var move=null;
-  grip.addEventListener('pointerdown',function(e){
-    if(!cfDesktop()||e.button!==0||e.target.closest('.cf-resize-toggle'))return;
-    e.preventDefault();
-    var rect=row.getBoundingClientRect();
-    var card=row.querySelector('#aurel-cafef-overview');
-    if(!card)return;
-    var wasHidden=cfPanelHidden;
-    var initialWidth=wasHidden?0:card.getBoundingClientRect().width;
-    if(!initialWidth&&!wasHidden)return;
-    // Saved expanded width from the actual old grid ratio, not a guessed number.
-    var total=rect.width;
-    var defaultWidth=total>0?Math.max(0,(total-14)*.322581):330;
-    move={id:e.pointerId,startX:e.clientX,width:initialWidth,oldHidden:wasHidden,max:defaultWidth,moved:false};
-    row.dataset.cfClosed='false';
-    row.classList.add('cf-dragging');
-    card.removeAttribute('inert');
-    card.setAttribute('aria-hidden','false');
-    row.style.setProperty('--cf-panel-width',initialWidth+'px');
-    try{grip.setPointerCapture(e.pointerId)}catch(err){}
-  });
-  grip.addEventListener('pointermove',function(e){
-    if(!move||e.pointerId!==move.id)return;
-    var delta=e.clientX-move.startX;
-    if(Math.abs(delta)>=3)move.moved=true;
-    var width=Math.max(0,Math.min(move.max,move.width-delta));
-    row.style.setProperty('--cf-panel-width',width+'px');
-  });
-  function finish(e,aborted){
-    if(!move||e.pointerId!==move.id)return;
-    var d=move;
-    move=null;
-    row.classList.remove('cf-dragging');
-    try{if(grip.hasPointerCapture(e.pointerId))grip.releasePointerCapture(e.pointerId)}catch(err){}
-    if(aborted){cfSetPanel(row,d.oldHidden,false);return}
-    var delta=e.clientX-d.startX;
-    // A deliberate swipe of at least 55 px toggles, a mere click does nothing.
-    var change=d.oldHidden?(delta<=-55):(delta>=55);
-    cfSetPanel(row,change?!d.oldHidden:d.oldHidden,change);
-  }
-  grip.addEventListener('pointerup',function(e){finish(e,false)});
-  grip.addEventListener('pointercancel',function(e){finish(e,true)});
+function cfInstallHeroSwipe(row){
+ if(!row)return;
+ var hero=row.querySelector('.ref-hero');
+ if(!hero||hero.dataset.cfHeroSwipeReady==='1')return;
+ hero.dataset.cfHeroSwipeReady='1';
+ hero.tabIndex=0;
+ var hint=document.createElement('span');
+ hint.className='cf-swipe-hint';
+ hint.setAttribute('aria-hidden','true');
+ hero.appendChild(hint);
+ cfSetPanel(row,cfPanelHidden,false);
+ hero.addEventListener('dragstart',function(e){if(cfDesktop())e.preventDefault()});
+ hero.addEventListener('keydown',function(e){
+   if(!cfDesktop()||e.target!==hero)return;
+   if(e.key==='ArrowLeft'||e.key==='Home'){e.preventDefault();cfSetPanel(row,false,true)}
+   else if(e.key==='ArrowRight'||e.key==='End'){e.preventDefault();cfSetPanel(row,true,true)}
+ });
+ var gesture=null;
+ hero.addEventListener('pointerdown',function(e){
+   if(!cfDesktop()||e.button!==0||!e.isPrimary)return;
+   if(e.target.closest&&e.target.closest('a,button,input,select,textarea,[role="button"]'))return;
+   var maxWidth=Math.max(0,(row.getBoundingClientRect().width-14)*.39);
+   if(!maxWidth)return;
+   var oldHidden=cfPanelHidden;
+   var startWidth=oldHidden?0:Math.max(0,row.querySelector('#aurel-cafef-overview').getBoundingClientRect().width);
+   gesture={id:e.pointerId,x:e.clientX,y:e.clientY,startWidth:startWidth,maxWidth:maxWidth,wasHidden:oldHidden,moving:false};
+   try{hero.setPointerCapture(e.pointerId)}catch(err){}
+ });
+ hero.addEventListener('pointermove',function(e){
+   if(!gesture||gesture.id!==e.pointerId)return;
+   var dx=e.clientX-gesture.x,dy=e.clientY-gesture.y;
+   if(!gesture.moving){
+     if(Math.abs(dx)<9||Math.abs(dx)<Math.abs(dy)*1.1)return;
+     gesture.moving=true;
+     row.classList.add('cf-dragging');
+     row.dataset.cfClosed='false';
+     var card=row.querySelector('#aurel-cafef-overview');
+     if(card){card.removeAttribute('inert');card.setAttribute('aria-hidden','false')}
+   }
+   if(e.cancelable)e.preventDefault();
+   var newWidth=Math.max(0,Math.min(gesture.maxWidth,gesture.startWidth-dx));
+   row.style.setProperty('--cf-panel-width',newWidth+'px');
+ });
+ function endDrag(e,cancelled){
+   if(!gesture||gesture.id!==e.pointerId)return;
+   var g=gesture;
+   gesture=null;
+   row.classList.remove('cf-dragging');
+   try{if(hero.hasPointerCapture(e.pointerId))hero.releasePointerCapture(e.pointerId)}catch(err){}
+   if(cancelled||!g.moving){cfSetPanel(row,g.wasHidden,false);return}
+   var dx=e.clientX-g.x;
+   var intended=g.wasHidden?dx<=-65:dx>=65;
+   cfSetPanel(row,intended?!g.wasHidden:g.wasHidden,intended);
+ }
+ hero.addEventListener('pointerup',function(e){endDrag(e,false)});
+ hero.addEventListener('pointercancel',function(e){endDrag(e,true)});
+ hero.addEventListener('lostpointercapture',function(e){if(gesture)endDrag(e,true)});
 }
 window.addEventListener('resize',function(){
-  var row=document.querySelector('#root > .aurel-cafef-hero-row');
-  if(row)cfSetPanel(row,cfPanelHidden,false);
+ var row=document.querySelector('#root > .aurel-cafef-hero-row');
+ if(row)cfSetPanel(row,cfPanelHidden,false);
 },{passive:true});
-
 function inject(){
  var root=document.getElementById('root');
  if(!root||!document.body.classList.contains('aurel-page-overview'))return;
@@ -348,7 +325,7 @@ function inject(){
  var hero=root.querySelector(':scope > .ref-hero');
  var previous=root.querySelector(':scope > .aurel-cafef-hero-row');
  if(previous){
-  cfInstallResizer(previous);
+  cfInstallHeroSwipe(previous);
   var card=previous.querySelector('#aurel-cafef-overview');
   var symbol=bankSymbol();
   if(card&&symbol&&card.dataset.symbol!==symbol)refreshSymbol(symbol,true);
@@ -361,7 +338,7 @@ function inject(){
  root.insertBefore(row,hero);
  row.appendChild(hero);
  row.appendChild(card);
- cfInstallResizer(row);
+ cfInstallHeroSwipe(row);
  prepare(symbol,getData(symbol));
  load(symbol,true);
 }
@@ -387,6 +364,14 @@ document.addEventListener('click',function(e){
  }
 });
 document.addEventListener('keydown',function(e){
+ var tab=e.target&&e.target.closest?e.target.closest('#aurel-cafef-overview .cf-tab'):null;
+ if(tab&&(e.key==='ArrowLeft'||e.key==='ArrowRight')){
+   e.preventDefault();
+   var next=tab.dataset.tab==='reports'?'news':'reports';
+   var dest=document.querySelector('#aurel-cafef-overview .cf-tab[data-tab="'+next+'"]');
+   if(dest){dest.click();dest.focus()}
+   return;
+ }
  if(e.key==='Enter'&&e.target&&e.target.id==='aurel-cafef-symbol'){
   e.preventDefault();var btn=document.getElementById('aurel-cafef-load');if(btn)btn.click()
  }
