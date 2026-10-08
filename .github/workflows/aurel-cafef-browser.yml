@@ -59,6 +59,7 @@ jobs:
             }
             const open=await measure();
             console.log('DESKTOP OPEN',JSON.stringify(open));
+            await page.screenshot({path:'aurel-cafef-open.png'});
             assert.equal(open.objectFit,'cover');
             assert.ok(Math.abs(open.hero.height-512.25)<12,'unexpected hero frame height');
             assert.ok(open.bg.includes('url('),'dynamic backdrop missing');
@@ -77,6 +78,7 @@ jobs:
             await page.waitForTimeout(450);
             const hidden=await measure();
             console.log('DESKTOP HIDDEN',JSON.stringify(hidden));
+            await page.screenshot({path:'aurel-cafef-hidden.png'});
             assert.equal(hidden.closed,'true');
             assert.ok(hidden.hero.width>open.hero.width+100,'hero did not widen');
             assert.equal(hidden.objectFit,'cover','hidden full-width frame should remain full-bleed');
@@ -87,6 +89,38 @@ jobs:
                       heroWidth:hero.width,heroHeight:hero.height,url:img.getAttribute('src')?.slice(-62)}
             }));
             console.log('HERO SLIDE GEOMETRY',JSON.stringify(slideCheck));
+
+            // Verify each of the four daytime pictures has no legacy per-image
+            // horizontal/vertical scale, including images not currently on screen.
+            const lightFiles=[
+              'aurel_t1_horizontal_user_20261001.png',
+              'aurel_t3_horizontal_user_20261001.png',
+              'aurel_t5_horizontal_user_20261001.png',
+              'aurel_t7_horizontal_user_20261001.png'
+            ];
+            const fourSlides=await page.evaluate(names=>{
+              const wrap=document.querySelector('#root > .aurel-cafef-hero-row .ref-hero .aurel-r78-slider-wrap');
+              const outer=wrap.getBoundingClientRect();
+              return names.map(filename=>{
+                const probe=document.createElement('img');
+                probe.className='aurel-r78-slider-img';
+                probe.setAttribute('src','data:image/svg+xml,%3Csvg/%3E#'+filename);
+                probe.style.visibility='hidden';
+                wrap.appendChild(probe);
+                const r=probe.getBoundingClientRect(),c=getComputedStyle(probe);
+                const result={filename, fit:c.objectFit, scale:c.scale, x:r.x, y:r.y,
+                  width:r.width, height:r.height, parentWidth:outer.width,parentHeight:outer.height};
+                probe.remove();
+                return result;
+              });
+            },lightFiles);
+            console.log('FOUR ORIGINAL HERO PHOTO GEOMETRIES',JSON.stringify(fourSlides));
+            fourSlides.forEach(slide=>{
+              assert.equal(slide.fit,'cover','hero photo must cover frame');
+              assert.ok(Math.abs(slide.width-slide.parentWidth)<2,'photo has unexpected horizontal scale: '+slide.filename);
+              assert.ok(Math.abs(slide.height-slide.parentHeight)<2,'photo has unexpected vertical scale: '+slide.filename);
+            });
+
             assert.equal(slideCheck.length,2,'two-frame slider changed');
             slideCheck.forEach(img=>{
               assert.equal(img.fit,'cover');
@@ -118,3 +152,12 @@ jobs:
             console.log('BROWSER CHECK PASS: proportion, backdrop, caption, full swipe, tabs, mobile');
           })().catch(e=>{console.error('BROWSER REGRESSION FAILED',e);process.exit(1)});
           NODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: aurel-cafef-browser-screenshots
+          path: |
+            aurel-cafef-open.png
+            aurel-cafef-hidden.png
+          if-no-files-found: ignore
+          retention-days: 3
