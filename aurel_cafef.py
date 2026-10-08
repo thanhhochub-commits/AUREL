@@ -89,13 +89,22 @@ def _company_disclosures(symbol, url):
             continue
         if len(title) < 16 or len(title) > 240 or not parsed.path.lower().endswith(".chn"):
             continue
-        low = title.lower()
-        if any(x in low for x in ("xem thêm", "xem tất cả", "cập nhật dữ liệu", "thị trường chứng khoán")):
+        # Only the requested company's own disclosures are eligible.
+        # Generic cross-company headlines appear around the event table and
+        # must not be mistaken for statements of this selected company.
+        if not re.match(r"^\\s*" + re.escape(symbol) + r"\\s*:", title, re.I):
             continue
+        low = title.lower()
         if (title, href) in seen:
             continue
         seen.add((title, href))
-        is_report = bool(re.search(r"báo cáo tài chính|bctc|financial statements", title, re.I))
+        # A commentary ABOUT a BCTC is not the financial statement itself.
+        # Keep these reports separate so the UI never advertises a fake PDF.
+        headline = re.sub(r"^\\s*" + re.escape(symbol) + r"\\s*:\\s*", "", title, flags=re.I)
+        is_report = bool(re.match(
+            r"^(?:báo cáo tài chính|bctc)(?:\\s|$)|^báo cáo bán niên.*tài chính",
+            headline, re.I,
+        ))
         # The dedicated symbol disclosures page is the source context.
         results.append({"title": title[:220], "url": href, "type": "bctc" if is_report else "cong_bo", "source": "CafeF - công bố doanh nghiệp"})
         if len(results) >= 45:
