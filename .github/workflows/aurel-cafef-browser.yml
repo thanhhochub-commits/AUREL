@@ -59,7 +59,8 @@ jobs:
             }
             const open=await measure();
             console.log('DESKTOP OPEN',JSON.stringify(open));
-            assert.equal(open.objectFit,'contain');
+            assert.equal(open.objectFit,'cover');
+            assert.ok(Math.abs(open.hero.height-512.25)<12,'unexpected hero frame height');
             assert.ok(open.bg.includes('url('),'dynamic backdrop missing');
             assert.ok(open.hint.y>=open.hero.bottom-1,'swipe caption is not below hero');
             assert.ok(open.cafe.width>300,'CafeF panel width unexpectedly narrow');
@@ -78,6 +79,20 @@ jobs:
             console.log('DESKTOP HIDDEN',JSON.stringify(hidden));
             assert.equal(hidden.closed,'true');
             assert.ok(hidden.hero.width>open.hero.width+100,'hero did not widen');
+            assert.equal(hidden.objectFit,'cover','hidden full-width frame should remain full-bleed');
+            assert.equal(hidden.cafe.width,0,'closed CafeF should be fully collapsed');
+            const slideCheck=await page.evaluate(()=>Array.from(document.querySelectorAll('#root > .aurel-cafef-hero-row .ref-hero .aurel-r78-slider-img')).map(img=>{
+              const r=img.getBoundingClientRect(),hero=img.parentElement.getBoundingClientRect();
+              return {fit:getComputedStyle(img).objectFit, width:r.width, height:r.height,
+                      heroWidth:hero.width,heroHeight:hero.height,url:img.getAttribute('src')?.slice(-62)}
+            }));
+            console.log('HERO SLIDE GEOMETRY',JSON.stringify(slideCheck));
+            assert.equal(slideCheck.length,2,'two-frame slider changed');
+            slideCheck.forEach(img=>{
+              assert.equal(img.fit,'cover');
+              assert.ok(Math.abs(img.width-img.heroWidth)<2,'slide not spanning frame width');
+              assert.ok(Math.abs(img.height-img.heroHeight)<2,'slide not spanning frame height');
+            });
             assert.ok(hidden.hintText.includes('Kéo sang trái để mở CafeF'));
             // Simulate an actual swipe from the hero to open, not just a key press.
             const start=await page.locator('#root > .aurel-cafef-hero-row > .ref-hero').boundingBox();
