@@ -33,9 +33,12 @@ jobs:
             const page=await browser.newPage({viewport:{width:1366,height:768},deviceScaleFactor:1});
             const errors=[];
             page.on('pageerror',e=>errors.push(e.message));
-            const url='file://'+process.cwd()+'/financial-intelligence.html';
+            const url='https://thanhhochub-commits.github.io/AUREL/financial-intelligence.html?cfBrowserCheck=1';
             await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
-            await page.locator('#aurel-cafef-overview').waitFor({state:'attached',timeout:30000});
+            await page.locator('#aurel-cafef-overview').waitFor({state:'attached',timeout:30000}).catch(async error=>{
+              console.error('LIVE PAGE DIAGNOSTICS',await page.evaluate(()=>({title:document.title,root:!!document.getElementById('root'),rootText:(document.getElementById('root')?.textContent||'').slice(0,400),bodyClass:document.body.className})),errors.slice(0,12));
+              throw error;
+            });
             await page.waitForTimeout(1300);
             async function measure(){
               return await page.evaluate(()=>{
