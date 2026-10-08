@@ -2823,13 +2823,33 @@ def retrieve_sources(rows,docs,bank,year,task,query=''):
 
 
 
+def _clean_gemini_key(value):
+    """Normalize a Gemini key copied from environment panels or Google AI Studio."""
+    token=str(value or '').strip()
+    for prefix in ('GEMINI_API_KEY=','GOOGLE_API_KEY=','GOOGLE_GENERATIVE_AI_API_KEY='):
+        if token.upper().startswith(prefix):
+            token=token.split('=',1)[1].strip()
+            break
+    if len(token)>=2 and token[0]==token[-1] and token[0] in ('"', "'"):
+        token=token[1:-1].strip()
+    return token
+
+
+def _gemini_env_key():
+    for name in ('GEMINI_API_KEY','GOOGLE_API_KEY','GOOGLE_GENERATIVE_AI_API_KEY'):
+        token=_clean_gemini_key(os.getenv(name,''))
+        if token:
+            return token
+    return ''
+
+
 def gemini_credentials():
     with STORE.lock:
-        token=(STORE.gemini_session_key or '').strip()
+        token=_clean_gemini_key(STORE.gemini_session_key)
     if not token:
-        token=os.getenv('GEMINI_API_KEY','').strip()
+        token=_gemini_env_key()
     if not token:
-        raise ValueError('Chưa có khóa Gemini. Nhập API key tại mục Kết nối AI hoặc cấu hình biến môi trường máy chủ với GEMINI_API_KEY.')
+        raise ValueError('Chưa có khóa Gemini hợp lệ. Nhập API key tại mục Kết nối AI hoặc cấu hình GEMINI_API_KEY/GOOGLE_API_KEY trên máy chủ.')
     configured=(os.getenv('AUREL_GEMINI_MODEL','gemini-3-flash-preview').strip() or 'gemini-3-flash-preview')
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}', configured):
         raise ValueError('Tên mô hình Gemini không hợp lệ.')
@@ -3760,9 +3780,10 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/pdf/job':
                 return self.reply(pdf_job_status(query.get('id',[''])[0]))
             if path=='/api/ai/key/status':
-                with STORE.lock: has_session_key=bool(STORE.gemini_session_key)
-                return self.reply({'configured':bool(has_session_key or os.getenv('GEMINI_API_KEY','').strip()),
-                                   'source':'session' if has_session_key else ('colab' if os.getenv('GEMINI_API_KEY','').strip() else 'none')})
+                with STORE.lock: has_session_key=bool(_clean_gemini_key(STORE.gemini_session_key))
+                has_env_key=bool(_gemini_env_key())
+                return self.reply({'configured':bool(has_session_key or has_env_key),
+                                   'source':'session' if has_session_key else ('environment' if has_env_key else 'none')})
             if path=='/api/document':
                 name=query.get('name',[''])[0];page=int(query.get('page',['1'])[0])
                 with STORE.lock:
@@ -3842,14 +3863,21 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/evaluation/export':
                 return self.reply(evaluation_csv_payload(str(data.get('bank','')).upper(),int(data.get('year')),data.get('manual') or {}))
             if path=='/api/ai/key':
-                key=str(data.get('key','')).strip()
+                key=_clean_gemini_key(data.get('key',''))
                 if len(key)<20 or len(key)>512 or not re.fullmatch(r'[-A-Za-z0-9._~+/=]{20,512}',key):
                     raise ValueError('Khóa API không đúng định dạng dự kiến. Hãy kiểm tra khóa trên Google AI Studio.')
-                with STORE.lock: STORE.gemini_session_key=key
-                return self.reply({'configured':True,'message':'Đã nhận khóa cho phiên hiện tại. Nhấn Kiểm tra kết nối để xác minh với Gemini.'})
+                with STORE.lock:
+                    previous_key=STORE.gemini_session_key
+                    STORE.gemini_session_key=key
+                try:
+                    checked=gemini_connection_check()
+                except Exception:
+                    with STORE.lock: STORE.gemini_session_key=previous_key
+                    raise
+                return self.reply({'configured':True,'model':checked.get('model'),'message':'Khóa Gemini hợp lệ và đã được xác minh. Kết nối AI đã sẵn sàng.'})
             if path=='/api/ai/key/clear':
                 with STORE.lock: STORE.gemini_session_key=None
-                fallback=bool(os.getenv('GEMINI_API_KEY','').strip())
+                fallback=bool(_gemini_env_key())
                 return self.reply({'configured':fallback,'message':'Đã xóa khóa nhập trên web.'+(' Khóa từ biến môi trường máy chủ vẫn đang được sử dụng.' if fallback else '')})
             if path=='/api/ai/check':
                 return self.reply(gemini_connection_check())
