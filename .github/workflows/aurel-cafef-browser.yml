@@ -51,7 +51,7 @@ jobs:
                 const bg=wrap?getComputedStyle(wrap,'::before').backgroundImage:'';
                 const rect=e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,bottom:r.bottom}};
                 return {row:rect(row),hero:rect(hero),cafe:rect(cafe),hint:hint?rect(hint):null,
-                  hintText:hint?.textContent, closed:row.dataset.cfClosed,
+                  hintText:hint?.textContent, hintAlign:hint?getComputedStyle(hint).justifyContent:null, closed:row.dataset.cfClosed,
                   objectFit:img?getComputedStyle(img).objectFit:null,
                   bg:bg.slice(0,110),overflow:document.documentElement.scrollWidth-innerWidth,
                   hasButton:!!row.querySelector('.cf-resize-grip,.cf-resize-toggle')};
@@ -64,6 +64,7 @@ jobs:
             assert.ok(Math.abs(open.hero.height-512.25)<12,'unexpected hero frame height');
             assert.ok(open.bg.includes('url('),'dynamic backdrop missing');
             assert.ok(open.hint.y>=open.hero.bottom-1,'swipe caption is not below hero');
+            assert.equal(open.hintAlign,'flex-start','swipe hint must be aligned left');
             assert.ok(open.cafe.width>300,'CafeF panel width unexpectedly narrow');
             assert.equal(open.hasButton,false,'previous blue slider remains');
             await page.locator('#aurel-cafef-overview .cf-tab[data-tab="news"]').click();
@@ -127,7 +128,7 @@ jobs:
               assert.ok(Math.abs(img.width-img.heroWidth)<2,'slide not spanning frame width');
               assert.ok(Math.abs(img.height-img.heroHeight)<2,'slide not spanning frame height');
             });
-            assert.ok(hidden.hintText.includes('Kéo sang trái để mở CafeF'));
+            assert.ok(hidden.hintText.includes('Kéo sang trái để mở CAFEF'));
             // Simulate an actual swipe from the hero to open, not just a key press.
             const start=await page.locator('#root > .aurel-cafef-hero-row > .ref-hero').boundingBox();
             const x=start.x+Math.floor(start.width*.72),y=start.y+Math.floor(start.height*.63);
