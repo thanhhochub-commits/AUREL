@@ -3960,6 +3960,8 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/ai/chat':
                 return self.reply(ai_chat(data.get('question',''),data.get('history',[])))
             if path=='/api/ai':
+                if str(data.get('task','')).lower()=='chat':
+                    return self.reply(ai_chat(data.get('question',''),data.get('history',[])))
                 return self.reply(ai_task(str(data.get('bank','')).upper(),int(data.get('year')),
                     str(data.get('task','')),str(data.get('question',''))))
             if path=='/api/brevo/check':
