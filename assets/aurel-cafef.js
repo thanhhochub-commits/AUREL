@@ -158,6 +158,7 @@ async function load(symbol,auto){
    if(!getItems(data,'reports').length&&!getItems(data,'disclosures').length&&!getItems(data,'market_news').length)throw new Error('Render chưa trả danh sách CafeF hợp lệ');
    if(running===ctrl){
      cache.set(symbol,{at:Date.now(),data:data});prepare(symbol,data);
+     running=null;var successButton=document.getElementById('aurel-cafef-load');if(successButton)successButton.disabled=false;
    }
    return;
  }catch(e){failure=ctrl.signal.aborted?'Render quá thời gian phản hồi':(e&&e.message?e.message:'Render không phản hồi')}
