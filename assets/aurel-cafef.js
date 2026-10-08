@@ -108,35 +108,79 @@ function prepare(symbol,data){
   else status('','Nguồn tạm thiếu');
  }else status('','Chưa kết nối');
 }
+
+var sharedSnapshot=null,sharedSnapshotPromise=null;
+async function readStaticSnapshot(){
+ if(sharedSnapshot)return sharedSnapshot;
+ if(sharedSnapshotPromise)return sharedSnapshotPromise;
+ sharedSnapshotPromise=(async function(){
+   var url='https://raw.githubusercontent.com/thanhhochub-commits/AUREL/main/assets/cafef-cache.json';
+   var ctrl=new AbortController();
+   var timer=setTimeout(function(){ctrl.abort()},13000);
+   try{
+     var res=await fetch(url+'?t='+Math.floor(Date.now()/300000),{method:'GET',cache:'no-store',signal:ctrl.signal});
+     if(!res.ok)throw new Error('GitHub cache HTTP '+res.status);
+     var obj=await res.json();
+     if(!obj||obj.source!=='CafeF'||!obj.symbols||typeof obj.symbols!=='object')throw new Error('Invalid cache schema');
+     sharedSnapshot=obj;
+     return obj;
+   }finally{clearTimeout(timer)}
+ })();
+ try{return await sharedSnapshotPromise}
+ finally{sharedSnapshotPromise=null}
+}
+async function loadFromStatic(symbol){
+ var obj=await readStaticSnapshot();
+ var data=obj.symbols[symbol];
+ if(!data||data.symbol!==symbol||!['ok','source_unavailable'].includes(data.status))throw new Error('Không có nguồn dự phòng cho '+symbol);
+ if(!getItems(data,'reports').length&&!getItems(data,'disclosures').length&&!getItems(data,'market_news').length)throw new Error('Nguồn lưu chưa có tin đã xác minh');
+ return data;
+}
 async function load(symbol,auto){
  if(!symbolOk(symbol))return;
  var card=document.getElementById('aurel-cafef-overview');if(!card)return;
- var same=getData(symbol);if(same){prepare(symbol,same);return}
+ var same=getData(symbol);
+ if(same){prepare(symbol,same);return}
  if(running){running.abort();running=null}
  var ctrl=new AbortController();running=ctrl;
  var button=document.getElementById('aurel-cafef-load');
  if(button)button.disabled=true;
- status('busy','Đang kiểm tra');
- var timer=setTimeout(function(){ctrl.abort()},23000);
+ status('busy','Đang lấy nguồn');
+ var timer=setTimeout(function(){ctrl.abort()},6500);
+ var failure='';
  try{
-  var base=apiBase();if(!base)throw new Error('Đường dẫn backend không hợp lệ');
-  var url=new URL('api/cafef',base);url.searchParams.set('symbol',symbol);
-  var res=await fetch(url.toString(),{method:'GET',cache:'no-store',signal:ctrl.signal});
-  if(!res.ok)throw new Error('HTTP '+res.status);
-  var data=await res.json();
-  if(!data||data.symbol!==symbol)throw new Error('Dữ liệu nguồn không khớp');
-  cache.set(symbol,{at:Date.now(),data:data});
-  if(running===ctrl)prepare(symbol,data);
- }catch(e){
-  if(running!==ctrl)return;
-  prepare(symbol,null);status('','Không kết nối');
-  var hint=document.getElementById('cf-errors');
-  if(hint)hint.textContent='Chưa tải được danh sách tự động. Vẫn có thể mở đường dẫn CafeF gốc.';
+   var base=apiBase();if(!base)throw new Error('Đường dẫn backend không hợp lệ');
+   var url=new URL('api/cafef',base);url.searchParams.set('symbol',symbol);
+   var res=await fetch(url.toString(),{method:'GET',cache:'no-store',signal:ctrl.signal});
+   if(!res.ok)throw new Error('Render trả HTTP '+res.status);
+   var data=await res.json();
+   if(!data||data.symbol!==symbol)throw new Error('Dữ liệu nguồn không khớp');
+   if(!getItems(data,'reports').length&&!getItems(data,'disclosures').length&&!getItems(data,'market_news').length)throw new Error('Render chưa trả danh sách CafeF hợp lệ');
+   if(running===ctrl){
+     cache.set(symbol,{at:Date.now(),data:data});prepare(symbol,data);
+   }
+   return;
+ }catch(e){failure=ctrl.signal.aborted?'Render quá thời gian phản hồi':(e&&e.message?e.message:'Render không phản hồi')}
+ finally{clearTimeout(timer)}
+ try{
+   if(running!==ctrl)return;
+   status('busy','Đang tải dự phòng');
+   var fallback=await loadFromStatic(symbol);
+   if(running!==ctrl)return;
+   cache.set(symbol,{at:Date.now(),data:fallback});
+   prepare(symbol,fallback);
+   status('ok','Nguồn dự phòng');
+   var info=document.getElementById('cf-errors');
+   if(info)info.textContent='Đang hiển thị dữ liệu công khai CafeF được lưu trên GitHub. '+failure+'.';
+ }catch(err){
+   if(running!==ctrl)return;
+   prepare(symbol,null);status('','Chưa có dữ liệu');
+   var hint=document.getElementById('cf-errors');
+   if(hint)hint.textContent='Không lấy được dữ liệu tự động ('+failure+'). Nguồn dự phòng: '+(err&&err.message||'chưa cập nhật')+'. Mở trực tiếp CafeF bằng các nút “Xem tất cả”.';
  }finally{
-  clearTimeout(timer);
-  if(running===ctrl){
-   running=null;var b=document.getElementById('aurel-cafef-load');if(b)b.disabled=false;
-  }
+   if(running===ctrl){
+     running=null;var btn=document.getElementById('aurel-cafef-load');if(btn)btn.disabled=false;
+   }
  }
 }
 function refreshSymbol(symbol,fetchNow){
