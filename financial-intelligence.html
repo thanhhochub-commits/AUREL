@@ -22110,7 +22110,7 @@ closeBtn.addEventListener('click',close);
 box.addEventListener('click',function(e){if(e.target===box)close()});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!box.hidden){e.preventDefault();close()}});
 publicBtn.addEventListener('click',function(){if(!window.confirm('Xác nhận: tệp được chọn sẽ được gửi tới máy chủ backend AUREL để xử lý. Chỉ tiếp tục với dữ liệu đã công khai hoặc có quyền tải lên.'))return;uploadAllowed=true;var start=pending;close();if(start){var input=document.getElementById('upload-file');if(input)input.click()}});
-document.addEventListener('click',function(e){if(uploadAllowed)return;var t=e.target;if(!(t instanceof Element))return;if(t.closest('#aurel-sec-cover')||t.closest('#aurel-sec-launch'))return;
+document.addEventListener('click',function(e){var t=e.target;if(uploadAllowed){if(t instanceof Element&&t.closest('#upload-button'))uploadAllowed=false;return;}if(!(t instanceof Element))return;if(t.closest('#aurel-sec-cover')||t.closest('#aurel-sec-launch'))return;
 if(t.closest('label[for="upload-file"]')||t.closest('#upload-file')||t.closest('#upload-button')){e.preventDefault();e.stopImmediatePropagation();open(true)}
 },true);
 document.addEventListener('drop',function(e){if(uploadAllowed||!e.dataTransfer||!e.dataTransfer.files.length)return;var t=e.target;if(t instanceof Element&&(t.closest('.upload-panel')||t.closest('#root'))){e.preventDefault();e.stopImmediatePropagation();open(true)}},true);
