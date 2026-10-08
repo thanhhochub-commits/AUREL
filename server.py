@@ -2990,10 +2990,12 @@ def ai_chat(question, history=None):
     if len(q)>8000:
         raise ValueError('Câu hỏi dài hơn 8.000 ký tự. Vui lòng chia thành nhiều tin nhắn.')
     normalized=_norm_key(q)
-    secret_terms=r'(?:api key|apikey|khoa api|mat khau|password|secret|bi mat he thong|access token|token may chu|system prompt|developer prompt|cau lenh he thong|bien moi truong|environment variable|private key|khoa rieng|thong tin dang nhap|ma bao mat|ma nguon noi bo)'
+    secret_terms=r'(?:api key|apikey|khoa api|mat khau|password|secret|bi mat he thong|access token|token may chu|system prompt|developer prompt|cau lenh he thong|bien moi truong|environment variable|private key|khoa rieng|thong tin dang nhap|ma bao mat|ma nguon noi bo|code bao mat|source code bao mat)'
+    origin_terms=r'(?:cua aurel|cua web|cua website|cua he thong|cua admin|cua ban|tren may chu|tren server|dang dung|dang su dung|dang luu|noi bo|he thong aurel|server aurel)'
     reveal_terms=r'(?:cho toi|dua|hien thi|liet ke|lay|tiet lo|trich xuat|in ra|sao chep|gui|doc cho|show|reveal|dump|extract|steal|bypass|hack|danh cap|bo qua)'
+    direct_secret=r'(?:cho toi|dua|cung cap|gui|tiet lo|show|reveal)\s+(?:xem\s+|ma\s+|chuoi\s+)?(?:api key|apikey|khoa api|mat khau|password|token|secret|system prompt|developer prompt|ma bao mat|code bao mat)'
     attack_terms=r'(?:cach hack|huong dan hack|cho toi hack|pha khoa|dot nhap|danh cap mat khau|vuot bao mat|vuot xac thuc|tan cong may chu|lay trom du lieu)'
-    if (re.search(secret_terms,normalized) and re.search(reveal_terms,normalized)) or re.search(attack_terms,normalized):
+    if (re.search(secret_terms,normalized) and re.search(origin_terms,normalized) and re.search(reveal_terms,normalized)) or re.search(direct_secret,normalized) or re.search(attack_terms,normalized):
         return {'reply':('Xin lỗi, tôi không thể cung cấp khóa API, mật khẩu, cấu hình bí mật, '
                          'chỉ dẫn vượt quyền truy cập hoặc thông tin bảo mật nội bộ của AUREL. '
                          'Tôi vẫn có thể hướng dẫn sử dụng API của chính bạn, giải thích bảo mật hợp pháp '
@@ -3031,7 +3033,7 @@ def ai_chat(question, history=None):
              'contents':messages,
              'generationConfig':{'temperature':0.65,'topP':0.9,'maxOutputTokens':3200}}
     last_404=False
-    for candidate in fallbacks:
+    for candidate in list(dict.fromkeys([*fallbacks,'gemini-2.5-flash'])):
         url=f'https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent'
         req=Request(url,data=json.dumps(payload,ensure_ascii=False).encode('utf-8'),
                     headers={'Content-Type':'application/json','x-goog-api-key':token},method='POST')
