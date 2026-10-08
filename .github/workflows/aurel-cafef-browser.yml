@@ -98,5 +98,5 @@ jobs:
             if(errors.length)console.log('PAGE ERRORS',JSON.stringify(errors.slice(0,8)));
             await browser.close();
             console.log('BROWSER CHECK PASS: proportion, backdrop, caption, full swipe, tabs, mobile');
-          })().catch(e=>{console.error(e);process.exitCode=1});
+          })().catch(e=>{console.error('BROWSER REGRESSION FAILED',e);process.exit(1)});
           NODE
