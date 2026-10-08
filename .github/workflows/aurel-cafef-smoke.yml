@@ -26,7 +26,12 @@ jobs:
           html=Path('financial-intelligence.html').read_text('utf-8')
           js=Path('assets/aurel-cafef.js').read_text('utf-8')
           feed=json.loads(Path('assets/cafef-cache.json').read_text('utf-8'))
-          assert "assets/aurel-cafef.js?v=20261008-CF-RATIO-2TO1-V4" in html
+          assert "assets/aurel-cafef.js?v=20261008-CF-SLIDER-V5" in html
+          assert "cfInstallResizer(row)" in js
+          assert "setPointerCapture" in js and "cfSetPanel" in js
+          assert "--cfh:clamp(430px,38vw,605px)" in js
+          assert "grid-template-columns:minmax(0,1fr) 0px!important" in js
+          assert "aurel-cafef-panel-hidden-v1" in js
           assert 'async function loadFromStatic(symbol)' in js
           assert 'readStaticSnapshot' in js
           assert 'aurel-page-overview' in js
