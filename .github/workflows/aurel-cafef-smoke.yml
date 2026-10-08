@@ -1,0 +1,60 @@
+name: AUREL CafeF Connection Smoke
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/aurel-cafef-smoke.yml"
+      - "assets/aurel-cafef.js"
+      - "assets/cafef-cache.json"
+      - "financial-intelligence.html"
+
+permissions:
+  contents: read
+
+jobs:
+  cafef-browser-path:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify browser-side script
+        run: |
+          node --check assets/aurel-cafef.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          html=Path('financial-intelligence.html').read_text('utf-8')
+          js=Path('assets/aurel-cafef.js').read_text('utf-8')
+          feed=json.loads(Path('assets/cafef-cache.json').read_text('utf-8'))
+          assert "CF-CONNECT-V3" in html
+          assert 'async function loadFromStatic(symbol)' in js
+          assert 'readStaticSnapshot' in js
+          assert 'aurel-page-overview' in js
+          assert feed['source']=='CafeF'
+          for symbol in ['VPB','VCB','ACB','MBB','TCB']:
+              assert symbol in feed['symbols']
+              news=feed['symbols'][symbol]['disclosures']
+              assert len(news)>=1, (symbol, news)
+              assert all(item['url'].startswith('https://cafef.vn/') for item in news)
+              print(symbol, "verified company disclosures:", len(news))
+          print("PASS: source-validated cache & JS syntax")
+          PY
+      - name: Verify public cache URL for browser access and backend diagnosis
+        run: |
+          python - <<'PY'
+          import urllib.request, json
+          raw='https://raw.githubusercontent.com/thanhhochub-commits/AUREL/main/assets/cafef-cache.json'
+          req=urllib.request.Request(raw,headers={'Origin':'https://thanhhochub-commits.github.io','User-Agent':'AUREL-Cache-Smoke/1.0'})
+          with urllib.request.urlopen(req,timeout=18) as resp:
+              payload=json.loads(resp.read(500000))
+              cors=resp.headers.get('access-control-allow-origin','')
+              print('GitHub raw:',resp.status,'CORS:',repr(cors),'symbol count:',len(payload['symbols']))
+              assert resp.status==200 and 'VPB' in payload['symbols']
+              assert cors in ('*','https://thanhhochub-commits.github.io'), 'Raw cache lacks CORS permission'
+          url='https://aurel-thanhhochub-backend.onrender.com/api/cafef?symbol=VPB'
+          try:
+              with urllib.request.urlopen(url,timeout=22) as response:
+                  print('Render CafeF endpoint:',response.status)
+          except Exception as exc:
+              print('Render CafeF endpoint unavailable; static fallback required:',str(exc)[:170])
+          PY
