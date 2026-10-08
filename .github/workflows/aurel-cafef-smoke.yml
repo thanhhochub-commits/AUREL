@@ -26,11 +26,11 @@ jobs:
           html=Path('financial-intelligence.html').read_text('utf-8')
           js=Path('assets/aurel-cafef.js').read_text('utf-8')
           feed=json.loads(Path('assets/cafef-cache.json').read_text('utf-8'))
-          assert "assets/aurel-cafef.js?v=20261008-CF-SLIDER-V5" in html
+          assert "assets/aurel-cafef.js?v=20261008-CF-LARGE-V6" in html
           assert "cfInstallResizer(row)" in js
           assert "setPointerCapture" in js and "cfSetPanel" in js
-          assert "--cfh:clamp(240px,18.6vw,325px)" in js
-          assert "grid-template-columns:minmax(0,2fr) minmax(0,1fr)!important" in js
+          assert "--cfh:clamp(430px,37.5vw,605px)" in js
+          assert "--cf-panel-default:calc((100% - 14px) * .322581)" in js
           assert "cf-resize-dots" in js
           assert "grid-template-columns:minmax(0,1fr) 0px!important" in js
           assert "aurel-cafef-panel-hidden-v1" in js
