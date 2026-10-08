@@ -26,12 +26,18 @@ jobs:
           html=Path('financial-intelligence.html').read_text('utf-8')
           js=Path('assets/aurel-cafef.js').read_text('utf-8')
           feed=json.loads(Path('assets/cafef-cache.json').read_text('utf-8'))
-          assert "assets/aurel-cafef.js?v=20261008-CF-LARGE-V6" in html
-          assert "cfInstallResizer(row)" in js
+          assert "assets/aurel-cafef.js?v=20261008-CF-SWIPE-TABS-V7" in html
+          assert "cfInstallHeroSwipe(row)" in js
           assert "setPointerCapture" in js and "cfSetPanel" in js
           assert "--cfh:clamp(430px,37.5vw,605px)" in js
-          assert "--cf-panel-default:calc((100% - 14px) * .322581)" in js
-          assert "cf-resize-dots" in js
+          assert "--cf-panel-default:calc((100% - 14px) * .39)" in js
+          assert "cf-resize-toggle" not in js and "cf-resize-grip" not in js
+          assert "Kéo sang trái để mở CafeF" in js
+          assert "Kéo sang phải để ẩn CafeF" in js
+          assert "data-view" in js
+          assert "group.hidden=!visible" in js
+          assert ".cf-feed .cf-group[hidden]{display:none!important}" in js
+          assert "hero.setPointerCapture(e.pointerId)" in js
           assert "grid-template-columns:minmax(0,1fr) 0px!important" in js
           assert "aurel-cafef-panel-hidden-v1" in js
           assert 'async function loadFromStatic(symbol)' in js
