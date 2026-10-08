@@ -29,7 +29,9 @@ jobs:
           assert "assets/aurel-cafef.js?v=20261008-CF-SLIDER-V5" in html
           assert "cfInstallResizer(row)" in js
           assert "setPointerCapture" in js and "cfSetPanel" in js
-          assert "--cfh:clamp(430px,38vw,605px)" in js
+          assert "--cfh:clamp(240px,18.6vw,325px)" in js
+          assert "grid-template-columns:minmax(0,2fr) minmax(0,1fr)!important" in js
+          assert "cf-resize-dots" in js
           assert "grid-template-columns:minmax(0,1fr) 0px!important" in js
           assert "aurel-cafef-panel-hidden-v1" in js
           assert 'async function loadFromStatic(symbol)' in js
