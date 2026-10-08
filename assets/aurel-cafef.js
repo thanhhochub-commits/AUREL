@@ -140,7 +140,7 @@ async function load(symbol,auto){
  if(!symbolOk(symbol))return;
  var card=document.getElementById('aurel-cafef-overview');if(!card)return;
  var same=getData(symbol);
- if(same){prepare(symbol,same);return}
+ if(same&&auto){prepare(symbol,same);return}
  if(running){running.abort();running=null}
  var ctrl=new AbortController();running=ctrl;
  var button=document.getElementById('aurel-cafef-load');
