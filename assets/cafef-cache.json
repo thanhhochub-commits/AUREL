@@ -1,0 +1,3745 @@
+{
+ "source": "CafeF",
+ "mode": "public-source-cache",
+ "generated_at": "2026-10-08T12:11:58.427205+00:00",
+ "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
+ "symbols": {
+  "ABB": {
+   "symbol": "ABB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:58.400836+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/abb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [
+    {
+     "title": "ABB: Báo cáo tài chính bán niên năm 2026",
+     "url": "https://cafef.vn/du-lieu/ABB-2952232/abb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Báo cáo tài chính quý 2/2026",
+     "url": "https://cafef.vn/du-lieu/ABB-2938916/abb-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "disclosures": [
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt Phát hành thẻ tín dụng cho khách hàng",
+     "url": "https://cafef.vn/du-lieu/ABB-2991900/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-phat-hanh-the-tin-dung-cho-khach-hang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết HĐQT Gia hạn thuê diện tích văn phòng làm trụ sở ABBank Đống Đa và Văn phòng Hội sở tại Hà Nội",
+     "url": "https://cafef.vn/du-lieu/ABB-2987495/abb-nghi-quyet-hdqt-gia-han-thue-dien-tich-van-phong-lam-tru-so-abbank-dong-da-va-van-phong-hoi-so-tai-ha-noi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị Thuê địa điểm tiềm năng để di đời trụ sở ABBank TP.Hồ Chí Minh",
+     "url": "https://cafef.vn/du-lieu/ABB-2985995/abb-nghi-quyet-hoi-dong-quan-tri-thue-dia-diem-tiem-nang-de-di-doi-tru-so-abbank-tpho-chi-minh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị cấp hạn thấu chi cho khách hàng",
+     "url": "https://cafef.vn/du-lieu/ABB-2984386/abb-nghi-quyet-hoi-dong-quan-tri-cap-han-thau-chi-cho-khach-hang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị v.v thành lập chi nhánh phòng giao dịch",
+     "url": "https://cafef.vn/du-lieu/ABB-2984190/abb-nghi-quyet-hoi-dong-quan-tri-vv-thanh-lap-chi-nhanh-phong-giao-dich.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị triển khai đăng ký chào bán cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/ABB-2982204/abb-nghi-quyet-hoi-dong-quan-tri-trien-khai-dang-ky-chao-ban-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị kế hoạch sử dụng số tiền thu được từ đợt chào bán cổ phiếu",
+     "url": "https://cafef.vn/du-lieu/ABB-2982203/abb-nghi-quyet-hoi-dong-quan-tri-ke-hoach-su-dung-so-tien-thu-duoc-tu-dot-chao-ban-co-phieu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị phương án đảm bảo phát hành cổ phiếu đúng quy định",
+     "url": "https://cafef.vn/du-lieu/ABB-2982198/abb-nghi-quyet-hoi-dong-quan-tri-phuong-an-dam-bao-phat-hanh-co-phieu-dung-quy-dinh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: ABBank nhận được CV 8295 của NHNN",
+     "url": "https://cafef.vn/du-lieu/ABB-2975633/abb-abbank-nhan-duoc-cv-8295-cua-nhnn.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết HĐQT triển khai thực hiện thủ tục xin chấp thuận của Ngân hàng về phương án tăng vốn điều lệ",
+     "url": "https://cafef.vn/du-lieu/ABB-2963746/abb-nghi-quyet-hdqt-trien-khai-thuc-hien-thu-tuc-xin-chap-thuan-cua-ngan-hang-ve-phuong-an-tang-von-dieu-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "ACB": {
+   "symbol": "ACB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:46.225991+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/acb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "ACB: Nghị quyết HĐQT về việc thay đổi địa điểm đặt trụ sở Chi nhánh Trần Duy Hưng",
+     "url": "https://cafef.vn/du-lieu/ACB-2993773/acb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-dat-tru-so-chi-nhanh-tran-duy-hung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Nghị quyết HĐQT về các hợp đồng, giao dịch giữa ACB và ACBI",
+     "url": "https://cafef.vn/du-lieu/ACB-2993772/acb-nghi-quyet-hdqt-ve-cac-hop-dong-giao-dich-giua-acb-va-acbi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Nghị quyết HĐQT thay đổi thông tin về địa chỉ đặt trụ sở Chi nhánh, Phòng giao dịch khu vực TP Bắc Ninh",
+     "url": "https://cafef.vn/du-lieu/ACB-2987789/acb-nghi-quyet-hdqt-thay-doi-thong-tin-ve-dia-chi-dat-tru-so-chi-nhanh-phong-giao-dich-khu-vuc-tp-bac-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Nghị quyết HĐQT về các hợp đồng, giao dịch với Công ty TNHH Quản lý nợ và khai thác tài sản Ngân hàng Á Châu",
+     "url": "https://cafef.vn/du-lieu/ACB-2976795/acb-nghi-quyet-hdqt-ve-cac-hop-dong-giao-dich-voi-cong-ty-tnhh-quan-ly-no-va-khai-thac-tai-san-ngan-hang-a-chau.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Nghị quyết HĐQT về việc thay đổi thông tin về địa chỉ đặt trụ sở chi nhánh, phòng GD khu vực Thành phố Quảng Ninh",
+     "url": "https://cafef.vn/du-lieu/ACB-2973316/acb-nghi-quyet-hdqt-ve-viec-thay-doi-thong-tin-ve-dia-chi-dat-tru-so-chi-nhanh-phong-gd-khu-vuc-thanh-pho-quang-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Nghị quyết HĐQT thông qua Hồ sơ chào bán theo Phương án phát hành nhiều đợt trái phiếu riêng lẻ",
+     "url": "https://cafef.vn/du-lieu/ACB-2972657/acb-nghi-quyet-hdqt-thong-qua-ho-so-chao-ban-theo-phuong-an-phat-hanh-nhieu-dot-trai-phieu-rieng-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Bổ nhiệm lại bà Nguyễn Thị Tuyết Vân giữ chức Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/ACB-2964100/acb-bo-nhiem-lai-ba-nguyen-thi-tuyet-van-giu-chuc-pho-tong-giam-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: CBTT Giấy phép thành lập và hoạt động Công ty TNHH Bảo hiểm Phi nhân thọ ACB",
+     "url": "https://cafef.vn/du-lieu/ACB-2959731/acb-cbtt-giay-phep-thanh-lap-va-hoat-dong-cong-ty-tnhh-bao-hiem-phi-nhan-tho-acb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Quyết định của HĐQT về việc thay đổi thông tin địa chỉ đặt trụ sở Chi nhánh, PGD khu vực TP. Đồng Nai",
+     "url": "https://cafef.vn/du-lieu/ACB-2947739/acb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-thong-tin-dia-chi-dat-tru-so-chi-nhanh-pgd-khu-vuc-tp-dong-nai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ACB: Báo cáo tình hình Quản trị công ty 6 tháng đầu năm 2026",
+     "url": "https://cafef.vn/du-lieu/ACB-2942672/acb-bao-cao-tinh-hinh-quan-tri-cong-ty-6-thang-dau-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "AGR": {
+   "symbol": "AGR",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:58.426069+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/agr/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "AGR: 9.10.2026, ngày GDKHQ thực hiện quyền nhận cổ tức bằng cổ phiếu năm 2025 (tỷ lệ 100:6)",
+     "url": "https://cafef.vn/du-lieu/AGR-2988558/agr-9102026-ngay-gdkhq-thuc-hien-quyen-nhan-co-tuc-bang-co-phieu-nam-2025-ty-le-1006.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Quyết định về việc ký hợp đồng cho vay theo hạn mức tại Vietcombank - Chi nhánh Thanh Xuân",
+     "url": "https://cafef.vn/du-lieu/AGR-2987522/agr-quyet-dinh-ve-viec-ky-hop-dong-cho-vay-theo-han-muc-tai-vietcombank-chi-nhanh-thanh-xuan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Nhận được công văn của UBCKNN về tài liệu báo cáo phát hành CP để trả cổ tức",
+     "url": "https://cafef.vn/du-lieu/AGR-2985712/agr-nhan-duoc-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-phat-hanh-cp-de-tra-co-tuc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: CBTT về PHCP để trả cổ tức và ngày ĐKCC thực hiện quyền nhận cổ tức bằng CP năm 2025 (đính kèm công văn của UBCKNN)",
+     "url": "https://cafef.vn/du-lieu/AGR-2985725/agr-cbtt-ve-phcp-de-tra-co-tuc-va-ngay-dkcc-thuc-hien-quyen-nhan-co-tuc-bang-cp-nam-2025-dinh-kem-cong-van-cua-ubcknn.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Nghị quyết HĐQT phê duyệt thiết lập hạn mức tín dụng tại MBB",
+     "url": "https://cafef.vn/du-lieu/AGR-2981069/agr-nghi-quyet-hdqt-phe-duyet-thiet-lap-han-muc-tin-dung-tai-mbb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Bổ nhiệm ông Trương Ngọc Lân giữ chức Quyền Tổng giám đốc từ 14.9.2026",
+     "url": "https://cafef.vn/du-lieu/AGR-2975874/agr-bo-nhiem-ong-truong-ngoc-lan-giu-chuc-quyen-tong-giam-doc-tu-1492026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Nghị quyết HĐQT phê duyệt tăng hạn mức tín dụng tại ACB",
+     "url": "https://cafef.vn/du-lieu/AGR-2964085/agr-nghi-quyet-hdqt-phe-duyet-tang-han-muc-tin-dung-tai-acb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Nhận được công văn của VSDC về việc chấp thuận tham gia hệ thống lưu ký và thanh toán giao dịch cac-bon",
+     "url": "https://cafef.vn/du-lieu/AGR-2959756/agr-nhan-duoc-cong-van-cua-vsdc-ve-viec-chap-thuan-tham-gia-he-thong-luu-ky-va-thanh-toan-giao-dich-cacbon.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Nghị quyết HĐQT triển khai phương án phát hành cổ phiếu để trả cổ tức năm 2025",
+     "url": "https://cafef.vn/du-lieu/AGR-2958989/agr-nghi-quyet-hdqt-trien-khai-phuong-an-phat-hanh-co-phieu-de-tra-co-tuc-nam-2025.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Giải trình biến động LNST 6 tháng đầu năm 2026 so với cùng kỳ năm trước",
+     "url": "https://cafef.vn/du-lieu/AGR-2943095/agr-giai-trinh-bien-dong-lnst-6-thang-dau-nam-2026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "BAB": {
+   "symbol": "BAB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:52.686723+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/bab/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [
+    {
+     "title": "BAB: Báo cáo tài chính bán niên năm 2026",
+     "url": "https://cafef.vn/du-lieu/BAB-2957307/bab-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Báo cáo tài chính bán niên năm 2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/BAB-2957306/bab-bao-cao-tai-chinh-ban-nien-nam-2026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Báo cáo tài chính quý 2/2026",
+     "url": "https://cafef.vn/du-lieu/BAB-2942985/bab-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Báo cáo tài chính quý 2/2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/BAB-2942963/bab-bao-cao-tai-chinh-quy-22026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "disclosures": [
+    {
+     "title": "BAB: Nghị quyết HĐQT đổi địa chỉ PGD theo địa giới hành chính mới",
+     "url": "https://cafef.vn/du-lieu/BAB-2992248/bab-nghi-quyet-hdqt-doi-dia-chi-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT cấp hạn mức thẻ tín dụng đối với khách hàng Nguyễn Đức Thành",
+     "url": "https://cafef.vn/du-lieu/BAB-2992240/bab-nghi-quyet-hdqt-cap-han-muc-the-tin-dung-doi-voi-khach-hang-nguyen-duc-thanh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT đổi địa chỉ PGD theo địa giới hành chính mới",
+     "url": "https://cafef.vn/du-lieu/BAB-2986167/bab-nghi-quyet-hdqt-doi-dia-chi-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Lãi suất kỳ tính lãi thứ 01 của các trái phiếu phát hành ra công chúng lần 2 (đợt 5)",
+     "url": "https://cafef.vn/du-lieu/BAB-2981796/bab-lai-suat-ky-tinh-lai-thu-01-cua-cac-trai-phieu-phat-hanh-ra-cong-chung-lan-2-dot-5.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT thay đổi địa chỉ chi nhánh, PGD theo địa giới hành chính mới",
+     "url": "https://cafef.vn/du-lieu/BAB-2981795/bab-nghi-quyet-hdqt-thay-doi-dia-chi-chi-nhanh-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT đổi địa chỉ chi nhánh, PGD theo địa giới hành chính mới",
+     "url": "https://cafef.vn/du-lieu/BAB-2973548/bab-nghi-quyet-hdqt-doi-dia-chi-chi-nhanh-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Chào bán 1.564 tỷ đồng trái phiếu ra công chúng lần 2 (đợt 5)",
+     "url": "https://cafef.vn/du-lieu/BAB-2971896/bab-chao-ban-1564-ty-dong-trai-phieu-ra-cong-chung-lan-2-dot-5.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT cập nhật địa chi PGD, chi nhánh theo địa giới hành chính mới",
+     "url": "https://cafef.vn/du-lieu/BAB-2964043/bab-nghi-quyet-hdqt-cap-nhat-dia-chi-pgd-chi-nhanh-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT thay đổi PGD Cát Linh",
+     "url": "https://cafef.vn/du-lieu/BAB-2947362/bab-nghi-quyet-hdqt-thay-doi-pgd-cat-linh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nghị quyết HĐQT thông qua địa chỉ mới của các chi nhánh theo địa giới hành chính mới",
+     "url": "https://cafef.vn/du-lieu/BAB-2947481/bab-nghi-quyet-hdqt-thong-qua-dia-chi-moi-cua-cac-chi-nhanh-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "BID": {
+   "symbol": "BID",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:46.221963+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/bid/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "BID: Thông báo quyết định của NHNN về việc sửa đổi nội dung vốn điều lệ tại Giấy phép thành lập và hoạt động của BID",
+     "url": "https://cafef.vn/du-lieu/BID-2993636/bid-thong-bao-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong-cua-bid.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: HĐQT thông qua nội dung hợp đồng cho BIC Thái Nguyên thuê trụ sở chi nhánh Cao Bằng trong thời gian chưa sử dụng hết",
+     "url": "https://cafef.vn/du-lieu/BID-2992399/bid-hdqt-thong-qua-noi-dung-hop-dong-cho-bic-thai-nguyen-thue-tru-so-chi-nhanh-cao-bang-trong-thoi-gian-chua-su-dung-het.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: HĐQT thông qua việc cấp hạn mức đối với Keb Hana Bank Co.,LTD",
+     "url": "https://cafef.vn/du-lieu/BID-2989876/bid-hdqt-thong-qua-viec-cap-han-muc-doi-voi-keb-hana-bank-coltd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Nhận được thông báo về việc giao dịch chứng khoán thay đổi đăng ký niêm yết của HOSE",
+     "url": "https://cafef.vn/du-lieu/BID-2987888/bid-nhan-duoc-thong-bao-ve-viec-giao-dich-chung-khoan-thay-doi-dang-ky-niem-yet-cua-hose.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: 5.10.2026, giao dịch 498.164.263 cp niêm yết bổ sung",
+     "url": "https://cafef.vn/du-lieu/BID-2983974/bid-5102026-giao-dich-498164263-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Thông báo nhận được công văn của VSDC về việc điều chỉnh thông tin số lượng chứng khoán đăng ký",
+     "url": "https://cafef.vn/du-lieu/BID-2982264/bid-thong-bao-nhan-duoc-cong-van-cua-vsdc-ve-viec-dieu-chinh-thong-tin-so-luong-chung-khoan-dang-ky.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Thông báo nhận được Quyết định của HOSE về việc thay đổi đăng ký niêm yết",
+     "url": "https://cafef.vn/du-lieu/BID-2982265/bid-thong-bao-nhan-duoc-quyet-dinh-cua-hose-ve-viec-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: 23.9.2026, niêm yết bổ sung 498.164.263 cp",
+     "url": "https://cafef.vn/du-lieu/BID-2982055/bid-2392026-niem-yet-bo-sung-498164263-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: HĐQT thông qua nội dung hợp đồng cho thuê trụ sở chi nhánh BIDV Thành Vinh",
+     "url": "https://cafef.vn/du-lieu/BID-2980616/bid-hdqt-thong-qua-noi-dung-hop-dong-cho-thue-tru-so-chi-nhanh-bidv-thanh-vinh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Quyết định của TGĐ về việc thay đổi địa điểm đặt trụ sở Chi nhánh Thủ Thiêm",
+     "url": "https://cafef.vn/du-lieu/BID-2980608/bid-quyet-dinh-cua-tgd-ve-viec-thay-doi-dia-diem-dat-tru-so-chi-nhanh-thu-thiem.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "BSI": {
+   "symbol": "BSI",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:58.388067+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/bsi/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "BSI: Thông báo ngày ĐKCC lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/BSI-2991057/bsi-thong-bao-ngay-dkcc-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Nghị quyết HĐQT thông qua kế hoạch tổ chức lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/BSI-2987798/bsi-nghi-quyet-hdqt-thong-qua-ke-hoach-to-chuc-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Quyết định của HĐQT về việc phê duyệt hạn mức tin dụng tại VIB",
+     "url": "https://cafef.vn/du-lieu/BSI-2973597/bsi-quyet-dinh-cua-hdqt-ve-viec-phe-duyet-han-muc-tin-dung-tai-vib.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Ủy quyền cho ông Xuân Quang Toàn công bố thông tin từ 8.9.2026",
+     "url": "https://cafef.vn/du-lieu/BSI-2971744/bsi-uy-quyen-cho-ong-xuan-quang-toan-cong-bo-thong-tin-tu-892026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: CBTT ký kết thỏa thuận hợp tác liên doanh với Amova Asset Management Co.,Ltd",
+     "url": "https://cafef.vn/du-lieu/BSI-2963329/bsi-cbtt-ky-ket-thoa-thuan-hop-tac-lien-doanh-voi-amova-asset-management-coltd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Thông báo hủy danh sách người SHCK thực hiện quyền lấy ý kiến cổ đông bằng văn bản tại Thông báo số 1590/TB-SGDHCM ngày 23/07/2026",
+     "url": "https://cafef.vn/du-lieu/BSI-2957477/bsi-thong-bao-huy-danh-sach-nguoi-shck-thuc-hien-quyen-lay-y-kien-co-dong-bang-van-ban-tai-thong-bao-so-1590tbsgdhcm-ngay-23072026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Báo cáo tỷ lệ ATTC bán niên 2026",
+     "url": "https://cafef.vn/du-lieu/BSI-2953296/bsi-bao-cao-ty-le-attc-ban-nien-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Bổ nhiệm ông Xuân Quang Toàn phụ trách Quản trị từ 15.8.2026",
+     "url": "https://cafef.vn/du-lieu/BSI-2953124/bsi-bo-nhiem-ong-xuan-quang-toan-phu-trach-quan-tri-tu-1582026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Báo cáo tỷ lệ ATTC bán niên 2026",
+     "url": "https://cafef.vn/du-lieu/BSI-2953295/bsi-bao-cao-ty-le-attc-ban-nien-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BSI: Thông báo hủy danh sách người sở hữu Chứng khoán để thực hiện quyền lấy ý kiến cổ đông bằng VB năm 2026",
+     "url": "https://cafef.vn/du-lieu/BSI-2952157/bsi-thong-bao-huy-danh-sach-nguoi-so-huu-chung-khoan-de-thuc-hien-quyen-lay-y-kien-co-dong-bang-vb-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "BVB": {
+   "symbol": "BVB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:55.353004+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/bvb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "BVB: Nghị quyết HĐQT về việc sửa đổi, bổ sung một số nội dung của phương án phát hành cổ phiếu ESOP năm 2026",
+     "url": "https://cafef.vn/du-lieu/BVB-2989874/bvb-nghi-quyet-hdqt-ve-viec-sua-doi-bo-sung-mot-so-noi-dung-cua-phuong-an-phat-hanh-co-phieu-esop-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Vợ ông Nguyễn Nhất Nam - Thành viên HĐQT đăng ký mua 3.256.456 cp",
+     "url": "https://cafef.vn/du-lieu/BVB-2987810/bvb-vo-ong-nguyen-nhat-nam-thanh-vien-hdqt-dang-ky-mua-3256456-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu của người nội bộ Lê Anh Tài, Văn Thành Khánh Linh, Vũ Minh Tú",
+     "url": "https://cafef.vn/du-lieu/BVB-2987749/bvb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-le-anh-tai-van-thanh-khanh-linh-vu-minh-tu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu của người nội bộ Lê Văn Bé Mười, Lý Công Nha, Nguyễn Nhất Nam",
+     "url": "https://cafef.vn/du-lieu/BVB-2987750/bvb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-le-van-be-muoi-ly-cong-nha-nguyen-nhat-nam.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu của người nội bộ Nguyễn Thanh Tú, Nguyễn Thị Thu Hà",
+     "url": "https://cafef.vn/du-lieu/BVB-2987751/bvb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-thanh-tu-nguyen-thi-thu-ha.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu của người nội bộ Phan Thanh Hải, Phan Việt Hải",
+     "url": "https://cafef.vn/du-lieu/BVB-2987752/bvb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-phan-thanh-hai-phan-viet-hai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Chị ông Nguyễn Thanh Tú - Phó Tổng giám đốc đăng ký mua 2.2371.874 cp",
+     "url": "https://cafef.vn/du-lieu/BVB-2987753/bvb-chi-ong-nguyen-thanh-tu-pho-tong-giam-doc-dang-ky-mua-22371874-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Quyết định của HĐQT về việc thông qua hồ sơ đăng ký chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/BVB-2983559/bvb-quyet-dinh-cua-hdqt-ve-viec-thong-qua-ho-so-dang-ky-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: CBTT kết quả mua lại trước hạn trái phiếu BVB124020",
+     "url": "https://cafef.vn/du-lieu/BVB-2983556/bvb-cbtt-ket-qua-mua-lai-truoc-han-trai-phieu-bvb124020.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Quyết định HĐQT về việc chào bán Trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/BVB-2982608/bvb-quyet-dinh-hdqt-ve-viec-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "CTG": {
+   "symbol": "CTG",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:46.223565+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/ctg/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "CTG: Giấy chứng nhận đăng ký chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/CTG-2993982/ctg-giay-chung-nhan-dang-ky-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: HĐQT thông qua nội dung Văn bản sửa đổi bổ sung Hợp đồng kết nối giữa VietinBank và VietinBank FMC",
+     "url": "https://cafef.vn/du-lieu/CTG-2989827/ctg-hdqt-thong-qua-noi-dung-van-ban-sua-doi-bo-sung-hop-dong-ket-noi-giua-vietinbank-va-vietinbank-fmc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: Báo cáo kết quả đợt chào bán cổ phiếu PHP do Vietinbank sở hữu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/CTG-2988967/ctg-bao-cao-ket-qua-dot-chao-ban-co-phieu-php-do-vietinbank-so-huu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: HĐQT thông qua nội dung Hợp đồng bảo hiểm mọi rủi ro tài sản với VBI",
+     "url": "https://cafef.vn/du-lieu/CTG-2987864/ctg-hdqt-thong-qua-noi-dung-hop-dong-bao-hiem-moi-rui-ro-tai-san-voi-vbi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: CBTT HĐQT thông qua nội dung hợp đồng cầm cố, thế chấp giữa Vietinbank với VBI",
+     "url": "https://cafef.vn/du-lieu/CTG-2986219/ctg-cbtt-hdqt-thong-qua-noi-dung-hop-dong-cam-co-the-chap-giua-vietinbank-voi-vbi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: CBTT thông qua nội dung Hợp đồng khung tiền gửi có kỳ hạn và Hợp đồng tiền gửi kỳ hạn cụ thể với VietinBank Global Money Transfer, VietinBank FMC, VietinBank AMC",
+     "url": "https://cafef.vn/du-lieu/CTG-2979438/ctg-cbtt-thong-qua-noi-dung-hop-dong-khung-tien-gui-co-ky-han-va-hop-dong-tien-gui-ky-han-cu-the-voi-vietinbank-global-money-transfer-vietinbank-fmc-vietinbank-amc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: HĐQT thông qua nội dung Bản sửa đổi, bổ sung hợp đồng tư vấn và hợp đồng đại lý giữa Vietinbank và VBSE",
+     "url": "https://cafef.vn/du-lieu/CTG-2978360/ctg-hdqt-thong-qua-noi-dung-ban-sua-doi-bo-sung-hop-dong-tu-van-va-hop-dong-dai-ly-giua-vietinbank-va-vbse.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: Nghị quyết HĐQT thông qua các nội dung liên quan đến phương án phát hành trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/CTG-2978361/ctg-nghi-quyet-hdqt-thong-qua-cac-noi-dung-lien-quan-den-phuong-an-phat-hanh-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: Thông báo đường dẫn Nghị quyết HĐQT số 363 ngày 10/09/2026",
+     "url": "https://cafef.vn/du-lieu/CTG-2973428/ctg-thong-bao-duong-dan-nghi-quyet-hdqt-so-363-ngay-10092026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: Nghị quyết HĐQT về việc chấm dứt hoạt động của VPĐD tại Đà Nẵng",
+     "url": "https://cafef.vn/du-lieu/CTG-2973586/ctg-nghi-quyet-hdqt-ve-viec-cham-dut-hoat-dong-cua-vpdd-tai-da-nang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "EIB": {
+   "symbol": "EIB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:52.677312+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/eib/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "EIB: Thông báo chương trình và tài liệu họp ĐHĐCĐ BT ngày 14/10/2026",
+     "url": "https://cafef.vn/du-lieu/EIB-2983521/eib-thong-bao-chuong-trinh-va-tai-lieu-hop-dhdcd-bt-ngay-14102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Thông báo mời họp ĐHĐCĐ bất thường ngày 14/10/2026",
+     "url": "https://cafef.vn/du-lieu/EIB-2976846/eib-thong-bao-moi-hop-dhdcd-bat-thuong-ngay-14102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Thông báo nhận được công văn của NHNNVN Chi nhánh Khu vực 15 về việc chấp thuận thay đổi địa điểm Chi nhánh Kiên Giang",
+     "url": "https://cafef.vn/du-lieu/EIB-2976007/eib-thong-bao-nhan-duoc-cong-van-cua-nhnnvn-chi-nhanh-khu-vuc-15-ve-viec-chap-thuan-thay-doi-dia-diem-chi-nhanh-kien-giang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Thông báo và Nghị quyết HĐQT số 244/2026 ngày 11/09/2026",
+     "url": "https://cafef.vn/du-lieu/EIB-2976005/eib-thong-bao-va-nghi-quyet-hdqt-so-2442026-ngay-11092026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Nghị quyết HĐQT số 239 ngày 28/08/2026 và tài liệu đính kèm",
+     "url": "https://cafef.vn/du-lieu/EIB-2965657/eib-nghi-quyet-hdqt-so-239-ngay-28082026-va-tai-lieu-dinh-kem.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Nghị quyết HĐQT số 239 ngày 28/08/2026",
+     "url": "https://cafef.vn/du-lieu/EIB-2965632/eib-nghi-quyet-hdqt-so-239-ngay-28082026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Thông báo về ngày đăng ký cuối cùng tham dự ĐHĐCĐ bất thường lần 02 năm 2026",
+     "url": "https://cafef.vn/du-lieu/EIB-2960655/eib-thong-bao-ve-ngay-dang-ky-cuoi-cung-tham-du-dhdcd-bat-thuong-lan-02-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: 25.8.2026, ngày GDKHQ tham dự ĐHĐCĐ bất thường lần 02 năm 2026",
+     "url": "https://cafef.vn/du-lieu/EIB-2960933/eib-2582026-ngay-gdkhq-tham-du-dhdcd-bat-thuong-lan-02-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: 25.8.2026, ngày GDKHQ thực hiện quyền đề cử nhân sự dự kiến bầu bổ sung thành viên HĐQT nhiệm kỳ VIII (2025-2030)",
+     "url": "https://cafef.vn/du-lieu/EIB-2960663/eib-2582026-ngay-gdkhq-thuc-hien-quyen-de-cu-nhan-su-du-kien-bau-bo-sung-thanh-vien-hdqt-nhiem-ky-viii-20252030.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Nghị quyết HĐQT thông qua Kế hoạch đề cử nhân sự dự kiến bầu bổ sung Thành viên HĐQT Eximbank nhiệm kỳ VIII (2025 - 2030)",
+     "url": "https://cafef.vn/du-lieu/EIB-2956732/eib-nghi-quyet-hdqt-thong-qua-ke-hoach-de-cu-nhan-su-du-kien-bau-bo-sung-thanh-vien-hdqt-eximbank-nhiem-ky-viii-2025-2030.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "HDB": {
+   "symbol": "HDB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:49.913243+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/hdb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "HDB: Thông báo công văn của UBCKNN về hồ sơ đề nghị đăng ký chào bán trái phiếu ra thị trường quốc tế của HDB",
+     "url": "https://cafef.vn/du-lieu/HDB-2993067/hdb-thong-bao-cong-van-cua-ubcknn-ve-ho-so-de-nghi-dang-ky-chao-ban-trai-phieu-ra-thi-truong-quoc-te-cua-hdb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Báo cáo kết quả giao dịch cổ phiếu của tổ chức có liên quan đến Người nội bộ Quỹ đầu tư cổ phiếu Ngân hàng và Tài chính HD",
+     "url": "https://cafef.vn/du-lieu/HDB-2992400/hdb-bao-cao-ket-qua-giao-dich-co-phieu-cua-to-chuc-co-lien-quan-den-nguoi-noi-bo-quy-dau-tu-co-phieu-ngan-hang-va-tai-chinh-hd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: 9.10.2026, ngày GDKHQ trả cổ tức năm 2025 bằng cổ phiếu (tỷ lệ 100:25), thưởng cổ phiếu (tỷ lệ 100:5)",
+     "url": "https://cafef.vn/du-lieu/HDB-2989875/hdb-9102026-ngay-gdkhq-tra-co-tuc-nam-2025-bang-co-phieu-ty-le-10025-thuong-co-phieu-ty-le-1005.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo phát hành CP để trả cổ tức và tăng vốn cổ phần từ nguồn vốn CSH (kèm công văn của UBCKNN)",
+     "url": "https://cafef.vn/du-lieu/HDB-2988160/hdb-thong-bao-phat-hanh-cp-de-tra-co-tuc-va-tang-von-co-phan-tu-nguon-von-csh-kem-cong-van-cua-ubcknn.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo về việc thay đổi chi nhánh quản lý các PGD",
+     "url": "https://cafef.vn/du-lieu/HDB-2987795/hdb-thong-bao-ve-viec-thay-doi-chi-nhanh-quan-ly-cac-pgd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo nhận được Quyết định và Thông báo của HNX về việc hủy niêm yết trái phiếu HDB124023",
+     "url": "https://cafef.vn/du-lieu/HDB-2987794/hdb-thong-bao-nhan-duoc-quyet-dinh-va-thong-bao-cua-hnx-ve-viec-huy-niem-yet-trai-phieu-hdb124023.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Nghị quyết HĐQT thông qua hồ sơ chào bán trái phiếu HDBank phát hành ra thị trường quốc tế",
+     "url": "https://cafef.vn/du-lieu/HDB-2987793/hdb-nghi-quyet-hdqt-thong-qua-ho-so-chao-ban-trai-phieu-hdbank-phat-hanh-ra-thi-truong-quoc-te.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo nhận được Quyết định của HNX về việc trái phiếu HDB124023 có khả năng bị hủy bỏ niêm yết",
+     "url": "https://cafef.vn/du-lieu/HDB-2982615/hdb-thong-bao-nhan-duoc-quyet-dinh-cua-hnx-ve-viec-trai-phieu-hdb124023-co-kha-nang-bi-huy-bo-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo của HNX về ngày giao dịch đầu tiên trái phiếu niêm yết của HDBank (HDB126033, HDB126034)",
+     "url": "https://cafef.vn/du-lieu/HDB-2981858/hdb-thong-bao-cua-hnx-ve-ngay-giao-dich-dau-tien-trai-phieu-niem-yet-cua-hdbank-hdb126033-hdb126034.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo nhận được công văn của NHNN về việc chấp thuận tăng vốn điều lệ",
+     "url": "https://cafef.vn/du-lieu/HDB-2981832/hdb-thong-bao-nhan-duoc-cong-van-cua-nhnn-ve-viec-chap-thuan-tang-von-dieu-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "KLB": {
+   "symbol": "KLB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:55.039947+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/klb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "KLB: Báo cáo kết quả đợt chào bán trái phiếu ra công chúng (Đợt 3)",
+     "url": "https://cafef.vn/du-lieu/KLB-2993947/klb-bao-cao-ket-qua-dot-chao-ban-trai-phieu-ra-cong-chung-dot-3.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Thông báo thay đổi nhân sự",
+     "url": "https://cafef.vn/du-lieu/KLB-2988950/klb-thong-bao-thay-doi-nhan-su.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Nghị quyết HĐQT về việc thông qua công tác nhân sự",
+     "url": "https://cafef.vn/du-lieu/KLB-2988948/klb-nghi-quyet-hdqt-ve-viec-thong-qua-cong-tac-nhan-su.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Miễn nhiệm bà Vũ Ngọc Lan Châu - Phó Tổng Giám đốc từ 8.9.2026",
+     "url": "https://cafef.vn/du-lieu/KLB-2971138/klb-mien-nhiem-ba-vu-ngoc-lan-chau-pho-tong-giam-doc-tu-892026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Giải trình BCTC biến động LNST",
+     "url": "https://cafef.vn/du-lieu/KLB-2968620/klb-giai-trinh-bctc-bien-dong-lnst.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Giải trình BCTC ý kiến kiểm toán ngoại trừ",
+     "url": "https://cafef.vn/du-lieu/KLB-2968618/klb-giai-trinh-bctc-y-kien-kiem-toan-ngoai-tru.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Miễn nhiệm bà Vũ Thị Phương - Phó tổng giám đốc từ 7.8.2026",
+     "url": "https://cafef.vn/du-lieu/KLB-2949757/klb-mien-nhiem-ba-vu-thi-phuong-pho-tong-giam-doc-tu-782026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: 5.8.2026, niêm yết bổ sung 170.617.811 cp",
+     "url": "https://cafef.vn/du-lieu/KLB-2945937/klb-582026-niem-yet-bo-sung-170617811-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: 12.8.2026, giao dịch 170.617.811 cp niêm yết bổ sung",
+     "url": "https://cafef.vn/du-lieu/KLB-2945936/klb-1282026-giao-dich-170617811-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "KLB: Miễn nhiệm bà Nguyễn Thị Hồng Vân - Phó Tổng Giám đốc từ 11.8.2026",
+     "url": "https://cafef.vn/du-lieu/KLB-2943441/klb-mien-nhiem-ba-nguyen-thi-hong-van-pho-tong-giam-doc-tu-1182026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "LPB": {
+   "symbol": "LPB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:49.892381+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/lpb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "LPB: Nhận được công văn của NHNNVN - Chi nhánh khu vực 12 về chấp thuận thay đổi địa điểm đặt trụ sở PGD Ba Chẽ",
+     "url": "https://cafef.vn/du-lieu/LPB-2991536/lpb-nhan-duoc-cong-van-cua-nhnnvn-chi-nhanh-khu-vuc-12-ve-chap-thuan-thay-doi-dia-diem-dat-tru-so-pgd-ba-che.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm đặt trụ sở Phòng GD Gò Công Tây",
+     "url": "https://cafef.vn/du-lieu/LPB-2989427/lpb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-lpb-thay-doi-dia-diem-dat-tru-so-phong-gd-go-cong-tay.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo nhận được công văn của NHNN về việc chấp thuận thay đổi địa điểm PGD Xuân Lộc trực thuộc LPBank Đồng Nai",
+     "url": "https://cafef.vn/du-lieu/LPB-2986740/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnn-ve-viec-chap-thuan-thay-doi-dia-diem-pgd-xuan-loc-truc-thuoc-lpbank-dong-nai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Nhận được công văn của NHNNVN về chấp thuận thay đổi địa điểm PGD Lập Thạch và PGD Ba Tri",
+     "url": "https://cafef.vn/du-lieu/LPB-2985714/lpb-nhan-duoc-cong-van-cua-nhnnvn-ve-chap-thuan-thay-doi-dia-diem-pgd-lap-thach-va-pgd-ba-tri.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo nhận được công văn của NHNN khu vực 2 về việc thay đổi địa điểm PGD KCN VSIP và PGD Tương Bình Hiệp trực thuộc LPBank Bình Dương",
+     "url": "https://cafef.vn/du-lieu/LPB-2983499/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnn-khu-vuc-2-ve-viec-thay-doi-dia-diem-pgd-kcn-vsip-va-pgd-tuong-binh-hiep-truc-thuoc-lpbank-binh-duong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo công văn của UBCKNN về tài liệu báo cáo triển khai chào bán trái phiếu đợt 2 của LPB",
+     "url": "https://cafef.vn/du-lieu/LPB-2982629/lpb-thong-bao-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-trien-khai-chao-ban-trai-phieu-dot-2-cua-lpb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo nhận được công văn của NHNN khu vực 1 về việc chấp thuận thay đổi địa điểm PGD Thanh Nhàn và PGD Cầu Giấy trực thuộc LPBank Đông Đô",
+     "url": "https://cafef.vn/du-lieu/LPB-2981091/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnn-khu-vuc-1-ve-viec-chap-thuan-thay-doi-dia-diem-pgd-thanh-nhan-va-pgd-cau-giay-truc-thuoc-lpbank-dong-do.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm Phòng GD Gò Quao",
+     "url": "https://cafef.vn/du-lieu/LPB-2978381/lpb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-lpb-thay-doi-dia-diem-phong-gd-go-quao.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Báo cáo tỷ lệ an toàn vốn",
+     "url": "https://cafef.vn/du-lieu/LPB-2974436/lpb-bao-cao-ty-le-an-toan-von.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm Chi nhánh Đông Anh và Phòng GD Hoàng Mai",
+     "url": "https://cafef.vn/du-lieu/LPB-2973588/lpb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-lpb-thay-doi-dia-diem-chi-nhanh-dong-anh-va-phong-gd-hoang-mai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "MBB": {
+   "symbol": "MBB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:49.890071+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/mbb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "MBB: CBTT thông qua hợp đồng, giao dịch ủy thác cho vay giữa MB và MBV",
+     "url": "https://cafef.vn/du-lieu/MBB-2993948/mbb-cbtt-thong-qua-hop-dong-giao-dich-uy-thac-cho-vay-giua-mb-va-mbv.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Quyết định của HĐQT về việc thay đổi địa điểm Phòng giao dịch Ba Vì - Chi nhánh Sơn Tây",
+     "url": "https://cafef.vn/du-lieu/MBB-2993188/mbb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-phong-giao-dich-ba-vi-chi-nhanh-son-tay.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Báo cáo kết quả giao dịch cổ phiếu của Người nội bộ Nguyễn Thị Thủy",
+     "url": "https://cafef.vn/du-lieu/MBB-2993178/mbb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-thi-thuy.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Điều lệ công ty sửa đổi",
+     "url": "https://cafef.vn/du-lieu/MBB-2991565/mbb-dieu-le-cong-ty-sua-doi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: CBTT chuyển nhượng cổ phiếu - Tổng Công ty 28",
+     "url": "https://cafef.vn/du-lieu/MBB-2989829/mbb-cbtt-chuyen-nhuong-co-phieu-tong-cong-ty-28.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Quyết định về việc thực hiện góp vốn để tăng vốn điều lệ của MBV",
+     "url": "https://cafef.vn/du-lieu/MBB-2988958/mbb-quyet-dinh-ve-viec-thuc-hien-gop-von-de-tang-von-dieu-le-cua-mbv.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Thông báo giao dịch cổ phiếu của người nội bộ Nguyễn Thị Thủy",
+     "url": "https://cafef.vn/du-lieu/MBB-2988953/mbb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-thi-thuy.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Các Nghị quyết HĐQT về việc thành lập các Chi nhánh, PGD",
+     "url": "https://cafef.vn/du-lieu/MBB-2987612/mbb-cac-nghi-quyet-hdqt-ve-viec-thanh-lap-cac-chi-nhanh-pgd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: 6.10.2026, giao dịch 1.208.249.986 cp niêm yết bổ sung",
+     "url": "https://cafef.vn/du-lieu/MBB-2987809/mbb-6102026-giao-dich-1208249986-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MBB: Quyết định của HĐQT về việc thay đổi địa chỉ các Chi nhánh, PGD trên địa bàn TP. Bắc Ninh",
+     "url": "https://cafef.vn/du-lieu/MBB-2986218/mbb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-chi-cac-chi-nhanh-pgd-tren-dia-ban-tp-bac-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "MSB": {
+   "symbol": "MSB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:52.424117+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/msb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "MSB: Nhắc nhở chậm CBTT thay đổi số lượng có quyền biểu quyết",
+     "url": "https://cafef.vn/du-lieu/MSB-2993076/msb-nhac-nho-cham-cbtt-thay-doi-so-luong-co-quyen-bieu-quyet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Thông báo về việc giao dịch chứng khoán thay đổi đăng ký niêm yết",
+     "url": "https://cafef.vn/du-lieu/MSB-2992861/msb-thong-bao-ve-viec-giao-dich-chung-khoan-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Nghị quyết HĐQT về việc sửa đổi Quy chế ESOP 2022",
+     "url": "https://cafef.vn/du-lieu/MSB-2992815/msb-nghi-quyet-hdqt-ve-viec-sua-doi-quy-che-esop-2022.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Quyết định về việc thay đổi đăng ký niêm yết",
+     "url": "https://cafef.vn/du-lieu/MSB-2991854/msb-quyet-dinh-ve-viec-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: CBTT bổ sung Tờ trình 127 về tăng vốn điều lệ lần 2 năm 2026 trong hồ sơ lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/MSB-2989410/msb-cbtt-bo-sung-to-trinh-127-ve-tang-von-dieu-le-lan-2-nam-2026-trong-ho-so-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Thông báo tài liệu lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/MSB-2987672/msb-thong-bao-tai-lieu-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Bổ sung thông tin báo cáo tình hình quản trị công ty 06 tháng đầu năm 2026",
+     "url": "https://cafef.vn/du-lieu/MSB-2987640/msb-bo-sung-thong-tin-bao-cao-tinh-hinh-quan-tri-cong-ty-06-thang-dau-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Nghị quyết HĐQT phê duyệt Phương án phát hành, Phương án sử dụng và trả nợ vốn thu được từ các đợt chào bán trái phiểu MSB phát hành ra công chúng năm 2026",
+     "url": "https://cafef.vn/du-lieu/MSB-2987638/msb-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-phuong-an-su-dung-va-tra-no-von-thu-duoc-tu-cac-dot-chao-ban-trai-phieu-msb-phat-hanh-ra-cong-chung-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Cháu bà Lê Thị Liên - Thành viên HĐQT đăng ký bán 44.073 cpCháu",
+     "url": "https://cafef.vn/du-lieu/MSB-2985802/msb-chau-ba-le-thi-lien-thanh-vien-hdqt-dang-ky-ban-44073-cpchau.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Quyết định về việc chuyển địa điểm đặt trụ sở PGD Đồng Văn (bao gồm ATM)",
+     "url": "https://cafef.vn/du-lieu/MSB-2980913/msb-quyet-dinh-ve-viec-chuyen-dia-diem-dat-tru-so-pgd-dong-van-bao-gom-atm.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "NAB": {
+   "symbol": "NAB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:55.036424+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/nab/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "NAB: Điều lệ sửa đổi (kèm Nghị quyết HĐQT số 2125 ngày 28/09/2026)",
+     "url": "https://cafef.vn/du-lieu/NAB-2986823/nab-dieu-le-sua-doi-kem-nghi-quyet-hdqt-so-2125-ngay-28092026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Thông báo quyết định của NHNN về việc sửa đổi nội dung vốn điều lệ tại Giấy phép thành lập và hoạt động của NAB",
+     "url": "https://cafef.vn/du-lieu/NAB-2983086/nab-thong-bao-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong-cua-nab.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: CBTT về việc thay đổi địa điểm PGD Phan Thiết",
+     "url": "https://cafef.vn/du-lieu/NAB-2978146/nab-cbtt-ve-viec-thay-doi-dia-diem-pgd-phan-thiet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Tái bổ nhiệm ông Hoàng Hải Vương giữ chức Phó Tổng Giám đốc (kèm Quyết định của HĐQT)",
+     "url": "https://cafef.vn/du-lieu/NAB-2975588/nab-tai-bo-nhiem-ong-hoang-hai-vuong-giu-chuc-pho-tong-giam-doc-kem-quyet-dinh-cua-hdqt.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Thông báo nhận được Quyết định của Cục thuế về việc nộp bổ sung thuế và các nghĩa vụ khác có liên quan",
+     "url": "https://cafef.vn/du-lieu/NAB-2962317/nab-thong-bao-nhan-duoc-quyet-dinh-cua-cuc-thue-ve-viec-nop-bo-sung-thue-va-cac-nghia-vu-khac-co-lien-quan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: CBTT về việc thay đổi địa điểm PGD Linh Tây",
+     "url": "https://cafef.vn/du-lieu/NAB-2952755/nab-cbtt-ve-viec-thay-doi-dia-diem-pgd-linh-tay.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: CBTT về việc thay đổi địa điểm Chi nhánh Dĩ An",
+     "url": "https://cafef.vn/du-lieu/NAB-2952748/nab-cbtt-ve-viec-thay-doi-dia-diem-chi-nhanh-di-an.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Giải trình biến động LNST 6 tháng đầu năm 2026 đã soát xét",
+     "url": "https://cafef.vn/du-lieu/NAB-2949776/nab-giai-trinh-bien-dong-lnst-6-thang-dau-nam-2026-da-soat-xet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Thông báo công văn của HNX về ngày giao dịch đầu tiên trái phiếu niêm yết của NAB",
+     "url": "https://cafef.vn/du-lieu/NAB-2949837/nab-thong-bao-cong-van-cua-hnx-ve-ngay-giao-dich-dau-tien-trai-phieu-niem-yet-cua-nab.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Báo cáo tình hình quản trị công ty 06 tháng đầu năm 2026",
+     "url": "https://cafef.vn/du-lieu/NAB-2943345/nab-bao-cao-tinh-hinh-quan-tri-cong-ty-06-thang-dau-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "NVB": {
+   "symbol": "NVB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:55.041570+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/nvb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [
+    {
+     "title": "NVB: Báo cáo tài chính bán niên năm 2026",
+     "url": "https://cafef.vn/du-lieu/NVB-2965539/nvb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Báo cáo tài chính bán niên năm 2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/NVB-2965506/nvb-bao-cao-tai-chinh-ban-nien-nam-2026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Báo cáo tài chính quý 2/2026",
+     "url": "https://cafef.vn/du-lieu/NVB-2942818/nvb-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Báo cáo tài chính quý 2/2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/NVB-2941982/nvb-bao-cao-tai-chinh-quy-22026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "disclosures": [
+    {
+     "title": "NVB: Vợ ông Lê Văn Quý-thành viên BKS đăng ký bán toàn bộ 65.000 cổ phiếu",
+     "url": "https://cafef.vn/du-lieu/NVB-2992264/nvb-vo-ong-le-van-quythanh-vien-bks-dang-ky-ban-toan-bo-65000-co-phieu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: NHNN thông qua phương án tăng VĐL thêm tối đa 33.000 tỷ đồng",
+     "url": "https://cafef.vn/du-lieu/NVB-2986166/nvb-nhnn-thong-qua-phuong-an-tang-vdl-them-toi-da-33000-ty-dong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: 28.6.2027, giao dịch 1 tỷ cổ phiếu phát hành riêng lẻ",
+     "url": "https://cafef.vn/du-lieu/NVB-2986232/nvb-2862027-giao-dich-1-ty-co-phieu-phat-hanh-rieng-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Nghị quyết HĐQT thông qua các hợp đồng ủy quyền xử lý nợ",
+     "url": "https://cafef.vn/du-lieu/NVB-2980791/nvb-nghi-quyet-hdqt-thong-qua-cac-hop-dong-uy-quyen-xu-ly-no.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Niêm yết 1 tỷ cổ phiếu phát hành riêng lẻ",
+     "url": "https://cafef.vn/du-lieu/NVB-2979084/nvb-niem-yet-1-ty-co-phieu-phat-hanh-rieng-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Nghị quyết HĐQT triển khai phát hành cổ phiếu riêng lẻ",
+     "url": "https://cafef.vn/du-lieu/NVB-2979202/nvb-nghi-quyet-hdqt-trien-khai-phat-hanh-co-phieu-rieng-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Nghị quyết ĐHCĐ thông qua kết quả phát hành riêng cp năm 2026, phương án phát hành riêng lẻ năm 2027",
+     "url": "https://cafef.vn/du-lieu/NVB-2974312/nvb-nghi-quyet-dhcd-thong-qua-ket-qua-phat-hanh-rieng-cp-nam-2026-phuong-an-phat-hanh-rieng-le-nam-2027.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: NHNN thông qua địa điểm mới của PGD Láng Thượng",
+     "url": "https://cafef.vn/du-lieu/NVB-2958812/nvb-nhnn-thong-qua-dia-diem-moi-cua-pgd-lang-thuong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: Tài liệu lấy ý kiến CĐ bằng văn bản v/v phát hành riêng lẻ cổ phiếu năm 2027",
+     "url": "https://cafef.vn/du-lieu/NVB-2957828/nvb-tai-lieu-lay-y-kien-cd-bang-van-ban-vv-phat-hanh-rieng-le-co-phieu-nam-2027.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NVB: 17.8.2026, ngày GDKHQ lấy ý kiến CĐ bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/NVB-2951564/nvb-1782026-ngay-gdkhq-lay-y-kien-cd-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "OCB": {
+   "symbol": "OCB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:52.673204+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/ocb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "OCB: Thông báo công văn của NHNN về chấp thuận cho OCB thay đổi địa điểm Phòng GD Long Phú",
+     "url": "https://cafef.vn/du-lieu/OCB-2979457/ocb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-ocb-thay-doi-dia-diem-phong-gd-long-phu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nghị quyết HĐQT về thay đổi địa điểm và chi nhánh quản lý PGD Rạch Giá",
+     "url": "https://cafef.vn/du-lieu/OCB-2978585/ocb-nghi-quyet-hdqt-ve-thay-doi-dia-diem-va-chi-nhanh-quan-ly-pgd-rach-gia.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nghị quyết HĐQT thông qua Đơn từ nhiệm của ông Nguyễn Văn Hải - Thành viên BKS",
+     "url": "https://cafef.vn/du-lieu/OCB-2978590/ocb-nghi-quyet-hdqt-thong-qua-don-tu-nhiem-cua-ong-nguyen-van-hai-thanh-vien-bks.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nghị quyết HĐQT về việc thay đổi địa điểm và chi nhánh quản lý của Phòng GD Châu Đốc",
+     "url": "https://cafef.vn/du-lieu/OCB-2976826/ocb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-va-chi-nhanh-quan-ly-cua-phong-gd-chau-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nghị quyết HĐQT về việc thay đổi địa điểm và chi nhánh quản lý của Phòng GD Phước Long",
+     "url": "https://cafef.vn/du-lieu/OCB-2976827/ocb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-va-chi-nhanh-quan-ly-cua-phong-gd-phuoc-long.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nghị quyết HĐQT về việc thay đổi địa điểm và chi nhánh quản lý của Phòng GD Thoại Sơn",
+     "url": "https://cafef.vn/du-lieu/OCB-2976828/ocb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-va-chi-nhanh-quan-ly-cua-phong-gd-thoai-son.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nghị quyết HĐQT về việc thay đổi địa điểm và chi nhánh quản lý của Phòng GD Thốt Nốt",
+     "url": "https://cafef.vn/du-lieu/OCB-2976829/ocb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-va-chi-nhanh-quan-ly-cua-phong-gd-thot-not.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Thông báo nhận được công văn của NHNN Chi nhánh Khu vực 2 về việc thay đổi địa điểm Chi nhánh Chợ Lớn",
+     "url": "https://cafef.vn/du-lieu/OCB-2974251/ocb-thong-bao-nhan-duoc-cong-van-cua-nhnn-chi-nhanh-khu-vuc-2-ve-viec-thay-doi-dia-diem-chi-nhanh-cho-lon.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Đơn từ nhiệm của ông Nguyễn Văn Hải - thành viên BKS nhiệm kỳ 2025-2030",
+     "url": "https://cafef.vn/du-lieu/OCB-2974250/ocb-don-tu-nhiem-cua-ong-nguyen-van-hai-thanh-vien-bks-nhiem-ky-20252030.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "OCB: Nhận được công văn của NHNNVN - Chi nhánh khu vực 13 về chấp thuận thay đổi địa điểm đặt trụ sở PGD Sa Đéc",
+     "url": "https://cafef.vn/du-lieu/OCB-2972687/ocb-nhan-duoc-cong-van-cua-nhnnvn-chi-nhanh-khu-vuc-13-ve-chap-thuan-thay-doi-dia-diem-dat-tru-so-pgd-sa-dec.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "PGB": {
+   "symbol": "PGB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:55.067481+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/pgb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [
+    {
+     "title": "PGB: Báo cáo tài chính bán niên năm 2026",
+     "url": "https://cafef.vn/du-lieu/PGB-2956948/pgb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Báo cáo tài chính quý 2/2026",
+     "url": "https://cafef.vn/du-lieu/PGB-2935432/pgb-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "disclosures": [
+    {
+     "title": "PGB: Đơn xin từ nhiệm thành viên BKS",
+     "url": "https://cafef.vn/du-lieu/PGB-2993599/pgb-don-xin-tu-nhiem-thanh-vien-bks.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Ngày đăng ký cuối cùng phát hành cổ phiếu cho cổ đông hiện hữu, Thực hiện quyền mua cổ phiếu chào bán thêm cho cổng động hiện hữu đợt 1",
+     "url": "https://cafef.vn/du-lieu/PGB-2987956/pgb-ngay-dang-ky-cuoi-cung-phat-hanh-co-phieu-cho-co-dong-hien-huu-thuc-hien-quyen-mua-co-phieu-chao-ban-them-cho-cong-dong-hien-huu-dot-1.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Nghị quyết HĐQT thay đổi địa chỉ Chi nhánh/Phòng Giao địch của PGBank tại thành phố Bắc Ninh",
+     "url": "https://cafef.vn/du-lieu/PGB-2986657/pgb-nghi-quyet-hdqt-thay-doi-dia-chi-chi-nhanhphong-giao-dich-cua-pgbank-tai-thanh-pho-bac-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: 06.10.2026, ngày GDKHQ phát hành cổ phiếu cho cổ đông hiện hữu ( tỷ lệ 100.000 : 20.472 )",
+     "url": "https://cafef.vn/du-lieu/PGB-2987687/pgb-06102026-ngay-gdkhq-phat-hanh-co-phieu-cho-co-dong-hien-huu--ty-le-100000--20472-.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Nghị quyết Hội đồng quản trị và Thông báo về ngày đăng ký cuối cùng thực hiện quyền mua cổ phiếu phát hành thêm cho cổ đông hiện hữu đợt 1",
+     "url": "https://cafef.vn/du-lieu/PGB-2983297/pgb-nghi-quyet-hoi-dong-quan-tri-va-thong-bao-ve-ngay-dang-ky-cuoi-cung-thuc-hien-quyen-mua-co-phieu-phat-hanh-them-cho-co-dong-hien-huu-dot-1.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Thông báo chào bán cổ phiếu ra công chúng (Đợt 1)",
+     "url": "https://cafef.vn/du-lieu/PGB-2983303/pgb-thong-bao-chao-ban-co-phieu-ra-cong-chung-dot-1.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Giấy chứng nhận đăng ký chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/PGB-2979248/pgb-giay-chung-nhan-dang-ky-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Nghị quyết Hội đồng quản trị thay đổi địa điểm chi nhánh công ty",
+     "url": "https://cafef.vn/du-lieu/PGB-2975627/pgb-nghi-quyet-hoi-dong-quan-tri-thay-doi-dia-diem-chi-nhanh-cong-ty.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Bổ nhiệm bà Vương Ngọc Liên giữ chức Kế toán trưởng",
+     "url": "https://cafef.vn/du-lieu/PGB-2950467/pgb-bo-nhiem-ba-vuong-ngoc-lien-giu-chuc-ke-toan-truong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Nghị quyết Hội đồng quản trị thông qua hồ sơ đăng ký chào bán thêm cổ phiều ra công chúng",
+     "url": "https://cafef.vn/du-lieu/PGB-2946720/pgb-nghi-quyet-hoi-dong-quan-tri-thong-qua-ho-so-dang-ky-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "SGB": {
+   "symbol": "SGB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:56.121359+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/sgb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [
+    {
+     "title": "SGB: Báo cáo tài chính bán niên năm 2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/SGB-2957616/sgb-bao-cao-tai-chinh-ban-nien-nam-2026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính bán niên năm 2026",
+     "url": "https://cafef.vn/du-lieu/SGB-2957615/sgb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính quý 2/2026",
+     "url": "https://cafef.vn/du-lieu/SGB-2939196/sgb-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính quý 2/2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/SGB-2939190/sgb-bao-cao-tai-chinh-quy-22026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính quý 1/2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/SGB-2675401/sgb-bao-cao-tai-chinh-quy-12026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính quý 1/2026",
+     "url": "https://cafef.vn/du-lieu/SGB-2675287/sgb-bao-cao-tai-chinh-quy-12026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính năm 2025 (Công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/SGB-2638150/sgb-bao-cao-tai-chinh-nam-2025-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo tài chính năm 2025",
+     "url": "https://cafef.vn/du-lieu/SGB-2637025/sgb-bao-cao-tai-chinh-nam-2025.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "disclosures": [
+    {
+     "title": "SGB: Nghị quyết HĐQT về việc thay đổi địa điểm hoạt động của Phòng giao dịch Thanh Nhàn - Chi nhánh Hà Nội",
+     "url": "https://cafef.vn/du-lieu/SGB-2993893/sgb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-hoat-dong-cua-phong-giao-dich-thanh-nhan-chi-nhanh-ha-noi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Em ông Trần Thanh Giang Tổng Giám đốc; Ủy viên HĐQT đã mua 9.000 CP",
+     "url": "https://cafef.vn/du-lieu/SGB-2988859/sgb-em-ong-tran-thanh-giang-tong-giam-doc-uy-vien-hdqt-da-mua-9000-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Bổ nhiệm ông Trần Quốc Thanh giữ chức Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/SGB-2965324/sgb-bo-nhiem-ong-tran-quoc-thanh-giu-chuc-pho-tong-giam-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Bổ nhiệm ông Phạm Hoàng Hồng Thịnh giữ chức Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/SGB-2965863/sgb-bo-nhiem-ong-pham-hoang-hong-thinh-giu-chuc-pho-tong-giam-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Nghị quyết HĐQT về chủ trương di dời trụ sở và thay đổi tên gọi Chi nhánh Thốt Nốt",
+     "url": "https://cafef.vn/du-lieu/SGB-2964147/sgb-nghi-quyet-hdqt-ve-chu-truong-di-doi-tru-so-va-thay-doi-ten-goi-chi-nhanh-thot-not.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Bổ nhiệm ông Nguyễn Khắc Nghiêm giữ chức Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/SGB-2946213/sgb-bo-nhiem-ong-nguyen-khac-nghiem-giu-chuc-pho-tong-giam-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Báo cáo quản trị công ty bán niên 2026",
+     "url": "https://cafef.vn/du-lieu/SGB-2941126/sgb-bao-cao-quan-tri-cong-ty-ban-nien-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Thay đổi địa điểm Phòng Giao dịch Bắc Bình - Chi nhánh Bình Thuận",
+     "url": "https://cafef.vn/du-lieu/SGB-2936828/sgb-thay-doi-dia-diem-phong-giao-dich-bac-binh-chi-nhanh-binh-thuan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Thay đổi địa điểm Phòng Giao dịch Tô Hiệu - Chi nhánh Hải Phòng",
+     "url": "https://cafef.vn/du-lieu/SGB-2923219/sgb-thay-doi-dia-diem-phong-giao-dich-to-hieu-chi-nhanh-hai-phong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SGB: Quyết định bổ sung nội dung hoạt động vào Giấy phép thành lập và hoạt động của SAIGONBANK",
+     "url": "https://cafef.vn/du-lieu/SGB-2922470/sgb-quyet-dinh-bo-sung-noi-dung-hoat-dong-vao-giay-phep-thanh-lap-va-hoat-dong-cua-saigonbank.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "SHB": {
+   "symbol": "SHB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:52.430878+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/shb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "SHB: Nghị quyết HĐQT số 47, 48 ngày 05/10/2026",
+     "url": "https://cafef.vn/du-lieu/SHB-2992429/shb-nghi-quyet-hdqt-so-47-48-ngay-05102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: CBTT kết quả kiểm tra Thuế",
+     "url": "https://cafef.vn/du-lieu/SHB-2982374/shb-cbtt-ket-qua-kiem-tra-thue.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Quyết định HĐQT về việc thay đổi Trụ sở Chi nhánh SHB Kinh Bắc, SHB Bắc Giang",
+     "url": "https://cafef.vn/du-lieu/SHB-2982378/shb-quyet-dinh-hdqt-ve-viec-thay-doi-tru-so-chi-nhanh-shb-kinh-bac-shb-bac-giang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Nghị quyết HĐQT thông qua hồ sơ đề nghị việc đăng ký chào bán trái phiếu SHB ra thị trường quốc tế năm 2026",
+     "url": "https://cafef.vn/du-lieu/SHB-2980914/shb-nghi-quyet-hdqt-thong-qua-ho-so-de-nghi-viec-dang-ky-chao-ban-trai-phieu-shb-ra-thi-truong-quoc-te-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Nghị quyết HĐQT thông qua triển khai Phương án phát hành và sử dụng vốn Trái phiếu SHB phát hành ra công chúng năm 2026 - đợt 2",
+     "url": "https://cafef.vn/du-lieu/SHB-2977707/shb-nghi-quyet-hdqt-thong-qua-trien-khai-phuong-an-phat-hanh-va-su-dung-von-trai-phieu-shb-phat-hanh-ra-cong-chung-nam-2026-dot-2.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Nhận được công văn của UBCKNN về tài liệu báo cáo kết quả chào bán trái phiếu ra công chúng (đợt 1)",
+     "url": "https://cafef.vn/du-lieu/SHB-2965783/shb-nhan-duoc-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-ket-qua-chao-ban-trai-phieu-ra-cong-chung-dot-1.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Nghị quyết HĐQT phê duyệt Phương án phát hành Trái phiếu SHB ra thị trường quốc tế",
+     "url": "https://cafef.vn/du-lieu/SHB-2965780/shb-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-trai-phieu-shb-ra-thi-truong-quoc-te.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Báo cáo kết quả đợt chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/SHB-2964852/shb-bao-cao-ket-qua-dot-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Các Quyết định HĐQT về thay đổi địa điểm trụ sở Chi nhánh SHB Bắc Ninh, Hưng Yên, Cà Mau",
+     "url": "https://cafef.vn/du-lieu/SHB-2962385/shb-cac-quyet-dinh-hdqt-ve-thay-doi-dia-diem-tru-so-chi-nhanh-shb-bac-ninh-hung-yen-ca-mau.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Nghị quyết HĐQT thông qua phương án trái phiếu riêng lẻ SHB lần 2 năm 2026",
+     "url": "https://cafef.vn/du-lieu/SHB-2953270/shb-nghi-quyet-hdqt-thong-qua-phuong-an-trai-phieu-rieng-le-shb-lan-2-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "SSB": {
+   "symbol": "SSB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:52.414933+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/ssb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "SSB: Báo cáo kết quả giao dịch cổ phiếu của người có liên quan đến Người nội bộ Nguyễn Tường Huy",
+     "url": "https://cafef.vn/du-lieu/SSB-2991237/ssb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-co-lien-quan-den-nguoi-noi-bo-nguyen-tuong-huy.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Báo cáo kết quả giao dịch cổ phiếu của Người nội bộ Đặng Thu Trang",
+     "url": "https://cafef.vn/du-lieu/SSB-2991236/ssb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-noi-bo-dang-thu-trang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Nghị quyết HĐQT thông qua hợp đồng, giao dịch với CTCP Cho thuê máy bay Việt Nam",
+     "url": "https://cafef.vn/du-lieu/SSB-2989793/ssb-nghi-quyet-hdqt-thong-qua-hop-dong-giao-dich-voi-ctcp-cho-thue-may-bay-viet-nam.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Ông Bùi Quốc Hiệu - Phó Tổng giám đốc đã bán 56.449 cp",
+     "url": "https://cafef.vn/du-lieu/SSB-2987671/ssb-ong-bui-quoc-hieu-pho-tong-giam-doc-da-ban-56449-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Nghị quyết HĐQT thông qua việc gia hạn Hợp đồng thuê trụ sở PGD Bà Triệu - Chi nhánh Đống Đa",
+     "url": "https://cafef.vn/du-lieu/SSB-2983568/ssb-nghi-quyet-hdqt-thong-qua-viec-gia-han-hop-dong-thue-tru-so-pgd-ba-trieu-chi-nhanh-dong-da.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Công báo cáo kết quả giao dịch cổ phiếu của ông Vũ Đình Khoán - Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/SSB-2983570/ssb-cong-bao-cao-ket-qua-giao-dich-co-phieu-cua-ong-vu-dinh-khoan-pho-tong-giam-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Thông báo nhận được công văn của VSDC về việc điều chỉnh thông tin số lượng cổ phiếu đăng ký",
+     "url": "https://cafef.vn/du-lieu/SSB-2982649/ssb-thong-bao-nhan-duoc-cong-van-cua-vsdc-ve-viec-dieu-chinh-thong-tin-so-luong-co-phieu-dang-ky.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Chồng bà Nguyễn Thị Nga - Phó Chủ tịch thường trực đăng ký mua 3.000.000 cp",
+     "url": "https://cafef.vn/du-lieu/SSB-2981854/ssb-chong-ba-nguyen-thi-nga-pho-chu-tich-thuong-truc-dang-ky-mua-3000000-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Ông Nguyễn Tuấn Anh - Phó Tổng giám đốc đăng ký bán 80.000 cp",
+     "url": "https://cafef.vn/du-lieu/SSB-2981096/ssb-ong-nguyen-tuan-anh-pho-tong-giam-doc-dang-ky-ban-80000-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Thông báo giao dịch cổ phiếu của người nội bộ Đặng Thu Trang, Vũ Đình Khoán",
+     "url": "https://cafef.vn/du-lieu/SSB-2979490/ssb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-dang-thu-trang-vu-dinh-khoan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "STB": {
+   "symbol": "STB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:49.901153+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/stb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "STB: Nghị quyết HĐQT số 0172.2026 ngày 29/09/2026",
+     "url": "https://cafef.vn/du-lieu/STB-2988457/stb-nghi-quyet-hdqt-so-01722026-ngay-29092026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Nghị quyết HĐQT thay đổi địa chỉ các điểm giao dịch trên địa bàn TP.Bắc Ninh",
+     "url": "https://cafef.vn/du-lieu/STB-2986612/stb-nghi-quyet-hdqt-thay-doi-dia-chi-cac-diem-giao-dich-tren-dia-ban-tpbac-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Thông báo nhận được công văn của NHNN Chi nhánh Khu vực 9 về việc chấp thuận thay đổi địa điểm Sacombank Sông Hàn - PGD Núi Thành",
+     "url": "https://cafef.vn/du-lieu/STB-2982617/stb-thong-bao-nhan-duoc-cong-van-cua-nhnn-chi-nhanh-khu-vuc-9-ve-viec-chap-thuan-thay-doi-dia-diem-sacombank-song-han-pgd-nui-thanh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Bổ nhiệm ông Nguyễn Xuân Vũ giữ chức Phó Chủ tịch HĐQT từ 18.9.2026",
+     "url": "https://cafef.vn/du-lieu/STB-2979460/stb-bo-nhiem-ong-nguyen-xuan-vu-giu-chuc-pho-chu-tich-hdqt-tu-1892026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Giải trình BCTC HN và Riêng soát xét bán niên năm 2026 so với cùng kỳ năm trước",
+     "url": "https://cafef.vn/du-lieu/STB-2953249/stb-giai-trinh-bctc-hn-va-rieng-soat-xet-ban-nien-nam-2026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Thông báo về tỷ lệ sở hữu nước ngoài tối đa",
+     "url": "https://cafef.vn/du-lieu/STB-2948438/stb-thong-bao-ve-ty-le-so-huu-nuoc-ngoai-toi-da.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Nghị quyết HĐQT về việc chấp thuận chủ trương thay đổi địa chỉ Chi nhánh/PGD",
+     "url": "https://cafef.vn/du-lieu/STB-2945391/stb-nghi-quyet-hdqt-ve-viec-chap-thuan-chu-truong-thay-doi-dia-chi-chi-nhanhpgd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Giải trình BCTC riêng và hợp nhất Quý 2 năm 2026",
+     "url": "https://cafef.vn/du-lieu/STB-2943182/stb-giai-trinh-bctc-rieng-va-hop-nhat-quy-2-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Ông Hồ Doãn Cường, ông Nguyễn Minh Tâm thôi giữ chức Phó Tổng giám đốc từ 31.7.2026",
+     "url": "https://cafef.vn/du-lieu/STB-2943431/stb-ong-ho-doan-cuong-ong-nguyen-minh-tam-thoi-giu-chuc-pho-tong-giam-doc-tu-3172026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Báo cáo tình hình quản trị 6 tháng đầu năm 2026",
+     "url": "https://cafef.vn/du-lieu/STB-2941988/stb-bao-cao-tinh-hinh-quan-tri-6-thang-dau-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "TCB": {
+   "symbol": "TCB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:46.257548+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/tcb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "TCB: Nghị quyết HĐQT về việc phê duyệt giao dịch với TCBS là người có liên quan",
+     "url": "https://cafef.vn/du-lieu/TCB-2991554/tcb-nghi-quyet-hdqt-ve-viec-phe-duyet-giao-dich-voi-tcbs-la-nguoi-co-lien-quan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Quyết định của HĐQT về việc thay đổi địa điểm Chi nhánh Hà Tây và Phòng GD Ngã Tư Sở",
+     "url": "https://cafef.vn/du-lieu/TCB-2988959/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-chi-nhanh-ha-tay-va-phong-gd-nga-tu-so.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT số 0540, 0541, 0542 ngày 30/09/2026",
+     "url": "https://cafef.vn/du-lieu/TCB-2988957/tcb-nghi-quyet-hdqt-so-0540-0541-0542-ngay-30092026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Quyết định của HĐQT về việc thay đổi địa chỉ nhưng không thay đổi địa điểm Chi nhánh và Phòng giao dịch",
+     "url": "https://cafef.vn/du-lieu/TCB-2985959/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-chi-nhung-khong-thay-doi-dia-diem-chi-nhanh-va-phong-giao-dich.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT về việc cung cấp dịch vụ đại lý lưu lý cho trái phiế TCB phát hành riêng lẻ năm 2026",
+     "url": "https://cafef.vn/du-lieu/TCB-2984455/tcb-nghi-quyet-hdqt-ve-viec-cung-cap-dich-vu-dai-ly-luu-ly-cho-trai-phie-tcb-phat-hanh-rieng-le-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT phê duyêt giao dịch giữa TCB và TCBS",
+     "url": "https://cafef.vn/du-lieu/TCB-2983530/tcb-nghi-quyet-hdqt-phe-duyet-giao-dich-giua-tcb-va-tcbs.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT thông qua triển khai Phương án tăng VĐL năm 2026",
+     "url": "https://cafef.vn/du-lieu/TCB-2977708/tcb-nghi-quyet-hdqt-thong-qua-trien-khai-phuong-an-tang-vdl-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Quyết định của HĐQT về việc thay đổi địa chỉ Chi nhánh Kiến An, Đồng Nai, Quảng Ninh",
+     "url": "https://cafef.vn/du-lieu/TCB-2976843/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-chi-chi-nhanh-kien-an-dong-nai-quang-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT về việc phê duyệt giao dịch cấp hạn mức tín dụng cho Người liên quan của Người nội bộ",
+     "url": "https://cafef.vn/du-lieu/TCB-2976845/tcb-nghi-quyet-hdqt-ve-viec-phe-duyet-giao-dich-cap-han-muc-tin-dung-cho-nguoi-lien-quan-cua-nguoi-noi-bo.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT phê duyệt hạn mức tín dụng cho Công ty Cổ phần Eurowindow",
+     "url": "https://cafef.vn/du-lieu/TCB-2973569/tcb-nghi-quyet-hdqt-phe-duyet-han-muc-tin-dung-cho-cong-ty-co-phan-eurowindow.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "TPB": {
+   "symbol": "TPB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:49.873153+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/tpb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "TPB: Báo cáo kết quả đợt phát hành cổ phiếu để trả cổ tức",
+     "url": "https://cafef.vn/du-lieu/TPB-2994044/tpb-bao-cao-ket-qua-dot-phat-hanh-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Nghị quyết HĐQT số 40/2026 ngày 08/10/2026",
+     "url": "https://cafef.vn/du-lieu/TPB-2994043/tpb-nghi-quyet-hdqt-so-402026-ngay-08102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Thông báo thay đổi số lượng cổ phiếu có quyền biểu quyết đang lưu hành",
+     "url": "https://cafef.vn/du-lieu/TPB-2994041/tpb-thong-bao-thay-doi-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Nghị quyết HĐQT về việc thông qua sửa đổi, bổ sung một số nội dung về đợt phát hành trái phiếu TPBank ra công chúng",
+     "url": "https://cafef.vn/du-lieu/TPB-2988146/tpb-nghi-quyet-hdqt-ve-viec-thong-qua-sua-doi-bo-sung-mot-so-noi-dung-ve-dot-phat-hanh-trai-phieu-tpbank-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Nghị quyết HĐQT về việc thông qua bộ hồ sơ đăng ký chào bán trái phiếu TPBank ra công chúng",
+     "url": "https://cafef.vn/du-lieu/TPB-2988143/tpb-nghi-quyet-hdqt-ve-viec-thong-qua-bo-ho-so-dang-ky-chao-ban-trai-phieu-tpbank-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: 2.10.2026, ngày GDKHQ chi trả cổ tức bằng tiền trong năm 2026 (500 đ/cp), trả cổ tức bằng cổ phiếu (tỷ lệ 15%)",
+     "url": "https://cafef.vn/du-lieu/TPB-2986639/tpb-2102026-ngay-gdkhq-chi-tra-co-tuc-bang-tien-trong-nam-2026-500-dcp-tra-co-tuc-bang-co-phieu-ty-le-15.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Nghị quyết HĐQT cấp hạn mức tín dụng cho CTCP Diana Unicharm và Chi nhánh CTCP Diana Unicharm Bắc Ninh",
+     "url": "https://cafef.vn/du-lieu/TPB-2987676/tpb-nghi-quyet-hdqt-cap-han-muc-tin-dung-cho-ctcp-diana-unicharm-va-chi-nhanh-ctcp-diana-unicharm-bac-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Nghị quyết HĐQT thông qua Hợp đồng, giao dịch giữa TPBank và TPS",
+     "url": "https://cafef.vn/du-lieu/TPB-2983462/tpb-nghi-quyet-hdqt-thong-qua-hop-dong-giao-dich-giua-tpbank-va-tps.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Nghị quyết HĐQT thông qua Phương án phát hành, Phương án sử dụng và trả nợ vốn thu được từ đợt chào bán và việc niêm yết Trái Phiếu phát hành ra công chúng",
+     "url": "https://cafef.vn/du-lieu/TPB-2983466/tpb-nghi-quyet-hdqt-thong-qua-phuong-an-phat-hanh-phuong-an-su-dung-va-tra-no-von-thu-duoc-tu-dot-chao-ban-va-viec-niem-yet-trai-phieu-phat-hanh-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Thông báo phát hành cổ phiếu để trả cổ tức",
+     "url": "https://cafef.vn/du-lieu/TPB-2982175/tpb-thong-bao-phat-hanh-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "VBB": {
+   "symbol": "VBB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:58.345291+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/vbb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "VBB: Nghị quyết HĐQT số 202/2026 ngày 07/10/2026",
+     "url": "https://cafef.vn/du-lieu/VBB-2993801/vbb-nghi-quyet-hdqt-so-2022026-ngay-07102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Thông báo chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/VBB-2993797/vbb-thong-bao-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Giấy chứng nhận đăng ký chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/VBB-2993790/vbb-giay-chung-nhan-dang-ky-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Bản cáo bạch chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/VBB-2993787/vbb-ban-cao-bach-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Quyết định HĐQT bổ nhiệm ông Gorski Jr Chester Edward giữ chức Quyền tổng giám đốc từ 29.9.2026",
+     "url": "https://cafef.vn/du-lieu/VBB-2988121/vbb-quyet-dinh-hdqt-bo-nhiem-ong-gorski-jr-chester-edward-giu-chuc-quyen-tong-giam-doc-tu-2992026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Bổ nhiệm ông Gorski Jr Chester Edward giữ chức Quyền Tổng giám đốc (kèm Quyết định, Bản cung cấp thông tin)",
+     "url": "https://cafef.vn/du-lieu/VBB-2988123/vbb-bo-nhiem-ong-gorski-jr-chester-edward-giu-chuc-quyen-tong-giam-doc-kem-quyet-dinh-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Miễn nhiệm ông Phạm Linh - Phó Tổng giám đốc phụ trách điều hành (kèm Quyết định, Bản cung cấp thông tin)",
+     "url": "https://cafef.vn/du-lieu/VBB-2988128/vbb-mien-nhiem-ong-pham-linh-pho-tong-giam-doc-phu-trach-dieu-hanh-kem-quyet-dinh-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Quyết định của HĐQT tái bổ nhiệm ông Trương Ngọc Thuận giữ chức Giám đốc chi nhánh Bà Rịa - Vũng Tàu",
+     "url": "https://cafef.vn/du-lieu/VBB-2982577/vbb-quyet-dinh-cua-hdqt-tai-bo-nhiem-ong-truong-ngoc-thuan-giu-chuc-giam-doc-chi-nhanh-ba-ria-vung-tau.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Bổ nhiệm ông Gorski Jr Chester Edward giữ chức Phó Tổng giám đốc từ 18.9.2026",
+     "url": "https://cafef.vn/du-lieu/VBB-2979471/vbb-bo-nhiem-ong-gorski-jr-chester-edward-giu-chuc-pho-tong-giam-doc-tu-1892026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Quyết định của HĐQT về việc tuyển dụng và bổ nhiệm ông Gorski Jr Chester Edward giữ chức Phó TGĐ",
+     "url": "https://cafef.vn/du-lieu/VBB-2979469/vbb-quyet-dinh-cua-hdqt-ve-viec-tuyen-dung-va-bo-nhiem-ong-gorski-jr-chester-edward-giu-chuc-pho-tgd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "VCB": {
+   "symbol": "VCB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:46.252927+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/vcb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "VCB: CBTT thông qua ký kết thỏa thuận LC UPAS và LC Discounting với VFC",
+     "url": "https://cafef.vn/du-lieu/VCB-2993959/vcb-cbtt-thong-qua-ky-ket-thoa-thuan-lc-upas-va-lc-discounting-voi-vfc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: Thông báo nhận được đơn xin nghỉ hưu trước tuổi của Phó TGĐ Nguyễn Văn Tuân",
+     "url": "https://cafef.vn/du-lieu/VCB-2989426/vcb-thong-bao-nhan-duoc-don-xin-nghi-huu-truoc-tuoi-cua-pho-tgd-nguyen-van-tuan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: HĐQT thông qua hợp đồng và giao dịch giữa VCB và VCBM",
+     "url": "https://cafef.vn/du-lieu/VCB-2988946/vcb-hdqt-thong-qua-hop-dong-va-giao-dich-giua-vcb-va-vcbm.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: HĐQT thông qua giao dịch giữa VCB và VCBF",
+     "url": "https://cafef.vn/du-lieu/VCB-2988941/vcb-hdqt-thong-qua-giao-dich-giua-vcb-va-vcbf.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: Quyết định về việc thay đổi địa chỉ trụ sở các Chi nhánh và các PGD",
+     "url": "https://cafef.vn/du-lieu/VCB-2982639/vcb-quyet-dinh-ve-viec-thay-doi-dia-chi-tru-so-cac-chi-nhanh-va-cac-pgd.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: Quyết định về việc thay đổi địa điểm trụ sở Chi nhánh Phú Mỹ và Chi nhánh Gia Định",
+     "url": "https://cafef.vn/du-lieu/VCB-2977700/vcb-quyet-dinh-ve-viec-thay-doi-dia-diem-tru-so-chi-nhanh-phu-my-va-chi-nhanh-gia-dinh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: HĐQT thông qua giao dịch giữa VCB và VCBNeo",
+     "url": "https://cafef.vn/du-lieu/VCB-2977694/vcb-hdqt-thong-qua-giao-dich-giua-vcb-va-vcbneo.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: Thông báo thay đổi địa chỉ trụ sở 04 Chi nhánh và 15 PGD ở Quảng Ninh",
+     "url": "https://cafef.vn/du-lieu/VCB-2971152/vcb-thong-bao-thay-doi-dia-chi-tru-so-04-chi-nhanh-va-15-pgd-o-quang-ninh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: Nghị quyết HĐQT phê duyệt chủ trương thay đổi địa điểm trụ sở chi nhánh VCB Gia Định",
+     "url": "https://cafef.vn/du-lieu/VCB-2963120/vcb-nghi-quyet-hdqt-phe-duyet-chu-truong-thay-doi-dia-diem-tru-so-chi-nhanh-vcb-gia-dinh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VCB: Nghị quyết HĐQT phê duyệt chủ trương thay đổi địa điểm trụ sở Chi nhánh VCB Phú Mỹ",
+     "url": "https://cafef.vn/du-lieu/VCB-2958985/vcb-nghi-quyet-hdqt-phe-duyet-chu-truong-thay-doi-dia-diem-tru-so-chi-nhanh-vcb-phu-my.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "VIB": {
+   "symbol": "VIB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:49.876729+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/vib/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "VIB: Nhận được công văn số 9604, 9605 ngày 28/09/2026 của UBCKNN về tài liệu báo cáo kết quả phát hành CP",
+     "url": "https://cafef.vn/du-lieu/VIB-2986839/vib-nhan-duoc-cong-van-so-9604-9605-ngay-28092026-cua-ubcknn-ve-tai-lieu-bao-cao-ket-qua-phat-hanh-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Số lượng cổ phiếu có quyền biểu quyết đang lưu hành là 3.735.386.252 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-2981734/vib-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh-la-3735386252-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Đã phát hành 8.000.000 cổ phiếu theo chương trình lựa chọn cho người lao động trong công ty",
+     "url": "https://cafef.vn/du-lieu/VIB-2981732/vib-da-phat-hanh-8000000-co-phieu-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-trong-cong-ty.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Đã phát hành 323.380.542 cổ phiếu để tăng vốn cổ phần từ NVCSH",
+     "url": "https://cafef.vn/du-lieu/VIB-2981730/vib-da-phat-hanh-323380542-co-phieu-de-tang-von-co-phan-tu-nvcsh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Nghị quyết HĐQT phê duyệt danh sách Cán bộ nhân viên được phát hành cổ phiếu thưởng",
+     "url": "https://cafef.vn/du-lieu/VIB-2981111/vib-nghi-quyet-hdqt-phe-duyet-danh-sach-can-bo-nhan-vien-duoc-phat-hanh-co-phieu-thuong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Quyết định của HĐQT về việc xử lý cổ phần/cổ phiếu lẻ trong đợt tăng vốn điều lệ năm 2026",
+     "url": "https://cafef.vn/du-lieu/VIB-2981110/vib-quyet-dinh-cua-hdqt-ve-viec-xu-ly-co-phanco-phieu-le-trong-dot-tang-von-dieu-le-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Ông Trần Nhất Minh - Phó Tổng giám đốc đã nhận 66.084 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-2979477/vib-ong-tran-nhat-minh-pho-tong-giam-doc-da-nhan-66084-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Ông Trần Hữu Thuận - Phó Tổng giám đốc đã nhận 15.002 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-2979479/vib-ong-tran-huu-thuan-pho-tong-giam-doc-da-nhan-15002-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Bà Phạm Thị Minh Huệ - Kế toán trưởng đã nhận 41.997 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-2979480/vib-ba-pham-thi-minh-hue-ke-toan-truong-da-nhan-41997-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Ông Nguyễn Xuân Dũng - Phó Tổng giám đốc đã nhận 1.500.000 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-2979482/vib-ong-nguyen-xuan-dung-pho-tong-giam-doc-da-nhan-1500000-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  },
+  "VPB": {
+   "symbol": "VPB",
+   "provider": "CafeF",
+   "official_api": false,
+   "data_mode": "nguon_cong_khai",
+   "retrieved_at": "2026-10-08T12:11:46.254233+00:00",
+   "links": {
+    "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
+    "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
+    "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/vpb/event.chn",
+    "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
+   },
+   "reports": [],
+   "disclosures": [
+    {
+     "title": "VPB: Thông báo nhận được công văn của UBCKNN về việc nhận được tài liệu báo cáo kết quả đợt phát hành cổ phiếu để trả cổ tức",
+     "url": "https://cafef.vn/du-lieu/VPB-2993809/vpb-thong-bao-nhan-duoc-cong-van-cua-ubcknn-ve-viec-nhan-duoc-tai-lieu-bao-cao-ket-qua-dot-phat-hanh-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT về việc phê duyệt phương án mua lại trước hạn trái phiếu VPB12514",
+     "url": "https://cafef.vn/du-lieu/VPB-2993634/vpb-nghi-quyet-hdqt-ve-viec-phe-duyet-phuong-an-mua-lai-truoc-han-trai-phieu-vpb12514.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT về việc phê duyệt chủ trương phương án phát hành trái phiếu quốc tế của VPBank",
+     "url": "https://cafef.vn/du-lieu/VPB-2992821/vpb-nghi-quyet-hdqt-ve-viec-phe-duyet-chu-truong-phuong-an-phat-hanh-trai-phieu-quoc-te-cua-vpbank.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT về việc hợp đồng, giao dịch cho vay hợp vốn giữa VPBank và VPB SMBC FC",
+     "url": "https://cafef.vn/du-lieu/VPB-2992817/vpb-nghi-quyet-hdqt-ve-viec-hop-dong-giao-dich-cho-vay-hop-von-giua-vpbank-va-vpb-smbc-fc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Thông báo thay đổi số lượng cổ phiếu có quyền biểu quyết, báo cáo kết quả phát hành cổ phiếu để trả cổ tức và Nghị quyết HĐQT",
+     "url": "https://cafef.vn/du-lieu/VPB-2988557/vpb-thong-bao-thay-doi-so-luong-co-phieu-co-quyen-bieu-quyet-bao-cao-ket-qua-phat-hanh-co-phieu-de-tra-co-tuc-va-nghi-quyet-hdqt.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Giải tỏa 35% đợt 3 cổ phần hạn chế chuyển nhượng ESOP 2023",
+     "url": "https://cafef.vn/du-lieu/VPB-2987525/vpb-giai-toa-35-dot-3-co-phan-han-che-chuyen-nhuong-esop-2023.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT về hợp đồng, giao dịch cho vay hợp vốn giữa VPBank và GPBank",
+     "url": "https://cafef.vn/du-lieu/VPB-2987692/vpb-nghi-quyet-hdqt-ve-hop-dong-giao-dich-cho-vay-hop-von-giua-vpbank-va-gpbank.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT về thay đổi địa điểm Chi nhánh Hải Vân",
+     "url": "https://cafef.vn/du-lieu/VPB-2985811/vpb-nghi-quyet-hdqt-ve-thay-doi-dia-diem-chi-nhanh-hai-van.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT thông qua Hợp đồng, giao dịch cho vay hợp vốn giữa VPBank và VPB SMBC FC",
+     "url": "https://cafef.vn/du-lieu/VPB-2982258/vpb-nghi-quyet-hdqt-thong-qua-hop-dong-giao-dich-cho-vay-hop-von-giua-vpbank-va-vpb-smbc-fc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT thông qua hợp đồng, giao dịch cho vay hợp vốn giữa VPB và VPB SMBC FC",
+     "url": "https://cafef.vn/du-lieu/VPB-2979380/vpb-nghi-quyet-hdqt-thong-qua-hop-dong-giao-dich-cho-vay-hop-von-giua-vpb-va-vpb-smbc-fc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    }
+   ],
+   "market_news": [
+    {
+     "title": "Một doanh nghiệp sắp \"phát\" 4.000 đồng/cp ngay tháng 10, quá khứ từng bạo chi 93% bằng tiền mặt",
+     "url": "https://cafef.vn/mot-doanh-nghiep-sap-phat-4000-dong-cp-ngay-thang-10-qua-khu-tung-bao-chi-93-bang-tien-mat-188261008175619271.chn",
+     "date": "2026-10-08T11:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VinFast hợp tác với hơn 50 showroom tại 15 bang Ấn Độ, nhắm tới thị trường xe 2 bánh lớn nhất thế giới",
+     "url": "https://cafef.vn/vinfast-hop-tac-voi-hon-50-showroom-tai-15-bang-an-do-nham-toi-thi-truong-xe-2-banh-lon-nhat-the-gioi-188261008180404473.chn",
+     "date": "2026-10-08T11:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "3 năm sau cái bắt tay với 'ông lớn' Nhật Bản SMBC, Phó TGĐ VPBank kể về cuộc chơi phía sau những khoản vốn tỷ USD",
+     "url": "https://cafef.vn/3-nam-sau-cai-bat-tay-voi-ong-lon-nhat-ban-smbc-pho-tgd-vpbank-ke-ve-cuoc-choi-phia-sau-nhung-khoan-von-ty-usd-188261008180306488.chn",
+     "date": "2026-10-08T11:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPBankS nhận “cú đúp” giải thưởng quốc tế về phân tích và quản trị",
+     "url": "https://cafef.vn/vpbanks-nhan-cu-dup-giai-thuong-quoc-te-ve-phan-tich-va-quan-tri-18826100816384421.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai",
+     "url": "https://cafef.vn/vps-quy-iii-2026-tich-luy-nen-tang-kien-tao-tuong-lai-188261008154649263.chn",
+     "date": "2026-10-08T10:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tiệm kim cương nổi tiếng Cần Thơ ngừng kinh doanh hết năm nay",
+     "url": "https://cafef.vn/tiem-kim-cuong-noi-tieng-can-tho-ngung-kinh-doanh-het-nam-nay-188261008164757557.chn",
+     "date": "2026-10-08T09:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng bất ngờ \"hút\" tiền nhóm tự doanh CTCK phiên 8/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bat-ngo-hut-tien-nhom-tu-doanh-ctck-phien-8-10-188261008164431116.chn",
+     "date": "2026-10-08T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT vừa chấm dứt một kỷ lục buồn",
+     "url": "https://cafef.vn/fpt-vua-cham-dut-mot-ky-luc-buon-188261008155658978.chn",
+     "date": "2026-10-08T09:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
+   ],
+   "messages": [],
+   "status": "ok",
+   "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
+  }
+ }
+}
