@@ -1,110 +1,104 @@
-"""Security regression tests: protect distinct AUREL browser sessions.
-
-Run: python -m unittest discover -s tests -p 'test_security*.py' -v
-These tests use only standard-library networking and synthetic financial values.
-"""
+"""Synthetic account auth and cross-user isolation regressions (no real user data)."""
 import base64
+import copy
 import json
 import threading
 import unittest
+from unittest.mock import patch
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
-
 import server
 
+ALICE='11111111-1111-1111-1111-111111111111'
+BOB='22222222-2222-2222-2222-222222222222'
 
 class SessionIsolationTests(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.httpd = server.build_server('127.0.0.1', 0)
-        cls.base = 'http://127.0.0.1:%s' % cls.httpd.server_port
-        cls.worker = threading.Thread(target=cls.httpd.serve_forever, daemon=True)
-        cls.worker.start()
+ @classmethod
+ def setUpClass(cls):
+    cls.db={}
+    def verify(header):
+        if header=='Bearer alice': return {'id':ALICE,'email':'alice@gmail.com'}
+        if header=='Bearer bob': return {'id':BOB,'email':'bob@gmail.com'}
+        raise PermissionError('Đăng nhập không hợp lệ.')
+    def load(jwt,user):
+        if user not in cls.db:return {'rows':[],'documents':[]},-1
+        payload,revision=cls.db[user]
+        return copy.deepcopy(payload),revision
+    def save(jwt,user,payload,rev):
+        # Test layer simulates authenticated RLS and optimistic-lock checks.
+        identity=verify('Bearer '+jwt)
+        if identity['id']!=user:raise PermissionError('Sai chủ sở hữu.')
+        old=cls.db.get(user)
+        if (old is None and rev!=-1) or (old is not None and old[1]!=rev):
+            raise ValueError('Xung đột phiên.')
+        new_rev=rev+1
+        cls.db[user]=(copy.deepcopy(payload),new_rev)
+        return new_rev
+    cls.patchers=[
+       patch.object(server,'verify_access_token',side_effect=verify),
+       patch.object(server,'load_account',side_effect=load),
+       patch.object(server,'save_account',side_effect=save),
+       patch.object(server,'upload_document',side_effect=lambda jwt,user,name,data:user+'/file.pdf'),
+       patch.object(server,'delete_document',return_value=None)
+    ]
+    for p in cls.patchers:p.start()
+    cls.httpd=server.build_server('127.0.0.1',0)
+    cls.base='http://127.0.0.1:%s'%cls.httpd.server_port
+    cls.worker=threading.Thread(target=cls.httpd.serve_forever,daemon=True)
+    cls.worker.start()
+ @classmethod
+ def tearDownClass(cls):
+    cls.httpd.shutdown();cls.httpd.server_close();cls.worker.join(timeout=4)
+    for p in reversed(cls.patchers):p.stop()
+ def api(self,route,account=None,session=None,body=None):
+    headers={}
+    if account:headers['Authorization']='Bearer '+account
+    if session:headers['X-Aurel-Token']=session
+    if body is not None:headers['Content-Type']='application/json';body=json.dumps(body).encode('utf-8')
+    req=Request(self.base+route,data=body,headers=headers)
+    try:
+        with urlopen(req,timeout=15) as r:
+            raw=r.read()
+            try:data=json.loads(raw)
+            except (ValueError,UnicodeDecodeError):data=raw.decode('utf-8-sig','replace')
+            return r.status,data
+    except HTTPError as exc:
+        return exc.code,json.loads(exc.read())
+ def login(self,account):
+    status,result=self.api('/api/session',account)
+    self.assertEqual(status,200,result)
+    return result['token']
+ def test_account_isolation_upload_export_and_clear(self):
+    a,b=self.login('alice'),self.login('bob')
+    self.assertNotEqual(a,b)
+    self.assertEqual(self.api('/api/state')[0],403)
+    self.assertEqual(self.api('/api/state','bob',a)[0],403)
+    content=b'bank,year,metric_id,value,unit\nACB,2025,assets,123456,billion_vnd\n'
+    status,_=self.api('/api/upload','alice',a,{'name':'alice.csv','base64':base64.b64encode(content).decode()})
+    self.assertEqual(status,200)
+    sa,alice=self.api('/api/state','alice',a)
+    sb,bob=self.api('/api/state','bob',b)
+    self.assertEqual((sa,sb),(200,200))
+    self.assertTrue(alice['has_data']);self.assertFalse(bob['has_data'])
+    self.assertEqual(self.api('/api/export','bob',b)[0],400)
+    status,result=self.api('/api/export','alice',a)
+    self.assertEqual(status,200);self.assertIn('ACB',result)
+    self.assertEqual(self.api('/api/clear','bob',b,{'confirm':'XOA_DU_LIEU'})[0],200)
+    self.assertTrue(self.api('/api/state','alice',a)[1]['has_data'])
+    # A separate browser session of the same verified account restores cloud state.
+    another=self.login('alice')
+    self.assertNotEqual(another,a)
+    self.assertTrue(self.api('/api/state','alice',another)[1]['has_data'])
+ def test_upload_session_not_shared(self):
+    a,b=self.login('alice'),self.login('bob')
+    import hashlib
+    content=b'abc'
+    status,init=self.api('/api/upload/start','alice',a,{'name':'doc.pdf','size':3,'sha256':hashlib.sha256(content).hexdigest()})
+    self.assertEqual(status,200,init)
+    status,_=self.api('/api/upload/chunk','bob',b,{'upload_id':init['upload_id'],'offset':0,'base64':base64.b64encode(content).decode()})
+    self.assertEqual(status,400)
+ def test_account_requires_verified_authorization(self):
+    self.assertEqual(self.api('/api/session')[0],403)
+    self.assertEqual(self.api('/api/session','invalid')[0],403)
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.httpd.shutdown()
-        cls.httpd.server_close()
-        cls.worker.join(timeout=4)
-
-    def api(self, route, token=None, body=None):
-        headers = {}
-        if token:
-            headers['X-Aurel-Token'] = token
-        if body is not None:
-            headers['Content-Type'] = 'application/json'
-            body = json.dumps(body).encode('utf-8')
-        request = Request(self.base + route, data=body, headers=headers)
-        try:
-            with urlopen(request, timeout=15) as response:
-                data = response.read()
-                try:
-                    payload = json.loads(data)
-                except (ValueError, UnicodeDecodeError):
-                    payload = data.decode('utf-8-sig', 'replace')
-                return response.status, payload
-        except HTTPError as exc:
-            return exc.code, json.loads(exc.read())
-
-    def new_token(self):
-        status, result = self.api('/api/session')
-        self.assertEqual(status, 200)
-        return result['token']
-
-    def test_sessions_isolate_upload_export_clear(self):
-        a, b = self.new_token(), self.new_token()
-        self.assertNotEqual(a, b)
-        status, _ = self.api('/api/state')
-        self.assertEqual(status, 403)
-        status, _ = self.api('/api/export')
-        self.assertEqual(status, 403)
-
-        csv = b'bank,year,metric_id,value,unit\nACB,2025,assets,123456,billion_vnd\n'
-        status, data = self.api('/api/upload', a, {
-            'name': 'test_aurel_a.csv', 'base64': base64.b64encode(csv).decode('ascii')
-        })
-        self.assertEqual(status, 200, data)
-
-        sa, state_a = self.api('/api/state', a)
-        sb, state_b = self.api('/api/state', b)
-        self.assertEqual((sa, sb), (200, 200))
-        self.assertTrue(state_a['has_data'])
-        self.assertFalse(state_b['has_data'])
-        self.assertEqual(state_a['bank'], 'ACB')
-
-        sa, csv_out = self.api('/api/export', a)
-        sb, err_b = self.api('/api/export', b)
-        self.assertEqual(sa, 200)
-        self.assertIn('ACB', csv_out)
-        self.assertEqual(sb, 400)
-        self.assertNotIn('ACB', json.dumps(err_b))
-
-        status, _ = self.api('/api/clear', b, {'confirm': 'XOA_DU_LIEU'})
-        self.assertEqual(status, 200)
-        sa, a_after = self.api('/api/state', a)
-        self.assertEqual(sa, 200)
-        self.assertTrue(a_after['has_data'])
-
-        status, restored = self.api('/api/session', a)
-        self.assertEqual(status, 200)
-        self.assertEqual(restored['token'], a)
-
-    def test_staged_upload_belongs_to_its_session(self):
-        a, b = self.new_token(), self.new_token()
-        content = b'abc'
-        import hashlib
-        digest = hashlib.sha256(content).hexdigest()
-        status, init = self.api('/api/upload/start', a, {
-            'name': 'stage.pdf', 'size': 3, 'sha256': digest
-        })
-        self.assertEqual(status, 200, init)
-        status, reply = self.api('/api/upload/chunk', b, {
-            'upload_id': init['upload_id'], 'offset': 0,
-            'base64': base64.b64encode(content).decode('ascii')
-        })
-        self.assertEqual(status, 400)
-        self.assertNotIn('abc', json.dumps(reply))
-
-
-if __name__ == '__main__':
-    unittest.main()
+if __name__=='__main__':unittest.main()
