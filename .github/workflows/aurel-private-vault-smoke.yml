@@ -94,6 +94,15 @@ jobs:
               assert.equal(dl.suggestedFilename(),'private-vpb.csv');
               const path=await dl.path();
               assert.ok(fs.readFileSync(path).equals(content),'Decrypted file differs from source');
+              const backupPromise=page.waitForEvent('download');
+              await page.locator('#aurel-private-backup').click();
+              const backupFile=await backupPromise;
+              const backupData=fs.readFileSync(await backupFile.path()).toString('utf8');
+              assert.ok(!backupData.includes(secret),'Backup leaked plaintext file contents');
+              assert.ok(!backupData.includes('private-vpb.csv'),'Backup leaked plaintext filename');
+              const backup=JSON.parse(backupData);
+              assert.equal(backup.format,'aurel-private-vault-backup-v1');
+              assert.equal(backup.files.length,1);
               await page.reload({waitUntil:'domcontentloaded'});
               await page.locator('#nav button[data-page="data"]').click();
               await page.locator('#aurel-private-unlock').waitFor({timeout:25000});
@@ -108,6 +117,32 @@ jobs:
               console.log((mobile?'MOBILE':'DESKTOP')+' SECURITY PASS: local AES-GCM, no upload, persisted ciphertext, wrong-password rejection, restored file, explicit server choice');
               await context.close();
             }
+            // Security fail-closed: even if the encryption module is missing,
+            // the legacy server uploader must not receive a PRIVATE file.
+            const broken=await browser.newContext({viewport:{width:1366,height:768}});
+            const bp=await broken.newPage(),leaks=[];
+            bp.on('request',request=>{
+              if(/\/api\/upload(?:\/|$)/.test(request.url()))leaks.push(request.url());
+            });
+            await bp.route('**/assets/aurel-private-vault.js*',route=>route.abort());
+            await bp.route('**/health',route=>route.fulfill({
+              status:200,contentType:'application/json',body:JSON.stringify({status:'ok'})
+            }));
+            await bp.route('**/api/session',route=>route.fulfill({
+              status:200,contentType:'application/json',body:JSON.stringify({token:'test-token'})
+            }));
+            await bp.route('**/api/state*',route=>route.fulfill({
+              status:200,contentType:'application/json',
+              body:JSON.stringify({has_data:false,choices:[],documents:[],data_files:[],rows_count:0,values:{},ratios:[],ratio_series:{},risk:[],growth:{}})
+            }));
+            await bp.goto('http://127.0.0.1:8765/financial-intelligence.html',{waitUntil:'domcontentloaded'});
+            await bp.locator('#nav button[data-page="data"]').click();
+            await bp.locator('#upload-file').setInputFiles({name:'secret.csv',mimeType:'text/csv',buffer:Buffer.from('SENSITIVE_CANNOT_UPLOAD')});
+            await bp.locator('#upload-button').click();
+            await bp.locator('#upload-feedback').filter({hasText:'Đã chặn gửi tệp'}).waitFor({timeout:5000});
+            assert.equal(leaks.length,0,'Missing crypto module fell back to unencrypted server upload');
+            console.log('FAIL-CLOSED PASS: missing crypto module blocks legacy upload');
+            await broken.close();
             await browser.close();
           })().catch(e=>{console.error('PRIVATE VAULT REGRESSION FAILED',e);process.exit(1)});
           NODE
