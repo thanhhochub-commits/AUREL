@@ -97,6 +97,24 @@ class SessionIsolationTests(unittest.TestCase):
     self.assertEqual(status,200,init)
     status,_=self.api('/api/upload/chunk','bob',b,{'upload_id':init['upload_id'],'offset':0,'base64':base64.b64encode(content).decode()})
     self.assertEqual(status,400)
+ def test_pdf_files_are_owner_scoped_in_cloud(self):
+    a,b=self.login('alice'),self.login('bob')
+    pdf=b'%PDF-1.4\n%%EOF'
+    mock_pages=[{'page':1,'text':'ACB confidential synthetic report','ocr':False}]
+    with patch.object(server,'read_pdf',return_value=mock_pages),patch.object(server,'read_document',return_value=pdf):
+        result,body=self.api('/api/upload','alice',a,{
+            'name':'alice_confidential.pdf','base64':base64.b64encode(pdf).decode()
+        })
+        self.assertEqual(result,200,body)
+        # Other verified account cannot request Alice's uploaded file by name.
+        self.assertEqual(self.api('/api/document?name=alice_confidential.pdf&page=1','bob',b)[0],400)
+        again=self.login('alice')
+        state=self.api('/api/state','alice',again)[1]
+        self.assertTrue(any(doc['name']=='alice_confidential.pdf' for doc in state['documents']))
+        status,doc=self.api('/api/document?name=alice_confidential.pdf&page=1','alice',again)
+        self.assertEqual(status,200,doc)
+        self.assertIn('confidential synthetic',doc['text'])
+
  def test_account_requires_verified_authorization(self):
     self.assertEqual(self.api('/api/session')[0],403)
     self.assertEqual(self.api('/api/session','invalid')[0],403)
