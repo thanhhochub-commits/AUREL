@@ -249,7 +249,8 @@ function cfSetPanel(row,hidden,persist){
  }
  var hint=row.nextElementSibling;
  if(hint&&hint.classList.contains('cf-swipe-hint')){
-   hint.textContent=hidden?'← Kéo sang trái để mở CAFEF':'Kéo sang phải để ẩn CAFEF →';
+   var brand='<span style="color:#ff3c50">CAFE</span><span style="color:#197ff7">F</span>';
+   hint.innerHTML=hidden?'<span>← Kéo sang trái để mở '+brand+'</span>':'<span>Kéo sang phải để ẩn '+brand+' →</span>';
  }
  var hero=row.querySelector('.ref-hero');
  if(hero){
