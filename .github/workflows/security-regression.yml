@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: Compile Python backend
-        run: python -m py_compile server.py
+        run: python -m py_compile server.py aurel_auth.py aurel_account_store.py
       - name: Validate embedded frontend JavaScript syntax
         run: |
           python - <<'PY'
@@ -35,5 +35,6 @@ jobs:
           node --check /tmp/aurel-frontend-main.js
           node --check assets/aurel-private-vault.js
           node --check assets/aurel-private-analytics.js
+          node --check assets/aurel-account-auth.js
       - name: Cross-user security regression tests
         run: python -m unittest discover -s tests -p 'test_security*.py' -v
