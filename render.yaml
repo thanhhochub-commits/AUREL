@@ -13,3 +13,7 @@ services:
         sync: false
       - key: AUREL_BREVO_SENDER
         sync: false
+      - key: AUREL_SUPABASE_URL
+        sync: false
+      - key: AUREL_SUPABASE_PUBLISHABLE_KEY
+        sync: false
