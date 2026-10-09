@@ -64,7 +64,7 @@ jobs:
               await page.locator('#aurel-private-lock').waitFor();
               await page.locator('#upload-file').setInputFiles({name:'test.xlsx',mimeType:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',buffer:fs.readFileSync('/tmp/aurel-test.xlsx')});
               await page.locator('#upload-button').click();
-              await page.waitForFunction(()=>window.AURELPrivateAnalytics?.diagnostics().loaded||window.AURELPrivateAnalytics?.diagnostics().error,{timeout:30000});
+              await page.waitForFunction(()=>window.AURELPrivateAnalytics?.diagnostics().rows===48||!!window.AURELPrivateAnalytics?.diagnostics().error,null,{timeout:35000});
               const info=await page.evaluate(()=>({diag:window.AURELPrivateAnalytics.diagnostics(),state:window.AURELPrivateAnalytics.getSnapshot('VPB',2026)}));
               console.log(mobile?'MOBILE':'DESKTOP',JSON.stringify({diag:info.diag,count:info.state.rows_count,ratio:info.state.ratios?.length}));
               assert.equal(info.diag.error,'');
