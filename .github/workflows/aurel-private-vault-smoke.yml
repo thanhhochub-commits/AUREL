@@ -39,6 +39,7 @@ jobs:
                 acceptDownloads:true
               });
               const page=await context.newPage();
+              page.on('dialog',dialog=>dialog.accept());
               const attempted=[];
               const secret='VPB_PRIVATE_DO_NOT_TRANSMIT_X7Y9Z3';
               page.on('request',request=>{
