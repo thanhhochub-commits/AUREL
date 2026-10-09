@@ -114,6 +114,80 @@ def _company_disclosures(symbol, url):
     return reports, other
 
 
+
+class _FinancialTablePeriods(HTMLParser):
+    """Capture report-period labels in actual CafeF financial table cells."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.cells = []
+        self._depth = 0
+        self._parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("th", "td"):
+            if not self._depth:
+                self._parts = []
+            self._depth += 1
+
+    def handle_data(self, data):
+        if self._depth:
+            self._parts.append(data)
+
+    def handle_endtag(self, tag):
+        if tag in ("th", "td") and self._depth:
+            self._depth -= 1
+            if not self._depth:
+                txt = re.sub(r"\s+", " ", " ".join(self._parts)).strip()
+                if len(txt) <= 90 and txt:
+                    self.cells.append(txt)
+                self._parts = []
+
+
+def _financial_period_reports(symbol, financial_url):
+    """Only list periods explicitly visible in CafeF tables, never fabricated PDFs."""
+    import calendar
+    html = _fetch_public(financial_url)
+    parser = _FinancialTablePeriods()
+    parser.feed(html)
+
+    periods = {}
+    current = datetime.now(timezone.utc).date()
+    for cell in parser.cells:
+        quarter = re.fullmatch(
+            r"Quý\s*([1-4])\s*[-/]\s*(20\d{2})(?:\s*\([^)]*\))?",
+            cell, flags=re.I,
+        )
+        annual = re.fullmatch(
+            r"Năm\s*(20\d{2})(?:\s*\([^)]*\))?",
+            cell, flags=re.I,
+        )
+        if quarter:
+            q, year = int(quarter.group(1)), int(quarter.group(2))
+            month = q * 3
+            end_day = calendar.monthrange(year, month)[1]
+            end_date = f"{year:04d}-{month:02d}-{end_day:02d}"
+            label = f"Quý {q}/{year}"
+            key = ("quarter", year, q)
+        elif annual:
+            year = int(annual.group(1))
+            end_date = f"{year:04d}-12-31"
+            label = f"năm {year}"
+            key = ("annual", year, 0)
+        else:
+            continue
+        if not 2017 <= year <= current.year or end_date > current.isoformat():
+            continue
+        periods[key] = {
+            "title": f"{symbol}: Dữ liệu BCTC {label} (CAFEF)",
+            "url": financial_url,
+            "period_end": end_date,
+            "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+            "type": "bctc_data",
+        }
+
+    return sorted(periods.values(), key=lambda item: item["period_end"], reverse=True)[:16]
+
+
 def _market_rss():
     root = ET.fromstring(_fetch_public("https://cafef.vn/thi-truong-chung-khoan.rss"))
     out = []
@@ -157,6 +231,11 @@ def lookup_cafef(symbol):
         reports, disclosures = _company_disclosures(symbol, disclosures_url)
     except Exception:
         errors.append("Chưa tải được danh sách công bố của doanh nghiệp từ CafeF.")
+    try:
+        period_reports = _financial_period_reports(symbol, financial_url)
+        reports = reports + period_reports
+    except Exception:
+        errors.append("Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF.")
     try:
         market_news = _market_rss()
     except Exception:
