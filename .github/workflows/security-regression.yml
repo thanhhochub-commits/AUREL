@@ -4,6 +4,9 @@ on:
     branches:
       - main
       - security/session-isolation-20261010
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
