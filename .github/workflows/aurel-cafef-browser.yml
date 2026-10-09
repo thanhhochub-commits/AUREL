@@ -160,6 +160,26 @@ jobs:
             const desktopAfter=await desktopScroll.evaluate(()=>document.scrollingElement.scrollTop);
             console.log('DESKTOP SCROLL',JSON.stringify({desktopBefore,desktopAfter}));
             assert.ok(desktopAfter>desktopBefore+30,'desktop wheel scrolling is blocked');
+            // Repeated desktop navigation: active tab and content must agree.
+            for(const target of ['ai','analysis','comparison','monitor','scenario','overview','data','report','overview']){
+              const t0=Date.now();
+              await desktopScroll.evaluate(name=>document.querySelector('#nav button[data-page="'+name+'"]').click(),target);
+              await desktopScroll.waitForFunction(name=>{
+                const b=document.querySelector('#nav button[data-page="'+name+'"]');
+                const all=document.querySelectorAll('#nav button.active[data-page]');
+                return b&&b.classList.contains('active')&&all.length===1&&!!document.querySelector('#root')?.firstElementChild;
+              },target,{timeout:5000});
+              console.log('DESKTOP TAB',target,'latency_ms',Date.now()-t0);
+            }
+            // Rapid clicks in a single event task must end at the requested tab.
+            await desktopScroll.evaluate(()=>{
+              for(const name of ['comparison','analysis','ai','overview']){
+                document.querySelector('#nav button[data-page="'+name+'"]').click();
+              }
+            });
+            await desktopScroll.waitForFunction(()=>document.querySelector('#nav button.active[data-page="overview"]')&&
+              document.querySelector('#root > .aurel-cafef-hero-row'),null,{timeout:8000});
+            console.log('DESKTOP RAPID TABS PASS');
             await desktopScroll.close();
 
             const phone=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
@@ -204,6 +224,24 @@ jobs:
               console.log('PHONE TAB SWITCH SCROLL',JSON.stringify({attempt,initial,latest}));
               assert.ok(latest>initial+24,'touch scroll locked after tab switch '+attempt);
             }
+            // Phone: repeated tab switches without waiting for data round trips.
+            for(const target of ['ai','analysis','comparison','scenario','monitor','data','overview','ai','overview']){
+              const t0=Date.now();
+              await phonePage.evaluate(name=>document.querySelector('#nav button[data-page="'+name+'"]').click(),target);
+              await phonePage.waitForFunction(name=>{
+                const selected=document.querySelector('#nav button.active[data-page]');
+                return selected?.dataset.page===name&&!!document.querySelector('#root')?.firstElementChild;
+              },target,{timeout:6000});
+              console.log('MOBILE TAB',target,'latency_ms',Date.now()-t0);
+            }
+            await phonePage.evaluate(()=>{
+              for(const name of ['analysis','data','ai','comparison','overview']){
+                document.querySelector('#nav button[data-page="'+name+'"]').click();
+              }
+            });
+            await phonePage.waitForFunction(()=>document.querySelector('#nav button.active[data-page="overview"]')&&
+              document.querySelector('#root > .aurel-cafef-hero-row'),null,{timeout:8000});
+            console.log('MOBILE RAPID TABS PASS');
             await phone.close();
             if(errors.length)console.log('PAGE ERRORS',JSON.stringify(errors.slice(0,8)));
             await browser.close();
