@@ -22652,6 +22652,39 @@ body.aurel-page-overview .ref-key-panel.aurel-report-fallback{
   overscroll-behavior-y:auto!important;
 }
 </style>
+<style id="AUREL_PRIVATE_VAULT_V1_CSS">
+/* These rules are scoped to the upload panel. The rest of AUREL is unaffected. */
+#root .upload-panel #aurel-private-switch{margin:12px 0 17px;padding:14px;border:1px solid var(--line,#d0dce7);border-radius:13px;background:rgba(130,168,204,.07)}
+#root .upload-panel .aurel-private-choices{display:flex;flex-wrap:wrap;align-items:center;gap:9px}
+#root .upload-panel .aurel-private-choices label{display:flex;gap:7px;align-items:center;cursor:pointer;line-height:1.4;font-size:12px;font-weight:750;padding:9px 11px;border:1px solid #9ab9d1;border-radius:9px;background:rgba(145,177,198,.09)}
+#root .upload-panel .aurel-private-choices input{accent-color:#118b8c;width:15px;height:15px;flex:0 0 15px}
+#root .upload-panel #aurel-private-notice{font-size:12px;line-height:1.6;margin:11px 0;color:inherit}
+#root .upload-panel #aurel-private-vault{display:flex;align-items:flex-start;flex-wrap:wrap;gap:10px;margin:10px 0 5px}
+#root .upload-panel #aurel-private-vault[hidden]{display:none!important}
+#root .upload-panel .aurel-private-field{display:flex;flex-direction:column;gap:5px;min-width:min(100%,220px);font-size:12px;flex:1 1 210px}
+#root .upload-panel .aurel-private-field input{width:100%;min-height:39px;border:1px solid #91adc2;background:var(--white,#fff);color:var(--ink,#153247);border-radius:9px;padding:8px 10px}
+#root .upload-panel .aurel-private-head{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;width:100%}
+#root .upload-panel .aurel-private-ok{color:#168751}
+#root .upload-panel .aurel-private-items{width:100%;max-height:310px;overflow-y:auto;overscroll-behavior-y:auto}
+#root .upload-panel .aurel-private-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 0;border-top:1px solid var(--line,#d0dce7)}
+#root .upload-panel .aurel-private-row>span:first-child{min-width:0;overflow-wrap:anywhere}
+#root .upload-panel .aurel-private-row strong{font-size:12px}
+#root .upload-panel .aurel-private-row small{display:block;font-size:11px;opacity:.72}
+#root .upload-panel .aurel-private-actions{display:flex;gap:5px;align-items:center;flex-wrap:wrap}
+#root .upload-panel .aurel-private-actions .button{padding:6px 9px;font-size:11px;min-height:32px}
+#root .upload-panel .aurel-private-preview{white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow-y:auto;font-size:12px;max-width:100%;width:100%}
+#root .upload-panel .aurel-private-restore-label{display:block;cursor:pointer;font-size:12px;width:100%}
+#root .upload-panel .aurel-private-restore-label input{display:block;max-width:100%;margin-top:6px}
+#root .upload-panel #aurel-private-status{font-size:12px;margin:8px 0 0;line-height:1.5;width:100%}
+#root .upload-panel.aurel-private-mode .drop p{display:none!important}
+#root .upload-panel label[hidden]{display:none!important}
+@media(max-width:760px){
+ #root .upload-panel .aurel-private-choices{flex-direction:column;align-items:stretch}
+ #root .upload-panel .aurel-private-choices label{width:100%;min-height:40px}
+ #root .upload-panel .aurel-private-row{align-items:flex-start;flex-direction:column}
+}
+</style>
+<script defer src="assets/aurel-private-vault.js?v=20261010-PRIVATE-VAULT-V1"></script>
 <!-- AUREL_CAFEF_OVERVIEW_MODULE_V1 -->
 <script defer src="assets/aurel-cafef.js?v=20261009-CF-BCTC-ORDER-V18"></script>
 </body></html>
