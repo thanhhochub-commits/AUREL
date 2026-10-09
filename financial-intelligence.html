@@ -22684,7 +22684,17 @@ body.aurel-page-overview .ref-key-panel.aurel-report-fallback{
  #root .upload-panel .aurel-private-row{align-items:flex-start;flex-direction:column}
 }
 </style>
-<script defer src="assets/aurel-private-vault.js?v=20261010-PRIVATE-VAULT-V1"></script>
+<script id="AUREL_PRIVATE_UPLOAD_FAIL_CLOSED">
+/* Fail closed if the private encryption module fails to load. */
+document.addEventListener('click',function(event){
+ var button=event.target&&event.target.closest&&event.target.closest('#upload-button');
+ if(!button||window.AURELPrivateVaultReady===true)return;
+ event.preventDefault();event.stopImmediatePropagation();
+ var feedback=document.getElementById('upload-feedback');
+ if(feedback)feedback.textContent='Không thể tải mô-đun bảo mật PRIVATE. Đã chặn gửi tệp để tránh rò rỉ dữ liệu. Hãy tải lại trang.';
+},true);
+</script>
+<script defer src="assets/aurel-private-vault.js?v=20261010-PRIVATE-VAULT-V2"></script>
 <!-- AUREL_CAFEF_OVERVIEW_MODULE_V1 -->
 <script defer src="assets/aurel-cafef.js?v=20261009-CF-BCTC-ORDER-V18"></script>
 </body></html>
