@@ -5,7 +5,7 @@ const BACKEND='https://aurel-thanhhochub-backend.onrender.com';
 const SITE='https://thanhhochub-commits.github.io/AUREL/financial-intelligence.html';
 const CACHE='aurel_supabase_auth_v1';
 let settings=null,creds=null,refreshing=null,mode='login';
-const nativeFetch=window.fetch.bind(window);
+const nativeFetch=(window.__aurelSafeNativeFetch||window.fetch).bind(window);
 document.documentElement.classList.add('aurel-auth-locked');
 // Restore the existing tab's authenticated state before the legacy app boots.
 try{const x=JSON.parse(sessionStorage.getItem(CACHE)||'null');if(x&&x.access_token&&x.refresh_token)creds=x;}catch(_){}
