@@ -338,7 +338,7 @@ window.addEventListener('pagehide',lock,{passive:true});
 var root=document.getElementById('root');
 if(root)new MutationObserver(schedule).observe(root,{childList:true});
 window.AURELPrivateVault={isPrivate:function(){return mode==='private'},isUnlocked:function(){return !!masterKey},
- readFiles:async function(){if(!masterKey)throw Error('Két đã khóa.');await listFiles();var arr=[];for(var item of currentList){if(!item.corrupt)arr.push(await filePlain(item.id))}return arr;},
+ readFiles:async function(){if(!masterKey)throw Error('Két đã khóa.');await listFiles();var arr=[];for(var item of currentList){if(!item.corrupt&&/\.(csv|xlsx)$/i.test(item.name))arr.push(await filePlain(item.id))}return arr;},
  listFiles:listFiles};
 window.AURELPrivateVaultReady=true;
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',schedule,{once:true});else schedule();
