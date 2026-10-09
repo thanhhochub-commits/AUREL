@@ -55,5 +55,25 @@ jobs:
           assert all(k in target for k in base), 'Removed existing functions'
           print('PASS:',len(base)-len(exceptions),'existing functions preserved byte-for-byte')
           PY
+      - name: Verify existing HTML and financial UI bundle are untouched
+        run: |
+          python - <<'PY'
+          import pathlib, re, subprocess
+          old=subprocess.check_output(['git','show','origin/main:financial-intelligence.html']).decode('utf-8')
+          new=pathlib.Path('financial-intelligence.html').read_text(encoding='utf-8')
+          find=lambda h: re.search(r'const b="([A-Za-z0-9+/=]+)"',h).group(1)
+          assert find(new)==find(old),'Financial UI JavaScript changed'
+          cleaned=re.sub(r'<script id="AUREL_ACCOUNT_AUTH_FAIL_CLOSED">[\s\S]*?</script>\n','',new,count=1)
+          cleaned=cleaned.replace('<script src="assets/aurel-account-auth.js?v=20261010-GMAIL-AUTH-V1"></script>\n','',1)
+          assert cleaned==old,'Non-login website HTML changed'
+          previous=subprocess.check_output(['git','show','origin/main:assets/aurel-private-vault.js']).decode('utf-8')
+          current=pathlib.Path('assets/aurel-private-vault.js').read_text(encoding='utf-8')
+          assert current==previous.replace("masterKey=null, mode='private', currentList=[]",
+                                            "masterKey=null, mode='server', currentList=[]"),'PRIVATE vault implementation changed'
+          for path in ('assets/aurel-private-analytics.js','assets/aurel-cafef.js'):
+              old_blob=subprocess.check_output(['git','show','origin/main:'+path])
+              assert pathlib.Path(path).read_bytes()==old_blob, path+' changed'
+          print('PASS: existing layout, formulas, charts and PRIVATE encryption module preserved')
+          PY
       - name: Cross-user security regression tests
         run: python -m unittest discover -s tests -p 'test_security*.py' -v
