@@ -26,10 +26,10 @@ jobs:
           python - <<'PY'
           import zipfile
           data=[['bank','year','metric_id','value','unit']]
-          fields=['assets','equity','loans','deposits','group1_loans','group2_loans','group3_loans','group4_loans','group5_loans','pat','operating_income','operating_expenses']
-          values=[10000,900,5000,7000,4500,300,100,60,40,200,800,-250]
-          for bank in ['VPB','ACB']:
-              for year in [2025,2026]:
+          fields=['assets','loans','deposits','cash','equity','group1_loans','group2_loans','group3_loans','group4_loans','group5_loans','net_interest_income','net_fee_income','operating_income','operating_expenses','provisions','pat']
+          values=[10000,5000,7000,1500,900,4500,300,100,60,40,600,120,800,-250,-90,200]
+          for bank in ['VPB','ACB','VCB','CTG','BID','TCB','MBB','HDB','STB','SHB']:
+              for year in range(2017,2027):
                   data += [[bank,year,k,v*(1.05 if year==2026 else 1),'billion_vnd'] for k,v in zip(fields,values)]
           def cell(j,v,i):
               col='ABCDE'[j]+str(i)
@@ -64,11 +64,11 @@ jobs:
               await page.locator('#aurel-private-lock').waitFor();
               await page.locator('#upload-file').setInputFiles({name:'test.xlsx',mimeType:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',buffer:fs.readFileSync('/tmp/aurel-test.xlsx')});
               await page.locator('#upload-button').click();
-              await page.waitForFunction(()=>window.AURELPrivateAnalytics?.diagnostics().rows===48||!!window.AURELPrivateAnalytics?.diagnostics().error,null,{timeout:35000});
+              await page.waitForFunction(()=>window.AURELPrivateAnalytics?.diagnostics().rows===1600||!!window.AURELPrivateAnalytics?.diagnostics().error,null,{timeout:35000});
               const info=await page.evaluate(()=>({diag:window.AURELPrivateAnalytics.diagnostics(),state:window.AURELPrivateAnalytics.getSnapshot('VPB',2026)}));
               console.log(mobile?'MOBILE':'DESKTOP',JSON.stringify({diag:info.diag,count:info.state.rows_count,ratio:info.state.ratios?.length}));
               assert.equal(info.diag.error,'');
-              assert.equal(info.state.rows_count,48);
+              assert.equal(info.state.rows_count,1600);
               assert.equal(info.state.values.assets,10500);
               assert.equal(info.state.ratios.length,11);
               for(const tab of ['overview','analysis','comparison','monitor','scenario','report']){
