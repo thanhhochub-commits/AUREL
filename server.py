@@ -4073,9 +4073,29 @@ class Handler(BaseHTTPRequestHandler):
                     return self.reply(pdf_job_start(name,str(data.get('bank','')).strip().upper(),yr,str(data.get('unit','auto'))))
                 return self.reply(pdf_preview(name,str(data.get('bank','')),yr,str(data.get('unit','auto'))))
             if path=='/api/pdf/commit':
-                return self.reply(pdf_commit(str(data.get('preview_token','')),data.get('metrics'),bool(data.get('replace'))))
+                with STORE.lock:
+                    old_rows=[dict(x) for x in STORE.rows]
+                    old_rev=STORE.revision
+                    old_ai=dict(STORE.ai)
+                    try:
+                        result=pdf_commit(str(data.get('preview_token','')),data.get('metrics'),bool(data.get('replace')))
+                        _persist_account()
+                    except Exception:
+                        STORE.rows=old_rows;STORE.revision=old_rev;STORE.ai=old_ai
+                        raise
+                return self.reply(result)
             if path=='/api/pdf/commit/batch':
-                return self.reply(pdf_commit_batch(data.get('selections'),bool(data.get('replace'))))
+                with STORE.lock:
+                    old_rows=[dict(x) for x in STORE.rows]
+                    old_rev=STORE.revision
+                    old_ai=dict(STORE.ai)
+                    try:
+                        result=pdf_commit_batch(data.get('selections'),bool(data.get('replace')))
+                        _persist_account()
+                    except Exception:
+                        STORE.rows=old_rows;STORE.revision=old_rev;STORE.ai=old_ai
+                        raise
+                return self.reply(result)
             if path=='/api/scenario':
                 return self.reply(simulate(str(data.get('bank','')).upper(),int(data.get('year')),data.get('npl_change'),data.get('loan_change')))
             if path=='/api/evaluation':
@@ -4138,8 +4158,23 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/clear':
                 if data.get('confirm')!='XOA_DU_LIEU':raise ValueError('Thiếu xác nhận xóa dữ liệu.')
                 with STORE.lock:
-                    STORE.rows=[];STORE.docs={};STORE.ai={};STORE.pdf_previews={};STORE.pdf_jobs={};STORE.revision+=1
-                return self.reply({'message':'Đã xóa dữ liệu trong phiên.','state':snapshot()})
+                    previous=(STORE.rows,STORE.docs,STORE.ai,STORE.pdf_previews,STORE.pdf_jobs,
+                              STORE.remote_doc_manifest,STORE.revision)
+                    paths=[x.get('path') for x in STORE.remote_doc_manifest if isinstance(x,dict) and x.get('path')]
+                    STORE.rows=[];STORE.docs={};STORE.ai={};STORE.pdf_previews={};STORE.pdf_jobs={}
+                    STORE.remote_doc_manifest=[];STORE.revision+=1
+                    try: _persist_account()
+                    except Exception:
+                        (STORE.rows,STORE.docs,STORE.ai,STORE.pdf_previews,STORE.pdf_jobs,
+                         STORE.remote_doc_manifest,STORE.revision)=previous
+                        raise
+                undeleted=0
+                for doc_path in paths:
+                    try: delete_document(_ACTIVE_JWT.get(),doc_path)
+                    except Exception: undeleted+=1
+                note='Đã xóa dữ liệu tài khoản khỏi kho phân tích.'
+                if undeleted:note+=' Còn %s tệp nguồn chờ xóa khỏi kho lưu trữ, hãy liên hệ quản trị để xử lý.'%undeleted
+                return self.reply({'message':note,'state':snapshot()})
             return self.reply({'error':'Không tìm thấy chức năng.'},404)
         except Exception as e: return self.error(e)
     def accept_file(self,name,content,replace):
@@ -4150,8 +4185,23 @@ class Handler(BaseHTTPRequestHandler):
             pages=read_pdf(content)
             with STORE.lock:
                 if name not in STORE.docs and len(STORE.docs)>=MAX_DOCS:raise ValueError('Đã đạt giới hạn tài liệu.')
-                STORE.docs[name]={'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),'content':bytes(content)}
-                STORE.revision+=1;STORE.ai.clear();STORE.pdf_previews={}
+                old_path=next((x.get('path') for x in STORE.remote_doc_manifest if x.get('name')==name),None)
+                path=upload_document(_ACTIVE_JWT.get(),STORE.owner_id,name,bytes(content))
+                old=(STORE.docs,STORE.remote_doc_manifest,STORE.revision,STORE.ai,STORE.pdf_previews)
+                STORE.docs={**STORE.docs,name:{'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),
+                           'content':bytes(content),'remote_path':path}}
+                STORE.remote_doc_manifest=[x for x in STORE.remote_doc_manifest if x.get('name')!=name]+[
+                    {'name':name,'path':path,'pages':len(pages)}]
+                STORE.revision+=1;STORE.ai={};STORE.pdf_previews={}
+                try: _persist_account()
+                except Exception:
+                    (STORE.docs,STORE.remote_doc_manifest,STORE.revision,STORE.ai,STORE.pdf_previews)=old
+                    try: delete_document(_ACTIVE_JWT.get(),path)
+                    except Exception: pass
+                    raise
+                if old_path:
+                    try: delete_document(_ACTIVE_JWT.get(),old_path)
+                    except Exception: pass
             return self.reply({'message':f'Đã tiếp nhận {name} ({len(pages)} trang). PDF đã sẵn sàng; nhấn Đọc báo cáo để OCR và trích xuất chỉ tiêu.','state':snapshot()})
         raw=parse_spreadsheet(name,content)
         with STORE.lock:
@@ -4166,8 +4216,13 @@ class Handler(BaseHTTPRequestHandler):
                 extracted=auto_extract_spreadsheet(name,content)
                 parsed=parse_rows(extracted,STORE.rows,replace=replace,file_name=name)
             new_keys={(r['bank'],r['year'],r['metric_id']) for r in parsed}
+            old=(STORE.rows,STORE.revision,STORE.ai,STORE.pdf_previews)
             STORE.rows=[r for r in STORE.rows if (r['bank'],r['year'],r['metric_id']) not in new_keys]+parsed
-            STORE.revision+=1;STORE.ai.clear();STORE.pdf_previews={}
+            STORE.revision+=1;STORE.ai={};STORE.pdf_previews={}
+            try: _persist_account()
+            except Exception:
+                (STORE.rows,STORE.revision,STORE.ai,STORE.pdf_previews)=old
+                raise
         return self.reply({'message':f'Đã tiếp nhận {len(parsed)} chỉ tiêu từ {name}.','state':snapshot()})
 
     def error(self,e):
