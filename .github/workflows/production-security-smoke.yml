@@ -1,0 +1,53 @@
+name: Production security smoke
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  production-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify published website and backend session authorization
+        run: |
+          python - <<'PY'
+          import base64, json, re, time
+          from urllib.request import urlopen, Request
+          from urllib.error import HTTPError
+          front='https://thanhhochub-commits.github.io/AUREL/financial-intelligence.html'
+          back='https://aurel-thanhhochub-backend.onrender.com/'
+          last=None
+          for attempt in range(22):
+              try:
+                  with urlopen(Request(front, headers={'Cache-Control':'no-cache'}), timeout=35) as r:
+                      html=r.read().decode('utf-8')
+                  assert 'assets/aurel-private-vault.js' in html, 'PRIVATE vault module not served'
+                  match=re.search(r'const b="([A-Za-z0-9+/=]+)"',html)
+                  assert match, 'Frontend app not served'
+                  code=base64.b64decode(match.group(1),validate=True)
+                  assert b'aurel_secure_session_token' in code, 'Old frontend still served'
+                  with urlopen(Request(back+'api/session'),timeout=60) as r:
+                      session=json.loads(r.read())
+                  assert session.get('version')=='AUREL-PYBUS-20261010-SCOPED', 'Old backend still served'
+                  t=session['token']
+                  try:
+                      with urlopen(Request(back+'api/state'),timeout=30) as r:
+                          unauth=r.status
+                  except HTTPError as e:
+                      unauth=e.code
+                  assert unauth==403, 'State endpoint lacks authentication'
+                  with urlopen(Request(back+'api/state',headers={'X-Aurel-Token':t}),timeout=30) as r:
+                      state=json.loads(r.read())
+                  assert state.get('has_data') is False, 'New anonymous session inherited another dataset'
+                  print('PASS: live frontend, backend isolation, anonymous authorization')
+                  break
+              except Exception as e:
+                  last=e
+                  print('Publish verification attempt',attempt+1,'failed:',repr(e),flush=True)
+                  if attempt<21:time.sleep(12)
+          else:
+              raise SystemExit('Production smoke failed: '+repr(last))
+          PY
