@@ -40,7 +40,20 @@ function updateFooter(data){
  if(e)e.textContent=data&&data.retrieved_at?'Tải: '+dateOfLoad(data):'Chưa cập nhật';
 }
 function getItems(data,key){
- return data&&Array.isArray(data[key])?data[key].filter(function(x){return !!safeUrl(x.url)&&!!x.title}).slice(0,25):[];
+ var rows=data&&Array.isArray(data[key])?data[key].filter(function(x){return !!safeUrl(x.url)&&!!x.title}):[];
+ if(key==='reports'){
+  rows=rows.slice().sort(function(a,b){
+   function period(x){
+    var d=Date.parse(x.period_end||x.date||'');
+    return Number.isFinite(d)?d:0;
+   }
+   var gap=period(b)-period(a);
+   if(gap)return gap;
+   /* Same period: show annual BCTC before that year's Q4 data. */
+   return Number(b.type==='bctc_data'&&/BCTC năm/.test(b.title))-Number(a.type==='bctc_data'&&/BCTC năm/.test(a.title));
+  });
+ }
+ return rows.slice(0,25);
 }
 function drawItems(items,limit,type,symbol){
  if(!items.length){
@@ -73,7 +86,7 @@ function updateLists(data){
  var newsTitle=document.getElementById('cf-news-head');
  var rlinks=document.getElementById('cf-reports-link');
  var nlinks=document.getElementById('cf-news-link');
- if(reportTitle)reportTitle.textContent='BÁO CÁO TÀI CHÍNH '+(reports.length?'('+reports.length+')':'MỚI NHẤT');
+ if(reportTitle)reportTitle.textContent='BCTC MỚI NHẤT → CŨ NHẤT'+(reports.length?' ('+reports.length+')':'');
  if(newsTitle)newsTitle.textContent=isGeneral?'TIN THỊ TRƯỜNG CAFEF':'TIN TỨC & CÔNG BỐ';
  if(rlinks)rlinks.href=p.financial;
  if(nlinks)nlinks.href=isGeneral?'https://cafef.vn/thi-truong-chung-khoan.chn':p.disclosures;
