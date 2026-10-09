@@ -44,15 +44,17 @@ jobs:
           assert "border-left:3px solid #168edd!important;" in js
           assert "obj.source!=='CafeF'" in js
           assert "visible!important" in js
-          assert "← Kéo sang trái để mở CAFEF" in js
+          assert "← Kéo sang trái để mở " in js
+          assert '<span style="color:#ff3c50">CAFE</span>' in js
+          assert '<span style="color:#197ff7">F</span>' in js
           assert "cf-swipe-hint{display:none!important}" in js
           assert "cfInstallHeroSwipe(row)" in js
           assert "setPointerCapture" in js and "cfSetPanel" in js
           assert "--cfh:clamp(430px,37.5vw,605px)" in js
           assert "--cf-panel-default:calc((100% - 14px) * .39)" in js
           assert "cf-resize-toggle" not in js and "cf-resize-grip" not in js
-          assert "Kéo sang trái để mở CAFEF" in js
-          assert "Kéo sang phải để ẩn CAFEF" in js
+          assert "Kéo sang trái để mở " in js
+          assert "Kéo sang phải để ẩn " in js
           assert "data-view" in js
           assert "group.hidden=!visible" in js
           assert ".cf-feed .cf-group[hidden]{display:none!important}" in js
