@@ -7,6 +7,8 @@ const CACHE='aurel_supabase_auth_v1';
 let settings=null,creds=null,refreshing=null,mode='login';
 const nativeFetch=window.fetch.bind(window);
 document.documentElement.classList.add('aurel-auth-locked');
+// Restore the existing tab's authenticated state before the legacy app boots.
+try{const x=JSON.parse(sessionStorage.getItem(CACHE)||'null');if(x&&x.access_token&&x.refresh_token)creds=x;}catch(_){}
 const el=id=>document.getElementById(id);
 function message(s,ok=false){const p=el('aurel-auth-message');if(p){p.textContent=s;p.style.color=ok?'#117c60':'#ae2837';}}
 function restore(){try{const x=JSON.parse(sessionStorage.getItem(CACHE)||'null');if(x&&x.access_token&&x.refresh_token)creds=x;}catch(_){}}
