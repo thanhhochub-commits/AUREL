@@ -1,0 +1,113 @@
+name: AUREL Private Vault Security Regression
+on:
+  push:
+    paths:
+      - ".github/workflows/aurel-private-vault-smoke.yml"
+      - "assets/aurel-private-vault.js"
+      - "financial-intelligence.html"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  private-vault-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install headless browser
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Exercise encryption, isolation, persistence and downloads
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/aurel-private-http.log 2>&1 &
+          node <<'NODE'
+          const {chromium}=require('playwright');
+          const assert=require('node:assert/strict');
+          const fs=require('node:fs');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            for(const mobile of [false,true]){
+              const context=await browser.newContext({
+                viewport:mobile?{width:390,height:844}:{width:1366,height:768},
+                hasTouch:mobile,isMobile:mobile,
+                acceptDownloads:true
+              });
+              const page=await context.newPage();
+              const attempted=[];
+              const secret='VPB_PRIVATE_DO_NOT_TRANSMIT_X7Y9Z3';
+              page.on('request',request=>{
+                const body=request.postData()||'';
+                if(/\/api\/upload(?:\/|$)/.test(request.url())||body.includes(secret))attempted.push(request.url());
+              });
+              page.on('pageerror',e=>console.error('BROWSER ERROR',e.message));
+              await page.route('**/health',route=>route.fulfill({
+                status:200,contentType:'application/json',body:JSON.stringify({status:'ok'})
+              }));
+              await page.route('**/api/session',route=>route.fulfill({
+                status:200,contentType:'application/json',body:JSON.stringify({token:'test-token'})
+              }));
+              await page.route('**/api/state*',route=>route.fulfill({
+                status:200,contentType:'application/json',
+                body:JSON.stringify({has_data:false,choices:[],documents:[],data_files:[],rows_count:0,values:{},ratios:[],ratio_series:{},risk:[],growth:{}})
+              }));
+              await page.goto('http://127.0.0.1:8765/financial-intelligence.html',{waitUntil:'domcontentloaded',timeout:60000});
+              await page.locator('#nav button[data-page="data"]').click();
+              await page.locator('#aurel-private-switch').waitFor({timeout:20000});
+              assert.equal(await page.locator('input[name="aurel-privacy"]:checked').inputValue(),'private');
+              assert.equal(await page.locator('#upload-button').textContent(),'Lưu tệp đã mã hóa');
+              await page.locator('#aurel-private-pass').fill('secure-test-strong-passphrase-123');
+              await page.locator('#aurel-private-create').click();
+              await page.locator('#aurel-private-lock').waitFor({timeout:25000});
+              const content=Buffer.from('bank,year,field\nVPB,2026,'+secret+'\n');
+              await page.locator('#upload-file').setInputFiles({name:'private-vpb.csv',mimeType:'text/csv',buffer:content});
+              await page.locator('#upload-button').click();
+              await page.locator('[data-private-get]').waitFor({timeout:25000});
+              assert.deepEqual(attempted,[], 'Sensitive data left the browser during PRIVATE upload');
+              const record=await page.evaluate(async ()=>{
+                const db=await new Promise((resolve,reject)=>{
+                  const r=indexedDB.open('aurel-private-vault-v1',1);
+                  r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);
+                });
+                const cat=await new Promise((resolve,reject)=>{
+                  const req=db.transaction('catalog','readonly').objectStore('catalog').getAll();
+                  req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);
+                });
+                const files=await new Promise((resolve,reject)=>{
+                  const req=db.transaction('files','readonly').objectStore('files').getAll();
+                  req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);
+                });
+                return {n:cat.length,iv:files[0]?.iv?.length,cipher:Array.from(new Uint8Array(files[0]?.ciphertext||new ArrayBuffer(0))),catalog:JSON.stringify(cat)};
+              });
+              assert.equal(record.n,1);
+              assert.equal(record.iv,12);
+              assert.ok(!record.catalog.includes('private-vpb.csv'),'Plaintext filename leaked into stored metadata');
+              assert.ok(!Buffer.from(record.cipher).toString('utf8').includes(secret),'Plaintext file contents leaked to IndexedDB');
+              const dlPromise=page.waitForEvent('download');
+              await page.locator('[data-private-get]').click();
+              const dl=await dlPromise;
+              assert.equal(dl.suggestedFilename(),'private-vpb.csv');
+              const path=await dl.path();
+              assert.ok(fs.readFileSync(path).equals(content),'Decrypted file differs from source');
+              await page.reload({waitUntil:'domcontentloaded'});
+              await page.locator('#nav button[data-page="data"]').click();
+              await page.locator('#aurel-private-unlock').waitFor({timeout:25000});
+              await page.locator('#aurel-private-pass').fill('incorrect-test-password');
+              await page.locator('#aurel-private-unlock').click();
+              await page.locator('#aurel-private-status').filter({hasText:'Mật khẩu không đúng'}).waitFor({timeout:20000});
+              await page.locator('#aurel-private-pass').fill('secure-test-strong-passphrase-123');
+              await page.locator('#aurel-private-unlock').click();
+              await page.locator('[data-private-get]').waitFor({timeout:20000});
+              await page.locator('input[name="aurel-privacy"][value="server"]').check();
+              assert.equal(await page.locator('#upload-button').textContent(),'Nạp tệp lên máy chủ');
+              console.log((mobile?'MOBILE':'DESKTOP')+' SECURITY PASS: local AES-GCM, no upload, persisted ciphertext, wrong-password rejection, restored file, explicit server choice');
+              await context.close();
+            }
+            await browser.close();
+          })().catch(e=>{console.error('PRIVATE VAULT REGRESSION FAILED',e);process.exit(1)});
+          NODE
