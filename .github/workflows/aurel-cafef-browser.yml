@@ -148,6 +148,43 @@ jobs:
             console.log('MOBILE',JSON.stringify(mobile));
             assert.equal(mobile.display,'flex');
             assert.equal(mobile.hasHint,'none');
+            // Real wheel and touchscreen gesture regression: detect page-scroll lock.
+            const desktopScroll=await browser.newPage({viewport:{width:1366,height:768}});
+            await desktopScroll.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
+            await desktopScroll.locator('#root').waitFor({state:'attached'});
+            await desktopScroll.waitForTimeout(700);
+            const desktopBefore=await desktopScroll.evaluate(()=>document.scrollingElement.scrollTop);
+            await desktopScroll.mouse.move(720,550);
+            await desktopScroll.mouse.wheel(0,650);
+            await desktopScroll.waitForTimeout(550);
+            const desktopAfter=await desktopScroll.evaluate(()=>document.scrollingElement.scrollTop);
+            console.log('DESKTOP SCROLL',JSON.stringify({desktopBefore,desktopAfter}));
+            assert.ok(desktopAfter>desktopBefore+30,'desktop wheel scrolling is blocked');
+            await desktopScroll.close();
+
+            const phone=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
+            const phonePage=await phone.newPage();
+            await phonePage.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
+            await phonePage.locator('#root > .aurel-cafef-hero-row').waitFor({state:'attached',timeout:30000});
+            await phonePage.waitForTimeout(1100);
+            const phoneStart=await phonePage.evaluate(()=>({
+              top:document.scrollingElement.scrollTop,
+              range:document.scrollingElement.scrollHeight-innerHeight,
+              rootTouch:getComputedStyle(document.documentElement).touchAction
+            }));
+            const client=await phone.newCDPSession(phonePage);
+            await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:190,y:590}]});
+            for(let i=1;i<=14;i++){
+              await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:190,y:590-i*24}]});
+              await new Promise(resolve=>setTimeout(resolve,20));
+            }
+            await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+            await phonePage.waitForTimeout(450);
+            const phoneAfter=await phonePage.evaluate(()=>document.scrollingElement.scrollTop);
+            console.log('PHONE TOUCH SCROLL',JSON.stringify({phoneStart,phoneAfter}));
+            assert.ok(phoneStart.range>150,'mobile test page must have vertical content');
+            assert.ok(phoneAfter>phoneStart.top+30,'mobile touch scrolling is blocked');
+            await phone.close();
             if(errors.length)console.log('PAGE ERRORS',JSON.stringify(errors.slice(0,8)));
             await browser.close();
             console.log('BROWSER CHECK PASS: proportion, backdrop, caption, full swipe, tabs, mobile');
