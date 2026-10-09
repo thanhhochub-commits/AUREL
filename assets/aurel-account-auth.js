@@ -62,6 +62,7 @@ function stylesheet(){
  style.textContent=[
  'html.aurel-auth-locked body #root,html.aurel-auth-locked body .main,html.aurel-auth-locked body .sidebar{visibility:hidden!important}',
  '#aurel-private-switch{display:none!important}',
+ 'html.aurel-private-settings-open #aurel-private-switch{display:block!important}',
  '#aurel-auth-shield{position:fixed;z-index:2147483640;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(9,27,45,.93);overflow:auto;padding:16px;font-family:Arial,sans-serif}',
  '#aurel-auth-shield[hidden]{display:none!important}',
  '#aurel-auth-card{width:100%;max-width:415px;border-radius:18px;padding:26px 24px;background:#fff;color:#193448;box-shadow:0 24px 80px rgba(0,0,0,.35);box-sizing:border-box}',
@@ -142,6 +143,22 @@ async function submit(e){
  }catch(err){message(err?.message||'Không thể xác thực.');}
  finally{b.disabled=false;}
 }
+function privateVaultButton(){
+ if(el('aurel-account-vault'))return;
+ const b=document.createElement('button');
+ b.id='aurel-account-vault';b.type='button';b.textContent='Két mã hóa';
+ b.setAttribute('aria-label','Mở hoặc đóng công cụ lưu dữ liệu được mã hóa trên thiết bị');
+ b.style.cssText='background:transparent;color:inherit;border:1px solid #9bbaca;border-radius:8px;padding:7px 9px;margin:7px;font:inherit;cursor:pointer';
+ b.addEventListener('click',function(){
+   const open=document.documentElement.classList.toggle('aurel-private-settings-open');
+   if(open){
+     const nav=document.querySelector('#nav button[data-page="data"]');
+     if(nav)nav.click();
+   }
+   b.setAttribute('aria-pressed',String(open));
+ });
+ (document.querySelector('.topbar .controls')||document.querySelector('.topbar')||document.body).appendChild(b);
+}
 function logoutButton(){
  if(el('aurel-account-logout'))return;
  const b=document.createElement('button');b.id='aurel-account-logout';b.textContent='Đăng xuất';b.type='button';
@@ -169,7 +186,7 @@ async function start(){
    await identity();
    document.documentElement.classList.remove('aurel-auth-locked');
    el('aurel-auth-shield').hidden=true;
-   logoutButton();
+   logoutButton();privateVaultButton();
   }
  }catch(e){clear();message(e?.message||'Chưa thể kết nối hệ thống tài khoản.');}
 }
