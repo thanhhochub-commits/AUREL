@@ -15,6 +15,7 @@ from contextvars import ContextVar, copy_context
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 from aurel_auth import public_configuration, verify_access_token
+from aurel_account_store import load_account, save_account, upload_document, read_document, delete_document
 
 ROOT = Path(__file__).resolve().parent
 INDEX = ROOT / 'index.html'
@@ -161,10 +162,13 @@ class Store:
         self.upload_sessions={}
         self.owner_id=None
         self.owner_email=None
+        self.remote_revision=-1
+        self.remote_doc_manifest=[]
 
 # Confidential AUREL datasets are scoped to an unguessable browser-session token.
 # A ContextVar propagates across functions but never crosses concurrent requests.
 _ACTIVE_STORE=ContextVar('aurel_active_store',default=None)
+_ACTIVE_JWT=ContextVar('aurel_jwt',default='')
 _SESSION_LOCK=threading.RLock()
 _SESSIONS={}
 _SESSION_TTL_SECONDS=6*60*60
@@ -181,6 +185,51 @@ class _ScopedStore:
         setattr(store,name,value)
 
 STORE=_ScopedStore()
+
+def _hydrate_account(store,jwt,identity):
+    payload,rev=load_account(jwt,identity['id'])
+    store.rows=list(payload.get('rows') or [])
+    store.remote_revision=rev
+    store.remote_doc_manifest=list(payload.get('documents') or [])
+    # File bytes are retrieved lazily from private Storage when an authenticated
+    # user requests OCR/document access, not at every account sign-in.
+    docs={}
+    for x in store.remote_doc_manifest:
+        if not isinstance(x,dict):continue
+        name=x.get('name')
+        page_count=x.get('pages')
+        path=x.get('path')
+        if not isinstance(name,str) or not isinstance(path,str):continue
+        if not isinstance(page_count,int) or not 1<=page_count<=180:continue
+        docs[name]={'pages':[{'page':i+1,'text':'','ocr':False} for i in range(page_count)],
+                    'text_pages':0,'content':b'','remote_path':path}
+    store.docs=docs
+
+def _persist_account():
+    store=_ACTIVE_STORE.get()
+    jwt=_ACTIVE_JWT.get()
+    if store is None or not jwt or not store.owner_id:raise PermissionError('Phiên tài khoản AUREL không hợp lệ.')
+    with store.lock:
+        payload={'rows':[dict(x) for x in store.rows], 'documents':[dict(x) for x in store.remote_doc_manifest]}
+        store.remote_revision=save_account(jwt,store.owner_id,payload,store.remote_revision)
+
+def _ensure_pdf_loaded(name):
+    store=_ACTIVE_STORE.get()
+    if store is None:raise PermissionError('Phiên tài khoản AUREL không hợp lệ.')
+    with store.lock:
+        doc=store.docs.get(name)
+        if not doc:raise ValueError('Không tìm thấy PDF đã tải lên.')
+        if doc.get('content'):return
+        remote_path=doc.get('remote_path')
+        if not remote_path:raise ValueError('PDF chưa có nội dung nguồn.')
+        if remote_path.split('/',1)[0]!=store.owner_id:raise PermissionError('Tài liệu không thuộc tài khoản.')
+    content=read_document(_ACTIVE_JWT.get(),remote_path)
+    pages=read_pdf(content)
+    with store.lock:
+        current=store.docs.get(name)
+        if current and current.get('remote_path')==remote_path and not current.get('content'):
+            current['content']=content;current['pages']=pages
+            current['text_pages']=sum(bool(p.get('text','').strip()) for p in pages)
 
 def _session_lookup(token):
     if not isinstance(token,str) or not re.fullmatch(r'[A-Za-z0-9_-]{43}',token):
@@ -2678,6 +2727,7 @@ def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_
 
 
 def pdf_preview(name, bank='', year=None, unit='auto', progress_cb=None):
+    _ensure_pdf_loaded(name)
     with STORE.lock:
         doc=STORE.docs.get(name)
         if not doc:raise ValueError('Không tìm thấy PDF đã tải lên. Hãy tiếp nhận PDF trước.')
@@ -3903,6 +3953,7 @@ class Handler(BaseHTTPRequestHandler):
         if store is None or store.owner_id != identity['id']:
             raise PermissionError('Phiên AUREL không thuộc tài khoản đang đăng nhập.')
         _ACTIVE_STORE.set(store)
+        _ACTIVE_JWT.set(self.headers.get('Authorization','')[7:].strip())
 
     def do_OPTIONS(self):
         return self.reply(b'',status=204,content_type='text/plain; charset=utf-8')
@@ -3912,16 +3963,24 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/auth/config':
                 return self.reply(public_configuration())
             if path=='/api/session':
-                identity=verify_access_token(self.headers.get('Authorization', ''))
+                authorization=self.headers.get('Authorization','')
+                identity=verify_access_token(authorization)
+                jwt=authorization[7:].strip()
                 prior=self.headers.get('X-Aurel-Token','')
                 previous=_session_lookup(prior)
                 if previous is not None and previous.owner_id==identity['id']:
                     token,store=prior,previous
                 else:
                     token,store=_session_issue()
-                    store.owner_id=identity['id']
-                    store.owner_email=identity['email']
+                    try:
+                        store.owner_id=identity['id']
+                        store.owner_email=identity['email']
+                        _hydrate_account(store,jwt,identity)
+                    except Exception:
+                        with _SESSION_LOCK: _SESSIONS.pop(token,None)
+                        raise
                 _ACTIVE_STORE.set(store)
+                _ACTIVE_JWT.set(jwt)
                 return self.reply({'token':token,'version':'AUREL-PYBUS-20261010-ACCOUNT',
                                    'email_backend':'brevo', 'email':identity['email']})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef','/api/auth/config'):
@@ -3945,6 +4004,7 @@ class Handler(BaseHTTPRequestHandler):
                                    'source':'session' if has_session_key else ('environment' if has_env_key else 'none')})
             if path=='/api/document':
                 name=query.get('name',[''])[0];page=int(query.get('page',['1'])[0])
+                _ensure_pdf_loaded(name)
                 with STORE.lock:
                     doc=STORE.docs.get(name)
                     if not doc or page<1 or page>len(doc['pages']):raise ValueError('Không tìm thấy trang tài liệu.')
