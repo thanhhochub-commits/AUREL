@@ -154,9 +154,11 @@ function logoutButton(){
 async function start(){
  stylesheet();restore();
  const hash=new URLSearchParams(location.hash.slice(1));
- if(hash.get('type')==='recovery'&&hash.get('access_token')&&hash.get('refresh_token')){
+ if(['signup','recovery','invite','magiclink'].includes(hash.get('type'))&&hash.get('access_token')&&hash.get('refresh_token')){
+  const type=hash.get('type');
   setSession({access_token:hash.get('access_token'),refresh_token:hash.get('refresh_token'),expires_in:hash.get('expires_in')||3600});
-  history.replaceState(null,'',location.pathname+location.search);mode='reset';
+  history.replaceState(null,'',location.pathname+location.search);
+  if(type==='recovery')mode='reset';
  }
  createScreen();
  try{
