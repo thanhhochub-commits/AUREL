@@ -123,7 +123,7 @@ async function submit(e){
  b.disabled=true;
  try{
   if(mode==='signup'){
-   await authCall('signup',{email:mail,password,options:{email_redirect_to:SITE}});
+   await authCall('signup?redirect_to='+encodeURIComponent(SITE),{email:mail,password});
    el('aurel-auth-password').value='';
    message('Vui lòng kiểm tra Gmail và bấm liên kết xác minh trước khi đăng nhập.',true);
   }else if(mode==='forgot'){
