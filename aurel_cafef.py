@@ -25,7 +25,7 @@ def _source_url(path):
     return "https://cafef.vn/" + path.lstrip("/")
 
 
-def _fetch_public(url):
+def _fetch_public(url, max_bytes=1_000_000):
     host = (urlsplit(url).hostname or "").lower()
     if host != "cafef.vn" and not host.endswith(".cafef.vn"):
         raise ValueError("Nguồn ngoài CafeF không được hỗ trợ.")
@@ -38,8 +38,8 @@ def _fetch_public(url):
         final_host = (urlsplit(response.geturl()).hostname or "").lower()
         if final_host != "cafef.vn" and not final_host.endswith(".cafef.vn"):
             raise ValueError("CafeF chuyển hướng tới nguồn không được hỗ trợ.")
-        data = response.read(1_000_001)
-        if len(data) > 1_000_000:
+        data = response.read(max_bytes + 1)
+        if len(data) > max_bytes:
             raise ValueError("Phản hồi từ CafeF vượt giới hạn.")
         content_type = response.headers.get_content_charset()
     for charset in (content_type, "utf-8-sig", "utf-8", "cp1258"):
@@ -146,7 +146,7 @@ class _FinancialTablePeriods(HTMLParser):
 def _financial_period_reports(symbol, financial_url):
     """Only list periods explicitly visible in CafeF tables, never fabricated PDFs."""
     import calendar
-    html = _fetch_public(financial_url)
+    html = _fetch_public(financial_url, max_bytes=3_000_000)
     parser = _FinancialTablePeriods()
     parser.feed(html)
 
@@ -233,9 +233,14 @@ def lookup_cafef(symbol):
         errors.append("Chưa tải được danh sách công bố của doanh nghiệp từ CafeF.")
     try:
         period_reports = _financial_period_reports(symbol, financial_url)
+        if not period_reports:
+            period_reports = _financial_period_reports(symbol, company_url)
         reports = reports + period_reports
     except Exception:
-        errors.append("Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF.")
+        try:
+            reports = reports + _financial_period_reports(symbol, company_url)
+        except Exception:
+            errors.append("Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF.")
     try:
         market_news = _market_rss()
     except Exception:
