@@ -1,0 +1,84 @@
+name: AUREL Local Excel Private Analysis
+on:
+  push:
+    paths:
+      - financial-intelligence.html
+      - assets/aurel-private-analytics.js
+      - assets/aurel-private-vault.js
+      - .github/workflows/aurel-private-excel.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Create representative compressed workbook
+        run: |
+          python - <<'PY'
+          import zipfile
+          data=[['bank','year','metric_id','value','unit']]
+          fields=['assets','equity','loans','deposits','group1_loans','group2_loans','group3_loans','group4_loans','group5_loans','pat','operating_income','operating_expenses']
+          values=[10000,900,5000,7000,4500,300,100,60,40,200,800,-250]
+          for bank in ['VPB','ACB']:
+              for year in [2025,2026]:
+                  data += [[bank,year,k,v*(1.05 if year==2026 else 1),'billion_vnd'] for k,v in zip(fields,values)]
+          def cell(j,v,i):
+              col='ABCDE'[j]+str(i)
+              return ('<c r="%s"><v>%s</v></c>'%(col,v) if isinstance(v,(int,float)) else
+                  '<c r="%s" t="inlineStr"><is><t>%s</t></is></c>'%(col,v))
+          xml='<?xml version="1.0"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData>'+''.join(
+              '<row r="%d">%s</row>'%(i+1,''.join(cell(j,v,i+1) for j,v in enumerate(row))) for i,row in enumerate(data))+'</sheetData></worksheet>'
+          with zipfile.ZipFile('/tmp/aurel-test.xlsx','w',zipfile.ZIP_DEFLATED) as z:
+              z.writestr('xl/workbook.xml','<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="financial_data" sheetId="1" r:id="rId1"/></sheets></workbook>')
+              z.writestr('xl/_rels/workbook.xml.rels','<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Target="worksheets/sheet1.xml"/></Relationships>')
+              z.writestr('xl/worksheets/sheet1.xml',xml)
+          PY
+      - name: Verify browser parsing, financial dashboard and isolation
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/aurel-private-log 2>&1 &
+          node <<'NODE'
+          const {chromium}=require('playwright'),fs=require('fs'),assert=require('assert').strict;
+          (async()=>{
+            const browser=await chromium.launch();
+            for(const mobile of [false,true]){
+              const cx=await browser.newContext({viewport:mobile?{width:390,height:844}:{width:1366,height:768},isMobile:mobile,hasTouch:mobile});
+              const page=await cx.newPage(),leaks=[];
+              page.on('request',r=>{if(/\/api\/(?:upload|scenario|evaluation|ai|report)/.test(r.url())||/billion_vnd/.test(r.postData()||''))leaks.push(r.url())});
+              await page.route('**/health',r=>r.fulfill({contentType:'application/json',body:'{"status":"ok"}'}));
+              await page.route('**/api/session',r=>r.fulfill({contentType:'application/json',body:'{"token":"ok"}'}));
+              await page.route('**/api/state*',r=>r.fulfill({contentType:'application/json',body:'{"has_data":false,"choices":[],"documents":[],"data_files":[],"rows_count":0}'}));
+              await page.goto('http://127.0.0.1:8765/financial-intelligence.html',{waitUntil:'domcontentloaded'});
+              await page.locator('#nav button[data-page=data]').click();
+              await page.locator('#aurel-private-create').waitFor({timeout:12000});
+              await page.locator('#aurel-private-pass').fill('safe-private-password-12345');
+              await page.locator('#aurel-private-create').click();
+              await page.locator('#aurel-private-lock').waitFor();
+              await page.locator('#upload-file').setInputFiles({name:'test.xlsx',mimeType:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',buffer:fs.readFileSync('/tmp/aurel-test.xlsx')});
+              await page.locator('#upload-button').click();
+              await page.waitForFunction(()=>window.AURELPrivateAnalytics?.diagnostics().loaded||window.AURELPrivateAnalytics?.diagnostics().error,{timeout:30000});
+              const info=await page.evaluate(()=>({diag:window.AURELPrivateAnalytics.diagnostics(),state:window.AURELPrivateAnalytics.getSnapshot('VPB',2026)}));
+              console.log(mobile?'MOBILE':'DESKTOP',JSON.stringify({diag:info.diag,count:info.state.rows_count,ratio:info.state.ratios?.length}));
+              assert.equal(info.diag.error,'');
+              assert.equal(info.state.rows_count,48);
+              assert.equal(info.state.values.assets,10500);
+              assert.equal(info.state.ratios.length,11);
+              for(const tab of ['overview','analysis','comparison','monitor','scenario','report']){
+                await page.evaluate(t=>document.querySelector('#nav button[data-page='+t+']').click(),tab);
+                await page.waitForTimeout(100);
+                assert.ok(!(await page.locator('#root').innerText()).includes('Không thể hiển thị nội dung'),tab+' render failed');
+              }
+              assert.deepEqual(leaks,[]);
+              await cx.close();
+            }
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          NODE
