@@ -11,6 +11,7 @@ from email.message import EmailMessage
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
+from contextvars import ContextVar, copy_context
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -156,7 +157,58 @@ class Store:
         self.pdf_previews={}
         self.pdf_jobs={}
         self.gemini_session_key=None
-STORE=Store()
+        self.upload_sessions={}
+
+# Confidential AUREL datasets are scoped to an unguessable browser-session token.
+# A ContextVar propagates across functions but never crosses concurrent requests.
+_ACTIVE_STORE=ContextVar('aurel_active_store',default=None)
+_SESSION_LOCK=threading.RLock()
+_SESSIONS={}
+_SESSION_TTL_SECONDS=6*60*60
+_SESSION_MAX_COUNT=256
+
+class _ScopedStore:
+    def __getattr__(self,name):
+        store=_ACTIVE_STORE.get()
+        if store is None: raise PermissionError('Phiên dữ liệu chưa được xác thực.')
+        return getattr(store,name)
+    def __setattr__(self,name,value):
+        store=_ACTIVE_STORE.get()
+        if store is None: raise PermissionError('Phiên dữ liệu chưa được xác thực.')
+        setattr(store,name,value)
+
+STORE=_ScopedStore()
+
+def _session_lookup(token):
+    if not isinstance(token,str) or not re.fullmatch(r'[A-Za-z0-9_-]{43}',token):
+        return None
+    now=time.monotonic()
+    with _SESSION_LOCK:
+        item=_SESSIONS.get(token)
+        if not item: return None
+        store,touched=item
+        if now-touched>_SESSION_TTL_SECONDS:
+            _SESSIONS.pop(token,None)
+            return None
+        _SESSIONS[token]=(store,now)
+        return store
+
+def _session_issue(previous_token=''):
+    if previous_token:
+        previous_store=_session_lookup(previous_token)
+        if previous_store is not None: return previous_token,previous_store
+    now=time.monotonic()
+    with _SESSION_LOCK:
+        for key,(_,seen) in list(_SESSIONS.items()):
+            if now-seen>_SESSION_TTL_SECONDS: _SESSIONS.pop(key,None)
+        if len(_SESSIONS)>=_SESSION_MAX_COUNT:
+            raise PermissionError('Máy chủ đã đạt giới hạn phiên bảo mật; không thể tạo phiên mới.')
+        token=secrets.token_urlsafe(32)
+        store=Store()
+        store.csrf=token
+        _SESSIONS[token]=(store,now)
+        return token,store
+
 
 # Per-request/thread row index.  snapshot(), ratios, risk rules and charts call val()
 # many times for the same immutable row snapshot.  Building this index once turns
@@ -180,7 +232,6 @@ def _row_index(rows):
 
 # Temporary upload staging (only file bytes; never committed before checksum and validation).
 UPLOAD_LOCK=threading.RLock()
-UPLOAD_SESSIONS={}
 UPLOAD_CHUNK_BYTES=128*1024
 UPLOAD_SESSION_TTL=600
 
@@ -189,8 +240,8 @@ def stage_upload(action,data):
     """Process small, bounded chunks when Colab proxy refuses a larger POST."""
     now=time.monotonic()
     with UPLOAD_LOCK:
-        for key,item in list(UPLOAD_SESSIONS.items()):
-            if now-item['created']>UPLOAD_SESSION_TTL: UPLOAD_SESSIONS.pop(key,None)
+        for key,item in list(STORE.upload_sessions.items()):
+            if now-item['created']>UPLOAD_SESSION_TTL: STORE.upload_sessions.pop(key,None)
         if action=='start':
             filename=Path(str(data.get('name',''))).name
             expected=int(data.get('size',-1))
@@ -199,13 +250,13 @@ def stage_upload(action,data):
                 raise ValueError('Chỉ hỗ trợ tệp CSV, Excel hoặc PDF.')
             if expected<=0 or expected>MAX_UPLOAD or not re.fullmatch(r'[0-9a-f]{64}',digest):
                 raise ValueError('Dung lượng hoặc mã kiểm tra tệp không hợp lệ.')
-            if len(UPLOAD_SESSIONS)>=4: raise ValueError('Có quá nhiều phiên tải lên đang hoạt động.')
+            if len(STORE.upload_sessions)>=4: raise ValueError('Có quá nhiều phiên tải lên đang hoạt động.')
             upload_id=secrets.token_urlsafe(20)
-            UPLOAD_SESSIONS[upload_id]=dict(created=now,name=filename,size=expected,
+            STORE.upload_sessions[upload_id]=dict(created=now,name=filename,size=expected,
                 sha256=digest,replace=bool(data.get('replace')),offset=0,content=bytearray())
             return {'upload_id':upload_id,'chunk_bytes':UPLOAD_CHUNK_BYTES}
         upload_id=str(data.get('upload_id',''))
-        item=UPLOAD_SESSIONS.get(upload_id)
+        item=STORE.upload_sessions.get(upload_id)
         if not item: raise ValueError('Phiên tải lên đã hết hạn; vui lòng thử lại.')
         if action=='chunk':
             offset=int(data.get('offset',-1))
@@ -218,7 +269,7 @@ def stage_upload(action,data):
             return {'received':item['offset'],'total':item['size']}
         if action=='complete':
             # Copy then revoke session before parsing; an invalid file must not touch the datastore.
-            UPLOAD_SESSIONS.pop(upload_id,None)
+            STORE.upload_sessions.pop(upload_id,None)
             content=bytes(item['content'])
             if len(content)!=item['size'] or hashlib.sha256(content).hexdigest()!=item['sha256']:
                 raise ValueError('Tệp tải lên chưa đầy đủ hoặc bị thay đổi. Hãy thử lại.')
@@ -2693,7 +2744,8 @@ def pdf_job_start(name,bank='',year=None,unit='auto'):
         jid=secrets.token_urlsafe(18)
         STORE.pdf_jobs[jid]=dict(job_id=jid,name=name,bank=bank,year=year,unit=unit,status='queued',progress=0,
             message='Đã xếp hàng OCR…',created=time.monotonic(),updated=time.monotonic(),result=None,error=None)
-    threading.Thread(target=_pdf_job_worker,args=(jid,name,bank,year,unit),daemon=True,name='aurel-pdf-'+jid[:6]).start()
+    current_context=copy_context()
+    threading.Thread(target=lambda: current_context.run(_pdf_job_worker,jid,name,bank,year,unit),daemon=True,name='aurel-pdf-'+jid[:6]).start()
     return {'job_id':jid,'status':'queued','progress':0,'message':'Đã bắt đầu OCR ở nền.'}
 
 def pdf_job_status(job_id):
@@ -3840,17 +3892,28 @@ class Handler(BaseHTTPRequestHandler):
         try: year=int(yearstr)
         except ValueError: year=None
         return bank,year
+    def bind_session(self):
+        token=self.headers.get('X-Aurel-Token','')
+        store=_session_lookup(token)
+        if store is None: raise PermissionError('Thiếu phiên bảo mật hợp lệ. Hãy tải lại trang để bắt đầu phiên riêng.')
+        _ACTIVE_STORE.set(store)
+
     def do_OPTIONS(self):
         return self.reply(b'',status=204,content_type='text/plain; charset=utf-8')
     def do_GET(self):
         try:
             path=urlsplit(self.path).path;query=parse_qs(urlsplit(self.path).query)
+            if path=='/api/session':
+                token,store=_session_issue(self.headers.get('X-Aurel-Token',''))
+                _ACTIVE_STORE.set(store)
+                return self.reply({'token':token,'version':'AUREL-PYBUS-20261010-SCOPED','email_backend':'brevo'})
+            if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
+                self.bind_session()
             if path in ('/','/index.html'):
-                src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__',STORE.csrf)
+                src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__','')
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
             if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True})
-            if path=='/api/session':return self.reply({'token':STORE.csrf,'version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo'})
             if path=='/api/cafef':
                 from aurel_cafef import lookup_cafef
                 return self.reply(lookup_cafef(query.get('symbol',[''])[0]))
@@ -3909,6 +3972,7 @@ class Handler(BaseHTTPRequestHandler):
         except Exception as e: return self.error(e)
     def do_POST(self):
         try:
+            self.bind_session()
             data=self.json_body();path=urlsplit(self.path).path
             if path=='/api/upload':
                 name=Path(str(data.get('name',''))).name
