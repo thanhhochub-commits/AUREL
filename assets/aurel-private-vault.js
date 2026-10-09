@@ -5,7 +5,7 @@
 (function(){
 'use strict';
 var DB_NAME='aurel-private-vault-v1', VERSION=1, ITERATIONS=600000, MAX_BYTES=40*1024*1024;
-var dbPromise=null, masterKey=null, mode='private', currentList=[], busy=false, idleTimer=null;
+var dbPromise=null, masterKey=null, mode='server', currentList=[], busy=false, idleTimer=null;
 var enc=new TextEncoder(),dec=new TextDecoder();
 function el(id){return document.getElementById(id)}
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
