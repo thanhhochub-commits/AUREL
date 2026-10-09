@@ -159,6 +159,7 @@ async function start(){
   setSession({access_token:hash.get('access_token'),refresh_token:hash.get('refresh_token'),expires_in:hash.get('expires_in')||3600});
   history.replaceState(null,'',location.pathname+location.search);
   if(type==='recovery')mode='reset';
+  else {location.reload();return;}
  }
  createScreen();
  try{
