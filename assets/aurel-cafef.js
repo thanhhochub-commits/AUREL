@@ -42,15 +42,27 @@ function updateFooter(data){
 function getItems(data,key){
  var rows=data&&Array.isArray(data[key])?data[key].filter(function(x){return !!safeUrl(x.url)&&!!x.title}):[];
  if(key==='reports'){
+  function reportKey(x){
+   var t=String(x.title||'');
+   var q=t.match(/quý\s*([1-4])\s*(?:[\/-]\s*|\bnăm\s*)(20\d{2})/i);
+   var semi=t.match(/bán\s*niên(?:\s*năm)?\s*(20\d{2})/i);
+   var annual=t.match(/\bnăm\s*(20\d{2})/i);
+   if(q)return Date.UTC(Number(q[2]),Number(q[1])*3,0);
+   if(semi)return Date.UTC(Number(semi[1]),6,0);
+   if(annual)return Date.UTC(Number(annual[1]),12,0);
+   var d=Date.parse(x.period_end||x.date||'');
+   return Number.isFinite(d)?d:0;
+  }
   rows=rows.slice().sort(function(a,b){
-   function period(x){
-    var d=Date.parse(x.period_end||x.date||'');
-    return Number.isFinite(d)?d:0;
-   }
-   var gap=period(b)-period(a);
-   if(gap)return gap;
-   /* Same period: show annual BCTC before that year's Q4 data. */
-   return Number(b.type==='bctc_data'&&/BCTC năm/.test(b.title))-Number(a.type==='bctc_data'&&/BCTC năm/.test(a.title));
+   var diff=reportKey(b)-reportKey(a);
+   if(diff)return diff;
+   /* On the same financial period, prefer the actual CafeF filing link. */
+   var filing=Number(b.type==='bctc')-Number(a.type==='bctc');
+   if(filing)return filing;
+   var ida=Number((String(a.url||'').match(/-(\d{5,})\//)||[])[1]||0);
+   var idb=Number((String(b.url||'').match(/-(\d{5,})\//)||[])[1]||0);
+   if(idb!==ida)return idb-ida;
+   return Number(/BCTC năm/.test(b.title))-Number(/BCTC năm/.test(a.title));
   });
  }
  return rows.slice(0,25);
