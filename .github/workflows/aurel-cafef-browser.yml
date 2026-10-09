@@ -64,7 +64,7 @@ jobs:
             assert.ok(Math.abs(open.hero.height-512.25)<12,'unexpected hero frame height');
             assert.ok(open.bg.includes('url('),'dynamic backdrop missing');
             assert.ok(open.hint.y>=open.hero.bottom-1,'swipe caption is not below hero');
-            assert.equal(open.hintAlign,'flex-start','swipe hint must be aligned left');
+            assert.equal(open.hintAlign,'flex-end','swipe hint must remain aligned right');
             assert.ok(open.cafe.width>300,'CafeF panel width unexpectedly narrow');
             assert.equal(open.hasButton,false,'previous blue slider remains');
             await page.locator('#aurel-cafef-overview .cf-tab[data-tab="news"]').click();
