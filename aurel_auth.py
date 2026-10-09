@@ -16,7 +16,7 @@ def _configuration():
     public_key = os.getenv('AUREL_SUPABASE_PUBLISHABLE_KEY', '').strip()
     parsed = urlsplit(url)
     if (parsed.scheme != 'https'
-            or not re.fullmatch(r'[a-z0-9-]+\\.supabase\\.co', parsed.hostname or '')
+            or not re.fullmatch(r'[a-z0-9-]+\.supabase\.co', parsed.hostname or '')
             or parsed.username or parsed.password or parsed.query or parsed.fragment
             or parsed.path or not public_key):
         raise RuntimeError('Supabase Auth chưa được cấu hình hợp lệ.')
