@@ -376,6 +376,33 @@ async function request(route,data){
  }
  return fail(path);
 }
+function printableReport(){
+ if(!unlocked())throw Error('Hãy mở khóa két trước.');
+ var stateData=snapshot(null,null);
+ if(!stateData.has_data)throw Error('Chưa có chỉ tiêu phân tích PRIVATE.');
+ /* Financial data comes from user files; escape all visible text in the print document. */
+ var esc=function(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+ var fmt=function(x){return x==null?'—':Number(x).toLocaleString('vi-VN',{maximumFractionDigits:5})};
+ var chosen=window.AURELPrivateAnalytics?.currentSelection?.()||{};
+ stateData=snapshot(chosen.bank,chosen.year);
+ var raw=stateData.raw||[],ratios=stateData.ratios||[],risks=stateData.risk||[];
+ var tr=function(items){return '<tr>'+items.map(function(x){return '<td>'+esc(x)+'</td>'}).join('')+'</tr>'};
+ var rows=raw.map(function(x){return tr([x.name,fmt(x.value),x.unit==='percent'?'%':'tỷ VND',x.source_file])}).join('');
+ var rs=ratios.map(function(x){return tr([x.name,fmt(x.value)+'%',x.formula])}).join('');
+ var alerts=risks.map(function(x){return tr([x.name,fmt(x.value),x.status])}).join('');
+ var content='<!doctype html><html lang="vi"><head><meta charset="utf-8"><title>Báo cáo PRIVATE AUREL</title>'+
+  '<style>body{font:14px/1.6 Arial,sans-serif;margin:36px;color:#142c40}h1{font-size:22px}h2{margin-top:24px}table{width:100%;border-collapse:collapse}td,th{padding:8px;border:1px solid #d6e0e8;text-align:left}tr:nth-child(even){background:#f6f9fa}.note{color:#555;font-size:12px}@media print{body{margin:15mm}}</style></head><body>'+
+  '<h1>AUREL · Báo cáo PRIVATE</h1><p>Ngân hàng: '+esc(stateData.bank)+' · Năm: '+esc(stateData.year)+'</p>'+
+  '<p class="note">Được tạo ngay trên thiết bị. Không truyền dữ liệu sang backend. Có thể dùng Print → Save as PDF.</p>'+
+  '<h2>Chỉ tiêu tài chính</h2><table><tr><th>Chỉ tiêu</th><th>Giá trị</th><th>Đơn vị</th><th>Nguồn</th></tr>'+rows+'</table>'+
+  '<h2>Chỉ số và công thức</h2><table><tr><th>Chỉ số</th><th>Giá trị</th><th>Công thức</th></tr>'+rs+'</table>'+
+  '<h2>Giám sát rủi ro</h2><table><tr><th>Chỉ báo</th><th>Giá trị</th><th>Mức</th></tr>'+alerts+'</table>'+
+  '<p class="note">Các ngưỡng là chỉ báo nội bộ, không phải kết luận giám sát NHNN.</p></body></html>';
+ var url=URL.createObjectURL(new Blob([content],{type:'text/html;charset=utf-8'}));
+ var w=window.open(url,'_blank','noopener,noreferrer');
+ if(!w){var a=document.createElement('a');a.href=url;a.download='AUREL_PRIVATE_BAO_CAO.html';a.click()}
+ setTimeout(function(){URL.revokeObjectURL(url)},120000);
+}
 function exportCsv(){
  if(!unlocked())throw Error('Vui lòng mở khóa két trước.');
  var columns=['bank','year','metric_id','value','unit','source_file','source_page','statement_type'];
@@ -396,6 +423,7 @@ async function resync(){
  finally{busy=false;window.dispatchEvent(new CustomEvent('aurel-private-analytics-updated'));if(pending){pending=false;resync()}}
 }
 window.AURELPrivateAnalytics={active:active,unlocked:unlocked,getSnapshot:state,request:request,resync:resync,exportCsv:exportCsv,
- getReport:function(){return {rows:activeRows.slice(),files:activeFiles.slice(),errors:errorText,loaded:loaded}},diagnostics:function(){return {rows:activeRows.length,files:activeFiles.length,error:errorText,loaded:loaded}}};
+ getReport:function(){return {rows:activeRows.slice(),files:activeFiles.slice(),errors:errorText,loaded:loaded}},printReport:printableReport,diagnostics:function(){return {rows:activeRows.length,files:activeFiles.length,error:errorText,loaded:loaded}}};
 window.addEventListener('aurel-private-vault-changed',resync);
+queueMicrotask(resync);
 })();
