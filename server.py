@@ -14,6 +14,7 @@ from urllib.parse import parse_qs, urlsplit
 from contextvars import ContextVar, copy_context
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+from aurel_auth import public_configuration, verify_access_token
 
 ROOT = Path(__file__).resolve().parent
 INDEX = ROOT / 'index.html'
@@ -158,6 +159,8 @@ class Store:
         self.pdf_jobs={}
         self.gemini_session_key=None
         self.upload_sessions={}
+        self.owner_id=None
+        self.owner_email=None
 
 # Confidential AUREL datasets are scoped to an unguessable browser-session token.
 # A ContextVar propagates across functions but never crosses concurrent requests.
@@ -3875,7 +3878,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin',origin)
             self.send_header('Vary','Origin')
             self.send_header('Access-Control-Allow-Methods','GET, POST, OPTIONS')
-            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token')
+            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token, Authorization')
             self.send_header('Access-Control-Max-Age','600')
         if filename: self.send_header('Content-Disposition',f'attachment; filename="{filename}"')
         self.end_headers()
@@ -3893,9 +3896,12 @@ class Handler(BaseHTTPRequestHandler):
         except ValueError: year=None
         return bank,year
     def bind_session(self):
+        # A browser-session capability is never sufficient without a verified account.
+        identity=verify_access_token(self.headers.get('Authorization', ''))
         token=self.headers.get('X-Aurel-Token','')
         store=_session_lookup(token)
-        if store is None: raise PermissionError('Thiếu phiên bảo mật hợp lệ. Hãy tải lại trang để bắt đầu phiên riêng.')
+        if store is None or store.owner_id != identity['id']:
+            raise PermissionError('Phiên AUREL không thuộc tài khoản đang đăng nhập.')
         _ACTIVE_STORE.set(store)
 
     def do_OPTIONS(self):
@@ -3903,11 +3909,22 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         try:
             path=urlsplit(self.path).path;query=parse_qs(urlsplit(self.path).query)
+            if path=='/api/auth/config':
+                return self.reply(public_configuration())
             if path=='/api/session':
-                token,store=_session_issue(self.headers.get('X-Aurel-Token',''))
+                identity=verify_access_token(self.headers.get('Authorization', ''))
+                prior=self.headers.get('X-Aurel-Token','')
+                previous=_session_lookup(prior)
+                if previous is not None and previous.owner_id==identity['id']:
+                    token,store=prior,previous
+                else:
+                    token,store=_session_issue()
+                    store.owner_id=identity['id']
+                    store.owner_email=identity['email']
                 _ACTIVE_STORE.set(store)
-                return self.reply({'token':token,'version':'AUREL-PYBUS-20261010-SCOPED','email_backend':'brevo'})
-            if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
+                return self.reply({'token':token,'version':'AUREL-PYBUS-20261010-ACCOUNT',
+                                   'email_backend':'brevo', 'email':identity['email']})
+            if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef','/api/auth/config'):
                 self.bind_session()
             if path in ('/','/index.html'):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__','')
@@ -4094,7 +4111,7 @@ class Handler(BaseHTTPRequestHandler):
         return self.reply({'message':f'Đã tiếp nhận {len(parsed)} chỉ tiêu từ {name}.','state':snapshot()})
 
     def error(self,e):
-        code=403 if isinstance(e,PermissionError) else 400 if isinstance(e,(ValueError,KeyError,TypeError,OverflowError)) else 500
+        code=403 if isinstance(e,PermissionError) else 503 if isinstance(e,RuntimeError) else 400 if isinstance(e,(ValueError,KeyError,TypeError,OverflowError)) else 500
         if code==500: traceback.print_exc()
         return self.reply({'error':str(e) if code!=500 else 'Hệ thống gặp lỗi nội bộ. Vui lòng kiểm tra nhật ký máy chủ.'},code)
 
