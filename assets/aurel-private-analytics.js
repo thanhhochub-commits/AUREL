@@ -352,12 +352,25 @@ function evaluation(bank,year,data){
  var snap=snapshot(bank,year),source=snap.raw||[],rat=snap.ratios||[];
  var ids=['npl_ratio','ldr','equity_assets','cir','loans_assets','deposits_assets','roa','roe'];
  var display={npl_ratio:'Tỷ lệ nợ xấu',ldr:'Dư nợ / Tiền gửi',equity_assets:'VCSH / Tổng tài sản',cir:'CIR',loans_assets:'Dư nợ / Tổng tài sản',deposits_assets:'Tiền gửi / Tổng tài sản',roa:'ROA',roe:'ROE'};
- var form=ids.map(function(k){var r=rat.find(x=>x.id===k),num=r?.value??null;return {name:display[k],id:k,manual:num,system:num,diff:num==null?null:0,pass:num==null?null:true,formula:r?.formula||''}});
+ var current=values(bank,year),prior=values(bank,year-1);
+ var manual={
+  npl_ratio:pct(current.npl,current.loans),
+  ldr:pct(current.loans,current.deposits),
+  equity_assets:pct(current.equity,current.assets),
+  cir:pct(current.operating_expenses==null?null:Math.abs(current.operating_expenses),current.operating_income),
+  loans_assets:pct(current.loans,current.assets),
+  deposits_assets:pct(current.deposits,current.assets),
+  roa:current.assets==null||prior.assets==null?null:pct(current.pat,(current.assets+prior.assets)/2),
+  roe:current.equity==null||prior.equity==null?null:pct(current.pat,(current.equity+prior.equity)/2)
+ };
+ var form=ids.map(function(k){var r=rat.find(x=>x.id===k),actual=r?.value??null,expected=manual[k],diff=actual==null||expected==null?null:Math.abs(actual-expected);
+  return {name:display[k],id:k,manual:expected,system:actual,diff:diff,pass:diff==null?null:diff<=.01,formula:r?.formula||''};
+ });
  var truth=data&&data.manual||{},details=source.map(function(r){var n=number(truth[r.metric_id]),diff=n==null?null:Math.abs(r.value-n);return {row:r,manual:n,diff:diff,rel:n==null?null:n===0?diff===0?0:null:diff/Math.abs(n)*100,pass:n==null?null:diff<=Math.max(.01,Math.abs(n)*.001)}});
  var checked=details.filter(x=>x.pass!==null),passed=checked.filter(x=>x.pass).length;
  var periods=snap.choices||[],count=new Set(source.map(x=>x.metric_id)).size,ratCount=rat.filter(x=>x.value!=null).length;
  var checks=[['Ít nhất 2 năm hoặc 2 ngân hàng',periods.length>=2,periods.length+' kỳ dữ liệu'],['Tối thiểu 10 chỉ tiêu tài chính',count>=10,count+' chỉ tiêu'],['Tối thiểu 5 tỷ số / tăng trưởng',ratCount>=5,ratCount+' tỷ số'],['Cảnh báo rủi ro từ dữ liệu',snap.risk.length>=3,snap.risk.length+' cảnh báo'],['AI riêng tư tại trình duyệt',false,'Không gửi dữ liệu PRIVATE cho Gemini'],['Phê duyệt AI riêng tư',false,'Chưa có bộ AI cục bộ'],['Có phân tích kịch bản',snap.values.npl!=null&&snap.values.loans!=null,'Mô phỏng tại thiết bị'],['Truy vết tệp nguồn',source.every(x=>!!x.source_file),'Tên tệp được lưu mã hóa'],['Xuất báo cáo tại thiết bị',true,'Xuất từ trình duyệt, không qua máy chủ']];
- return {formula:form,manual:{truth:truth,details:details,checked:checked.length,passed:passed,accuracy:checked.length?passed/checked.length*100:null},checklist:checks,formulaAccuracy:form.some(x=>x.pass!==null)?100:null,trace:100,completeness:Math.min(100,count/16*100)};
+ return {formula:form,manual:{truth:truth,details:details,checked:checked.length,passed:passed,accuracy:checked.length?passed/checked.length*100:null},checklist:checks,formulaAccuracy:form.some(x=>x.pass!==null)?form.filter(x=>x.pass===true).length/form.filter(x=>x.pass!==null).length*100:null,trace:100,completeness:Math.min(100,count/16*100)};
 }
 async function request(route,data){
  var path=String(route||'').split('?')[0].replace(/^\/+/,'');
