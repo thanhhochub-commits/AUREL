@@ -182,7 +182,7 @@ function updateUploadMode(){
  panel.classList.toggle('aurel-private-mode',mode==='private');
  var hint=el('aurel-private-notice');
  if(hint)hint.textContent=mode==='private'?
-  'PRIVATE: chỉ mã hóa và lưu trên thiết bị này. Không gửi tệp lên Render, AI hoặc GitHub. PDF/Excel/CSV chưa được đưa vào biểu đồ phân tích máy chủ.':
+  'PRIVATE: Excel/CSV được phân tích trên thiết bị để sử dụng các tab tài chính. Tệp PDF hiện được mã hóa và lưu, chưa trích xuất riêng tư. Không gửi tệp lên Render, AI hoặc GitHub.':
   'MÁY CHỦ: tệp gốc sẽ gửi đến backend AUREL để trích xuất và phân tích. Chủ máy chủ có khả năng truy cập dữ liệu trong lúc xử lý.';
  up.textContent=mode==='private'?'Lưu tệp đã mã hóa':'Nạp tệp lên máy chủ';
  area.hidden=mode!=='private';
