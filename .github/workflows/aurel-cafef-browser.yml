@@ -184,6 +184,26 @@ jobs:
             console.log('PHONE TOUCH SCROLL',JSON.stringify({phoneStart,phoneAfter}));
             assert.ok(phoneStart.range>150,'mobile test page must have vertical content');
             assert.ok(phoneAfter>phoneStart.top+30,'mobile touch scrolling is blocked');
+            // Repeated tab switches must not leave mobile scrolling locked.
+            for(let attempt=1;attempt<=4;attempt++){
+              await phonePage.evaluate(()=>document.querySelector('#nav button[data-page="ai"]').click());
+              await phonePage.locator('#aurel-chat-messages').waitFor({state:'attached',timeout:12000});
+              await phonePage.evaluate(()=>document.querySelector('#nav button[data-page="overview"]').click());
+              await phonePage.locator('#root > .aurel-cafef-hero-row').waitFor({state:'attached',timeout:12000});
+              await phonePage.waitForTimeout(220);
+              await phonePage.evaluate(()=>{document.scrollingElement.scrollTop=0;});
+              const initial=await phonePage.evaluate(()=>document.scrollingElement.scrollTop);
+              await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:190,y:590}]});
+              for(let j=1;j<=10;j++){
+                await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:190,y:590-j*28}]});
+                await new Promise(resolve=>setTimeout(resolve,18));
+              }
+              await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+              await phonePage.waitForTimeout(240);
+              const latest=await phonePage.evaluate(()=>document.scrollingElement.scrollTop);
+              console.log('PHONE TAB SWITCH SCROLL',JSON.stringify({attempt,initial,latest}));
+              assert.ok(latest>initial+24,'touch scroll locked after tab switch '+attempt);
+            }
             await phone.close();
             if(errors.length)console.log('PAGE ERRORS',JSON.stringify(errors.slice(0,8)));
             await browser.close();
