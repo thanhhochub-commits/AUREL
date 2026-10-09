@@ -74,6 +74,7 @@ jobs:
               for(const tab of ['overview','analysis','comparison','monitor','scenario','report']){
                 await page.evaluate(t=>document.querySelector('#nav button[data-page='+t+']').click(),tab);
                 await page.waitForTimeout(100);
+                if(tab==='overview')await page.locator('#aurel-cafef-overview').waitFor({timeout:9000});
                 assert.ok(!(await page.locator('#root').innerText()).includes('Không thể hiển thị nội dung'),tab+' render failed');
               }
               assert.deepEqual(leaks,[]);
