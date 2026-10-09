@@ -169,7 +169,11 @@ jobs:
                 const all=document.querySelectorAll('#nav button.active[data-page]');
                 return b&&b.classList.contains('active')&&all.length===1&&!!document.querySelector('#root')?.firstElementChild;
               },target,{timeout:5000});
-              console.log('DESKTOP TAB',target,'latency_ms',Date.now()-t0);
+              await desktopScroll.waitForFunction(name=>{
+                const titles={ai:'Phân tích cùng AI AUREL',analysis:'Phân tích chỉ số',comparison:'Đối chiếu ngân hàng',monitor:'Giám sát rủi ro',scenario:'Phân tích kịch bản',overview:'Tổng quan tài chính',data:'Nguồn dữ liệu',report:'Báo cáo'};
+                return document.querySelector('#crumb-title')?.textContent===titles[name];
+              },target,{timeout:5000});
+              console.log('DESKTOP TAB RENDERED',target,'latency_ms',Date.now()-t0);
             }
             // Rapid clicks in a single event task must end at the requested tab.
             await desktopScroll.evaluate(()=>{
@@ -232,7 +236,11 @@ jobs:
                 const selected=document.querySelector('#nav button.active[data-page]');
                 return selected?.dataset.page===name&&!!document.querySelector('#root')?.firstElementChild;
               },target,{timeout:6000});
-              console.log('MOBILE TAB',target,'latency_ms',Date.now()-t0);
+              await phonePage.waitForFunction(name=>{
+                const titles={ai:'Phân tích cùng AI AUREL',analysis:'Phân tích chỉ số',comparison:'Đối chiếu ngân hàng',scenario:'Phân tích kịch bản',monitor:'Giám sát rủi ro',data:'Nguồn dữ liệu',overview:'Tổng quan tài chính'};
+                return document.querySelector('#crumb-title')?.textContent===titles[name];
+              },target,{timeout:5000});
+              console.log('MOBILE TAB RENDERED',target,'latency_ms',Date.now()-t0);
             }
             await phonePage.evaluate(()=>{
               for(const name of ['analysis','data','ai','comparison','overview']){
