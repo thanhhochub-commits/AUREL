@@ -88,12 +88,13 @@ function touchUnlock(){
  if(idleTimer)clearTimeout(idleTimer);
  if(masterKey)idleTimer=setTimeout(function(){lock();say('Két đã tự khóa sau 15 phút.');},15*60*1000);
 }
+function notifyAnalytics(){window.dispatchEvent(new CustomEvent('aurel-private-vault-changed'))}
 function lock(){
  masterKey=null;currentList=[];
  if(idleTimer){clearTimeout(idleTimer);idleTimer=null}
  var p=el('aurel-private-pass');if(p)p.value='';
  var preview=el('aurel-private-preview');if(preview)preview.textContent='';
- renderVault();
+ renderVault();notifyAnalytics();
 }
 async function createVault(password){
  if((await get('vault','master')))throw Error('Két đã tồn tại. Hãy mở khóa.');
@@ -227,7 +228,7 @@ async function saveChosen(){
    await storeFile(files[i]);
   }
   if(input){input.value='';input.dispatchEvent(new Event('change',{bubbles:true}))}
-  await listFiles();await renderVault();
+  await listFiles();await renderVault();notifyAnalytics();
   say('Đã mã hóa và lưu '+files.length+' tệp trên thiết bị. Không có tệp nào được tải lên máy chủ.');
  }finally{if(button)button.disabled=false}
 }
@@ -291,13 +292,13 @@ document.addEventListener('click',function(event){
  }
  event.preventDefault();event.stopImmediatePropagation();
  if(t.id==='aurel-private-create'){
-  guarded(async function(){var pass=el('aurel-private-pass');await createVault(pass&&pass.value||'');await renderVault();say('Đã tạo két. Khóa được sinh trên thiết bị, chủ web không giữ khóa.')});
+  guarded(async function(){var pass=el('aurel-private-pass');await createVault(pass&&pass.value||'');await renderVault();notifyAnalytics();say('Đã tạo két. Khóa được sinh trên thiết bị, chủ web không giữ khóa.')});
  }else if(t.id==='aurel-private-unlock'){
-  guarded(async function(){var pass=el('aurel-private-pass');await unlock(pass&&pass.value||'');await listFiles();await renderVault();say('Đã mở khóa trên thiết bị.')});
+  guarded(async function(){var pass=el('aurel-private-pass');await unlock(pass&&pass.value||'');await listFiles();await renderVault();notifyAnalytics();say('Đã mở khóa trên thiết bị.')});
  }else if(t.id==='aurel-private-lock'){lock();say('Đã khóa két.')}
  else if(t.id==='aurel-private-backup'){guarded(backup)}
  else if(t.hasAttribute('data-private-delete')){
-  guarded(async function(){if(confirm('Xóa vĩnh viễn tệp mã hóa này khỏi trình duyệt?')){await deleteBoth(t.dataset.privateDelete);await listFiles();await renderVault();say('Đã xóa tệp mã hóa.')}});
+  guarded(async function(){if(confirm('Xóa vĩnh viễn tệp mã hóa này khỏi trình duyệt?')){await deleteBoth(t.dataset.privateDelete);await listFiles();await renderVault();notifyAnalytics();say('Đã xóa tệp mã hóa.')}});
  }else if(t.hasAttribute('data-private-get')||t.hasAttribute('data-private-preview')){
   guarded(async function(){
    var id=t.dataset.privateGet||t.dataset.privatePreview,resource=await filePlain(id);
@@ -316,7 +317,11 @@ document.addEventListener('click',function(event){
 },true);
 document.addEventListener('change',function(event){
  if(event.target.name==='aurel-privacy'){
-  mode=event.target.value==='server'?'server':'private';updateUploadMode();
+  var nextMode=event.target.value==='server'?'server':'private';
+  if(nextMode==='server'&&mode!=='server'&&!confirm('MÁY CHỦ sẽ nhận dữ liệu gốc khi bạn bấm Nạp tệp. Bạn có chắc muốn cho phép?')){
+   event.target.checked=false;var privateRadio=document.querySelector('input[name="aurel-privacy"][value="private"]');if(privateRadio)privateRadio.checked=true;return;
+  }
+  mode=nextMode;updateUploadMode();notifyAnalytics();
  }else if(event.target.id==='aurel-private-restore'){
   var f=event.target.files&&event.target.files[0];
   if(f)guarded(async function(){await restore(f)});
@@ -332,6 +337,9 @@ document.addEventListener('aurel:dom-render',schedule);
 window.addEventListener('pagehide',lock,{passive:true});
 var root=document.getElementById('root');
 if(root)new MutationObserver(schedule).observe(root,{childList:true});
+window.AURELPrivateVault={isPrivate:function(){return mode==='private'},isUnlocked:function(){return !!masterKey},
+ readFiles:async function(){if(!masterKey)throw Error('Két đã khóa.');await listFiles();var arr=[];for(var item of currentList){if(!item.corrupt)arr.push(await filePlain(item.id))}return arr;},
+ listFiles:listFiles};
 window.AURELPrivateVaultReady=true;
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',schedule,{once:true});else schedule();
 })();
