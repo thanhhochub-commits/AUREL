@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: Compile Python backend
-        run: python -m py_compile server.py
+        run: python -m py_compile server.py aurel_device_storage.py
       - name: Validate embedded frontend JavaScript syntax
         run: |
           python - <<'PY'
