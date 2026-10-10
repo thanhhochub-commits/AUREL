@@ -39,3 +39,5 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_security*.py' -v
       - name: Verify restored upload interface
         run: python -m unittest discover -s tests -p 'test_restore_upload_ui.py' -v
+      - name: Live synthetic Supabase vault integration
+        run: python -m unittest discover -s tests -p 'test_integration_device_vault.py' -v
