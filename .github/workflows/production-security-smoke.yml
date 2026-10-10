@@ -30,21 +30,27 @@ jobs:
                   match=re.search(r'const b="([A-Za-z0-9+/=]+)"',html)
                   assert match, 'Frontend app not served'
                   code=base64.b64decode(match.group(1),validate=True)
-                  assert b'aurel_secure_session_token' in code, 'Old frontend still served'
-                  with urlopen(Request(back+'api/session'),timeout=60) as r:
+                  assert b'aurel_private_device_key_v1' in code, 'Old frontend still served'
+                  import secrets
+                  a=secrets.token_urlsafe(32)
+                  b=secrets.token_urlsafe(32)
+                  with urlopen(Request(back+'api/session',headers={'X-Aurel-Device-Key':a}),timeout=60) as r:
                       session=json.loads(r.read())
-                  assert session.get('version')=='AUREL-PYBUS-20261010-SCOPED', 'Old backend still served'
+                  assert session.get('version')=='AUREL-DEVICE-PERSIST-20261010','Old backend still served'
                   t=session['token']
+                  with urlopen(Request(back+'api/session',headers={'X-Aurel-Device-Key':b}),timeout=60) as r:
+                      second=json.loads(r.read())
+                  assert second['token']!=t,'Two browsers received same session'
                   try:
                       with urlopen(Request(back+'api/state'),timeout=30) as r:
                           unauth=r.status
                   except HTTPError as e:
                       unauth=e.code
                   assert unauth==403, 'State endpoint lacks authentication'
-                  with urlopen(Request(back+'api/state',headers={'X-Aurel-Token':t}),timeout=30) as r:
+                  with urlopen(Request(back+'api/state',headers={'X-Aurel-Token':t,'X-Aurel-Device-Key':a}),timeout=30) as r:
                       state=json.loads(r.read())
                   assert state.get('has_data') is False, 'New anonymous session inherited another dataset'
-                  print('PASS: restored frontend, backend isolation, anonymous authorization')
+                  print('PASS: live browser key frontend, backend session isolation and cloud persistence')
                   break
               except Exception as e:
                   last=e
