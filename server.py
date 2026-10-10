@@ -12,6 +12,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 from contextvars import ContextVar, copy_context
+from aurel_device_storage import valid_key,load as device_load,save as device_save,put_pdf as device_put_pdf,get_pdf as device_get_pdf,delete_pdf as device_delete_pdf
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -158,10 +159,14 @@ class Store:
         self.pdf_jobs={}
         self.gemini_session_key=None
         self.upload_sessions={}
+        self.device_key=None
+        self.remote_revision=-1
+        self.remote_documents=[]
 
 # Confidential AUREL datasets are scoped to an unguessable browser-session token.
 # A ContextVar propagates across functions but never crosses concurrent requests.
 _ACTIVE_STORE=ContextVar('aurel_active_store',default=None)
+_ACTIVE_DEVICE=ContextVar('aurel_active_device',default=None)
 _SESSION_LOCK=threading.RLock()
 _SESSIONS={}
 _SESSION_TTL_SECONDS=6*60*60
@@ -178,6 +183,43 @@ class _ScopedStore:
         setattr(store,name,value)
 
 STORE=_ScopedStore()
+
+def _device_init(store,key):
+    payload,rev=device_load(key)
+    store.device_key=key
+    store.rows=list(payload.get('rows') or [])
+    store.remote_revision=rev
+    store.remote_documents=list(payload.get('documents') or [])
+    docs={}
+    for d in store.remote_documents:
+        if not isinstance(d,dict):continue
+        name,path,count=d.get('name'),d.get('path'),d.get('pages')
+        if not isinstance(name,str) or not isinstance(path,str) or not isinstance(count,int) or not 1<=count<=180:continue
+        docs[name]={'pages':[{'page':i+1,'text':'','ocr':False} for i in range(count)],
+                    'text_pages':0,'content':b'','remote_path':path}
+    store.docs=docs
+
+def _persist_device():
+    store=_ACTIVE_STORE.get()
+    if store is None or not store.device_key or store.device_key!=_ACTIVE_DEVICE.get():
+        raise PermissionError('Phiên không thuộc thiết bị hiện tại.')
+    with store.lock:
+        payload={'rows':[dict(r) for r in store.rows],
+                 'documents':[dict(d) for d in store.remote_documents]}
+        store.remote_revision=device_save(store.device_key,payload,store.remote_revision)
+
+def _load_pdf_for_device(name):
+    with STORE.lock:
+        item=STORE.docs.get(name)
+        if not item:raise ValueError('PDF không thuộc phiên này.')
+        if item.get('content'):return
+        path=item.get('remote_path')
+        if not path:raise ValueError('Tệp PDF nguồn không tồn tại.')
+        data=device_get_pdf(STORE.device_key,path)
+        pages=read_pdf(data)
+        item['content']=data
+        item['pages']=pages
+        item['text_pages']=sum(bool(x.get('text','').strip()) for x in pages)
 
 def _session_lookup(token):
     if not isinstance(token,str) or not re.fullmatch(r'[A-Za-z0-9_-]{43}',token):
@@ -2675,6 +2717,7 @@ def pdf_extract(name,pages,pdf_content,bank_override='',year_override=None,unit_
 
 
 def pdf_preview(name, bank='', year=None, unit='auto', progress_cb=None):
+    _load_pdf_for_device(name)
     with STORE.lock:
         doc=STORE.docs.get(name)
         if not doc:raise ValueError('Không tìm thấy PDF đã tải lên. Hãy tiếp nhận PDF trước.')
@@ -3875,7 +3918,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin',origin)
             self.send_header('Vary','Origin')
             self.send_header('Access-Control-Allow-Methods','GET, POST, OPTIONS')
-            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token')
+            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token, X-Aurel-Device-Key')
             self.send_header('Access-Control-Max-Age','600')
         if filename: self.send_header('Content-Disposition',f'attachment; filename="{filename}"')
         self.end_headers()
@@ -3896,7 +3939,11 @@ class Handler(BaseHTTPRequestHandler):
         token=self.headers.get('X-Aurel-Token','')
         store=_session_lookup(token)
         if store is None: raise PermissionError('Thiếu phiên bảo mật hợp lệ. Hãy tải lại trang để bắt đầu phiên riêng.')
+        device=self.headers.get('X-Aurel-Device-Key','')
+        if not valid_key(device) or store.device_key!=device:
+            raise PermissionError('Dữ liệu không thuộc trình duyệt này.')
         _ACTIVE_STORE.set(store)
+        _ACTIVE_DEVICE.set(device)
 
     def do_OPTIONS(self):
         return self.reply(b'',status=204,content_type='text/plain; charset=utf-8')
@@ -3904,9 +3951,21 @@ class Handler(BaseHTTPRequestHandler):
         try:
             path=urlsplit(self.path).path;query=parse_qs(urlsplit(self.path).query)
             if path=='/api/session':
-                token,store=_session_issue(self.headers.get('X-Aurel-Token',''))
+                device=self.headers.get('X-Aurel-Device-Key','')
+                if not valid_key(device):raise PermissionError('Thiếu khóa riêng của trình duyệt.')
+                previous=self.headers.get('X-Aurel-Token','')
+                existing=_session_lookup(previous)
+                if existing is not None and existing.device_key==device:
+                    token,store=previous,existing
+                else:
+                    token,store=_session_issue()
+                    try:_device_init(store,device)
+                    except Exception:
+                        with _SESSION_LOCK:_SESSIONS.pop(token,None)
+                        raise
                 _ACTIVE_STORE.set(store)
-                return self.reply({'token':token,'version':'AUREL-PYBUS-20261010-SCOPED','email_backend':'brevo'})
+                _ACTIVE_DEVICE.set(device)
+                return self.reply({'token':token,'version':'AUREL-DEVICE-PERSIST-20261010','email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
@@ -3928,6 +3987,7 @@ class Handler(BaseHTTPRequestHandler):
                                    'source':'session' if has_session_key else ('environment' if has_env_key else 'none')})
             if path=='/api/document':
                 name=query.get('name',[''])[0];page=int(query.get('page',['1'])[0])
+                _load_pdf_for_device(name)
                 with STORE.lock:
                     doc=STORE.docs.get(name)
                     if not doc or page<1 or page>len(doc['pages']):raise ValueError('Không tìm thấy trang tài liệu.')
@@ -3996,9 +4056,25 @@ class Handler(BaseHTTPRequestHandler):
                     return self.reply(pdf_job_start(name,str(data.get('bank','')).strip().upper(),yr,str(data.get('unit','auto'))))
                 return self.reply(pdf_preview(name,str(data.get('bank','')),yr,str(data.get('unit','auto'))))
             if path=='/api/pdf/commit':
-                return self.reply(pdf_commit(str(data.get('preview_token','')),data.get('metrics'),bool(data.get('replace'))))
+                with STORE.lock:
+                    prev=(STORE.rows,STORE.revision,STORE.ai)
+                    try:
+                        result=pdf_commit(str(data.get('preview_token','')),data.get('metrics'),bool(data.get('replace')))
+                        _persist_device()
+                    except Exception:
+                        (STORE.rows,STORE.revision,STORE.ai)=prev
+                        raise
+                return self.reply(result)
             if path=='/api/pdf/commit/batch':
-                return self.reply(pdf_commit_batch(data.get('selections'),bool(data.get('replace'))))
+                with STORE.lock:
+                    prev=(STORE.rows,STORE.revision,STORE.ai)
+                    try:
+                        result=pdf_commit_batch(data.get('selections'),bool(data.get('replace')))
+                        _persist_device()
+                    except Exception:
+                        (STORE.rows,STORE.revision,STORE.ai)=prev
+                        raise
+                return self.reply(result)
             if path=='/api/scenario':
                 return self.reply(simulate(str(data.get('bank','')).upper(),int(data.get('year')),data.get('npl_change'),data.get('loan_change')))
             if path=='/api/evaluation':
@@ -4061,8 +4137,20 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/clear':
                 if data.get('confirm')!='XOA_DU_LIEU':raise ValueError('Thiếu xác nhận xóa dữ liệu.')
                 with STORE.lock:
-                    STORE.rows=[];STORE.docs={};STORE.ai={};STORE.pdf_previews={};STORE.pdf_jobs={};STORE.revision+=1
-                return self.reply({'message':'Đã xóa dữ liệu trong phiên.','state':snapshot()})
+                    before=(STORE.rows,STORE.docs,STORE.ai,STORE.pdf_previews,STORE.pdf_jobs,
+                            STORE.remote_documents,STORE.revision)
+                    paths=[x.get('path') for x in STORE.remote_documents if isinstance(x,dict) and x.get('path')]
+                    STORE.rows=[];STORE.docs={};STORE.ai={};STORE.pdf_previews={};STORE.pdf_jobs={}
+                    STORE.remote_documents=[];STORE.revision+=1
+                    try:_persist_device()
+                    except Exception:
+                        (STORE.rows,STORE.docs,STORE.ai,STORE.pdf_previews,STORE.pdf_jobs,
+                         STORE.remote_documents,STORE.revision)=before
+                        raise
+                    for p in paths:
+                        try:device_delete_pdf(STORE.device_key,p)
+                        except Exception:pass
+                return self.reply({'message':'Đã xóa dữ liệu của trình duyệt này.','state':snapshot()})
             return self.reply({'error':'Không tìm thấy chức năng.'},404)
         except Exception as e: return self.error(e)
     def accept_file(self,name,content,replace):
@@ -4073,8 +4161,22 @@ class Handler(BaseHTTPRequestHandler):
             pages=read_pdf(content)
             with STORE.lock:
                 if name not in STORE.docs and len(STORE.docs)>=MAX_DOCS:raise ValueError('Đã đạt giới hạn tài liệu.')
-                STORE.docs[name]={'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),'content':bytes(content)}
-                STORE.revision+=1;STORE.ai.clear();STORE.pdf_previews={}
+                path=device_put_pdf(STORE.device_key,name,bytes(content))
+                old=(STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)
+                previous_path=next((d.get('path') for d in STORE.remote_documents if d.get('name')==name),None)
+                STORE.docs={**STORE.docs,name:{'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),
+                            'content':bytes(content),'remote_path':path}}
+                STORE.remote_documents=[d for d in STORE.remote_documents if d.get('name')!=name]+[{'name':name,'path':path,'pages':len(pages)}]
+                STORE.revision+=1;STORE.ai={};STORE.pdf_previews={}
+                try:_persist_device()
+                except Exception:
+                    (STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)=old
+                    try:device_delete_pdf(STORE.device_key,path)
+                    except Exception:pass
+                    raise
+                if previous_path:
+                    try:device_delete_pdf(STORE.device_key,previous_path)
+                    except Exception:pass
             return self.reply({'message':f'Đã tiếp nhận {name} ({len(pages)} trang). PDF đã sẵn sàng; nhấn Đọc báo cáo để OCR và trích xuất chỉ tiêu.','state':snapshot()})
         raw=parse_spreadsheet(name,content)
         with STORE.lock:
@@ -4089,8 +4191,13 @@ class Handler(BaseHTTPRequestHandler):
                 extracted=auto_extract_spreadsheet(name,content)
                 parsed=parse_rows(extracted,STORE.rows,replace=replace,file_name=name)
             new_keys={(r['bank'],r['year'],r['metric_id']) for r in parsed}
+            old=(STORE.rows,STORE.revision,STORE.ai,STORE.pdf_previews)
             STORE.rows=[r for r in STORE.rows if (r['bank'],r['year'],r['metric_id']) not in new_keys]+parsed
-            STORE.revision+=1;STORE.ai.clear();STORE.pdf_previews={}
+            STORE.revision+=1;STORE.ai={};STORE.pdf_previews={}
+            try:_persist_device()
+            except Exception:
+                (STORE.rows,STORE.revision,STORE.ai,STORE.pdf_previews)=old
+                raise
         return self.reply({'message':f'Đã tiếp nhận {len(parsed)} chỉ tiêu từ {name}.','state':snapshot()})
 
     def error(self,e):
