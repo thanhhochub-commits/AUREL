@@ -35,7 +35,7 @@ async function enter(action,username,password){
  const name=normalize(username);
  const data=await post(action,{username:name,password});
  if(!data.access_token||!data.refresh_token||!data.user_id)throw Error('Phiên tài khoản online không hợp lệ.');
- current={username:name,id:data.user_id,access:data.access_token,refresh:data.refresh_token,expiry:Date.now()+(data.expires_in||3600)*1000};
+ current={username:name,displayUsername:String(username||'').trim().normalize('NFC'),id:data.user_id,access:data.access_token,refresh:data.refresh_token,expiry:Date.now()+(data.expires_in||3600)*1000};
  saveSession();
  await tryLegacy(name,password);
  return name;
@@ -73,7 +73,7 @@ async function migrateIfEmpty(request,upload){
  migration=null;
  return {migrated:true,count:old.rows.length,pdfs:old.pdfs.length};
 }
-window.AURELCloudAuth={access,migrateIfEmpty,clearSession};
+window.AURELCloudAuth={access,migrateIfEmpty,clearSession,displayUsername:()=>current?.displayUsername||current?.username||''};
 window.AURELAuthCore={
  accounts:async()=>['online-existing'],
  register:(username,password)=>enter('register',username,password),
