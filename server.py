@@ -185,6 +185,12 @@ class _ScopedStore:
 
 STORE=_ScopedStore()
 
+def _vault_tag():
+    store=_ACTIVE_STORE.get()
+    if store is None or not store.device_key or not store.installation_key:
+        raise PermissionError('Phiên kho dữ liệu riêng chưa được xác thực.')
+    return hashlib.sha256((store.device_key+'|'+store.installation_key).encode('ascii')).hexdigest()[:12]
+
 def _device_init(store,key,installation_key):
     payload,rev=device_load(key,installation_key)
     store.installation_key=installation_key
@@ -3970,7 +3976,7 @@ class Handler(BaseHTTPRequestHandler):
                         raise
                 _ACTIVE_STORE.set(store)
                 _ACTIVE_DEVICE.set(device)
-                return self.reply({'token':token,'version':'AUREL-DEVICE-INSTALLATION-20261011','email_backend':'brevo'})
+                return self.reply({'token':token,'version':'AUREL-PRIVATE-VAULT-20261011-V3','vault_tag':_vault_tag(),'email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
@@ -3982,7 +3988,10 @@ class Handler(BaseHTTPRequestHandler):
                 from aurel_cafef import lookup_cafef
                 return self.reply(lookup_cafef(query.get('symbol',[''])[0]))
             if path=='/api/state':
-                bank,year=self.choose(query);return self.reply(snapshot(bank,year))
+                bank,year=self.choose(query)
+                result=snapshot(bank,year)
+                result['vault_tag']=_vault_tag()
+                return self.reply(result)
             if path=='/api/pdf/job':
                 return self.reply(pdf_job_status(query.get('id',[''])[0]))
             if path=='/api/ai/key/status':
