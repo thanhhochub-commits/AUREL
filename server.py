@@ -12,7 +12,8 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 from contextvars import ContextVar, copy_context
-from aurel_device_storage import valid_key,load as device_load,save as device_save,put_pdf as device_put_pdf,get_pdf as device_get_pdf,delete_pdf as device_delete_pdf
+from aurel_device_storage import valid_key
+from aurel_account_storage import verify as account_verify,load as account_load,save as account_save,put_pdf as account_put_pdf,get_pdf as account_get_pdf,delete_pdf as account_delete_pdf,valid_owner
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -161,6 +162,8 @@ class Store:
         self.upload_sessions={}
         self.device_key=None
         self.installation_key=None
+        self.account_id=None
+        self.account_token=None
         self.remote_revision=-1
         self.remote_documents=[]
 
@@ -187,29 +190,50 @@ STORE=_ScopedStore()
 
 def _vault_tag():
     store=_ACTIVE_STORE.get()
-    if store is None or not store.device_key or not store.installation_key:
-        raise PermissionError('Phiên kho dữ liệu riêng chưa được xác thực.')
-    return hashlib.sha256((store.device_key+'|'+store.installation_key).encode('ascii')).hexdigest()[:12]
+    if store is None or not valid_owner(store.account_id):
+        raise PermissionError('Tài khoản dữ liệu chưa xác thực.')
+    return hashlib.sha256(('AUREL_ACCOUNT_V6/'+store.account_id).encode('ascii')).hexdigest()[:12]
 
-def _device_init(store,key,installation_key):
-    # Per-browser volatile processing context. Private records are never loaded
-    # from a shared online database. The browser restores its own IndexedDB data.
+def _device_init(store,key,installation_key,account_token):
+    owner,payload,rev=account_load(account_token)
     store.installation_key=installation_key
     store.device_key=key
+    store.account_id=owner
+    store.account_token=account_token
+    store.rows=list(payload.get('rows') or [])
+    store.remote_revision=rev
+    store.remote_documents=list(payload.get('documents') or [])
+    docs={}
+    for d in store.remote_documents:
+        if not isinstance(d,dict):continue
+        name,path,count=d.get('name'),d.get('path'),d.get('pages')
+        if not isinstance(name,str) or not isinstance(path,str) or not isinstance(count,int) or not 1<=count<=180:continue
+        if not path.startswith(owner+'/'):continue
+        docs[name]={'pages':[{'page':i+1,'text':'','ocr':False} for i in range(count)],
+                    'text_pages':0,'content':b'','remote_path':path}
+    store.docs=docs
 
 def _persist_device():
-    # Confidential data lives in browser IndexedDB, not on this server.
-    # This server stores temporary per-session data solely to run calculations.
     store=_ACTIVE_STORE.get()
-    if store is None or not store.device_key or store.device_key!=_ACTIVE_DEVICE.get():
-        raise PermissionError('Phiên không thuộc thiết bị hiện tại.')
+    if store is None or not valid_owner(store.account_id) or store.device_key!=_ACTIVE_DEVICE.get():
+        raise PermissionError('Phiên không thuộc tài khoản hiện tại.')
+    with store.lock:
+        payload={'rows':[dict(r) for r in store.rows],
+                 'documents':[dict(d) for d in store.remote_documents]}
+        store.remote_revision=account_save(store.account_token,payload,store.remote_revision)
 
 def _load_pdf_for_device(name):
     with STORE.lock:
         item=STORE.docs.get(name)
-        if not item:raise ValueError('PDF không thuộc phiên này.')
-        if not item.get('content'):
-            raise ValueError('PDF chưa được khôi phục từ máy đang sử dụng.')
+        if not item:raise ValueError('PDF không thuộc tài khoản này.')
+        if item.get('content'):return
+        path=item.get('remote_path')
+        if not path:raise ValueError('Tệp PDF nguồn không tồn tại.')
+        content=account_get_pdf(STORE.account_token,path)
+        pages=read_pdf(content)
+        item['content']=content
+        item['pages']=pages
+        item['text_pages']=sum(bool(x.get('text','').strip()) for x in pages)
 
 def _session_lookup(token):
     if not isinstance(token,str) or not re.fullmatch(r'[A-Za-z0-9_-]{43}',token):
@@ -3908,7 +3932,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin',origin)
             self.send_header('Vary','Origin')
             self.send_header('Access-Control-Allow-Methods','GET, POST, OPTIONS')
-            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token, X-Aurel-Device-Key, X-Aurel-Installation-Key')
+            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token, X-Aurel-Device-Key, X-Aurel-Installation-Key, X-Aurel-Account-Token')
             self.send_header('Access-Control-Max-Age','600')
         if filename: self.send_header('Content-Disposition',f'attachment; filename="{filename}"')
         self.end_headers()
