@@ -3956,7 +3956,12 @@ class Handler(BaseHTTPRequestHandler):
         device=self.headers.get('X-Aurel-Device-Key','')
         installation=self.headers.get('X-Aurel-Installation-Key','')
         if not valid_key(device) or not valid_key(installation) or store.device_key!=device or store.installation_key!=installation:
-            raise PermissionError('Dữ liệu không thuộc phiên cài đặt trình duyệt này.')
+            raise PermissionError('Dữ liệu không thuộc phiên đăng nhập này.')
+        access=self.headers.get('X-Aurel-Account-Token','')
+        if access!=store.account_token:
+            if account_verify(access)!=store.account_id:
+                raise PermissionError('Không thể thay đổi tài khoản của phiên hiện tại.')
+            store.account_token=access
         _ACTIVE_STORE.set(store)
         _ACTIVE_DEVICE.set(device)
 
@@ -3971,20 +3976,25 @@ class Handler(BaseHTTPRequestHandler):
                 installation=self.headers.get('X-Aurel-Installation-Key','')
                 if not valid_key(installation):raise PermissionError('Thiếu khóa cài đặt riêng của trình duyệt.')
                 previous=self.headers.get('X-Aurel-Token','')
+                access=self.headers.get('X-Aurel-Account-Token','')
+                owner=account_verify(access)
                 existing=_session_lookup(previous)
-                if existing is not None and existing.device_key==device and existing.installation_key==installation:
+                if existing is not None and existing.device_key==device and existing.installation_key==installation and existing.account_id==owner:
                     token,store=previous,existing
+                    store.account_token=access
                     fresh_session=False
                 else:
                     fresh_session=True
                     token,store=_session_issue()
-                    try:_device_init(store,device,installation)
+                    try:
+                        _device_init(store,device,installation,access)
+                        if store.account_id!=owner:raise PermissionError('Danh tính tài khoản không khớp.')
                     except Exception:
                         with _SESSION_LOCK:_SESSIONS.pop(token,None)
                         raise
                 _ACTIVE_STORE.set(store)
                 _ACTIVE_DEVICE.set(device)
-                return self.reply({'token':token,'version':'AUREL-ENCRYPTED-LOCAL-AUTH-20261011-V5','vault_tag':_vault_tag(),'fresh_session':fresh_session,'email_backend':'brevo'})
+                return self.reply({'token':token,'version':'AUREL-ACCOUNT-CLOUD-20261011-V6','vault_tag':_vault_tag(),'account_id':owner,'fresh_session':fresh_session,'email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
@@ -3999,11 +4009,11 @@ class Handler(BaseHTTPRequestHandler):
                 bank,year=self.choose(query)
                 result=snapshot(bank,year)
                 result['vault_tag']=_vault_tag()
-                result['storage_mode']='browser-indexeddb'
+                result['storage_mode']='supabase-account'
                 return self.reply(result)
             if path=='/api/local/rows':
                 with STORE.lock: rows=[dict(r) for r in STORE.rows]
-                return self.reply({'rows':rows,'vault_tag':_vault_tag(),'storage_mode':'browser-indexeddb'})
+                return self.reply({'rows':rows,'vault_tag':_vault_tag(),'storage_mode':'supabase-account'})
             if path=='/api/pdf/job':
                 return self.reply(pdf_job_status(query.get('id',[''])[0]))
             if path=='/api/ai/key/status':
@@ -4083,7 +4093,7 @@ class Handler(BaseHTTPRequestHandler):
                     STORE.revision+=1
                     STORE.ai={}
                     STORE.pdf_previews={}
-                return self.reply({'restored':len(parsed),'vault_tag':_vault_tag(),'storage_mode':'browser-indexeddb'})
+                return self.reply({'restored':len(parsed),'vault_tag':_vault_tag(),'storage_mode':'supabase-account'})
             if path=='/api/upload':
                 name=Path(str(data.get('name',''))).name
                 content=base64.b64decode(data.get('base64',''),validate=True)
