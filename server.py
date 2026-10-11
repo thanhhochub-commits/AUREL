@@ -160,6 +160,7 @@ class Store:
         self.gemini_session_key=None
         self.upload_sessions={}
         self.device_key=None
+        self.installation_key=None
         self.remote_revision=-1
         self.remote_documents=[]
 
@@ -184,8 +185,9 @@ class _ScopedStore:
 
 STORE=_ScopedStore()
 
-def _device_init(store,key):
-    payload,rev=device_load(key)
+def _device_init(store,key,installation_key):
+    payload,rev=device_load(key,installation_key)
+    store.installation_key=installation_key
     store.device_key=key
     store.rows=list(payload.get('rows') or [])
     store.remote_revision=rev
@@ -206,7 +208,7 @@ def _persist_device():
     with store.lock:
         payload={'rows':[dict(r) for r in store.rows],
                  'documents':[dict(d) for d in store.remote_documents]}
-        store.remote_revision=device_save(store.device_key,payload,store.remote_revision)
+        store.remote_revision=device_save(store.device_key,payload,store.remote_revision,store.installation_key)
 
 def _load_pdf_for_device(name):
     with STORE.lock:
@@ -215,7 +217,7 @@ def _load_pdf_for_device(name):
         if item.get('content'):return
         path=item.get('remote_path')
         if not path:raise ValueError('Tệp PDF nguồn không tồn tại.')
-        data=device_get_pdf(STORE.device_key,path)
+        data=device_get_pdf(STORE.device_key,path,STORE.installation_key)
         pages=read_pdf(data)
         item['content']=data
         item['pages']=pages
@@ -3918,7 +3920,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin',origin)
             self.send_header('Vary','Origin')
             self.send_header('Access-Control-Allow-Methods','GET, POST, OPTIONS')
-            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token, X-Aurel-Device-Key')
+            self.send_header('Access-Control-Allow-Headers','Content-Type, X-Aurel-Token, X-Aurel-Device-Key, X-Aurel-Installation-Key')
             self.send_header('Access-Control-Max-Age','600')
         if filename: self.send_header('Content-Disposition',f'attachment; filename="{filename}"')
         self.end_headers()
@@ -3940,8 +3942,9 @@ class Handler(BaseHTTPRequestHandler):
         store=_session_lookup(token)
         if store is None: raise PermissionError('Thiếu phiên bảo mật hợp lệ. Hãy tải lại trang để bắt đầu phiên riêng.')
         device=self.headers.get('X-Aurel-Device-Key','')
-        if not valid_key(device) or store.device_key!=device:
-            raise PermissionError('Dữ liệu không thuộc trình duyệt này.')
+        installation=self.headers.get('X-Aurel-Installation-Key','')
+        if not valid_key(device) or not valid_key(installation) or store.device_key!=device or store.installation_key!=installation:
+            raise PermissionError('Dữ liệu không thuộc phiên cài đặt trình duyệt này.')
         _ACTIVE_STORE.set(store)
         _ACTIVE_DEVICE.set(device)
 
@@ -3953,19 +3956,21 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/session':
                 device=self.headers.get('X-Aurel-Device-Key','')
                 if not valid_key(device):raise PermissionError('Thiếu khóa riêng của trình duyệt.')
+                installation=self.headers.get('X-Aurel-Installation-Key','')
+                if not valid_key(installation):raise PermissionError('Thiếu khóa cài đặt riêng của trình duyệt.')
                 previous=self.headers.get('X-Aurel-Token','')
                 existing=_session_lookup(previous)
-                if existing is not None and existing.device_key==device:
+                if existing is not None and existing.device_key==device and existing.installation_key==installation:
                     token,store=previous,existing
                 else:
                     token,store=_session_issue()
-                    try:_device_init(store,device)
+                    try:_device_init(store,device,installation)
                     except Exception:
                         with _SESSION_LOCK:_SESSIONS.pop(token,None)
                         raise
                 _ACTIVE_STORE.set(store)
                 _ACTIVE_DEVICE.set(device)
-                return self.reply({'token':token,'version':'AUREL-DEVICE-PERSIST-20261010','email_backend':'brevo'})
+                return self.reply({'token':token,'version':'AUREL-DEVICE-INSTALLATION-20261011','email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
@@ -4148,7 +4153,7 @@ class Handler(BaseHTTPRequestHandler):
                          STORE.remote_documents,STORE.revision)=before
                         raise
                     for p in paths:
-                        try:device_delete_pdf(STORE.device_key,p)
+                        try:device_delete_pdf(STORE.device_key,p,STORE.installation_key)
                         except Exception:pass
                 return self.reply({'message':'Đã xóa dữ liệu của trình duyệt này.','state':snapshot()})
             return self.reply({'error':'Không tìm thấy chức năng.'},404)
@@ -4161,7 +4166,7 @@ class Handler(BaseHTTPRequestHandler):
             pages=read_pdf(content)
             with STORE.lock:
                 if name not in STORE.docs and len(STORE.docs)>=MAX_DOCS:raise ValueError('Đã đạt giới hạn tài liệu.')
-                path=device_put_pdf(STORE.device_key,name,bytes(content))
+                path=device_put_pdf(STORE.device_key,name,bytes(content),STORE.installation_key)
                 old=(STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)
                 previous_path=next((d.get('path') for d in STORE.remote_documents if d.get('name')==name),None)
                 STORE.docs={**STORE.docs,name:{'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),
@@ -4171,11 +4176,11 @@ class Handler(BaseHTTPRequestHandler):
                 try:_persist_device()
                 except Exception:
                     (STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)=old
-                    try:device_delete_pdf(STORE.device_key,path)
+                    try:device_delete_pdf(STORE.device_key,path,STORE.installation_key)
                     except Exception:pass
                     raise
                 if previous_path:
-                    try:device_delete_pdf(STORE.device_key,previous_path)
+                    try:device_delete_pdf(STORE.device_key,previous_path,STORE.installation_key)
                     except Exception:pass
             return self.reply({'message':f'Đã tiếp nhận {name} ({len(pages)} trang). PDF đã sẵn sàng; nhấn Đọc báo cáo để OCR và trích xuất chỉ tiêu.','state':snapshot()})
         raw=parse_spreadsheet(name,content)
