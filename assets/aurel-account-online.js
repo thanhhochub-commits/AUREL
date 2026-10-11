@@ -60,7 +60,8 @@ async function migrateIfEmpty(request,upload){
  const old=migration;
  if(old.username!==current.username)return {migrated:false};
  const state=await request('api/state');
- if(state.has_data||state.documents?.length){
+ const onlineRows=await request('api/local/rows');
+ if((onlineRows.rows||[]).length||state.documents?.length){
   console.warn('AUREL local migration skipped: online account already contains data.');
   return {migrated:false,reason:'account_not_empty'};
  }
