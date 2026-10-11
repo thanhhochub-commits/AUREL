@@ -4036,6 +4036,19 @@ class Handler(BaseHTTPRequestHandler):
         try:
             self.bind_session()
             data=self.json_body();path=urlsplit(self.path).path
+            if path=='/api/logout':
+                # Wipe sensitive working state and revoke server-side bearer session.
+                token=self.headers.get('X-Aurel-Token','')
+                with _SESSION_LOCK:
+                    item=_SESSIONS.pop(token,None)
+                if item:
+                    ephemeral=item[0]
+                    with ephemeral.lock:
+                        ephemeral.rows=[];ephemeral.docs={};ephemeral.ai={}
+                        ephemeral.pdf_previews={};ephemeral.pdf_jobs={}
+                        ephemeral.upload_sessions={};ephemeral.gemini_session_key=None
+                        ephemeral.remote_documents=[]
+                return self.reply({'ok':True,'message':'Phiên xử lý trên máy chủ đã được đóng.'})
             if path=='/api/local/restore':
                 incoming=data.get('rows')
                 if not isinstance(incoming,list) or len(incoming)>MAX_ROWS:
