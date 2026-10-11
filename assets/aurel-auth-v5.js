@@ -50,14 +50,14 @@ function makeLogin(first){
  const confirm=field('Xác nhận mật khẩu','password','new-password');confirm.placeholder='Nhập lại mật khẩu';
  const submit=el('button','auth-submit'),error=el('p','auth-error'),alternate=el('button','auth-alternate');
  submit.type='submit';alternate.type='button';error.setAttribute('aria-live','polite');
- const foot=el('p','auth-foot','Mỗi máy có tài khoản và dữ liệu riêng. Mật khẩu không gửi lên máy chủ. Nếu quên mật khẩu, dữ liệu đã mã hóa có thể không khôi phục được.');
+ const foot=el('p','auth-foot','Tài khoản và dữ liệu đi theo tên đăng nhập trên mọi thiết bị. Mật khẩu được xác thực qua Supabase Auth bằng HTTPS. Hãy giữ mật khẩu an toàn vì không có chức năng khôi phục bằng email.');
  form.appendChild(submit);form.appendChild(error);form.appendChild(alternate);
  card.appendChild(brand);card.appendChild(sub);card.appendChild(heading);card.appendChild(description);card.appendChild(form);card.appendChild(foot);
  wall.appendChild(card);document.body.appendChild(wall);
  let registering=first;
  function setMode(){
   heading.textContent=registering?'Tạo tài khoản riêng':'Chào mừng trở lại';
-  description.textContent=registering?'Thiết lập không gian dữ liệu được mã hóa trên trình duyệt này.':'Đăng nhập để mở dữ liệu tài chính đã lưu trên máy này.';
+  description.textContent=registering?'Tạo tài khoản online để sử dụng dữ liệu trên mọi thiết bị.':'Đăng nhập để mở dữ liệu tài chính của tài khoản trên mọi thiết bị.';
   confirm.parentElement.style.display=registering?'':'none';confirm.required=registering;
   pass.autocomplete=registering?'new-password':'current-password';
   submit.textContent=registering?'Tạo tài khoản':'Đăng nhập';
@@ -75,7 +75,7 @@ function attachMenu(){
  document.getElementById('aurel-v5-profile')?.remove();
  const wrap=el('span');wrap.id='aurel-v5-profile';wrap.style.position='relative';wrap.style.display='inline-flex';
  const toggle=el('button','aurel-v5-account','◉ '+user),menu=el('div','aurel-v5-menu');
- toggle.type='button';toggle.title='Tài khoản riêng trên máy này';menu.hidden=true;menu.style.display='none';
+ toggle.type='button';toggle.title='Tài khoản AUREL online';menu.hidden=true;menu.style.display='none';
  const logout=el('button',null,'Đăng xuất');logout.type='button';
  logout.addEventListener('click',async()=>{
   logout.disabled=true;
