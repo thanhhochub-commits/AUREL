@@ -4089,10 +4089,15 @@ class Handler(BaseHTTPRequestHandler):
                     raise ValueError('Dữ liệu khôi phục trên máy không hợp lệ.')
                 parsed=parse_rows(incoming,existing=[],replace=True) if incoming else []
                 with STORE.lock:
-                    STORE.rows=parsed
-                    STORE.revision+=1
-                    STORE.ai={}
-                    STORE.pdf_previews={}
+                    if STORE.rows and parsed:
+                        raise ValueError('Tài khoản đã có dữ liệu; không ghi đè dữ liệu online bằng dữ liệu máy cũ.')
+                    previous=(STORE.rows,STORE.revision,STORE.ai,STORE.pdf_previews)
+                    if parsed:
+                        STORE.rows=parsed;STORE.revision+=1;STORE.ai={};STORE.pdf_previews={}
+                        try:_persist_device()
+                        except Exception:
+                            (STORE.rows,STORE.revision,STORE.ai,STORE.pdf_previews)=previous
+                            raise
                 return self.reply({'restored':len(parsed),'vault_tag':_vault_tag(),'storage_mode':'supabase-account'})
             if path=='/api/upload':
                 name=Path(str(data.get('name',''))).name
@@ -4208,7 +4213,7 @@ class Handler(BaseHTTPRequestHandler):
                          STORE.remote_documents,STORE.revision)=before
                         raise
                     for p in paths:
-                        try:pass  # session-only PDF; no remote object to delete
+                        try:account_delete_pdf(STORE.account_token,p)
                         except Exception:pass
                 return self.reply({'message':'Đã xóa dữ liệu của trình duyệt này.','state':snapshot()})
             return self.reply({'error':'Không tìm thấy chức năng.'},404)
@@ -4221,7 +4226,7 @@ class Handler(BaseHTTPRequestHandler):
             pages=read_pdf(content)
             with STORE.lock:
                 if name not in STORE.docs and len(STORE.docs)>=MAX_DOCS:raise ValueError('Đã đạt giới hạn tài liệu.')
-                path='session-pdf-'+secrets.token_urlsafe(16)
+                path=account_put_pdf(STORE.account_token,name,bytes(content))
                 old=(STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)
                 previous_path=next((d.get('path') for d in STORE.remote_documents if d.get('name')==name),None)
                 STORE.docs={**STORE.docs,name:{'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),
@@ -4231,11 +4236,11 @@ class Handler(BaseHTTPRequestHandler):
                 try:_persist_device()
                 except Exception:
                     (STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)=old
-                    try:pass  # session-only PDF; no remote object to delete
+                    try:account_delete_pdf(STORE.account_token,path)
                     except Exception:pass
                     raise
                 if previous_path:
-                    try:pass  # session-only PDF; no remote object to delete
+                    try:account_delete_pdf(STORE.account_token,previous_path)
                     except Exception:pass
             return self.reply({'message':f'Đã tiếp nhận {name} ({len(pages)} trang). PDF đã sẵn sàng; nhấn Đọc báo cáo để OCR và trích xuất chỉ tiêu.','state':snapshot()})
         raw=parse_spreadsheet(name,content)
