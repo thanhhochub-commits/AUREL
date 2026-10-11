@@ -24,6 +24,12 @@ function css(){
  '#aurel-auth-wall .auth-error{color:#a72b35;font-size:12px;line-height:1.5;margin:13px 0;display:none}',
  '#aurel-auth-wall .auth-foot{border-top:1px solid #e9f0f5;padding-top:13px;margin:16px 0 0;text-align:center;color:#8499a8;font-size:11px;line-height:1.6}',
  '#aurel-auth-wall .auth-name-guide{font-size:11px;color:#648094;line-height:1.55;padding-top:6px}',
+ '#aurel-auth-wall .auth-password-field{position:relative;width:100%}',
+ '#aurel-auth-wall .auth-password-field input{padding-right:52px!important}',
+ '#aurel-auth-wall .auth-password-toggle{position:absolute;top:50%;right:7px;transform:translateY(-50%);display:grid;place-items:center;width:38px;height:38px;padding:0;border:0;border-radius:9px;background:transparent;color:#56778c;cursor:pointer;touch-action:manipulation}',
+ '#aurel-auth-wall .auth-password-toggle:hover{background:#eef5f8;color:#17475e}',
+ '#aurel-auth-wall .auth-password-toggle:focus-visible{outline:2px solid #287f9c;outline-offset:1px}',
+ '#aurel-auth-wall .auth-password-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}',
  '.aurel-v5-account{font-size:12px!important;font-weight:700!important;border:1px solid #b5cad8!important;background:transparent!important;border-radius:12px!important;padding:7px 10px!important;cursor:pointer!important;white-space:nowrap!important;display:inline-flex!important;align-items:center!important;gap:6px!important;color:inherit!important}',
  '.aurel-v5-menu{position:absolute;top:calc(100% + 8px);right:0;z-index:30000;padding:7px;background:#fff;border:1px solid #d9e6ed;border-radius:12px;box-shadow:0 12px 35px #0002;color:#264355;min-width:158px}',
  '.aurel-v5-menu button{display:block;width:100%;padding:10px 12px;background:transparent;border:0;border-radius:8px;color:inherit;text-align:left;font-size:12px;cursor:pointer}',
@@ -39,18 +45,53 @@ function makeLogin(first){
  const card=el('section','auth-card'),brand=el('div','auth-brand','AUREL'),
  sub=el('div','auth-subbrand','FINANCIAL INTELLIGENCE'),
  heading=el('h2','auth-title'),description=el('p','auth-description'),form=el('form');
+ form.setAttribute('autocomplete','off');
+ form.setAttribute('data-form-type','other');
  function field(label,type,autocomplete){
   const outer=el('div'),l=el('label','auth-label',label),input=el('input');
-  input.type=type;input.autocomplete=autocomplete;input.required=true;
-  if(type==='password')input.minLength=12;
+  input.type=type;input.autocomplete=type==='password'?'new-password':'off';input.required=true;
+  input.setAttribute('autocapitalize','off');input.setAttribute('spellcheck','false');
+  if(type==='password'){
+   input.minLength=12;input.setAttribute('data-lpignore','true');input.setAttribute('data-1p-ignore','true');
+   input.setAttribute('data-bwignore','true');input.readOnly=true;
+   const activate=()=>{if(!input.readOnly)return;input.value='';input.readOnly=false};
+   input.addEventListener('focus',activate,{once:true});
+   input.addEventListener('pointerdown',activate,{once:true});
+   input.addEventListener('keydown',activate,{once:true});
+  }
   l.appendChild(input);outer.appendChild(l);outer.appendChild(input);form.appendChild(outer);return input;
  }
  const user=field('Tên người dùng','text','username');
  user.minLength=3;user.maxLength=32;user.placeholder='Ví dụ: thanh.aurel';
  const usernameGuide=el('div','auth-name-guide','Tên đăng nhập phải duy nhất trên AUREL (không phân biệt chữ hoa/chữ thường). Dùng 3–32 ký tự, không có khoảng trắng.');
  user.parentElement.appendChild(usernameGuide);
- const pass=field('Mật khẩu (tối thiểu 12 ký tự)','password','current-password');pass.placeholder='Ít nhất 12 ký tự';pass.title='Mật khẩu cần tối thiểu 12 ký tự';
- const confirm=field('Xác nhận mật khẩu','password','new-password');confirm.placeholder='Nhập lại mật khẩu';confirm.title='Vui lòng nhập lại cùng mật khẩu';
+ const pass=field('Mật khẩu (tối thiểu 12 ký tự)','password','off');pass.placeholder='Ít nhất 12 ký tự';pass.title='Mật khẩu cần tối thiểu 12 ký tự';
+ const confirm=field('Xác nhận mật khẩu','password','off');confirm.placeholder='Nhập lại mật khẩu';confirm.title='Vui lòng nhập lại cùng mật khẩu';
+ function addPasswordEye(input){
+  const outer=el('div','auth-password-field');
+  input.parentElement.insertBefore(outer,input);outer.appendChild(input);
+  const toggle=el('button','auth-password-toggle');toggle.type='button';
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');
+  toggle.appendChild(svg);outer.appendChild(toggle);
+  function render(){
+   const visible=input.type==='text';
+   toggle.setAttribute('aria-label',visible?'Ẩn mật khẩu':'Hiện mật khẩu');
+   toggle.setAttribute('title',visible?'Ẩn mật khẩu':'Hiện mật khẩu');
+   toggle.setAttribute('aria-pressed',String(visible));
+   svg.innerHTML=visible
+    ? '<path d="M3 3l18 18"/><path d="M10.58 10.59a2 2 0 0 0 2.83 2.82"/><path d="M9.88 5.09A10.9 10.9 0 0 1 12 4.9c5 0 9.4 4.1 10 7.1a11.3 11.3 0 0 1-3.2 4.7"/><path d="M6.5 6.5C3.9 8.1 2.3 10.2 2 12c.6 3 5 7.1 10 7.1 1.2 0 2.3-.2 3.4-.6"/>'
+    : '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>';
+  }
+  toggle.addEventListener('click',()=>{
+   if(input.readOnly){input.readOnly=false;input.value=''}
+   input.type=input.type==='password'?'text':'password';
+   render();input.focus({preventScroll:true});
+  });
+  render();return render;
+ }
+ const renderPasswordEye=addPasswordEye(pass);
+ const renderConfirmEye=addPasswordEye(confirm);
  const submit=el('button','auth-submit'),error=el('p','auth-error'),alternate=el('button','auth-alternate');
  submit.type='submit';alternate.type='button';error.setAttribute('aria-live','polite');
  const foot=el('p','auth-foot','Đã đăng ký trên V5 cũ ở máy này? Nhấn Đăng ký để tạo tài khoản ONLINE bằng đúng tên và mật khẩu cũ, sau đó đăng nhập ở máy khác. Dữ liệu cũ sẽ được chuyển khi tài khoản online còn trống. Không có khôi phục mật khẩu bằng email.');
@@ -63,13 +104,19 @@ function makeLogin(first){
   description.textContent=registering?'Tạo tài khoản online một lần, đăng nhập bằng tên và mật khẩu trên mọi thiết bị.':'Đăng nhập để mở dữ liệu tài chính của tài khoản trên mọi thiết bị.';
   usernameGuide.style.display=registering?'block':'none';
   confirm.parentElement.style.display=registering?'':'none';confirm.required=registering;
-  pass.autocomplete=registering?'new-password':'current-password';
+  pass.autocomplete='new-password';confirm.autocomplete='new-password';
+  pass.type='password';confirm.type='password';renderPasswordEye();renderConfirmEye();
   submit.textContent=registering?'Tạo tài khoản':'Đăng nhập';
   alternate.textContent=registering?'Đã có tài khoản? Đăng nhập':'Chưa có tài khoản? Đăng ký';
   error.style.display='none';
  }
  alternate.addEventListener('click',()=>{registering=!registering;pass.value='';confirm.value='';setMode();user.focus()});
- setMode();user.focus();
+ setMode();pass.value='';confirm.value='';user.focus();
+ const wipeRestoredPasswords=()=>{if(!document.contains(wall))return;pass.value='';confirm.value='';pass.type='password';confirm.type='password';renderPasswordEye();renderConfirmEye()};
+ window.addEventListener('pageshow',wipeRestoredPasswords);
+ // Clear any credential value inserted during the initial browser autofill pass.
+ queueMicrotask(wipeRestoredPasswords);
+ requestAnimationFrame(wipeRestoredPasswords);
  return {wall,form,user,pass,confirm,submit,error,isRegister:()=>registering};
 }
 function attachMenu(){
