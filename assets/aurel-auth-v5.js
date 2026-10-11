@@ -23,6 +23,7 @@ function css(){
  '#aurel-auth-wall .auth-alternate{display:block;width:100%;border:0;background:transparent;padding:17px 5px 6px;color:#126186;font-size:12px;font-weight:680;cursor:pointer}',
  '#aurel-auth-wall .auth-error{color:#a72b35;font-size:12px;line-height:1.5;margin:13px 0;display:none}',
  '#aurel-auth-wall .auth-foot{border-top:1px solid #e9f0f5;padding-top:13px;margin:16px 0 0;text-align:center;color:#8499a8;font-size:11px;line-height:1.6}',
+ '#aurel-auth-wall .auth-name-guide{font-size:11px;color:#648094;line-height:1.55;padding-top:6px}',
  '.aurel-v5-account{font-size:12px!important;font-weight:700!important;border:1px solid #b5cad8!important;background:transparent!important;border-radius:12px!important;padding:7px 10px!important;cursor:pointer!important;white-space:nowrap!important;display:inline-flex!important;align-items:center!important;gap:6px!important;color:inherit!important}',
  '.aurel-v5-menu{position:absolute;top:calc(100% + 8px);right:0;z-index:30000;padding:7px;background:#fff;border:1px solid #d9e6ed;border-radius:12px;box-shadow:0 12px 35px #0002;color:#264355;min-width:158px}',
  '.aurel-v5-menu button{display:block;width:100%;padding:10px 12px;background:transparent;border:0;border-radius:8px;color:inherit;text-align:left;font-size:12px;cursor:pointer}',
@@ -46,6 +47,8 @@ function makeLogin(first){
  }
  const user=field('Tên người dùng','text','username');
  user.minLength=3;user.maxLength=32;user.placeholder='Ví dụ: thanh.aurel';
+ const usernameGuide=el('div','auth-name-guide','Tên đăng nhập phải duy nhất trên AUREL (không phân biệt chữ hoa/chữ thường). Dùng 3–32 ký tự, không có khoảng trắng.');
+ user.parentElement.appendChild(usernameGuide);
  const pass=field('Mật khẩu','password','current-password');pass.placeholder='Nhập mật khẩu';
  const confirm=field('Xác nhận mật khẩu','password','new-password');confirm.placeholder='Nhập lại mật khẩu';
  const submit=el('button','auth-submit'),error=el('p','auth-error'),alternate=el('button','auth-alternate');
@@ -56,8 +59,9 @@ function makeLogin(first){
  wall.appendChild(card);document.body.appendChild(wall);
  let registering=first;
  function setMode(){
-  heading.textContent=registering?'Tạo tài khoản riêng':'Chào mừng trở lại';
-  description.textContent=registering?'Tạo tài khoản online để sử dụng dữ liệu trên mọi thiết bị.':'Đăng nhập để mở dữ liệu tài chính của tài khoản trên mọi thiết bị.';
+  heading.textContent=registering?'Đăng ký tài khoản AUREL':'Chào mừng trở lại';
+  description.textContent=registering?'Tạo tài khoản online một lần, đăng nhập bằng tên và mật khẩu trên mọi thiết bị.':'Đăng nhập để mở dữ liệu tài chính của tài khoản trên mọi thiết bị.';
+  usernameGuide.style.display=registering?'block':'none';
   confirm.parentElement.style.display=registering?'':'none';confirm.required=registering;
   pass.autocomplete=registering?'new-password':'current-password';
   submit.textContent=registering?'Tạo tài khoản':'Đăng nhập';
@@ -101,12 +105,15 @@ async function requireUnlock(){
     if(ui.isRegister()&&ui.pass.value!==ui.confirm.value){
      ui.error.style.display='block';ui.error.textContent='Hai mật khẩu không trùng nhau.';return;
     }
-    busy=true;ui.submit.disabled=true;ui.error.style.display='none';
+    if(ui.isRegister()&&!/^[\p{L}\p{N}_.-]{3,32}$/u.test(ui.user.value.trim().normalize('NFC').toLowerCase())){
+      ui.error.style.display='block';ui.error.textContent='Tên đăng nhập cần 3–32 ký tự, không có khoảng trắng; chỉ gồm chữ, số, dấu chấm, gạch nối hoặc gạch dưới.';ui.user.focus();return;
+    }
+    busy=true;ui.submit.disabled=true;ui.submit.textContent=ui.isRegister()?'Đang tạo tài khoản...':'Đang đăng nhập...';ui.error.style.display='none';
     try{
      const name=await (ui.isRegister()?window.AURELAuthCore.register(ui.user.value,ui.pass.value):window.AURELAuthCore.login(ui.user.value,ui.pass.value));
      ui.wall.remove();attachMenu();lastSeen=Date.now();resolve(name);
-    }catch(e){ui.error.style.display='block';ui.error.textContent=e.message||'Không thể mở khóa dữ liệu.'}
-    finally{ui.submit.disabled=false;busy=false;ui.pass.value='';ui.confirm.value=''}
+    }catch(e){ui.error.style.display='block';ui.error.textContent=e.message||'Không thể kết nối hệ thống tài khoản.';if((e.message||'').includes('đã có người sử dụng'))ui.user.focus()}
+    finally{ui.submit.disabled=false;ui.submit.textContent=ui.isRegister()?'Tạo tài khoản':'Đăng nhập';busy=false;ui.pass.value='';ui.confirm.value=''}
    });
   });
  })().catch(err=>{unlockPromise=null;throw err});
