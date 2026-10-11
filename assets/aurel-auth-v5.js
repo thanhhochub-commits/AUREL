@@ -50,7 +50,7 @@ function makeLogin(first){
  const confirm=field('Xác nhận mật khẩu','password','new-password');confirm.placeholder='Nhập lại mật khẩu';
  const submit=el('button','auth-submit'),error=el('p','auth-error'),alternate=el('button','auth-alternate');
  submit.type='submit';alternate.type='button';error.setAttribute('aria-live','polite');
- const foot=el('p','auth-foot','Tài khoản và dữ liệu đi theo tên đăng nhập trên mọi thiết bị. Mật khẩu được xác thực qua Supabase Auth bằng HTTPS. Hãy giữ mật khẩu an toàn vì không có chức năng khôi phục bằng email.');
+ const foot=el('p','auth-foot','Đã đăng ký trên V5 cũ ở máy này? Nhấn Đăng ký để tạo tài khoản ONLINE bằng đúng tên và mật khẩu cũ, sau đó đăng nhập ở máy khác. Dữ liệu cũ sẽ được chuyển khi tài khoản online còn trống. Không có khôi phục mật khẩu bằng email.');
  form.appendChild(submit);form.appendChild(error);form.appendChild(alternate);
  card.appendChild(brand);card.appendChild(sub);card.appendChild(heading);card.appendChild(description);card.appendChild(form);card.appendChild(foot);
  wall.appendChild(card);document.body.appendChild(wall);
