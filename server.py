@@ -3950,7 +3950,9 @@ class Handler(BaseHTTPRequestHandler):
                 existing=_session_lookup(previous)
                 if existing is not None and existing.device_key==device and existing.installation_key==installation:
                     token,store=previous,existing
+                    fresh_session=False
                 else:
+                    fresh_session=True
                     token,store=_session_issue()
                     try:_device_init(store,device,installation)
                     except Exception:
@@ -3958,7 +3960,7 @@ class Handler(BaseHTTPRequestHandler):
                         raise
                 _ACTIVE_STORE.set(store)
                 _ACTIVE_DEVICE.set(device)
-                return self.reply({'token':token,'version':'AUREL-LOCAL-INDEXEDDB-20261011-V4','vault_tag':_vault_tag(),'email_backend':'brevo'})
+                return self.reply({'token':token,'version':'AUREL-LOCAL-INDEXEDDB-20261011-V4','vault_tag':_vault_tag(),'fresh_session':fresh_session,'email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
