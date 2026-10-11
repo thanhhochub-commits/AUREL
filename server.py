@@ -192,42 +192,24 @@ def _vault_tag():
     return hashlib.sha256((store.device_key+'|'+store.installation_key).encode('ascii')).hexdigest()[:12]
 
 def _device_init(store,key,installation_key):
-    payload,rev=device_load(key,installation_key)
+    # Per-browser volatile processing context. Private records are never loaded
+    # from a shared online database. The browser restores its own IndexedDB data.
     store.installation_key=installation_key
     store.device_key=key
-    store.rows=list(payload.get('rows') or [])
-    store.remote_revision=rev
-    store.remote_documents=list(payload.get('documents') or [])
-    docs={}
-    for d in store.remote_documents:
-        if not isinstance(d,dict):continue
-        name,path,count=d.get('name'),d.get('path'),d.get('pages')
-        if not isinstance(name,str) or not isinstance(path,str) or not isinstance(count,int) or not 1<=count<=180:continue
-        docs[name]={'pages':[{'page':i+1,'text':'','ocr':False} for i in range(count)],
-                    'text_pages':0,'content':b'','remote_path':path}
-    store.docs=docs
 
 def _persist_device():
+    # Confidential data lives in browser IndexedDB, not on this server.
+    # This server stores temporary per-session data solely to run calculations.
     store=_ACTIVE_STORE.get()
     if store is None or not store.device_key or store.device_key!=_ACTIVE_DEVICE.get():
         raise PermissionError('Phiên không thuộc thiết bị hiện tại.')
-    with store.lock:
-        payload={'rows':[dict(r) for r in store.rows],
-                 'documents':[dict(d) for d in store.remote_documents]}
-        store.remote_revision=device_save(store.device_key,payload,store.remote_revision,store.installation_key)
 
 def _load_pdf_for_device(name):
     with STORE.lock:
         item=STORE.docs.get(name)
         if not item:raise ValueError('PDF không thuộc phiên này.')
-        if item.get('content'):return
-        path=item.get('remote_path')
-        if not path:raise ValueError('Tệp PDF nguồn không tồn tại.')
-        data=device_get_pdf(STORE.device_key,path,STORE.installation_key)
-        pages=read_pdf(data)
-        item['content']=data
-        item['pages']=pages
-        item['text_pages']=sum(bool(x.get('text','').strip()) for x in pages)
+        if not item.get('content'):
+            raise ValueError('PDF chưa được khôi phục từ máy đang sử dụng.')
 
 def _session_lookup(token):
     if not isinstance(token,str) or not re.fullmatch(r'[A-Za-z0-9_-]{43}',token):
@@ -3976,7 +3958,7 @@ class Handler(BaseHTTPRequestHandler):
                         raise
                 _ACTIVE_STORE.set(store)
                 _ACTIVE_DEVICE.set(device)
-                return self.reply({'token':token,'version':'AUREL-PRIVATE-VAULT-20261011-V3','vault_tag':_vault_tag(),'email_backend':'brevo'})
+                return self.reply({'token':token,'version':'AUREL-LOCAL-INDEXEDDB-20261011-V4','vault_tag':_vault_tag(),'email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
@@ -3991,7 +3973,11 @@ class Handler(BaseHTTPRequestHandler):
                 bank,year=self.choose(query)
                 result=snapshot(bank,year)
                 result['vault_tag']=_vault_tag()
+                result['storage_mode']='browser-indexeddb'
                 return self.reply(result)
+            if path=='/api/local/rows':
+                with STORE.lock: rows=[dict(r) for r in STORE.rows]
+                return self.reply({'rows':rows,'vault_tag':_vault_tag(),'storage_mode':'browser-indexeddb'})
             if path=='/api/pdf/job':
                 return self.reply(pdf_job_status(query.get('id',[''])[0]))
             if path=='/api/ai/key/status':
@@ -4048,6 +4034,17 @@ class Handler(BaseHTTPRequestHandler):
         try:
             self.bind_session()
             data=self.json_body();path=urlsplit(self.path).path
+            if path=='/api/local/restore':
+                incoming=data.get('rows')
+                if not isinstance(incoming,list) or len(incoming)>MAX_ROWS:
+                    raise ValueError('Dữ liệu khôi phục trên máy không hợp lệ.')
+                parsed=parse_rows(incoming,existing=[],replace=True) if incoming else []
+                with STORE.lock:
+                    STORE.rows=parsed
+                    STORE.revision+=1
+                    STORE.ai={}
+                    STORE.pdf_previews={}
+                return self.reply({'restored':len(parsed),'vault_tag':_vault_tag(),'storage_mode':'browser-indexeddb'})
             if path=='/api/upload':
                 name=Path(str(data.get('name',''))).name
                 content=base64.b64decode(data.get('base64',''),validate=True)
@@ -4162,7 +4159,7 @@ class Handler(BaseHTTPRequestHandler):
                          STORE.remote_documents,STORE.revision)=before
                         raise
                     for p in paths:
-                        try:device_delete_pdf(STORE.device_key,p,STORE.installation_key)
+                        try:pass  # session-only PDF; no remote object to delete
                         except Exception:pass
                 return self.reply({'message':'Đã xóa dữ liệu của trình duyệt này.','state':snapshot()})
             return self.reply({'error':'Không tìm thấy chức năng.'},404)
@@ -4175,7 +4172,7 @@ class Handler(BaseHTTPRequestHandler):
             pages=read_pdf(content)
             with STORE.lock:
                 if name not in STORE.docs and len(STORE.docs)>=MAX_DOCS:raise ValueError('Đã đạt giới hạn tài liệu.')
-                path=device_put_pdf(STORE.device_key,name,bytes(content),STORE.installation_key)
+                path='session-pdf-'+secrets.token_urlsafe(16)
                 old=(STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)
                 previous_path=next((d.get('path') for d in STORE.remote_documents if d.get('name')==name),None)
                 STORE.docs={**STORE.docs,name:{'pages':pages,'text_pages':sum(bool(p['text'].strip()) for p in pages),
@@ -4185,11 +4182,11 @@ class Handler(BaseHTTPRequestHandler):
                 try:_persist_device()
                 except Exception:
                     (STORE.docs,STORE.remote_documents,STORE.revision,STORE.ai,STORE.pdf_previews)=old
-                    try:device_delete_pdf(STORE.device_key,path,STORE.installation_key)
+                    try:pass  # session-only PDF; no remote object to delete
                     except Exception:pass
                     raise
                 if previous_path:
-                    try:device_delete_pdf(STORE.device_key,previous_path,STORE.installation_key)
+                    try:pass  # session-only PDF; no remote object to delete
                     except Exception:pass
             return self.reply({'message':f'Đã tiếp nhận {name} ({len(pages)} trang). PDF đã sẵn sàng; nhấn Đọc báo cáo để OCR và trích xuất chỉ tiêu.','state':snapshot()})
         raw=parse_spreadsheet(name,content)
