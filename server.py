@@ -3960,7 +3960,7 @@ class Handler(BaseHTTPRequestHandler):
                         raise
                 _ACTIVE_STORE.set(store)
                 _ACTIVE_DEVICE.set(device)
-                return self.reply({'token':token,'version':'AUREL-LOCAL-INDEXEDDB-20261011-V4','vault_tag':_vault_tag(),'fresh_session':fresh_session,'email_backend':'brevo'})
+                return self.reply({'token':token,'version':'AUREL-ENCRYPTED-LOCAL-AUTH-20261011-V5','vault_tag':_vault_tag(),'fresh_session':fresh_session,'email_backend':'brevo'})
             if path not in ('/','/index.html','/favicon.ico','/health','/api/cafef'):
                 self.bind_session()
             if path in ('/','/index.html'):
