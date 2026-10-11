@@ -3981,7 +3981,9 @@ class Handler(BaseHTTPRequestHandler):
                 existing=_session_lookup(previous)
                 if existing is not None and existing.device_key==device and existing.installation_key==installation and existing.account_id==owner:
                     token,store=previous,existing
-                    store.account_token=access
+                    with store.lock:
+                        _device_init(store,device,installation,access)
+                        store.ai={};store.pdf_previews={};store.pdf_jobs={}
                     fresh_session=False
                 else:
                     fresh_session=True
