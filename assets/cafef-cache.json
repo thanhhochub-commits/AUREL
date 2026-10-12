@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-12T00:37:18.228820+00:00",
+ "generated_at": "2026-10-12T11:03:15.121463+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:13.797958+00:00",
+   "retrieved_at": "2026-10-12T11:03:13.313527+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -88,6 +88,12 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Nghị quyết Hội đồng quản trị",
+     "url": "https://cafef.vn/du-lieu/ABB-2996084/abb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt Phát hành thẻ tín dụng cho khách hàng",
      "url": "https://cafef.vn/du-lieu/ABB-2991900/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-phat-hanh-the-tin-dung-cho-khach-hang.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -140,61 +146,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-2975633/abb-abbank-nhan-duoc-cv-8295-cua-nhnn.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết HĐQT triển khai thực hiện thủ tục xin chấp thuận của Ngân hàng về phương án tăng vốn điều lệ",
-     "url": "https://cafef.vn/du-lieu/ABB-2963746/abb-nghi-quyet-hdqt-trien-khai-thuc-hien-thu-tuc-xin-chap-thuan-cua-ngan-hang-ve-phuong-an-tang-von-dieu-le.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:49.724310+00:00",
+   "retrieved_at": "2026-10-12T11:02:53.615434+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +336,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:18.070456+00:00",
+   "retrieved_at": "2026-10-12T11:03:14.953856+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,51 +494,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:06.397498+00:00",
+   "retrieved_at": "2026-10-12T11:03:06.088282+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -642,6 +642,12 @@
    ],
    "disclosures": [
     {
+     "title": "BAB: Niêm yết trái phiếu BAB126029 phát hành lần 2 ddợt 4 (BAB204-07L)",
+     "url": "https://cafef.vn/du-lieu/BAB-2996170/bab-niem-yet-trai-phieu-bab126029-phat-hanh-lan-2-ddot-4-bab20407l.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BAB: Nghị quyết HĐQT đổi địa chỉ PGD theo địa giới hành chính mới",
      "url": "https://cafef.vn/du-lieu/BAB-2992248/bab-nghi-quyet-hdqt-doi-dia-chi-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -694,61 +700,55 @@
      "url": "https://cafef.vn/du-lieu/BAB-2947362/bab-nghi-quyet-hdqt-thay-doi-pgd-cat-linh.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BAB: Nghị quyết HĐQT thông qua địa chỉ mới của các chi nhánh theo địa giới hành chính mới",
-     "url": "https://cafef.vn/du-lieu/BAB-2947481/bab-nghi-quyet-hdqt-thong-qua-dia-chi-moi-cua-cac-chi-nhanh-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -761,7 +761,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:49.723124+00:00",
+   "retrieved_at": "2026-10-12T11:02:52.858306+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -890,51 +890,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -947,7 +947,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:18.228196+00:00",
+   "retrieved_at": "2026-10-12T11:03:15.120815+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -985,6 +985,12 @@
     }
    ],
    "disclosures": [
+    {
+     "title": "BSI: Quyết định HĐQT phê duyệt bộ tài liệu lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/BSI-2996359/bsi-quyet-dinh-hdqt-phe-duyet-bo-tai-lieu-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "BSI: Thông báo ngày ĐKCC lấy ý kiến cổ đông bằng văn bản",
      "url": "https://cafef.vn/du-lieu/BSI-2991057/bsi-thong-bao-ngay-dkcc-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
@@ -1038,61 +1044,55 @@
      "url": "https://cafef.vn/du-lieu/BSI-2953295/bsi-bao-cao-ty-le-attc-ban-nien-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BSI: Thông báo hủy danh sách người sở hữu Chứng khoán để thực hiện quyền lấy ý kiến cổ đông bằng VB năm 2026",
-     "url": "https://cafef.vn/du-lieu/BSI-2952157/bsi-thong-bao-huy-danh-sach-nguoi-so-huu-chung-khoan-de-thuc-hien-quyen-lay-y-kien-co-dong-bang-vb-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1105,7 +1105,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:08.810169+00:00",
+   "retrieved_at": "2026-10-12T11:03:09.469463+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1234,51 +1234,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1291,7 +1291,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:49.726980+00:00",
+   "retrieved_at": "2026-10-12T11:02:53.620000+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1358,6 +1358,12 @@
    ],
    "disclosures": [
     {
+     "title": "CTG: Bản cáo bạch và thông báo chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/CTG-2996472/ctg-ban-cao-bach-va-thong-bao-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "CTG: Giấy chứng nhận đăng ký chào bán trái phiếu ra công chúng",
      "url": "https://cafef.vn/du-lieu/CTG-2993982/ctg-giay-chung-nhan-dang-ky-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1410,61 +1416,55 @@
      "url": "https://cafef.vn/du-lieu/CTG-2973428/ctg-thong-bao-duong-dan-nghi-quyet-hdqt-so-363-ngay-10092026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "CTG: Nghị quyết HĐQT về việc chấm dứt hoạt động của VPĐD tại Đà Nẵng",
-     "url": "https://cafef.vn/du-lieu/CTG-2973586/ctg-nghi-quyet-hdqt-ve-viec-cham-dut-hoat-dong-cua-vpdd-tai-da-nang.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1477,7 +1477,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:06.392538+00:00",
+   "retrieved_at": "2026-10-12T11:03:05.299227+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1606,51 +1606,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1663,7 +1663,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:58.178972+00:00",
+   "retrieved_at": "2026-10-12T11:02:58.635375+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1735,51 +1735,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1794,7 +1794,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:12.357627+00:00",
+   "retrieved_at": "2026-10-12T11:03:09.396200+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1861,20 +1861,26 @@
    ],
    "disclosures": [
     {
+     "title": "KLB: Thông báo công văn của UBCKNN về tài liệu báo cáo kết quả chào bán trái phiếu ra công chúng đợt 3 của KLB",
+     "url": "https://cafef.vn/du-lieu/KLB-2996474/klb-thong-bao-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-ket-qua-chao-ban-trai-phieu-ra-cong-chung-dot-3-cua-klb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "KLB: Báo cáo kết quả đợt chào bán trái phiếu ra công chúng (Đợt 3)",
      "url": "https://cafef.vn/du-lieu/KLB-2993947/klb-bao-cao-ket-qua-dot-chao-ban-trai-phieu-ra-cong-chung-dot-3.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "KLB: Thông báo thay đổi nhân sự",
-     "url": "https://cafef.vn/du-lieu/KLB-2988950/klb-thong-bao-thay-doi-nhan-su.chn?utm_source=du-lieu",
+     "title": "KLB: Nghị quyết HĐQT thông qua công tác nhân sự",
+     "url": "https://cafef.vn/du-lieu/KLB-2988948/klb-nghi-quyet-hdqt-thong-qua-cong-tac-nhan-su.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "KLB: Nghị quyết HĐQT về việc thông qua công tác nhân sự",
-     "url": "https://cafef.vn/du-lieu/KLB-2988948/klb-nghi-quyet-hdqt-ve-viec-thong-qua-cong-tac-nhan-su.chn?utm_source=du-lieu",
+     "title": "KLB: Bổ nhiệm ông Đào Ngọc Hải giữ chức Trưởng BKS từ 1.10.2026",
+     "url": "https://cafef.vn/du-lieu/KLB-2988950/klb-bo-nhiem-ong-dao-ngoc-hai-giu-chuc-truong-bks-tu-1102026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1913,61 +1919,55 @@
      "url": "https://cafef.vn/du-lieu/KLB-2945936/klb-1282026-giao-dich-170617811-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "KLB: Miễn nhiệm bà Nguyễn Thị Hồng Vân - Phó Tổng Giám đốc từ 11.8.2026",
-     "url": "https://cafef.vn/du-lieu/KLB-2943441/klb-mien-nhiem-ba-nguyen-thi-hong-van-pho-tong-giam-doc-tu-1182026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1980,7 +1980,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:58.205891+00:00",
+   "retrieved_at": "2026-10-12T11:02:59.808863+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2109,51 +2109,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2166,7 +2166,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:58.183938+00:00",
+   "retrieved_at": "2026-10-12T11:02:59.368490+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2269,8 +2269,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "MBB: Thông báo giao dịch cổ phiếu của người nội bộ Nguyễn Thị Thủy",
-     "url": "https://cafef.vn/du-lieu/MBB-2988953/mbb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-thi-thuy.chn?utm_source=du-lieu",
+     "title": "MBB: Bà Nguyễn Thị Thủy - Thành viên Ban điều hành đăng ký bán 113.000 cp",
+     "url": "https://cafef.vn/du-lieu/MBB-2988953/mbb-ba-nguyen-thi-thuy-thanh-vien-ban-dieu-hanh-dang-ky-ban-113000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -2295,51 +2295,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2352,7 +2352,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:06.412912+00:00",
+   "retrieved_at": "2026-10-12T11:03:03.851284+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2419,6 +2419,12 @@
    ],
    "disclosures": [
     {
+     "title": "MSB: Nghị quyết và Biên bản kiểm phiếu bằng hình thức lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/MSB-2996033/msb-nghi-quyet-va-bien-ban-kiem-phieu-bang-hinh-thuc-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "MSB: Quyết định NHNN sửa đổi cập nhật vốn điều lệ tại Giấy phép thành lập và hoạt động",
      "url": "https://cafef.vn/du-lieu/MSB-2994747/msb-quyet-dinh-nhnn-sua-doi-cap-nhat-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2471,61 +2477,55 @@
      "url": "https://cafef.vn/du-lieu/MSB-2987638/msb-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-phuong-an-su-dung-va-tra-no-von-thu-duoc-tu-cac-dot-chao-ban-trai-phieu-msb-phat-hanh-ra-cong-chung-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Cháu bà Lê Thị Liên - Thành viên HĐQT đăng ký bán 44.073 cpCháu",
-     "url": "https://cafef.vn/du-lieu/MSB-2985802/msb-chau-ba-le-thi-lien-thanh-vien-hdqt-dang-ky-ban-44073-cpchau.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2538,7 +2538,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:10.808359+00:00",
+   "retrieved_at": "2026-10-12T11:03:08.793371+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2667,51 +2667,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2724,7 +2724,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:12.558128+00:00",
+   "retrieved_at": "2026-10-12T11:03:10.427938+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2877,51 +2877,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2934,7 +2934,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:06.389458+00:00",
+   "retrieved_at": "2026-10-12T11:03:04.411123+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3063,51 +3063,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3120,7 +3120,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:12.739124+00:00",
+   "retrieved_at": "2026-10-12T11:03:09.821158+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3261,51 +3261,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3318,7 +3318,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:12.462136+00:00",
+   "retrieved_at": "2026-10-12T11:03:12.105304+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3495,51 +3495,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3552,7 +3552,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:03.050865+00:00",
+   "retrieved_at": "2026-10-12T11:03:04.210272+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3619,6 +3619,24 @@
    ],
    "disclosures": [
     {
+     "title": "SHB: Thông báo giao dịch cổ phiếu của Người nội bộ Nguyễn Huy Tài, Đinh Ngọc Dũng",
+     "url": "https://cafef.vn/du-lieu/SHB-2996439/shb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-huy-tai-dinh-ngoc-dung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Thông báo về việc nộp hồ sơ đăng ký niêm yết trái phiếu quốc tế",
+     "url": "https://cafef.vn/du-lieu/SHB-2996437/shb-thong-bao-ve-viec-nop-ho-so-dang-ky-niem-yet-trai-phieu-quoc-te.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SHB: Quyết định của HĐQT về việc thay đổi địa chỉ trụ sở Chi nhánh SHB Bắc Ninh và các PGD trực thuộc",
+     "url": "https://cafef.vn/du-lieu/SHB-2996434/shb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-chi-tru-so-chi-nhanh-shb-bac-ninh-va-cac-pgd-truc-thuoc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "SHB: Nghị quyết HĐQT số 47, 48 ngày 05/10/2026",
      "url": "https://cafef.vn/du-lieu/SHB-2992429/shb-nghi-quyet-hdqt-so-47-48-ngay-05102026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3659,73 +3677,55 @@
      "url": "https://cafef.vn/du-lieu/SHB-2965780/shb-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-trai-phieu-shb-ra-thi-truong-quoc-te.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SHB: Báo cáo kết quả đợt chào bán trái phiếu ra công chúng",
-     "url": "https://cafef.vn/du-lieu/SHB-2964852/shb-bao-cao-ket-qua-dot-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SHB: Các Quyết định HĐQT về thay đổi địa điểm trụ sở Chi nhánh SHB Bắc Ninh, Hưng Yên, Cà Mau",
-     "url": "https://cafef.vn/du-lieu/SHB-2962385/shb-cac-quyet-dinh-hdqt-ve-thay-doi-dia-diem-tru-so-chi-nhanh-shb-bac-ninh-hung-yen-ca-mau.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SHB: Nghị quyết HĐQT thông qua phương án trái phiếu riêng lẻ SHB lần 2 năm 2026",
-     "url": "https://cafef.vn/du-lieu/SHB-2953270/shb-nghi-quyet-hdqt-thong-qua-phuong-an-trai-phieu-rieng-le-shb-lan-2-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3738,7 +3738,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:05.207023+00:00",
+   "retrieved_at": "2026-10-12T11:03:04.814167+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3867,51 +3867,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3924,7 +3924,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:58.199396+00:00",
+   "retrieved_at": "2026-10-12T11:02:59.392437+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -3991,8 +3991,14 @@
    ],
    "disclosures": [
     {
-     "title": "STB: Nghị quyết HĐQT số 0172.2026 ngày 29/09/2026",
-     "url": "https://cafef.vn/du-lieu/STB-2988457/stb-nghi-quyet-hdqt-so-01722026-ngay-29092026.chn?utm_source=du-lieu",
+     "title": "STB: Nghị quyết HĐQT về thuận chủ trương thay đổi địa chỉ Chi nhánh/Phòng giao dịch",
+     "url": "https://cafef.vn/du-lieu/STB-2996467/stb-nghi-quyet-hdqt-ve-thuan-chu-truong-thay-doi-dia-chi-chi-nhanhphong-giao-dich.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "STB: Nghị quyết HĐQT phê duyệt Phương án phát hành trái phiếu ra công chúng của SACOMBANK năm 2026",
+     "url": "https://cafef.vn/du-lieu/STB-2988457/stb-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-trai-phieu-ra-cong-chung-cua-sacombank-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4043,61 +4049,55 @@
      "url": "https://cafef.vn/du-lieu/STB-2943431/stb-ong-ho-doan-cuong-ong-nguyen-minh-tam-thoi-giu-chuc-pho-tong-giam-doc-tu-3172026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "STB: Báo cáo tình hình quản trị 6 tháng đầu năm 2026",
-     "url": "https://cafef.vn/du-lieu/STB-2941988/stb-bao-cao-tinh-hinh-quan-tri-6-thang-dau-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4110,7 +4110,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:50.451515+00:00",
+   "retrieved_at": "2026-10-12T11:02:53.096251+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4182,51 +4182,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4241,7 +4241,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:58.198605+00:00",
+   "retrieved_at": "2026-10-12T11:02:58.837950+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4370,51 +4370,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4427,7 +4427,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:37:16.289401+00:00",
+   "retrieved_at": "2026-10-12T11:03:14.331755+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4499,51 +4499,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4558,7 +4558,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:49.730799+00:00",
+   "retrieved_at": "2026-10-12T11:02:54.129719+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4631,8 +4631,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VCB: Thông báo nhận được đơn xin nghỉ hưu trước tuổi của Phó TGĐ Nguyễn Văn Tuân",
-     "url": "https://cafef.vn/du-lieu/VCB-2989426/vcb-thong-bao-nhan-duoc-don-xin-nghi-huu-truoc-tuoi-cua-pho-tgd-nguyen-van-tuan.chn?utm_source=du-lieu",
+     "title": "VCB: Đơn xin nghỉ hưu trước tuổi của ông Nguyễn Văn Tuân - Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/VCB-2989426/vcb-don-xin-nghi-huu-truoc-tuoi-cua-ong-nguyen-van-tuan-pho-tong-giam-doc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4687,51 +4687,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4744,7 +4744,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:57.003001+00:00",
+   "retrieved_at": "2026-10-12T11:02:58.675071+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4873,51 +4873,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4930,7 +4930,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T00:36:49.749641+00:00",
+   "retrieved_at": "2026-10-12T11:02:52.808279+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5021,8 +5021,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VPB: Thông báo thay đổi số lượng cổ phiếu có quyền biểu quyết, báo cáo kết quả phát hành cổ phiếu để trả cổ tức và Nghị quyết HĐQT",
-     "url": "https://cafef.vn/du-lieu/VPB-2988557/vpb-thong-bao-thay-doi-so-luong-co-phieu-co-quyen-bieu-quyet-bao-cao-ket-qua-phat-hanh-co-phieu-de-tra-co-tuc-va-nghi-quyet-hdqt.chn?utm_source=du-lieu",
+     "title": "VPB: Số lượng cổ phiếu có quyền biểu quyết đang lưu hành là 10.000.000.000 cp",
+     "url": "https://cafef.vn/du-lieu/VPB-2988557/vpb-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh-la-10000000000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -5059,51 +5059,51 @@
    ],
    "market_news": [
     {
-     "title": "CTCK chỉ ra một yếu tố có thể trở thành lực cản lớn cho thị trường chứng khoán trong quý 4",
-     "url": "https://cafef.vn/ctck-chi-ra-mot-yeu-to-co-the-tro-thanh-luc-can-lon-cho-thi-truong-chung-khoan-trong-quy-4-188261011222926118.chn",
-     "date": "2026-10-11T17:05:00+00:00",
+     "title": "Một cổ phiếu ngân hàng bất ngờ được tự doanh CTCK \"gom\" ròng hơn 200 tỷ đồng phiên đầu tuần",
+     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bat-ngo-duoc-tu-doanh-ctck-gom-rong-hon-200-ty-dong-phien-dau-tuan-188261012173321884.chn",
+     "date": "2026-10-12T10:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán tháng 10 từng xuất hiện những cú giảm sâu, nhóm cổ phiếu nào thường chịu áp lực lớn nhất?",
-     "url": "https://cafef.vn/chung-khoan-thang-10-tung-xuat-hien-nhung-cu-giam-sau-nhom-co-phieu-nao-thuong-chiu-ap-luc-lon-nhat-188261011232218835.chn",
-     "date": "2026-10-11T17:04:00+00:00",
+     "title": "Cổ phiếu doanh nghiệp đề xuất xây tòa tháp đôi cao nhất thế giới \"có biến\"",
+     "url": "https://cafef.vn/co-phieu-doanh-nghiep-de-xuat-xay-toa-thap-doi-cao-nhat-the-gioi-co-bien-188261012170434793.chn",
+     "date": "2026-10-12T10:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "SGI Capital: Một chỉ báo cần đặc biệt lưu ý trong BCTC quý 3, ngân hàng và BĐS có thể không còn \"dẫn sóng\" 5–10 năm tới",
-     "url": "https://cafef.vn/sgi-capital-mot-chi-bao-can-dac-biet-luu-y-trong-bctc-quy-3-ngan-hang-va-bds-co-the-khong-con-dan-song-510-nam-toi-18826101122483069.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Từ 20.000 đồng, nữ khách hàng lập kỷ lục trúng thưởng Vietlott gần 200 tỷ đồng",
+     "url": "https://cafef.vn/tu-20000-dong-nu-khach-hang-lap-ky-luc-trung-thuong-vietlott-gan-200-ty-dong-1882610121716511.chn",
+     "date": "2026-10-12T10:31:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Chứng khoán tuần tới tiếp tục dao động quanh ngưỡng 1.730 điểm",
-     "url": "https://cafef.vn/chuyen-gia-chung-khoan-tuan-toi-tiep-tuc-dao-dong-quanh-nguong-1730-diem-188261011203229661.chn",
-     "date": "2026-10-11T17:03:00+00:00",
+     "title": "Công ty chứng khoán \"vẽ\" đường đi của VN-Index năm 2027, mục tiêu cao hơn hiện tại 220 điểm",
+     "url": "https://cafef.vn/cong-ty-chung-khoan-ve-duong-di-cua-vn-index-nam-2027-muc-tieu-cao-hon-hien-tai-220-diem-188261012171217924.chn",
+     "date": "2026-10-12T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một yếu tố có thể kích hoạt vòng xoáy \"call margin\" trên TTCK",
-     "url": "https://cafef.vn/mot-yeu-to-co-the-kich-hoat-vong-xoay-call-margin-tren-ttck-188261011225943783.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "Một cổ đông ngoại 'rời' ghế cổ đông lớn PNJ",
+     "url": "https://cafef.vn/mot-co-dong-ngoai-roi-ghe-co-dong-lon-pnj-188261012164227248.chn",
+     "date": "2026-10-12T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Câu chuyện PNJ: Từ “viên kim cương” đến “hòn than nóng”",
-     "url": "https://cafef.vn/cau-chuyen-pnj-tu-vien-kim-cuong-den-hon-than-nong-18826101122351638.chn",
-     "date": "2026-10-11T17:01:00+00:00",
+     "title": "DNSE được vinh danh top 10 thị phần môi giới VNX, cán mốc 2 triệu tài khoản",
+     "url": "https://cafef.vn/dnse-duoc-vinh-danh-top-10-thi-phan-moi-gioi-vnx-can-moc-2-trieu-tai-khoan-188261012165445772.chn",
+     "date": "2026-10-12T10:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tổng Giám đốc một doanh nghiệp nhận “lót tay” hàng chục tỷ đồng để ưu ái nhà cung cấp",
-     "url": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-nhan-lot-tay-hang-chuc-ty-dong-de-uu-ai-nha-cung-cap-188261011182651345.chn",
-     "date": "2026-10-11T11:29:00+00:00",
+     "title": "Xử phạt TTC Land",
+     "url": "https://cafef.vn/xu-phat-ttc-land-188261012164322599.chn",
+     "date": "2026-10-12T09:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch công ty làm gì khi bị bán giải chấp cổ phiếu?",
-     "url": "https://cafef.vn/chu-tich-cong-ty-lam-gi-khi-bi-ban-giai-chap-co-phieu-188261011181713062.chn",
-     "date": "2026-10-11T11:17:00+00:00",
+     "title": "Cổ phiếu thép bất ngờ tăng bứt phá trong phiên đầu tuần, VN-Index “bốc hơi” hơn 14 điểm",
+     "url": "https://cafef.vn/co-phieu-thep-bat-ngo-tang-but-pha-trong-phien-dau-tuan-vn-index-boc-hoi-hon-14-diem-188261012162109275.chn",
+     "date": "2026-10-12T09:28:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
