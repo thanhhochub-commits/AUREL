@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-12T21:18:56.847160+00:00",
+ "generated_at": "2026-10-13T02:37:56.728038+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:53.332436+00:00",
+   "retrieved_at": "2026-10-13T02:37:56.200406+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -150,6 +150,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -178,24 +196,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:32.198902+00:00",
+   "retrieved_at": "2026-10-13T02:37:32.158689+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,6 +336,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -364,24 +382,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:56.701048+00:00",
+   "retrieved_at": "2026-10-13T02:37:56.641424+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,6 +494,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -522,24 +540,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:45.196636+00:00",
+   "retrieved_at": "2026-10-13T02:37:44.890609+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -704,6 +704,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -732,24 +750,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -761,7 +761,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:33.236099+00:00",
+   "retrieved_at": "2026-10-13T02:37:32.160398+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -890,6 +890,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -918,24 +936,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -947,7 +947,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:56.846417+00:00",
+   "retrieved_at": "2026-10-13T02:37:56.391228+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1048,6 +1048,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -1076,24 +1094,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1105,7 +1105,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:48.494299+00:00",
+   "retrieved_at": "2026-10-13T02:37:50.203822+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1234,6 +1234,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -1262,24 +1280,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1291,7 +1291,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:33.232258+00:00",
+   "retrieved_at": "2026-10-13T02:37:32.142385+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1420,6 +1420,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -1448,24 +1466,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1477,7 +1477,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:45.052558+00:00",
+   "retrieved_at": "2026-10-13T02:37:45.596724+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1606,6 +1606,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -1634,24 +1652,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1663,7 +1663,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:39.443088+00:00",
+   "retrieved_at": "2026-10-13T02:37:39.367831+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1735,6 +1735,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -1763,24 +1781,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1794,7 +1794,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:51.275883+00:00",
+   "retrieved_at": "2026-10-13T02:37:50.615808+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1923,6 +1923,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -1951,24 +1969,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1980,7 +1980,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:39.858924+00:00",
+   "retrieved_at": "2026-10-13T02:37:39.074753+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2109,6 +2109,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -2137,24 +2155,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2166,7 +2166,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:38.227489+00:00",
+   "retrieved_at": "2026-10-13T02:37:37.815601+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2295,6 +2295,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -2323,24 +2341,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2352,7 +2352,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:46.239338+00:00",
+   "retrieved_at": "2026-10-13T02:37:43.923140+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2481,6 +2481,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -2509,24 +2527,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2538,7 +2538,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:48.366462+00:00",
+   "retrieved_at": "2026-10-13T02:37:49.432128+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2667,6 +2667,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -2695,24 +2713,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2724,7 +2724,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:51.401856+00:00",
+   "retrieved_at": "2026-10-13T02:37:50.288086+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2877,6 +2877,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -2905,24 +2923,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2934,7 +2934,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:46.466175+00:00",
+   "retrieved_at": "2026-10-13T02:37:44.278997+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3063,6 +3063,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -3091,24 +3109,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3120,7 +3120,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:51.291734+00:00",
+   "retrieved_at": "2026-10-13T02:37:50.212642+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3261,6 +3261,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -3289,24 +3307,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3318,7 +3318,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:52.701423+00:00",
+   "retrieved_at": "2026-10-13T02:37:51.129000+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3433,6 +3433,12 @@
    ],
    "disclosures": [
     {
+     "title": "SGB: Đính chính nội dung đã công bố về thay đổi địa điểm hoạt động Phòng giao dịch Thanh Nhàn - Chi nhánh Hà Nội",
+     "url": "https://cafef.vn/du-lieu/SGB-2996779/sgb-dinh-chinh-noi-dung-da-cong-bo-ve-thay-doi-dia-diem-hoat-dong-phong-giao-dich-thanh-nhan-chi-nhanh-ha-noi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "SGB: Nghị quyết HĐQT về việc thay đổi địa điểm hoạt động của Phòng giao dịch Thanh Nhàn - Chi nhánh Hà Nội",
      "url": "https://cafef.vn/du-lieu/SGB-2993893/sgb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-hoat-dong-cua-phong-giao-dich-thanh-nhan-chi-nhanh-ha-noi.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3485,15 +3491,27 @@
      "url": "https://cafef.vn/du-lieu/SGB-2923219/sgb-thay-doi-dia-diem-phong-giao-dich-to-hieu-chi-nhanh-hai-phong.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SGB: Quyết định bổ sung nội dung hoạt động vào Giấy phép thành lập và hoạt động của SAIGONBANK",
-     "url": "https://cafef.vn/du-lieu/SGB-2922470/sgb-quyet-dinh-bo-sung-noi-dung-hoat-dong-vao-giay-phep-thanh-lap-va-hoat-dong-cua-saigonbank.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
@@ -3523,24 +3541,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3552,7 +3552,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:43.397355+00:00",
+   "retrieved_at": "2026-10-13T02:37:43.803965+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3681,6 +3681,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -3709,24 +3727,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3738,7 +3738,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:43.833992+00:00",
+   "retrieved_at": "2026-10-13T02:37:43.811510+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3867,6 +3867,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -3895,24 +3913,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3924,7 +3924,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:39.448338+00:00",
+   "retrieved_at": "2026-10-13T02:37:39.058855+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4053,6 +4053,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -4081,24 +4099,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4110,7 +4110,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:33.851224+00:00",
+   "retrieved_at": "2026-10-13T02:37:32.653215+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4182,6 +4182,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -4210,24 +4228,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4241,7 +4241,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:39.434239+00:00",
+   "retrieved_at": "2026-10-13T02:37:38.630155+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4370,6 +4370,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -4398,24 +4416,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4427,7 +4427,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:55.486931+00:00",
+   "retrieved_at": "2026-10-13T02:37:56.727001+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4436,6 +4436,18 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "VBB: Thông báo thay đổi nhân sự - Bổ nhiệm Phó TGĐ (kèm Quyết định, Bản cung cấp thông tin)",
+     "url": "https://cafef.vn/du-lieu/VBB-2996804/vbb-thong-bao-thay-doi-nhan-su-bo-nhiem-pho-tgd-kem-quyet-dinh-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VBB: Quyết định HĐQT về tuyển dụng và bổ nhiệm chức danh Phó Tổng giám đốc",
+     "url": "https://cafef.vn/du-lieu/VBB-2996802/vbb-quyet-dinh-hdqt-ve-tuyen-dung-va-bo-nhiem-chuc-danh-pho-tong-giam-doc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "VBB: Nghị quyết HĐQT số 202/2026 ngày 07/10/2026",
      "url": "https://cafef.vn/du-lieu/VBB-2993801/vbb-nghi-quyet-hdqt-so-2022026-ngay-07102026.chn?utm_source=du-lieu",
@@ -4483,21 +4495,27 @@
      "url": "https://cafef.vn/du-lieu/VBB-2982577/vbb-quyet-dinh-cua-hdqt-tai-bo-nhiem-ong-truong-ngoc-thuan-giu-chuc-giam-doc-chi-nhanh-ba-ria-vung-tau.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VBB: Bổ nhiệm ông Gorski Jr Chester Edward giữ chức Phó Tổng giám đốc từ 18.9.2026",
-     "url": "https://cafef.vn/du-lieu/VBB-2979471/vbb-bo-nhiem-ong-gorski-jr-chester-edward-giu-chuc-pho-tong-giam-doc-tu-1892026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VBB: Quyết định của HĐQT về việc tuyển dụng và bổ nhiệm ông Gorski Jr Chester Edward giữ chức Phó TGĐ",
-     "url": "https://cafef.vn/du-lieu/VBB-2979469/vbb-quyet-dinh-cua-hdqt-ve-viec-tuyen-dung-va-bo-nhiem-ong-gorski-jr-chester-edward-giu-chuc-pho-tgd.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
@@ -4527,24 +4545,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4558,7 +4558,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:33.253661+00:00",
+   "retrieved_at": "2026-10-13T02:37:32.133326+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4687,6 +4687,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -4715,24 +4733,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4744,7 +4744,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:39.439781+00:00",
+   "retrieved_at": "2026-10-13T02:37:38.591080+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4873,6 +4873,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -4901,24 +4919,6 @@
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4930,7 +4930,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-12T21:18:33.221537+00:00",
+   "retrieved_at": "2026-10-13T02:37:31.452129+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5059,6 +5059,24 @@
    ],
    "market_news": [
     {
+     "title": "Tỷ phú Bill Gates liên tục bán cổ phiếu Việt Nam",
+     "url": "https://cafef.vn/ty-phu-bill-gates-lien-tuc-ban-co-phieu-viet-nam-188261013090457316.chn",
+     "date": "2026-10-13T02:09:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "'Nợ 36.000 tỷ đồng đáng sợ thật, nhưng không đáng sợ bằng mất một chữ tín'",
+     "url": "https://cafef.vn/no-36000-ty-dong-dang-so-that-nhung-khong-dang-so-bang-mat-mot-chu-tin-188261013074513221.chn",
+     "date": "2026-10-13T01:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vì sao nhiều công ty chứng khoán đánh giá tích cực về Masan Consumer?",
+     "url": "https://cafef.vn/vi-sao-nhieu-cong-ty-chung-khoan-danh-gia-tich-cuc-ve-masan-consumer-188261012180212929.chn",
+     "date": "2026-10-13T01:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Sàn tài sản mã hóa đầu tiên của Việt Nam bao giờ ra mắt? Một mốc thời gian đáng chú ý vừa được hé lộ",
      "url": "https://cafef.vn/san-tai-san-ma-hoa-dau-tien-cua-viet-nam-bao-gio-ra-mat-mot-moc-thoi-gian-dang-chu-y-vua-duoc-he-lo-188261012235802255.chn",
      "date": "2026-10-12T17:07:00+00:00",
@@ -5086,24 +5104,6 @@
      "title": "Green SM của ông Phạm Nhật Vượng xác nhận kế hoạch IPO, nơi được chọn không phải Việt Nam",
      "url": "https://cafef.vn/green-sm-cua-ong-pham-nhat-vuong-xac-nhan-ke-hoach-ipo-noi-duoc-chon-khong-phai-viet-nam-188261012223426466.chn",
      "date": "2026-10-12T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam mất 5.000 tỷ đồng từ đầu năm",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-mat-5000-ty-dong-tu-dau-nam-188261012162926746.chn",
-     "date": "2026-10-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Việt Nam bước vào giai đoạn nhu cầu vốn tăng mạnh nhất nhiều năm, chuyên gia chỉ tên kênh dẫn vốn quan trọng thời gian tới",
-     "url": "https://cafef.vn/viet-nam-buoc-vao-giai-doan-nhu-cau-von-tang-manh-nhat-nhieu-nam-chuyen-gia-chi-ten-kenh-dan-von-quan-trong-thoi-gian-toi-188261012220340841.chn",
-     "date": "2026-10-12T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp bất động sản hút hơn 170.000 tỷ đồng trái phiếu sau 9 tháng, lãi suất lên tới 14,5%/năm",
-     "url": "https://cafef.vn/doanh-nghiep-bat-dong-san-hut-hon-170000-ty-dong-trai-phieu-sau-9-thang-lai-suat-len-toi-145-nam-188261012203750764.chn",
-     "date": "2026-10-12T13:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
