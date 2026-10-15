@@ -1,0 +1,36 @@
+name: AUREL login video sharpness (one-time)
+on:
+  push:
+    paths:
+      - .github/workflows/aurel-login-video-sharp-once.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  enhance-video:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Upscale and slightly sharpen existing silent video
+        run: |
+          set -euo pipefail
+          if ! command -v ffmpeg; then sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; fi
+          ffmpeg -hide_banner -loglevel error -y \
+            -i assets/login-city-bg.mp4 \
+            -vf "scale=1020:1168:flags=lanczos,unsharp=5:5:0.75:5:5:0.0,eq=contrast=1.04:brightness=0.01:saturation=1.03" \
+            -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p \
+            -an -movflags +faststart assets/login-city-bg-sharp.mp4
+          test -s assets/login-city-bg-sharp.mp4
+          ffprobe -v error -show_entries stream=width,height -of default=nw=1 assets/login-city-bg-sharp.mp4
+      - name: Commit enhanced video
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/login-city-bg-sharp.mp4
+          if ! git diff --cached --quiet; then
+            git commit -m "Enhance AUREL silent login video clarity"
+            git pull --rebase origin main
+            git push
+          fi
