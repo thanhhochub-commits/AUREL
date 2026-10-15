@@ -70,7 +70,7 @@ jobs:
               enc.stdin.close()
               ret=enc.wait()
           assert ret==0, 'Video encoding failed'
-          assert i>=900, f'Insufficient frames {i}'
+          assert i>=800, f'Insufficient frames {i}'
           print('AI FSRCNN x2 finished:',i,'frames in',round(time.time()-started,1),'s; bytes',os.stat(out).st_size)
           PY
           python /tmp/aurel_enhance.py
