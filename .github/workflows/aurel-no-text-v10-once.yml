@@ -1,0 +1,31 @@
+name: AUREL import cleaned full-angle login footage
+on:
+  push:
+    paths:
+      - .github/workflows/aurel-no-text-v10-once.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch reviewed full-angle video without embedded titles
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          curl --fail --location --retry 3 --silent --show-error \
+            'https://a0a24ede-26af-4f51-9da6-dd850910b788.sandbox.floot.app/_cdn/static/4546ca4e-cf98-46eb-b20a-a1703b98d0e3-aurel-login-full-angle-no-text-v10.mp4' \
+            --output assets/login-city-full-angle-no-text-v10.mp4
+          test "$(stat -c%s assets/login-city-full-angle-no-text-v10.mp4)" -eq 18141215
+          file assets/login-city-full-angle-no-text-v10.mp4
+      - name: Commit cleaned AUREL video
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/login-city-full-angle-no-text-v10.mp4
+          git diff --cached --quiet || (git commit -m 'Add full-angle login footage without embedded text' && git pull --rebase origin main && git push)
