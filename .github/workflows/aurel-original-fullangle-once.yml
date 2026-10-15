@@ -1,0 +1,28 @@
+name: Import AUREL original full-angle video
+on:
+  push:
+    paths:
+      - .github/workflows/aurel-original-fullangle-once.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download original fully-framed muted video
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          curl --fail --location --retry 3 --silent --show-error \
+            'https://a0a24ede-26af-4f51-9da6-dd850910b788.sandbox.floot.app/_cdn/static/54bc91cb-0c4c-4ce6-b506-40c549bd3804-aurel-hcm-raw-full-16x9.mp4' \
+            -o assets/login-city-full-angle.mp4
+          test "$(stat -c%s assets/login-city-full-angle.mp4)" -eq 16939355
+          file assets/login-city-full-angle.mp4
+      - name: Commit video to AUREL
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/login-city-full-angle.mp4
+          git diff --cached --quiet || (git commit -m 'Import original full-angle city footage with native framing' && git pull --rebase origin main && git push)
