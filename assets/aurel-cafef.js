@@ -98,8 +98,8 @@ function updateLists(data){
  var newsTitle=document.getElementById('cf-news-head');
  var rlinks=document.getElementById('cf-reports-link');
  var nlinks=document.getElementById('cf-news-link');
- if(reportTitle)reportTitle.textContent='BCTC MỚI NHẤT → CŨ NHẤT'+(reports.length?' ('+reports.length+')':'');
- if(newsTitle)newsTitle.textContent=isGeneral?'TIN THỊ TRƯỜNG CAFEF':'TIN TỨC & CÔNG BỐ';
+ if(reportTitle)reportTitle.textContent='BCTC '+sym;
+ if(newsTitle)newsTitle.textContent='TIN TỨC '+sym;
  if(rlinks)rlinks.href=p.financial;
  if(nlinks)nlinks.href=isGeneral?'https://cafef.vn/thi-truong-chung-khoan.chn':p.disclosures;
  var left=document.getElementById('cf-report-items'),right=document.getElementById('cf-news-items');
@@ -243,11 +243,11 @@ function makeCard(symbol){
  '<button type="button" class="cf-tab" role="tab" data-tab="news" aria-controls="cf-news-panel" aria-selected="false" tabindex="-1">Tin doanh nghiệp</button></div>'+
  '<div class="cf-feed" data-active="reports">'+
  '<section class="cf-group" data-view="reports" aria-label="Báo cáo tài chính" id="cf-report-panel" role="tabpanel">'+
- '<div class="cf-group-head"><strong id="cf-report-head">BÁO CÁO TÀI CHÍNH MỚI NHẤT</strong>'+
+ '<div class="cf-group-head"><strong id="cf-report-head">BCTC '+esc(symbol)+'</strong>'+
  '<a id="cf-reports-link" href="'+esc(links(symbol).financial)+'" target="_blank" rel="noopener noreferrer">Xem tất cả →</a></div>'+
  '<div class="cf-group-items" id="cf-report-items"></div></section>'+
  '<section class="cf-group" data-view="news" aria-label="Tin tức doanh nghiệp" id="cf-news-panel" role="tabpanel" hidden>'+
- '<div class="cf-group-head"><strong id="cf-news-head">TIN TỨC &amp; CÔNG BỐ</strong>'+
+ '<div class="cf-group-head"><strong id="cf-news-head">TIN TỨC '+esc(symbol)+'</strong>'+
  '<a id="cf-news-link" href="'+esc(links(symbol).disclosures)+'" target="_blank" rel="noopener noreferrer">Xem tất cả →</a></div>'+
  '<div class="cf-group-items" id="cf-news-items"></div></section></div>'+
  '<div id="cf-errors" class="cf-error" aria-live="polite"></div>'+
