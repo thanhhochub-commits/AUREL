@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-/* AUREL_DATA_MODE_V4 — sequence only imported banks by choices order, not global ticker rank. */
+/* AUREL_DATA_MODE_V5 — source-page privacy selector below metrics; collapsible. */
 if(window.AURELDataMode)return;
 var mode='protected',scheduled=false, panelRef=null, originals=new WeakMap(), attributeOriginals=new WeakMap();
 var aliases=new Map(),concealCache=new Map();
@@ -167,12 +167,12 @@ function mountPanel(){
     if(panel.parentNode)panel.remove();
     return;
   }
-  var head=root.querySelector(':scope > .page-head');
-  if(head){
-    if(panel.parentNode!==root || panel.previousElementSibling!==head)
-      head.insertAdjacentElement('afterend',panel);
-  }else if(panel.parentNode!==root||panel!==root.firstElementChild){
-    root.insertBefore(panel,root.firstChild);
+  var metrics=root.querySelector(':scope > .dataset-cards');
+  if(metrics){
+    if(panel.parentNode!==root || panel.previousElementSibling!==metrics)
+      metrics.insertAdjacentElement('afterend',panel);
+  }else if(panel.parentNode){
+    panel.remove();
   }
 }
 function refresh(){
@@ -193,16 +193,27 @@ function init(){
   if(!main||!root||panelRef)return;
   var panel=document.createElement('section');panel.id='aurel-data-mode-panel';
   panel.setAttribute('aria-label','Chế độ dữ liệu');
-  panel.innerHTML='<div class="aurel-data-mode-title"><strong>Chế độ dữ liệu</strong>'+
-    '<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="7.5" ry="3"/><path d="M4.5 5v7c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3V5M4.5 12v7c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3v-7"/></svg></div>'+
+  panel.innerHTML='<button type="button" class="aurel-data-mode-title" aria-expanded="false" aria-controls="aurel-mode-options">'+
+    '<strong>Chế độ dữ liệu</strong><span class="aurel-mode-heading-end"><span class="aurel-mode-status">Protected</span>'+
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>'+
+    '<div id="aurel-mode-options" class="aurel-mode-options" hidden>'+
     '<label><input type="radio" name="aurel-data-mode" value="public"><span>Công khai (Public)</span></label>'+
-    '<label><input type="radio" name="aurel-data-mode" value="protected" checked><span>Bảo vệ dữ liệu (Protected)</span></label>';
+    '<label><input type="radio" name="aurel-data-mode" value="protected" checked><span>Bảo vệ dữ liệu (Protected)</span></label></div>';
   panelRef=panel;
   mountPanel();
+  var toggle=panel.querySelector('.aurel-data-mode-title');
+  var options=panel.querySelector('.aurel-mode-options');
+  toggle.addEventListener('click',function(){
+    options.hidden=!options.hidden;
+    toggle.setAttribute('aria-expanded',String(!options.hidden));
+  });
   panel.addEventListener('change',function(event){
     var item=event.target;
     if(item&&item.name==='aurel-data-mode'&&/^(public|protected)$/.test(item.value)){
-      mode=item.value;refresh();
+      mode=item.value;
+      var status=panel.querySelector('.aurel-mode-status');
+      if(status)status.textContent=mode==='protected'?'Protected':'Public';
+      refresh();
       document.dispatchEvent(new CustomEvent('aurel:data-mode-changed',{detail:{mode:mode}}));
     }
   });
