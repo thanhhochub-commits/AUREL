@@ -1,7 +1,7 @@
 (function(){
  'use strict';
  if(window.AURELWelcome)return;
- const VIDEO_URL='https://aurel-assets-20260929.floot.app/_cdn/static/1779b8f0-238a-486b-b3f2-b2447f594d4c-aurel_welcome_smooth_20261017_v2.mp4';
+ const VIDEO_URL='https://aurel-assets-20260929.floot.app/_cdn/static/356d1274-1fd6-49f9-97de-0d3d18a1cb84-aurel_welcome_crisp_silent_20261017_v4.mp4';
  let intro=null;
  function show(){
   // A welcome belongs to a newly completed login, not a reload restoring an active session.
@@ -22,13 +22,12 @@
   video.setAttribute('webkit-playsinline','');
   video.disablePictureInPicture=true;
   video.controls=false;
-  video.muted=false;
-  video.volume=0.8;
+  video.muted=true;
+  video.volume=0;
   const actions=document.createElement('div');actions.className='aw-actions';
-  const sound=document.createElement('button');sound.type='button';sound.textContent='Bật âm thanh';sound.setAttribute('aria-label','Bật hoặc tắt âm thanh video');
   const skip=document.createElement('button');skip.type='button';skip.textContent='Bỏ qua';skip.setAttribute('aria-label','Bỏ qua video chào mừng');
   const loading=document.createElement('div');loading.className='aw-loading';loading.textContent='Đang chuẩn bị không gian AUREL…';
-  actions.append(sound,skip);layer.append(style,video,loading,actions);
+  actions.append(skip);layer.append(style,video,loading,actions);
   intro=layer;
   document.body.appendChild(layer);
   let started=false;
@@ -38,13 +37,7 @@
    video.pause();video.removeAttribute('src');video.load();
    layer.remove();intro=null;
   }
-  function updateSound(){sound.textContent=video.muted?'Bật âm thanh':'Tắt âm thanh'}
   skip.addEventListener('click',finish);
-  sound.addEventListener('click',()=>{
-   video.muted=!video.muted;
-   updateSound();
-   if(video.paused)video.play().catch(()=>{video.muted=true;updateSound()});
-  });
   video.addEventListener('playing',()=>{
    if(started)return;started=true;
    loading.textContent='';
@@ -57,12 +50,7 @@
   function startPlayback(){
    if(closing)return;
    const result=video.play();
-   if(result&&typeof result.catch==='function')result.catch(()=>{
-    if(closing)return;
-    video.muted=true;updateSound();
-    video.play().catch(finish);
-   });
-   updateSound();
+   if(result&&typeof result.catch==='function')result.catch(finish);
   }
   startPlayback();
  }
