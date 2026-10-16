@@ -163,7 +163,10 @@ function attachMenu(){
  document.addEventListener('click',event=>{if(!wrap.contains(event.target)){menu.hidden=true;menu.style.display='none'}});
 }
 async function requireUnlock(){
- if(window.AURELAuthCore.isUnlocked())return window.AURELAuthCore.username();
+ if(window.AURELAuthCore.isUnlocked()){
+  document.body.classList.add('aurel-auth-passed');
+  return window.AURELAuthCore.username();
+ }
  if(unlockPromise)return unlockPromise;
  unlockPromise=(async()=>{
   const first=!(await window.AURELAuthCore.accounts()).length,ui=makeLogin(first);
@@ -180,6 +183,7 @@ async function requireUnlock(){
     busy=true;ui.submit.disabled=true;ui.submit.textContent=ui.isRegister()?'Đang tạo tài khoản...':'Đang đăng nhập...';ui.error.style.display='none';
     try{
      const name=await (ui.isRegister()?window.AURELAuthCore.register(ui.user.value,ui.pass.value):window.AURELAuthCore.login(ui.user.value,ui.pass.value));
+     document.body.classList.add('aurel-auth-passed');
      ui.wall.remove();attachMenu();lastSeen=Date.now();resolve(name);
     }catch(e){ui.error.style.display='block';ui.error.textContent=e.message||'Không thể kết nối hệ thống tài khoản.';if((e.message||'').includes('đã có người sử dụng'))ui.user.focus()}
     finally{ui.submit.disabled=false;ui.submit.textContent=ui.isRegister()?'Tạo tài khoản':'Đăng nhập';busy=false;ui.pass.value='';ui.confirm.value=''}
@@ -194,4 +198,16 @@ document.addEventListener('visibilitychange',()=>{
  if(!document.hidden&&window.AURELAuthCore?.isUnlocked()&&Date.now()-lastSeen>TIMEOUT){window.AURELAuthCore.logout();location.reload()}
 });
 window.AURELLocalAuth={requireUnlock,isUnlocked:()=>window.AURELAuthCore.isUnlocked(),username:()=>window.AURELAuthCore.username()};
+/* Start sign-in as soon as the auth code loads, before the analytics bootstrap executes.
+   The original bootstrap still awaits the SAME unlockPromise. */
+queueMicrotask(()=>{
+ requireUnlock().catch(error=>{
+  console.error('AUREL login could not start:',error);
+  const wall=document.getElementById('aurel-auth-wall');
+  if(wall){
+   const alert=wall.querySelector('.auth-error');
+   if(alert){alert.style.display='block';alert.textContent=error?.message||'Không thể mở đăng nhập.';}
+  }
+ });
+});
 })();
