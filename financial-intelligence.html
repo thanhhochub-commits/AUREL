@@ -22733,55 +22733,159 @@ html body.aurel-page-scenario .scenario-settings .scenario-run{margin-top:14px!i
 
 <!-- AUREL_DATA_MODE_COMPACT_V1_BEGIN: Public/Protected names only -->
 <style id="AUREL_DATA_MODE_COMPACT_V1">
-.main #aurel-data-mode-panel{
-  position:relative!important;display:flex!important;flex-direction:column!important;
-  gap:7px!important;padding:13px 17px 14px!important;
-  margin:14px 18px 0!important;border:1px solid #dce6ed!important;
-  border-radius:13px!important;background:#fff!important;
-  box-shadow:none!important;color:#17384a!important;isolation:isolate!important;
-  max-width:none!important;min-height:0!important;overflow:visible!important;
+.main #root > #aurel-data-mode-panel{
+ box-sizing:border-box!important;
+ position:relative!important;
+ display:flex!important;
+ flex-direction:column!important;
+ width:100%!important;
+ max-width:100%!important;
+ min-height:0!important;
+ grid-column:1 / -1!important;
+ align-self:stretch!important;
+ gap:0!important;
+ margin:0 0 18px!important;
+ padding:0!important;
+ overflow:hidden!important;
+ isolation:isolate!important;
+ border:1px solid #dce6ed!important;
+ border-radius:14px!important;
+ box-shadow:0 6px 20px rgba(19,48,69,.045)!important;
+ background:#fff!important;
+ color:#17384a!important;
 }
 #aurel-data-mode-panel .aurel-data-mode-title{
-  display:flex!important;align-items:center!important;justify-content:space-between!important;
-  margin:0 0 1px!important;padding:0!important;
+ appearance:none!important;
+ -webkit-appearance:none!important;
+ display:flex!important;
+ align-items:center!important;
+ justify-content:space-between!important;
+ gap:16px!important;
+ width:100%!important;
+ min-height:54px!important;
+ padding:14px 18px!important;
+ margin:0!important;
+ border:0!important;
+ border-radius:0!important;
+ background:transparent!important;
+ box-shadow:none!important;
+ color:inherit!important;
+ cursor:pointer!important;
+ text-align:left!important;
+ font:inherit!important;
+}
+#aurel-data-mode-panel .aurel-data-mode-title:hover{
+ background:rgba(38,130,178,.035)!important;
+}
+#aurel-data-mode-panel .aurel-data-mode-title:focus-visible{
+ outline:2px solid #359cdd!important;
+ outline-offset:-3px!important;
 }
 #aurel-data-mode-panel .aurel-data-mode-title strong{
-  font-size:14px!important;line-height:20px!important;letter-spacing:0!important;font-weight:740!important;
-  color:#16374e!important;
+ font-size:14px!important;
+ line-height:20px!important;
+ letter-spacing:0!important;
+ font-weight:750!important;
+ color:#153c56!important;
+}
+#aurel-data-mode-panel .aurel-mode-heading-end{
+ display:flex!important;
+ align-items:center!important;
+ gap:12px!important;
+ flex:none!important;
+}
+#aurel-data-mode-panel .aurel-mode-status{
+ color:#38748a!important;
+ background:#eff7fa!important;
+ border:1px solid #d8ebf0!important;
+ padding:4px 10px!important;
+ border-radius:999px!important;
+ font-size:11px!important;
+ line-height:16px!important;
+ font-weight:700!important;
+ white-space:nowrap!important;
 }
 #aurel-data-mode-panel .aurel-data-mode-title svg{
-  width:16px!important;height:16px!important;fill:none!important;stroke:#70889b!important;
-  stroke-width:1.6!important;stroke-linejoin:round!important;
+ display:block!important;
+ width:18px!important;
+ height:18px!important;
+ flex:none!important;
+ fill:none!important;
+ stroke:#6b8799!important;
+ transition:transform .2s ease!important;
 }
-#aurel-data-mode-panel label{
-  display:flex!important;align-items:center!important;justify-content:flex-start!important;
-  gap:11px!important;padding:2px 0!important;margin:0!important;
-  width:max-content!important;max-width:100%!important;min-height:27px!important;
-  cursor:pointer!important;font-size:13px!important;line-height:1.45!important;
-  font-weight:500!important;color:#253f51!important;
+#aurel-data-mode-panel .aurel-data-mode-title[aria-expanded="true"] svg{
+ transform:rotate(180deg)!important;
 }
-#aurel-data-mode-panel label span{white-space:normal!important;pointer-events:none!important}
-#aurel-data-mode-panel input[type="radio"]{
-  display:block!important;appearance:auto!important;-webkit-appearance:radio!important;
-  accent-color:#143e57!important;width:17px!important;height:17px!important;
-  min-width:17px!important;min-height:17px!important;
-  padding:0!important;margin:0!important;opacity:1!important;cursor:pointer!important;
-  box-shadow:none!important;transform:none!important;position:static!important;
+#aurel-data-mode-panel .aurel-mode-options{
+ display:flex!important;
+ flex-direction:column!important;
+ gap:5px!important;
+ border-top:1px solid #e8eff3!important;
+ padding:9px 18px 14px!important;
+ background:transparent!important;
+}
+#aurel-data-mode-panel .aurel-mode-options[hidden]{display:none!important}
+#aurel-data-mode-panel .aurel-mode-options label{
+ display:flex!important;
+ align-items:center!important;
+ gap:11px!important;
+ padding:2px 0!important;
+ margin:0!important;
+ width:max-content!important;
+ max-width:100%!important;
+ min-height:27px!important;
+ cursor:pointer!important;
+ font-size:13px!important;
+ line-height:1.45!important;
+ font-weight:500!important;
+ color:#253f51!important;
+}
+#aurel-data-mode-panel .aurel-mode-options label span{white-space:normal!important;pointer-events:none!important}
+#aurel-data-mode-panel .aurel-mode-options input[type="radio"]{
+ display:block!important;
+ appearance:auto!important;
+ -webkit-appearance:radio!important;
+ accent-color:#143e57!important;
+ width:17px!important;
+ height:17px!important;
+ min-width:17px!important;
+ min-height:17px!important;
+ margin:0!important;
+ padding:0!important;
+ opacity:1!important;
+ cursor:pointer!important;
+ box-shadow:none!important;
+ transform:none!important;
+ position:static!important;
 }
 body.aurel-dark-theme #aurel-data-mode-panel{
-  background:#132437!important;border-color:#304861!important;color:#e9f4fa!important;
+ background:#132437!important;
+ border-color:#304861!important;
+ color:#edf5fd!important;
+ box-shadow:none!important;
 }
 body.aurel-dark-theme #aurel-data-mode-panel .aurel-data-mode-title strong,
-body.aurel-dark-theme #aurel-data-mode-panel label{color:#edf5fd!important}
-body.aurel-dark-theme #aurel-data-mode-panel input[type="radio"]{accent-color:#75bdde!important}
+body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-options label{color:#edf5fd!important}
+body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-status{
+ color:#a7e0f3!important;
+ background:#1a3950!important;
+ border-color:#30516a!important;
+}
+body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-options{border-top-color:#304861!important}
+body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-options input[type="radio"]{accent-color:#75bdde!important}
+body.aurel-dark-theme #aurel-data-mode-panel .aurel-data-mode-title:hover{background:rgba(114,190,228,.065)!important}
 @media(max-width:850px){
- .main #aurel-data-mode-panel{
-  margin:11px 12px 0!important;padding:12px 14px!important;gap:5px!important;border-radius:11px!important
- }
- #aurel-data-mode-panel label{font-size:12px!important;min-height:29px!important}
+ .main #root > #aurel-data-mode-panel{margin:0 0 16px!important;border-radius:12px!important}
+ #aurel-data-mode-panel .aurel-data-mode-title{min-height:50px!important;padding:12px 14px!important}
+ #aurel-data-mode-panel .aurel-mode-options{padding:8px 14px 12px!important}
+ #aurel-data-mode-panel .aurel-mode-options label{font-size:12px!important;min-height:29px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ #aurel-data-mode-panel .aurel-data-mode-title svg{transition:none!important}
 }
 </style>
-<script defer src="assets/aurel-data-mode.js?v=20261016-ORDER-V4"></script>
+<script defer src="assets/aurel-data-mode.js?v=20261016-COLLAPSE-V5"></script>
 <!-- AUREL_DATA_MODE_COMPACT_V1_END -->
 </body></html>
 
