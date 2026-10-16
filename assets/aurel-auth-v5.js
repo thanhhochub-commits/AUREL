@@ -169,6 +169,12 @@ async function requireUnlock(){
  }
  if(unlockPromise)return unlockPromise;
  unlockPromise=(async()=>{
+  if(window.AURELCloudAuth?.restoreSession && await window.AURELCloudAuth.restoreSession()){
+   document.body.classList.add('aurel-auth-passed');
+   lastSeen=Date.now();
+   attachMenu();
+   return window.AURELAuthCore.username();
+  }
   const first=!(await window.AURELAuthCore.accounts()).length,ui=makeLogin(first);
   return new Promise(resolve=>{
    let busy=false;
