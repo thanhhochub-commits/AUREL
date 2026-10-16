@@ -22748,11 +22748,12 @@ html body.aurel-page-scenario .scenario-settings .scenario-run{margin-top:14px!i
  padding:0!important;
  overflow:hidden!important;
  isolation:isolate!important;
- border:1px solid #dce6ed!important;
+ border:1px solid #d6e4ed!important;
  border-radius:14px!important;
- box-shadow:0 6px 20px rgba(19,48,69,.045)!important;
- background:#fff!important;
+ box-shadow:0 5px 18px rgba(17,52,78,.055)!important;
+ background:#ffffff!important;
  color:#17384a!important;
+ color-scheme:light!important;
 }
 #aurel-data-mode-panel .aurel-data-mode-title{
  appearance:none!important;
@@ -22796,7 +22797,7 @@ html body.aurel-page-scenario .scenario-settings .scenario-run{margin-top:14px!i
 }
 #aurel-data-mode-panel .aurel-mode-status{
  color:#38748a!important;
- background:#eff7fa!important;
+ background:#eaf4f9!important;
  border:1px solid #d8ebf0!important;
  padding:4px 10px!important;
  border-radius:999px!important;
@@ -22859,22 +22860,40 @@ html body.aurel-page-scenario .scenario-settings .scenario-run{margin-top:14px!i
  transform:none!important;
  position:static!important;
 }
-body.aurel-dark-theme #aurel-data-mode-panel{
- background:#132437!important;
- border-color:#304861!important;
- color:#edf5fd!important;
- box-shadow:none!important;
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel{
+ background:#102030!important;
+ background-image:linear-gradient(135deg,#132537 0%,#0f1e2d 100%)!important;
+ border-color:#2c475e!important;
+ color:#e9f4fc!important;
+ box-shadow:0 8px 22px rgba(0,0,0,.16)!important;
+ color-scheme:dark!important;
 }
-body.aurel-dark-theme #aurel-data-mode-panel .aurel-data-mode-title strong,
-body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-options label{color:#edf5fd!important}
-body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-status{
- color:#a7e0f3!important;
- background:#1a3950!important;
- border-color:#30516a!important;
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-data-mode-title strong,
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-mode-options label,
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-mode-options label span{color:#edf5fd!important;-webkit-text-fill-color:#edf5fd!important}
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-mode-status{
+ color:#afe8f5!important;
+ -webkit-text-fill-color:#afe8f5!important;
+ background:#17364a!important;
+ border-color:#375a71!important;
 }
-body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-options{border-top-color:#304861!important}
-body.aurel-dark-theme #aurel-data-mode-panel .aurel-mode-options input[type="radio"]{accent-color:#75bdde!important}
-body.aurel-dark-theme #aurel-data-mode-panel .aurel-data-mode-title:hover{background:rgba(114,190,228,.065)!important}
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-mode-options{
+ background:transparent!important;
+ border-top-color:#2b4559!important;
+}
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-mode-options input[type="radio"]{
+ accent-color:#75bdde!important;
+ color-scheme:dark!important;
+}
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-data-mode-title{
+ color:#e9f4fc!important;
+ background:transparent!important;
+}
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-data-mode-title svg{
+ stroke:#b1d0df!important;
+ color:#b1d0df!important;
+}
+body.aurel-dark-theme .main #root > #aurel-data-mode-panel .aurel-data-mode-title:hover{background:rgba(114,190,228,.07)!important}
 @media(max-width:850px){
  .main #root > #aurel-data-mode-panel{margin:0 0 16px!important;border-radius:12px!important}
  #aurel-data-mode-panel .aurel-data-mode-title{min-height:50px!important;padding:12px 14px!important}
