@@ -190,7 +190,9 @@ async function requireUnlock(){
     try{
      const name=await (ui.isRegister()?window.AURELAuthCore.register(ui.user.value,ui.pass.value):window.AURELAuthCore.login(ui.user.value,ui.pass.value));
      document.body.classList.add('aurel-auth-passed');
-     ui.wall.remove();attachMenu();lastSeen=Date.now();resolve(name);
+     ui.wall.remove();attachMenu();lastSeen=Date.now();
+     try{window.AURELWelcome?.show()}catch(e){console.warn('AUREL welcome skipped:',e)}
+     resolve(name);
     }catch(e){ui.error.style.display='block';ui.error.textContent=e.message||'Không thể kết nối hệ thống tài khoản.';if((e.message||'').includes('đã có người sử dụng'))ui.user.focus()}
     finally{ui.submit.disabled=false;ui.submit.textContent=ui.isRegister()?'Tạo tài khoản':'Đăng nhập';busy=false;ui.pass.value='';ui.confirm.value=''}
    });
