@@ -134,7 +134,7 @@ function refresh(){
 }
 function schedule(){
   if(scheduled)return;scheduled=true;
-  setTimeout(function(){scheduled=false;refresh()},90);
+  requestAnimationFrame(function(){scheduled=false;refresh()});
 }
 function init(){
   var main=document.querySelector('.main'),bar=main&&main.querySelector('.topbar');
