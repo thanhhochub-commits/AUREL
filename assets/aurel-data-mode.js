@@ -1,8 +1,8 @@
 (function(){
 'use strict';
-/* AUREL_DATA_MODE_V1 — visual pseudonymization, raw financial values are not edited. */
+/* AUREL_DATA_MODE_V3 — data-source page only, sequential bank aliases, values unchanged. */
 if(window.AURELDataMode)return;
-var mode='protected',scheduled=false, originals=new WeakMap(), attributeOriginals=new WeakMap();
+var mode='protected',scheduled=false, panelRef=null, originals=new WeakMap(), attributeOriginals=new WeakMap();
 var aliases=new Map(),concealCache=new Map();
 var BANKS=[
 ['ABB','ABBANK'],['ACB','ACB'],['BAB','BAC A BANK'],['BID','BIDV'],
@@ -14,7 +14,7 @@ var BANKS=[
 ['TPB','TPBANK'],['VAB','VIETABANK'],['VBB','VIETBANK'],
 ['VCB','VIETCOMBANK'],['VIB','VIB'],['VPB','VPBANK'],['SCB','SCB'],
 ['AGRIBANK','AGRIBANK']];
-var codeForBank=new Map();
+var codeForBank=new Map(),otherBankCodes=new Map(),nextBankCode=BANKS.length+1;
 function normalize(s){return String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('vi')}
 function stableHash(s){
   var h=2166136261,s1=normalize(s);
@@ -31,8 +31,11 @@ function pseudonym(type,key){
   if(type==='bank'){
     var known=codeForBank.get(k.toUpperCase().replace(/[^A-Z]/g,''));
     if(known)return known;
+    var id=normalize(k);
+    if(!otherBankCodes.has(id))otherBankCodes.set(id,'BANK_'+String(nextBankCode++).padStart(3,'0'));
+    return otherBankCodes.get(id);
   }
-  return (type==='bank'?'BANK_':'DN_')+stableHash(k)
+  return 'DN_'+stableHash(k)
 }
 function remember(name,code){
   var k=normalize(name);
@@ -124,7 +127,27 @@ function fixAttributes(el){
     }
   });
 }
+function isDataPage(){
+  var btn=document.querySelector('#nav button[data-page="data"].active');
+  return !!btn;
+}
+function mountPanel(){
+  var root=document.getElementById('root'),panel=panelRef;
+  if(!root||!panel)return;
+  if(!isDataPage()){
+    if(panel.parentNode)panel.remove();
+    return;
+  }
+  var head=root.querySelector(':scope > .page-head');
+  if(head){
+    if(panel.parentNode!==root || panel.previousElementSibling!==head)
+      head.insertAdjacentElement('afterend',panel);
+  }else if(panel.parentNode!==root||panel!==root.firstElementChild){
+    root.insertBefore(panel,root.firstChild);
+  }
+}
 function refresh(){
+  mountPanel();
   registerSelects();
   [document.querySelector('.main'),document.querySelector('.sidebar'),document.getElementById('modal')].filter(Boolean).forEach(function(root){
     var walk=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),node;
@@ -137,15 +160,16 @@ function schedule(){
   requestAnimationFrame(function(){scheduled=false;refresh()});
 }
 function init(){
-  var main=document.querySelector('.main'),bar=main&&main.querySelector('.topbar');
-  if(!main||!bar||document.getElementById('aurel-data-mode-panel'))return;
+  var main=document.querySelector('.main'),root=document.getElementById('root');
+  if(!main||!root||panelRef)return;
   var panel=document.createElement('section');panel.id='aurel-data-mode-panel';
   panel.setAttribute('aria-label','Chế độ dữ liệu');
   panel.innerHTML='<div class="aurel-data-mode-title"><strong>Chế độ dữ liệu</strong>'+
     '<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="7.5" ry="3"/><path d="M4.5 5v7c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3V5M4.5 12v7c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3v-7"/></svg></div>'+
     '<label><input type="radio" name="aurel-data-mode" value="public"><span>Công khai (Public)</span></label>'+
     '<label><input type="radio" name="aurel-data-mode" value="protected" checked><span>Bảo vệ dữ liệu (Protected)</span></label>';
-  bar.insertAdjacentElement('afterend',panel);
+  panelRef=panel;
+  mountPanel();
   panel.addEventListener('change',function(event){
     var item=event.target;
     if(item&&item.name==='aurel-data-mode'&&/^(public|protected)$/.test(item.value)){
@@ -154,7 +178,7 @@ function init(){
     }
   });
   var observer=new MutationObserver(schedule);
-  observer.observe(document.querySelector('.shell')||main,{subtree:true,childList:true,characterData:true});
+  observer.observe(document.querySelector('.shell')||main,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['class']});
   document.addEventListener('aurel:dom-render',schedule);
   document.addEventListener('change',schedule,true);
   window.AURELDataMode=Object.freeze({getMode:function(){return mode}});
