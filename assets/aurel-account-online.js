@@ -55,6 +55,30 @@ async function access(){
  })();
  return refreshPending;
 }
+/* Restore an existing tab session after F5. Do not store credentials or bypass token expiry. */
+let restorePending=null;
+async function restoreSession(){
+ if(current)return true;
+ if(restorePending)return restorePending;
+ restorePending=(async()=>{
+  try{
+   const raw=sessionStorage.getItem('aurel_online_v6');
+   if(!raw)return false;
+   const saved=JSON.parse(raw),username=normalize(saved?.username),expiry=Number(saved?.expiry);
+   if(!username||typeof saved?.id!=='string'||!saved.id||
+      typeof saved?.access!=='string'||!saved.access||
+      typeof saved?.refresh!=='string'||!saved.refresh||
+      !Number.isFinite(expiry)||expiry<=0)throw Error('Invalid saved session');
+   current={username,displayUsername:username,id:saved.id,access:saved.access,refresh:saved.refresh,expiry};
+   await access(); // Refresh the access token when close to expiry.
+   return !!current;
+  }catch(_){
+   clearSession(); // Invalid, expired or revoked refresh token: show normal login.
+   return false;
+  }
+ })().finally(()=>{restorePending=null});
+ return restorePending;
+}
 async function migrateIfEmpty(request,upload){
  if(!migration||!current)return {migrated:false};
  const old=migration;
@@ -73,7 +97,7 @@ async function migrateIfEmpty(request,upload){
  migration=null;
  return {migrated:true,count:old.rows.length,pdfs:old.pdfs.length};
 }
-window.AURELCloudAuth={access,migrateIfEmpty,clearSession,displayUsername:()=>current?.displayUsername||current?.username||''};
+window.AURELCloudAuth={access,restoreSession,migrateIfEmpty,clearSession,displayUsername:()=>current?.displayUsername||current?.username||''};
 window.AURELAuthCore={
  accounts:async()=>['online-existing'],
  register:(username,password)=>enter('register',username,password),
