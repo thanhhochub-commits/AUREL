@@ -8,7 +8,7 @@ function normalize(s){return String(s||'').trim().normalize('NFC').toLowerCase()
 function clearSession(){current=null;try{sessionStorage.removeItem('aurel_online_v6')}catch(_){}}
 function saveSession(){
  if(!current)return;
- try{sessionStorage.setItem('aurel_online_v6',JSON.stringify({username:current.username,id:current.id,access:current.access,refresh:current.refresh,expiry:current.expiry}))}catch(_){}
+ try{sessionStorage.setItem('aurel_online_v6',JSON.stringify({username:current.username,displayUsername:current.displayUsername||current.username,id:current.id,access:current.access,refresh:current.refresh,expiry:current.expiry}))}catch(_){}
 }
 async function post(action,payload,token=''){
  const r=await fetch(ENDPOINT+"?action="+encodeURIComponent(action),{
@@ -69,7 +69,8 @@ async function restoreSession(){
       typeof saved?.access!=='string'||!saved.access||
       typeof saved?.refresh!=='string'||!saved.refresh||
       !Number.isFinite(expiry)||expiry<=0)throw Error('Invalid saved session');
-   current={username,displayUsername:username,id:saved.id,access:saved.access,refresh:saved.refresh,expiry};
+   const displayUsername=typeof saved.displayUsername==='string'&&normalize(saved.displayUsername)===username?saved.displayUsername:username;
+   current={username,displayUsername,id:saved.id,access:saved.access,refresh:saved.refresh,expiry};
    await access(); // Refresh the access token when close to expiry.
    return !!current;
   }catch(_){
