@@ -3,7 +3,7 @@
 /* AUREL_DATA_MODE_V1 — visual pseudonymization, raw financial values are not edited. */
 if(window.AURELDataMode)return;
 var mode='protected',scheduled=false, originals=new WeakMap(), attributeOriginals=new WeakMap();
-var aliases=new Map();
+var aliases=new Map(),concealCache=new Map();
 var BANKS=[
 ['ABB','ABBANK'],['ACB','ACB'],['BAB','BAC A BANK'],['BID','BIDV'],
 ['BVB','BAOVIETBANK'],['CTG','VIETINBANK'],['EIB','EXIMBANK'],
@@ -37,7 +37,7 @@ function pseudonym(type,key){
 function remember(name,code){
   var k=normalize(name);
   if(k.length<2||/^(chọn|select|tất cả|all\b)/i.test(k))return;
-  aliases.set(k,code);
+  if(aliases.get(k)!==code){aliases.set(k,code);concealCache.clear()}
 }
 BANKS.forEach(function(pair){var code=pseudonym('bank',pair[0]);remember(pair[0],code);remember(pair[1],code)});
 [
@@ -75,7 +75,8 @@ function escapeRegExp(x){return x.replace(/[-/\\^$*+?.()|[\]{}]/g,'\\$&')}
 function conceal(value){
   if(!value||!String(value).trim())return value;
   var input=String(value),s=input.trim(),direct=aliases.get(normalize(s));
-  if(direct)return input.replace(s,direct);
+  if(concealCache.has(input))return concealCache.get(input);
+  if(direct){var out=input.replace(s,direct);concealCache.set(input,out);return out}
   var output=input;
   Array.from(aliases.entries()).filter(function(e){return e[0].length>=4})
   .sort(function(a,b){return b[0].length-a[0].length}).forEach(function(pair){
@@ -83,7 +84,9 @@ function conceal(value){
     output=output.replace(re,function(m,prefix){return prefix+pair[1]});
   });
   if(output===input&&/^(?:Công ty(?:\s+(?:TNHH|cổ phần|CP|trách nhiệm hữu hạn))?|CTCP|Tập đoàn|Doanh nghiệp)\s+.{3,110}$/iu.test(s)
-   && !/[.!?]\s+\S/.test(s))return input.replace(s,pseudonym('enterprise',s));
+   && !/[.!?]\s+\S/.test(s))output=input.replace(s,pseudonym('enterprise',s));
+  if(concealCache.size>3500)concealCache.clear();
+  concealCache.set(input,output);
   return output;
 }
 function skip(n){return !n.parentElement||!!n.parentElement.closest('#aurel-data-mode-panel,#aurel-auth-wall,script,style,noscript,textarea,code,pre,[contenteditable],svg')}
