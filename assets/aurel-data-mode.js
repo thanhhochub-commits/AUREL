@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-/* AUREL_DATA_MODE_V3 — data-source page only, sequential bank aliases, values unchanged. */
+/* AUREL_DATA_MODE_V4 — sequence only imported banks by choices order, not global ticker rank. */
 if(window.AURELDataMode)return;
 var mode='protected',scheduled=false, panelRef=null, originals=new WeakMap(), attributeOriginals=new WeakMap();
 var aliases=new Map(),concealCache=new Map();
@@ -14,26 +14,27 @@ var BANKS=[
 ['TPB','TPBANK'],['VAB','VIETABANK'],['VBB','VIETBANK'],
 ['VCB','VIETCOMBANK'],['VIB','VIB'],['VPB','VPBANK'],['SCB','SCB'],
 ['AGRIBANK','AGRIBANK']];
-var codeForBank=new Map(),otherBankCodes=new Map(),nextBankCode=BANKS.length+1;
+/* The first distinct bank in #bank-select gets BANK_001; later banks are numbered on first appearance. */
+var bankCodes=new Map(),bankIdentities=new Map(),nextBankCode=1;
 function normalize(s){return String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('vi')}
 function stableHash(s){
   var h=2166136261,s1=normalize(s);
   for(var i=0;i<s1.length;i++){h^=s1.charCodeAt(i);h=Math.imul(h,16777619)}
   return String(((h>>>0)%900000)+100000)
 }
-BANKS.forEach(function(pair,i){
-  var code='BANK_'+String(i+1).padStart(3,'0');
-  codeForBank.set(pair[0],code);
-  if(!codeForBank.has(pair[1]))codeForBank.set(pair[1],code);
+BANKS.forEach(function(pair){
+  bankIdentities.set(normalize(pair[0]),pair[0]);
+  bankIdentities.set(normalize(pair[1]),pair[0]);
 });
+function bankIdentity(key){
+  return bankIdentities.get(normalize(key))||normalize(key);
+}
 function pseudonym(type,key){
   var k=String(key||'').trim();
   if(type==='bank'){
-    var known=codeForBank.get(k.toUpperCase().replace(/[^A-Z]/g,''));
-    if(known)return known;
-    var id=normalize(k);
-    if(!otherBankCodes.has(id))otherBankCodes.set(id,'BANK_'+String(nextBankCode++).padStart(3,'0'));
-    return otherBankCodes.get(id);
+    var identity=bankIdentity(k);
+    if(!bankCodes.has(identity))bankCodes.set(identity,'BANK_'+String(nextBankCode++).padStart(3,'0'));
+    return bankCodes.get(identity);
   }
   return 'DN_'+stableHash(k)
 }
@@ -42,7 +43,13 @@ function remember(name,code){
   if(k.length<2||/^(chọn|select|tất cả|all\b)/i.test(k))return;
   if(aliases.get(k)!==code){aliases.set(k,code);concealCache.clear()}
 }
-BANKS.forEach(function(pair){var code=pseudonym('bank',pair[0]);remember(pair[0],code);remember(pair[1],code)});
+/* Register spelling variants only for banks actually present in the uploaded dataset. */
+function rememberBankVariants(key,code){
+  var canonical=bankIdentity(key);
+  BANKS.forEach(function(pair){
+    if(pair[0]===canonical){remember(pair[0],code);remember(pair[1],code)}
+  });
+}
 [
 ['Ngân hàng TMCP Ngoại thương Việt Nam','VCB'],
 ['Ngân hàng TMCP Công thương Việt Nam','CTG'],
@@ -58,13 +65,35 @@ BANKS.forEach(function(pair){var code=pseudonym('bank',pair[0]);remember(pair[0]
 ['Ngân hàng TMCP Quốc tế Việt Nam','VIB'],
 ['Ngân hàng TMCP Phương Đông','OCB'],
 ['Ngân hàng TMCP Hàng Hải Việt Nam','MSB']
-].forEach(function(x){remember(x[0],pseudonym('bank',x[1]))});
+].forEach(function(x){bankIdentities.set(normalize(x[0]),bankIdentity(x[1]))});
+function rememberBankFullNames(code,identity){
+  [
+  ['Ngân hàng TMCP Ngoại thương Việt Nam','VCB'],
+  ['Ngân hàng TMCP Công thương Việt Nam','CTG'],
+  ['Ngân hàng TMCP Đầu tư và Phát triển Việt Nam','BID'],
+  ['Ngân hàng TMCP Kỹ thương Việt Nam','TCB'],
+  ['Ngân hàng TMCP Quân đội','MBB'],
+  ['Ngân hàng TMCP Việt Nam Thịnh Vượng','VPB'],
+  ['Ngân hàng TMCP Á Châu','ACB'],
+  ['Ngân hàng TMCP Sài Gòn Thương Tín','STB'],
+  ['Ngân hàng TMCP Phát triển Thành phố Hồ Chí Minh','HDB'],
+  ['Ngân hàng TMCP Tiên Phong','TPB'],
+  ['Ngân hàng TMCP Sài Gòn Hà Nội','SHB'],
+  ['Ngân hàng TMCP Quốc tế Việt Nam','VIB'],
+  ['Ngân hàng TMCP Phương Đông','OCB'],
+  ['Ngân hàng TMCP Hàng Hải Việt Nam','MSB']
+  ].forEach(function(x){if(bankIdentity(x[1])===identity)remember(x[0],code)})
+}
 function registerSelects(){
   document.querySelectorAll('#bank-select option').forEach(function(o){
     var name=originals.get(o.firstChild)||o.textContent||'',v=o.value||'';
     if(!v||/^(chọn|tất cả|all)/i.test(name))return;
-    var code=aliases.get(normalize(name))||pseudonym('bank',v);
+    /* The option sequence mirrors s.choices first-occurrence order in AUREL's controls(). */
+    var code=pseudonym('bank',v);
     remember(name,code);remember(v,code);
+    rememberBankVariants(v,code);
+    rememberBankVariants(name,code);
+    rememberBankFullNames(code,bankIdentity(v));
   });
   document.querySelectorAll('select[id*="company" i],select[name*="company" i],select[id*="enterprise" i],select[name*="enterprise" i],select[id*="doanh" i]').forEach(function(sel){
     sel.querySelectorAll('option').forEach(function(o){
