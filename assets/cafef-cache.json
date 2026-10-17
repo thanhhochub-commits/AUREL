@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-17T04:37:16.726257+00:00",
+ "generated_at": "2026-10-17T10:53:29.178366+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:11.792725+00:00",
+   "retrieved_at": "2026-10-17T10:53:24.249623+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -150,6 +150,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -178,24 +196,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:42.441112+00:00",
+   "retrieved_at": "2026-10-17T10:52:59.746246+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,6 +336,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -364,24 +382,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:16.725655+00:00",
+   "retrieved_at": "2026-10-17T10:53:29.177678+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,6 +494,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -522,24 +540,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:01.238624+00:00",
+   "retrieved_at": "2026-10-17T10:53:17.912631+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -704,6 +704,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -732,24 +750,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -761,7 +761,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:42.453487+00:00",
+   "retrieved_at": "2026-10-17T10:52:58.593331+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -890,6 +890,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -918,24 +936,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -947,7 +947,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:15.385072+00:00",
+   "retrieved_at": "2026-10-17T10:53:27.875932+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1048,6 +1048,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -1076,24 +1094,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1105,7 +1105,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:06.694755+00:00",
+   "retrieved_at": "2026-10-17T10:53:18.495535+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1234,6 +1234,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -1262,24 +1280,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1291,7 +1291,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:44.416262+00:00",
+   "retrieved_at": "2026-10-17T10:52:59.729611+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1420,6 +1420,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -1448,24 +1466,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1477,7 +1477,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:01.259377+00:00",
+   "retrieved_at": "2026-10-17T10:53:16.003379+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1606,6 +1606,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -1634,24 +1652,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1663,7 +1663,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:53.884016+00:00",
+   "retrieved_at": "2026-10-17T10:53:09.404241+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1735,6 +1735,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -1763,24 +1781,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1794,7 +1794,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:06.693274+00:00",
+   "retrieved_at": "2026-10-17T10:53:21.604826+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1923,6 +1923,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -1951,24 +1969,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1980,7 +1980,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:53.907615+00:00",
+   "retrieved_at": "2026-10-17T10:53:07.199536+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2109,6 +2109,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -2137,24 +2155,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2166,7 +2166,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:49.943020+00:00",
+   "retrieved_at": "2026-10-17T10:53:07.934066+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2295,6 +2295,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -2323,24 +2341,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2352,7 +2352,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:57.792691+00:00",
+   "retrieved_at": "2026-10-17T10:53:14.395159+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2481,6 +2481,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -2509,24 +2527,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2538,7 +2538,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:05.211036+00:00",
+   "retrieved_at": "2026-10-17T10:53:19.600668+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2667,6 +2667,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -2695,24 +2713,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2724,7 +2724,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:09.059860+00:00",
+   "retrieved_at": "2026-10-17T10:53:22.927330+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2877,6 +2877,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -2905,24 +2923,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2934,7 +2934,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:59.991631+00:00",
+   "retrieved_at": "2026-10-17T10:53:14.309334+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3063,6 +3063,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -3091,24 +3109,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3120,7 +3120,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:06.652023+00:00",
+   "retrieved_at": "2026-10-17T10:53:20.454359+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3261,6 +3261,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -3289,24 +3307,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3318,7 +3318,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:09.030462+00:00",
+   "retrieved_at": "2026-10-17T10:53:24.048473+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3495,6 +3495,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -3523,24 +3541,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3552,7 +3552,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:57.771900+00:00",
+   "retrieved_at": "2026-10-17T10:53:13.019200+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3681,6 +3681,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -3709,24 +3727,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3738,7 +3738,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:57.774179+00:00",
+   "retrieved_at": "2026-10-17T10:53:12.686808+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3867,6 +3867,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -3895,24 +3913,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3924,7 +3924,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:49.954829+00:00",
+   "retrieved_at": "2026-10-17T10:53:07.949242+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4053,6 +4053,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -4081,24 +4099,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4110,7 +4110,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:46.232849+00:00",
+   "retrieved_at": "2026-10-17T10:52:59.728104+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4182,6 +4182,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -4210,24 +4228,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4241,7 +4241,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:51.903803+00:00",
+   "retrieved_at": "2026-10-17T10:53:07.208205+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4370,6 +4370,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -4398,24 +4416,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4427,7 +4427,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:37:16.708530+00:00",
+   "retrieved_at": "2026-10-17T10:53:27.877200+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4499,6 +4499,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -4527,24 +4545,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4558,7 +4558,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:42.662103+00:00",
+   "retrieved_at": "2026-10-17T10:52:59.754048+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4687,6 +4687,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -4715,24 +4733,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4744,7 +4744,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:49.947227+00:00",
+   "retrieved_at": "2026-10-17T10:53:07.209527+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4873,6 +4873,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -4901,24 +4919,6 @@
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4930,7 +4930,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-17T04:36:42.442854+00:00",
+   "retrieved_at": "2026-10-17T10:52:58.606361+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5059,6 +5059,24 @@
    ],
    "market_news": [
     {
+     "title": "Chứng khoán Rồng Việt công bố kết quả kinh doanh Quý 3 và 9 tháng đầu năm 2026",
+     "url": "https://cafef.vn/chung-khoan-rong-viet-cong-bo-ket-qua-kinh-doanh-quy-3-va-9-thang-dau-nam-2026-188261017123036935.chn",
+     "date": "2026-10-17T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán UP gia hạn thời gian chào bán cổ phiếu riêng lẻ thêm 1 tháng",
+     "url": "https://cafef.vn/chung-khoan-up-gia-han-thoi-gian-chao-ban-co-phieu-rieng-le-them-1-thang-188261017131614964.chn",
+     "date": "2026-10-17T06:16:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Lý do Chứng khoán Bảo Minh tạm hoãn kế hoạch niêm yết cổ phiếu trên HoSE",
+     "url": "https://cafef.vn/ly-do-chung-khoan-bao-minh-tam-hoan-ke-hoach-niem-yet-co-phieu-tren-hose-188261017131317679.chn",
+     "date": "2026-10-17T06:13:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá vàng cuối tuần bật tăng trở lại",
      "url": "https://cafef.vn/gia-vang-cuoi-tuan-bat-tang-tro-lai-188261017102958359.chn",
      "date": "2026-10-17T03:36:00+00:00",
@@ -5086,24 +5104,6 @@
      "title": "Một cá nhân gom thêm hơn 5 triệu cổ phiếu AGG",
      "url": "https://cafef.vn/mot-ca-nhan-gom-them-hon-5-trieu-co-phieu-agg-188261017083720006.chn",
      "date": "2026-10-17T02:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức sau 15 năm 'làm nông': Miệt mài 'đổi cây, đổi con' tìm hướng đi cho HAGL",
-     "url": "https://cafef.vn/bau-duc-sau-15-nam-lam-nong-miet-mai-doi-cay-doi-con-tim-huong-di-cho-hagl-188261017083819316.chn",
-     "date": "2026-10-17T02:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-     "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
-     "date": "2026-10-17T00:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
-     "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
-     "date": "2026-10-16T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
