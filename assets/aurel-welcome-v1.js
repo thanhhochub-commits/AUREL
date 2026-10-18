@@ -1,7 +1,7 @@
 (function(){
  'use strict';
  if(window.AURELWelcome)return;
- const VIDEO_URL='https://aurel-media-resources.floot.app/_cdn/static/e95034a8-7a7c-4515-95b2-fcc806741872-aurel_welcome_logo_lower_sharp_v3.mp4';
+ const VIDEO_URL='https://aurel-media-resources.floot.app/_cdn/static/eb014755-effb-4ee1-bcdc-c6d0658d05d3-aurel_welcome_logo_lower_audio_v5.mp4';
  let intro=null;
  function show(){
   // A welcome belongs to a newly completed login, not a reload restoring an active session.
@@ -22,12 +22,13 @@
   video.setAttribute('webkit-playsinline','');
   video.disablePictureInPicture=true;
   video.controls=false;
-  video.muted=true;
-  video.volume=0;
+  video.muted=false;
+  video.volume=1;
   const actions=document.createElement('div');actions.className='aw-actions';
   const skip=document.createElement('button');skip.type='button';skip.textContent='Bỏ qua';skip.setAttribute('aria-label','Bỏ qua video chào mừng');
+  const sound=document.createElement('button');sound.type='button';sound.textContent='Bật tiếng và phát';sound.hidden=true;sound.setAttribute('aria-label','Bật âm thanh và phát video chào mừng');
   const loading=document.createElement('div');loading.className='aw-loading';loading.textContent='Đang chuẩn bị không gian AUREL…';
-  actions.append(skip);layer.append(style,video,loading,actions);
+  actions.append(sound,skip);layer.append(style,video,loading,actions);
   intro=layer;
   document.body.appendChild(layer);
   let started=false;
@@ -47,10 +48,26 @@
   video.addEventListener('error',finish,{once:true});
   // On a failed or very slow media load, do not leave the app behind a blocking cover.
   watchdog=setTimeout(finish,15000);
+  // Sound is enabled by default. Browser autoplay policy can still require a user click.
+  function offerSoundPlayback(){
+   if(closing)return;
+   sound.hidden=false;
+   loading.textContent='Nhấn “Bật tiếng và phát” để xem video có âm thanh.';
+   clearTimeout(watchdog);
+   watchdog=setTimeout(finish,60000);
+  }
+  sound.addEventListener('click',()=>{
+   if(closing)return;
+   video.muted=false;video.volume=1;
+   sound.hidden=true;
+   const result=video.play();
+   if(result&&typeof result.catch==='function')result.catch(offerSoundPlayback);
+  });
   function startPlayback(){
    if(closing)return;
+   video.muted=false;video.volume=1;
    const result=video.play();
-   if(result&&typeof result.catch==='function')result.catch(finish);
+   if(result&&typeof result.catch==='function')result.catch(offerSoundPlayback);
   }
   startPlayback();
  }
