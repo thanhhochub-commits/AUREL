@@ -4,6 +4,8 @@
 if(window.AURELDataMode)return;
 var mode='protected',scheduled=false, panelRef=null, originals=new WeakMap(), attributeOriginals=new WeakMap();
 var aliases=new Map(),concealCache=new Map();
+var bankAliasKeys=new Set(),lastTextMask=new WeakMap(),lastAttrMasks=new WeakMap(),bankOptionPositions=new WeakMap();
+var importedBankOrder=[],lastOrderSignature='',pendingOrderSignature='';
 var BANKS=[
 ['ABB','ABBANK'],['ACB','ACB'],['BAB','BAC A BANK'],['BID','BIDV'],
 ['BVB','BAOVIETBANK'],['CTG','VIETINBANK'],['EIB','EXIMBANK'],
@@ -41,6 +43,7 @@ function pseudonym(type,key){
 function remember(name,code){
   var k=normalize(name);
   if(k.length<2||/^(chọn|select|tất cả|all\b)/i.test(k))return;
+  if(/^BANK_\d+$/.test(code))bankAliasKeys.add(k);
   if(aliases.get(k)!==code){aliases.set(k,code);concealCache.clear()}
 }
 /* Register spelling variants only for banks actually present in the uploaded dataset. */
@@ -85,16 +88,72 @@ function rememberBankFullNames(code,identity){
   ].forEach(function(x){if(bankIdentity(x[1])===identity)remember(x[0],code)})
 }
 function registerSelects(){
-  document.querySelectorAll('#bank-select option').forEach(function(o){
+  var selector=document.getElementById('bank-select');
+  var options=selector?Array.from(selector.options).filter(function(o){
+    var name=originals.get(o.firstChild)||o.textContent||'';
+    return !!o.value&&!/^(chọn|tất cả|all)/i.test(name);
+  }):[];
+  options.forEach(function(o,i){if(!bankOptionPositions.has(o))bankOptionPositions.set(o,i)});
+  /* Backend choices are alphabetical. Protected aliases must follow import/row order instead. */
+  var signature=JSON.stringify(options.map(function(o){return bankIdentity(o.value)}).sort());
+  if(options.length&&signature!==lastOrderSignature&&signature!==pendingOrderSignature&&
+     typeof window.AURELScopedFetchState==='function'){
+    pendingOrderSignature=signature;
+    window.AURELScopedFetchState('','').then(function(state){
+      if(pendingOrderSignature!==signature)return;
+      if(Array.isArray(state.bank_ingest_order)){
+        importedBankOrder=state.bank_ingest_order;
+      }else{
+        /* Compatibility until the server exposes its exact first-seen order. */
+        importedBankOrder=[];
+        (state.data_files||[]).forEach(function(file){
+          String(file.banks||'').split(/\s*,\s*/).filter(Boolean).forEach(function(bank){importedBankOrder.push(bank)});
+        });
+      }
+      lastOrderSignature=signature;
+      pendingOrderSignature='';
+      schedule();
+    }).catch(function(){if(pendingOrderSignature===signature){pendingOrderSignature='';lastOrderSignature=signature}});
+  }
+  var active=new Map();
+  options.forEach(function(o){active.set(bankIdentity(o.value),true)});
+  var order=[];
+  function addBank(name){
+    var key=bankIdentity(name);
+    if(active.has(key)&&!order.includes(key))order.push(key);
+  }
+  importedBankOrder.forEach(addBank);
+  options.forEach(function(o){addBank(o.value)});
+  var assigned=new Map();
+  order.forEach(function(k,i){assigned.set(k,'BANK_'+String(i+1).padStart(3,'0'))});
+  var changed=assigned.size!==bankCodes.size||
+    Array.from(assigned).some(function(item){return bankCodes.get(item[0])!==item[1]});
+  if(changed){
+    bankAliasKeys.forEach(function(k){if(/^BANK_\d+$/.test(aliases.get(k)||''))aliases.delete(k)});
+    bankAliasKeys.clear();
+    bankCodes=assigned;
+    nextBankCode=assigned.size+1;
+    concealCache.clear();
+  }
+  options.forEach(function(o){
     var name=originals.get(o.firstChild)||o.textContent||'',v=o.value||'';
-    if(!v||/^(chọn|tất cả|all)/i.test(name))return;
-    /* The option sequence mirrors s.choices first-occurrence order in AUREL's controls(). */
     var code=pseudonym('bank',v);
     remember(name,code);remember(v,code);
     rememberBankVariants(v,code);
     rememberBankVariants(name,code);
     rememberBankFullNames(code,bankIdentity(v));
   });
+  /* Sort aliases only in Protected mode; Public mode restores original option order. */
+  if(selector&&options.length>1){
+    var ordered=options.slice().sort(mode==='protected'
+      ?function(a,b){return (bankCodes.get(bankIdentity(a.value))||'').localeCompare(bankCodes.get(bankIdentity(b.value))||'')}
+      :function(a,b){return bankOptionPositions.get(a)-bankOptionPositions.get(b)});
+    if(ordered.some(function(o,i){return o!==options[i]})){
+      var selected=selector.value;
+      ordered.forEach(function(o){selector.appendChild(o)});
+      selector.value=selected;
+    }
+  }
   document.querySelectorAll('select[id*="company" i],select[name*="company" i],select[id*="enterprise" i],select[name*="enterprise" i],select[id*="doanh" i]').forEach(function(sel){
     sel.querySelectorAll('option').forEach(function(o){
       var name=originals.get(o.firstChild)||o.textContent||'';
@@ -124,33 +183,36 @@ function conceal(value){
 function skip(n){return !n.parentElement||!!n.parentElement.closest('#aurel-data-mode-panel,#aurel-auth-wall,script,style,noscript,textarea,code,pre,[contenteditable],svg')}
 function fixText(node){
   if(skip(node))return;
-  var now=node.nodeValue||'',old=originals.get(node);
+  var now=node.nodeValue||'',old=originals.get(node),previousMask=lastTextMask.get(node);
   if(mode==='public'){
     if(old!==undefined){
-      if(now===conceal(old))node.nodeValue=old;
-      originals.delete(node);
+      if(now===previousMask||now===conceal(old))node.nodeValue=old;
+      originals.delete(node);lastTextMask.delete(node);
     }
     return;
   }
-  var raw=old!==undefined&&now===conceal(old)?old:now,replacement=conceal(raw);
+  var raw=old!==undefined&&(now===previousMask||now===conceal(old))?old:now,replacement=conceal(raw);
   if(replacement!==raw){
-    originals.set(node,raw);
+    originals.set(node,raw);lastTextMask.set(node,replacement);
     if(now!==replacement)node.nodeValue=replacement;
-  }else if(old!==undefined&&now!==conceal(old))originals.delete(node);
+  }else if(old!==undefined&&now!==previousMask&&now!==conceal(old)){
+    originals.delete(node);lastTextMask.delete(node);
+  }
 }
 function fixAttributes(el){
   if(el.closest('#aurel-data-mode-panel,#aurel-auth-wall'))return;
   ['title','aria-label'].forEach(function(name){
     if(!el.hasAttribute(name))return;
-    var now=el.getAttribute(name),saved=attributeOriginals.get(el)||{},was=saved[name];
+    var now=el.getAttribute(name),saved=attributeOriginals.get(el)||{},was=saved[name],masks=lastAttrMasks.get(el)||{},lastMask=masks[name];
     if(mode==='public'){
-      if(was!==undefined&&now===conceal(was))el.setAttribute(name,was);
-      delete saved[name];
-      attributeOriginals.set(el,saved);
+      if(was!==undefined&&(now===lastMask||now===conceal(was)))el.setAttribute(name,was);
+      delete saved[name];delete masks[name];
+      attributeOriginals.set(el,saved);lastAttrMasks.set(el,masks);
     }else{
-      var raw=was!==undefined&&now===conceal(was)?was:now,masked=conceal(raw);
+      var raw=was!==undefined&&(now===lastMask||now===conceal(was))?was:now,masked=conceal(raw);
       if(masked!==raw){
         saved[name]=raw;attributeOriginals.set(el,saved);
+        masks[name]=masked;lastAttrMasks.set(el,masks);
         if(now!==masked)el.setAttribute(name,masked);
       }
     }
