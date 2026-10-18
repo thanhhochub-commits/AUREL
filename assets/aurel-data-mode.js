@@ -102,8 +102,19 @@ function registerSelects(){
   var privateSource=window.AURELPrivateAnalytics&&window.AURELPrivateAnalytics.active()&&
       window.AURELPrivateAnalytics.getReport;
   if(privateSource){
-    var privateRows=window.AURELPrivateAnalytics.getReport().rows||[];
-    importedBankOrder=Array.from(new Set(privateRows.map(function(r){return r.bank}).filter(Boolean)));
+    var report=window.AURELPrivateAnalytics.getReport();
+    var privateRows=report.rows||[];
+    var fileOrder=new Map();
+    (report.files||[]).slice().sort(function(a,b){
+      return String(a.savedAt||'').localeCompare(String(b.savedAt||''));
+    }).forEach(function(f,i){if(!fileOrder.has(f.name))fileOrder.set(f.name,i)});
+    /* readFiles returns newest first; savedAt restores the actual upload chronology. */
+    var chronological=privateRows.map(function(row,i){return {row:row,index:i}}).sort(function(a,b){
+      var ia=fileOrder.has(a.row.source_file)?fileOrder.get(a.row.source_file):Number.MAX_SAFE_INTEGER;
+      var ib=fileOrder.has(b.row.source_file)?fileOrder.get(b.row.source_file):Number.MAX_SAFE_INTEGER;
+      return ia-ib||a.index-b.index;
+    });
+    importedBankOrder=Array.from(new Set(chronological.map(function(x){return x.row.bank}).filter(Boolean)));
     pendingOrderSignature='';
     lastOrderSignature=signature;
     lastOrderSource='private';
