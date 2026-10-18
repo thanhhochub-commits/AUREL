@@ -5,7 +5,7 @@ if(window.AURELDataMode)return;
 var mode='protected',scheduled=false, panelRef=null, originals=new WeakMap(), attributeOriginals=new WeakMap();
 var aliases=new Map(),concealCache=new Map();
 var bankAliasKeys=new Set(),lastTextMask=new WeakMap(),lastAttrMasks=new WeakMap(),bankOptionPositions=new WeakMap();
-var importedBankOrder=[],lastOrderSignature='',pendingOrderSignature='';
+var importedBankOrder=[],lastOrderSignature='',pendingOrderSignature='',lastOrderSource='';
 var BANKS=[
 ['ABB','ABBANK'],['ACB','ACB'],['BAB','BAC A BANK'],['BID','BIDV'],
 ['BVB','BAOVIETBANK'],['CTG','VIETINBANK'],['EIB','EXIMBANK'],
@@ -106,7 +106,9 @@ function registerSelects(){
     importedBankOrder=Array.from(new Set(privateRows.map(function(r){return r.bank}).filter(Boolean)));
     pendingOrderSignature='';
     lastOrderSignature=signature;
-  }else if(lastOrderSignature===signature&&pendingOrderSignature==='__private__'){
+    lastOrderSource='private';
+  }else if(lastOrderSource==='private'){
+    lastOrderSource='';
     lastOrderSignature='';
     pendingOrderSignature='';
     importedBankOrder=[];
@@ -126,6 +128,7 @@ function registerSelects(){
         });
       }
       lastOrderSignature=signature;
+      lastOrderSource='backend';
       pendingOrderSignature='';
       schedule();
     }).catch(function(){if(pendingOrderSignature===signature){pendingOrderSignature='';lastOrderSignature=signature}});
