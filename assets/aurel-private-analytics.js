@@ -337,7 +337,7 @@ async function ingest(files){
    }
    for(var r of records){allKeys.add(r.bank+'|'+r.year+'|'+r.metric_id)}
    next.push(...records);
-   info.push({name:file.meta.name,count:records.length,banks:[...new Set(records.map(x=>x.bank))].join(', '),years:[...new Set(records.map(x=>x.year))].sort().join(', ')});
+   info.push({name:file.meta.name,savedAt:file.meta.savedAt||'',count:records.length,banks:[...new Set(records.map(x=>x.bank))].join(', '),years:[...new Set(records.map(x=>x.year))].sort().join(', ')});
   }catch(e){errs.push(file.meta.name+': '+e.message);info.push({name:file.meta.name,count:0,error:e.message})}
  }
  groupCheck(next);
