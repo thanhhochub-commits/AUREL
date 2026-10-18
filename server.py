@@ -1117,6 +1117,8 @@ def snapshot(bank=None,year=None):
         bucket=file_map.setdefault(name,{'name':name,'rows':0,'banks':set(),'years':set()})
         bucket['rows']+=1;bucket['banks'].add(r['bank']);bucket['years'].add(r['year'])
     data_files=[dict(name=item['name'],rows=item['rows'],banks=', '.join(sorted(item['banks'])),years=', '.join(str(y) for y in sorted(item['years']))) for item in file_map.values()]
+    # Metadata for Protected mode only: import/row-first-seen order, not alphabetical choices.
+    bank_ingest_order=list(dict.fromkeys(r['bank'] for r in rows))
     choices=sorted({(r['bank'],r['year']) for r in rows})
     if not choices:
         return dict(has_data=False,choices=[],rows_count=0,documents=docs,data_files=data_files,data_files_count=len(data_files),revision=rev,ai=ai,
@@ -1136,7 +1138,7 @@ def snapshot(bank=None,year=None):
     pairs={b:dict(values=val(rows,b,year),ratios=financial_ratios(rows,b,year))
            for b in sorted({r['bank'] for r in rows if r['year']==year})}
     has_refs=sum(1 for r in raw if r['source_page'] and r['source_file'] in {d['name'] for d in docs})
-    return dict(has_data=True,bank=bank,year=year,choices=[dict(bank=b,year=y) for b,y in choices],
+    return dict(has_data=True,bank=bank,year=year,choices=[dict(bank=b,year=y) for b,y in choices],bank_ingest_order=bank_ingest_order,
         rows_count=len(rows),docs_count=len(docs),documents=docs,data_files=data_files,data_files_count=len(data_files),revision=rev,ai=ai,
         fields=FIELDS,values=v,raw=raw,ratios=financial_ratios(rows,bank,year),risk=risk_rules(rows,bank,year),
         growth={k:growth(rows,bank,year,k) for k in FIELDS},series=series,ratio_series=ratio_series,comparison=pairs,
