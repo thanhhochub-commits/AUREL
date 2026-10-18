@@ -1,7 +1,7 @@
 (function(){
  'use strict';
  if(window.AURELWelcome)return;
- const VIDEO_URL='https://aurel-assets-20260929.floot.app/_cdn/static/356d1274-1fd6-49f9-97de-0d3d18a1cb84-aurel_welcome_crisp_silent_20261017_v4.mp4';
+ const VIDEO_URL='https://aurel-media-resources.floot.app/_cdn/static/cc42e22a-1938-4b3e-bc03-b09f3b1c8607-aurel_welcome_final_no_gemini.mp4';
  let intro=null;
  function show(){
   // A welcome belongs to a newly completed login, not a reload restoring an active session.
