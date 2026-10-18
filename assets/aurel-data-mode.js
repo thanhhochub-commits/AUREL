@@ -16,7 +16,7 @@ var BANKS=[
 ['TPB','TPBANK'],['VAB','VIETABANK'],['VBB','VIETBANK'],
 ['VCB','VIETCOMBANK'],['VIB','VIB'],['VPB','VPBANK'],['SCB','SCB'],
 ['AGRIBANK','AGRIBANK']];
-/* The first distinct bank in #bank-select gets BANK_001; later banks are numbered on first appearance. */
+/* Protected pseudonyms follow each account's first imported bank, never alphabetical menu order. */
 var bankCodes=new Map(),bankIdentities=new Map(),nextBankCode=1;
 function normalize(s){return String(s||'').normalize('NFC').replace(/\s+/g,' ').trim().toLocaleLowerCase('vi')}
 function stableHash(s){
@@ -95,8 +95,23 @@ function registerSelects(){
   }):[];
   options.forEach(function(o,i){if(!bankOptionPositions.has(o))bankOptionPositions.set(o,i)});
   /* Backend choices are alphabetical. Protected aliases must follow import/row order instead. */
-  var signature=JSON.stringify(options.map(function(o){return bankIdentity(o.value)}).sort());
-  if(options.length&&signature!==lastOrderSignature&&signature!==pendingOrderSignature&&
+  var owner='';
+  try{owner=window.AURELCloudAuth?.displayUsername?.()||window.AURELLocalAuth?.username?.()||''}catch(e){}
+  var signature=JSON.stringify([owner,options.map(function(o){return bankIdentity(o.value)}).sort()]);
+  /* PRIVATE imports stay on the device: use those original row positions directly. */
+  var privateSource=window.AURELPrivateAnalytics&&window.AURELPrivateAnalytics.active()&&
+      window.AURELPrivateAnalytics.getReport;
+  if(privateSource){
+    var privateRows=window.AURELPrivateAnalytics.getReport().rows||[];
+    importedBankOrder=Array.from(new Set(privateRows.map(function(r){return r.bank}).filter(Boolean)));
+    pendingOrderSignature='';
+    lastOrderSignature=signature;
+  }else if(lastOrderSignature===signature&&pendingOrderSignature==='__private__'){
+    lastOrderSignature='';
+    pendingOrderSignature='';
+    importedBankOrder=[];
+  }
+  if(!privateSource&&options.length&&signature!==lastOrderSignature&&signature!==pendingOrderSignature&&
      typeof window.AURELScopedFetchState==='function'){
     pendingOrderSignature=signature;
     window.AURELScopedFetchState('','').then(function(state){
