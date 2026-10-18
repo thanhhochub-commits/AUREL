@@ -155,6 +155,7 @@ class Store:
     def __init__(self):
         self.lock=threading.RLock()
         self.rows=[]; self.docs={}; self.ai={}; self.revision=0
+        self.bank_ingest_order=[]  # Protected-mode aliases: original bank arrival order.
         self.csrf=secrets.token_urlsafe(24)
         self.pdf_previews={}
         self.pdf_jobs={}
@@ -201,6 +202,12 @@ def _device_init(store,key,installation_key,account_token):
     store.account_id=owner
     store.account_token=account_token
     store.rows=list(payload.get('rows') or [])
+    # Backwards-compatible migration: infer preexisting order only once, then persist it.
+    present=list(dict.fromkeys(r['bank'] for r in store.rows if r.get('bank')))
+    saved=payload.get('bank_ingest_order')
+    saved=saved if isinstance(saved,list) else []
+    store.bank_ingest_order=list(dict.fromkeys(
+        [b for b in saved if isinstance(b,str) and b in present]+present))
     store.remote_revision=rev
     store.remote_documents=list(payload.get('documents') or [])
     docs={}
@@ -218,7 +225,12 @@ def _persist_device():
     if store is None or not valid_owner(store.account_id) or store.device_key!=_ACTIVE_DEVICE.get():
         raise PermissionError('Phiên không thuộc tài khoản hiện tại.')
     with store.lock:
+        present=list(dict.fromkeys(r['bank'] for r in store.rows if r.get('bank')))
+        # Keep IDs stable if one bank's data is overwritten after another bank arrives.
+        store.bank_ingest_order=[b for b in store.bank_ingest_order if b in present]
+        store.bank_ingest_order.extend(b for b in present if b not in store.bank_ingest_order)
         payload={'rows':[dict(r) for r in store.rows],
+                 'bank_ingest_order':list(store.bank_ingest_order),
                  'documents':[dict(d) for d in store.remote_documents]}
         store.remote_revision=account_save(store.account_token,payload,store.remote_revision)
 
@@ -1110,6 +1122,7 @@ def evaluation_csv_payload(bank,year,manual_truth=None):
 def snapshot(bank=None,year=None):
     with STORE.lock:
         rows=[r.copy() for r in STORE.rows]; docs=[dict(name=k,pages=len(v['pages']),text_pages=v['text_pages']) for k,v in STORE.docs.items()];rev=STORE.revision;ai={k:dict(v) for k,v in STORE.ai.items()}
+        saved_ingest_order=list(STORE.bank_ingest_order)
     file_map={}
     for r in rows:
         name=str(r.get('source_file','') or '').strip()
@@ -1118,7 +1131,9 @@ def snapshot(bank=None,year=None):
         bucket['rows']+=1;bucket['banks'].add(r['bank']);bucket['years'].add(r['year'])
     data_files=[dict(name=item['name'],rows=item['rows'],banks=', '.join(sorted(item['banks'])),years=', '.join(str(y) for y in sorted(item['years']))) for item in file_map.values()]
     # Metadata for Protected mode only: import/row-first-seen order, not alphabetical choices.
-    bank_ingest_order=list(dict.fromkeys(r['bank'] for r in rows))
+    present=list(dict.fromkeys(r['bank'] for r in rows))
+    bank_ingest_order=[b for b in saved_ingest_order if b in present]
+    bank_ingest_order.extend(b for b in present if b not in bank_ingest_order)
     choices=sorted({(r['bank'],r['year']) for r in rows})
     if not choices:
         return dict(has_data=False,choices=[],rows_count=0,documents=docs,data_files=data_files,data_files_count=len(data_files),revision=rev,ai=ai,
