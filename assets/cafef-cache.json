@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-19T20:38:00.602571+00:00",
+ "generated_at": "2026-10-20T00:25:40.616422+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:57.750311+00:00",
+   "retrieved_at": "2026-10-20T00:25:39.834205+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -150,6 +150,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -190,12 +196,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:30.738104+00:00",
+   "retrieved_at": "2026-10-20T00:25:19.143703+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,6 +336,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -376,12 +382,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:38:00.602001+00:00",
+   "retrieved_at": "2026-10-20T00:25:40.219893+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,6 +494,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -534,12 +540,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:48.574597+00:00",
+   "retrieved_at": "2026-10-20T00:25:31.475825+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -704,6 +704,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -744,12 +750,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -761,7 +761,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:30.760213+00:00",
+   "retrieved_at": "2026-10-20T00:25:19.138497+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -890,6 +890,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -930,12 +936,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -947,7 +947,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:38:00.419401+00:00",
+   "retrieved_at": "2026-10-20T00:25:40.615525+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1048,6 +1048,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -1088,12 +1094,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1105,7 +1105,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:52.128071+00:00",
+   "retrieved_at": "2026-10-20T00:25:35.281598+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1234,6 +1234,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -1274,12 +1280,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1291,7 +1291,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:32.438777+00:00",
+   "retrieved_at": "2026-10-20T00:25:19.172770+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1420,6 +1420,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -1460,12 +1466,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1477,7 +1477,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:48.235480+00:00",
+   "retrieved_at": "2026-10-20T00:25:31.452062+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1606,6 +1606,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -1646,12 +1652,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1663,7 +1663,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:39.561475+00:00",
+   "retrieved_at": "2026-10-20T00:25:26.588722+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1735,6 +1735,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -1775,12 +1781,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1794,7 +1794,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:53.787073+00:00",
+   "retrieved_at": "2026-10-20T00:25:35.604763+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1923,6 +1923,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -1963,12 +1969,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1980,7 +1980,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:41.723480+00:00",
+   "retrieved_at": "2026-10-20T00:25:25.316643+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2109,6 +2109,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -2149,12 +2155,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2166,7 +2166,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:37.722859+00:00",
+   "retrieved_at": "2026-10-20T00:25:25.282974+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2295,6 +2295,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -2335,12 +2341,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2352,7 +2352,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:47.514053+00:00",
+   "retrieved_at": "2026-10-20T00:25:30.577937+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2481,6 +2481,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -2521,12 +2527,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2538,7 +2538,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:52.210294+00:00",
+   "retrieved_at": "2026-10-20T00:25:35.480285+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2667,6 +2667,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -2707,12 +2713,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2724,7 +2724,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:54.115562+00:00",
+   "retrieved_at": "2026-10-20T00:25:36.903168+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2877,6 +2877,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -2917,12 +2923,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2934,7 +2934,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:47.500391+00:00",
+   "retrieved_at": "2026-10-20T00:25:30.571427+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3063,6 +3063,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -3103,12 +3109,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3120,7 +3120,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:54.096031+00:00",
+   "retrieved_at": "2026-10-20T00:25:35.432117+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3261,6 +3261,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -3301,12 +3307,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3318,7 +3318,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:53.781642+00:00",
+   "retrieved_at": "2026-10-20T00:25:36.271289+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3495,6 +3495,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -3535,12 +3541,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3552,7 +3552,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:45.640508+00:00",
+   "retrieved_at": "2026-10-20T00:25:30.567692+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3681,6 +3681,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -3721,12 +3727,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3738,7 +3738,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:45.635578+00:00",
+   "retrieved_at": "2026-10-20T00:25:30.325479+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3867,6 +3867,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -3907,12 +3913,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3924,7 +3924,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:40.140695+00:00",
+   "retrieved_at": "2026-10-20T00:25:25.537185+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4053,6 +4053,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -4093,12 +4099,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4110,7 +4110,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:32.443140+00:00",
+   "retrieved_at": "2026-10-20T00:25:19.162658+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4182,6 +4182,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -4222,12 +4228,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4241,7 +4241,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:42.107226+00:00",
+   "retrieved_at": "2026-10-20T00:25:25.297909+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4370,6 +4370,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -4410,12 +4416,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4427,7 +4427,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:38:00.342933+00:00",
+   "retrieved_at": "2026-10-20T00:25:40.331041+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4499,6 +4499,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -4539,12 +4545,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4558,7 +4558,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:33.948972+00:00",
+   "retrieved_at": "2026-10-20T00:25:19.171215+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4687,6 +4687,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -4727,12 +4733,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4744,7 +4744,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:38.022618+00:00",
+   "retrieved_at": "2026-10-20T00:25:25.318232+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4873,6 +4873,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -4913,12 +4919,6 @@
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4930,7 +4930,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-19T20:37:30.726229+00:00",
+   "retrieved_at": "2026-10-20T00:25:19.160995+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5059,6 +5059,12 @@
    ],
    "market_news": [
     {
+     "title": "Doanh nghiệp điện công bố quyết định quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-dien-cong-bo-quyet-dinh-quan-trong-188261019231925826.chn",
+     "date": "2026-10-19T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "CTCK chỉ ra ba nhóm cổ phiếu có định giá rẻ, kỳ vọng \"bay cao\" năm 2027",
      "url": "https://cafef.vn/ctck-chi-ra-ba-nhom-co-phieu-co-dinh-gia-re-ky-vong-bay-cao-nam-2027-188261019225347126.chn",
      "date": "2026-10-19T17:06:00+00:00",
@@ -5097,12 +5103,6 @@
     {
      "title": "Người phụ nữ Việt Nam đầu tiên trở thành General Partner của quỹ mạo hiểm đầu tư vào OpenAI, Anthropic, SpaceX, Neuralink, Lambda…",
      "url": "https://cafef.vn/nguoi-phu-nu-viet-nam-dau-tien-tro-thanh-general-partner-cua-quy-mao-hiem-dau-tu-vao-openai-anthropic-spacex-neuralink-lambda-188261019183238955.chn",
-     "date": "2026-10-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CTCK gọi tên 2 doanh nghiệp hưởng lợi trực tiếp từ đề xuất giảm thuế xuất khẩu phân bón",
-     "url": "https://cafef.vn/ctck-goi-ten-2-doanh-nghiep-huong-loi-truc-tiep-tu-de-xuat-giam-thue-xuat-khau-phan-bon-188261019172918598.chn",
      "date": "2026-10-19T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
