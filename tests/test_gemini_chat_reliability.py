@@ -114,6 +114,85 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn("await request('api/ai/chat',{question:q,history:before}",script)
         self.assertIn('aurel-chat-answer-tail',script)
 
+    def test_public_web_search_only_when_information_is_dynamic(self):
+        self.assertTrue(server._aurel_chat_needs_web('Lãi suất hôm nay của VCB là bao nhiêu?'))
+        self.assertTrue(server._aurel_chat_needs_web('Tỷ giá mới nhất Vietcombank'))
+        self.assertTrue(server._aurel_chat_needs_web('Latest technology news'))
+        self.assertFalse(server._aurel_chat_needs_web('Giải thích khái niệm tỷ giá'))
+        self.assertFalse(server._aurel_chat_needs_web('Hãy giúp tôi học tiếng Anh'))
+
+    def test_chat_uses_google_search_for_current_external_bank_question(self):
+        captured={}
+        def generate(token,payload,models,**kwargs):
+            captured['payload']=payload
+            return {'text':'VCB hiện có các bảng lãi suất theo từng kỳ hạn.',
+                    'model':'gemini-2.5-flash','grounded':True,
+                    'sources':[{'title':'Vietcombank','url':'https://www.vietcombank.com.vn'}]}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            result=server.ai_chat('Lãi suất hôm nay của VCB là bao nhiêu?')
+        self.assertEqual(captured['payload']['tools'],[{'google_search':{}}])
+        self.assertIn('Không giới hạn',captured['payload']['system_instruction']['parts'][0]['text']
+                      .replace('KHÔNG giới hạn','Không giới hạn'))
+        self.assertEqual(result['sources'][0]['title'],'Vietcombank')
+        self.assertTrue(result['grounded'])
+
+    def test_general_question_uses_gemini_without_web_or_bank_file(self):
+        captured={}
+        def generate(token,payload,models,**kwargs):
+            captured['payload']=payload
+            return {'text':'Câu trả lời khoa học.','model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            result=server.ai_chat('Hãy giải thích thuyết tương đối')
+        self.assertNotIn('tools',captured['payload'])
+        self.assertEqual(result['reply'],'Câu trả lời khoa học.')
+
+    def test_grounding_sources_only_https_and_no_duplicates(self):
+        payload={'candidates':[{'content':{'parts':[{'text':'Đã tìm thấy'}]},
+          'groundingMetadata':{'groundingChunks':[
+            {'web':{'uri':'https://vcb.com.vn/rates','title':'Lãi suất VCB'}},
+            {'web':{'uri':'javascript:alert(1)','title':'Bad source'}},
+            {'web':{'uri':'https://vcb.com.vn/rates','title':'Duplicated source'}},
+            {'web':{'uri':'http://example.com','title':'Not https'}},
+          ]}}]}
+        sources=server._aurel_chat_grounding_sources(payload)
+        self.assertEqual(sources,[{'title':'Lãi suất VCB','url':'https://vcb.com.vn/rates'}])
+
+    def test_model_search_tool_rejected_falls_back_without_faking_fresh_data(self):
+        err=HTTPError('https://generativelanguage.googleapis.com',400,
+                      'bad request',{},io.BytesIO(
+                          b'{"error":{"message":"google_search tool is not supported"}}'))
+        captured=[]
+        def generate(token,payload,models,**kwargs):
+            captured.append(payload)
+            if payload.get('tools'):
+                raise ValueError('AUREL_SEARCH_GROUNDING_UNAVAILABLE')
+            return {'text':'Không có dữ liệu lãi suất xác minh hôm nay.',
+                    'model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            result=server.ai_chat('Lãi suất VCB hôm nay')
+        self.assertIn('tools',captured[0])
+        self.assertNotIn('tools',captured[1])
+        self.assertIn('Chưa xác minh được dữ liệu trực tuyến',result['reply'])
+        self.assertFalse(result['grounded'])
+
+    def test_actual_http_search_tool_rejection_is_identified(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'Lãi suất hôm nay'}]}],
+                 'tools':[{'google_search':{}}]}
+        error=HTTPError('https://generativelanguage.googleapis.com',400,
+                        'bad request',{},io.BytesIO(b'{"error":{"message":"google_search unavailable"}}'))
+        with patch.object(server,'urlopen',side_effect=error):
+            with self.assertRaisesRegex(ValueError,'AUREL_SEARCH_GROUNDING_UNAVAILABLE'):
+                server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=15)
+
     def test_metadata_check_is_not_claimed_ready(self):
         with patch.object(server,'gemini_credentials',return_value=
                           ('key','gemini-3.8-flash',['gemini-3.8-flash'])), \
@@ -183,7 +262,7 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('tiếng Anh',result['reply'])
 
 
-    def test_chat_prompt_is_finance_first_but_can_answer_explicit_other_topic(self):
+    def test_chat_prompt_allows_any_topic_not_just_aurel_data(self):
         captured={}
         def generate(_token,payload,_models,**_kwargs):
             captured['instructions']=payload['system_instruction']['parts'][0]['text']
@@ -194,9 +273,8 @@ class GeminiChatReliability(unittest.TestCase):
              patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-3.8-flash']), \
              patch.object(server,'_aurel_chat_generate',side_effect=generate):
             result=server.ai_chat('Giúp mình luyện tiếng Anh')
-        self.assertIn('MẶC ĐỊNH ngữ cảnh',captured['instructions'])
-        self.assertIn('Khi khách chủ động hỏi cụ thể về một chủ đề ngoài website',
-                      captured['instructions'])
+        self.assertIn('MỌI CHỦ ĐỀ',captured['instructions'])
+        self.assertIn('KHÔNG giới hạn câu trả lời',captured['instructions'])
         self.assertEqual(captured['question'],'Giúp mình luyện tiếng Anh')
         self.assertFalse(result['refused'])
 
