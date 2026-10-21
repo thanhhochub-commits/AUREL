@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - server.py
+      - financial-intelligence.html
       - tests/test_gemini_chat_reliability.py
       - .github/workflows/gemini-chat-reliability.yml
   workflow_dispatch:
@@ -21,3 +22,14 @@ jobs:
         run: python -m py_compile server.py
       - name: Test Gemini reliability with mocked HTTP responses
         run: python -m unittest discover -s tests -p 'test_gemini_chat_reliability.py' -v
+      - name: Verify syntax of embedded frontend JavaScript
+        run: |
+          python - <<'PY'
+          import base64, re
+          from pathlib import Path
+          html=Path('financial-intelligence.html').read_text('utf-8')
+          payload=re.search(r'const b="([A-Za-z0-9+/=]+)"',html)
+          assert payload, 'AUREL embedded JS missing'
+          Path('/tmp/aurel-main.js').write_bytes(base64.b64decode(payload.group(1),validate=True))
+          PY
+          node --check /tmp/aurel-main.js
