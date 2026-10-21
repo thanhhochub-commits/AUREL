@@ -3431,7 +3431,7 @@ def gemini_generation_check():
     token,configured,fallbacks=gemini_credentials()
     payload={'contents':[{'role':'user','parts':[{'text':'Trả lời chính xác một từ: OK'}]}],
              'generationConfig':{'maxOutputTokens':1024,
-                                 'thinkingConfig':{'thinkingBudget':1024}}}
+                                 'thinkingConfig':{'thinkingBudget':0}}}
     try:
         result=_aurel_chat_generate(token,payload,_aurel_chat_model_choices('OK',fallbacks,token),
             max_seconds=25,max_calls=4)
