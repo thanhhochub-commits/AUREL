@@ -2995,8 +2995,21 @@ def gemini_error(e):
     if isinstance(payload,dict):
         msg=((payload.get('error') or {}).get('message') if isinstance(payload.get('error'),dict) else '') or ''
         detail=(' '+msg.strip()) if msg else ''
-    if e.code in (401,403):
-        message='Gemini từ chối xác thực hoặc quyền truy cập. Kiểm tra GEMINI_API_KEY và quyền dùng mô hình trong Google AI Studio.'
+    if e.code==403 and 'your project has been denied access' in detail.lower():
+        # Model listing may succeed even when Google blocks inference for the key's project.
+        # This is a project/account permission refusal, not an AUREL connectivity issue.
+        raise ValueError(
+            'PROJECT_ACCESS_DENIED: Google từ chối quyền tạo phản hồi của dự án '
+            'gắn với API key (HTTP 403). Khóa có thể đọc danh sách mô hình nhưng '
+            'dự án chưa được phép sử dụng Gemini để trò chuyện. '
+            'Kiểm tra trạng thái dự án tại Google AI Studio > Projects/API Keys, '
+            'các cảnh báo trong Google Cloud Console và yêu cầu Google hỗ trợ '
+            'xem xét quyền truy cập. Không thể khắc phục bằng cách thử gửi liên tục.'
+        ) from e
+    if e.code==401:
+        message='Google không chấp nhận API key (HTTP 401). Kiểm tra khóa trong Google AI Studio.'
+    elif e.code==403:
+        message='Google từ chối quyền truy cập Gemini (HTTP 403). Kiểm tra quyền của khóa, dự án và mô hình.'
     elif e.code==404:
         message='Không tìm thấy mô hình Gemini. Kiểm tra AUREL_GEMINI_MODEL và quyền truy cập mô hình.'
     elif e.code==429:
@@ -3411,9 +3424,14 @@ def gemini_generation_check():
         result=_aurel_chat_generate(token,payload,_aurel_chat_model_choices('OK',fallbacks,token),
             max_seconds=25,max_calls=4)
     except ValueError as e:
-        return {'connected':True,'generation_ready':False,'model':info.get('model'),
-                'message':'API key đã được xác thực, nhưng Gemini chưa tạo được phản hồi kiểm tra. '
-                          'Đây chưa phải kết nối chat sẵn sàng. '+str(e)}
+        detail=str(e)
+        project_denied='PROJECT_ACCESS_DENIED' in detail
+        # Never label a model-listing success as a working chat connection.
+        return {'connected':False,'metadata_verified':True,'generation_ready':False,
+                'error_code':'PROJECT_ACCESS_DENIED' if project_denied else 'GENERATION_NOT_READY',
+                'model':info.get('model'),
+                'message':('Google đã chặn quyền truy cập dự án. ' if project_denied
+                           else 'Đã kiểm tra danh sách mô hình, nhưng chưa tạo được phản hồi thực tế. ')+detail}
     return {'connected':True,'generation_ready':True,'model':result['model'],
             'message':'Đã gửi và nhận thành công phản hồi Gemini. Trò chuyện đã sẵn sàng qua mô hình '+result['model']+'.'}
 
