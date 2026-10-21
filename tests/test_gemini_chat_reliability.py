@@ -113,6 +113,39 @@ class GeminiChatReliability(unittest.TestCase):
                 self.assertNotIn('học tập',result['reply'])
                 self.assertNotIn('đời sống',result['reply'])
 
+    def test_generic_introduction_only_recommends_aurel(self):
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_generate',
+                          side_effect=AssertionError('Generic onboarding must not call Gemini')):
+            for question in ('Xin chào', 'Bạn là ai?', 'Bạn có thể làm gì?',
+                             'AUREL là gì?', 'Web này làm gì?'):
+                result=server.ai_chat(question)
+                self.assertTrue(result.get('local'),question)
+                self.assertIn('trợ lý AI AUREL',result['reply'])
+                self.assertIn('báo cáo tài chính',result['reply'])
+                self.assertNotIn('đời sống',result['reply'])
+                self.assertNotIn('du lịch',result['reply'])
+                self.assertNotIn('tiếng Anh',result['reply'])
+
+    def test_explicit_nonfinancial_question_is_not_replaced_by_generic_welcome(self):
+        captured={}
+        def generate(_token,payload,_models,**_kwargs):
+            captured['question']=payload['contents'][-1]['parts'][0]['text']
+            return {'text':'Cách luyện tiếng Anh hiệu quả là luyện nói mỗi ngày.',
+                    'model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            question='Chào bạn, giúp tôi luyện nói tiếng Anh.'
+            result=server.ai_chat(question)
+        self.assertEqual(captured['question'],question)
+        self.assertNotIn('local',result)
+        self.assertIn('tiếng Anh',result['reply'])
+
+
     def test_chat_prompt_is_finance_first_but_can_answer_explicit_other_topic(self):
         captured={}
         def generate(_token,payload,_models,**_kwargs):
