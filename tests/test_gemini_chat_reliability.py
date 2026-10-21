@@ -386,6 +386,21 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('tiếng Anh',result['reply'])
 
 
+    def test_aurel_chat_ui_is_branded_and_suggestions_stay_on_website(self):
+        page=(Path(__file__).resolve().parents[1]/'financial-intelligence.html').read_text('utf-8')
+        encoded=re.search(r'const b="([A-Za-z0-9+/=]+)",s=atob',page)
+        self.assertIsNotNone(encoded)
+        script=base64.b64decode(encoded.group(1)).decode('utf-8')
+        self.assertIn('Chào bạn! 😊 Mình là AI AUREL.',script)
+        self.assertIn('Hỏi AI AUREL về chỉ số tài chính hoặc cách sử dụng website',script)
+        self.assertIn('Đặt câu hỏi để AI AUREL hỗ trợ bạn.',script)
+        self.assertNotIn('Hỏi Gemini về tài chính, tin tức, khoa học',script)
+        self.assertNotIn('Phụ thuộc hạn mức Gemini.',script)
+        self.assertIn('Giải thích ý nghĩa các chỉ số ROA, ROE và NIM',script)
+        self.assertIn('Đối chiếu ngân hàng',page+script)
+        self.assertIn('AUREL_CHAT_GROWTH_WARM_SMILE_SCOPED_20261022',page)
+        self.assertIn('var changed=false;',page)
+
     def test_generic_welcome_and_question_suggestions_focus_on_aurel_website(self):
         prompts=[]
         def generate(_token,payload,_models,**_kwargs):
@@ -405,7 +420,9 @@ class GeminiChatReliability(unittest.TestCase):
             self.assertIn('CHẾ ĐỘ CHÀO HỎI/GỢI Ý TRỢ GIÚP AUREL',instructions)
             self.assertIn('Đối chiếu ngân hàng',instructions)
             self.assertIn('Nguồn dữ liệu',instructions)
-            self.assertIn('Không mở đầu bằng danh sách chủ đề kinh tế',instructions)
+            self.assertIn('KHÔNG đề xuất học tiếng Anh',instructions)
+            self.assertIn('KHÔNG nhắc Gemini',instructions)
+            self.assertIn('khoảng 45–85 từ',instructions)
 
     def test_explicit_other_topic_does_not_trigger_web_first_onboarding(self):
         prompts=[]
@@ -442,7 +459,7 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('Mọi câu hỏi thông thường phải được Gemini trả lời',captured['instructions'])
         self.assertIn('KHÔNG có dữ liệu',captured['instructions'])
         self.assertIn('Đừng quá cụt lủn',captured['instructions'])
-        self.assertIn('Không chèn emoji',captured['instructions'])
+        self.assertIn('Chỉ dùng tối đa một mặt cười nhẹ nhàng',captured['instructions'])
         self.assertEqual(captured['question'],'Giúp mình luyện tiếng Anh')
         self.assertFalse(result['refused'])
 
