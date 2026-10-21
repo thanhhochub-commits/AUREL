@@ -162,6 +162,8 @@ class Store:
         self.gemini_session_key=None
         self.gemini_chat_recent_model=''
         self.gemini_chat_model_cooldown={}
+        # A Search Grounding 429 may be separate from ordinary text generation quota.
+        self.gemini_grounding_unavailable_until=0
         self.upload_sessions={}
         self.device_key=None
         self.installation_key=None
@@ -3294,6 +3296,7 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
     network_error=False
     unsupported=False
     search_tool_unsupported=False
+    search_grounding_429=False
     requests_made=0
     for candidate in allowed:
         # Never spend a full client timeout on one overloaded model.
@@ -3321,6 +3324,12 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
                 sources=_aurel_chat_grounding_sources(raw)
                 return {'text':answer,'model':candidate,'sources':sources,'grounded':bool(sources)}
             except HTTPError as e:
+                # Free-tier Gemini can generate text even when Google Search Grounding
+                # is unavailable. Do not freeze ordinary chat on a grounded 429;
+                # the caller will make one plain-text probe with the SAME model.
+                if e.code==429 and payload.get('tools'):
+                    search_grounding_429=True
+                    break
                 if e.code in (400,403) and payload.get('tools'):
                     body=e.read()
                     explanation=body.decode('utf-8','ignore').lower()
@@ -3387,6 +3396,8 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
             except (UnicodeDecodeError,json.JSONDecodeError) as e:
                 raise ValueError('Phản hồi từ Gemini chưa đúng định dạng. Hãy thử lại.') from e
         if requests_made>=max_calls or deadline-time.monotonic()<4:break
+    if search_grounding_429:
+        raise ValueError('AUREL_SEARCH_GROUNDING_QUOTA')
     if rate_limited:
         with STORE.lock:
             source='khóa bạn vừa nhập' if _clean_gemini_key(STORE.gemini_session_key) else 'khóa cấu hình trên máy chủ'
@@ -3592,6 +3603,11 @@ def ai_chat(question, history=None):
             'tài khoản. Câu trả lời vẫn phải được mô hình AI tạo ra, không dùng mẫu cố định.'
         )
     needs_web=_aurel_chat_needs_web(q)
+    # Cache only confirmed Search restrictions per browser session, not model failures.
+    # Ordinary questions remain available through the same Gemini 3.5 Flash-Lite.
+    with STORE.lock:
+        search_blocked_until=getattr(STORE,'gemini_grounding_unavailable_until',0)
+    search_enabled=bool(needs_web and time.monotonic()>=search_blocked_until)
     if needs_web:
         system+=(' Với yêu cầu cập nhật này, chỉ khẳng định số liệu thời gian thực '
                  'nếu có nguồn trực tuyến xác minh được. Nếu không có công cụ hoặc nguồn, '
@@ -3601,7 +3617,7 @@ def ai_chat(question, history=None):
              'generationConfig':{
                                  'maxOutputTokens':1100 if web_first_onboarding else 3200,
                                  'thinkingConfig':{'thinkingLevel':'minimal'}}}
-    if needs_web:
+    if search_enabled:
         payload['tools']=[{'google_search':{}}]
     models=_aurel_chat_model_choices(q,fallbacks,token)
     try:
@@ -3611,8 +3627,9 @@ def ai_chat(question, history=None):
         # while plain text generation works. Retry without web only for explicit
         # Search-tool rejection or transient upstream 5xx, never for 429/403.
         failed_search_tool=str(e)=='AUREL_SEARCH_GROUNDING_UNAVAILABLE'
+        failed_search_quota=str(e)=='AUREL_SEARCH_GROUNDING_QUOTA'
         failed_search_upstream='HTTP 5xx' in str(e) and needs_web
-        if not needs_web or not (failed_search_tool or failed_search_upstream):
+        if not search_enabled or not (failed_search_tool or failed_search_quota or failed_search_upstream):
             raise
         no_search=dict(payload)
         no_search.pop('tools',None)
@@ -3621,7 +3638,12 @@ def ai_chat(question, history=None):
             'KHÔNG ĐƯỢC đưa ra lãi suất, giá, tỷ giá hay sự kiện như dữ liệu hiện hành '
             'khi không có nguồn xác minh. Chỉ đưa kiến thức tổng quát, '
             'nói rõ không xác minh được dữ liệu hôm nay.'}]}
+        # This call distinguishes a Search-tool restriction from an actual
+        # model-wide 429. If it also returns 429, normal quota cooldown applies.
         generated=_aurel_chat_generate(token,no_search,models,max_seconds=35,max_calls=2)
+        if failed_search_quota or failed_search_tool:
+            with STORE.lock:
+                STORE.gemini_grounding_unavailable_until=time.monotonic()+3600
     grounded=bool(generated.get('grounded'))
     answer=_aurel_chat_strip_unrequested_rules(generated['text'][:20000],q)
     # Prevent old, invented AUREL bank identifiers/domains leaking into public Gemini answers.
@@ -4635,6 +4657,7 @@ class Handler(BaseHTTPRequestHandler):
                     STORE.gemini_session_key=key
                     STORE.gemini_chat_recent_model=''
                     STORE.gemini_chat_model_cooldown={}
+                    STORE.gemini_grounding_unavailable_until=0
                 try:
                     checked=gemini_connection_check()
                 except ValueError as exc:
@@ -4665,6 +4688,7 @@ class Handler(BaseHTTPRequestHandler):
                     STORE.gemini_session_key=None
                     STORE.gemini_chat_recent_model=''
                     STORE.gemini_chat_model_cooldown={}
+                    STORE.gemini_grounding_unavailable_until=0
                 fallback=bool(_gemini_env_key())
                 return self.reply({'configured':fallback,'message':'Đã xóa khóa nhập trên web.'+(' Khóa từ biến môi trường máy chủ vẫn đang được sử dụng.' if fallback else '')})
             if path=='/api/ai/check':
