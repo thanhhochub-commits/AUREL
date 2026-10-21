@@ -23186,5 +23186,72 @@ body.aurel-dark-theme #root .aurel-chat-panel .aurel-chat-grounding-sources a{co
 body.aurel-dark-theme #root .aurel-chat-panel .aurel-chat-bullet,
 body.aurel-dark-theme #root .aurel-chat-panel .aurel-chat-list-number{color:#85c9e3}
 </style>
+
+<!-- AUREL_CHAT_GROWTH_WARM_SMILE_SCOPED_20261022: scoped presentation changes in the chat only -->
+<style id="AUREL_CHAT_GROWTH_WARM_SMILE_SCOPED_20261022_CSS">
+#root .aurel-chat-panel .aurel-chat-answer-tail{color:var(--ai-brand,#147e98)!important;opacity:.95!important}
+#root .aurel-chat-panel .aurel-chat-answer-tail svg.aurel-bctc-growth-icon{width:17px;height:17px;display:block;stroke:currentColor}
+body.aurel-dark-theme #root .aurel-chat-panel .aurel-chat-answer-tail{color:#90d5ea!important}
+</style>
+<script id="AUREL_CHAT_GROWTH_WARM_SMILE_SCOPED_20261022_JS">
+(function(){
+'use strict';
+var growthSVG='<svg class="aurel-bctc-growth-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Tăng trưởng tài chính">'
++'<path d="M2.8 21h18.7"/><path d="M5 20.5v-5h3v5M10.5 20.5v-8h3v8M16 20.5v-11h3v11"/>'
++'<path d="M3.6 12.3l5.3-4.8 4.1 2.8 6.6-7.1M15.9 3.2h3.7v3.7"/></svg>';
+var watched=null,queued=false,rootObserver=null;
+var panelObserver=new MutationObserver(schedule);
+function addSmile(message,pattern){
+ var walker=document.createTreeWalker(message,NodeFilter.SHOW_TEXT),node;
+ while((node=walker.nextNode())){
+  if(!node.nodeValue||!node.parentElement||node.parentElement.closest('pre,code,a,button,svg,.aurel-chat-answer-tail'))continue;
+  var m=pattern.exec(node.nodeValue);if(!m)continue;
+  var end=m.index+m[0].length;
+  if(/^[ \u00a0]*[😊☺🙂]/u.test(node.nodeValue.slice(end)))return false;
+  node.nodeValue=node.nodeValue.slice(0,end)+' 😊'+node.nodeValue.slice(end);
+  return true;
+ }
+ return false;
+}
+function update(){
+ queued=false;
+ var panel=document.querySelector('#root .aurel-chat-panel');
+ if(panel!==watched){
+  panelObserver.disconnect();watched=panel;
+  if(panel)panelObserver.observe(panel,{childList:true,subtree:true,characterData:true});
+ }
+ if(!panel)return;
+ panel.querySelectorAll('.aurel-chat-answer-tail').forEach(function(tail){
+  if(tail.dataset.aurelGrowthIcon==='20261022')return;
+  tail.innerHTML=growthSVG;tail.dataset.aurelGrowthIcon='20261022';
+ });
+ panel.querySelectorAll('.aurel-chat-line.is-ai:not(.is-error):not(.is-refused) .aurel-chat-message').forEach(function(msg){
+  if(msg.dataset.aurelWarmSmile==='20261022')return;
+  var visible=msg.textContent||'';if(!visible.trim())return;
+  var changed=false;
+  if(/Chào bạn!\s*Mình là AUREL/i.test(visible)){
+   changed=addSmile(msg,/Chào bạn!/i)||changed;
+   changed=addSmile(msg,/Hôm nay bạn cần mình hỗ trợ thông tin gì\?/i)||changed;
+  }else if(/^\s*(?:Xin chào(?: bạn)?[!,.]|Chào bạn[!,.]|Cảm ơn bạn[!,.])/i.test(visible)){
+   changed=addSmile(msg,/(?:Xin chào(?: bạn)?[!,.]|Chào bạn[!,.]|Cảm ơn bạn[!,.])/i)||changed;
+  }
+  if(changed||visible.length>30)msg.dataset.aurelWarmSmile='20261022';
+ });
+}
+function schedule(){if(queued)return;queued=true;requestAnimationFrame(update);}
+function init(){
+ var root=document.getElementById('root');
+ if(root&&!rootObserver){rootObserver=new MutationObserver(schedule);rootObserver.observe(root,{childList:true});}
+ schedule();
+}
+document.addEventListener('aurel:dom-render',schedule);
+document.addEventListener('click',function(e){
+ var nav=e.target&&e.target.closest?e.target.closest('#nav button[data-page="ai"]'):null;
+ if(nav){setTimeout(schedule,0);setTimeout(schedule,160);}
+},true);
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});
+else init();
+})();
+</script>
 </body></html>
 
