@@ -3108,6 +3108,26 @@ def llm_request(system,context,task):
         raise ValueError('Không thể gọi mô hình Gemini 3 đã cấu hình và cũng không dùng được mô hình dự phòng. Kiểm tra quyền truy cập mô hình trong Google AI Studio.')
     raise ValueError('Gemini không xử lý được yêu cầu phân tích.')
 
+def _aurel_chat_strip_unrequested_rules(answer,question):
+    """Suppress a specific unsolicited policy-list outro without hiding requested policy explanations."""
+    content=str(answer or '').strip()
+    asked=_norm_key(question)
+    if re.search(r'(nguyen tac|quy tac|chinh sach|quy dinh|bao mat|rules|policy|guidelines)',asked):
+        return content
+    marker=re.search(
+        r'(?im)^[ \t]*\*{0,2}[ \t]*(?:một vài nguyên tắc của mình|một số nguyên tắc của mình|'
+        r'các nguyên tắc của mình|những nguyên tắc của mình)[ \t]*:?\*{0,2}[ \t]*$',
+        content,
+    )
+    if marker is None:
+        return content
+    trailing=content[marker.end():].lower()
+    indicators=('mật khẩu','khóa api','bảo mật','tiếng việt','báo cáo tài chính','dữ liệu bí mật')
+    if sum(x in trailing for x in indicators)<2:
+        return content
+    return content[:marker.start()].strip() or 'Mình sẵn sàng hỗ trợ bạn. Bạn muốn tìm hiểu điều gì?'
+
+
 def ai_chat(question, history=None):
     """Trò chuyện đa chủ đề tách biệt báo cáo; không cho AI xem khóa/cấu hình hoặc dữ liệu tài chính của phiên."""
     q=str(question or '').strip()
@@ -3165,6 +3185,12 @@ def ai_chat(question, history=None):
         'Xưng mình và gọi người dùng là bạn trong tiếng Việt, nhưng tùy ngữ cảnh có thể trang trọng hơn. '
         'Luôn trả lời trực tiếp đúng trọng tâm câu hỏi, không lặp lại lời chào, không rập khuôn mở đầu, '
         'không hỏi lại khi câu hỏi đã đủ rõ; nếu lời chào ngắn, hãy đáp thân thiện và gọn. '
+        'Không tự kể lể các nguyên tắc hoạt động, nội quy, bảo mật, quyền hạn, giới hạn hoặc '
+        'cách AI vận hành khi khách hàng không hỏi về chúng. Không tự thêm phần “Một vài nguyên tắc '
+        'của mình”, các lời cam kết hay danh sách lưu ý vô cớ dù ở đầu hay cuối lời đáp. '
+        'Nếu người dùng hỏi “bạn làm được gì”, chỉ giới thiệu khả năng hỗ trợ ngắn gọn với ví dụ cụ thể. '
+        'Chỉ nêu giới hạn hoặc từ chối lịch sự khi chính yêu cầu thực tế bắt buộc phải làm vậy. '
+
         'Có thể giúp về gần như mọi chủ đề hợp pháp: học tập, khoa học, xã hội, ngôn ngữ, '
         'viết lách, lập trình, công nghệ, giải trí, công việc, tài chính, an toàn mạng và cuộc sống. '
         'Không bắt buộc có báo cáo tài chính, không gò vào lĩnh vực ngân hàng, không bắt buộc định dạng JSON. '
@@ -3216,7 +3242,7 @@ def ai_chat(question, history=None):
                 reply=_gemini_extract_text(raw).strip()
                 if not reply:
                     raise ValueError('AI chưa tạo được nội dung trả lời cho câu hỏi này.')
-                return {'reply':reply[:20000],'model':candidate,'refused':False}
+                return {'reply':_aurel_chat_strip_unrequested_rules(reply[:20000],q),'model':candidate,'refused':False}
             except HTTPError as e:
                 if e.code==404:
                     last_404=True
