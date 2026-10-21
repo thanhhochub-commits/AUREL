@@ -140,6 +140,34 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('HTTP 5xx',str(result.exception))
         self.assertNotIn('mô hình dự phòng',str(result.exception))
 
+    def test_503_failure_does_not_lock_next_greeting(self):
+        """Regression: a 503 on one question must not block the next question for 45s."""
+        payload={'contents':[{'role':'user','parts':[{'text':'hi'}]}]}
+        ok=self.response({'candidates':[{'content':{'parts':[{'text':'Chào bạn!'}]}}]})
+        with patch.object(server,'urlopen',side_effect=[
+                self.error(503),self.error(503),self.error(503),ok]) as transport, \
+             patch.object(server.time,'sleep',return_value=None):
+            with self.assertRaisesRegex(ValueError,'HTTP 5xx'):
+                server._aurel_chat_generate('fake-test-key',payload,
+                    ['gemini-3-flash-preview'],max_seconds=45,max_calls=3)
+            self.assertEqual(self.store.gemini_chat_model_cooldown,{})
+            answer=server._aurel_chat_generate('fake-test-key',payload,
+                    ['gemini-3-flash-preview'],max_seconds=45,max_calls=1)
+        self.assertEqual(answer['text'],'Chào bạn!')
+        self.assertEqual(transport.call_count,4)
+        self.assertEqual(self.store.gemini_chat_model_cooldown,{})
+
+    def test_429_quota_still_requires_cooldown(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'hi'}]}]}
+        with patch.object(server,'urlopen',side_effect=self.error(429)) as transport:
+            with self.assertRaisesRegex(ValueError,'429'):
+                server._aurel_chat_generate('fake-test-key',payload,
+                    ['gemini-3-flash-preview'],max_seconds=30,max_calls=1)
+            with self.assertRaisesRegex(ValueError,'tạm nghỉ'):
+                server._aurel_chat_generate('fake-test-key',payload,
+                    ['gemini-3-flash-preview'],max_seconds=30,max_calls=1)
+        self.assertEqual(transport.call_count,1)
+
     def test_network_disconnection_is_not_called_gemini_overload(self):
         payload={'contents':[{'role':'user','parts':[{'text':'Phân tích NIM'}]}]}
         with patch.object(server,'urlopen',side_effect=URLError('network down')), \
