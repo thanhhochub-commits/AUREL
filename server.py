@@ -2980,7 +2980,7 @@ def gemini_credentials():
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}', configured):
         raise ValueError('Tên mô hình Gemini không hợp lệ.')
     fallbacks=[]
-    for name in [configured,'gemini-3-flash-preview','gemini-2.0-flash']:
+    for name in [configured,'gemini-3.8-flash','gemini-3.5-flash-lite','gemini-2.5-flash','gemini-2.5-flash-lite','gemini-3-flash-preview','gemini-2.0-flash']:
         if name and name not in fallbacks:
             fallbacks.append(name)
     return token, configured, fallbacks
@@ -3705,11 +3705,13 @@ def _brevo_credentials(sender_input='',api_key_input=''):
     typed_key=str(api_key_input or '').strip()
     secret_sender=str(os.getenv('AUREL_BREVO_SENDER','') or '').strip()
     secret_key=str(os.getenv('AUREL_BREVO_API_KEY','') or '').strip()
-    sender=typed_sender or secret_sender
+    # A user-supplied Brevo key must use that user's explicitly selected sender,
+    # never silently pair it with AUREL's server-owner sender.
+    sender=typed_sender if typed_key else (typed_sender or secret_sender)
     api_key=typed_key or secret_key
     source='web' if typed_key else ('secret' if secret_key else 'missing')
     if not sender:
-        raise ValueError('Chưa có email người gửi đã xác minh trên Brevo. Nhập email người gửi hoặc cấu hình AUREL_BREVO_SENDER trên máy chủ.')
+        raise ValueError('Nhập email người gửi đã xác minh trong chính tài khoản Brevo của API key này.' if typed_key else 'Chưa có email người gửi đã xác minh trên Brevo. Nhập email người gửi hoặc cấu hình AUREL_BREVO_SENDER trên máy chủ.')
     if not EMAIL_RE.fullmatch(sender):
         raise ValueError('Email người gửi Brevo không hợp lệ.')
     if not api_key:
@@ -3749,7 +3751,7 @@ def brevo_connection_check(sender_input='',api_key_input=''):
     secret_sender=str(os.getenv('AUREL_BREVO_SENDER','') or '').strip()
     secret_key=str(os.getenv('AUREL_BREVO_API_KEY','') or '').strip()
     api_key=typed_key or secret_key
-    sender=typed_sender or secret_sender
+    sender=typed_sender if typed_key else (typed_sender or secret_sender)
 
     if not api_key:
         raise ValueError('Chưa có khóa API Brevo.')
