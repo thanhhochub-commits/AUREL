@@ -160,6 +160,8 @@ class Store:
         self.pdf_previews={}
         self.pdf_jobs={}
         self.gemini_session_key=None
+        self.gemini_chat_recent_model=''
+        self.gemini_chat_model_cooldown={}
         self.upload_sessions={}
         self.device_key=None
         self.installation_key=None
@@ -3128,6 +3130,114 @@ def _aurel_chat_strip_unrequested_rules(answer,question):
     return content[:marker.start()].strip() or 'Mình sẵn sàng hỗ trợ bạn. Bạn muốn tìm hiểu điều gì?'
 
 
+def _aurel_chat_model_choices(question,fallbacks):
+    """Prefer stable chat-capable models, while respecting optional explicit chat override."""
+    preferred=str(os.getenv('AUREL_GEMINI_CHAT_MODEL','') or '').strip()
+    if preferred and not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}',preferred):
+        preferred=''
+    short=len(str(question or '').strip())<=120
+    stable=(['gemini-3.5-flash-lite','gemini-3.8-flash'] if short else
+            ['gemini-3.8-flash','gemini-3.5-flash-lite'])
+    return list(dict.fromkeys([*[preferred] if preferred else [],*stable,
+        'gemini-2.5-flash','gemini-2.5-flash-lite',*fallbacks]))
+
+
+def _aurel_chat_generate(token,payload,models,max_seconds=54,max_calls=8):
+    """One bounded execution for chat or a genuine send/receive connection probe."""
+    deadline=time.monotonic()+max_seconds
+    with STORE.lock:
+        current=STORE.gemini_session_key
+        cooled=dict(getattr(STORE,'gemini_chat_model_cooldown',{}) or {})
+        favorite=getattr(STORE,'gemini_chat_recent_model','')
+    now=time.monotonic()
+    allowed=[name for name in models if cooled.get(name,0)<=now]
+    if not allowed:allowed=list(models[:2])
+    if favorite in allowed:
+        allowed.remove(favorite)
+        allowed.insert(0,favorite)
+    transient=False
+    rate_limited=False
+    unsupported=False
+    requests_made=0
+    for candidate in allowed:
+        # Never spend a full client timeout on one overloaded model.
+        for attempt in range(2):
+            remaining=deadline-time.monotonic()
+            if remaining<4 or requests_made>=max_calls:break
+            requests_made+=1
+            req=Request(f'https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent',
+                data=json.dumps(payload,ensure_ascii=False).encode('utf-8'),
+                headers={'Content-Type':'application/json','x-goog-api-key':token},method='POST')
+            try:
+                with urlopen(req,timeout=min(12,max(3,remaining-2))) as response:
+                    raw=json.loads(response.read().decode('utf-8'))
+                answer=_gemini_extract_text(raw).strip()
+                if not answer:
+                    unsupported=True
+                    break
+                with STORE.lock:
+                    # A key changed while this request was in flight must not affect the new key's cache.
+                    if STORE.gemini_session_key==current:
+                        STORE.gemini_chat_recent_model=candidate
+                        cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
+                        cooldown.pop(candidate,None)
+                        STORE.gemini_chat_model_cooldown=cooldown
+                return {'text':answer,'model':candidate}
+            except HTTPError as e:
+                if e.code in (403,404):
+                    unsupported=True
+                    break
+                if e.code in (408,429,500,502,503,504):
+                    transient=True
+                    rate_limited=rate_limited or e.code==429
+                    with STORE.lock:
+                        if STORE.gemini_session_key==current:
+                            cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
+                            cooldown[candidate]=time.monotonic()+(90 if e.code==429 else 45)
+                            STORE.gemini_chat_model_cooldown=cooldown
+                    # A quota response often applies to all models on the same key.
+                    # Try the next authorized model rather than repeatedly hammering one model.
+                    if e.code==429:break
+                    if attempt==0 and deadline-time.monotonic()>7:
+                        time.sleep(min(1.2+secrets.randbelow(600)/1000,max(0,deadline-time.monotonic()-4)))
+                        continue
+                    break
+                gemini_error(e)
+            except (URLError,TimeoutError):
+                transient=True
+                if attempt==0 and deadline-time.monotonic()>7:
+                    time.sleep(min(0.7+secrets.randbelow(500)/1000,max(0,deadline-time.monotonic()-4)))
+                    continue
+                break
+            except (UnicodeDecodeError,json.JSONDecodeError) as e:
+                raise ValueError('Phản hồi từ Gemini chưa đúng định dạng. Hãy thử lại.') from e
+        if requests_made>=max_calls or deadline-time.monotonic()<4:break
+    if rate_limited:
+        raise ValueError('Gemini đã giới hạn lượt dùng API key (HTTP 429). Hãy chờ hạn mức được khôi phục rồi gửi lại.')
+    if transient:
+        raise ValueError('Gemini hiện tạm quá tải hoặc kết nối gián đoạn (HTTP 503). Các mô hình dự phòng chưa phản hồi; vui lòng thử lại sau.')
+    if unsupported:
+        raise ValueError('API key chưa truy cập được mô hình Gemini có thể trả lời. Kiểm tra quyền dùng mô hình trong Google AI Studio.')
+    raise ValueError('Gemini chưa thể tạo câu trả lời lúc này. Vui lòng thử lại.')
+
+
+def gemini_generation_check():
+    """The explicit Check Connection button verifies actual generateContent, not only model metadata."""
+    info=gemini_connection_check()
+    token,configured,fallbacks=gemini_credentials()
+    payload={'contents':[{'role':'user','parts':[{'text':'Trả lời chính xác một từ: OK'}]}],
+             'generationConfig':{'temperature':0,'maxOutputTokens':160}}
+    try:
+        result=_aurel_chat_generate(token,payload,_aurel_chat_model_choices('OK',fallbacks),
+            max_seconds=25,max_calls=4)
+    except ValueError as e:
+        return {'connected':True,'generation_ready':False,'model':info.get('model'),
+                'message':'API key đã được xác thực, nhưng Gemini chưa tạo được phản hồi kiểm tra. '
+                          'Đây chưa phải kết nối chat sẵn sàng. '+str(e)}
+    return {'connected':True,'generation_ready':True,'model':result['model'],
+            'message':'Đã gửi và nhận thành công phản hồi Gemini. Trò chuyện đã sẵn sàng qua mô hình '+result['model']+'.'}
+
+
 def ai_chat(question, history=None):
     """Trò chuyện đa chủ đề tách biệt báo cáo; không cho AI xem khóa/cấu hình hoặc dữ liệu tài chính của phiên."""
     q=str(question or '').strip()
@@ -3219,65 +3329,11 @@ def ai_chat(question, history=None):
     payload={'system_instruction':{'parts':[{'text':system}]},
              'contents':messages,
              'generationConfig':{'temperature':0.65,'topP':0.9,'maxOutputTokens':3200}}
-    # Chat only: retry transient Gemini overload and switch authorized models.
-    # Keep a bounded total duration beneath the frontend's 100-second timeout.
-    deadline=time.monotonic()+82
-    transient=False
-    rate_limited=False
-    last_404=False
-    last_403=False
-    requests_made=0
-    for candidate in list(dict.fromkeys(fallbacks)):
-        url=f'https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent'
-        for attempt in range(2):
-            remaining=deadline-time.monotonic()
-            if remaining<6 or requests_made>=10:
-                break
-            requests_made+=1
-            req=Request(url,data=json.dumps(payload,ensure_ascii=False).encode('utf-8'),
-                        headers={'Content-Type':'application/json','x-goog-api-key':token},method='POST')
-            try:
-                with urlopen(req,timeout=min(35,max(5,remaining-3))) as response:
-                    raw=json.loads(response.read().decode('utf-8'))
-                reply=_gemini_extract_text(raw).strip()
-                if not reply:
-                    raise ValueError('AI chưa tạo được nội dung trả lời cho câu hỏi này.')
-                return {'reply':_aurel_chat_strip_unrequested_rules(reply[:20000],q),'model':candidate,'refused':False}
-            except HTTPError as e:
-                if e.code==404:
-                    last_404=True
-                    break
-                if e.code==403:
-                    last_403=True
-                    break
-                if e.code in (408,429,500,502,503,504):
-                    transient=True
-                    rate_limited=rate_limited or e.code==429
-                    if attempt==0 and deadline-time.monotonic()>9:
-                        # Exponential-style bounded retry with a little jitter.
-                        time.sleep(0.8+secrets.randbelow(400)/1000)
-                        continue
-                    break  # Try another model accessible to this user's API key.
-                gemini_error(e)
-            except (URLError,TimeoutError) as e:
-                transient=True
-                if attempt==0 and deadline-time.monotonic()>9:
-                    time.sleep(0.8+secrets.randbelow(400)/1000)
-                    continue
-                break
-            except (UnicodeDecodeError,json.JSONDecodeError) as e:
-                raise ValueError('Phản hồi của Gemini không đọc được. Vui lòng thử lại.') from e
-        if requests_made>=10 or deadline-time.monotonic()<6:
-            break
-    if transient:
-        if rate_limited:
-            raise ValueError('Gemini đang giới hạn số yêu cầu (HTTP 429) hoặc tạm quá tải. AUREL đã thử lại và thử mô hình dự phòng; vui lòng chờ hạn mức được khôi phục rồi gửi lại.')
-        raise ValueError('Gemini đang bận hoặc kết nối tạm gián đoạn (HTTP 503). AUREL đã tự thử lại và thử các mô hình dự phòng, nhưng chưa nhận được câu trả lời. Vui lòng thử lại sau ít phút.')
-    if last_403:
-        raise ValueError('Gemini không cấp quyền dùng các mô hình đã thử cho API key này. Hãy kiểm tra quyền truy cập tại Google AI Studio.')
-    if last_404:
-        raise ValueError('Không tìm thấy mô hình Gemini phù hợp với API key này. Hãy kiểm tra quyền truy cập mô hình.')
-    raise ValueError('Mô hình AI chưa thể trả lời. Vui lòng thử lại.')
+    # A chat generation must succeed independently of the metadata-only API key check.
+    generated=_aurel_chat_generate(token,payload,_aurel_chat_model_choices(q,fallbacks),
+                                   max_seconds=54,max_calls=8)
+    return {'reply':_aurel_chat_strip_unrequested_rules(generated['text'][:20000],q),
+            'model':generated['model'],'refused':False}
 
 
 def ai_task(bank,year,task,question=''):
@@ -4198,6 +4254,7 @@ class Handler(BaseHTTPRequestHandler):
                         ephemeral.rows=[];ephemeral.docs={};ephemeral.ai={}
                         ephemeral.pdf_previews={};ephemeral.pdf_jobs={}
                         ephemeral.upload_sessions={};ephemeral.gemini_session_key=None
+                        ephemeral.gemini_chat_recent_model='';ephemeral.gemini_chat_model_cooldown={}
                         ephemeral.remote_documents=[]
                 return self.reply({'ok':True,'message':'Phiên xử lý trên máy chủ đã được đóng.'})
             if path=='/api/local/restore':
@@ -4270,6 +4327,8 @@ class Handler(BaseHTTPRequestHandler):
                 with STORE.lock:
                     previous_key=STORE.gemini_session_key
                     STORE.gemini_session_key=key
+                    STORE.gemini_chat_recent_model=''
+                    STORE.gemini_chat_model_cooldown={}
                 try:
                     checked=gemini_connection_check()
                 except Exception:
@@ -4277,11 +4336,14 @@ class Handler(BaseHTTPRequestHandler):
                     raise
                 return self.reply({'configured':True,'model':checked.get('model'),'message':'Khóa Gemini hợp lệ và đã được xác minh. Kết nối AI đã sẵn sàng.'})
             if path=='/api/ai/key/clear':
-                with STORE.lock: STORE.gemini_session_key=None
+                with STORE.lock:
+                    STORE.gemini_session_key=None
+                    STORE.gemini_chat_recent_model=''
+                    STORE.gemini_chat_model_cooldown={}
                 fallback=bool(_gemini_env_key())
                 return self.reply({'configured':fallback,'message':'Đã xóa khóa nhập trên web.'+(' Khóa từ biến môi trường máy chủ vẫn đang được sử dụng.' if fallback else '')})
             if path=='/api/ai/check':
-                return self.reply(gemini_connection_check())
+                return self.reply(gemini_generation_check())
             if path=='/api/ai/chat':
                 return self.reply(ai_chat(data.get('question',''),data.get('history',[])))
             if path=='/api/ai':
