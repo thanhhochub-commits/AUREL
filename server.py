@@ -3381,24 +3381,31 @@ def ai_chat(question, history=None):
                 'model':'quy-tac-bao-mat','refused':True}
     # Every ordinary chat message, including simple greetings, goes directly to Gemini.
     # No selected bank, uploaded file, metrics or AUREL dashboard data is injected.
+    # Only send complete, successfully answered user/model exchanges.
+    # A previous user turn followed by an error (or no reply) must NOT be
+    # interpreted as a pending instruction when the next message is just "hi".
     messages=[]
+    pending_user=None
     if isinstance(history,list):
-        for item in history[-24:]:
+        for item in history[-48:]:
             if not isinstance(item,dict):
                 continue
             role=str(item.get('role','')).lower()
-            if role not in ('user','assistant'):
-                continue
             content=str(item.get('text','')).strip()
-            # Do not reinforce fabricated website bank aliases or domains from prior answers.
-            # The current question is always sent verbatim to Gemini below.
-            if role=='assistant' and re.search(r'\bBANK[_-]?\d{3,}\b',content,re.I):
+            if item.get('error') or role not in ('user','assistant') or not content:
+                pending_user=None
                 continue
-            if content:
-                messages.append({'role':'model' if role=='assistant' else 'user',
-                                 'parts':[{'text':content[:2500]}]})
-    # History do người dùng gửi lên không có vai trò chỉ thị hệ thống.
-    # Chỉ giữ chuỗi role hợp lệ; không cho lịch sử giả mạo sửa system_instruction.
+            if role=='user':
+                pending_user={'role':'user','parts':[{'text':content[:2500]}]}
+                continue
+            if role=='assistant':
+                # Exclude the entire pair if a prior answer contains a made-up bank alias.
+                if pending_user and not re.search(r'\bBANK[_-]?\d{3,}\b',content,re.I):
+                    messages.extend([pending_user,{'role':'model','parts':[{'text':content[:2500]}]}])
+                pending_user=None
+    # Drop any unanswered last user prompt. The current question alone is authoritative.
+    # History supplied by the browser has no authority to change system instructions.
+    messages=messages[-24:]
     messages.append({'role':'user','parts':[{'text':q}]})
     token,model,fallbacks=gemini_credentials()
     system=(
