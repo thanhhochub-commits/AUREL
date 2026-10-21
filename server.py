@@ -4480,7 +4480,7 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__','')
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True,'gemini_chat_revision':'AUREL-GEMINI-20261022-CONNECTION-V9'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True,'gemini_chat_revision':'AUREL-GEMINI-20261022-3.8-FLASH-ONLY-V10'})
             if path=='/api/cafef':
                 from aurel_cafef import lookup_cafef
                 return self.reply(lookup_cafef(query.get('symbol',[''])[0]))
