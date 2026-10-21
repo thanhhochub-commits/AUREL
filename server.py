@@ -4340,7 +4340,7 @@ class Handler(BaseHTTPRequestHandler):
                 except Exception:
                     with STORE.lock: STORE.gemini_session_key=previous_key
                     raise
-                return self.reply({'configured':True,'model':checked.get('model'),'message':'Khóa Gemini hợp lệ và đã được xác minh. Kết nối AI đã sẵn sàng.'})
+                return self.reply({'configured':True,'model':checked.get('model'),'message':'Khóa Gemini hợp lệ và đã được lưu riêng cho phiên này. Để xác nhận dịch vụ trả lời, hãy dùng Kiểm tra kết nối.'})
             if path=='/api/ai/key/clear':
                 with STORE.lock:
                     STORE.gemini_session_key=None
