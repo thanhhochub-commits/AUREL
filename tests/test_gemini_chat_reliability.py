@@ -152,7 +152,9 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn("if(entry?.error){pendingChatQuestion=null;continue}",script)
         self.assertIn('const before=completeHistory.slice(-24);',script)
         self.assertNotIn('function aurelChatLocalWelcome(question)',script)
-        self.assertIn('Website AUREL chưa liên lạc được với backend',script)
+        self.assertIn('AUREL chưa hoàn tất kết nối tới backend',script)
+        self.assertIn("request('api/ai/chat',{question:q,history:before},165000)",script)
+        self.assertIn("r.source==='session'?'Đã nhận khóa API riêng của bạn'",script)
         self.assertIn('AI AUREL đang gặp lỗi tạm thời từ máy chủ xử lý',script)
         self.assertIn('AUREL-GEMINI-20261022-RETRY-V8',script)
         self.assertNotIn('AUREL đã thử mô hình dự phòng',script)
@@ -309,6 +311,41 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertNotIn('tools',captured[1])
         self.assertIn('AI AUREL chưa có nguồn trực tuyến',result['reply'])
         self.assertFalse(result['grounded'])
+
+    def test_google_search_503_retries_plain_gemini_3_flash_without_claiming_live_rates(self):
+        captured=[]
+        def generate(_token,payload,models,**_kwargs):
+            captured.append((payload,models))
+            if payload.get('tools'):
+                raise ValueError('Dịch vụ AI AUREL chưa nhận được phản hồi từ Gemini 3 Flash (HTTP 5xx: 503).')
+            return {'text':'Chưa thể xác minh lãi suất VCB hôm nay.',
+                    'model':'gemini-3-flash-preview'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-3-flash-preview',['gemini-3-flash-preview'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-3-flash-preview']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            answer=server.ai_chat('Lãi suất VCB hôm nay')
+        self.assertEqual(len(captured),2)
+        self.assertIn('tools',captured[0][0])
+        self.assertNotIn('tools',captured[1][0])
+        self.assertEqual(captured[0][1],captured[1][1])
+        self.assertIn('chưa có nguồn trực tuyến',answer['reply'])
+        self.assertNotIn('lãi suất',str(captured[1][1]))
+
+    def test_google_search_429_does_not_retry_unsourced_response(self):
+        calls=[]
+        def generate(_token,payload,models,**_kwargs):
+            calls.append(payload)
+            raise ValueError('Gemini HTTP 429: hết hạn mức')
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-3-flash-preview',['gemini-3-flash-preview'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-3-flash-preview']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            with self.assertRaisesRegex(ValueError,'429'):
+                server.ai_chat('Lãi suất VCB hôm nay')
+        self.assertEqual(len(calls),1)
 
     def test_actual_http_search_tool_rejection_is_identified(self):
         payload={'contents':[{'role':'user','parts':[{'text':'Lãi suất hôm nay'}]}],
