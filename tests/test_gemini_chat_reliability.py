@@ -110,9 +110,12 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertNotIn('const localWelcome=aurelChatLocalWelcome(q);',script)
         self.assertIn("await request('api/ai/chat',{question:q,history:before}",script)
         self.assertNotIn('AUREL · Gemini',script)
-        self.assertIn("></svg>AUREL</span>",script)
+        self.assertIn('aurel-chat-agent-label',script)
+        self.assertIn('>AUREL</span>',script)
         self.assertIn('aurel-chat-answer-tail',script)
-        self.assertIn('M3 17l6-6 4 3 8-9',script)
+        self.assertIn('circle cx="12" cy="12" r="9"',script)
+        self.assertIn('Only the friendly smile in AUREL',script)
+        self.assertIn('Never feed fabricated BANK responses back to Gemini',script)
         self.assertNotIn('function aurelChatLocalWelcome(question)',script)
         self.assertIn('Website AUREL chưa liên lạc được với backend',script)
         self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
@@ -133,6 +136,18 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertNotIn('BANK_001',repr(payload['contents']))
         self.assertNotIn('dashboard',repr(payload['contents']).lower())
         self.assertEqual(result['reply'],'Gemini giải thích theo câu hỏi của bạn.')
+
+    def test_prevents_fabricated_bank_identifier_and_fake_bank_domain(self):
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',return_value={
+                 'text':'Lãi suất BANK_001 (VCB) được nêu trên BANK_001.com.vn.',
+                 'model':'gemini-2.5-flash'}):
+            result=server.ai_chat('Giải thích lãi suất tiết kiệm VCB.')
+        self.assertNotIn('BANK_001',result['reply'])
+        self.assertIn('VCB',result['reply'])
+        self.assertIn('tên miền chưa được xác minh',result['reply'])
 
     def test_public_web_search_only_when_information_is_dynamic(self):
         self.assertTrue(server._aurel_chat_needs_web('Lãi suất hôm nay của VCB là bao nhiêu?'))
@@ -310,7 +325,7 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('Mọi câu hỏi thông thường phải được Gemini trả lời',captured['instructions'])
         self.assertIn('KHÔNG có dữ liệu',captured['instructions'])
         self.assertIn('Đừng quá cụt lủn',captured['instructions'])
-        self.assertIn('Dùng 1-3 emoji',captured['instructions'])
+        self.assertIn('Không chèn emoji',captured['instructions'])
         self.assertEqual(captured['question'],'Giúp mình luyện tiếng Anh')
         self.assertFalse(result['refused'])
 
