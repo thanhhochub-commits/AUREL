@@ -3138,7 +3138,7 @@ def _aurel_chat_model_choices(question,fallbacks):
     short=len(str(question or '').strip())<=120
     stable=(['gemini-3.5-flash-lite','gemini-3.8-flash'] if short else
             ['gemini-3.8-flash','gemini-3.5-flash-lite'])
-    return list(dict.fromkeys([*[preferred] if preferred else [],*stable,
+    return list(dict.fromkeys([*([preferred] if preferred else []),*stable,
         'gemini-2.5-flash','gemini-2.5-flash-lite',*fallbacks]))
 
 
