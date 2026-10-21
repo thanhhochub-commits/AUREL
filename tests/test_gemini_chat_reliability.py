@@ -156,7 +156,7 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn("request('api/ai/chat',{question:q,history:before},165000)",script)
         self.assertIn("r.source==='session'?'Đã nhận khóa API riêng của bạn'",script)
         self.assertIn('AI AUREL đang gặp lỗi tạm thời từ máy chủ xử lý',script)
-        self.assertIn('AUREL-GEMINI-20261022-RETRY-V8',script)
+        self.assertIn('AUREL-GEMINI-20261022-CONNECTION-V9',script)
         self.assertNotIn('AUREL đã thử mô hình dự phòng',script)
 
     def test_chat_question_sent_verbatim_without_dashboard_bank_or_file(self):
