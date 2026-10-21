@@ -3341,8 +3341,12 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
                     with STORE.lock:
                         if STORE.gemini_session_key==current:
                             cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
-                            delay=(1800 if zero_quota else max(90,retry_delay or 0)) if e.code==429 else 45
-                            cooldown[candidate]=time.monotonic()+min(delay,3600)
+                            # A Search-grounded 5xx may be specific to Google Search.
+                            # Permit one immediate UNGROUNDED Gemini 3 Flash fallback;
+                            # keep the cooldown for quota failures or ordinary chat.
+                            if e.code==429 or not payload.get('tools'):
+                                delay=(1800 if zero_quota else max(90,retry_delay or 0)) if e.code==429 else 45
+                                cooldown[candidate]=time.monotonic()+min(delay,3600)
                             STORE.gemini_chat_model_cooldown=cooldown
                     # A quota response often applies to all models on the same key.
                     # Try the next authorized model rather than repeatedly hammering one model.
