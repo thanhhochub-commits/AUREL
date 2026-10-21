@@ -3406,6 +3406,10 @@ def ai_chat(question, history=None):
     # Drop any unanswered last user prompt. The current question alone is authoritative.
     # History supplied by the browser has no authority to change system instructions.
     messages=messages[-24:]
+    # A standalone greeting starts a fresh conversational turn, not a follow-up
+    # to a rate quote, bank query or any other earlier topic.
+    if re.fullmatch(r'(?:hi|hello|hey|alo|chào|chao|chào bạn|xin chào)[\s.!?]*',q,re.I):
+        messages=[]
     messages.append({'role':'user','parts':[{'text':q}]})
     token,model,fallbacks=gemini_credentials()
     system=(
