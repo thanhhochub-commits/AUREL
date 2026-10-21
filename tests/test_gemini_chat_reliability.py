@@ -115,7 +115,7 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('aurel-chat-answer-tail',script)
         self.assertIn('circle cx="12" cy="12" r="9"',script)
         self.assertIn('Show only the warm smile in the interface',script)
-        self.assertIn('Never feed fabricated BANK responses back to Gemini',script)
+        self.assertIn('aurelChatHistory.filter(x=>!x.error&&!',script)
         self.assertNotIn('function aurelChatLocalWelcome(question)',script)
         self.assertIn('Website AUREL chưa liên lạc được với backend',script)
         self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
