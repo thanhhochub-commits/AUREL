@@ -3584,17 +3584,21 @@ def ai_chat(question, history=None):
     try:
         generated=_aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5)
     except ValueError as e:
-        if str(e)!='AUREL_SEARCH_GROUNDING_UNAVAILABLE' or not needs_web:
+        # A Search-grounded call can fail on Google's search infrastructure even
+        # while plain text generation works. Retry without web only for explicit
+        # Search-tool rejection or transient upstream 5xx, never for 429/403.
+        failed_search_tool=str(e)=='AUREL_SEARCH_GROUNDING_UNAVAILABLE'
+        failed_search_upstream='HTTP 5xx' in str(e) and needs_web
+        if not needs_web or not (failed_search_tool or failed_search_upstream):
             raise
-        # Some user keys/models cannot use Google Search. Preserve general chat access,
-        # but instruct the model that current facts remain unverified.
         no_search=dict(payload)
         no_search.pop('tools',None)
         no_search['system_instruction']={'parts':[{'text':system+
-            ' Google Search KHÔNG khả dụng với API key/mô hình này. '
-            'Không được phát minh lãi suất, giá, sự kiện hoặc dữ liệu hôm nay. '
-            'Chỉ giải thích điều có thể biết mà không cần dữ liệu hiện hành.'}]}
-        generated=_aurel_chat_generate(token,no_search,models,max_seconds=45,max_calls=4)
+            ' Google Search không khả dụng trong lần gọi này. '
+            'KHÔNG ĐƯỢC đưa ra lãi suất, giá, tỷ giá hay sự kiện như dữ liệu hiện hành '
+            'khi không có nguồn xác minh. Chỉ đưa kiến thức tổng quát, '
+            'nói rõ không xác minh được dữ liệu hôm nay.'}]}
+        generated=_aurel_chat_generate(token,no_search,models,max_seconds=35,max_calls=2)
     grounded=bool(generated.get('grounded'))
     answer=_aurel_chat_strip_unrequested_rules(generated['text'][:20000],q)
     # Prevent old, invented AUREL bank identifiers/domains leaking into public Gemini answers.
