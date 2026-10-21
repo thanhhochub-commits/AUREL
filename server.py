@@ -3420,8 +3420,9 @@ def ai_chat(question, history=None):
         'độ phức tạp. Câu hỏi một từ hoặc lời chào thì phản hồi gọn và ấm áp; '
         'chỉ khi người dùng chào hoặc hỏi AUREL là gì, hãy giới thiệu ngắn về AUREL, '
         'gợi ý theo chủ đề website, không tự quảng cáo thêm. '
-        'Dùng 1-3 emoji phù hợp (như ✨, 📌, 📊, 💡, 🌷) ở câu mở đầu hoặc các ý quan trọng '
-        'để giọng văn thân thiện; không rải icon ở mọi câu hay gắn emoji giả làm nguồn tin. '
+        'Không chèn emoji, icon hay biểu tượng trang trí vào văn bản trả lời. '
+        'Giao diện AUREL đã có sẵn một biểu tượng mặt cười nhỏ để tạo sự ấm áp. '
+        'Thân thiện bằng ngôn từ tự nhiên, lịch sự, đầy đủ thay vì dùng icon. '
         'Có thể dùng Markdown **in đậm**, tiêu đề nhỏ, và gạch đầu dòng nếu chúng làm dễ đọc; '
         'không dùng danh sách dài khi câu hỏi không cần. '
         'Khi được hỏi lãi suất, tỷ giá, sự kiện hôm nay hay thông tin đang thay đổi, '
@@ -3464,8 +3465,19 @@ def ai_chat(question, history=None):
         generated=_aurel_chat_generate(token,no_search,models,max_seconds=45,max_calls=4)
     grounded=bool(generated.get('grounded'))
     answer=_aurel_chat_strip_unrequested_rules(generated['text'][:20000],q)
+    # Prevent old, invented AUREL bank identifiers/domains leaking into public Gemini answers.
+    # Do not rewrite a code the user explicitly asked about.
+    if not re.search(r'\\bBANK[_-]?\\d{3,}\\b',q,re.I):
+        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\.com\\.vn\\b',
+                      '[tên miền chưa được xác minh]',answer)
+        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\s*\\(\\s*(VCB|Vietcombank)\\s*\\)',
+                      r'\\1',answer)
+        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\s*[-–]\\s*(VCB|Vietcombank)\\b',
+                      r'\\1',answer)
+        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\b','',answer)
+        answer=re.sub(r' {2,}',' ',answer)
     if needs_web and not grounded:
-        answer=('📌 **Lưu ý về thông tin mới nhất:** Gemini chưa có nguồn Google Search '
+        answer=('**Lưu ý về thông tin mới nhất:** Gemini chưa có nguồn Google Search '
                 'để xác thực các số liệu thời gian thực trong câu trả lời dưới đây.\n\n'+answer)
     return {'reply':answer,'model':generated['model'],'refused':False,
             'sources':generated.get('sources',[]),'grounded':grounded}
