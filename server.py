@@ -3339,7 +3339,7 @@ def ai_chat(question, history=None):
         normalized))
     if greeting_only or onboarding_only:
         gemini_credentials()  # Keep the existing configured-key requirement.
-        return {'reply':('Chào bạn! Mình là **AI AUREL**, hỗ trợ phân tích báo cáo tài chính ngân hàng '
+        return {'reply':('Chào bạn! Mình là **trợ lý AI AUREL**, hỗ trợ phân tích báo cáo tài chính ngân hàng '
                          'và hướng dẫn sử dụng website. Bạn có thể hỏi về **ROA, ROE, NIM**, '
                          '**so sánh ngân hàng** hoặc **giám sát rủi ro**.'),
                 'model':'phan-hoi-loi-chao','refused':False,'local':True}
