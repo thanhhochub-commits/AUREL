@@ -3623,9 +3623,10 @@ def ai_chat(question, history=None):
     try:
         generated=_aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5)
     except ValueError as e:
-        # A Search-grounded call can fail on Google's search infrastructure even
-        # while plain text generation works. Retry without web only for explicit
-        # Search-tool rejection or transient upstream 5xx, never for 429/403.
+        # Search Grounding can have a separate quota (and be unavailable on
+        # Gemini 3.5 Flash-Lite Free Tier). Retry once with the same model but
+        # without Search only for the special Search-429 signal, an explicit tool
+        # rejection, or a transient grounded HTTP 5xx. Ordinary 429/403 still fail.
         failed_search_tool=str(e)=='AUREL_SEARCH_GROUNDING_UNAVAILABLE'
         failed_search_quota=str(e)=='AUREL_SEARCH_GROUNDING_QUOTA'
         failed_search_upstream='HTTP 5xx' in str(e) and needs_web
