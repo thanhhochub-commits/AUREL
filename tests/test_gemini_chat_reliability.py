@@ -170,14 +170,29 @@ class GeminiChatReliability(unittest.TestCase):
                           ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
              patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
              patch.object(server,'_aurel_chat_generate',side_effect=fake_generate):
-            server.ai_chat('hi',history=[
+            server.ai_chat('giải thích thêm',history=[
                 {'role':'user','text':'ROE là gì?'},
                 {'role':'assistant','text':'ROE đo tỷ suất sinh lời trên vốn chủ sở hữu.'},
                 {'role':'user','text':'ls vcb hôm nay'},
             ])
         self.assertEqual([x['role'] for x in captured['history']],['user','model','user'])
-        self.assertEqual(captured['history'][-1]['parts'][0]['text'],'hi')
+        self.assertEqual(captured['history'][-1]['parts'][0]['text'],'giải thích thêm')
         self.assertNotIn('ls vcb hôm nay',repr(captured['history']))
+
+    def test_standalone_greeting_ignores_even_completed_old_bank_topic(self):
+        captured={}
+        def fake_generate(token,payload,models,**kwargs):
+            captured['messages']=payload['contents']
+            return {'text':'Chào bạn, mình có thể giúp gì?','model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=fake_generate):
+            server.ai_chat('hi',history=[
+                {'role':'user','text':'Lãi suất VCB hôm nay'},
+                {'role':'assistant','text':'Lãi suất tham khảo của VCB là...'}
+            ])
+        self.assertEqual(captured['messages'],[{'role':'user','parts':[{'text':'hi'}]}])
 
     def test_prevents_fabricated_bank_identifier_and_fake_bank_domain(self):
         with patch.object(server,'gemini_credentials',return_value=
