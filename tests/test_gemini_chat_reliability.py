@@ -83,10 +83,43 @@ class GeminiChatReliability(unittest.TestCase):
     def test_upstream_503_is_not_reported_as_a_generic_network_failure(self):
         payload={'contents':[{'role':'user','parts':[{'text':'Phân tích ROE'}]}]}
         with patch.object(server,'urlopen',
-                          side_effect=[self.error(503),self.error(503)]), \
+                          side_effect=[self.error(503),self.error(503),self.error(503)]), \
              patch.object(server.time,'sleep',return_value=None):
             with self.assertRaisesRegex(ValueError,'HTTP 5xx'):
                 server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=20)
+
+    def test_503_recovers_on_third_try_without_changing_gemini_3_flash_model(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'hi'}]}]}
+        calls=[]
+        response=self.response({'candidates':[{'content':{'parts':[{'text':'Chào bạn!'}]}}]})
+        def generate(req,timeout=None):
+            calls.append((req.full_url,timeout))
+            if len(calls)<=2:return self._raise_for_retry(503)
+            return response
+        with patch.object(server,'urlopen',side_effect=generate), \
+             patch.object(server.time,'sleep',return_value=None) as slept:
+            result=server._aurel_chat_generate('fake-key',payload,
+                ['gemini-3-flash-preview'],max_seconds=50,max_calls=3)
+        self.assertEqual(result['text'],'Chào bạn!')
+        self.assertEqual(len(calls),3)
+        self.assertTrue(all('/models/gemini-3-flash-preview:generateContent' in url
+                            for url,_ in calls))
+        self.assertEqual(slept.call_count,2)
+
+    def _raise_for_retry(self,status):
+        raise self.error(status)
+
+    def test_503_exhaustion_reports_true_model_not_fallback(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'hi'}]}]}
+        with patch.object(server,'urlopen',side_effect=[self.error(503)]*3) as api, \
+             patch.object(server.time,'sleep',return_value=None):
+            with self.assertRaises(ValueError) as result:
+                server._aurel_chat_generate('fake-key',payload,
+                    ['gemini-3-flash-preview'],max_seconds=50,max_calls=3)
+        self.assertEqual(api.call_count,3)
+        self.assertIn('Gemini 3 Flash',str(result.exception))
+        self.assertIn('HTTP 5xx',str(result.exception))
+        self.assertNotIn('mô hình dự phòng',str(result.exception))
 
     def test_network_disconnection_is_not_called_gemini_overload(self):
         payload={'contents':[{'role':'user','parts':[{'text':'Phân tích NIM'}]}]}
@@ -120,7 +153,9 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('const before=completeHistory.slice(-24);',script)
         self.assertNotIn('function aurelChatLocalWelcome(question)',script)
         self.assertIn('Website AUREL chưa liên lạc được với backend',script)
-        self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
+        self.assertIn('AI AUREL đang gặp lỗi tạm thời từ máy chủ xử lý',script)
+        self.assertIn('AUREL-GEMINI-20261022-RETRY-V8',script)
+        self.assertNotIn('AUREL đã thử mô hình dự phòng',script)
 
     def test_chat_question_sent_verbatim_without_dashboard_bank_or_file(self):
         captured={}
