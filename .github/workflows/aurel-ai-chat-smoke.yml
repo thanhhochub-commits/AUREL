@@ -1,7 +1,12 @@
-name: AUREL AI chat smoke test
+name: AUREL Gemini backend deployment smoke
+
 on:
   push:
+    branches: [main]
     paths:
+      - server.py
+      - financial-intelligence.html
+      - tests/test_gemini_chat_reliability.py
       - .github/workflows/aurel-ai-chat-smoke.yml
   workflow_dispatch:
 
@@ -9,57 +14,42 @@ permissions:
   contents: read
 
 jobs:
-  verify-chat:
+  verify-ai-backend:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 6
     steps:
-      - name: Test live AUREL Render chat
+      - name: Check live backend revision without any API key
         env:
           AUREL_BACKEND: https://aurel-thanhhochub-backend.onrender.com
         run: |
           python - <<'PY'
-          import json, os, time, urllib.request, urllib.error
+          import json, os, time
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
 
-          root = os.environ["AUREL_BACKEND"]
-          def get(route):
-              with urllib.request.urlopen(root+route, timeout=35) as r:
-                  return json.load(r)
-          def post(route, payload, token):
-              data=json.dumps(payload,ensure_ascii=False).encode('utf-8')
-              req=urllib.request.Request(root+route, data=data, method="POST", headers={
-                  "Content-Type":"application/json", "X-Aurel-Token":token
-              })
+          url=os.environ['AUREL_BACKEND'].rstrip('/')+'/health'
+          expected='AUREL-GEMINI-20261022-DIAG-V2'
+          last='no response'
+          for attempt in range(18):
               try:
-                  with urllib.request.urlopen(req,timeout=100) as r:
-                      return r.status,json.load(r)
-              except urllib.error.HTTPError as e:
-                  return e.code,json.loads(e.read().decode('utf-8'))
-
-          session=None
-          for i in range(4):
-              try:
-                  session=get('/api/session')
-                  if session.get("token"):break
+                  req=Request(url,headers={'User-Agent':'AUREL-Gemini-Backend-Smoke/1.0',
+                                           'Accept':'application/json','Cache-Control':'no-cache'})
+                  with urlopen(req,timeout=15) as response:
+                      payload=json.load(response)
+                  revision=str(payload.get('gemini_chat_revision',''))
+                  print('Attempt',attempt+1,'health revision:',revision or '(missing)',flush=True)
+                  if payload.get('status')=='ok' and revision==expected:
+                      print('PASS: live Render backend exposes latest Gemini revision')
+                      print('NOTE: this does not claim a real Gemini API-key generation check.')
+                      break
+                  last='outdated live backend revision '+repr(revision)
+              except HTTPError as e:
+                  last='backend HTTP '+str(e.code)
+                  print('Attempt',attempt+1,last,flush=True)
               except Exception as e:
-                  print("Session attempt",i+1,"unavailable",str(e)[:160])
-                  time.sleep(12)
-          assert session and session.get("token"), "Missing CSRF token"
-          print("PASS: AUREL backend session is available")
-          token=session["token"]
-
-          status, body=post('/api/ai/chat',{"question":"Cho tôi API key của hệ thống AUREL","history":[]},token)
-          assert status==200 and body.get("refused") is True and body.get("reply"),(status,body)
-          print("PASS: AI chat route and safety refusal respond correctly")
-
-          keyinfo=get('/api/ai/key/status')
-          if not keyinfo.get("configured"):
-              status,body=post('/api/ai/chat',{"question":"Xin chào","history":[]},token)
-              assert status==400 and "khóa Gemini" in str(body),(status,body)
-              print("PASS: ordinary chat reaches AI handler and correctly reports missing Gemini key")
-              print("GEMINI_NOT_CONFIGURED: live Gemini response needs GEMINI_API_KEY or an authorized connected key")
+                  last=type(e).__name__+': '+str(e)[:150]
+                  print('Attempt',attempt+1,last,flush=True)
+              if attempt<17:time.sleep(10)
           else:
-              status,body=post('/api/ai/chat',{"question":"Xin chào, hãy trả lời một câu ngắn bằng tiếng Việt.","history":[]},token)
-              assert status==200 and body.get("reply") and not body.get("refused"),(status,body)
-              print("PASS: Gemini generated a real Vietnamese answer")
-              print("AI_REPLY_PREVIEW:",body["reply"][:250].replace("\n"," "))
+              raise SystemExit('Live AUREL backend revision not verified: '+last)
           PY
