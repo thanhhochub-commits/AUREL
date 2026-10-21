@@ -386,6 +386,48 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('tiếng Anh',result['reply'])
 
 
+    def test_generic_welcome_and_question_suggestions_focus_on_aurel_website(self):
+        prompts=[]
+        def generate(_token,payload,_models,**_kwargs):
+            prompts.append((payload['contents'][-1]['parts'][0]['text'],
+                            payload['system_instruction']['parts'][0]['text']))
+            return {'text':'Xin chào! Mình hỗ trợ tìm hiểu các chức năng AUREL.',
+                    'model':'gemini-3-flash-preview'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-3-flash-preview',['gemini-3-flash-preview'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-3-flash-preview']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            for q in ('hi','Bạn giúp được gì?','Gợi ý câu hỏi','AUREL là gì?'):
+                server.ai_chat(q)
+        self.assertEqual(len(prompts),4)
+        for _,instructions in prompts:
+            self.assertIn('CHẾ ĐỘ CHÀO HỎI/GỢI Ý TRỢ GIÚP AUREL',instructions)
+            self.assertIn('Đối chiếu ngân hàng',instructions)
+            self.assertIn('Nguồn dữ liệu',instructions)
+            self.assertIn('Không mở đầu bằng danh sách chủ đề kinh tế',instructions)
+
+    def test_explicit_other_topic_does_not_trigger_web_first_onboarding(self):
+        prompts=[]
+        def generate(_token,payload,_models,**_kwargs):
+            prompts.append((payload['contents'][-1]['parts'][0]['text'],
+                            payload['system_instruction']['parts'][0]['text']))
+            return {'text':'Trả lời theo chủ đề người dùng yêu cầu.',
+                    'model':'gemini-3-flash-preview'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-3-flash-preview',['gemini-3-flash-preview'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-3-flash-preview']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            for q in ('Hi, giúp mình học tiếng Anh','Giải thích thuyết tương đối',
+                      'Gợi ý câu hỏi về tình yêu','Làm sao làm bánh mì?'):
+                server.ai_chat(q)
+        for _,instructions in prompts:
+            self.assertNotIn('CHẾ ĐỘ CHÀO HỎI/GỢI Ý TRỢ GIÚP AUREL',instructions)
+        self.assertEqual([q for q,_ in prompts],
+                         ['Hi, giúp mình học tiếng Anh','Giải thích thuyết tương đối',
+                          'Gợi ý câu hỏi về tình yêu','Làm sao làm bánh mì?'])
+
     def test_chat_prompt_allows_any_topic_not_just_aurel_data(self):
         captured={}
         def generate(_token,payload,_models,**_kwargs):
