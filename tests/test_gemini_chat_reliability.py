@@ -100,5 +100,36 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertFalse(result['generation_ready'])
 
 
+    def test_simple_greeting_is_finance_contextual_and_does_not_request_gemini(self):
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-3.8-flash',['gemini-3.8-flash'])), \
+             patch.object(server,'_aurel_chat_generate',
+                          side_effect=AssertionError('No Gemini request on greeting')):
+            for greeting in ('hi','Chào bạn! Rất vui được gặp lại bạn.'):
+                result=server.ai_chat(greeting)
+                self.assertTrue(result.get('local'))
+                self.assertIn('trợ lý AI AUREL',result['reply'])
+                self.assertIn('tài chính',result['reply'])
+                self.assertNotIn('học tập',result['reply'])
+                self.assertNotIn('đời sống',result['reply'])
+
+    def test_chat_prompt_is_finance_first_but_can_answer_explicit_other_topic(self):
+        captured={}
+        def generate(_token,payload,_models,**_kwargs):
+            captured['instructions']=payload['system_instruction']['parts'][0]['text']
+            captured['question']=payload['contents'][-1]['parts'][0]['text']
+            return {'text':'Đây là câu trả lời cho yêu cầu của bạn.','model':'gemini-3.8-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('mock-key','gemini-3.8-flash',['gemini-3.8-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-3.8-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            result=server.ai_chat('Giúp mình luyện tiếng Anh')
+        self.assertIn('MẶC ĐỊNH ngữ cảnh',captured['instructions'])
+        self.assertIn('Khi khách chủ động hỏi cụ thể về một chủ đề ngoài website',
+                      captured['instructions'])
+        self.assertEqual(captured['question'],'Giúp mình luyện tiếng Anh')
+        self.assertFalse(result['refused'])
+
+
 if __name__=='__main__':
     unittest.main()
