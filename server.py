@@ -3467,14 +3467,14 @@ def ai_chat(question, history=None):
     answer=_aurel_chat_strip_unrequested_rules(generated['text'][:20000],q)
     # Prevent old, invented AUREL bank identifiers/domains leaking into public Gemini answers.
     # Do not rewrite a code the user explicitly asked about.
-    if not re.search(r'\\bBANK[_-]?\\d{3,}\\b',q,re.I):
-        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\.com\\.vn\\b',
+    if not re.search(r'\bBANK[_-]?\d{3,}\b',q,re.I):
+        answer=re.sub(r'(?i)\bBANK[_-]?\d{3,}\.com\.vn\b',
                       '[tên miền chưa được xác minh]',answer)
-        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\s*\\(\\s*(VCB|Vietcombank)\\s*\\)',
-                      r'\\1',answer)
-        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\s*[-–]\\s*(VCB|Vietcombank)\\b',
-                      r'\\1',answer)
-        answer=re.sub(r'(?i)\\bBANK[_-]?\\d{3,}\\b','',answer)
+        answer=re.sub(r'(?i)\bBANK[_-]?\d{3,}\s*\(\s*(VCB|Vietcombank)\s*\)',
+                      r'\1',answer)
+        answer=re.sub(r'(?i)\bBANK[_-]?\d{3,}\s*[-–]\s*(VCB|Vietcombank)\b',
+                      r'\1',answer)
+        answer=re.sub(r'(?i)\bBANK[_-]?\d{3,}\b','',answer)
         answer=re.sub(r' {2,}',' ',answer)
     if needs_web and not grounded:
         answer=('**Lưu ý về thông tin mới nhất:** Gemini chưa có nguồn Google Search '
