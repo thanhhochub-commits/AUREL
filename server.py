@@ -3107,12 +3107,24 @@ def llm_request(system,context,task):
             {'category':'HARM_CATEGORY_DANGEROUS_CONTENT','threshold':'BLOCK_ONLY_HIGH'}
         ]
     }
+    # Choose generation-capable models for the user's own key, not a fixed global model.
+    available=_aurel_chat_list_models(token)
+    if available:
+        candidates=[name for name in fallbacks if name in available]
+        candidates.extend(name for name in available if name not in candidates and 'flash' in name)
+        if not candidates:candidates=available[:4]
+    else:
+        candidates=fallbacks
+    deadline=time.monotonic()+72
     last_404=False
-    for candidate in fallbacks:
+    transient=False
+    for candidate in candidates[:5]:
+        remaining=deadline-time.monotonic()
+        if remaining<5:break
         url=f'https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent'
         req=Request(url, data=json.dumps(payload,ensure_ascii=False).encode('utf-8'), headers={'Content-Type':'application/json','x-goog-api-key':token}, method='POST')
         try:
-            with urlopen(req,timeout=90) as response:
+            with urlopen(req,timeout=min(22,max(3,remaining-2))) as response:
                 answer=json.loads(response.read().decode('utf-8'))
             raw=_clean_json_text(_gemini_extract_text(answer))
             if not raw:
@@ -3128,14 +3140,20 @@ def llm_request(system,context,task):
             if e.code==404:
                 last_404=True
                 continue
+            if e.code in (408,429,500,502,503,504):
+                transient=True
+                continue
             gemini_error(e)
-        except (URLError,TimeoutError) as e:
-            raise ValueError('Kết nối AI bị gián đoạn hoặc quá thời gian chờ.') from e
+        except (URLError,TimeoutError):
+            transient=True
+            continue
         except (UnicodeDecodeError,json.JSONDecodeError) as e:
             raise ValueError('Gemini trả về phản hồi không đọc được.') from e
+    if transient:
+        raise ValueError('Gemini đang giới hạn yêu cầu, quá tải hoặc bị gián đoạn. Đã thử các mô hình khả dụng nhưng chưa nhận được kết quả; vui lòng thử lại sau.')
     if last_404:
-        raise ValueError('Không thể gọi mô hình Gemini 3 đã cấu hình và cũng không dùng được mô hình dự phòng. Kiểm tra quyền truy cập mô hình trong Google AI Studio.')
-    raise ValueError('Gemini không xử lý được yêu cầu phân tích.')
+        raise ValueError('Không có mô hình Gemini phân tích khả dụng cho API key này. Kiểm tra quyền truy cập trong Google AI Studio.')
+    raise ValueError('Gemini chưa xử lý được yêu cầu phân tích.')
 
 def _aurel_chat_strip_unrequested_rules(answer,question):
     """Suppress a specific unsolicited policy-list outro without hiding requested policy explanations."""
