@@ -3209,6 +3209,8 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
         allowed.insert(0,favorite)
     transient=False
     rate_limited=False
+    provider_error=False
+    network_error=False
     unsupported=False
     requests_made=0
     for candidate in allowed:
@@ -3236,12 +3238,17 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
                         STORE.gemini_chat_model_cooldown=cooldown
                 return {'text':answer,'model':candidate}
             except HTTPError as e:
-                if e.code in (403,404):
+                if e.code==403:
+                    # A permission error is not a model outage: report it clearly.
+                    gemini_error(e)
+                if e.code==404:
                     unsupported=True
                     break
                 if e.code in (408,429,500,502,503,504):
                     transient=True
                     rate_limited=rate_limited or e.code==429
+                    provider_error=provider_error or e.code in (500,502,503,504)
+                    network_error=network_error or e.code==408
                     with STORE.lock:
                         if STORE.gemini_session_key==current:
                             cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
@@ -3257,6 +3264,7 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
                 gemini_error(e)
             except (URLError,TimeoutError):
                 transient=True
+                network_error=True
                 if attempt==0 and deadline-time.monotonic()>7:
                     time.sleep(min(2**attempt+secrets.randbelow(900)/1000,max(0,deadline-time.monotonic()-4)))
                     continue
@@ -3266,8 +3274,12 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
         if requests_made>=max_calls or deadline-time.monotonic()<4:break
     if rate_limited:
         raise ValueError('Gemini đã giới hạn lượt dùng API key (HTTP 429). Hãy chờ hạn mức được khôi phục rồi gửi lại.')
+    if provider_error:
+        raise ValueError('Đầu cuối Gemini trả về lỗi máy chủ (HTTP 5xx). AUREL đã thử mô hình dự phòng nhưng chưa nhận được phản hồi; vui lòng thử lại sau.')
+    if network_error:
+        raise ValueError('Kết nối từ máy chủ AUREL tới Gemini bị gián đoạn hoặc hết thời gian chờ. Đây không phải bằng chứng Gemini quá tải; hãy kiểm tra kết nối mạng của backend Render.')
     if transient:
-        raise ValueError('Gemini hiện tạm quá tải hoặc kết nối gián đoạn (HTTP 503). Các mô hình dự phòng chưa phản hồi; vui lòng thử lại sau.')
+        raise ValueError('Yêu cầu Gemini bị gián đoạn tạm thời; các mô hình dự phòng chưa phản hồi.')
     if unsupported:
         raise ValueError('API key chưa truy cập được mô hình Gemini có thể trả lời. Kiểm tra quyền dùng mô hình trong Google AI Studio.')
     raise ValueError('Gemini chưa thể tạo câu trả lời lúc này. Vui lòng thử lại.')
