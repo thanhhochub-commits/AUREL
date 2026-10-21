@@ -2971,6 +2971,8 @@ def _gemini_env_key():
     return ''
 
 
+AUREL_GEMINI_FIXED_MODEL='gemini-3-flash-preview'
+
 def gemini_credentials():
     with STORE.lock:
         token=_clean_gemini_key(STORE.gemini_session_key)
@@ -2978,14 +2980,9 @@ def gemini_credentials():
         token=_gemini_env_key()
     if not token:
         raise ValueError('Chưa có khóa Gemini hợp lệ. Nhập API key tại mục Kết nối AI hoặc cấu hình GEMINI_API_KEY/GOOGLE_API_KEY trên máy chủ.')
-    configured=(os.getenv('AUREL_GEMINI_MODEL','gemini-3-flash-preview').strip() or 'gemini-3-flash-preview')
-    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}', configured):
-        raise ValueError('Tên mô hình Gemini không hợp lệ.')
-    fallbacks=[]
-    for name in [configured,'gemini-3.8-flash','gemini-3.5-flash-lite','gemini-2.5-flash','gemini-2.5-flash-lite','gemini-3-flash-preview','gemini-2.0-flash']:
-        if name and name not in fallbacks:
-            fallbacks.append(name)
-    return token, configured, fallbacks
+    # Explicitly pin all AUREL Gemini requests to Gemini 3 Flash Preview.
+    # Never silently switch to another Gemini model or a different user's key.
+    return token,AUREL_GEMINI_FIXED_MODEL,[AUREL_GEMINI_FIXED_MODEL]
 
 
 def gemini_error(e):
@@ -3076,11 +3073,12 @@ def gemini_connection_check():
     if not models:
         raise ValueError('Chưa xác minh được danh sách mô hình tạo nội dung của Gemini lúc này. '
                          'Vui lòng thử lại; khóa đã lưu trước đó không bị xóa.')
-    preferred=next((x for x in ['gemini-3.5-flash-lite','gemini-3.8-flash',
-        'gemini-3.6-flash','gemini-3.1-flash-lite',configured,*fallbacks] if x in models),models[0])
-    return {'connected':True,'generation_ready':False,'model':preferred,
-            'message':'API key có quyền truy cập mô hình tạo nội dung. '
-                      'Cần kiểm tra gửi và nhận phản hồi thực tế trước khi báo chat sẵn sàng.'}
+    if AUREL_GEMINI_FIXED_MODEL not in models:
+        raise ValueError('API key hiện tại chưa được Google cấp quyền sử dụng Gemini 3 Flash (gemini-3-flash-preview). '
+                         'AUREL sẽ không tự chuyển sang mô hình khác.')
+    return {'connected':True,'generation_ready':False,'model':AUREL_GEMINI_FIXED_MODEL,
+            'message':'API key có quyền truy cập Gemini 3 Flash. '
+                      'Cần gửi một yêu cầu tạo nội dung để xác nhận hạn mức còn sử dụng được.'}
 
 
 def llm_request(system,context,task):
@@ -3107,14 +3105,8 @@ def llm_request(system,context,task):
             {'category':'HARM_CATEGORY_DANGEROUS_CONTENT','threshold':'BLOCK_ONLY_HIGH'}
         ]
     }
-    # Choose generation-capable models for the user's own key, not a fixed global model.
-    available=_aurel_chat_list_models(token)
-    if available:
-        candidates=[name for name in fallbacks if name in available]
-        candidates.extend(name for name in available if name not in candidates and 'flash' in name)
-        if not candidates:candidates=available[:4]
-    else:
-        candidates=fallbacks
+    # The user explicitly selected Gemini 3 Flash; never fall back to another model.
+    candidates=[AUREL_GEMINI_FIXED_MODEL]
     deadline=time.monotonic()+72
     last_404=False
     transient=False
@@ -3176,21 +3168,8 @@ def _aurel_chat_strip_unrequested_rules(answer,question):
 
 
 def _aurel_chat_model_choices(question,fallbacks,token=None):
-    """Select only models this key can use whenever Gemini model discovery responds."""
-    preferred=str(os.getenv('AUREL_GEMINI_CHAT_MODEL','') or '').strip()
-    if preferred and not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}',preferred):
-        preferred=''
-    priority=['gemini-3.5-flash-lite','gemini-3.8-flash','gemini-3.6-flash',
-              'gemini-3.1-flash-lite','gemini-2.5-flash','gemini-2.5-flash-lite']
-    if len(str(question or ''))>550:
-        priority=['gemini-3.8-flash','gemini-3.6-flash',*priority]
-    candidates=list(dict.fromkeys([*([preferred] if preferred else []),*priority,*fallbacks]))
-    available=_aurel_chat_list_models(token) if token else []
-    if not available:
-        return candidates
-    selected=[m for m in candidates if m in available]
-    others=[m for m in available if 'flash' in m and m not in selected and 'preview' not in m]
-    return [*selected,*others]
+    """Use only the exact Gemini 3 Flash endpoint chosen for this website."""
+    return [AUREL_GEMINI_FIXED_MODEL]
 
 
 
@@ -4400,7 +4379,7 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__','')
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True,'gemini_chat_revision':'AUREL-GEMINI-20261022-CHAT-PAIR-V5'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True,'gemini_chat_revision':'AUREL-GEMINI-20261022-FLASH3-ONLY-V6'})
             if path=='/api/cafef':
                 from aurel_cafef import lookup_cafef
                 return self.reply(lookup_cafef(query.get('symbol',[''])[0]))
