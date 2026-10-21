@@ -109,6 +109,25 @@ class GeminiChatReliability(unittest.TestCase):
     def _raise_for_retry(self,status):
         raise self.error(status)
 
+    def test_search_503_does_not_cool_down_plain_chat_fallback(self):
+        first={'contents':[{'role':'user','parts':[{'text':'Lãi suất VCB hôm nay'}]}],
+               'tools':[{'google_search':{}}]}
+        plain={'contents':[{'role':'user','parts':[{'text':'Lãi suất VCB hôm nay'}]}]}
+        response=self.response({'candidates':[{'content':{'parts':[{
+            'text':'Không xác minh được lãi suất hiện tại.'}]}}]})
+        with patch.object(server,'urlopen',side_effect=[
+            self.error(503),self.error(503),self.error(503),response
+        ]) as api, patch.object(server.time,'sleep',return_value=None):
+            with self.assertRaisesRegex(ValueError,'HTTP 5xx'):
+                server._aurel_chat_generate('fake-test-key',first,
+                    ['gemini-3-flash-preview'],max_seconds=50,max_calls=3)
+            self.assertNotIn('gemini-3-flash-preview',
+                             self.store.gemini_chat_model_cooldown)
+            result=server._aurel_chat_generate('fake-test-key',plain,
+                ['gemini-3-flash-preview'],max_seconds=20,max_calls=1)
+        self.assertIn('Không xác minh',result['text'])
+        self.assertEqual(api.call_count,4)
+
     def test_503_exhaustion_reports_true_model_not_fallback(self):
         payload={'contents':[{'role':'user','parts':[{'text':'hi'}]}]}
         with patch.object(server,'urlopen',side_effect=[self.error(503)]*3) as api, \
