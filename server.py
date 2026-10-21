@@ -3273,6 +3273,12 @@ def ai_chat(question, history=None):
                          'Mình vẫn có thể giúp bạn tìm hiểu mã nguồn công khai, viết code mới '
                          'hoặc hướng dẫn bảo mật theo cách hợp pháp.'),
                 'model':'quy-tac-bao-mat','refused':True}
+    # Simple greetings can be answered locally without consuming API quota or failing on 503.
+    # All substantive questions still require a real Gemini generation response.
+    if normalized in ('hi','hello','hey','xin chao','chao','chao ban','alo','a lo'):
+        gemini_credentials()  # Preserve the existing requirement for a configured user/session key.
+        return {'reply':'Chào bạn! Mình là trợ lý AI AUREL. Bạn muốn mình hỗ trợ điều gì?',
+                'model':'phan-hoi-loi-chao','refused':False,'local':True}
     messages=[]
     if isinstance(history,list):
         for item in history[-24:]:
