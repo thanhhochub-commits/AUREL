@@ -103,7 +103,7 @@ class GeminiChatReliability(unittest.TestCase):
 
     def test_frontend_greeting_and_diagnostics_are_scoped_to_chat(self):
         page=(Path(__file__).resolve().parents[1]/'financial-intelligence.html').read_text('utf-8')
-        encoded=re.search(r'const b="([A-Za-z0-9+/=]+)",s=atob\\(b\\)',page)
+        encoded=re.search(r'const b="([A-Za-z0-9+/=]+)",s=atob',page)
         self.assertIsNotNone(encoded)
         script=base64.b64decode(encoded.group(1)).decode('utf-8')
         self.assertIn('function aurelChatLocalWelcome(question)',script)
