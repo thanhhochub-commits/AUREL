@@ -3274,13 +3274,14 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
     rate_delays=[]
     rate_zero_models=[]
     provider_error=False
+    provider_codes=[]
     network_error=False
     unsupported=False
     search_tool_unsupported=False
     requests_made=0
     for candidate in allowed:
         # Never spend a full client timeout on one overloaded model.
-        for attempt in range(2):
+        for attempt in range(min(3,max_calls)):
             remaining=deadline-time.monotonic()
             if remaining<4 or requests_made>=max_calls:break
             requests_made+=1
@@ -3322,6 +3323,10 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
                     transient=True
                     rate_limited=rate_limited or e.code==429
                     provider_error=provider_error or e.code in (500,502,503,504)
+                    if e.code in (500,502,503,504):
+                        provider_codes.append(e.code)
+                        # Safe diagnostic: no API key, user content, session token or headers.
+                        print(f'[AUREL AI] Gemini 3 Flash upstream HTTP {e.code}, attempt {attempt+1}',flush=True)
                     network_error=network_error or e.code==408
                     retry_delay=None
                     zero_quota=False
@@ -3339,16 +3344,23 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
                     # A quota response often applies to all models on the same key.
                     # Try the next authorized model rather than repeatedly hammering one model.
                     if e.code==429:break
-                    if attempt==0 and deadline-time.monotonic()>7:
-                        time.sleep(min(2**attempt+secrets.randbelow(900)/1000,max(0,deadline-time.monotonic()-4)))
+                    if attempt<2 and requests_made<max_calls and deadline-time.monotonic()>8:
+                        # Google REST guidance: exponential backoff + jitter for transient 5xx.
+                        # Retry the SAME Gemini 3 Flash endpoint; never swap models or keys.
+                        wait=(1.5*(2**attempt))+secrets.randbelow(1000)/1000
+                        if e.code in (500,502,503,504):
+                            retry_after=str((e.headers or {}).get('Retry-After',''))
+                            if retry_after.isdigit():wait=max(wait,min(15,int(retry_after)))
+                        time.sleep(min(wait,max(0,deadline-time.monotonic()-5)))
                         continue
                     break
                 gemini_error(e)
             except (URLError,TimeoutError):
                 transient=True
                 network_error=True
-                if attempt==0 and deadline-time.monotonic()>7:
-                    time.sleep(min(2**attempt+secrets.randbelow(900)/1000,max(0,deadline-time.monotonic()-4)))
+                if attempt<2 and requests_made<max_calls and deadline-time.monotonic()>8:
+                    wait=(1.5*(2**attempt))+secrets.randbelow(1000)/1000
+                    time.sleep(min(wait,max(0,deadline-time.monotonic()-5)))
                     continue
                 break
             except (UnicodeDecodeError,json.JSONDecodeError) as e:
@@ -3363,11 +3375,16 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
         raise ValueError('Gemini HTTP 429 ('+source+'). '+detail+'.'+retry+warning+
                          ' Kiểm tra Rate limits của đúng dự án API key trong Google AI Studio.')
     if provider_error:
-        raise ValueError('Đầu cuối Gemini trả về lỗi máy chủ (HTTP 5xx). AUREL đã thử mô hình dự phòng nhưng chưa nhận được phản hồi; vui lòng thử lại sau.')
+        codes=', '.join(str(c) for c in dict.fromkeys(provider_codes))
+        raise ValueError('Dịch vụ AI AUREL chưa nhận được phản hồi từ Gemini 3 Flash '
+                         '(HTTP 5xx'+(': '+codes if codes else '')+'). '
+                         'Máy chủ đã thử lại cùng một mô hình với khoảng nghỉ tăng dần nhưng '
+                         'Google chưa đáp ứng. Đây không phải bằng chứng API key sai. '
+                         'Vui lòng thử lại sau khi dịch vụ ổn định.')
     if network_error:
         raise ValueError('Kết nối từ máy chủ AUREL tới Gemini bị gián đoạn hoặc hết thời gian chờ. Đây không phải bằng chứng Gemini quá tải; hãy kiểm tra kết nối mạng của backend Render.')
     if transient:
-        raise ValueError('Yêu cầu Gemini bị gián đoạn tạm thời; các mô hình dự phòng chưa phản hồi.')
+        raise ValueError('Kết nối Gemini 3 Flash bị gián đoạn tạm thời; AUREL không tự chuyển mô hình.')
     if search_tool_unsupported and payload.get('tools'):
         raise ValueError('AUREL_SEARCH_GROUNDING_UNAVAILABLE')
     if unsupported:
@@ -4433,7 +4450,7 @@ class Handler(BaseHTTPRequestHandler):
                 src=INDEX.read_text('utf-8').replace('__AUREL_CSRF__','')
                 return self.reply(src,content_type='text/html; charset=utf-8')
             if path=='/favicon.ico':return self.reply(b'',status=204,content_type='image/x-icon')
-            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True,'gemini_chat_revision':'AUREL-GEMINI-20261022-BRANDED-WELCOME-V7'})
+            if path=='/health':return self.reply({'status':'ok','version':'AUREL-PYBUS-20261008-V1','email_backend':'brevo','brevo_ready':True,'gemini_chat_revision':'AUREL-GEMINI-20261022-RETRY-V8'})
             if path=='/api/cafef':
                 from aurel_cafef import lookup_cafef
                 return self.reply(lookup_cafef(query.get('symbol',[''])[0]))
