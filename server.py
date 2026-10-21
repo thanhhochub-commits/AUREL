@@ -3325,16 +3325,23 @@ def ai_chat(question, history=None):
                          'Mình vẫn có thể giúp bạn tìm hiểu mã nguồn công khai, viết code mới '
                          'hoặc hướng dẫn bảo mật theo cách hợp pháp.'),
                 'model':'quy-tac-bao-mat','refused':True}
-    # Simple greetings can be answered locally without consuming API quota or failing on 503.
-    # All substantive questions still require a real Gemini generation response.
+    # Greetings and general onboarding get one short, website-focused answer.
+    # Specific requests, including explicit non-financial topics, still go to Gemini.
     greeting_only=bool(re.fullmatch(
-        r'(?:hi|hello|hey|xin chao|chao|chao ban|alo|a lo)(?: rat vui duoc gap (?:lai )?ban)?',
+        r'(?:hi|hello|hey|xin chao|chao|chao ban|alo|a lo)(?: ban| aurel)?'
+        r'(?: rat vui duoc gap (?:lai )?ban| hom nay ban the nao| ban khoe khong)?',
         normalized))
-    if greeting_only:
-        gemini_credentials()  # Preserve the existing requirement for a configured user/session key.
-        return {'reply':('Chào bạn! Rất vui được đồng hành cùng bạn. '
-                         'Mình là trợ lý AI AUREL. Bạn muốn tìm hiểu báo cáo tài chính, '
-                         'các chỉ số hay cần hỗ trợ sử dụng website hôm nay?'),
+    onboarding_only=bool(re.fullmatch(
+        r'(?:(?:hi|hello|chao|xin chao) )?'
+        r'(?:ban la ai|aurel la gi|ban lam duoc gi|ban co the lam gi|'
+        r'ban giup duoc gi|ban co the giup gi|ban ho tro gi|'
+        r'web nay lam gi|website nay lam gi|toi co the hoi gi)',
+        normalized))
+    if greeting_only or onboarding_only:
+        gemini_credentials()  # Keep the existing configured-key requirement.
+        return {'reply':('Chào bạn! Mình là **AI AUREL**, hỗ trợ phân tích báo cáo tài chính ngân hàng '
+                         'và hướng dẫn sử dụng website. Bạn có thể hỏi về **ROA, ROE, NIM**, '
+                         '**so sánh ngân hàng** hoặc **giám sát rủi ro**.'),
                 'model':'phan-hoi-loi-chao','refused':False,'local':True}
     messages=[]
     if isinstance(history,list):
@@ -3363,12 +3370,15 @@ def ai_chat(question, history=None):
         'so sánh ngân hàng, giám sát rủi ro, phân tích kịch bản, phân tích bằng AI, '
         'đánh giá hệ thống, lập và gửi báo cáo, hướng dẫn thao tác trên AUREL. '
         'Khi khách chỉ chào, hỏi bạn là ai, bạn làm được gì hoặc nói chung chung, '
-        'hãy đáp ngắn, tự nhiên và CHỈ gợi mở một việc liên quan các chức năng AUREL '
-        'hoặc phân tích tài chính; không tự liệt kê hay gợi ý học tập, ngoại ngữ, '
-        'đời sống, giải trí, du lịch, viết email, công nghệ chung hoặc lĩnh vực khác. '
+        'hãy trả lời tối đa 2 câu ngắn về website AUREL và chỉ gợi ý một số việc ngay trên website '
+        '(báo cáo tài chính, ROA/ROE/NIM, so sánh ngân hàng, giám sát rủi ro). '
+        'TUYỆT ĐỐI KHÔNG tự đề xuất chuyện học tập, đời sống, tâm sự, du lịch, giải trí, '
+        'viết email, công nghệ chung, ngoại ngữ hoặc bất cứ dịch vụ nào ngoài website. '
+        'Không nói chung chung rằng khách có thể hỏi mọi lĩnh vực hay bất kỳ điều gì. '
         'Khi khách chủ động hỏi cụ thể về một chủ đề ngoài website, hãy trả lời đầy đủ, '
         'đúng chủ đề đó, thân thiện và không ép cuộc trò chuyện quay lại tài chính; '
         'nếu cần gợi ý tiếp theo thì chỉ gợi ý trong đúng chủ đề khách đã hỏi. '
+        'Không tự nối thêm lời mời hỏi về lĩnh vực khác sau khi đã trả lời câu hỏi. '
         'Không tự liệt kê quy tắc, nguyên tắc hoạt động, giới hạn, chính sách bảo mật '
         'hoặc cam kết an toàn nếu khách không hỏi và tình huống không cần nêu. '
         'TRÌNH BÀY chuyên nghiệp: câu từ tự nhiên, rõ ràng, chia đoạn ngắn; '
