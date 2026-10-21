@@ -1,0 +1,23 @@
+name: AUREL Gemini chat reliability
+on:
+  push:
+    paths:
+      - server.py
+      - tests/test_gemini_chat_reliability.py
+      - .github/workflows/gemini-chat-reliability.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gemini-chat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile backend
+        run: python -m py_compile server.py
+      - name: Test Gemini reliability with mocked HTTP responses
+        run: python -m unittest discover -s tests -p 'test_gemini_chat_reliability.py' -v
