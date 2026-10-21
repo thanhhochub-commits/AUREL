@@ -1,11 +1,14 @@
 """Gemini AUREL chat: isolated reliability tests; no real API keys or outbound requests."""
+import base64
 import io
 import json
+import re
 import threading
 import unittest
+from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 
 import server
 
@@ -76,6 +79,40 @@ class GeminiChatReliability(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'429'):
                 server._aurel_chat_generate('key',payload,
                     ['gemini-3.5-flash-lite','gemini-3.8-flash'],max_seconds=20)
+
+    def test_upstream_503_is_not_reported_as_a_generic_network_failure(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'Phân tích ROE'}]}]}
+        with patch.object(server,'urlopen',
+                          side_effect=[self.error(503),self.error(503)]), \
+             patch.object(server.time,'sleep',return_value=None):
+            with self.assertRaisesRegex(ValueError,'HTTP 5xx'):
+                server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=20)
+
+    def test_network_disconnection_is_not_called_gemini_overload(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'Phân tích NIM'}]}]}
+        with patch.object(server,'urlopen',side_effect=URLError('network down')), \
+             patch.object(server.time,'sleep',return_value=None):
+            with self.assertRaisesRegex(ValueError,'Kết nối từ máy chủ AUREL tới Gemini'):
+                server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=20)
+
+    def test_403_clearly_identifies_gemini_permission_issue(self):
+        payload={'contents':[{'role':'user','parts':[{'text':'ROA là gì?'}]}]}
+        with patch.object(server,'urlopen',side_effect=self.error(403)):
+            with self.assertRaisesRegex(ValueError,'xác thực hoặc quyền truy cập'):
+                server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=20)
+
+    def test_frontend_greeting_and_diagnostics_are_scoped_to_chat(self):
+        page=(Path(__file__).resolve().parents[1]/'financial-intelligence.html').read_text('utf-8')
+        encoded=re.search(r'const b="([A-Za-z0-9+/=]+)",s=atob\\(b\\)',page)
+        self.assertIsNotNone(encoded)
+        script=base64.b64decode(encoded.group(1)).decode('utf-8')
+        self.assertIn('function aurelChatLocalWelcome(question)',script)
+        self.assertIn('const localWelcome=aurelChatLocalWelcome(q);',script)
+        self.assertIn('if(localWelcome){',script)
+        self.assertIn('Website AUREL chưa liên lạc được với backend',script)
+        self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
+        self.assertIn("await request('api/ai/chat',{question:q,history:before}",script)
+        self.assertIn('aurel-chat-answer-tail',script)
 
     def test_metadata_check_is_not_claimed_ready(self):
         with patch.object(server,'gemini_credentials',return_value=
