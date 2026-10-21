@@ -4478,10 +4478,29 @@ class Handler(BaseHTTPRequestHandler):
                     STORE.gemini_chat_model_cooldown={}
                 try:
                     checked=gemini_connection_check()
-                except Exception:
-                    with STORE.lock: STORE.gemini_session_key=previous_key
+                except ValueError as exc:
+                    # Model listing can temporarily return 429/5xx or time out.
+                    # Do not silently restore the previous key in that case.
+                    if 'Chưa xác minh được danh sách mô hình' in str(exc):
+                        return self.reply({
+                            'configured':True,'verification':'pending',
+                            'generation_ready':False,'model':None,
+                            'message':'Đã ghi nhận khóa Gemini mới cho phiên hiện tại. Google chưa cho phép xác minh danh sách mô hình lúc này; không tự quay lại khóa cũ. Vui lòng kiểm tra kết nối sau khi hạn mức phục hồi.'
+                        })
+                    with STORE.lock:
+                        if STORE.gemini_session_key==key:
+                            STORE.gemini_session_key=previous_key
+                            STORE.gemini_chat_recent_model=''
+                            STORE.gemini_chat_model_cooldown={}
                     raise
-                return self.reply({'configured':True,'model':checked.get('model'),'message':'Khóa Gemini hợp lệ và đã được lưu riêng cho phiên này. Để xác nhận dịch vụ trả lời, hãy dùng Kiểm tra kết nối.'})
+                except Exception:
+                    with STORE.lock:
+                        if STORE.gemini_session_key==key:
+                            STORE.gemini_session_key=previous_key
+                            STORE.gemini_chat_recent_model=''
+                            STORE.gemini_chat_model_cooldown={}
+                    raise
+                return self.reply({'configured':True,'verification':'verified','model':checked.get('model'),'message':'Khóa Gemini hợp lệ và đã được lưu riêng cho phiên này. Để xác nhận dịch vụ trả lời, hãy dùng Kiểm tra kết nối.'})
             if path=='/api/ai/key/clear':
                 with STORE.lock:
                     STORE.gemini_session_key=None
