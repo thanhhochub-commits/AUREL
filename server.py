@@ -3338,16 +3338,17 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
                         rate_messages.append(quota_reason)
                         if retry_delay is not None:rate_delays.append(retry_delay)
                         if zero_quota:rate_zero_models.append(candidate)
-                    with STORE.lock:
-                        if STORE.gemini_session_key==current:
-                            cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
-                            # A Search-grounded 5xx may be specific to Google Search.
-                            # Permit one immediate UNGROUNDED Gemini 3 Flash fallback;
-                            # keep the cooldown for quota failures or ordinary chat.
-                            if e.code==429 or not payload.get('tools'):
-                                delay=(1800 if zero_quota else max(90,retry_delay or 0)) if e.code==429 else 45
+                    # Only 429 indicates an actual quota/rate-limit condition.
+                    # A transient 5xx or timeout must NOT lock the only authorized
+                    # Gemini 3 Flash model for the user's next, unrelated message.
+                    # Retries for 5xx already use bounded exponential backoff above.
+                    if e.code==429:
+                        with STORE.lock:
+                            if STORE.gemini_session_key==current:
+                                cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
+                                delay=1800 if zero_quota else max(90,retry_delay or 0)
                                 cooldown[candidate]=time.monotonic()+min(delay,3600)
-                            STORE.gemini_chat_model_cooldown=cooldown
+                                STORE.gemini_chat_model_cooldown=cooldown
                     # A quota response often applies to all models on the same key.
                     # Try the next authorized model rather than repeatedly hammering one model.
                     if e.code==429:break
