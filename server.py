@@ -3264,7 +3264,10 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
     now=time.monotonic()
     allowed=[name for name in models if cooled.get(name,0)<=now]
     if not allowed:
-        raise ValueError('Các mô hình Gemini vừa gặp giới hạn hoặc quá tải. Vui lòng thử lại sau khoảng một phút.')
+        wait_seconds=max(1,math.ceil(min((cooled.get(name,now)-now for name in models),default=45)))
+        raise ValueError('Gemini 3 Flash đang được tạm nghỉ sau lỗi giới hạn hoặc gián đoạn trước đó. '
+                         'Vui lòng thử lại sau khoảng '+str(wait_seconds)+' giây; '
+                         'AI AUREL không tự đổi sang mô hình khác.')
     if favorite in allowed:
         allowed.remove(favorite)
         allowed.insert(0,favorite)
