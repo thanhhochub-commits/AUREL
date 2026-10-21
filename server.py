@@ -3093,9 +3093,10 @@ def llm_request(system,context,task):
         'system_instruction':{'parts':[{'text':'Bạn là trợ lý phân tích tài chính chuyên nghiệp. Luôn trả về tiếng Việt.'}]},
         'contents':[{'role':'user','parts':[{'text':prompt}]}],
         'generationConfig':{
-            'temperature':0.2,
+            'temperature':1.0,
             'topP':0.9,
             'maxOutputTokens':2200,
+            'thinkingConfig':{'thinkingLevel':'low'},
             'responseMimeType':'application/json'
         },
         'safetySettings':[
@@ -3379,7 +3380,8 @@ def gemini_generation_check():
     info=gemini_connection_check()
     token,configured,fallbacks=gemini_credentials()
     payload={'contents':[{'role':'user','parts':[{'text':'Trả lời chính xác một từ: OK'}]}],
-             'generationConfig':{'temperature':0,'maxOutputTokens':512}}
+             'generationConfig':{'temperature':1.0,'maxOutputTokens':1024,
+                                 'thinkingConfig':{'thinkingLevel':'low'}}}
     try:
         result=_aurel_chat_generate(token,payload,_aurel_chat_model_choices('OK',fallbacks,token),
             max_seconds=25,max_calls=4)
@@ -3503,7 +3505,8 @@ def ai_chat(question, history=None):
                  'nói rõ không thể xác nhận thông tin hôm nay.')
     payload={'system_instruction':{'parts':[{'text':system}]},
              'contents':messages,
-             'generationConfig':{'temperature':0.65,'topP':0.9,'maxOutputTokens':3200}}
+             'generationConfig':{'temperature':1.0,'topP':0.9,'maxOutputTokens':3200,
+                                 'thinkingConfig':{'thinkingLevel':'low'}}}
     if needs_web:
         payload['tools']=[{'google_search':{}}]
     models=_aurel_chat_model_choices(q,fallbacks,token)
