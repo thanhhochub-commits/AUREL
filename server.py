@@ -3032,28 +3032,55 @@ def _clean_json_text(raw):
     return text.strip()
 
 
+def _aurel_chat_list_models(token):
+    """Discover supported text generation models for this session's own Gemini key."""
+    fingerprint=hashlib.sha256(token.encode('utf-8')).hexdigest()
+    with STORE.lock:
+        cache=getattr(STORE,'gemini_model_discovery',None)
+        if cache and cache[0]==fingerprint and cache[1]>time.monotonic():
+            return list(cache[2])
+    req=Request('https://generativelanguage.googleapis.com/v1beta/models?pageSize=500',
+                headers={'Accept':'application/json','x-goog-api-key':token},method='GET')
+    try:
+        with urlopen(req,timeout=12) as response:
+            payload=json.loads(response.read().decode('utf-8'))
+    except HTTPError as e:
+        if e.code in (408,429,500,502,503,504):
+            return []  # A temporary listing outage is not evidence of an invalid key.
+        gemini_error(e)
+    except (URLError,TimeoutError,UnicodeDecodeError,json.JSONDecodeError):
+        return []
+    if not isinstance(payload,dict) or not isinstance(payload.get('models'),list):
+        return []
+    models=[]
+    for item in payload['models']:
+        if not isinstance(item,dict):continue
+        name=str(item.get('name',''))
+        methods=item.get('supportedGenerationMethods') or item.get('supportedActions') or []
+        if not any(str(x).lower()=='generatecontent' for x in methods):continue
+        if not name.startswith('models/'):continue
+        name=name.split('/',1)[1]
+        if not re.fullmatch(r'gemini-[A-Za-z0-9._-]{2,100}',name):continue
+        if any(x in name for x in ('image','audio','live','tts','transcribe','translate','embedding','robotics')):
+            continue
+        models.append(name)
+    models=list(dict.fromkeys(models))
+    with STORE.lock:
+        STORE.gemini_model_discovery=(fingerprint,time.monotonic()+600,tuple(models))
+    return models
+
+
 def gemini_connection_check():
-    token,model,fallbacks=gemini_credentials()
-    checked=[]
-    for candidate in fallbacks:
-        req=Request(f'https://generativelanguage.googleapis.com/v1beta/models/{candidate}', headers={'Accept':'application/json','x-goog-api-key':token}, method='GET')
-        try:
-            with urlopen(req,timeout=18) as response:
-                info=json.loads(response.read().decode('utf-8'))
-            if not isinstance(info,dict) or 'name' not in info:
-                raise ValueError('Phản hồi xác minh mô hình Gemini chưa hợp lệ.')
-            note='' if candidate==model else f' Mô hình cấu hình ưu tiên là {model}, hệ thống đang dùng dự phòng {candidate}.'
-            return {'connected':True,'model':candidate,'message':'Đã xác nhận API key có thể truy cập mô hình '+candidate+'. Tạo nội dung vẫn phụ thuộc hạn mức gói miễn phí của Gemini.'+note}
-        except HTTPError as e:
-            checked.append((candidate,e.code))
-            if e.code not in (404,403):
-                gemini_error(e)
-        except (URLError,TimeoutError) as e:
-            raise ValueError('Không thể kết nối Gemini từ máy chủ Colab. Kiểm tra kết nối mạng.') from e
-        except (UnicodeDecodeError,json.JSONDecodeError) as e:
-            raise ValueError('Không thể xác minh thông tin mô hình từ Gemini.') from e
-    codes=', '.join(f'{name} (HTTP {code})' for name,code in checked) if checked else 'không xác định'
-    raise ValueError('Không thể truy cập mô hình Gemini đã cấu hình. Đã thử: '+codes+'. Kiểm tra AUREL_GEMINI_MODEL hoặc quyền truy cập mô hình.')
+    token,configured,fallbacks=gemini_credentials()
+    models=_aurel_chat_list_models(token)
+    if not models:
+        raise ValueError('Chưa xác minh được danh sách mô hình tạo nội dung của Gemini lúc này. '
+                         'Vui lòng thử lại; khóa đã lưu trước đó không bị xóa.')
+    preferred=next((x for x in ['gemini-3.5-flash-lite','gemini-3.8-flash',
+        'gemini-3.6-flash','gemini-3.1-flash-lite',configured,*fallbacks] if x in models),models[0])
+    return {'connected':True,'generation_ready':False,'model':preferred,
+            'message':'API key có quyền truy cập mô hình tạo nội dung. '
+                      'Cần kiểm tra gửi và nhận phản hồi thực tế trước khi báo chat sẵn sàng.'}
 
 
 def llm_request(system,context,task):
@@ -3130,19 +3157,25 @@ def _aurel_chat_strip_unrequested_rules(answer,question):
     return content[:marker.start()].strip() or 'Mình sẵn sàng hỗ trợ bạn. Bạn muốn tìm hiểu điều gì?'
 
 
-def _aurel_chat_model_choices(question,fallbacks):
-    """Prefer stable chat-capable models, while respecting optional explicit chat override."""
+def _aurel_chat_model_choices(question,fallbacks,token=None):
+    """Select only models this key can use whenever Gemini model discovery responds."""
     preferred=str(os.getenv('AUREL_GEMINI_CHAT_MODEL','') or '').strip()
     if preferred and not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:-]{1,100}',preferred):
         preferred=''
-    short=len(str(question or '').strip())<=120
-    stable=(['gemini-3.5-flash-lite','gemini-3.8-flash'] if short else
-            ['gemini-3.8-flash','gemini-3.5-flash-lite'])
-    return list(dict.fromkeys([*([preferred] if preferred else []),*stable,
-        'gemini-2.5-flash','gemini-2.5-flash-lite',*fallbacks]))
+    priority=['gemini-3.5-flash-lite','gemini-3.8-flash','gemini-3.6-flash',
+              'gemini-3.1-flash-lite','gemini-2.5-flash','gemini-2.5-flash-lite']
+    if len(str(question or ''))>550:
+        priority=['gemini-3.8-flash','gemini-3.6-flash',*priority]
+    candidates=list(dict.fromkeys([*([preferred] if preferred else []),*priority,*fallbacks]))
+    available=_aurel_chat_list_models(token) if token else []
+    if not available:
+        return candidates
+    selected=[m for m in candidates if m in available]
+    others=[m for m in available if 'flash' in m and m not in selected and 'preview' not in m]
+    return [*selected,*others]
 
 
-def _aurel_chat_generate(token,payload,models,max_seconds=54,max_calls=8):
+def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
     """One bounded execution for chat or a genuine send/receive connection probe."""
     deadline=time.monotonic()+max_seconds
     with STORE.lock:
@@ -3151,7 +3184,8 @@ def _aurel_chat_generate(token,payload,models,max_seconds=54,max_calls=8):
         favorite=getattr(STORE,'gemini_chat_recent_model','')
     now=time.monotonic()
     allowed=[name for name in models if cooled.get(name,0)<=now]
-    if not allowed:allowed=list(models[:2])
+    if not allowed:
+        raise ValueError('Các mô hình Gemini vừa gặp giới hạn hoặc quá tải. Vui lòng thử lại sau khoảng một phút.')
     if favorite in allowed:
         allowed.remove(favorite)
         allowed.insert(0,favorite)
@@ -3169,7 +3203,7 @@ def _aurel_chat_generate(token,payload,models,max_seconds=54,max_calls=8):
                 data=json.dumps(payload,ensure_ascii=False).encode('utf-8'),
                 headers={'Content-Type':'application/json','x-goog-api-key':token},method='POST')
             try:
-                with urlopen(req,timeout=min(12,max(3,remaining-2))) as response:
+                with urlopen(req,timeout=min(21,max(3,remaining-2))) as response:
                     raw=json.loads(response.read().decode('utf-8'))
                 answer=_gemini_extract_text(raw).strip()
                 if not answer:
@@ -3199,14 +3233,14 @@ def _aurel_chat_generate(token,payload,models,max_seconds=54,max_calls=8):
                     # Try the next authorized model rather than repeatedly hammering one model.
                     if e.code==429:break
                     if attempt==0 and deadline-time.monotonic()>7:
-                        time.sleep(min(1.2+secrets.randbelow(600)/1000,max(0,deadline-time.monotonic()-4)))
+                        time.sleep(min(2**attempt+secrets.randbelow(900)/1000,max(0,deadline-time.monotonic()-4)))
                         continue
                     break
                 gemini_error(e)
             except (URLError,TimeoutError):
                 transient=True
                 if attempt==0 and deadline-time.monotonic()>7:
-                    time.sleep(min(0.7+secrets.randbelow(500)/1000,max(0,deadline-time.monotonic()-4)))
+                    time.sleep(min(2**attempt+secrets.randbelow(900)/1000,max(0,deadline-time.monotonic()-4)))
                     continue
                 break
             except (UnicodeDecodeError,json.JSONDecodeError) as e:
@@ -3226,9 +3260,9 @@ def gemini_generation_check():
     info=gemini_connection_check()
     token,configured,fallbacks=gemini_credentials()
     payload={'contents':[{'role':'user','parts':[{'text':'Trả lời chính xác một từ: OK'}]}],
-             'generationConfig':{'temperature':0,'maxOutputTokens':160}}
+             'generationConfig':{'temperature':0,'maxOutputTokens':512}}
     try:
-        result=_aurel_chat_generate(token,payload,_aurel_chat_model_choices('OK',fallbacks),
+        result=_aurel_chat_generate(token,payload,_aurel_chat_model_choices('OK',fallbacks,token),
             max_seconds=25,max_calls=4)
     except ValueError as e:
         return {'connected':True,'generation_ready':False,'model':info.get('model'),
@@ -3336,8 +3370,8 @@ def ai_chat(question, history=None):
              'contents':messages,
              'generationConfig':{'temperature':0.65,'topP':0.9,'maxOutputTokens':3200}}
     # A chat generation must succeed independently of the metadata-only API key check.
-    generated=_aurel_chat_generate(token,payload,_aurel_chat_model_choices(q,fallbacks),
-                                   max_seconds=54,max_calls=8)
+    generated=_aurel_chat_generate(token,payload,_aurel_chat_model_choices(q,fallbacks,token),
+                                   max_seconds=63,max_calls=5)
     return {'reply':_aurel_chat_strip_unrequested_rules(generated['text'][:20000],q),
             'model':generated['model'],'refused':False}
 
