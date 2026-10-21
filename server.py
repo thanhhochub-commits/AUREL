@@ -3474,7 +3474,12 @@ def ai_chat(question, history=None):
         'huong dan su dung aurel','huong dan su dung web',
         'toi nen hoi gi','toi co the hoi gi','goi y cau hoi',
         'goi y cau hoi cho toi','goi y tro giup','goi y',
-        'tro giup','giup do','can tro giup','help','what can you do',
+        'tro giup','giup do','can tro giup','can ho tro','giup toi',
+        'giup toi voi','ho tro toi','toi can giup do','toi can ho tro',
+        'ban co the lam gi','ban co the ho tro gi','ban ho tro duoc gi',
+        'ban co the giup toi nhung gi','aurel ho tro gi','aurel co the giup gi',
+        'ban huong dan duoc gi','hay goi y cau hoi','hay goi y',
+        'help','what can you do',
         'how to use aurel','what is aurel','what should i ask',
     }
     web_first_onboarding=normalized in onboarding_phrases
