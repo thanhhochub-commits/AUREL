@@ -115,7 +115,9 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertIn('aurel-chat-answer-tail',script)
         self.assertIn('circle cx="12" cy="12" r="9"',script)
         self.assertIn('Show only the warm smile in the interface',script)
-        self.assertIn('aurelChatHistory.filter(x=>!x.error&&!',script)
+        self.assertIn('const completeHistory=[];',script)
+        self.assertIn("if(entry?.error){pendingChatQuestion=null;continue}",script)
+        self.assertIn('const before=completeHistory.slice(-24);',script)
         self.assertNotIn('function aurelChatLocalWelcome(question)',script)
         self.assertIn('Website AUREL chưa liên lạc được với backend',script)
         self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
@@ -136,6 +138,46 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertNotIn('BANK_001',repr(payload['contents']))
         self.assertNotIn('dashboard',repr(payload['contents']).lower())
         self.assertEqual(result['reply'],'Gemini giải thích theo câu hỏi của bạn.')
+
+    def test_unanswered_previous_question_must_not_contaminate_hi(self):
+        captured=[]
+        def fake_generate(token,payload,models,**kwargs):
+            captured.append(payload['contents'])
+            return {'text':'Chào bạn! Mình có thể hỗ trợ gì?','model':'gemini-2.5-flash'}
+        histories=[
+            [{'role':'user','text':'ls vcb hôm nay'}],
+            [{'role':'user','text':'ls vcb hôm nay'},
+             {'role':'assistant','text':'Gemini HTTP 429', 'error':True}],
+            [{'role':'user','text':'ls vcb hôm nay'},
+             {'role':'user','text':'một tin chưa trả lời'}],
+        ]
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=fake_generate):
+            for history in histories:
+                result=server.ai_chat('hi',history=history)
+                self.assertIn('Chào bạn!',result['reply'])
+        for history in captured:
+            self.assertEqual(history,[{'role':'user','parts':[{'text':'hi'}]}])
+
+    def test_completed_chat_pair_still_preserved(self):
+        captured={}
+        def fake_generate(token,payload,models,**kwargs):
+            captured['history']=payload['contents']
+            return {'text':'Chào bạn!','model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=fake_generate):
+            server.ai_chat('hi',history=[
+                {'role':'user','text':'ROE là gì?'},
+                {'role':'assistant','text':'ROE đo tỷ suất sinh lời trên vốn chủ sở hữu.'},
+                {'role':'user','text':'ls vcb hôm nay'},
+            ])
+        self.assertEqual([x['role'] for x in captured['history']],['user','model','user'])
+        self.assertEqual(captured['history'][-1]['parts'][0]['text'],'hi')
+        self.assertNotIn('ls vcb hôm nay',repr(captured['history']))
 
     def test_prevents_fabricated_bank_identifier_and_fake_bank_domain(self):
         with patch.object(server,'gemini_credentials',return_value=
