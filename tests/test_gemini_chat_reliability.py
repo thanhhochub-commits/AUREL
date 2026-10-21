@@ -286,12 +286,30 @@ class GeminiChatReliability(unittest.TestCase):
 
     def test_metadata_check_is_not_claimed_ready(self):
         with patch.object(server,'gemini_credentials',return_value=
-                          ('key','gemini-3.8-flash',['gemini-3.8-flash'])), \
+                          ('key','gemini-3-flash-preview',['gemini-3-flash-preview'])), \
              patch.object(server,'_aurel_chat_list_models',
-                          return_value=['gemini-3.8-flash']):
+                          return_value=['gemini-3-flash-preview']):
             result=server.gemini_connection_check()
         self.assertTrue(result['connected'])
         self.assertFalse(result['generation_ready'])
+        self.assertEqual(result['model'],'gemini-3-flash-preview')
+
+    def test_chat_pins_gemini_3_flash_without_fallbacks(self):
+        with patch.object(server,'_gemini_env_key',return_value=''):
+            token,model,models=server.gemini_credentials()
+        self.assertEqual(model,'gemini-3-flash-preview')
+        self.assertEqual(models,['gemini-3-flash-preview'])
+        self.assertEqual(token,'fake-test-key')
+        self.assertEqual(server._aurel_chat_model_choices('hi',models,token),
+                         ['gemini-3-flash-preview'])
+        self.assertEqual(server._aurel_chat_model_choices('a'*1000,models,token),
+                         ['gemini-3-flash-preview'])
+
+    def test_gemini_3_flash_access_must_be_explicit(self):
+        with patch.object(server,'_aurel_chat_list_models',
+                          return_value=['gemini-3.8-flash']):
+            with self.assertRaisesRegex(ValueError,'Gemini 3 Flash'):
+                server.gemini_connection_check()
 
     def test_real_generation_probe_failure_reports_not_ready(self):
         with patch.object(server,'gemini_connection_check',
