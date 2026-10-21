@@ -101,7 +101,7 @@ class GeminiChatReliability(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'xác thực hoặc quyền truy cập'):
                 server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=20)
 
-    def test_frontend_always_sends_chat_to_gemini_and_shows_friendly_icons(self):
+    def test_frontend_sends_chat_to_gemini_without_changing_aurel_labels(self):
         page=(Path(__file__).resolve().parents[1]/'financial-intelligence.html').read_text('utf-8')
         encoded=re.search(r'const b="([A-Za-z0-9+/=]+)",s=atob',page)
         self.assertIsNotNone(encoded)
@@ -109,11 +109,30 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertNotIn('function aurelChatLocalWelcome(question)',script)
         self.assertNotIn('const localWelcome=aurelChatLocalWelcome(q);',script)
         self.assertIn("await request('api/ai/chat',{question:q,history:before}",script)
-        self.assertIn('AUREL · Gemini',script)
+        self.assertNotIn('AUREL · Gemini',script)
+        self.assertIn("></svg>AUREL</span>",script)
         self.assertIn('aurel-chat-answer-tail',script)
-        self.assertIn('r="9"',script)
+        self.assertIn('M3 17l6-6 4 3 8-9',script)
+        self.assertNotIn('function aurelChatLocalWelcome(question)',script)
         self.assertIn('Website AUREL chưa liên lạc được với backend',script)
         self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
+
+    def test_chat_question_sent_verbatim_without_dashboard_bank_or_file(self):
+        captured={}
+        def generate(token,payload,models,**kwargs):
+            captured['payload']=payload
+            return {'text':'Gemini giải thích theo câu hỏi của bạn.','model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',return_value=
+                          ('user-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            question='Giá vàng có biến động thế nào?'
+            result=server.ai_chat(question)
+        payload=captured['payload']
+        self.assertEqual(payload['contents'][-1]['parts'][0]['text'],question)
+        self.assertNotIn('BANK_001',repr(payload['contents']))
+        self.assertNotIn('dashboard',repr(payload['contents']).lower())
+        self.assertEqual(result['reply'],'Gemini giải thích theo câu hỏi của bạn.')
 
     def test_public_web_search_only_when_information_is_dynamic(self):
         self.assertTrue(server._aurel_chat_needs_web('Lãi suất hôm nay của VCB là bao nhiêu?'))
