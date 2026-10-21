@@ -28,7 +28,7 @@ jobs:
           from urllib.error import HTTPError
 
           url=os.environ['AUREL_BACKEND'].rstrip('/')+'/health'
-          expected='AUREL-GEMINI-20261022-DIAG-V2'
+          expected='AUREL-GEMINI-20261022-OPEN-WEB-V3'
           last='no response'
           for attempt in range(18):
               try:
