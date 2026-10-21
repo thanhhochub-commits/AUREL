@@ -3223,7 +3223,58 @@ def _aurel_chat_grounding_sources(response):
         if len(sources)>=5:break
     return sources
 
-def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
+
+def _aurel_gemini_429_details(error,model):
+    """Translate only provider quota metadata into safe, actionable diagnostics."""
+    detail=''
+    delay=None
+    zero=False
+    try:
+        payload=json.loads(error.read(16384).decode('utf-8','replace'))
+        err=payload.get('error') or {}
+        message=str(err.get('message') or '')[:4000]
+        metrics=[]
+        if re.search(r'(?i)\\blimit\\s*:\\s*0(?:\\D|$)',message):
+            zero=True
+        for item in err.get('details') or []:
+            if not isinstance(item,dict):
+                continue
+            kind=str(item.get('@type') or '')
+            if kind.endswith('QuotaFailure'):
+                for violation in (item.get('violations') or []):
+                    metric=str(violation.get('quotaId') or violation.get('quotaMetric') or '').lower()
+                    if 'perday' in metric or 'per_day' in metric:
+                        metrics.append('giới hạn theo ngày (RPD)')
+                    elif 'perminute' in metric or 'per_minute' in metric:
+                        metrics.append('giới hạn theo phút (RPM/TPM)')
+            elif kind.endswith('RetryInfo'):
+                m=re.fullmatch(r'(\\d+)(?:\\.(\\d+))?s',str(item.get('retryDelay') or ''))
+                if m:
+                    delay=min(3600,int(m.group(1))+int(bool(m.group(2) and int(m.group(2)))))
+        if not metrics:
+            if 'per day' in message.lower() or 'perday' in message.lower():
+                metrics.append('giới hạn theo ngày (RPD)')
+            elif 'per minute' in message.lower() or 'perminute' in message.lower():
+                metrics.append('giới hạn theo phút (RPM/TPM)')
+        if zero:
+            detail='Hạn mức được Google báo là 0'
+        elif metrics:
+            detail=', '.join(dict.fromkeys(metrics))
+    except (ValueError,TypeError,AttributeError,UnicodeError):
+        pass
+    if delay is None:
+        try:
+            raw=(error.headers or {}).get('Retry-After','')
+            if str(raw).isdigit():
+                delay=min(3600,int(raw))
+        except (AttributeError,ValueError):
+            pass
+    label=model if re.fullmatch(r'gemini-[A-Za-z0-9._-]{2,100}',str(model or '')) else 'mô hình Gemini'
+    reason=(label+': '+detail) if detail else (label+': Google trả HTTP 429, không cung cấp chi tiết quota')
+    return reason,delay,zero
+
+
+def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=3):
     """One bounded execution for chat or a genuine send/receive connection probe."""
     deadline=time.monotonic()+max_seconds
     with STORE.lock:
@@ -3239,6 +3290,9 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
         allowed.insert(0,favorite)
     transient=False
     rate_limited=False
+    rate_messages=[]
+    rate_delays=[]
+    rate_zero_models=[]
     provider_error=False
     network_error=False
     unsupported=False
@@ -3289,10 +3343,18 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
                     rate_limited=rate_limited or e.code==429
                     provider_error=provider_error or e.code in (500,502,503,504)
                     network_error=network_error or e.code==408
+                    retry_delay=None
+                    zero_quota=False
+                    if e.code==429:
+                        quota_reason,retry_delay,zero_quota=_aurel_gemini_429_details(e,candidate)
+                        rate_messages.append(quota_reason)
+                        if retry_delay is not None:rate_delays.append(retry_delay)
+                        if zero_quota:rate_zero_models.append(candidate)
                     with STORE.lock:
                         if STORE.gemini_session_key==current:
                             cooldown=getattr(STORE,'gemini_chat_model_cooldown',{})
-                            cooldown[candidate]=time.monotonic()+(90 if e.code==429 else 45)
+                            delay=(1800 if zero_quota else max(90,retry_delay or 0)) if e.code==429 else 45
+                            cooldown[candidate]=time.monotonic()+min(delay,3600)
                             STORE.gemini_chat_model_cooldown=cooldown
                     # A quota response often applies to all models on the same key.
                     # Try the next authorized model rather than repeatedly hammering one model.
@@ -3313,7 +3375,13 @@ def _aurel_chat_generate(token,payload,models,max_seconds=63,max_calls=5):
                 raise ValueError('Phản hồi từ Gemini chưa đúng định dạng. Hãy thử lại.') from e
         if requests_made>=max_calls or deadline-time.monotonic()<4:break
     if rate_limited:
-        raise ValueError('Gemini đã giới hạn lượt dùng API key (HTTP 429). Hãy chờ hạn mức được khôi phục rồi gửi lại.')
+        with STORE.lock:
+            source='khóa bạn vừa nhập' if _clean_gemini_key(STORE.gemini_session_key) else 'khóa cấu hình trên máy chủ'
+        detail='; '.join(dict.fromkeys(rate_messages[:3]))
+        retry=(' Google đề nghị thử lại sau khoảng '+str(max(rate_delays))+' giây.' if rate_delays else '')
+        warning=(' Có mô hình được Google báo hạn mức bằng 0, thử lại liên tục sẽ không giúp ích.' if rate_zero_models else '')
+        raise ValueError('Gemini HTTP 429 ('+source+'). '+detail+'.'+retry+warning+
+                         ' Kiểm tra Rate limits của đúng dự án API key trong Google AI Studio.')
     if provider_error:
         raise ValueError('Đầu cuối Gemini trả về lỗi máy chủ (HTTP 5xx). AUREL đã thử mô hình dự phòng nhưng chưa nhận được phản hồi; vui lòng thử lại sau.')
     if network_error:
