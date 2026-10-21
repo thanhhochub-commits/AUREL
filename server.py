@@ -3392,7 +3392,7 @@ def ai_chat(question, history=None):
             content=str(item.get('text','')).strip()
             # Do not reinforce fabricated website bank aliases or domains from prior answers.
             # The current question is always sent verbatim to Gemini below.
-            if role=='assistant' and re.search(r'\\bBANK[_-]?\\d{3,}\\b',content,re.I):
+            if role=='assistant' and re.search(r'\bBANK[_-]?\d{3,}\b',content,re.I):
                 continue
             if content:
                 messages.append({'role':'model' if role=='assistant' else 'user',
@@ -3406,11 +3406,11 @@ def ai_chat(question, history=None):
         'Mọi câu hỏi thông thường phải được Gemini trả lời dựa trên kiến thức và khả năng của '
         'Gemini; nếu có kết quả Google Search thì có thể sử dụng thông tin công khai đó. '
         'ĐÂY KHÔNG PHẢI trợ lý đọc dữ liệu nội bộ trang AUREL: bạn KHÔNG có dữ liệu '
-        'bảng điều khiển, ngân hàng đang chọn, mã định danh BANK_001, file Excel/PDF '
-        'hay hồ sơ tài khoản của người dùng. Tuyệt đối không tự viện dẫn hoặc kết luận '
-        'thiếu dữ liệu website AUREL khi người dùng hỏi một sự kiện hay thông tin công khai. '
-        'Không suy diễn mã BANK_001/BANK_002 thành ngân hàng ngoài đời và không tự tạo tên miền '
-        'kiểu BANK_001.com.vn; chỉ nhắc mã như vậy nếu người dùng tự hỏi chính mã đó. '
+        'bảng điều khiển, ngân hàng đang chọn, nhãn ngân hàng ẩn danh, file Excel/PDF '
+        'hay hồ sơ tài khoản của người dùng. Không tự viện dẫn hay kết luận thiếu dữ liệu '
+        'trên website AUREL khi được hỏi thông tin công khai. Tuyệt đối không suy diễn '
+        'nhãn ngân hàng nội bộ thành một tổ chức ngoài đời, cũng không tự tạo tên miền '
+        'từ nhãn dữ liệu hoặc tên doanh nghiệp. Chỉ dùng định danh mà người dùng trực tiếp nêu. '
         'Trả lời đa lĩnh vực, không giới hạn trong tài chính: kiến thức, đời sống, '
         'khoa học, công nghệ, giáo dục, tiếng Anh, kinh tế, tài chính và các câu hỏi khác. '
         'Hãy giao tiếp tự nhiên như một người trợ lý lịch sự: xưng mình, gọi người dùng là bạn '
