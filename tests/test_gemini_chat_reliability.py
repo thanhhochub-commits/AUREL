@@ -101,18 +101,19 @@ class GeminiChatReliability(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'xác thực hoặc quyền truy cập'):
                 server._aurel_chat_generate('key',payload,['gemini-2.5-flash'],max_seconds=20)
 
-    def test_frontend_greeting_and_diagnostics_are_scoped_to_chat(self):
+    def test_frontend_always_sends_chat_to_gemini_and_shows_friendly_icons(self):
         page=(Path(__file__).resolve().parents[1]/'financial-intelligence.html').read_text('utf-8')
         encoded=re.search(r'const b="([A-Za-z0-9+/=]+)",s=atob',page)
         self.assertIsNotNone(encoded)
         script=base64.b64decode(encoded.group(1)).decode('utf-8')
-        self.assertIn('function aurelChatLocalWelcome(question)',script)
-        self.assertIn('const localWelcome=aurelChatLocalWelcome(q);',script)
-        self.assertIn('if(localWelcome){',script)
+        self.assertNotIn('function aurelChatLocalWelcome(question)',script)
+        self.assertNotIn('const localWelcome=aurelChatLocalWelcome(q);',script)
+        self.assertIn("await request('api/ai/chat',{question:q,history:before}",script)
+        self.assertIn('AUREL · Gemini',script)
+        self.assertIn('aurel-chat-answer-tail',script)
+        self.assertIn('r="9"',script)
         self.assertIn('Website AUREL chưa liên lạc được với backend',script)
         self.assertIn('Đầu cuối Gemini đang phản hồi lỗi máy chủ',script)
-        self.assertIn("await request('api/ai/chat',{question:q,history:before}",script)
-        self.assertIn('aurel-chat-answer-tail',script)
 
     def test_public_web_search_only_when_information_is_dynamic(self):
         self.assertTrue(server._aurel_chat_needs_web('Lãi suất hôm nay của VCB là bao nhiêu?'))
@@ -134,8 +135,7 @@ class GeminiChatReliability(unittest.TestCase):
              patch.object(server,'_aurel_chat_generate',side_effect=generate):
             result=server.ai_chat('Lãi suất hôm nay của VCB là bao nhiêu?')
         self.assertEqual(captured['payload']['tools'],[{'google_search':{}}])
-        self.assertIn('Không giới hạn',captured['payload']['system_instruction']['parts'][0]['text']
-                      .replace('KHÔNG giới hạn','Không giới hạn'))
+        self.assertIn('Gemini',captured['payload']['system_instruction']['parts'][0]['text'])
         self.assertEqual(result['sources'][0]['title'],'Vietcombank')
         self.assertTrue(result['grounded'])
 
@@ -216,33 +216,48 @@ class GeminiChatReliability(unittest.TestCase):
         self.assertFalse(result['generation_ready'])
 
 
-    def test_simple_greeting_is_finance_contextual_and_does_not_request_gemini(self):
-        with patch.object(server,'gemini_credentials',return_value=
-                          ('mock-key','gemini-3.8-flash',['gemini-3.8-flash'])), \
-             patch.object(server,'_aurel_chat_generate',
-                          side_effect=AssertionError('No Gemini request on greeting')):
-            for greeting in ('hi','Chào bạn! Rất vui được gặp lại bạn.'):
-                result=server.ai_chat(greeting)
-                self.assertTrue(result.get('local'))
-                self.assertIn('trợ lý AI AUREL',result['reply'])
-                self.assertIn('tài chính',result['reply'])
-                self.assertNotIn('học tập',result['reply'])
-                self.assertNotIn('đời sống',result['reply'])
+    def test_greeting_and_onboarding_are_really_generated_by_gemini(self):
+        captured=[]
+        def generate(token,payload,models,**kwargs):
+            captured.append(payload['contents'][-1]['parts'][0]['text'])
+            return {'text':'🌷 Chào bạn! Mình là trợ lý AUREL dùng Gemini. Rất vui được giúp bạn.',
+                    'model':'gemini-2.5-flash'}
+        with patch.object(server,'gemini_credentials',
+                          return_value=('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            for prompt in ('hi','Chào bạn!','Bạn là ai?', 'AUREL là gì?'):
+                reply=server.ai_chat(prompt)
+                self.assertNotIn('local',reply)
+                self.assertEqual(reply['model'],'gemini-2.5-flash')
+                self.assertIn('🌷',reply['reply'])
+        self.assertEqual(captured,['hi','Chào bạn!','Bạn là ai?', 'AUREL là gì?'])
 
-    def test_generic_introduction_only_recommends_aurel(self):
-        with patch.object(server,'gemini_credentials',return_value=
-                          ('mock-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
-             patch.object(server,'_aurel_chat_generate',
-                          side_effect=AssertionError('Generic onboarding must not call Gemini')):
-            for question in ('Xin chào', 'Bạn là ai?', 'Bạn có thể làm gì?',
-                             'AUREL là gì?', 'Web này làm gì?'):
-                result=server.ai_chat(question)
-                self.assertTrue(result.get('local'),question)
-                self.assertIn('trợ lý AI AUREL',result['reply'])
-                self.assertIn('báo cáo tài chính',result['reply'])
-                self.assertNotIn('đời sống',result['reply'])
-                self.assertNotIn('du lịch',result['reply'])
-                self.assertNotIn('tiếng Anh',result['reply'])
+    def test_chat_does_not_import_bank_context_or_fabricated_alias_from_history(self):
+        captured={}
+        def generate(token,payload,models,**kwargs):
+            captured['payload']=payload
+            return {'text':'💡 Vietcombank có các mức lãi suất khác nhau theo kỳ hạn.',
+                    'model':'gemini-2.5-flash'}
+        chat_history=[
+            {'role':'user','text':'Giải thích lãi suất tiết kiệm'},
+            {'role':'assistant','text':'BANK_001 (VCB) có trang BANK_001.com.vn'},
+        ]
+        with patch.object(server,'gemini_credentials',
+                          return_value=('test-key','gemini-2.5-flash',['gemini-2.5-flash'])), \
+             patch.object(server,'_aurel_chat_model_choices',
+                          return_value=['gemini-2.5-flash']), \
+             patch.object(server,'_aurel_chat_generate',side_effect=generate):
+            result=server.ai_chat('VCB có những kỳ hạn gửi tiết kiệm nào?',history=chat_history)
+        self.assertEqual(result['model'],'gemini-2.5-flash')
+        payload=captured['payload']
+        context=json.dumps(payload,ensure_ascii=False)
+        self.assertNotIn('BANK_001',context)
+        self.assertNotIn('BANK_001.com.vn',context)
+        self.assertEqual(payload['contents'][-1]['parts'][0]['text'],
+                         'VCB có những kỳ hạn gửi tiết kiệm nào?')
+        self.assertNotIn('tools',payload)
 
     def test_explicit_nonfinancial_question_is_not_replaced_by_generic_welcome(self):
         captured={}
@@ -273,8 +288,10 @@ class GeminiChatReliability(unittest.TestCase):
              patch.object(server,'_aurel_chat_model_choices',return_value=['gemini-3.8-flash']), \
              patch.object(server,'_aurel_chat_generate',side_effect=generate):
             result=server.ai_chat('Giúp mình luyện tiếng Anh')
-        self.assertIn('MỌI CHỦ ĐỀ',captured['instructions'])
-        self.assertIn('KHÔNG giới hạn câu trả lời',captured['instructions'])
+        self.assertIn('Mọi câu hỏi thông thường phải được Gemini trả lời',captured['instructions'])
+        self.assertIn('KHÔNG có dữ liệu',captured['instructions'])
+        self.assertIn('Đừng quá cụt lủn',captured['instructions'])
+        self.assertIn('Dùng 1-3 emoji',captured['instructions'])
         self.assertEqual(captured['question'],'Giúp mình luyện tiếng Anh')
         self.assertFalse(result['refused'])
 
