@@ -181,7 +181,7 @@ class GeminiChatReliability(unittest.TestCase):
             result=server.ai_chat('Lãi suất VCB hôm nay')
         self.assertIn('tools',captured[0])
         self.assertNotIn('tools',captured[1])
-        self.assertIn('Chưa xác minh được dữ liệu trực tuyến',result['reply'])
+        self.assertIn('Gemini chưa có nguồn Google Search',result['reply'])
         self.assertFalse(result['grounded'])
 
     def test_actual_http_search_tool_rejection_is_identified(self):
