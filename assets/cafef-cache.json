@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-21T21:48:23.219766+00:00",
+ "generated_at": "2026-10-22T04:59:09.759335+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:20.943977+00:00",
+   "retrieved_at": "2026-10-22T04:59:04.802820+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -17,6 +17,12 @@
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
    "reports": [
+    {
+     "title": "ABB: Báo cáo tài chính quý 3/2026",
+     "url": "https://cafef.vn/du-lieu/ABB-3003887/abb-bao-cao-tai-chinh-quy-32026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "ABB: Báo cáo tài chính bán niên năm 2026",
      "url": "https://cafef.vn/du-lieu/ABB-2952232/abb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
@@ -26,6 +32,12 @@
     {
      "title": "ABB: Báo cáo tài chính quý 2/2026",
      "url": "https://cafef.vn/du-lieu/ABB-2938916/abb-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Báo cáo tài chính quý 3/2026",
+     "url": "https://cafef.vn/ABB-3003887/abb-bao-cao-tai-chinh-quy-32026.chn",
      "type": "bctc",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -150,51 +162,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:47:59.920328+00:00",
+   "retrieved_at": "2026-10-22T04:58:34.017980+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +348,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:23.218934+00:00",
+   "retrieved_at": "2026-10-22T04:59:06.118367+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,51 +506,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:13.484743+00:00",
+   "retrieved_at": "2026-10-22T04:58:54.067097+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -704,51 +716,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -761,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:47:58.969190+00:00",
+   "retrieved_at": "2026-10-22T04:58:33.835861+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -890,51 +902,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -947,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:22.929151+00:00",
+   "retrieved_at": "2026-10-22T04:59:09.758587+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1048,51 +1060,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1105,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:15.587240+00:00",
+   "retrieved_at": "2026-10-22T04:58:57.779366+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1208,8 +1220,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BVB: Quyết định của HĐQT về việc thông qua hồ sơ đăng ký chào bán trái phiếu ra công chúng năm 2026",
-     "url": "https://cafef.vn/du-lieu/BVB-2998748/bvb-quyet-dinh-cua-hdqt-ve-viec-thong-qua-ho-so-dang-ky-chao-ban-trai-phieu-ra-cong-chung-nam-2026.chn?utm_source=du-lieu",
+     "title": "BVB: Quyết định của HĐQT thông qua hồ sơ đăng ký chào bán trái phiếu ra công chúng năm 2026",
+     "url": "https://cafef.vn/du-lieu/BVB-2998748/bvb-quyet-dinh-cua-hdqt-thong-qua-ho-so-dang-ky-chao-ban-trai-phieu-ra-cong-chung-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1234,51 +1246,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1291,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:47:58.960822+00:00",
+   "retrieved_at": "2026-10-22T04:58:35.047829+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1420,51 +1432,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1477,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:13.200573+00:00",
+   "retrieved_at": "2026-10-22T04:58:54.078944+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1606,51 +1618,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1663,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:08.082064+00:00",
+   "retrieved_at": "2026-10-22T04:58:46.080665+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1735,51 +1747,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1794,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:17.037424+00:00",
+   "retrieved_at": "2026-10-22T04:58:57.771335+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1923,51 +1935,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1980,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:07.283281+00:00",
+   "retrieved_at": "2026-10-22T04:58:46.065741+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2109,51 +2121,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2166,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:04.085721+00:00",
+   "retrieved_at": "2026-10-22T04:58:42.110781+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2295,51 +2307,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2352,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:11.933160+00:00",
+   "retrieved_at": "2026-10-22T04:58:49.746978+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2481,51 +2493,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2538,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:16.906161+00:00",
+   "retrieved_at": "2026-10-22T04:58:57.772906+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2667,51 +2679,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2724,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:18.845284+00:00",
+   "retrieved_at": "2026-10-22T04:59:01.623421+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2877,51 +2889,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2934,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:11.479090+00:00",
+   "retrieved_at": "2026-10-22T04:58:54.070085+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3001,6 +3013,12 @@
    ],
    "disclosures": [
     {
+     "title": "OCB: Nghị quyết HĐQT về việc thay đổi địa điểm của Chi nhánh Phú Nhuận và PGD Nguyễn Văn Trỗi",
+     "url": "https://cafef.vn/du-lieu/OCB-3003711/ocb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-cua-chi-nhanh-phu-nhuan-va-pgd-nguyen-van-troi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "OCB: Thông báo thay đổi nhân sự - Ông Shayannasr Hamed",
      "url": "https://cafef.vn/du-lieu/OCB-3003372/ocb-thong-bao-thay-doi-nhan-su-ong-shayannasr-hamed.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3053,61 +3071,55 @@
      "url": "https://cafef.vn/du-lieu/OCB-2978585/ocb-nghi-quyet-hdqt-ve-thay-doi-dia-diem-va-chi-nhanh-quan-ly-pgd-rach-gia.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "OCB: Nghị quyết HĐQT thông qua Đơn từ nhiệm của ông Nguyễn Văn Hải - Thành viên BKS",
-     "url": "https://cafef.vn/du-lieu/OCB-2978590/ocb-nghi-quyet-hdqt-thong-qua-don-tu-nhiem-cua-ong-nguyen-van-hai-thanh-vien-bks.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3120,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:17.085680+00:00",
+   "retrieved_at": "2026-10-22T04:59:01.220439+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3128,6 +3140,12 @@
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
    "reports": [
+    {
+     "title": "PGB: Báo cáo tài chính quý 3/2026",
+     "url": "https://cafef.vn/du-lieu/PGB-3003907/pgb-bao-cao-tai-chinh-quy-32026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "PGB: Báo cáo tài chính bán niên năm 2026",
      "url": "https://cafef.vn/du-lieu/PGB-2956948/pgb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
@@ -3137,6 +3155,12 @@
     {
      "title": "PGB: Báo cáo tài chính quý 2/2026",
      "url": "https://cafef.vn/du-lieu/PGB-2935432/pgb-bao-cao-tai-chinh-quy-22026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Báo cáo tài chính quý 3/2026",
+     "url": "https://cafef.vn/PGB-3003907/pgb-bao-cao-tai-chinh-quy-32026.chn",
      "type": "bctc",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3261,51 +3285,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3318,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:18.547318+00:00",
+   "retrieved_at": "2026-10-22T04:59:00.759875+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3495,51 +3519,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3552,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:10.244030+00:00",
+   "retrieved_at": "2026-10-22T04:58:49.750235+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3681,51 +3705,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3738,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:11.444036+00:00",
+   "retrieved_at": "2026-10-22T04:58:49.755138+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3867,51 +3891,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3924,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:06.090348+00:00",
+   "retrieved_at": "2026-10-22T04:58:42.198447+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4053,51 +4077,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4110,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:47:59.902388+00:00",
+   "retrieved_at": "2026-10-22T04:58:35.031158+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4182,51 +4206,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4241,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:06.095383+00:00",
+   "retrieved_at": "2026-10-22T04:58:46.053971+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4370,51 +4394,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4427,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:22.694426+00:00",
+   "retrieved_at": "2026-10-22T04:59:06.908662+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4499,51 +4523,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4558,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:47:59.172010+00:00",
+   "retrieved_at": "2026-10-22T04:58:36.132666+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4625,14 +4649,14 @@
    ],
    "disclosures": [
     {
-     "title": "VCB: Thông báo thay đổi nhân sự",
-     "url": "https://cafef.vn/du-lieu/VCB-2998160/vcb-thong-bao-thay-doi-nhan-su.chn?utm_source=du-lieu",
+     "title": "VCB: HĐQT thông qua giao dịch với VCBF",
+     "url": "https://cafef.vn/du-lieu/VCB-2998158/vcb-hdqt-thong-qua-giao-dich-voi-vcbf.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VCB: HĐQT thông qua giao dịch với VCBF",
-     "url": "https://cafef.vn/du-lieu/VCB-2998158/vcb-hdqt-thong-qua-giao-dich-voi-vcbf.chn?utm_source=du-lieu",
+     "title": "VCB: Miễn nhiệm ông Nguyễn Văn Tuân - Phó Tổng giám đốc từ 1.11.2026",
+     "url": "https://cafef.vn/du-lieu/VCB-2998160/vcb-mien-nhiem-ong-nguyen-van-tuan-pho-tong-giam-doc-tu-1112026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4687,51 +4711,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4744,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:48:05.699392+00:00",
+   "retrieved_at": "2026-10-22T04:58:42.116732+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4873,51 +4897,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4930,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-21T21:47:58.129928+00:00",
+   "retrieved_at": "2026-10-22T04:58:33.857485+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5059,51 +5083,51 @@
    ],
    "market_news": [
     {
-     "title": "Một hiện tượng lạ vừa xảy ra trên thị trường chứng khoán Việt Nam",
-     "url": "https://cafef.vn/mot-hien-tuong-la-vua-xay-ra-tren-thi-truong-chung-khoan-viet-nam-188261021232824511.chn",
-     "date": "2026-10-21T17:08:00+00:00",
+     "title": "Giá vàng bất động, chênh lệch mua - bán mỗi nơi một kiểu",
+     "url": "https://cafef.vn/gia-vang-bat-dong-chenh-lech-mua-ban-moi-noi-mot-kieu-188261022105213641.chn",
+     "date": "2026-10-22T04:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu ngân hàng được hơn 50 quỹ cùng “xuống tiền” gom hàng, lợi nhuận quý 3 dự báo tăng vọt",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-hon-50-quy-cung-xuong-tien-gom-hang-loi-nhuan-quy-3-du-bao-tang-vot-188261021221923114.chn",
-     "date": "2026-10-21T17:07:00+00:00",
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 22/10/2026",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-22-10-2026-188261022104951063.chn",
+     "date": "2026-10-22T03:49:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 \"cá mập\" đã âm thầm làm điều này trước nhịp tăng 47 điểm của VN-Index",
-     "url": "https://cafef.vn/24-ca-map-da-am-tham-lam-dieu-nay-truoc-nhip-tang-47-diem-cua-vn-index-188261021222045899.chn",
-     "date": "2026-10-21T17:06:00+00:00",
+     "title": "TVC không hoàn tất giao dịch mua 500.000 cổ phiếu TVB",
+     "url": "https://cafef.vn/tvc-khong-hoan-tat-giao-dich-mua-500000-co-phieu-tvb-188261022104835181.chn",
+     "date": "2026-10-22T03:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãnh đạo Coteccons nói gì khi tỷ lệ nghỉ việc tại CTD tăng mạnh, nhân sự được mời chào mức lương gấp 2-3 lần?",
-     "url": "https://cafef.vn/lanh-dao-coteccons-noi-gi-khi-ty-le-nghi-viec-tai-ctd-tang-manh-nhan-su-duoc-moi-chao-muc-luong-gap-2-3-lan-188261021164933948.chn",
-     "date": "2026-10-21T17:05:00+00:00",
+     "title": "Công ty con của REE thành lập công ty tài chính vốn điều lệ 1 triệu USD",
+     "url": "https://cafef.vn/cong-ty-con-cua-ree-thanh-lap-cong-ty-tai-chinh-von-dieu-le-1-trieu-usd-188261022104706611.chn",
+     "date": "2026-10-22T03:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "24 quỹ cùng “đổ tiền” vào một cổ phiếu quốc dân, miệt mài gom suốt 6 tháng liên tiếp",
-     "url": "https://cafef.vn/24-quy-cung-do-tien-vao-mot-co-phieu-quoc-dan-miet-mai-gom-suot-6-thang-lien-tiep-18826102122173419.chn",
-     "date": "2026-10-21T17:04:00+00:00",
+     "title": "Vicostone lập công ty con vốn điều lệ 200 tỷ đồng",
+     "url": "https://cafef.vn/vicostone-lap-cong-ty-con-von-dieu-le-200-ty-dong-188261022093142229.chn",
+     "date": "2026-10-22T02:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán sau nâng hạng: IPO tăng tốc, giao dịch xuyên trưa có khả thi?",
-     "url": "https://cafef.vn/chung-khoan-sau-nang-hang-ipo-tang-toc-giao-dich-xuyen-trua-co-kha-thi-18826102120575641.chn",
-     "date": "2026-10-21T17:03:00+00:00",
+     "title": "VPBankS trình cổ đông kế hoạch tăng vốn vượt 27.100 tỷ đồng",
+     "url": "https://cafef.vn/vpbanks-trinh-co-dong-ke-hoach-tang-von-vuot-27100-ty-dong-18826102209292489.chn",
+     "date": "2026-10-22T02:35:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Dấu hiệu tạo đáy của thị trường chứng khoán",
-     "url": "https://cafef.vn/dau-hieu-tao-day-cua-thi-truong-chung-khoan-188261021221633584.chn",
-     "date": "2026-10-21T17:02:00+00:00",
+     "title": "Giá vàng hôm nay 22/10: Thế giới bật tăng, một thương hiệu vàng nhẫn bất ngờ mất 500.000 đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-10-the-gioi-bat-tang-mot-thuong-hieu-vang-nhan-bat-ngo-mat-500000-dong-luong-188261022092817486.chn",
+     "date": "2026-10-22T02:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lợi nhuận toàn ngành sụt giảm mạnh, nhà đầu tư thua lỗ, CTCK vẫn kiếm bẫm từ cho vay",
-     "url": "https://cafef.vn/loi-nhuan-toan-nganh-sut-giam-manh-nha-dau-tu-thua-lo-ctck-van-kiem-bam-tu-cho-vay-188261021231137681.chn",
-     "date": "2026-10-21T17:01:00+00:00",
+     "title": "CII gia hạn thời gian phân phối trái phiếu chuyển đổi",
+     "url": "https://cafef.vn/cii-gia-han-thoi-gian-phan-phoi-trai-phieu-chuyen-doi-188261022072657052.chn",
+     "date": "2026-10-22T00:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
