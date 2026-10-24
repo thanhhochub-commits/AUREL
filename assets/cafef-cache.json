@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-24T04:45:16.888435+00:00",
+ "generated_at": "2026-10-24T11:12:43.221131+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:15.841806+00:00",
+   "retrieved_at": "2026-10-24T11:12:41.125106+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -178,36 +208,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:53.722245+00:00",
+   "retrieved_at": "2026-10-24T11:12:21.556817+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,6 +348,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -364,36 +394,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:16.692129+00:00",
+   "retrieved_at": "2026-10-24T11:12:42.587526+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -522,36 +552,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:05.729077+00:00",
+   "retrieved_at": "2026-10-24T11:12:34.099075+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -732,36 +762,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:53.386653+00:00",
+   "retrieved_at": "2026-10-24T11:12:22.025505+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -918,36 +948,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:16.887819+00:00",
+   "retrieved_at": "2026-10-24T11:12:43.220515+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -1076,36 +1106,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:10.107920+00:00",
+   "retrieved_at": "2026-10-24T11:12:36.429294+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,6 +1246,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -1262,36 +1292,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:54.359957+00:00",
+   "retrieved_at": "2026-10-24T11:12:21.929110+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -1448,36 +1478,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:05.872963+00:00",
+   "retrieved_at": "2026-10-24T11:12:34.386585+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -1634,36 +1664,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:59.574854+00:00",
+   "retrieved_at": "2026-10-24T11:12:27.107602+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -1763,36 +1793,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:10.914904+00:00",
+   "retrieved_at": "2026-10-24T11:12:37.203404+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -1951,36 +1981,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:00.050386+00:00",
+   "retrieved_at": "2026-10-24T11:12:27.552765+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -2137,36 +2167,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:59.470949+00:00",
+   "retrieved_at": "2026-10-24T11:12:27.054170+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -2323,36 +2353,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:05.316926+00:00",
+   "retrieved_at": "2026-10-24T11:12:32.624723+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -2509,36 +2539,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:10.446014+00:00",
+   "retrieved_at": "2026-10-24T11:12:36.636503+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -2695,36 +2725,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:11.142694+00:00",
+   "retrieved_at": "2026-10-24T11:12:39.071359+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2889,6 +2889,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -2905,36 +2935,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2946,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:05.530761+00:00",
+   "retrieved_at": "2026-10-24T11:12:33.115220+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3075,6 +3075,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -3091,36 +3121,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3132,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:10.773284+00:00",
+   "retrieved_at": "2026-10-24T11:12:37.907610+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3285,6 +3285,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -3301,36 +3331,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3342,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:10.981297+00:00",
+   "retrieved_at": "2026-10-24T11:12:38.898115+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3519,6 +3519,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -3535,36 +3565,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3576,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:05.176442+00:00",
+   "retrieved_at": "2026-10-24T11:12:31.835262+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3705,6 +3705,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -3721,36 +3751,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3762,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:04.869029+00:00",
+   "retrieved_at": "2026-10-24T11:12:31.632390+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3891,6 +3891,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -3907,36 +3937,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3948,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:00.177108+00:00",
+   "retrieved_at": "2026-10-24T11:12:28.486956+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4077,6 +4077,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -4093,36 +4123,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4134,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:54.115266+00:00",
+   "retrieved_at": "2026-10-24T11:12:21.878970+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4206,6 +4206,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -4222,36 +4252,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4265,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:00.507247+00:00",
+   "retrieved_at": "2026-10-24T11:12:28.891013+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4394,6 +4394,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -4410,36 +4440,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4451,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:45:16.462533+00:00",
+   "retrieved_at": "2026-10-24T11:12:41.616365+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4523,6 +4523,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -4539,36 +4569,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4582,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:54.162596+00:00",
+   "retrieved_at": "2026-10-24T11:12:21.860961+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4711,6 +4711,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -4727,36 +4757,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4768,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:59.474328+00:00",
+   "retrieved_at": "2026-10-24T11:12:26.753091+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4897,6 +4897,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -4913,36 +4943,6 @@
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4954,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T04:44:53.367368+00:00",
+   "retrieved_at": "2026-10-24T11:12:21.569019+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5083,6 +5083,36 @@
    ],
    "market_news": [
     {
+     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
+     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
+     "date": "2026-10-24T09:44:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
+     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
+     "date": "2026-10-24T08:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
+     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
+     "date": "2026-10-24T06:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "TST, Điện gió Phong Liệu... nhận án phạt từ UBCKNN",
+     "url": "https://cafef.vn/tst-dien-gio-phong-lieu-nhan-an-phat-tu-ubcknn-188261024130403138.chn",
+     "date": "2026-10-24T06:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dự án sân bay Long Thành thiếu nhân sự nghiêm trọng",
+     "url": "https://cafef.vn/du-an-san-bay-long-thanh-thieu-nhan-su-nghiem-trong-188261024112356842.chn",
+     "date": "2026-10-24T04:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Giá bạc giảm gần 60% từ đỉnh",
      "url": "https://cafef.vn/gia-bac-giam-gan-60-tu-dinh-1882610241135033.chn",
      "date": "2026-10-24T04:34:00+00:00",
@@ -5098,36 +5128,6 @@
      "title": "Xử phạt Phó Tổng giám đốc và Kế toán trưởng CMH Group do vi phạm trong giao dịch cổ phiếu CMS",
      "url": "https://cafef.vn/xu-phat-pho-tong-giam-doc-va-ke-toan-truong-cmh-group-do-vi-pham-trong-giao-dich-co-phieu-cms-188261024075313425.chn",
      "date": "2026-10-24T01:41:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "25 phiên giảm sàn liên tiếp, doanh nghiệp chuyên BĐS tỉnh lẻ gây sốt",
-     "url": "https://cafef.vn/25-phien-giam-san-lien-tiep-doanh-nghiep-chuyen-bds-tinh-le-gay-sot-188261024075031439.chn",
-     "date": "2026-10-24T01:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 24/10: Vàng thế giới lao dốc, thủng mốc 4.000 USD/ounce",
-     "url": "https://cafef.vn/gia-vang-hom-nay-24-10-vang-the-gioi-lao-doc-thung-moc-4000-usd-ounce-188261024075402422.chn",
-     "date": "2026-10-24T01:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thanh tra hoạt động liên doanh, góp vốn, thoái vốn tại Handico",
-     "url": "https://cafef.vn/thanh-tra-hoat-dong-lien-doanh-gop-von-thoai-von-tai-handico-188261024075238474.chn",
-     "date": "2026-10-24T01:20:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
-     "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
-     "date": "2026-10-23T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
-     "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
-     "date": "2026-10-23T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
