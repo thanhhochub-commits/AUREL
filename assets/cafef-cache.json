@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-24T23:21:05.915506+00:00",
+ "generated_at": "2026-10-25T04:52:19.823288+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:04.110971+00:00",
+   "retrieved_at": "2026-10-25T04:52:14.024451+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -184,30 +208,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:41.552734+00:00",
+   "retrieved_at": "2026-10-25T04:51:46.634666+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,6 +348,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -370,30 +394,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:04.976830+00:00",
+   "retrieved_at": "2026-10-25T04:52:15.985607+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -528,30 +552,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:54.843146+00:00",
+   "retrieved_at": "2026-10-25T04:52:01.937697+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -738,30 +762,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:42.337900+00:00",
+   "retrieved_at": "2026-10-25T04:51:46.665782+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -924,30 +948,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:05.914253+00:00",
+   "retrieved_at": "2026-10-25T04:52:15.998564+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -1082,30 +1106,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:58.355208+00:00",
+   "retrieved_at": "2026-10-25T04:52:09.195439+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,6 +1246,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -1268,30 +1292,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:42.289468+00:00",
+   "retrieved_at": "2026-10-25T04:51:47.205964+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -1454,30 +1478,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:55.793315+00:00",
+   "retrieved_at": "2026-10-25T04:52:03.533398+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -1640,30 +1664,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:47.961038+00:00",
+   "retrieved_at": "2026-10-25T04:51:55.149605+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -1769,30 +1793,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:58.581316+00:00",
+   "retrieved_at": "2026-10-25T04:52:09.211955+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -1957,30 +1981,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:48.548443+00:00",
+   "retrieved_at": "2026-10-25T04:51:55.164341+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -2143,30 +2167,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:49.860628+00:00",
+   "retrieved_at": "2026-10-25T04:51:53.924739+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -2329,30 +2353,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:53.583079+00:00",
+   "retrieved_at": "2026-10-25T04:52:01.911118+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -2515,30 +2539,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:58.702672+00:00",
+   "retrieved_at": "2026-10-25T04:52:07.989666+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -2701,30 +2725,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:00.292946+00:00",
+   "retrieved_at": "2026-10-25T04:52:09.198632+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2889,6 +2889,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -2911,30 +2935,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2946,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:54.858096+00:00",
+   "retrieved_at": "2026-10-25T04:52:01.941858+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3075,6 +3075,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -3097,30 +3121,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3132,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:00.294722+00:00",
+   "retrieved_at": "2026-10-25T04:52:09.192969+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3285,6 +3285,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -3307,30 +3331,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3342,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:00.426656+00:00",
+   "retrieved_at": "2026-10-25T04:52:10.453934+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3519,6 +3519,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -3541,30 +3565,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3576,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:53.752968+00:00",
+   "retrieved_at": "2026-10-25T04:52:01.413231+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3705,6 +3705,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -3727,30 +3751,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3762,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:53.576611+00:00",
+   "retrieved_at": "2026-10-25T04:52:01.933935+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3891,6 +3891,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -3913,30 +3937,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3948,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:49.887035+00:00",
+   "retrieved_at": "2026-10-25T04:51:55.553195+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4077,6 +4077,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -4099,30 +4123,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4134,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:43.634844+00:00",
+   "retrieved_at": "2026-10-25T04:51:47.506434+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4206,6 +4206,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -4228,30 +4252,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4265,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:49.851864+00:00",
+   "retrieved_at": "2026-10-25T04:51:55.196687+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4394,6 +4394,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -4416,30 +4440,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4451,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:21:04.634136+00:00",
+   "retrieved_at": "2026-10-25T04:52:19.822609+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4523,6 +4523,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -4545,30 +4569,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4582,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:42.284973+00:00",
+   "retrieved_at": "2026-10-25T04:51:47.634668+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4711,6 +4711,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -4733,30 +4757,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4768,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:47.591135+00:00",
+   "retrieved_at": "2026-10-25T04:51:55.153652+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4897,6 +4897,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -4919,30 +4943,6 @@
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4954,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-24T23:20:42.306412+00:00",
+   "retrieved_at": "2026-10-25T04:51:47.221806+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5083,6 +5083,30 @@
    ],
    "market_news": [
     {
+     "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
+     "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
+     "date": "2026-10-25T04:08:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
+     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
+     "date": "2026-10-25T04:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
+     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
+     "date": "2026-10-25T03:49:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
+     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
+     "date": "2026-10-25T03:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
      "date": "2026-10-24T17:06:00+00:00",
@@ -5104,30 +5128,6 @@
      "title": "Một DN trả cổ tức 10.000 đồng/cp ngay tháng 11, lịch sử \"chia tiền\" cao ngất ngưởng",
      "url": "https://cafef.vn/mot-dn-tra-co-tuc-10000-dong-cp-ngay-thang-11-lich-su-chia-tien-cao-ngat-nguong-188261024101527544.chn",
      "date": "2026-10-24T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai người bạn thân cùng học Kinh tế Quốc dân 40 năm trước, giờ có tài sản 50.000 tỷ",
-     "url": "https://cafef.vn/hai-nguoi-ban-than-cung-hoc-kinh-te-quoc-dan-40-nam-truoc-gio-co-tai-san-50000-ty-188261024222654874.chn",
-     "date": "2026-10-24T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một Kế toán trưởng che giấu mua bán chứng khoán gần 14 năm",
-     "url": "https://cafef.vn/mot-ke-toan-truong-che-giau-nua-ban-chung-khoan-gan-14-nam-188261024164231161.chn",
-     "date": "2026-10-24T09:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Con gái Chủ tịch Nam A Bank làm Tổng giám đốc Dược phẩm Bến Tre",
-     "url": "https://cafef.vn/con-gai-chu-tich-nam-a-bank-lam-tong-giam-doc-duoc-pham-ben-tre-188261024155820698.chn",
-     "date": "2026-10-24T08:58:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "GELEX Electric mở rộng vai trò trong chiến lược công nghiệp của GELEX",
-     "url": "https://cafef.vn/gelex-electric-mo-rong-vai-tro-trong-chien-luoc-cong-nghiep-cua-gelex-188261024123220352.chn",
-     "date": "2026-10-24T06:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
