@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-25T16:31:11.598349+00:00",
+ "generated_at": "2026-10-25T20:56:54.928532+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:09.699381+00:00",
+   "retrieved_at": "2026-10-25T20:56:53.536428+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -184,30 +208,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:44.242063+00:00",
+   "retrieved_at": "2026-10-25T20:56:33.381998+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,6 +348,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -370,30 +394,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:11.047732+00:00",
+   "retrieved_at": "2026-10-25T20:56:54.789769+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -528,30 +552,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:58.983807+00:00",
+   "retrieved_at": "2026-10-25T20:56:46.412786+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -738,30 +762,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:44.235860+00:00",
+   "retrieved_at": "2026-10-25T20:56:33.367633+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -924,30 +948,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:11.597878+00:00",
+   "retrieved_at": "2026-10-25T20:56:54.927729+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -1082,30 +1106,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:06.057428+00:00",
+   "retrieved_at": "2026-10-25T20:56:48.836220+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,6 +1246,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -1268,30 +1292,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:44.827252+00:00",
+   "retrieved_at": "2026-10-25T20:56:33.387091+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -1454,30 +1478,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:00.833473+00:00",
+   "retrieved_at": "2026-10-25T20:56:46.587617+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -1640,30 +1664,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:52.673962+00:00",
+   "retrieved_at": "2026-10-25T20:56:39.373227+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -1769,30 +1793,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:05.513267+00:00",
+   "retrieved_at": "2026-10-25T20:56:49.232305+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -1957,30 +1981,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:52.679682+00:00",
+   "retrieved_at": "2026-10-25T20:56:41.338788+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -2143,30 +2167,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:51.540737+00:00",
+   "retrieved_at": "2026-10-25T20:56:39.035425+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -2329,30 +2353,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:58.196395+00:00",
+   "retrieved_at": "2026-10-25T20:56:44.449998+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -2515,30 +2539,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:04.742460+00:00",
+   "retrieved_at": "2026-10-25T20:56:49.066362+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -2701,30 +2725,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:06.001955+00:00",
+   "retrieved_at": "2026-10-25T20:56:51.568578+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2889,6 +2889,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -2911,30 +2935,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2946,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:58.221677+00:00",
+   "retrieved_at": "2026-10-25T20:56:44.632759+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3075,6 +3075,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -3097,30 +3121,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3132,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:04.932115+00:00",
+   "retrieved_at": "2026-10-25T20:56:49.302351+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3285,6 +3285,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -3307,30 +3331,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3342,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:06.183649+00:00",
+   "retrieved_at": "2026-10-25T20:56:51.646719+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3519,6 +3519,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -3541,30 +3565,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3576,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:58.220822+00:00",
+   "retrieved_at": "2026-10-25T20:56:44.298341+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3705,6 +3705,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -3727,30 +3751,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3762,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:58.223419+00:00",
+   "retrieved_at": "2026-10-25T20:56:44.119253+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3891,6 +3891,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -3913,30 +3937,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3948,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:51.552455+00:00",
+   "retrieved_at": "2026-10-25T20:56:39.014633+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4077,6 +4077,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -4099,30 +4123,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4134,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:46.559602+00:00",
+   "retrieved_at": "2026-10-25T20:56:34.491339+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4206,6 +4206,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -4228,30 +4252,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4265,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:51.562192+00:00",
+   "retrieved_at": "2026-10-25T20:56:40.852772+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4394,6 +4394,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -4416,30 +4440,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4451,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:31:10.450138+00:00",
+   "retrieved_at": "2026-10-25T20:56:54.283376+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4523,6 +4523,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -4545,30 +4569,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4582,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:44.846310+00:00",
+   "retrieved_at": "2026-10-25T20:56:34.481537+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4711,6 +4711,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -4733,30 +4757,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4768,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:50.513049+00:00",
+   "retrieved_at": "2026-10-25T20:56:38.966571+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4897,6 +4897,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -4919,30 +4943,6 @@
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4954,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-25T16:30:44.222809+00:00",
+   "retrieved_at": "2026-10-25T20:56:32.012887+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5083,6 +5083,30 @@
    ],
    "market_news": [
     {
+     "title": "Chuyên gia chỉ ra loạt nhóm ngành có thể hút dòng tiền trong quý 4",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-loat-nhom-nganh-co-the-hut-dong-tien-trong-quy-4-188261025194205121.chn",
+     "date": "2026-10-25T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Phân tích SSI dự báo kịch bản 10 tỷ USD chảy vào chứng khoán Việt nam",
+     "url": "https://cafef.vn/giam-doc-phan-tich-ssi-du-bao-kich-ban-10-ty-usd-chay-vao-chung-khoan-viet-nam-188261024225619134.chn",
+     "date": "2026-10-25T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ lệ margin trên quy mô vốn hóa thị trường chứng khoán lập kỷ lục mới, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/ty-le-margin-tren-quy-mo-von-hoa-thi-truong-chung-khoan-lap-ky-luc-moi-dieu-gi-dang-dien-ra-188261025234720476.chn",
+     "date": "2026-10-25T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "30 năm chứng khoán Việt Nam: Từ 2 cổ phiếu đến 10 triệu tỷ vốn hóa, một chương mới đang mở ra",
+     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-tu-2-co-phieu-den-10-trieu-ty-von-hoa-mot-chuong-moi-dang-mo-ra-188261025141441654.chn",
+     "date": "2026-10-25T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Góc nhìn chuyên gia: VN-Index đã tạo đáy ngắn hạn nhưng cần lưu ý rủi ro này",
      "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-da-tao-day-ngan-han-nhung-can-luu-y-rui-ro-nay-188261025165203658.chn",
      "date": "2026-10-25T10:11:00+00:00",
@@ -5104,30 +5128,6 @@
      "title": "Trăm triệu cổ phiếu sắp lên sàn HoSE",
      "url": "https://cafef.vn/tram-trieu-co-phieu-sap-len-san-hose-188261025090854523.chn",
      "date": "2026-10-25T04:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo SeABank mua 8 triệu cổ phiếu SSB",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-seabank-mua-8-trieu-co-phieu-ssb-188261025102844257.chn",
-     "date": "2026-10-25T04:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giải thưởng gần 200 tỷ đồng của Vietlott đã tìm được chủ nhân may mắn",
-     "url": "https://cafef.vn/giai-thuong-gan-200-ty-dong-cua-vietlott-da-tim-duoc-chu-nhan-may-man-188261025104954336.chn",
-     "date": "2026-10-25T03:49:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người mua vàng đầu tuần có thể lỗ tới 8,1 triệu đồng/lượng, mua ở đỉnh lỗ hơn 52 triệu",
-     "url": "https://cafef.vn/nguoi-mua-vang-dau-tuan-co-the-lo-toi-81-trieu-dong-luong-mua-o-dinh-lo-hon-52-trieu-188261025091115155.chn",
-     "date": "2026-10-25T03:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 26-30/10: Một ngân hàng \"lăn chốt\" cổ tức 50%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-26-30-10-mot-ngan-hang-lan-chot-co-tuc-50-188261024151510042.chn",
-     "date": "2026-10-24T17:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
