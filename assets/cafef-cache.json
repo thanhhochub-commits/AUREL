@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-26T13:14:15.400281+00:00",
+ "generated_at": "2026-10-26T20:34:43.830668+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:13.339068+00:00",
+   "retrieved_at": "2026-10-26T20:34:41.646066+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -178,36 +208,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:52.451250+00:00",
+   "retrieved_at": "2026-10-26T20:34:17.193695+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,6 +348,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -364,36 +394,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:14.426979+00:00",
+   "retrieved_at": "2026-10-26T20:34:43.830079+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -522,36 +552,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:04.352506+00:00",
+   "retrieved_at": "2026-10-26T20:34:32.529112+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -732,36 +762,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:52.452517+00:00",
+   "retrieved_at": "2026-10-26T20:34:17.704322+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -918,36 +948,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:15.399747+00:00",
+   "retrieved_at": "2026-10-26T20:34:43.551233+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -1076,36 +1106,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:08.798688+00:00",
+   "retrieved_at": "2026-10-26T20:34:37.763213+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,6 +1246,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -1262,36 +1292,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:53.273858+00:00",
+   "retrieved_at": "2026-10-26T20:34:17.659212+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -1448,36 +1478,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:05.907045+00:00",
+   "retrieved_at": "2026-10-26T20:34:31.832138+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -1634,36 +1664,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:58.734931+00:00",
+   "retrieved_at": "2026-10-26T20:34:24.882077+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -1763,36 +1793,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:09.136184+00:00",
+   "retrieved_at": "2026-10-26T20:34:37.876898+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -1951,36 +1981,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:59.696029+00:00",
+   "retrieved_at": "2026-10-26T20:34:26.698770+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -2137,36 +2167,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:58.398390+00:00",
+   "retrieved_at": "2026-10-26T20:34:24.347581+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -2323,36 +2353,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:04.427435+00:00",
+   "retrieved_at": "2026-10-26T20:34:30.947150+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -2509,36 +2539,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:09.025890+00:00",
+   "retrieved_at": "2026-10-26T20:34:36.495158+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -2695,36 +2725,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:09.976484+00:00",
+   "retrieved_at": "2026-10-26T20:34:38.015817+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2889,6 +2889,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -2905,36 +2935,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2946,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:04.603184+00:00",
+   "retrieved_at": "2026-10-26T20:34:31.438700+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3075,6 +3075,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -3091,36 +3121,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3132,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:09.269828+00:00",
+   "retrieved_at": "2026-10-26T20:34:37.761720+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3285,6 +3285,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -3301,36 +3331,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3342,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:10.696800+00:00",
+   "retrieved_at": "2026-10-26T20:34:37.804704+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3519,6 +3519,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -3535,36 +3565,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3576,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:04.618002+00:00",
+   "retrieved_at": "2026-10-26T20:34:31.476912+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3705,6 +3705,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -3721,36 +3751,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3762,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:04.156819+00:00",
+   "retrieved_at": "2026-10-26T20:34:31.463070+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3891,6 +3891,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -3907,36 +3937,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3948,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:58.236270+00:00",
+   "retrieved_at": "2026-10-26T20:34:25.079991+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4077,6 +4077,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -4093,36 +4123,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4134,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:53.596024+00:00",
+   "retrieved_at": "2026-10-26T20:34:19.691558+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4206,6 +4206,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -4222,36 +4252,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4265,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:59.684826+00:00",
+   "retrieved_at": "2026-10-26T20:34:24.811445+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4394,6 +4394,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -4410,36 +4440,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4451,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:14:14.398600+00:00",
+   "retrieved_at": "2026-10-26T20:34:43.501616+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4523,6 +4523,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -4539,36 +4569,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4582,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:52.461297+00:00",
+   "retrieved_at": "2026-10-26T20:34:17.660903+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4711,6 +4711,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -4727,36 +4757,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4768,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:58.078107+00:00",
+   "retrieved_at": "2026-10-26T20:34:24.827602+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4897,6 +4897,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -4913,36 +4943,6 @@
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4954,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-26T13:13:52.449701+00:00",
+   "retrieved_at": "2026-10-26T20:34:16.742119+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5083,6 +5083,36 @@
    ],
    "market_news": [
     {
+     "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+     "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+     "date": "2026-10-26T17:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "“Chật vật” nghề môi giới chứng khoán",
+     "url": "https://cafef.vn/chat-vat-nghe-moi-gioi-chung-khoan-188261026225244039.chn",
+     "date": "2026-10-26T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "VN-Index \"quay xe\" sau 3 phiên tăng mạnh 80 điểm, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/vn-index-quay-xe-sau-3-phien-tang-manh-80-diem-dieu-gi-dang-dien-ra-188261026173854788.chn",
+     "date": "2026-10-26T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chiếc ghế Chủ tịch Ủy ban Chứng khoán Nhà nước đầy bất ngờ và hành trình “khai sinh” thị trường từ con số không",
+     "url": "https://cafef.vn/chiec-ghe-chu-tich-uy-ban-chung-khoan-nha-nuoc-day-bat-ngo-va-hanh-trinh-khai-sinh-thi-truong-tu-con-so-khong-188261025004113491.chn",
+     "date": "2026-10-26T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có một gia đình hai vợ chồng đều là tiến sĩ, tài sản hàng tỷ USD, con trai từng chung khung hình với Tổng thống Mỹ và Elon Musk",
+     "url": "https://cafef.vn/viet-nam-co-mot-gia-dinh-hai-vo-chong-deu-la-tien-si-tai-san-hang-ty-usd-con-trai-tung-chung-khung-hinh-voi-tong-thong-my-va-elon-musk-188261026165025765.chn",
+     "date": "2026-10-26T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Một doanh nghiệp đưa Vingroup vào mục chứng khoán kinh doanh",
      "url": "https://cafef.vn/mot-doanh-nghiep-dua-vingroup-vao-muc-chung-khoan-kinh-doanh-188261026200740996.chn",
      "date": "2026-10-26T13:09:00+00:00",
@@ -5098,36 +5128,6 @@
      "title": "Ông Nguyễn Như Hoàng Tuấn bị bắt, doanh nghiệp công bố doanh thu quý 3 sụt giảm gần một nửa",
      "url": "https://cafef.vn/ong-nguyen-nhu-hoang-tuan-bi-bat-doanh-nghiep-cong-bo-doanh-thu-quy-3-sut-giam-gan-mot-nua-188261026180353485.chn",
      "date": "2026-10-26T11:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại 'xả' gần 900 tỷ đồng, VN-Index đứt chuỗi tăng",
-     "url": "https://cafef.vn/khoi-ngoai-xa-gan-900-ty-dong-vn-index-dut-chuoi-tang-188261026165401654.chn",
-     "date": "2026-10-26T10:22:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK bán ròng gần 200 tỷ trong phiên đầu tuần",
-     "url": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-gan-200-ty-trong-phien-dau-tuan-188261026170221768.chn",
-     "date": "2026-10-26T10:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ủy ban Chứng khoán Nhà nước phát cảnh báo quan trọng",
-     "url": "https://cafef.vn/uy-ban-chung-khoan-nha-nuoc-phat-canh-bao-quan-trong-188261026165313576.chn",
-     "date": "2026-10-26T09:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gỗ Đức Thành bị phạt hơn 1,1 tỷ đồng do khai sai thuế suất",
-     "url": "https://cafef.vn/go-duc-thanh-bi-phat-hon-11-ty-dong-do-khai-sai-thue-suat-188261026161939928.chn",
-     "date": "2026-10-26T09:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bốn đối tượng \"nhí\" cắt trộm dây cáp sạc Vinfast, trẻ nhất sinh năm 2013",
-     "url": "https://cafef.vn/bon-doi-tuong-nhi-cat-trom-day-cap-sac-vinfast-tre-nhat-sinh-nam-2013-18826102615484184.chn",
-     "date": "2026-10-26T08:48:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
