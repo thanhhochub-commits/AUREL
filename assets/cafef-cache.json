@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-27T09:07:43.696936+00:00",
+ "generated_at": "2026-10-27T15:25:22.734731+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:41.183039+00:00",
+   "retrieved_at": "2026-10-27T15:25:20.364988+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -190,24 +208,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:13.010104+00:00",
+   "retrieved_at": "2026-10-27T15:24:57.989546+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -286,6 +286,12 @@
    ],
    "disclosures": [
     {
+     "title": "ACB: Giải trình biến động LNST trên BCTC quý 3/2026 so với cùng kỳ năm trước",
+     "url": "https://cafef.vn/du-lieu/ACB-3008093/acb-giai-trinh-bien-dong-lnst-tren-bctc-quy-32026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ACB: Nghị quyết HĐQT thay đổi địa điểm đặt trụ sở Chi nhánh Bến Thành",
      "url": "https://cafef.vn/du-lieu/ACB-3006812/acb-nghi-quyet-hdqt-thay-doi-dia-diem-dat-tru-so-chi-nhanh-ben-thanh.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -338,15 +344,27 @@
      "url": "https://cafef.vn/du-lieu/ACB-2972657/acb-nghi-quyet-hdqt-thong-qua-ho-so-chao-ban-theo-phuong-an-phat-hanh-nhieu-dot-trai-phieu-rieng-le.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ACB: Bổ nhiệm lại bà Nguyễn Thị Tuyết Vân giữ chức Phó Tổng giám đốc",
-     "url": "https://cafef.vn/du-lieu/ACB-2964100/acb-bo-nhiem-lai-ba-nguyen-thi-tuyet-van-giu-chuc-pho-tong-giam-doc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
@@ -376,24 +394,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:42.472395+00:00",
+   "retrieved_at": "2026-10-27T15:25:22.529703+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -534,24 +552,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:29.633324+00:00",
+   "retrieved_at": "2026-10-27T15:25:11.826827+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -744,24 +762,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:12.993509+00:00",
+   "retrieved_at": "2026-10-27T15:24:57.991387+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -930,24 +948,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:42.136568+00:00",
+   "retrieved_at": "2026-10-27T15:25:22.733013+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -1088,24 +1106,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:33.019925+00:00",
+   "retrieved_at": "2026-10-27T15:25:15.489302+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1184,6 +1184,30 @@
    ],
    "disclosures": [
     {
+     "title": "BVB: Quyết định của HĐQT về việc thông qua kết quả phát hành cổ phiếu và phương án xử lý đối với cổ phiếu không phân phối hết theo chương trình ESOP 2026",
+     "url": "https://cafef.vn/du-lieu/BVB-3008091/bvb-quyet-dinh-cua-hdqt-ve-viec-thong-qua-ket-qua-phat-hanh-co-phieu-va-phuong-an-xu-ly-doi-voi-co-phieu-khong-phan-phoi-het-theo-chuong-trinh-esop-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu ESOP lần 2 của người nội bộ Phan Thanh Hải",
+     "url": "https://cafef.vn/du-lieu/BVB-3008089/bvb-thong-bao-giao-dich-co-phieu-esop-lan-2-cua-nguoi-noi-bo-phan-thanh-hai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu của người nội bộ Nguyễn Thanh Tú",
+     "url": "https://cafef.vn/du-lieu/BVB-3008087/bvb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-thanh-tu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Thông báo giao dịch cổ phiếu của người nội bộ Vũ Minh Tú",
+     "url": "https://cafef.vn/du-lieu/BVB-3008081/bvb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-vu-minh-tu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BVB: Quyết định của HĐQT về việc thông qua kết quả phát hành cổ phiếu cho CĐHH",
      "url": "https://cafef.vn/du-lieu/BVB-3007821/bvb-quyet-dinh-cua-hdqt-ve-viec-thong-qua-ket-qua-phat-hanh-co-phieu-cho-cdhh.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1218,33 +1242,27 @@
      "url": "https://cafef.vn/du-lieu/BVB-3001475/bvb-bao-cao-ket-qua-giao-dich-quyen-mua-trai-phieu-chuyen-doi-cua-nguoi-noi-bo-nguyen-nhat-nam-nguyen-thanh-tu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Quyết định của HĐQT thông qua hồ sơ đăng ký chào bán trái phiếu ra công chúng năm 2026",
-     "url": "https://cafef.vn/du-lieu/BVB-2998748/bvb-quyet-dinh-cua-hdqt-thong-qua-ho-so-dang-ky-chao-ban-trai-phieu-ra-cong-chung-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Ông Phan Thanh Hải - Phụ trách quản trị đăng ký mua 57.200 cp ESOP",
-     "url": "https://cafef.vn/du-lieu/BVB-2998865/bvb-ong-phan-thanh-hai-phu-trach-quan-tri-dang-ky-mua-57200-cp-esop.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Thông báo về việc phát hành cổ phiếu ESOP",
-     "url": "https://cafef.vn/du-lieu/BVB-2994719/bvb-thong-bao-ve-viec-phat-hanh-co-phieu-esop.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Thông báo nhận được công văn của UBCKNN về việc đã nhận được tài liệu báo cáo phát hành cổ phiếu ESOP",
-     "url": "https://cafef.vn/du-lieu/BVB-2994718/bvb-thong-bao-nhan-duoc-cong-van-cua-ubcknn-ve-viec-da-nhan-duoc-tai-lieu-bao-cao-phat-hanh-co-phieu-esop.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
@@ -1274,24 +1292,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:13.015605+00:00",
+   "retrieved_at": "2026-10-27T15:24:58.846110+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -1460,24 +1478,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:29.657437+00:00",
+   "retrieved_at": "2026-10-27T15:25:12.996177+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -1646,24 +1664,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:22.646280+00:00",
+   "retrieved_at": "2026-10-27T15:25:05.007395+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -1775,24 +1793,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:35.578535+00:00",
+   "retrieved_at": "2026-10-27T15:25:16.753717+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -1963,24 +1981,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:22.660121+00:00",
+   "retrieved_at": "2026-10-27T15:25:06.351972+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -2149,24 +2167,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:20.976104+00:00",
+   "retrieved_at": "2026-10-27T15:25:05.013723+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -2335,24 +2353,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:29.635197+00:00",
+   "retrieved_at": "2026-10-27T15:25:10.877162+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -2521,24 +2539,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:35.434400+00:00",
+   "retrieved_at": "2026-10-27T15:25:16.080148+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -2707,24 +2725,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:36.021175+00:00",
+   "retrieved_at": "2026-10-27T15:25:16.809627+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2889,6 +2889,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -2917,24 +2935,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2946,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:29.644803+00:00",
+   "retrieved_at": "2026-10-27T15:25:11.823949+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3075,6 +3075,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -3103,24 +3121,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3132,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:35.394934+00:00",
+   "retrieved_at": "2026-10-27T15:25:16.621280+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3285,6 +3285,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -3313,24 +3331,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3342,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:35.390649+00:00",
+   "retrieved_at": "2026-10-27T15:25:17.523281+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3519,6 +3519,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -3547,24 +3565,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3576,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:27.404182+00:00",
+   "retrieved_at": "2026-10-27T15:25:10.880857+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3705,6 +3705,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -3733,24 +3751,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3762,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:27.248057+00:00",
+   "retrieved_at": "2026-10-27T15:25:10.271887+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3891,6 +3891,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -3919,24 +3937,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3948,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:20.983350+00:00",
+   "retrieved_at": "2026-10-27T15:25:06.474585+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4077,6 +4077,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -4105,24 +4123,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4134,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:14.753131+00:00",
+   "retrieved_at": "2026-10-27T15:24:58.838776+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4143,6 +4143,12 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "TCB: Nghị quyết HĐQT số 0589, 0591 ngày 27/10/2026",
+     "url": "https://cafef.vn/du-lieu/TCB-3008103/tcb-nghi-quyet-hdqt-so-0589-0591-ngay-27102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "TCB: Nghị quyết HĐQT số 0586 ngày 26/10/2026",
      "url": "https://cafef.vn/du-lieu/TCB-3007214/tcb-nghi-quyet-hdqt-so-0586-ngay-26102026.chn?utm_source=du-lieu",
@@ -4196,15 +4202,27 @@
      "url": "https://cafef.vn/du-lieu/TCB-2988959/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-chi-nhanh-ha-tay-va-phong-gd-nga-tu-so.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Nghị quyết HĐQT số 0540, 0541, 0542 ngày 30/09/2026",
-     "url": "https://cafef.vn/du-lieu/TCB-2988957/tcb-nghi-quyet-hdqt-so-0540-0541-0542-ngay-30092026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
@@ -4234,24 +4252,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4265,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:22.630367+00:00",
+   "retrieved_at": "2026-10-27T15:25:06.357243+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4332,6 +4332,12 @@
    ],
    "disclosures": [
     {
+     "title": "TPB: Thông báo quyết định của NHNN về việc sửa đổi nội dung vốn điều lệ tại Giấy phép thành lập và hoạt động của TPB",
+     "url": "https://cafef.vn/du-lieu/TPB-3008067/tpb-thong-bao-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong-cua-tpb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "TPB: Thông báo về việc giao dịch chứng khoán thay đổi đăng ký niêm yết",
      "url": "https://cafef.vn/du-lieu/TPB-3007712/tpb-thong-bao-ve-viec-giao-dich-chung-khoan-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4384,15 +4390,27 @@
      "url": "https://cafef.vn/du-lieu/TPB-2988146/tpb-nghi-quyet-hdqt-thong-qua-sua-doi-bo-sung-mot-so-noi-dung-ve-dot-phat-hanh-trai-phieu-tpbank-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TPB: Nghị quyết HĐQT cấp hạn mức tín dụng cho CTCP Diana Unicharm và Chi nhánh CTCP Diana Unicharm Bắc Ninh",
-     "url": "https://cafef.vn/du-lieu/TPB-2987676/tpb-nghi-quyet-hdqt-cap-han-muc-tin-dung-cho-ctcp-diana-unicharm-va-chi-nhanh-ctcp-diana-unicharm-bac-ninh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
@@ -4422,24 +4440,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4451,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:43.695620+00:00",
+   "retrieved_at": "2026-10-27T15:25:21.598253+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4523,6 +4523,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -4551,24 +4569,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4582,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:13.023218+00:00",
+   "retrieved_at": "2026-10-27T15:24:59.579064+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4711,6 +4711,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -4739,24 +4757,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4768,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:22.614986+00:00",
+   "retrieved_at": "2026-10-27T15:25:04.995738+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4897,6 +4897,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -4925,24 +4943,6 @@
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4954,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-27T09:07:13.003667+00:00",
+   "retrieved_at": "2026-10-27T15:24:57.996215+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5083,6 +5083,24 @@
    ],
    "market_news": [
     {
+     "title": "1.600 tỷ đồng cổ tức sắp 'chảy về túi' cổ đông của VRG",
+     "url": "https://cafef.vn/1600-ty-dong-co-tuc-sap-chay-ve-tui-co-dong-cua-vrg-188261027192236681.chn",
+     "date": "2026-10-27T12:22:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hai cổ phiếu ngân hàng được tự doanh CTCK mua ròng mạnh trong phiên 27/10",
+     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-duoc-tu-doanh-ctck-mua-rong-manh-trong-phien-27-10-188261027192005459.chn",
+     "date": "2026-10-27T12:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ đông PNJ mất hơn 1.600 tỷ đồng sau lời xin lỗi của bà Cao Thị Ngọc Dung",
+     "url": "https://cafef.vn/co-dong-pnj-mat-hon-1600-ty-dong-sau-loi-xin-loi-cua-ba-cao-thi-ngoc-dung-188261027173459127.chn",
+     "date": "2026-10-27T10:35:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "'Khát' nhân lực nghiêm trọng giữa làn sóng thi công hạ tầng",
      "url": "https://cafef.vn/khat-nhan-luc-nghiem-trong-giua-lan-song-thi-cong-ha-tang-188261027151838422.chn",
      "date": "2026-10-27T09:01:00+00:00",
@@ -5110,24 +5128,6 @@
      "title": "Nhận cổ tức \"khủng\" từ công ty con Vingroup, một doanh nghiệp sàn HoSE báo lãi cao nhất lịch sử",
      "url": "https://cafef.vn/nhan-co-tuc-khung-tu-cong-ty-con-vingroup-mot-doanh-nghiep-san-hose-bao-lai-cao-nhat-lich-su-188261027150949378.chn",
      "date": "2026-10-27T08:15:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bị Mr Pips lừa 4 tỷ, nam thanh niên sút 10kg, cả nhà phải thay nhau canh chừng",
-     "url": "https://cafef.vn/bi-mr-pips-lua-4-ty-nam-thanh-nien-sut-10kg-ca-nha-phai-thay-nhau-canh-chung-188261027144756669.chn",
-     "date": "2026-10-27T07:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm nhà đầu tư VinaCapital giảm sở hữu tại Kido xuống dưới 6%",
-     "url": "https://cafef.vn/nhom-nha-dau-tu-vinacapital-giam-so-huu-tai-kido-xuong-duoi-6-188261027141958992.chn",
-     "date": "2026-10-27T07:39:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ngành dầu khí toàn cầu dự kiến chi 7,5 tỷ USD cho AI, FPT đang tham gia cuộc chơi ra sao?",
-     "url": "https://cafef.vn/nganh-dau-khi-toan-cau-du-kien-chi-75-ty-usd-cho-ai-fpt-dang-tham-gia-cuoc-choi-ra-sao-18826102714323659.chn",
-     "date": "2026-10-27T07:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
