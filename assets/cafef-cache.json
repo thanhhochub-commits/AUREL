@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-28T05:52:07.969165+00:00",
+ "generated_at": "2026-10-28T13:07:29.514321+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:06.458956+00:00",
+   "retrieved_at": "2026-10-28T13:07:27.367221+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -100,6 +100,12 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Nghị quyết Hội đồng quản trị",
+     "url": "https://cafef.vn/du-lieu/ABB-3008880/abb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Nghị quyết HĐQT phê duyệt giao dịch nhận tài sản đảm bảo người có liên quan",
      "url": "https://cafef.vn/du-lieu/ABB-2996084/abb-nghi-quyet-hdqt-phe-duyet-giao-dich-nhan-tai-san-dam-bao-nguoi-co-lien-quan.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -152,61 +158,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-2982198/abb-nghi-quyet-hoi-dong-quan-tri-phuong-an-dam-bao-phat-hanh-co-phieu-dung-quy-dinh.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: ABBank nhận được CV 8295 của NHNN",
-     "url": "https://cafef.vn/du-lieu/ABB-2975633/abb-abbank-nhan-duoc-cv-8295-cua-nhnn.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:43.031635+00:00",
+   "retrieved_at": "2026-10-28T13:07:08.059462+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,51 +348,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:07.262966+00:00",
+   "retrieved_at": "2026-10-28T13:07:29.471839+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,51 +506,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:56.661603+00:00",
+   "retrieved_at": "2026-10-28T13:07:20.988722+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,51 +716,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:43.005229+00:00",
+   "retrieved_at": "2026-10-28T13:07:08.021855+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,51 +902,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:07.968722+00:00",
+   "retrieved_at": "2026-10-28T13:07:29.513867+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,51 +1060,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:01.196934+00:00",
+   "retrieved_at": "2026-10-28T13:07:22.912222+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1184,6 +1184,12 @@
    ],
    "disclosures": [
     {
+     "title": "BVB: Báo cáo kết quả giao dịch cổ phiếu của người nội bộ Phan Thanh Hải",
+     "url": "https://cafef.vn/du-lieu/BVB-3008701/bvb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-noi-bo-phan-thanh-hai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BVB: Quyết định của HĐQT về việc thông qua kết quả phát hành cổ phiếu và phương án xử lý đối với cổ phiếu không phân phối hết theo chương trình ESOP 2026",
      "url": "https://cafef.vn/du-lieu/BVB-3008091/bvb-quyet-dinh-cua-hdqt-ve-viec-thong-qua-ket-qua-phat-hanh-co-phieu-va-phuong-an-xu-ly-doi-voi-co-phieu-khong-phan-phoi-het-theo-chuong-trinh-esop-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1236,61 +1242,55 @@
      "url": "https://cafef.vn/du-lieu/BVB-3001474/bvb-bao-cao-ket-qua-giao-dich-quyen-mua-co-phieu-cua-nguoi-noi-bo-vu-minh-tu-phan-viet-hai-van-thanh-khanh-linh-phan-thanh-hai-nguyen-thi-thu-ha.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Báo cáo kết quả giao dịch quyền mua trái phiếu chuyển đổi của người nội bộ Nguyễn Nhất Nam, Nguyễn Thanh Tú",
-     "url": "https://cafef.vn/du-lieu/BVB-3001475/bvb-bao-cao-ket-qua-giao-dich-quyen-mua-trai-phieu-chuyen-doi-cua-nguoi-noi-bo-nguyen-nhat-nam-nguyen-thanh-tu.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:43.593126+00:00",
+   "retrieved_at": "2026-10-28T13:07:08.722265+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,51 +1432,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:55.893156+00:00",
+   "retrieved_at": "2026-10-28T13:07:20.821518+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,51 +1618,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:51.435296+00:00",
+   "retrieved_at": "2026-10-28T13:07:16.035865+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,51 +1747,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:01.203861+00:00",
+   "retrieved_at": "2026-10-28T13:07:23.916505+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1873,6 +1873,12 @@
    ],
    "disclosures": [
     {
+     "title": "KLB: Thông báo ngày ĐKCC thực hiện quyền thanh toán lãi trái phiếu kỳ 01 mã KLB125031",
+     "url": "https://cafef.vn/du-lieu/KLB-3008998/klb-thong-bao-ngay-dkcc-thuc-hien-quyen-thanh-toan-lai-trai-phieu-ky-01-ma-klb125031.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "KLB: Giải trình biến động LNST quý 3/2026 và lũy kế 9 tháng năm 2026",
      "url": "https://cafef.vn/du-lieu/KLB-3006703/klb-giai-trinh-bien-dong-lnst-quy-32026-va-luy-ke-9-thang-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1925,61 +1931,55 @@
      "url": "https://cafef.vn/du-lieu/KLB-2968618/klb-giai-trinh-bctc-y-kien-kiem-toan-ngoai-tru.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "KLB: Miễn nhiệm bà Vũ Thị Phương - Phó tổng giám đốc từ 7.8.2026",
-     "url": "https://cafef.vn/du-lieu/KLB-2949757/klb-mien-nhiem-ba-vu-thi-phuong-pho-tong-giam-doc-tu-782026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:49.635487+00:00",
+   "retrieved_at": "2026-10-28T13:07:14.390608+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,51 +2121,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:49.653474+00:00",
+   "retrieved_at": "2026-10-28T13:07:13.254997+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,51 +2307,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:55.768229+00:00",
+   "retrieved_at": "2026-10-28T13:07:19.236114+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,51 +2493,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:01.199969+00:00",
+   "retrieved_at": "2026-10-28T13:07:23.564004+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,51 +2679,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:01.622184+00:00",
+   "retrieved_at": "2026-10-28T13:07:26.067516+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2889,51 +2889,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2946,7 +2946,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:55.790720+00:00",
+   "retrieved_at": "2026-10-28T13:07:19.668204+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3075,51 +3075,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3132,7 +3132,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:01.195865+00:00",
+   "retrieved_at": "2026-10-28T13:07:24.460772+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3285,51 +3285,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3342,7 +3342,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:01.587350+00:00",
+   "retrieved_at": "2026-10-28T13:07:25.591600+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3519,51 +3519,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3576,7 +3576,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:55.769119+00:00",
+   "retrieved_at": "2026-10-28T13:07:18.511498+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3705,51 +3705,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3762,7 +3762,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:55.766669+00:00",
+   "retrieved_at": "2026-10-28T13:07:18.841310+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3853,8 +3853,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "SSB: Báo cáo kết quả giao dịch cổ phiếu của người có liên quan đến người nội bộ Lê Tuấn Anh",
-     "url": "https://cafef.vn/du-lieu/SSB-3005299/ssb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-co-lien-quan-den-nguoi-noi-bo-le-tuan-anh.chn?utm_source=du-lieu",
+     "title": "SSB: Con bà Nguyễn Thị Nga - Phó Chủ tịch HĐQT đã bán 673.500 cp",
+     "url": "https://cafef.vn/du-lieu/SSB-3005299/ssb-con-ba-nguyen-thi-nga-pho-chu-tich-hdqt-da-ban-673500-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3891,51 +3891,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3948,7 +3948,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:49.654555+00:00",
+   "retrieved_at": "2026-10-28T13:07:14.466829+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4015,6 +4015,12 @@
    ],
    "disclosures": [
     {
+     "title": "STB: Nghị quyết HĐQT về việc thuận chủ trương thay đổi tên gọi Phòng GD Đào Tấn",
+     "url": "https://cafef.vn/du-lieu/STB-3008818/stb-nghi-quyet-hdqt-ve-viec-thuan-chu-truong-thay-doi-ten-goi-phong-gd-dao-tan.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "STB: Giải trình BCTC riêng và hợp nhất Quý 3 năm 2026",
      "url": "https://cafef.vn/du-lieu/STB-3007855/stb-giai-trinh-bctc-rieng-va-hop-nhat-quy-3-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4067,61 +4073,55 @@
      "url": "https://cafef.vn/du-lieu/STB-2948438/stb-thong-bao-ve-ty-le-so-huu-nuoc-ngoai-toi-da.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "STB: Nghị quyết HĐQT về việc chấp thuận chủ trương thay đổi địa chỉ Chi nhánh/PGD",
-     "url": "https://cafef.vn/du-lieu/STB-2945391/stb-nghi-quyet-hdqt-ve-viec-chap-thuan-chu-truong-thay-doi-dia-chi-chi-nhanhpgd.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4134,7 +4134,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:43.599449+00:00",
+   "retrieved_at": "2026-10-28T13:07:08.749760+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4143,6 +4143,24 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "TCB: Thông báo về ngày đăng ký cuối cùng lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/TCB-3009025/tcb-thong-bao-ve-ngay-dang-ky-cuoi-cung-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Thông báo thay đổi nhân sự - Bổ nhiệm PTGĐ (kèm Quyết định)",
+     "url": "https://cafef.vn/du-lieu/TCB-3009020/tcb-thong-bao-thay-doi-nhan-su-bo-nhiem-ptgd-kem-quyet-dinh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Quyết định HĐQT về bổ nhiệm PTGĐ - Bà Phan Thị Hải Yến",
+     "url": "https://cafef.vn/du-lieu/TCB-3009016/tcb-quyet-dinh-hdqt-ve-bo-nhiem-ptgd-ba-phan-thi-hai-yen.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "TCB: Nghị quyết HĐQT số 0589, 0591 ngày 27/10/2026",
      "url": "https://cafef.vn/du-lieu/TCB-3008103/tcb-nghi-quyet-hdqt-so-0589-0591-ngay-27102026.chn?utm_source=du-lieu",
@@ -4162,14 +4180,14 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Thông báo ngày ĐKCC thực hiện quyền lấy ý kiến cổ đông bằng văn bản",
-     "url": "https://cafef.vn/du-lieu/TCB-3005141/tcb-thong-bao-ngay-dkcc-thuc-hien-quyen-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "title": "TCB: Nghị quyết HĐQT về việc chốt danh sách cổ đông lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/TCB-3005140/tcb-nghi-quyet-hdqt-ve-viec-chot-danh-sach-co-dong-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Nghị quyết HĐQT về việc chốt DSCĐ lấy ý kiến cổ đông bằng văn bản",
-     "url": "https://cafef.vn/du-lieu/TCB-3005140/tcb-nghi-quyet-hdqt-ve-viec-chot-dscd-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "title": "TCB: Thông báo ngày ĐKCC thực hiện quyền lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/TCB-3005141/tcb-thong-bao-ngay-dkcc-thuc-hien-quyen-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4184,73 +4202,55 @@
      "url": "https://cafef.vn/du-lieu/TCB-3002494/tcb-nghi-quyet-hdqt-so-05642026-ngay-19102026-thong-bao-so-05652026-05662026-ngay-19102026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Quyết định của HĐQT về việc thay đổi địa điểm phòng GD Nguyễn Duy Trinh và Hiệp Bình Phước",
-     "url": "https://cafef.vn/du-lieu/TCB-2998159/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-phong-gd-nguyen-duy-trinh-va-hiep-binh-phuoc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Nghị quyết HĐQT phê duyệt giao dịch với TCBS là người có liên quan",
-     "url": "https://cafef.vn/du-lieu/TCB-2991554/tcb-nghi-quyet-hdqt-phe-duyet-giao-dich-voi-tcbs-la-nguoi-co-lien-quan.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Quyết định của HĐQT về việc thay đổi địa điểm Chi nhánh Hà Tây và Phòng GD Ngã Tư Sở",
-     "url": "https://cafef.vn/du-lieu/TCB-2988959/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-chi-nhanh-ha-tay-va-phong-gd-nga-tu-so.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4265,7 +4265,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:50.230103+00:00",
+   "retrieved_at": "2026-10-28T13:07:15.452638+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4344,8 +4344,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TPB: Quyết định về việc thay đổi đăng ký niêm yết",
-     "url": "https://cafef.vn/du-lieu/TPB-3005044/tpb-quyet-dinh-ve-viec-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "title": "TPB: 26.10.2026, niêm yết bổ sung 416.088.023 cp",
+     "url": "https://cafef.vn/du-lieu/TPB-3005044/tpb-26102026-niem-yet-bo-sung-416088023-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4394,51 +4394,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4451,7 +4451,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:52:07.964876+00:00",
+   "retrieved_at": "2026-10-28T13:07:29.359433+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4523,51 +4523,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4582,7 +4582,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:43.010346+00:00",
+   "retrieved_at": "2026-10-28T13:07:08.708794+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4711,51 +4711,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4768,7 +4768,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:49.636898+00:00",
+   "retrieved_at": "2026-10-28T13:07:13.977595+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4835,6 +4835,18 @@
    ],
    "disclosures": [
     {
+     "title": "VIB: Báo cáo về thay đổi sở hữu của CĐ lớn CTCP BELLMONT",
+     "url": "https://cafef.vn/du-lieu/VIB-3008988/vib-bao-cao-ve-thay-doi-so-huu-cua-cd-lon-ctcp-bellmont.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Báo cáo về thay đổi sở hữu của CĐ lớn CTCP BESTON",
+     "url": "https://cafef.vn/du-lieu/VIB-3008986/vib-bao-cao-ve-thay-doi-so-huu-cua-cd-lon-ctcp-beston.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "VIB: Thông báo nhận được Quyết định của NHNNVN về việc sửa đổi nội dung vốn điều lệ tại Giấy phép thành lập và hoạt động",
      "url": "https://cafef.vn/du-lieu/VIB-3004353/vib-thong-bao-nhan-duoc-quyet-dinh-cua-nhnnvn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4881,67 +4893,55 @@
      "url": "https://cafef.vn/du-lieu/VIB-2979477/vib-ong-tran-nhat-minh-pho-tong-giam-doc-da-nhan-66084-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VIB: Ông Trần Hữu Thuận - Phó Tổng giám đốc đã nhận 15.002 cp",
-     "url": "https://cafef.vn/du-lieu/VIB-2979479/vib-ong-tran-huu-thuan-pho-tong-giam-doc-da-nhan-15002-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VIB: Bà Phạm Thị Minh Huệ - Kế toán trưởng đã nhận 41.997 cp",
-     "url": "https://cafef.vn/du-lieu/VIB-2979480/vib-ba-pham-thi-minh-hue-ke-toan-truong-da-nhan-41997-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4954,7 +4954,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-28T05:51:43.004157+00:00",
+   "retrieved_at": "2026-10-28T13:07:08.030671+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5083,51 +5083,51 @@
    ],
    "market_news": [
     {
-     "title": "Sáng nay, Quốc hội thảo luận sửa Luật Chứng khoán, một quy định về lãnh đạo công ty chứng khoán gây chú ý",
-     "url": "https://cafef.vn/sang-nay-quoc-hoi-thao-luan-sua-luat-chung-khoan-mot-quy-dinh-ve-lanh-dao-cong-ty-chung-khoan-gay-chu-y-188261028114341623.chn",
-     "date": "2026-10-28T04:53:00+00:00",
+     "title": "Chứng khoán DSC giảm 57,3% mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/chung-khoan-dsc-giam-573-muc-tieu-loi-nhuan-nam-2026-188261028194755697.chn",
+     "date": "2026-10-28T12:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nông nghiệp Hòa Phát chốt ngày tạm ứng cổ tức năm 2026",
-     "url": "https://cafef.vn/nong-nghiep-hoa-phat-chot-ngay-tam-ung-co-tuc-nam-2026-188261028104903342.chn",
-     "date": "2026-10-28T04:48:00+00:00",
+     "title": "Bán ròng triền miên, khối ngoại vẫn còn nắm hơn 455 triệu cổ phiếu FPT",
+     "url": "https://cafef.vn/ban-rong-trien-mien-khoi-ngoai-van-con-nam-hon-455-trieu-co-phieu-fpt-188261028190244374.chn",
+     "date": "2026-10-28T12:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đầu tư cơ sở hạ tầng công nghệ thông tin để nhà đầu tư chứng khoán giao dịch 24/24 giờ",
-     "url": "https://cafef.vn/dau-tu-co-so-ha-tang-cong-nghe-thong-tin-de-nha-dau-tu-chung-khoan-giao-dich-24-24-gio-188261028112635546.chn",
-     "date": "2026-10-28T04:26:35+00:00",
+     "title": "VN-Index đảo chiều tăng, cổ phiếu Digiworld bất ngờ giảm sàn",
+     "url": "https://cafef.vn/vn-index-dao-chieu-tang-co-phieu-digiworld-bat-ngo-giam-san-188261028165741402.chn",
+     "date": "2026-10-28T10:37:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Em gái Chủ tịch Novaland đăng ký mua 30 triệu cổ phiếu NVL",
-     "url": "https://cafef.vn/em-gai-chu-tich-novaland-dang-ky-mua-30-trieu-co-phieu-nvl-188261028112045261.chn",
-     "date": "2026-10-28T04:20:00+00:00",
+     "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
+     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+     "date": "2026-10-28T10:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đúng ngày 24/12, 300 cổ phiếu giá trị hơn 460.000 tỷ sẽ đồng loạt ngừng giao dịch, chuẩn bị cuộc “đại di cư” lịch sử",
-     "url": "https://cafef.vn/dung-ngay-24-12-300-co-phieu-gia-tri-hon-460000-ty-se-dong-loat-ngung-giao-dich-chuan-bi-cuoc-dai-di-cu-lich-su-188261028104743418.chn",
-     "date": "2026-10-28T03:47:00+00:00",
+     "title": "Bán đá cho sân bay Long Thành, “ông lớn” vật liệu xây dựng báo lãi khủng, cổ phiếu vượt đỉnh lịch sử",
+     "url": "https://cafef.vn/ban-da-cho-san-bay-long-thanh-ong-lon-vat-lieu-xay-dung-bao-lai-khung-co-phieu-vuot-dinh-lich-su-188261028111541055.chn",
+     "date": "2026-10-28T10:11:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh dự kiến mua lại 200 tỷ đồng trái phiếu trong tháng 11",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-du-kien-mua-lai-200-ty-dong-trai-phieu-trong-thang-11-188261028093959204.chn",
-     "date": "2026-10-28T03:37:00+00:00",
+     "title": "“Đại gia” Việt bán iPhone đang cho công ty của tỷ phú Phạm Nhật Vượng vay 100 tỷ đồng",
+     "url": "https://cafef.vn/dai-gia-viet-ban-iphone-dang-cho-cong-ty-cua-ty-phu-pham-nhat-vuong-vay-100-ty-dong-188261028160954461.chn",
+     "date": "2026-10-28T09:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Làm sao biến 13,7 triệu tài khoản thành dòng vốn dài hạn?",
-     "url": "https://cafef.vn/lam-sao-bien-137-trieu-tai-khoan-thanh-dong-von-dai-han-188261028103035968.chn",
-     "date": "2026-10-28T03:30:00+00:00",
+     "title": "Phiên 28/10: Khối ngoại tiếp đà bán ròng, một cổ phiếu Bluechip bị \"xả\" 260 tỷ đồng",
+     "url": "https://cafef.vn/phien-28-10-khoi-ngoai-tiep-da-ban-rong-mot-co-phieu-bluechip-bi-xa-260-ty-dong-188261028151246116.chn",
+     "date": "2026-10-28T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá kim cương nhân tạo Trung Quốc lao dốc, ngành công nghiệp tỷ USD đặt cược vào AI",
-     "url": "https://cafef.vn/gia-kim-cuong-nhan-tao-trung-quoc-lao-doc-nganh-cong-nghiep-ty-usd-dat-cuoc-vao-ai-188261028102710466.chn",
-     "date": "2026-10-28T03:26:00+00:00",
+     "title": "Bộ trưởng Bộ Tài chính: Cơ quan quản lý đang tiếp tục làm việc với MSCI để tiếp tục đánh giá và xếp hạng thị trường",
+     "url": "https://cafef.vn/bo-truong-bo-tai-chinh-co-quan-quan-ly-dang-tiep-tuc-lam-viec-voi-msci-de-tiep-tuc-danh-gia-va-xep-hang-thi-truong-188261028151354919.chn",
+     "date": "2026-10-28T08:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
