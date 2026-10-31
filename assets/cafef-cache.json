@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-10-30T22:27:14.529107+00:00",
+ "generated_at": "2026-10-31T05:54:07.313312+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:12.265730+00:00",
+   "retrieved_at": "2026-10-31T05:54:05.813338+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -171,42 +207,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:46.841002+00:00",
+   "retrieved_at": "2026-10-31T05:53:43.480973+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,6 +348,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -357,42 +393,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:13.929378+00:00",
+   "retrieved_at": "2026-10-31T05:54:07.312764+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -515,42 +551,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:02.547912+00:00",
+   "retrieved_at": "2026-10-31T05:53:56.092012+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -725,42 +761,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:46.856766+00:00",
+   "retrieved_at": "2026-10-31T05:53:43.400384+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -911,42 +947,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:14.528371+00:00",
+   "retrieved_at": "2026-10-31T05:54:07.234570+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -1069,42 +1105,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:06.215956+00:00",
+   "retrieved_at": "2026-10-31T05:54:00.551716+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,6 +1246,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -1255,42 +1291,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:48.065973+00:00",
+   "retrieved_at": "2026-10-31T05:53:43.951563+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -1441,42 +1477,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:02.822064+00:00",
+   "retrieved_at": "2026-10-31T05:53:56.981850+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -1627,42 +1663,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:55.287482+00:00",
+   "retrieved_at": "2026-10-31T05:53:50.501121+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -1756,42 +1792,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:07.664869+00:00",
+   "retrieved_at": "2026-10-31T05:54:01.102475+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -1944,42 +1980,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:57.025432+00:00",
+   "retrieved_at": "2026-10-31T05:53:50.084206+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -2130,42 +2166,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:54.552212+00:00",
+   "retrieved_at": "2026-10-31T05:53:49.753112+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -2316,42 +2352,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:01.935711+00:00",
+   "retrieved_at": "2026-10-31T05:53:55.662627+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -2502,42 +2538,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:06.198670+00:00",
+   "retrieved_at": "2026-10-31T05:54:00.864117+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -2688,42 +2724,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:08.349508+00:00",
+   "retrieved_at": "2026-10-31T05:54:01.789931+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2913,6 +2913,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -2922,42 +2958,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2970,7 +2970,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:01.165538+00:00",
+   "retrieved_at": "2026-10-31T05:53:55.544627+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3099,6 +3099,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -3108,42 +3144,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3156,7 +3156,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:07.759196+00:00",
+   "retrieved_at": "2026-10-31T05:54:01.100128+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3309,6 +3309,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -3318,42 +3354,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3366,7 +3366,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:08.130222+00:00",
+   "retrieved_at": "2026-10-31T05:54:02.146833+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3543,6 +3543,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -3552,42 +3588,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3600,7 +3600,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:02.402334+00:00",
+   "retrieved_at": "2026-10-31T05:53:55.339122+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3729,6 +3729,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -3738,42 +3774,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3786,7 +3786,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:01.173773+00:00",
+   "retrieved_at": "2026-10-31T05:53:55.266008+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3915,6 +3915,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -3924,42 +3960,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3972,7 +3972,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:54.562530+00:00",
+   "retrieved_at": "2026-10-31T05:53:50.812683+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4101,6 +4101,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -4110,42 +4146,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4158,7 +4158,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:48.282253+00:00",
+   "retrieved_at": "2026-10-31T05:53:44.627950+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4230,6 +4230,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -4239,42 +4275,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4289,7 +4289,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:55.702831+00:00",
+   "retrieved_at": "2026-10-31T05:53:50.147083+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4418,6 +4418,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -4427,42 +4463,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4475,7 +4475,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:27:13.416179+00:00",
+   "retrieved_at": "2026-10-31T05:54:06.837401+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4547,6 +4547,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -4556,42 +4592,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4606,7 +4606,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:46.848154+00:00",
+   "retrieved_at": "2026-10-31T05:53:43.722423+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4735,6 +4735,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -4744,42 +4780,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4792,7 +4792,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:54.521270+00:00",
+   "retrieved_at": "2026-10-31T05:53:50.118246+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4921,6 +4921,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -4930,42 +4966,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4978,7 +4978,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-10-30T22:26:46.849814+00:00",
+   "retrieved_at": "2026-10-31T05:53:43.274525+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5107,6 +5107,42 @@
    ],
    "market_news": [
     {
+     "title": "Vàng lao dốc, nhà đầu tư lỗ hàng chục triệu đồng mỗi lượng",
+     "url": "https://cafef.vn/vang-lao-doc-nha-dau-tu-lo-hang-chuc-trieu-dong-moi-luong-188261031112130817.chn",
+     "date": "2026-10-31T05:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Giám đốc Tổng Công ty Vimico bị khởi tố",
+     "url": "https://cafef.vn/tong-giam-doc-tong-cong-ty-vimico-bi-khoi-to-188261031111905509.chn",
+     "date": "2026-10-31T04:59:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng thế giới 'lao dốc' mạnh nhất 1 năm qua",
+     "url": "https://cafef.vn/gia-vang-the-gioi-lao-doc-manh-nhat-1-nam-qua-188261031094257216.chn",
+     "date": "2026-10-31T03:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Mi Hồng hôm nay 31/10/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-mi-hong-hom-nay-31-10-2026-bao-nhieu-1-chi-188261031090427398.chn",
+     "date": "2026-10-31T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Dùng 61 tài khoản thao túng cổ phiếu Kido, 3 cá nhân bị phạt 4,5 tỷ đồng",
+     "url": "https://cafef.vn/dung-61-tai-khoan-thao-tung-co-phieu-kido-3-ca-nhan-bi-phat-45-ty-dong-188261031090239141.chn",
+     "date": "2026-10-31T02:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 31/10: Tiếp tục giảm mạnh, mất mốc 4.000 USD/ounce",
+     "url": "https://cafef.vn/gia-vang-hom-nay-31-10-tiep-tuc-giam-manh-mat-moc-4000-usd-ounce-188261031070053072.chn",
+     "date": "2026-10-31T00:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
      "date": "2026-10-30T17:11:00+00:00",
@@ -5116,42 +5152,6 @@
      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
      "date": "2026-10-30T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Tỷ phú Phạm Nhật Vượng huy động 10.000 nhân sự, đưa máy đào hầm khổng lồ vào siêu dự án đường sắt 350 km/h",
-     "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-huy-dong-10000-nhan-su-dua-may-dao-ham-khong-lo-vao-sieu-du-an-duong-sat-350-km-h-188261030172140235.chn",
-     "date": "2026-10-30T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
-     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
-     "date": "2026-10-30T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
-     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
-     "date": "2026-10-30T16:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
-     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
-     "date": "2026-10-30T14:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
-     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
-     "date": "2026-10-30T13:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
-     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
-     "date": "2026-10-30T13:20:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
