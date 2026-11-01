@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-01T00:11:31.126291+00:00",
+ "generated_at": "2026-11-01T06:18:44.781324+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:28.910281+00:00",
+   "retrieved_at": "2026-11-01T06:18:41.083598+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -162,6 +162,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -171,42 +207,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:07.169608+00:00",
+   "retrieved_at": "2026-11-01T06:18:13.600779+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,6 +348,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -357,42 +393,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:30.420401+00:00",
+   "retrieved_at": "2026-11-01T06:18:42.702012+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -506,6 +506,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -515,42 +551,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:20.747609+00:00",
+   "retrieved_at": "2026-11-01T06:18:28.898225+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,6 +716,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -725,42 +761,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:06.751785+00:00",
+   "retrieved_at": "2026-11-01T06:18:12.366596+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,6 +902,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -911,42 +947,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:31.125671+00:00",
+   "retrieved_at": "2026-11-01T06:18:44.114290+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,6 +1060,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -1069,42 +1105,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:23.796750+00:00",
+   "retrieved_at": "2026-11-01T06:18:35.378668+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,6 +1246,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -1255,42 +1291,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:08.004938+00:00",
+   "retrieved_at": "2026-11-01T06:18:13.608713+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,6 +1432,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -1441,42 +1477,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:21.882171+00:00",
+   "retrieved_at": "2026-11-01T06:18:29.702251+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,6 +1618,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -1627,42 +1663,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:14.611286+00:00",
+   "retrieved_at": "2026-11-01T06:18:22.259875+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,6 +1747,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -1756,42 +1792,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:25.614131+00:00",
+   "retrieved_at": "2026-11-01T06:18:35.394361+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,6 +1935,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -1944,42 +1980,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:15.644410+00:00",
+   "retrieved_at": "2026-11-01T06:18:22.267180+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,6 +2121,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -2130,42 +2166,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:12.693331+00:00",
+   "retrieved_at": "2026-11-01T06:18:20.523739+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,6 +2307,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -2316,42 +2352,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:19.624164+00:00",
+   "retrieved_at": "2026-11-01T06:18:29.558503+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2493,6 +2493,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -2502,42 +2538,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:23.304101+00:00",
+   "retrieved_at": "2026-11-01T06:18:35.381344+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,6 +2679,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -2688,42 +2724,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:26.747848+00:00",
+   "retrieved_at": "2026-11-01T06:18:35.380120+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2913,6 +2913,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -2922,42 +2958,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2970,7 +2970,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:19.626222+00:00",
+   "retrieved_at": "2026-11-01T06:18:29.601710+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3099,6 +3099,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -3108,42 +3144,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3156,7 +3156,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:24.893684+00:00",
+   "retrieved_at": "2026-11-01T06:18:35.388329+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3309,6 +3309,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -3318,42 +3354,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3366,7 +3366,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:27.113378+00:00",
+   "retrieved_at": "2026-11-01T06:18:35.870663+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3543,6 +3543,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -3552,42 +3588,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3600,7 +3600,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:18.403749+00:00",
+   "retrieved_at": "2026-11-01T06:18:27.821268+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3729,6 +3729,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -3738,42 +3774,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3786,7 +3786,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:18.398928+00:00",
+   "retrieved_at": "2026-11-01T06:18:29.036041+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3915,6 +3915,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -3924,42 +3960,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3972,7 +3972,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:14.301273+00:00",
+   "retrieved_at": "2026-11-01T06:18:22.285729+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4101,6 +4101,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -4110,42 +4146,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4158,7 +4158,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:08.473196+00:00",
+   "retrieved_at": "2026-11-01T06:18:14.608853+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4230,6 +4230,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -4239,42 +4275,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4289,7 +4289,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:15.652605+00:00",
+   "retrieved_at": "2026-11-01T06:18:22.257921+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4418,6 +4418,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -4427,42 +4463,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4475,7 +4475,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:30.550739+00:00",
+   "retrieved_at": "2026-11-01T06:18:44.780084+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4547,6 +4547,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -4556,42 +4592,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4606,7 +4606,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:08.014369+00:00",
+   "retrieved_at": "2026-11-01T06:18:13.590979+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4735,6 +4735,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -4744,42 +4780,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4792,7 +4792,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:12.698627+00:00",
+   "retrieved_at": "2026-11-01T06:18:22.322564+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4921,6 +4921,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -4930,42 +4966,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4978,7 +4978,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-01T00:11:07.172077+00:00",
+   "retrieved_at": "2026-11-01T06:18:12.376342+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5107,6 +5107,42 @@
    ],
    "market_news": [
     {
+     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
+     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
+     "date": "2026-11-01T04:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán tuần qua: VN-Index 'trả điểm', dòng tiền lùi về phòng thủ",
+     "url": "https://cafef.vn/chung-khoan-tuan-qua-vn-index-tra-diem-dong-tien-lui-ve-phong-thu-188261101110143488.chn",
+     "date": "2026-11-01T04:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Doanh nghiệp liên quan Chủ tịch Kosy Group bị bán giải chấp hơn 2 triệu cổ phiếu KOS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-chu-tich-kosy-group-bi-ban-giai-chap-hon-2-trieu-co-phieu-kos-188261101105825649.chn",
+     "date": "2026-11-01T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "KOS nằm sàn 29 phiên, nhưng không phải kỷ lục, đây mới là cái tên nắm chuỗi giảm sàn kinh hoàng nhất lịch sử chứng khoán Việt Nam",
+     "url": "https://cafef.vn/kos-nam-san-29-phien-nhung-day-moi-la-chuoi-giam-san-kinh-hoang-nhat-lich-su-chung-khoan-viet-nam-188261101095155328.chn",
+     "date": "2026-11-01T02:51:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Mạnh Hải hôm nay 1/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-manh-hai-hom-nay-1-11-2026-bao-nhieu-1-chi-188261101092030108.chn",
+     "date": "2026-11-01T02:20:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng trăm triệu USD rút khỏi các quỹ ETF Bitcoin, ETH sau sự cố Binance",
+     "url": "https://cafef.vn/hang-tram-trieu-usd-rut-khoi-cac-quy-etf-bitcoin-eth-sau-su-co-binance-188261101083202781.chn",
+     "date": "2026-11-01T01:31:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chứng khoán Dầu khí bị phạt và truy thu thuế",
      "url": "https://cafef.vn/chung-khoan-dau-khi-bi-phat-va-truy-thu-thue-188261031210525337.chn",
      "date": "2026-10-31T17:05:00+00:00",
@@ -5116,42 +5152,6 @@
      "title": "Lịch chốt quyền cổ tức tuần 2-6/11: Cổ tức tiền mặt cao nhất 100%",
      "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-2-6-11-co-tuc-tien-mat-cao-nhat-100-188261031173350162.chn",
      "date": "2026-10-31T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán tháng 11 đối mặt nhiều thách thức, dòng tiền tìm cơ hội ở đâu?",
-     "url": "https://cafef.vn/chung-khoan-thang-11-doi-mat-nhieu-thach-thuc-dong-tien-tim-co-hoi-o-dau-188261031155926995.chn",
-     "date": "2026-10-31T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thương vụ đấu giá gần 80 triệu cổ phiếu Seaprodex lại bất thành",
-     "url": "https://cafef.vn/thuong-vu-dau-gia-gan-80-trieu-co-phieu-seaprodex-lai-bat-thanh-188261031210046476.chn",
-     "date": "2026-10-31T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Doanh nghiệp xăng dầu đang làm ăn ra sao?",
-     "url": "https://cafef.vn/doanh-nghiep-xang-dau-dang-lam-an-ra-sao-188261031210238588.chn",
-     "date": "2026-10-31T14:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Hunter Lê Khắc Ngọ nói Mr Pips từng nằm viện dài ngày, có dấu hiệu chán nản",
-     "url": "https://cafef.vn/mr-hunter-le-khac-ngo-noi-mr-pips-tung-nam-vien-dai-ngay-co-dau-hieu-chan-nan-188261031151207429.chn",
-     "date": "2026-10-31T08:12:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Mr Pips: ‘Có những lúc bị cáo buồn, kể cả có nhiều tiền cũng thấy cuộc đời này vô thường, vô nghĩa’",
-     "url": "https://cafef.vn/mr-pips-co-nhung-luc-bi-cao-buon-ke-ca-co-nhieu-tien-cung-thay-cuoc-doi-nay-vo-thuong-vo-nghia-18826103115075119.chn",
-     "date": "2026-10-31T08:07:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Vàng rơi gần 4%, bạc mất 6%, loạt cá mập mạnh tay \"gom hàng\"",
-     "url": "https://cafef.vn/vang-roi-gan-4-bac-mat-6-loat-ca-map-manh-tay-gom-hang-188261031113720648.chn",
-     "date": "2026-10-31T06:36:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
