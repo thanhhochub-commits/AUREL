@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-02T00:50:15.653864+00:00",
+ "generated_at": "2026-11-02T11:22:15.971295+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:13.969100+00:00",
+   "retrieved_at": "2026-11-02T11:22:14.082263+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -100,6 +100,12 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Nghị quyết HĐQT Phê duyệt Ký kết hợp đồng hợp tác chiến lược giữa Ngân hàng và Công ty TNHH Thương Mại GEL-O&J",
+     "url": "https://cafef.vn/du-lieu/ABB-3012226/abb-nghi-quyet-hdqt-phe-duyet-ky-ket-hop-dong-hop-tac-chien-luoc-giua-ngan-hang-va-cong-ty-tnhh-thuong-mai-geloj.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt Thỏa thuận hợp tác chiến lược giai đoạn 2026-2030 với Viettronics",
      "url": "https://cafef.vn/du-lieu/ABB-3008880/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-thoa-thuan-hop-tac-chien-luoc-giai-doan-20262030-voi-viettronics.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -152,61 +158,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-2982203/abb-nghi-quyet-hoi-dong-quan-tri-ke-hoach-su-dung-so-tien-thu-duoc-tu-dot-chao-ban-co-phieu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết Hội đồng quản trị phương án đảm bảo phát hành cổ phiếu đúng quy định",
-     "url": "https://cafef.vn/du-lieu/ABB-2982198/abb-nghi-quyet-hoi-dong-quan-tri-phuong-an-dam-bao-phat-hanh-co-phieu-dung-quy-dinh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -219,7 +219,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:50.649401+00:00",
+   "retrieved_at": "2026-11-02T11:21:52.617846+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -348,51 +348,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -405,7 +405,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:15.281564+00:00",
+   "retrieved_at": "2026-11-02T11:22:15.538633+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -443,6 +443,12 @@
     }
    ],
    "disclosures": [
+    {
+     "title": "AGR: Nghị quyết HĐQT số 535 ngày 02/11/2026",
+     "url": "https://cafef.vn/du-lieu/AGR-3012834/agr-nghi-quyet-hdqt-so-535-ngay-02112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "AGR: Thông báo nhận được Công văn của UBCKNN về báo cáo kết quả phát hành cổ phiếu để trả cổ tức",
      "url": "https://cafef.vn/du-lieu/AGR-3007207/agr-thong-bao-nhan-duoc-cong-van-cua-ubcknn-ve-bao-cao-ket-qua-phat-hanh-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
@@ -496,61 +502,55 @@
      "url": "https://cafef.vn/du-lieu/AGR-2975874/agr-bo-nhiem-ong-truong-ngoc-lan-giu-chuc-quyen-tong-giam-doc-tu-1492026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "AGR: Nghị quyết HĐQT phê duyệt tăng hạn mức tín dụng tại ACB",
-     "url": "https://cafef.vn/du-lieu/AGR-2964085/agr-nghi-quyet-hdqt-phe-duyet-tang-han-muc-tin-dung-tai-acb.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -563,7 +563,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:05.157019+00:00",
+   "retrieved_at": "2026-11-02T11:22:03.939745+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -571,6 +571,18 @@
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
    "reports": [
+    {
+     "title": "BAB: Báo cáo tài chính quý 3/2026",
+     "url": "https://cafef.vn/du-lieu/BAB-3012460/bab-bao-cao-tai-chinh-quy-32026.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Báo cáo tài chính quý 3/2026 (công ty mẹ)",
+     "url": "https://cafef.vn/du-lieu/BAB-3012458/bab-bao-cao-tai-chinh-quy-32026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "BAB: Báo cáo tài chính bán niên năm 2026",
      "url": "https://cafef.vn/du-lieu/BAB-2957307/bab-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
@@ -592,6 +604,18 @@
     {
      "title": "BAB: Báo cáo tài chính quý 2/2026 (công ty mẹ)",
      "url": "https://cafef.vn/du-lieu/BAB-2942963/bab-bao-cao-tai-chinh-quy-22026-cong-ty-me.chn?utm_source=du-lieu",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Báo cáo tài chính quý 3/2026",
+     "url": "https://cafef.vn/BAB-3012460/bab-bao-cao-tai-chinh-quy-32026.chn",
+     "type": "bctc",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Báo cáo tài chính quý 3/2026 (công ty mẹ)",
+     "url": "https://cafef.vn/BAB-3012458/bab-bao-cao-tai-chinh-quy-32026-cong-ty-me.chn",
      "type": "bctc",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -716,51 +740,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -773,7 +797,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:49.485106+00:00",
+   "retrieved_at": "2026-11-02T11:21:51.427614+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,51 +926,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -959,7 +983,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:15.653288+00:00",
+   "retrieved_at": "2026-11-02T11:22:15.970609+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,51 +1084,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1117,7 +1141,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:08.639840+00:00",
+   "retrieved_at": "2026-11-02T11:22:10.176185+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,51 +1270,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1303,7 +1327,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:50.654604+00:00",
+   "retrieved_at": "2026-11-02T11:21:52.613032+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,51 +1456,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1489,7 +1513,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:05.151730+00:00",
+   "retrieved_at": "2026-11-02T11:22:05.792875+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,51 +1642,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1675,7 +1699,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:56.679117+00:00",
+   "retrieved_at": "2026-11-02T11:21:59.260504+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,51 +1771,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1806,7 +1830,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:09.729412+00:00",
+   "retrieved_at": "2026-11-02T11:22:09.450119+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,51 +1959,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1992,7 +2016,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:59.877254+00:00",
+   "retrieved_at": "2026-11-02T11:21:58.225214+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,51 +2145,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2178,7 +2202,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:55.927787+00:00",
+   "retrieved_at": "2026-11-02T11:21:58.095919+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2245,6 +2269,12 @@
    ],
    "disclosures": [
     {
+     "title": "MBB: Quyết định của HĐQT về việc thay đổi địa điểm Chi nhánh Phú Quốc",
+     "url": "https://cafef.vn/du-lieu/MBB-3012835/mbb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-chi-nhanh-phu-quoc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "MBB: Thông báo về việc thành lập Ngân hàng vốn MB tại VIFC",
      "url": "https://cafef.vn/du-lieu/MBB-3009892/mbb-thong-bao-ve-viec-thanh-lap-ngan-hang-von-mb-tai-vifc.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2297,61 +2327,55 @@
      "url": "https://cafef.vn/du-lieu/MBB-2989829/mbb-cbtt-chuyen-nhuong-co-phieu-tong-cong-ty-28.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MBB: Quyết định về việc thực hiện góp vốn để tăng vốn điều lệ của MBV",
-     "url": "https://cafef.vn/du-lieu/MBB-2988958/mbb-quyet-dinh-ve-viec-thuc-hien-gop-von-de-tang-von-dieu-le-cua-mbv.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2364,7 +2388,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:03.161068+00:00",
+   "retrieved_at": "2026-11-02T11:22:03.920000+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2431,6 +2455,12 @@
    ],
    "disclosures": [
     {
+     "title": "MSB: Giải trình biến động LNST trên BCTC quý 3/2026 so với cùng kỳ năm trước",
+     "url": "https://cafef.vn/du-lieu/MSB-3012134/msb-giai-trinh-bien-dong-lnst-tren-bctc-quy-32026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "MSB: Nghị quyết HĐQT về việc điều chỉnh phương án phát hành trái phiếu ra công chúng",
      "url": "https://cafef.vn/du-lieu/MSB-3007749/msb-nghi-quyet-hdqt-ve-viec-dieu-chinh-phuong-an-phat-hanh-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2483,61 +2513,55 @@
      "url": "https://cafef.vn/du-lieu/MSB-2991854/msb-7102026-niem-yet-bo-sung-624000000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: CBTT bổ sung Tờ trình 127 về tăng vốn điều lệ lần 2 năm 2026 trong hồ sơ lấy ý kiến cổ đông bằng văn bản",
-     "url": "https://cafef.vn/du-lieu/MSB-2989410/msb-cbtt-bo-sung-to-trinh-127-ve-tang-von-dieu-le-lan-2-nam-2026-trong-ho-so-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2550,7 +2574,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:09.776178+00:00",
+   "retrieved_at": "2026-11-02T11:22:10.435572+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,51 +2703,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2736,7 +2760,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:12.423947+00:00",
+   "retrieved_at": "2026-11-02T11:22:11.041326+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2913,51 +2937,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2970,7 +2994,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:03.086772+00:00",
+   "retrieved_at": "2026-11-02T11:22:03.931761+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3037,6 +3061,12 @@
    ],
    "disclosures": [
     {
+     "title": "OCB: Báo cáo kết quả giao dịch cổ phiếu của người có liên quan đến Người nội bộ Nguyễn Việt Triều",
+     "url": "https://cafef.vn/du-lieu/OCB-3012319/ocb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-co-lien-quan-den-nguoi-noi-bo-nguyen-viet-trieu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "OCB: Thông báo công văn của NHNN về chấp thuận cho OCB thay đổi địa điểm Phòng GD Thốt Nốt",
      "url": "https://cafef.vn/du-lieu/OCB-3009746/ocb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-ocb-thay-doi-dia-diem-phong-gd-thot-not.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3089,61 +3119,55 @@
      "url": "https://cafef.vn/du-lieu/OCB-2998119/ocb-nghi-quyet-hdqt-thong-qua-cac-hop-dong-giao-dich-voi-nguoi-noi-bo.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "OCB: Thông báo công văn của NHNN về chấp thuận cho OCB thay đổi địa điểm Phòng GD Long Phú",
-     "url": "https://cafef.vn/du-lieu/OCB-2979457/ocb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-ocb-thay-doi-dia-diem-phong-gd-long-phu.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3156,7 +3180,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:09.985164+00:00",
+   "retrieved_at": "2026-11-02T11:22:10.470615+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3247,6 +3271,18 @@
    ],
    "disclosures": [
     {
+     "title": "PGB: Báo cáo về thay đổi sở hữu của Công ty TNHH Xuất nhập khẩu và Phát triển Thương mại Gia Linh",
+     "url": "https://cafef.vn/du-lieu/PGB-3012780/pgb-bao-cao-ve-thay-doi-so-huu-cua-cong-ty-tnhh-xuat-nhap-khau-va-phat-trien-thuong-mai-gia-linh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "PGB: Nghị quyết HĐQT Điều chỉnh thời gian đăng ký và nộp tiền mua cổ phiếu phát hành thêm cổ phiếu",
+     "url": "https://cafef.vn/du-lieu/PGB-3012260/pgb-nghi-quyet-hdqt-dieu-chinh-thoi-gian-dang-ky-va-nop-tien-mua-co-phieu-phat-hanh-them-co-phieu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "PGB: Đơn xin từ nhiệm thành viên BKS",
      "url": "https://cafef.vn/du-lieu/PGB-2993599/pgb-don-xin-tu-nhiem-thanh-vien-bks.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3293,67 +3329,55 @@
      "url": "https://cafef.vn/du-lieu/PGB-2975627/pgb-nghi-quyet-hoi-dong-quan-tri-thay-doi-dia-diem-chi-nhanh-cong-ty.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "PGB: Bổ nhiệm bà Vương Ngọc Liên giữ chức Kế toán trưởng",
-     "url": "https://cafef.vn/du-lieu/PGB-2950467/pgb-bo-nhiem-ba-vuong-ngoc-lien-giu-chuc-ke-toan-truong.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "PGB: Nghị quyết Hội đồng quản trị thông qua hồ sơ đăng ký chào bán thêm cổ phiều ra công chúng",
-     "url": "https://cafef.vn/du-lieu/PGB-2946720/pgb-nghi-quyet-hoi-dong-quan-tri-thong-qua-ho-so-dang-ky-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3366,7 +3390,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:11.174085+00:00",
+   "retrieved_at": "2026-11-02T11:22:10.311874+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3543,51 +3567,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3600,7 +3624,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:01.716407+00:00",
+   "retrieved_at": "2026-11-02T11:22:03.909856+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3729,51 +3753,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3786,7 +3810,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:02.881314+00:00",
+   "retrieved_at": "2026-11-02T11:22:03.916646+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3915,51 +3939,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3972,7 +3996,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:57.516353+00:00",
+   "retrieved_at": "2026-11-02T11:21:59.266878+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4039,6 +4063,12 @@
    ],
    "disclosures": [
     {
+     "title": "STB: Thông báo thay đổi nhân sự",
+     "url": "https://cafef.vn/du-lieu/STB-3012325/stb-thong-bao-thay-doi-nhan-su.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "STB: Nghị quyết HĐQT về việc thuận chủ trương thay đổi tên gọi Phòng GD Đào Tấn",
      "url": "https://cafef.vn/du-lieu/STB-3008818/stb-nghi-quyet-hdqt-ve-viec-thuan-chu-truong-thay-doi-ten-goi-phong-gd-dao-tan.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4091,61 +4121,55 @@
      "url": "https://cafef.vn/du-lieu/STB-2953249/stb-giai-trinh-bctc-hn-va-rieng-soat-xet-ban-nien-nam-2026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "STB: Thông báo về tỷ lệ sở hữu nước ngoài tối đa",
-     "url": "https://cafef.vn/du-lieu/STB-2948438/stb-thong-bao-ve-ty-le-so-huu-nuoc-ngoai-toi-da.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4158,7 +4182,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:52.440555+00:00",
+   "retrieved_at": "2026-11-02T11:21:52.614027+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4230,51 +4254,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4289,7 +4313,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:57.698631+00:00",
+   "retrieved_at": "2026-11-02T11:21:59.241803+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4418,51 +4442,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4475,7 +4499,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:50:15.328932+00:00",
+   "retrieved_at": "2026-11-02T11:22:15.341137+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4547,51 +4571,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4606,7 +4630,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:50.648147+00:00",
+   "retrieved_at": "2026-11-02T11:21:52.610487+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4735,51 +4759,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4792,7 +4816,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:56.945152+00:00",
+   "retrieved_at": "2026-11-02T11:21:58.021621+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4859,6 +4883,18 @@
    ],
    "disclosures": [
     {
+     "title": "VIB: Thông báo về việc niêm yết và giao dịch chứng khoán thay đổi niêm yết",
+     "url": "https://cafef.vn/du-lieu/VIB-3012737/vib-thong-bao-ve-viec-niem-yet-va-giao-dich-chung-khoan-thay-doi-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VIB: Nghị quyết HĐQT số 056.26.BOD.3 ngày 30/10/2026",
+     "url": "https://cafef.vn/du-lieu/VIB-3012447/vib-nghi-quyet-hdqt-so-05626bod3-ngay-30102026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "VIB: Giải trình biến động LNST quý 3/2026 so với cùng kỳ năm trước",
      "url": "https://cafef.vn/du-lieu/VIB-3009654/vib-giai-trinh-bien-dong-lnst-quy-32026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4905,67 +4941,55 @@
      "url": "https://cafef.vn/du-lieu/VIB-2981732/vib-da-phat-hanh-8000000-co-phieu-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-trong-cong-ty.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VIB: Đã phát hành 323.380.542 cổ phiếu để tăng vốn cổ phần từ NVCSH",
-     "url": "https://cafef.vn/du-lieu/VIB-2981730/vib-da-phat-hanh-323380542-co-phieu-de-tang-von-co-phan-tu-nvcsh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VIB: Nghị quyết HĐQT phê duyệt danh sách Cán bộ nhân viên được phát hành cổ phiếu thưởng",
-     "url": "https://cafef.vn/du-lieu/VIB-2981111/vib-nghi-quyet-hdqt-phe-duyet-danh-sach-can-bo-nhan-vien-duoc-phat-hanh-co-phieu-thuong.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4978,7 +5002,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-02T00:49:49.511272+00:00",
+   "retrieved_at": "2026-11-02T11:21:51.413015+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5107,51 +5131,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia chỉ tên nhóm cổ phiếu đang ở \"chân sóng\", có cơ hội bứt phá cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn",
-     "date": "2026-11-01T17:04:00+00:00",
+     "title": "Vượt kế hoạch lợi nhuận cả năm sau 9 tháng, một \"đại gia\" muốn chia cổ tức 5.000 đồng/cp",
+     "url": "https://cafef.vn/vuot-ke-hoach-loi-nhuan-ca-nam-sau-9-thang-mot-dai-gia-muon-chia-co-tuc-5000-dong-cp-188261102152751517.chn",
+     "date": "2026-11-02T10:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một \"đại gia\" chuẩn bị lăn chốt cổ tức hơn 50% bằng tiền mặt, dự chi gần 7.000 tỷ đồng",
-     "url": "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn",
-     "date": "2026-11-01T17:02:00+00:00",
+     "title": "Tỷ phú Trần Đình Long đón tin vui từ Nhật Bản",
+     "url": "https://cafef.vn/ty-phu-tran-dinh-long-don-tin-vui-tu-nhat-ban-188261102171357014.chn",
+     "date": "2026-11-02T10:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Những ngôi sao một thời trên sàn chứng khoán: Từ vị thế cứ “ôm” là thắng, đến chia 3, chia 5 từ đỉnh",
-     "url": "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Chứng khoán 'đỏ lửa', loạt cổ phiếu nằm sàn",
+     "url": "https://cafef.vn/chung-khoan-do-lua-loat-co-phieu-nam-san-188261102164122062.chn",
+     "date": "2026-11-02T10:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bí mật sau những tờ cổ phần “ế” và hành trình 26 năm của hai cổ phiếu đầu tiên trên sàn chứng khoán",
-     "url": "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn",
-     "date": "2026-11-01T17:01:00+00:00",
+     "title": "Bốn cổ phiếu ngân hàng bị khối ngoại “xả” 560 tỷ đồng trong ngày VN-Index mất 31 điểm",
+     "url": "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn",
+     "date": "2026-11-02T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tuần tới, VN-Index có thể trở lại ngưỡng 1.760 - 1.770 điểm",
-     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn",
-     "date": "2026-11-01T15:18:00+00:00",
+     "title": "Bảo hiểm Bảo Minh chốt ngày phát hành hơn 15 triệu cổ phiếu trả cổ tức",
+     "url": "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn",
+     "date": "2026-11-02T08:39:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
-     "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn",
-     "date": "2026-11-01T15:16:00+00:00",
+     "title": "Lợi nhuận ngành chứng khoán bốc hơi hơn 40% trong quý III",
+     "url": "https://cafef.vn/loi-nhuan-nganh-chung-khoan-boc-hoi-hon-40-trong-quy-iii-188261102133736448.chn",
+     "date": "2026-11-02T08:09:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Góc nhìn chuyên gia: VN-Index đối mặt phép thử trong tuần đầu tháng, 4 nhóm cổ phiếu đáng chú ý sau mùa KQKD quý 3",
-     "url": "https://cafef.vn/goc-nhin-chuyen-gia-vn-index-doi-mat-phep-thu-trong-tuan-dau-thang-4-nhom-co-phieu-dang-chu-y-sau-mua-kqkd-quy-3-18826110116253588.chn",
-     "date": "2026-11-01T09:25:00+00:00",
+     "title": "Giá vàng quay đầu tăng",
+     "url": "https://cafef.vn/gia-vang-quay-dau-tang-188261102143806869.chn",
+     "date": "2026-11-02T07:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhiều doanh nghiệp 'cài số lùi' lợi nhuận",
-     "url": "https://cafef.vn/nhieu-doanh-nghiep-cai-so-lui-loi-nhuan-188261101105628635.chn",
-     "date": "2026-11-01T04:31:00+00:00",
+     "title": "Doanh nghiệp có nữ Tổng giám đốc sinh năm 2002 phát thông báo quan trọng",
+     "url": "https://cafef.vn/doanh-nghiep-co-nu-tong-giam-doc-sinh-nam-2002-phat-thong-bao-quan-trong-188261102141530609.chn",
+     "date": "2026-11-02T07:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
