@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-04T17:20:35.725679+00:00",
+ "generated_at": "2026-11-04T23:45:03.763731+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:33.745614+00:00",
+   "retrieved_at": "2026-11-04T23:45:03.763109+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -154,57 +154,10 @@
      "source": "CafeF - công bố doanh nghiệp"
     }
    ],
-   "market_news": [
-    {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    }
+   "market_news": [],
+   "messages": [
+    "Chưa tải được nguồn RSS thị trường CafeF."
    ],
-   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -213,7 +166,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:12.180748+00:00",
+   "retrieved_at": "2026-11-04T23:44:35.576752+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -399,7 +352,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:34.727530+00:00",
+   "retrieved_at": "2026-11-04T23:44:58.291320+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -557,7 +510,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:23.698509+00:00",
+   "retrieved_at": "2026-11-04T23:44:48.905042+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -791,7 +744,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:12.193244+00:00",
+   "retrieved_at": "2026-11-04T23:44:34.570475+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -977,7 +930,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:35.724835+00:00",
+   "retrieved_at": "2026-11-04T23:44:59.329429+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1135,7 +1088,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:28.029886+00:00",
+   "retrieved_at": "2026-11-04T23:44:52.409308+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1321,7 +1274,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:12.997165+00:00",
+   "retrieved_at": "2026-11-04T23:44:35.830191+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1507,7 +1460,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:24.383877+00:00",
+   "retrieved_at": "2026-11-04T23:44:49.416065+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1693,7 +1646,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:18.199268+00:00",
+   "retrieved_at": "2026-11-04T23:44:41.791327+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1824,7 +1777,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:28.395074+00:00",
+   "retrieved_at": "2026-11-04T23:44:52.991644+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -2010,7 +1963,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:18.928703+00:00",
+   "retrieved_at": "2026-11-04T23:44:42.604180+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2196,7 +2149,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:18.274640+00:00",
+   "retrieved_at": "2026-11-04T23:44:41.833796+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2382,7 +2335,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:23.582237+00:00",
+   "retrieved_at": "2026-11-04T23:44:47.370414+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2568,7 +2521,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:28.108565+00:00",
+   "retrieved_at": "2026-11-04T23:44:54.225145+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2754,7 +2707,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:29.866403+00:00",
+   "retrieved_at": "2026-11-04T23:44:53.796048+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2988,7 +2941,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:23.532479+00:00",
+   "retrieved_at": "2026-11-04T23:44:47.335852+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3174,7 +3127,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:29.431232+00:00",
+   "retrieved_at": "2026-11-04T23:44:52.472370+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3378,7 +3331,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:29.447045+00:00",
+   "retrieved_at": "2026-11-04T23:44:54.876147+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3612,7 +3565,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:23.049685+00:00",
+   "retrieved_at": "2026-11-04T23:44:47.297017+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3798,7 +3751,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:23.515751+00:00",
+   "retrieved_at": "2026-11-04T23:44:47.074030+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3984,7 +3937,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:18.296238+00:00",
+   "retrieved_at": "2026-11-04T23:44:43.289042+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4170,7 +4123,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:12.196722+00:00",
+   "retrieved_at": "2026-11-04T23:44:36.606799+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4301,7 +4254,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:18.177821+00:00",
+   "retrieved_at": "2026-11-04T23:44:42.557016+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4487,7 +4440,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:34.716243+00:00",
+   "retrieved_at": "2026-11-04T23:44:57.584687+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4618,7 +4571,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:12.627300+00:00",
+   "retrieved_at": "2026-11-04T23:44:36.616420+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4804,7 +4757,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:17.660571+00:00",
+   "retrieved_at": "2026-11-04T23:44:41.491904+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4990,7 +4943,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T17:20:12.182887+00:00",
+   "retrieved_at": "2026-11-04T23:44:35.581593+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
