@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-04T23:45:03.763731+00:00",
+ "generated_at": "2026-11-05T06:57:24.747833+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:45:03.763109+00:00",
+   "retrieved_at": "2026-11-05T06:57:22.807935+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -154,10 +154,57 @@
      "source": "CafeF - công bố doanh nghiệp"
     }
    ],
-   "market_news": [],
-   "messages": [
-    "Chưa tải được nguồn RSS thị trường CafeF."
+   "market_news": [
+    {
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
    ],
+   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -166,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:35.576752+00:00",
+   "retrieved_at": "2026-11-05T06:57:00.514629+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -295,51 +342,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -352,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:58.291320+00:00",
+   "retrieved_at": "2026-11-05T06:57:24.694386+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -453,51 +500,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -510,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:48.905042+00:00",
+   "retrieved_at": "2026-11-05T06:57:14.306010+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -687,51 +734,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -744,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:34.570475+00:00",
+   "retrieved_at": "2026-11-05T06:57:00.484134+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -873,51 +920,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -930,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:59.329429+00:00",
+   "retrieved_at": "2026-11-05T06:57:24.747274+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1031,51 +1078,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1088,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:52.409308+00:00",
+   "retrieved_at": "2026-11-05T06:57:17.823040+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1217,51 +1264,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1274,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:35.830191+00:00",
+   "retrieved_at": "2026-11-05T06:57:02.495285+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1403,51 +1450,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1460,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:49.416065+00:00",
+   "retrieved_at": "2026-11-05T06:57:14.949692+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1589,51 +1636,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1646,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:41.791327+00:00",
+   "retrieved_at": "2026-11-05T06:57:07.873754+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1718,51 +1765,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1777,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:52.991644+00:00",
+   "retrieved_at": "2026-11-05T06:57:19.169273+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1906,51 +1953,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1963,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:42.604180+00:00",
+   "retrieved_at": "2026-11-05T06:57:08.055930+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2030,6 +2077,12 @@
    ],
    "disclosures": [
     {
+     "title": "LPB: Thông báo nhận được công văn của NHNNVN về việc chấp thuận thay đổi địa điểm Chi nhánh Đông Đô",
+     "url": "https://cafef.vn/du-lieu/LPB-3015091/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnnvn-ve-viec-chap-thuan-thay-doi-dia-diem-chi-nhanh-dong-do.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "LPB: Nhận được công văn của NHNN về chấp thuận thay đổi địa điểm đặt trụ sở PGD An Minh (Chi nhánh Kiên Giang) và PGD Đắk Song (Chi nhánh Đắk Nông)",
      "url": "https://cafef.vn/du-lieu/LPB-3010863/lpb-nhan-duoc-cong-van-cua-nhnn-ve-chap-thuan-thay-doi-dia-diem-dat-tru-so-pgd-an-minh-chi-nhanh-kien-giang-va-pgd-dak-song-chi-nhanh-dak-nong.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2082,61 +2135,55 @@
      "url": "https://cafef.vn/du-lieu/LPB-2986740/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnn-ve-viec-chap-thuan-thay-doi-dia-diem-pgd-xuan-loc-truc-thuoc-lpbank-dong-nai.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "LPB: Nhận được công văn của NHNNVN về chấp thuận thay đổi địa điểm PGD Lập Thạch và PGD Ba Tri",
-     "url": "https://cafef.vn/du-lieu/LPB-2985714/lpb-nhan-duoc-cong-van-cua-nhnnvn-ve-chap-thuan-thay-doi-dia-diem-pgd-lap-thach-va-pgd-ba-tri.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2149,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:41.833796+00:00",
+   "retrieved_at": "2026-11-05T06:57:07.890306+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2278,51 +2325,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2335,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:47.370414+00:00",
+   "retrieved_at": "2026-11-05T06:57:12.960750+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2464,51 +2511,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2521,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:54.225145+00:00",
+   "retrieved_at": "2026-11-05T06:57:17.731081+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2650,51 +2697,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2707,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:53.796048+00:00",
+   "retrieved_at": "2026-11-05T06:57:19.933842+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2884,51 +2931,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2941,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:47.335852+00:00",
+   "retrieved_at": "2026-11-05T06:57:15.165658+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3070,51 +3117,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3127,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:52.472370+00:00",
+   "retrieved_at": "2026-11-05T06:57:19.069624+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3274,51 +3321,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3331,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:54.876147+00:00",
+   "retrieved_at": "2026-11-05T06:57:19.719735+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3508,51 +3555,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3565,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:47.297017+00:00",
+   "retrieved_at": "2026-11-05T06:57:13.262439+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3694,51 +3741,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3751,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:47.074030+00:00",
+   "retrieved_at": "2026-11-05T06:57:12.862653+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3880,51 +3927,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3937,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:43.289042+00:00",
+   "retrieved_at": "2026-11-05T06:57:07.910204+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4066,51 +4113,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4123,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:36.606799+00:00",
+   "retrieved_at": "2026-11-05T06:57:00.744939+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4147,6 +4194,12 @@
     {
      "title": "TCB: Quyết định HĐQT về bổ nhiệm PTGĐ - Bà Phan Thị Hải Yến",
      "url": "https://cafef.vn/du-lieu/TCB-3009016/tcb-quyet-dinh-hdqt-ve-bo-nhiem-ptgd-ba-phan-thi-hai-yen.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT liên quan đến hoạt động ủy quyền quản lý, xử lý nợ và tài sản bảo đảm với bên liên quan",
+     "url": "https://cafef.vn/du-lieu/TCB-3009013/tcb-nghi-quyet-hdqt-lien-quan-den-hoat-dong-uy-quyen-quan-ly-xu-ly-no-va-tai-san-bao-dam-voi-ben-lien-quan.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4185,61 +4238,55 @@
      "url": "https://cafef.vn/du-lieu/TCB-3004359/tcb-nghi-quyet-hdqt-phe-duyet-tang-von-gop-tai-cong-ty-co-phan-bao-hiem-phi-nhan-tho-techcom-tgins.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Nghị quyết HĐQT số 0564/2026 ngày 19/10/2026, Thông báo số 0565/2026, 0566/2026 ngày 19/10/2026",
-     "url": "https://cafef.vn/du-lieu/TCB-3002494/tcb-nghi-quyet-hdqt-so-05642026-ngay-19102026-thong-bao-so-05652026-05662026-ngay-19102026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4254,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:42.557016+00:00",
+   "retrieved_at": "2026-11-05T06:57:07.870088+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4383,51 +4430,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4440,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:57.584687+00:00",
+   "retrieved_at": "2026-11-05T06:57:23.439765+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4512,51 +4559,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4571,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:36.616420+00:00",
+   "retrieved_at": "2026-11-05T06:57:00.702866+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4700,51 +4747,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4757,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:41.491904+00:00",
+   "retrieved_at": "2026-11-05T06:57:07.926669+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4854,14 +4901,14 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VIB: Báo cáo về thay đổi sở hữu của CĐ lớn CTCP BELLMONT",
-     "url": "https://cafef.vn/du-lieu/VIB-3008988/vib-bao-cao-ve-thay-doi-so-huu-cua-cd-lon-ctcp-bellmont.chn?utm_source=du-lieu",
+     "title": "VIB: Công ty Cổ phần Beston đã chuyển nhượng 85.730.000 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-3008986/vib-cong-ty-co-phan-beston-da-chuyen-nhuong-85730000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VIB: Báo cáo về thay đổi sở hữu của CĐ lớn CTCP BESTON",
-     "url": "https://cafef.vn/du-lieu/VIB-3008986/vib-bao-cao-ve-thay-doi-so-huu-cua-cd-lon-ctcp-beston.chn?utm_source=du-lieu",
+     "title": "VIB: CTCP BELLMONT đã nhận 85.730.000 cp",
+     "url": "https://cafef.vn/du-lieu/VIB-3008988/vib-ctcp-bellmont-da-nhan-85730000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4886,51 +4933,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4943,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-04T23:44:35.581593+00:00",
+   "retrieved_at": "2026-11-05T06:57:00.767695+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5072,51 +5119,51 @@
    ],
    "market_news": [
     {
-     "title": "Thạc sĩ Toán - Tin đi bán rau củ, thịt cá, mỗi ngày thu về trăm tỷ",
-     "url": "https://cafef.vn/thac-si-toan-tin-di-ban-rau-cu-thit-ca-moi-ngay-thu-ve-tram-ty-188261104111543952.chn",
-     "date": "2026-11-04T17:04:00+00:00",
+     "title": "Quy định về chế độ công bố thông tin trên thị trường tài sản mã hóa từ ngày 18/12/2026",
+     "url": "https://cafef.vn/chu-tich-abbank-vu-van-tien-nhan-nhu-ong-trinh-van-quyet-can-gi-cu-bao-toi-ve-mat-tinh-than-188261105110551914.chn",
+     "date": "2026-11-05T06:53:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Loạt \"cá mập\" tổng quy mô 20.000 tỷ sẽ đồng loạt mua bán vào 1 thời điểm, những cổ phiếu nào lọt tầm ngắm?",
-     "url": "https://cafef.vn/loat-ca-map-tong-quy-mo-20000-ty-se-dong-loat-mua-ban-vao-1-thoi-diem-nhung-co-phieu-nao-lot-tam-ngam-188261104233123528.chn",
-     "date": "2026-11-04T17:03:00+00:00",
+     "title": "Tổng giám đốc An Phát Holdings bán ra toàn bộ cổ phiếu",
+     "url": "https://cafef.vn/tong-giam-doc-an-phat-holdings-ban-ra-toan-bo-co-phieu-188261105123249839.chn",
+     "date": "2026-11-05T05:32:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hai container mắc kẹt ở cảng và hành trình đưa Hapaco lên sàn chứng khoán của một người thầy giáo",
-     "url": "https://cafef.vn/hai-container-mac-ket-o-cang-va-hanh-trinh-dua-hapaco-len-san-chung-khoan-cua-mot-nguoi-thay-giao-188261104230910607.chn",
-     "date": "2026-11-04T17:02:00+00:00",
+     "title": "Giá vàng bạc 5/11 tăng dựng đứng: Cập nhật mới nhất tại Phú Quý, SJC, Doji, BTMC, BTMH",
+     "url": "https://cafef.vn/gia-vang-bac-5-11-tang-dung-dung-cap-nhat-moi-nhat-tai-phu-quy-sjc-doji-btmc-btmh-188261105110235401.chn",
+     "date": "2026-11-05T04:50:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một thế lực tung 123.000 tỷ “đỡ” thị trường chứng khoán Việt Nam từ đầu năm",
-     "url": "https://cafef.vn/mot-the-luc-tung-123000-ty-do-thi-truong-chung-khoan-viet-nam-tu-dau-nam-18826110423391433.chn",
-     "date": "2026-11-04T17:01:00+00:00",
+     "title": "Việt Nam có hơn 1.200 người siêu giàu, chuyên gia chỉ ra xu hướng mới trong cuộc chuyển giao tài sản nghìn tỷ",
+     "url": "https://cafef.vn/viet-nam-co-hon-1200-nguoi-sieu-giau-chuyen-gia-chi-ra-xu-huong-moi-trong-cuoc-chuyen-giao-tai-san-nghin-ty-188261105113305545.chn",
+     "date": "2026-11-05T04:34:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Thủ tướng tiếp Chủ tịch tập đoàn đang cung cấp 230 máy bay cho Việt Nam, đề nghị điều đặc biệt tại 2 siêu Cảng hàng không Long Thành và Gia Bình",
-     "url": "https://cafef.vn/thu-tuong-tiep-chu-tich-tap-doan-dang-cung-cap-230-may-bay-cho-viet-nam-de-nghi-dieu-dac-biet-tai-2-sieu-cang-hang-khong-long-thanh-va-gia-binh-188261104220734793.chn",
-     "date": "2026-11-04T15:06:00+00:00",
+     "title": "Đầu tư Thành Thành Công mua lại trước hạn hơn 138 tỷ đồng trái phiếu",
+     "url": "https://cafef.vn/dau-tu-thanh-thanh-cong-mua-lai-truoc-han-hon-138-ty-dong-trai-phieu-188261105104509187.chn",
+     "date": "2026-11-05T04:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Đằng sau khoản lợi nhuận tăng đột biến, PV Power (POW) có những biến động gì sau 9 tháng đầu năm?",
-     "url": "https://cafef.vn/dang-sau-khoan-loi-nhuan-tang-dot-bien-pv-power-pow-co-nhung-bien-dong-gi-sau-9-thang-dau-nam-188261104203102274.chn",
-     "date": "2026-11-04T13:30:00+00:00",
+     "title": "Cổ phiếu vừa được “giải cứu”, Chủ tịch và loạt cổ đông liên quan lập tức bị bán giải chấp hơn 43 triệu đơn vị",
+     "url": "https://cafef.vn/co-phieu-vua-duoc-giai-cuu-chu-tich-va-loat-co-dong-lien-quan-lap-tuc-bi-ban-giai-chap-hon-43-trieu-don-vi-188261105105954188.chn",
+     "date": "2026-11-05T04:19:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán HD chốt giá IPO 38.900 đồng/cổ phiếu, định giá sau phát hành khoảng 1,8 tỷ USD",
-     "url": "https://cafef.vn/chung-khoan-hd-chot-gia-ipo-38900-dong-co-phieu-dinh-gia-sau-phat-hanh-khoang-18-ty-usd-188261104190854587.chn",
-     "date": "2026-11-04T12:08:00+00:00",
+     "title": "Bắt tạm giam quản lý một cửa hàng của ông Nguyễn Đức Tài",
+     "url": "https://cafef.vn/bat-tam-giam-quan-ly-mot-cua-hang-cua-ong-nguyen-duc-tai-188261105110143643.chn",
+     "date": "2026-11-05T04:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một CTCK bất ngờ hạ kỳ vọng với VN-Index",
-     "url": "https://cafef.vn/mot-ctck-bat-ngo-ha-ky-vong-voi-vn-index-188261104150654169.chn",
-     "date": "2026-11-04T12:05:00+00:00",
+     "title": "Giá bạc thế giới vượt 53 USD/ounce, bạc trong nước tăng hàng triệu đồng/kg",
+     "url": "https://cafef.vn/gia-bac-the-gioi-vuot-53-usd-ounce-bac-trong-nuoc-tang-hang-trieu-dong-kg-188261105105857338.chn",
+     "date": "2026-11-05T03:58:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
