@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-09T06:47:18.530023+00:00",
+ "generated_at": "2026-11-09T19:53:55.848193+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:14.617789+00:00",
+   "retrieved_at": "2026-11-09T19:53:53.433986+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -94,6 +94,12 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Đính chính thông tin trình bày trong BCTC Quý 3 năm 2026",
+     "url": "https://cafef.vn/du-lieu/ABB-3017829/abb-dinh-chinh-thong-tin-trinh-bay-trong-bctc-quy-3-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Đính chính thông tin trình bày trong BCTC năm 2025 và bán niên 2026",
      "url": "https://cafef.vn/du-lieu/ABB-3014452/abb-dinh-chinh-thong-tin-trinh-bay-trong-bctc-nam-2025-va-ban-nien-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -146,61 +152,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-2984386/abb-nghi-quyet-hoi-dong-quan-tri-cap-han-thau-chi-cho-khach-hang.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết Hội đồng quản trị v.v thành lập chi nhánh phòng giao dịch",
-     "url": "https://cafef.vn/du-lieu/ABB-2984190/abb-nghi-quyet-hoi-dong-quan-tri-vv-thanh-lap-chi-nhanh-phong-giao-dich.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:47.161089+00:00",
+   "retrieved_at": "2026-11-09T19:53:27.353601+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,51 +342,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:18.516876+00:00",
+   "retrieved_at": "2026-11-09T19:53:55.141481+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -438,8 +438,14 @@
    ],
    "disclosures": [
     {
-     "title": "AGR: Nghị quyết HĐQT số 535 ngày 02/11/2026",
-     "url": "https://cafef.vn/du-lieu/AGR-3012834/agr-nghi-quyet-hdqt-so-535-ngay-02112026.chn?utm_source=du-lieu",
+     "title": "AGR: Quyết định về việc thay đổi đăng ký niêm yết",
+     "url": "https://cafef.vn/du-lieu/AGR-3017854/agr-quyet-dinh-ve-viec-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "AGR: Nghị quyết HĐQT phê duyệt thiết lập hạn mức tín dụng tại Công ty Tài chính tín dụng tiêu dùng TNHH MB Shinsei (Mcredit)",
+     "url": "https://cafef.vn/du-lieu/AGR-3012834/agr-nghi-quyet-hdqt-phe-duyet-thiet-lap-han-muc-tin-dung-tai-cong-ty-tai-chinh-tin-dung-tieu-dung-tnhh-mb-shinsei-mcredit.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -490,61 +496,55 @@
      "url": "https://cafef.vn/du-lieu/AGR-2981069/agr-nghi-quyet-hdqt-phe-duyet-thiet-lap-han-muc-tin-dung-tai-mbb.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "AGR: Bổ nhiệm ông Trương Ngọc Lân giữ chức Quyền Tổng giám đốc từ 14.9.2026",
-     "url": "https://cafef.vn/du-lieu/AGR-2975874/agr-bo-nhiem-ong-truong-ngoc-lan-giu-chuc-quyen-tong-giam-doc-tu-1492026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:04.836620+00:00",
+   "retrieved_at": "2026-11-09T19:53:45.350849+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,51 +734,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:47.183691+00:00",
+   "retrieved_at": "2026-11-09T19:53:27.337086+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -920,51 +920,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:17.079131+00:00",
+   "retrieved_at": "2026-11-09T19:53:55.077840+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,51 +1078,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:07.687911+00:00",
+   "retrieved_at": "2026-11-09T19:53:47.835374+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1264,51 +1264,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:47.454344+00:00",
+   "retrieved_at": "2026-11-09T19:53:27.355320+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,51 +1450,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:04.430569+00:00",
+   "retrieved_at": "2026-11-09T19:53:43.385061+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,51 +1636,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:57.583234+00:00",
+   "retrieved_at": "2026-11-09T19:53:38.733854+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1765,51 +1765,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:09.580431+00:00",
+   "retrieved_at": "2026-11-09T19:53:48.834767+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1891,6 +1891,12 @@
    ],
    "disclosures": [
     {
+     "title": "KLB: Thông báo ngày ĐKCC thực hiện quyền thanh toán lãi trái phiếu kỳ 02 và quyền mua lại trước hạn KLB124009",
+     "url": "https://cafef.vn/du-lieu/KLB-3018131/klb-thong-bao-ngay-dkcc-thuc-hien-quyen-thanh-toan-lai-trai-phieu-ky-02-va-quyen-mua-lai-truoc-han-klb124009.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "KLB: Tái bổ nhiệm bà Vũ Đặng Xuân Vinh giữ chức Kế toán trưởng",
      "url": "https://cafef.vn/du-lieu/KLB-3009742/klb-tai-bo-nhiem-ba-vu-dang-xuan-vinh-giu-chuc-ke-toan-truong.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1943,61 +1949,55 @@
      "url": "https://cafef.vn/du-lieu/KLB-2988950/klb-bo-nhiem-ong-dao-ngoc-hai-giu-chuc-truong-bks-tu-1102026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "KLB: Miễn nhiệm bà Vũ Ngọc Lan Châu - Phó Tổng Giám đốc từ 8.9.2026",
-     "url": "https://cafef.vn/du-lieu/KLB-2971138/klb-mien-nhiem-ba-vu-ngoc-lan-chau-pho-tong-giam-doc-tu-892026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:58.756268+00:00",
+   "retrieved_at": "2026-11-09T19:53:36.908206+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2139,51 +2139,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:54.870474+00:00",
+   "retrieved_at": "2026-11-09T19:53:36.885774+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,51 +2325,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:02.185551+00:00",
+   "retrieved_at": "2026-11-09T19:53:42.884652+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,51 +2511,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:09.390972+00:00",
+   "retrieved_at": "2026-11-09T19:53:47.903767+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,51 +2697,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:11.871323+00:00",
+   "retrieved_at": "2026-11-09T19:53:50.117400+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,51 +2931,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:02.102744+00:00",
+   "retrieved_at": "2026-11-09T19:53:42.882865+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3055,6 +3055,12 @@
    ],
    "disclosures": [
     {
+     "title": "OCB: Nghị quyết HĐQT số 148 ngày 09/11/2026",
+     "url": "https://cafef.vn/du-lieu/OCB-3018128/ocb-nghi-quyet-hdqt-so-148-ngay-09112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "OCB: Nghị quyết HĐQT về việc chốt DSCĐ để thực hiện quyền đề cử, ứng cử nhân sự dự kiến bầu Thành viên BKS",
      "url": "https://cafef.vn/du-lieu/OCB-3015462/ocb-nghi-quyet-hdqt-ve-viec-chot-dscd-de-thuc-hien-quyen-de-cu-ung-cu-nhan-su-du-kien-bau-thanh-vien-bks.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3067,8 +3073,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "OCB: Báo cáo kết quả giao dịch cổ phiếu của người có liên quan đến Người nội bộ Nguyễn Việt Triều",
-     "url": "https://cafef.vn/du-lieu/OCB-3012319/ocb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-co-lien-quan-den-nguoi-noi-bo-nguyen-viet-trieu.chn?utm_source=du-lieu",
+     "title": "OCB: Vợ ông Ngô Hà Bắc - Thành viên HĐQT đã bán 500.000 cp",
+     "url": "https://cafef.vn/du-lieu/OCB-3012319/ocb-vo-ong-ngo-ha-bac-thanh-vien-hdqt-da-ban-500000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3107,61 +3113,55 @@
      "url": "https://cafef.vn/du-lieu/OCB-3001616/ocb-cbtt-ve-viec-nhan-duoc-quyet-dinh-cua-chi-cuc-thue-doanh-nghiep-lon.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "OCB: Nhận được công văn của NHNNVN - Chi nhánh khu vực 7 về chấp thuận thay đổi địa điểm đặt trụ sở PGD Thoại Sơn và PGD Rạch Giá",
-     "url": "https://cafef.vn/du-lieu/OCB-2997913/ocb-nhan-duoc-cong-van-cua-nhnnvn-chi-nhanh-khu-vuc-7-ve-chap-thuan-thay-doi-dia-diem-dat-tru-so-pgd-thoai-son-va-pgd-rach-gia.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:09.910143+00:00",
+   "retrieved_at": "2026-11-09T19:53:48.266440+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,51 +3321,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:11.870067+00:00",
+   "retrieved_at": "2026-11-09T19:53:51.457430+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,51 +3555,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:04.084226+00:00",
+   "retrieved_at": "2026-11-09T19:53:42.684566+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3741,51 +3741,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:02.116238+00:00",
+   "retrieved_at": "2026-11-09T19:53:42.770135+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3865,6 +3865,24 @@
    ],
    "disclosures": [
     {
+     "title": "SSB: Giấy ủy quyền thực hiện công bố thông tin",
+     "url": "https://cafef.vn/du-lieu/SSB-3018105/ssb-giay-uy-quyen-thuc-hien-cong-bo-thong-tin.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Nghị quyết HĐQT thông qua việc sửa đổi nội dung về Vốn điều lệ tại Điều lệ của SeABank",
+     "url": "https://cafef.vn/du-lieu/SSB-3018054/ssb-nghi-quyet-hdqt-thong-qua-viec-sua-doi-noi-dung-ve-von-dieu-le-tai-dieu-le-cua-seabank.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "SSB: Nghị quyết HĐQT về việc sửa đổi nội dung về vốn điều lệ tại Điều lệ của ngân hàng",
+     "url": "https://cafef.vn/du-lieu/SSB-3018030/ssb-nghi-quyet-hdqt-ve-viec-sua-doi-noi-dung-ve-von-dieu-le-tai-dieu-le-cua-ngan-hang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "SSB: Nhận được Quyết định của NHNN về việc sửa đổi nội dung Vốn Điều lệ tại Giấy phép thành lập và hoạt động",
      "url": "https://cafef.vn/du-lieu/SSB-3010452/ssb-nhan-duoc-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3905,73 +3923,55 @@
      "url": "https://cafef.vn/du-lieu/SSB-3005299/ssb-con-ba-nguyen-thi-nga-pho-chu-tich-hdqt-da-ban-673500-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SSB: Bà Đặng Thu Trang - Phó Tổng giám đốc đã bán 70.000 cp",
-     "url": "https://cafef.vn/du-lieu/SSB-2991236/ssb-ba-dang-thu-trang-pho-tong-giam-doc-da-ban-70000-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SSB: Con bà Khúc Thị Quỳnh Lâm - Phó chủ tịch HĐQT đã bán 214.100 cp",
-     "url": "https://cafef.vn/du-lieu/SSB-2991237/ssb-con-ba-khuc-thi-quynh-lam-pho-chu-tich-hdqt-da-ban-214100-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SSB: Nghị quyết HĐQT thông qua hợp đồng, giao dịch với CTCP Cho thuê máy bay Việt Nam",
-     "url": "https://cafef.vn/du-lieu/SSB-2989793/ssb-nghi-quyet-hdqt-thong-qua-hop-dong-giao-dich-voi-ctcp-cho-thue-may-bay-viet-nam.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:54.785922+00:00",
+   "retrieved_at": "2026-11-09T19:53:36.886990+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4051,6 +4051,12 @@
    ],
    "disclosures": [
     {
+     "title": "STB: Nghị quyết HĐQT số 0202.2026, 0203.2026 ngày 09/11/2026",
+     "url": "https://cafef.vn/du-lieu/STB-3018099/stb-nghi-quyet-hdqt-so-02022026-02032026-ngay-09112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "STB: Giấy ủy quyền thực hiện CBTT",
      "url": "https://cafef.vn/du-lieu/STB-3013749/stb-giay-uy-quyen-thuc-hien-cbtt.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4103,61 +4109,55 @@
      "url": "https://cafef.vn/du-lieu/STB-2986612/stb-nghi-quyet-hdqt-thay-doi-dia-chi-cac-diem-giao-dich-tren-dia-ban-tpbac-ninh.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "STB: Thông báo nhận được công văn của NHNN Chi nhánh Khu vực 9 về việc chấp thuận thay đổi địa điểm Sacombank Sông Hàn - PGD Núi Thành",
-     "url": "https://cafef.vn/du-lieu/STB-2982617/stb-thong-bao-nhan-duoc-cong-van-cua-nhnn-chi-nhanh-khu-vuc-9-ve-viec-chap-thuan-thay-doi-dia-diem-sacombank-song-han-pgd-nui-thanh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:50.904709+00:00",
+   "retrieved_at": "2026-11-09T19:53:29.695776+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4242,51 +4242,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:54.866671+00:00",
+   "retrieved_at": "2026-11-09T19:53:36.892400+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4368,6 +4368,18 @@
    ],
    "disclosures": [
     {
+     "title": "TPB: Thông báo quyết định của NHNN về việc bổ sung nội dung hoạt động vào giấy phép thành lập và hoạt động của TPB",
+     "url": "https://cafef.vn/du-lieu/TPB-3018045/tpb-thong-bao-quyet-dinh-cua-nhnn-ve-viec-bo-sung-noi-dung-hoat-dong-vao-giay-phep-thanh-lap-va-hoat-dong-cua-tpb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Quyết định của NHNNVN về việc bổ sung nội dung hoạt động vào Giấy phép thành lập và hoạt động",
+     "url": "https://cafef.vn/du-lieu/TPB-3018040/tpb-quyet-dinh-cua-nhnnvn-ve-viec-bo-sung-noi-dung-hoat-dong-vao-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "TPB: Thông báo nhận được Văn bản của NHNNVN Chi nhánh khu vực 2 về việc thay đổi địa điểm đặt trụ sở PGD Bình Tân",
      "url": "https://cafef.vn/du-lieu/TPB-3016208/tpb-thong-bao-nhan-duoc-van-ban-cua-nhnnvn-chi-nhanh-khu-vuc-2-ve-viec-thay-doi-dia-diem-dat-tru-so-pgd-binh-tan.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4414,67 +4426,55 @@
      "url": "https://cafef.vn/du-lieu/TPB-2994043/tpb-nghi-quyet-hdqt-thong-qua-ket-qua-dot-phat-hanh-co-phieu-pho-thong-de-tra-co-tuc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TPB: Số lượng cổ phiếu có quyền biểu quyết đang lưu hành là 3.190.134.896 cp",
-     "url": "https://cafef.vn/du-lieu/TPB-2994041/tpb-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh-la-3190134896-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TPB: Đã phát hành 416.088.023 cổ phiếu để trả cổ tức",
-     "url": "https://cafef.vn/du-lieu/TPB-2994044/tpb-da-phat-hanh-416088023-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:47:18.529017+00:00",
+   "retrieved_at": "2026-11-09T19:53:55.847294+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,51 +4559,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:47.589629+00:00",
+   "retrieved_at": "2026-11-09T19:53:27.358772+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,51 +4747,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:54.819635+00:00",
+   "retrieved_at": "2026-11-09T19:53:35.107219+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4871,6 +4871,12 @@
    ],
    "disclosures": [
     {
+     "title": "VIB: Thông báo về ngày đăng ký cuối cùng về đề cử nhân sự và lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/VIB-3018111/vib-thong-bao-ve-ngay-dang-ky-cuoi-cung-ve-de-cu-nhan-su-va-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "VIB: Điều lệ công ty",
      "url": "https://cafef.vn/du-lieu/VIB-3016189/vib-dieu-le-cong-ty.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4883,14 +4889,14 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VIB: Thông báo về việc niêm yết và giao dịch chứng khoán thay đổi niêm yết",
-     "url": "https://cafef.vn/du-lieu/VIB-3012737/vib-thong-bao-ve-viec-niem-yet-va-giao-dich-chung-khoan-thay-doi-niem-yet.chn?utm_source=du-lieu",
+     "title": "VIB: Nghị quyết HĐQT đề cử nhân sự dự kiến bầu thành viên HĐQT, lấy ý kiến cổ đông bằng văn bản",
+     "url": "https://cafef.vn/du-lieu/VIB-3012447/vib-nghi-quyet-hdqt-de-cu-nhan-su-du-kien-bau-thanh-vien-hdqt-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "VIB: Nghị quyết HĐQT số 056.26.BOD.3 ngày 30/10/2026",
-     "url": "https://cafef.vn/du-lieu/VIB-3012447/vib-nghi-quyet-hdqt-so-05626bod3-ngay-30102026.chn?utm_source=du-lieu",
+     "title": "VIB: Thông báo về việc niêm yết và giao dịch chứng khoán thay đổi niêm yết",
+     "url": "https://cafef.vn/du-lieu/VIB-3012737/vib-thong-bao-ve-viec-niem-yet-va-giao-dich-chung-khoan-thay-doi-niem-yet.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4923,61 +4929,55 @@
      "url": "https://cafef.vn/du-lieu/VIB-3004353/vib-thong-bao-nhan-duoc-quyet-dinh-cua-nhnnvn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VIB: Nhận được công văn số 9604, 9605 ngày 28/09/2026 của UBCKNN về tài liệu báo cáo kết quả phát hành CP",
-     "url": "https://cafef.vn/du-lieu/VIB-2986839/vib-nhan-duoc-cong-van-so-9604-9605-ngay-28092026-cua-ubcknn-ve-tai-lieu-bao-cao-ket-qua-phat-hanh-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T06:46:47.085413+00:00",
+   "retrieved_at": "2026-11-09T19:53:27.362026+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,51 +5119,51 @@
    ],
    "market_news": [
     {
-     "title": "Hé lộ thời điểm vận hành chính thức mô hình CCP",
-     "url": "https://cafef.vn/he-lo-thoi-diem-van-hanh-chinh-thuc-mo-hinh-ccp-188261109113636209.chn",
-     "date": "2026-11-09T04:54:00+00:00",
+     "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+     "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+     "date": "2026-11-09T17:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "DNSE kết hợp Dragon Capital, đưa góc nhìn công nghệ và quản lý đầu tư tới DNSE Future Tech Summit 2026",
-     "url": "https://cafef.vn/dnse-ket-hop-dragon-capital-dua-goc-nhin-cong-nghe-va-quan-ly-dau-tu-toi-dnse-future-tech-summit-2026-188261109111829889.chn",
-     "date": "2026-11-09T04:30:00+00:00",
+     "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+     "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 14 người nước ngoài nghi lừa đảo qua sàn chứng khoán ảo ở TP.HCM",
-     "url": "https://cafef.vn/phat-hien-14-nguoi-nuoc-ngoai-nghi-lua-dao-qua-san-chung-khoan-ao-o-tphcm-18826110910442747.chn",
-     "date": "2026-11-09T04:29:00+00:00",
+     "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+     "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+     "date": "2026-11-09T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phát hiện 1 doanh nghiệp Việt mang hơn 6.000 tấn thiết bị sang Trung Đông phục vụ siêu dự án 1,7 tỷ USD, lãi 9 tháng vượt 500% kế hoạch cả năm",
-     "url": "https://cafef.vn/phat-hien-1-doanh-nghiep-viet-mang-hon-6000-tan-thiet-bi-sang-trung-dong-phuc-vu-sieu-du-an-17-ty-usd-lai-9-thang-vuot-500-ke-hoach-ca-nam-188261109104232347.chn",
-     "date": "2026-11-09T03:42:00+00:00",
+     "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+     "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+     "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nhịp rung lắc mở ra cơ hội giải ngân 4 nhóm ngành đang “hút tiền”",
-     "url": "https://cafef.vn/nhip-rung-lac-mo-ra-co-hoi-giai-ngan-4-nhom-nganh-dang-hut-tien-188261109103319843.chn",
-     "date": "2026-11-09T03:37:00+00:00",
+     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+     "date": "2026-11-09T15:08:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CEO nổi tiếng thừa nhận ngoại tình, công ty có thể mất 3,5 triệu tỷ vốn hóa",
-     "url": "https://cafef.vn/ceo-noi-tieng-thua-nhan-ngoai-tinh-cong-ty-co-the-mat-35-trieu-ty-von-hoa-18826110910212264.chn",
-     "date": "2026-11-09T03:20:00+00:00",
+     "title": "F88 bị phạt do công bố thông tin sai lệch",
+     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
+     "date": "2026-11-09T13:16:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lịch chốt quyền trả cổ tức trong tuần từ ngày 9/11-13/11, tỷ lệ cao nhất 65%",
-     "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-tu-ngay-9-11-13-11-ty-le-cao-nhat-65-188261109101535151.chn",
-     "date": "2026-11-09T03:15:00+00:00",
+     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
+     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
+     "date": "2026-11-09T11:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá dầu, bitcoin đồng loạt giảm",
-     "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
-     "date": "2026-11-09T02:59:00+00:00",
+     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
+     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
+     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
