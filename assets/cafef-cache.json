@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-09T19:53:55.848193+00:00",
+ "generated_at": "2026-11-10T03:38:15.194766+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:53.433986+00:00",
+   "retrieved_at": "2026-11-10T03:38:13.277980+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -156,6 +156,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -178,30 +202,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:27.353601+00:00",
+   "retrieved_at": "2026-11-10T03:37:48.906646+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,6 +342,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -364,30 +388,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:55.141481+00:00",
+   "retrieved_at": "2026-11-10T03:38:14.812888+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -500,6 +500,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -522,30 +546,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:45.350849+00:00",
+   "retrieved_at": "2026-11-10T03:38:04.988702+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,6 +734,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -756,30 +780,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:27.337086+00:00",
+   "retrieved_at": "2026-11-10T03:37:48.888335+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -920,6 +920,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -942,30 +966,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:55.077840+00:00",
+   "retrieved_at": "2026-11-10T03:38:15.193417+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,6 +1078,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -1100,30 +1124,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:47.835374+00:00",
+   "retrieved_at": "2026-11-10T03:38:08.518059+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1220,8 +1220,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BVB: Báo cáo kết quả giao dịch cổ phiếu của Người nội bộ Phan Thanh Hải",
-     "url": "https://cafef.vn/du-lieu/BVB-3013558/bvb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-noi-bo-phan-thanh-hai.chn?utm_source=du-lieu",
+     "title": "BVB: Báo cáo kết quả giao dịch cổ phiếu của Người nội bộ Phan Thanh Hải, Vũ Minh Tú, Nguyễn Thanh Tú",
+     "url": "https://cafef.vn/du-lieu/BVB-3013558/bvb-bao-cao-ket-qua-giao-dich-co-phieu-cua-nguoi-noi-bo-phan-thanh-hai-vu-minh-tu-nguyen-thanh-tu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1264,6 +1264,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -1286,30 +1310,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:27.355320+00:00",
+   "retrieved_at": "2026-11-10T03:37:48.885004+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,6 +1450,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -1472,30 +1496,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:43.385061+00:00",
+   "retrieved_at": "2026-11-10T03:38:05.027107+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,6 +1636,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -1658,30 +1682,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:38.733854+00:00",
+   "retrieved_at": "2026-11-10T03:37:58.391919+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1765,6 +1765,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -1787,30 +1811,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:48.834767+00:00",
+   "retrieved_at": "2026-11-10T03:38:09.602625+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1891,6 +1891,12 @@
    ],
    "disclosures": [
     {
+     "title": "KLB: Thông báo công văn của NHNN về chấp thuận cho KLB chấm dứt hoạt động Phòng GD Phước Long",
+     "url": "https://cafef.vn/du-lieu/KLB-3018428/klb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-klb-cham-dut-hoat-dong-phong-gd-phuoc-long.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "KLB: Thông báo ngày ĐKCC thực hiện quyền thanh toán lãi trái phiếu kỳ 02 và quyền mua lại trước hạn KLB124009",
      "url": "https://cafef.vn/du-lieu/KLB-3018131/klb-thong-bao-ngay-dkcc-thuc-hien-quyen-thanh-toan-lai-trai-phieu-ky-02-va-quyen-mua-lai-truoc-han-klb124009.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1943,15 +1949,33 @@
      "url": "https://cafef.vn/du-lieu/KLB-2988948/klb-nghi-quyet-hdqt-thong-qua-cong-tac-nhan-su.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "KLB: Bổ nhiệm ông Đào Ngọc Hải giữ chức Trưởng BKS từ 1.10.2026",
-     "url": "https://cafef.vn/du-lieu/KLB-2988950/klb-bo-nhiem-ong-dao-ngoc-hai-giu-chuc-truong-bks-tu-1102026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
@@ -1975,30 +1999,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:36.908206+00:00",
+   "retrieved_at": "2026-11-10T03:37:57.452399+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2077,6 +2077,12 @@
    ],
    "disclosures": [
     {
+     "title": "LPB: Nghị quyết HĐQT về phương án mua lại trước hạn trái phiếu LPB121036",
+     "url": "https://cafef.vn/du-lieu/LPB-3018381/lpb-nghi-quyet-hdqt-ve-phuong-an-mua-lai-truoc-han-trai-phieu-lpb121036.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "LPB: Thông báo nhận được công văn của NHNNVN về việc chấp thuận thay đổi địa điểm Chi nhánh Đông Đô",
      "url": "https://cafef.vn/du-lieu/LPB-3015091/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnnvn-ve-viec-chap-thuan-thay-doi-dia-diem-chi-nhanh-dong-do.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2129,15 +2135,33 @@
      "url": "https://cafef.vn/du-lieu/LPB-2989427/lpb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-lpb-thay-doi-dia-diem-dat-tru-so-phong-gd-go-cong-tay.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "LPB: Thông báo nhận được công văn của NHNN về việc chấp thuận thay đổi địa điểm PGD Xuân Lộc trực thuộc LPBank Đồng Nai",
-     "url": "https://cafef.vn/du-lieu/LPB-2986740/lpb-thong-bao-nhan-duoc-cong-van-cua-nhnn-ve-viec-chap-thuan-thay-doi-dia-diem-pgd-xuan-loc-truc-thuoc-lpbank-dong-nai.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
+    {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
     {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
@@ -2161,30 +2185,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:36.885774+00:00",
+   "retrieved_at": "2026-11-10T03:37:56.418907+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,6 +2325,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -2347,30 +2371,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:42.884652+00:00",
+   "retrieved_at": "2026-11-10T03:38:03.825687+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,6 +2511,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -2533,30 +2557,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:47.903767+00:00",
+   "retrieved_at": "2026-11-10T03:38:09.604427+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,6 +2697,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -2719,30 +2743,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:50.117400+00:00",
+   "retrieved_at": "2026-11-10T03:38:11.050070+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,6 +2931,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -2953,30 +2977,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:42.882865+00:00",
+   "retrieved_at": "2026-11-10T03:38:03.851183+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3117,6 +3117,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -3139,30 +3163,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:48.266440+00:00",
+   "retrieved_at": "2026-11-10T03:38:09.605551+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,6 +3321,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -3343,30 +3367,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:51.457430+00:00",
+   "retrieved_at": "2026-11-10T03:38:10.613038+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,6 +3555,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -3577,30 +3601,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:42.684566+00:00",
+   "retrieved_at": "2026-11-10T03:38:03.828385+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3741,6 +3741,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -3763,30 +3787,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:42.770135+00:00",
+   "retrieved_at": "2026-11-10T03:38:03.860263+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3927,6 +3927,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -3949,30 +3973,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:36.886990+00:00",
+   "retrieved_at": "2026-11-10T03:37:56.656103+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4113,6 +4113,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -4135,30 +4159,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:29.695776+00:00",
+   "retrieved_at": "2026-11-10T03:37:51.221684+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4242,6 +4242,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -4264,30 +4288,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:36.892400+00:00",
+   "retrieved_at": "2026-11-10T03:37:56.416638+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4430,6 +4430,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -4452,30 +4476,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:55.847294+00:00",
+   "retrieved_at": "2026-11-10T03:38:14.946108+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,6 +4559,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -4581,30 +4605,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:27.358772+00:00",
+   "retrieved_at": "2026-11-10T03:37:48.914184+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,6 +4747,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -4769,30 +4793,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:35.107219+00:00",
+   "retrieved_at": "2026-11-10T03:37:56.420487+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4933,6 +4933,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -4955,30 +4979,6 @@
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-09T19:53:27.362026+00:00",
+   "retrieved_at": "2026-11-10T03:37:49.461780+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,6 +5119,30 @@
    ],
    "market_news": [
     {
+     "title": "Giá vàng bật tăng mạnh, “cá mập” SPDR tranh thủ gom hàng",
+     "url": "https://cafef.vn/gia-vang-bat-tang-manh-ca-map-spdr-tranh-thu-gom-hang-18826111010304498.chn",
+     "date": "2026-11-10T03:34:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Một doanh nghiệp gây \"choáng\" với kế hoạch cổ tức tiền mặt 241% và thưởng cổ phiếu 183%, cổ phiếu lập tức “tím lịm”",
+     "url": "https://cafef.vn/mot-doanh-nghiep-gay-choang-voi-ke-hoach-co-tuc-tien-mat-241-va-thuong-co-phieu-183-co-phieu-lap-tuc-tim-lim-188261110100953996.chn",
+     "date": "2026-11-10T03:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+     "date": "2026-11-10T01:12:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+     "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+     "date": "2026-11-10T01:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
      "date": "2026-11-09T17:03:00+00:00",
@@ -5140,30 +5164,6 @@
      "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
      "date": "2026-11-09T15:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
-     "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
-     "date": "2026-11-09T15:08:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "F88 bị phạt do công bố thông tin sai lệch",
-     "url": "https://cafef.vn/f88-bi-phat-do-cong-bo-thong-tin-sai-lech-18826110920170749.chn",
-     "date": "2026-11-09T13:16:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nhóm quỹ liên quan Dragon Capital quay trở lại ghế cổ đông lớn sau khi gom thêm 5 triệu cổ phiếu DXG",
-     "url": "https://cafef.vn/nhom-quy-lien-quan-dragon-capital-quay-tro-lai-ghe-co-dong-lon-sau-khi-gom-them-5-trieu-co-phieu-dxg-188261109175803857.chn",
-     "date": "2026-11-09T11:33:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Ông lớn” vật liệu xây dựng tung chiêu bán hàng mới: Không cần vốn vẫn nhận hoa hồng tới 10%",
-     "url": "https://cafef.vn/ong-lon-vat-lieu-xay-dung-tung-chieu-ban-hang-moi-khong-can-von-van-nhan-hoa-hong-toi-10-188261109141347932.chn",
-     "date": "2026-11-09T11:10:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
