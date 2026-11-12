@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-11T17:14:39.879817+00:00",
+ "generated_at": "2026-11-12T00:49:13.623853+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:37.299565+00:00",
+   "retrieved_at": "2026-11-12T00:49:13.206211+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -156,6 +156,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -178,30 +202,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:15.872176+00:00",
+   "retrieved_at": "2026-11-12T00:48:46.674999+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,6 +342,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -364,30 +388,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:39.241134+00:00",
+   "retrieved_at": "2026-11-12T00:49:13.534200+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -500,6 +500,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -522,30 +546,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:29.517831+00:00",
+   "retrieved_at": "2026-11-12T00:49:01.975026+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,6 +734,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -756,30 +780,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:14.840538+00:00",
+   "retrieved_at": "2026-11-12T00:48:46.449429+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -920,6 +920,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -942,30 +966,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:39.389659+00:00",
+   "retrieved_at": "2026-11-12T00:49:13.623353+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,6 +1078,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -1100,30 +1124,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:32.227734+00:00",
+   "retrieved_at": "2026-11-12T00:49:06.713911+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1264,6 +1264,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -1286,30 +1310,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:15.213777+00:00",
+   "retrieved_at": "2026-11-12T00:48:47.314242+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,6 +1450,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -1472,30 +1496,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:30.032459+00:00",
+   "retrieved_at": "2026-11-12T00:49:01.302876+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,6 +1636,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -1658,30 +1682,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:21.882065+00:00",
+   "retrieved_at": "2026-11-12T00:48:54.972392+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1765,6 +1765,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -1787,30 +1811,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:33.693156+00:00",
+   "retrieved_at": "2026-11-12T00:49:06.891795+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1953,6 +1953,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -1975,30 +1999,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:23.823959+00:00",
+   "retrieved_at": "2026-11-12T00:48:56.165661+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2139,6 +2139,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -2161,30 +2185,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:21.549406+00:00",
+   "retrieved_at": "2026-11-12T00:48:54.253765+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,6 +2325,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -2347,30 +2371,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:28.301245+00:00",
+   "retrieved_at": "2026-11-12T00:49:01.313486+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,6 +2511,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -2533,30 +2557,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:33.574980+00:00",
+   "retrieved_at": "2026-11-12T00:49:06.714923+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,6 +2697,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -2719,30 +2743,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:35.699275+00:00",
+   "retrieved_at": "2026-11-12T00:49:07.101695+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,6 +2931,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -2953,30 +2977,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:28.350289+00:00",
+   "retrieved_at": "2026-11-12T00:49:01.293430+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3117,6 +3117,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -3139,30 +3163,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:33.513620+00:00",
+   "retrieved_at": "2026-11-12T00:49:06.734814+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,6 +3321,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -3343,30 +3367,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:34.985850+00:00",
+   "retrieved_at": "2026-11-12T00:49:08.939930+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,6 +3555,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -3577,30 +3601,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:27.029199+00:00",
+   "retrieved_at": "2026-11-12T00:49:01.295766+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3741,6 +3741,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -3763,30 +3787,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:27.886949+00:00",
+   "retrieved_at": "2026-11-12T00:49:01.294805+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3927,6 +3927,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -3949,30 +3973,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:23.790125+00:00",
+   "retrieved_at": "2026-11-12T00:48:54.274290+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4113,6 +4113,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -4135,30 +4159,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:15.888333+00:00",
+   "retrieved_at": "2026-11-12T00:48:48.026146+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4242,6 +4242,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -4264,30 +4288,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:22.734814+00:00",
+   "retrieved_at": "2026-11-12T00:48:53.588557+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4430,6 +4430,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -4452,30 +4476,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:39.879204+00:00",
+   "retrieved_at": "2026-11-12T00:49:12.615941+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,6 +4559,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -4581,30 +4605,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:16.383684+00:00",
+   "retrieved_at": "2026-11-12T00:48:46.700397+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,6 +4747,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -4769,30 +4793,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:20.700282+00:00",
+   "retrieved_at": "2026-11-12T00:48:53.152282+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4933,6 +4933,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -4955,30 +4979,6 @@
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-11T17:14:14.841702+00:00",
+   "retrieved_at": "2026-11-12T00:48:46.452451+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,6 +5119,30 @@
    ],
    "market_news": [
     {
+     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
+     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
+     "date": "2026-11-11T23:30:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
+     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
+     "date": "2026-11-11T23:00:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
+     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
+     "date": "2026-11-11T22:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
+     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
+     "date": "2026-11-11T21:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
      "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
      "date": "2026-11-11T17:07:00+00:00",
@@ -5140,30 +5164,6 @@
      "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
      "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
      "date": "2026-11-11T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Gió đổi chiều trên thị trường lao động: Môi giới ăn hoa hồng “chật vật”, nhân viên bán hàng, công nhân xây dựng được săn đón",
-     "url": "https://cafef.vn/gio-doi-chieu-tren-thi-truong-lao-dong-moi-gioi-an-hoa-hong-chat-vat-nhan-vien-ban-hang-cong-nhan-xay-dung-duoc-san-don-18826111123081682.chn",
-     "date": "2026-11-11T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
-     "url": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
-     "date": "2026-11-11T16:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
-     "url": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
-     "date": "2026-11-11T14:55:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
-     "url": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
-     "date": "2026-11-11T14:27:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
