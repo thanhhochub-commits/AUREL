@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-12T00:49:13.623853+00:00",
+ "generated_at": "2026-11-12T11:26:36.702841+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:13.206211+00:00",
+   "retrieved_at": "2026-11-12T11:26:33.982040+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -94,6 +94,12 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Nghị quyết Hội đồng quản trị",
+     "url": "https://cafef.vn/du-lieu/ABB-3020333/abb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Đính chính thông tin trình bày trong BCTC Quý 3 năm 2026",
      "url": "https://cafef.vn/du-lieu/ABB-3017829/abb-dinh-chinh-thong-tin-trinh-bay-trong-bctc-quy-3-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -146,61 +152,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-2985995/abb-nghi-quyet-hoi-dong-quan-tri-thue-dia-diem-tiem-nang-de-di-doi-tru-so-abbank-tpho-chi-minh.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết Hội đồng quản trị cấp hạn thấu chi cho khách hàng",
-     "url": "https://cafef.vn/du-lieu/ABB-2984386/abb-nghi-quyet-hoi-dong-quan-tri-cap-han-thau-chi-cho-khach-hang.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:46.674999+00:00",
+   "retrieved_at": "2026-11-12T11:26:10.177367+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,51 +342,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:13.534200+00:00",
+   "retrieved_at": "2026-11-12T11:26:36.702023+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -500,51 +500,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:01.975026+00:00",
+   "retrieved_at": "2026-11-12T11:26:23.369545+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,51 +734,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:46.449429+00:00",
+   "retrieved_at": "2026-11-12T11:26:10.151965+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -858,6 +858,36 @@
    ],
    "disclosures": [
     {
+     "title": "BID: Nghị quyết về việc thông qua Hồ sơ đăng ký chào bán trái phiếu tăng vốn BIDV ra công chúng",
+     "url": "https://cafef.vn/du-lieu/BID-3020266/bid-nghi-quyet-ve-viec-thong-qua-ho-so-dang-ky-chao-ban-trai-phieu-tang-von-bidv-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Quyết định về việc thành lập Chi nhánh Hồ Gươm",
+     "url": "https://cafef.vn/du-lieu/BID-3020265/bid-quyet-dinh-ve-viec-thanh-lap-chi-nhanh-ho-guom.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Thông báo nhận được Quyết định của NHNNVN về việc bổ sung nội dung hoạt động vào Giấy phép thành lập và hoạt động",
+     "url": "https://cafef.vn/du-lieu/BID-3020264/bid-thong-bao-nhan-duoc-quyet-dinh-cua-nhnnvn-ve-viec-bo-sung-noi-dung-hoat-dong-vao-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Thông báo giao dịch với bên có liên quan BIDV MetLife",
+     "url": "https://cafef.vn/du-lieu/BID-3020263/bid-thong-bao-giao-dich-voi-ben-co-lien-quan-bidv-metlife.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Thông báo giao dịch với bên có liên quan BIC",
+     "url": "https://cafef.vn/du-lieu/BID-3020261/bid-thong-bao-giao-dich-voi-ben-co-lien-quan-bic.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BID: HĐQT thông qua giao dịch với bên liên quan KEB Hana Bank",
      "url": "https://cafef.vn/du-lieu/BID-3019574/bid-hdqt-thong-qua-giao-dich-voi-ben-lien-quan-keb-hana-bank.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -886,85 +916,55 @@
      "url": "https://cafef.vn/du-lieu/BID-3001270/bid-cbtt-thay-doi-dia-diem-dat-tru-so-chi-nhanh-so-giao-dich-3.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: Nghị quyết HĐQT phê duyệt Phương án phát hành Trái phiếu tăng vốn BIDV theo hình thức riêng lẻ Quý IV/2026",
-     "url": "https://cafef.vn/du-lieu/BID-2999491/bid-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-trai-phieu-tang-von-bidv-theo-hinh-thuc-rieng-le-quy-iv2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: CBTT về ngày ĐKCC để thực hiện quyền thanh toán lãi trái phiếu",
-     "url": "https://cafef.vn/du-lieu/BID-2997778/bid-cbtt-ve-ngay-dkcc-de-thuc-hien-quyen-thanh-toan-lai-trai-phieu.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: Nghị quyết HĐQT phê duyệt Phương án phát hành, phương án sử dụng và trả nợ vốn thu được từ các đợt phát hành trái phiếu tăng vốn BIDV ra công chúng",
-     "url": "https://cafef.vn/du-lieu/BID-2997779/bid-nghi-quyet-hdqt-phe-duyet-phuong-an-phat-hanh-phuong-an-su-dung-va-tra-no-von-thu-duoc-tu-cac-dot-phat-hanh-trai-phieu-tang-von-bidv-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: CBTT về giao dịch với bên có liên quan - KEB Hana Bank",
-     "url": "https://cafef.vn/du-lieu/BID-2994754/bid-cbtt-ve-giao-dich-voi-ben-co-lien-quan-keb-hana-bank.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: CBTT về giao dịch với bên có liên quan",
-     "url": "https://cafef.vn/du-lieu/BID-2994736/bid-cbtt-ve-giao-dich-voi-ben-co-lien-quan.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:13.623353+00:00",
+   "retrieved_at": "2026-11-12T11:26:36.046755+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,51 +1078,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:06.713911+00:00",
+   "retrieved_at": "2026-11-12T11:26:27.274898+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1202,26 +1202,44 @@
    ],
    "disclosures": [
     {
+     "title": "BVB: Thông báo chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/BVB-3020413/bvb-thong-bao-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Giấy chứng nhận chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/BVB-3020412/bvb-giay-chung-nhan-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BVB: Bản cáo bạch chào bán trái phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/BVB-3020410/bvb-ban-cao-bach-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BVB: Điều chỉnh Báo cáo kết quả đợt chào bán CP ra công chúng số 7046 ngày 04/11/2026",
      "url": "https://cafef.vn/du-lieu/BVB-3019542/bvb-dieu-chinh-bao-cao-ket-qua-dot-chao-ban-cp-ra-cong-chung-so-7046-ngay-04112026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BVB: Thông báo thay đổi số lượng CP có quyền biểu quyết",
-     "url": "https://cafef.vn/du-lieu/BVB-3016384/bvb-thong-bao-thay-doi-so-luong-cp-co-quyen-bieu-quyet.chn?utm_source=du-lieu",
+     "title": "BVB: Đã chào bán 320.088.171 cổ phiếu ra công chúng (kèm tài liệu)",
+     "url": "https://cafef.vn/du-lieu/BVB-3016077/bvb-da-chao-ban-320088171-co-phieu-ra-cong-chung-kem-tai-lieu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BVB: Báo cáo kết quả phát hành CP theo chương trình lựa chọn cho người lao động (kèm tài liệu)",
-     "url": "https://cafef.vn/du-lieu/BVB-3016374/bvb-bao-cao-ket-qua-phat-hanh-cp-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-kem-tai-lieu.chn?utm_source=du-lieu",
+     "title": "BVB: Số lượng cổ phiếu có quyền biểu quyết đang lưu hành là 971.897.900 cp",
+     "url": "https://cafef.vn/du-lieu/BVB-3016384/bvb-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh-la-971897900-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BVB: Báo cáo kết quả đợt chào bán cổ phiếu ra công chúng (kèm tài liệu)",
-     "url": "https://cafef.vn/du-lieu/BVB-3016077/bvb-bao-cao-ket-qua-dot-chao-ban-co-phieu-ra-cong-chung-kem-tai-lieu.chn?utm_source=du-lieu",
+     "title": "BVB: Đã phát hành 10.989.729 cp ESOP",
+     "url": "https://cafef.vn/du-lieu/BVB-3016374/bvb-da-phat-hanh-10989729-cp-esop.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1242,73 +1260,55 @@
      "url": "https://cafef.vn/du-lieu/BVB-3007821/bvb-quyet-dinh-cua-hdqt-thong-qua-ket-qua-phat-hanh-co-phieu-cho-co-dong-hien-huu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Quyết định của HĐQT thông qua kết quả phát hành cổ phiếu và phương án xử lý đối với cổ phiếu không phân phối hết theo chương trình ESOP 2026",
-     "url": "https://cafef.vn/du-lieu/BVB-3008091/bvb-quyet-dinh-cua-hdqt-thong-qua-ket-qua-phat-hanh-co-phieu-va-phuong-an-xu-ly-doi-voi-co-phieu-khong-phan-phoi-het-theo-chuong-trinh-esop-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Ông Vũ Minh Tú - Thư ký công ty đăng ký mua 7.000.000 cp",
-     "url": "https://cafef.vn/du-lieu/BVB-3008081/bvb-ong-vu-minh-tu-thu-ky-cong-ty-dang-ky-mua-7000000-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BVB: Ông Nguyễn Thanh Tú - Phó Tổng giám đốc đăng ký mua 8.500.000 cp",
-     "url": "https://cafef.vn/du-lieu/BVB-3008087/bvb-ong-nguyen-thanh-tu-pho-tong-giam-doc-dang-ky-mua-8500000-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:47.314242+00:00",
+   "retrieved_at": "2026-11-12T11:26:10.147822+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,51 +1450,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:01.302876+00:00",
+   "retrieved_at": "2026-11-12T11:26:25.037002+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,51 +1636,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:54.972392+00:00",
+   "retrieved_at": "2026-11-12T11:26:17.994615+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1702,6 +1702,12 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "HDB: Thông báo về việc niêm yết và giao dịch chứng khoán thay đổi niêm yết",
+     "url": "https://cafef.vn/du-lieu/HDB-3020235/hdb-thong-bao-ve-viec-niem-yet-va-giao-dich-chung-khoan-thay-doi-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "HDB: Thông báo nhận được Quyết định của NHNN chấp thuận việc sửa đổi nội dung về vốn điều lệ tại Giấy phép thành lập và hoạt động",
      "url": "https://cafef.vn/du-lieu/HDB-3015902/hdb-thong-bao-nhan-duoc-quyet-dinh-cua-nhnn-chap-thuan-viec-sua-doi-noi-dung-ve-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
@@ -1755,61 +1761,55 @@
      "url": "https://cafef.vn/du-lieu/HDB-2998875/hdb-da-phat-hanh-1501582896-co-phieu-de-tra-co-tuc-va-tang-von-co-phan-tu-nvcsh.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "HDB: Thông báo thay đổi tên gọi Phòng Giao dịch MY4 Đình 1",
-     "url": "https://cafef.vn/du-lieu/HDB-2998149/hdb-thong-bao-thay-doi-ten-goi-phong-giao-dich-my4-dinh-1.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:06.891795+00:00",
+   "retrieved_at": "2026-11-12T11:26:29.440733+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1953,51 +1953,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:56.165661+00:00",
+   "retrieved_at": "2026-11-12T11:26:18.037117+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2077,6 +2077,12 @@
    ],
    "disclosures": [
     {
+     "title": "LPB: Thông báo công văn của UBCKNN về tài liệu báo cáo kết quả chào bán trái phiếu ra công chúng đợt 2 của LPB",
+     "url": "https://cafef.vn/du-lieu/LPB-3020238/lpb-thong-bao-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-ket-qua-chao-ban-trai-phieu-ra-cong-chung-dot-2-cua-lpb.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "LPB: Nghị quyết HĐQT về phương án mua lại trước hạn trái phiếu LPB121036",
      "url": "https://cafef.vn/du-lieu/LPB-3018381/lpb-nghi-quyet-hdqt-ve-phuong-an-mua-lai-truoc-han-trai-phieu-lpb121036.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2129,61 +2135,55 @@
      "url": "https://cafef.vn/du-lieu/LPB-2991536/lpb-nhan-duoc-cong-van-cua-nhnnvn-chi-nhanh-khu-vuc-12-ve-chap-thuan-thay-doi-dia-diem-dat-tru-so-pgd-ba-che.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "LPB: Thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm đặt trụ sở Phòng GD Gò Công Tây",
-     "url": "https://cafef.vn/du-lieu/LPB-2989427/lpb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-lpb-thay-doi-dia-diem-dat-tru-so-phong-gd-go-cong-tay.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:54.253765+00:00",
+   "retrieved_at": "2026-11-12T11:26:16.255420+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,51 +2325,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:01.313486+00:00",
+   "retrieved_at": "2026-11-12T11:26:23.872054+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,51 +2511,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:06.714923+00:00",
+   "retrieved_at": "2026-11-12T11:26:27.500558+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,51 +2697,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:07.101695+00:00",
+   "retrieved_at": "2026-11-12T11:26:29.439524+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,51 +2931,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:01.293430+00:00",
+   "retrieved_at": "2026-11-12T11:26:22.319761+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3117,51 +3117,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:06.734814+00:00",
+   "retrieved_at": "2026-11-12T11:26:29.465304+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,51 +3321,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:08.939930+00:00",
+   "retrieved_at": "2026-11-12T11:26:30.466469+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,51 +3555,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:01.295766+00:00",
+   "retrieved_at": "2026-11-12T11:26:22.846132+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3679,8 +3679,8 @@
    ],
    "disclosures": [
     {
-     "title": "SHB: Nghị quyết HĐQT về việc thông qua cấp hạn mức tín dụng đối với khách hàng doanh nghiệp",
-     "url": "https://cafef.vn/du-lieu/SHB-3015548/shb-nghi-quyet-hdqt-ve-viec-thong-qua-cap-han-muc-tin-dung-doi-voi-khach-hang-doanh-nghiep.chn?utm_source=du-lieu",
+     "title": "SHB: Nghị quyết HĐQT thông qua cấp hạn mức tín dụng đối với khách hàng doanh nghiệp",
+     "url": "https://cafef.vn/du-lieu/SHB-3015548/shb-nghi-quyet-hdqt-thong-qua-cap-han-muc-tin-dung-doi-voi-khach-hang-doanh-nghiep.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3741,51 +3741,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:01.294805+00:00",
+   "retrieved_at": "2026-11-12T11:26:22.315329+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3927,51 +3927,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:54.274290+00:00",
+   "retrieved_at": "2026-11-12T11:26:16.258245+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4113,51 +4113,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:48.026146+00:00",
+   "retrieved_at": "2026-11-12T11:26:11.332755+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4216,8 +4216,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Nghị quyết HĐQT số 0605/2026 ngày 04/11/2026",
-     "url": "https://cafef.vn/du-lieu/TCB-3015561/tcb-nghi-quyet-hdqt-so-06052026-ngay-04112026.chn?utm_source=du-lieu",
+     "title": "TCB: Nghị quyết HĐQT về việc cung cấp dịch vụ đại lý lưu ký cho trái phiếu Techcombank phát hành riêng lẻ năm 2026 - Lần 19",
+     "url": "https://cafef.vn/du-lieu/TCB-3015561/tcb-nghi-quyet-hdqt-ve-viec-cung-cap-dich-vu-dai-ly-luu-ky-cho-trai-phieu-techcombank-phat-hanh-rieng-le-nam-2026-lan-19.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4242,51 +4242,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:53.588557+00:00",
+   "retrieved_at": "2026-11-12T11:26:16.039861+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4430,51 +4430,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:49:12.615941+00:00",
+   "retrieved_at": "2026-11-12T11:26:35.493487+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,51 +4559,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:46.700397+00:00",
+   "retrieved_at": "2026-11-12T11:26:10.179976+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,51 +4747,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:53.152282+00:00",
+   "retrieved_at": "2026-11-12T11:26:15.957833+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4933,51 +4933,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T00:48:46.452451+00:00",
+   "retrieved_at": "2026-11-12T11:26:10.164089+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,51 +5119,51 @@
    ],
    "market_news": [
     {
-     "title": "Một cổ phiếu \"quốc dân\" bất ngờ về vùng định giá thấp hiếm thấy trong 17 năm",
-     "url": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-ve-vung-dinh-gia-thap-hiem-thay-trong-17-nam-188261111161818128.chn",
-     "date": "2026-11-11T23:30:00+00:00",
+     "title": "Gần 200 cổ phiếu giảm giá, khối ngoại bán ròng đột biến",
+     "url": "https://cafef.vn/gan-200-co-phieu-giam-gia-khoi-ngoai-ban-rong-dot-bien-188261112181544927.chn",
+     "date": "2026-11-12T11:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "NHNN bắt đầu mua ngoại tệ, VNDIRECT chỉ ra tín hiệu đáng chú ý với VN-Index",
-     "url": "https://cafef.vn/nhnn-bat-dau-mua-ngoai-te-vndirect-chi-ra-tin-hieu-dang-chu-y-voi-vn-index-188261111190240006.chn",
-     "date": "2026-11-11T23:00:00+00:00",
+     "title": "Lãi suất cao nên phân bổ đầu tư ra sao?",
+     "url": "https://cafef.vn/lai-suat-cao-nen-phan-bo-dau-tu-ra-sao-188261112181320121.chn",
+     "date": "2026-11-12T11:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tỷ phú Bill Gates còn nắm những cổ phiếu Việt Nam nào?",
-     "url": "https://cafef.vn/ty-phu-bill-gates-con-nam-nhung-co-phieu-viet-nam-nao-188261111224500984.chn",
-     "date": "2026-11-11T22:05:00+00:00",
+     "title": "Một cổ phiếu Bluechips bị khối ngoại thẳng tay \"xả\" 450 tỷ đồng trong ngày 12/11",
+     "url": "https://cafef.vn/mot-co-phieu-bluechips-bi-khoi-ngoai-thang-tay-xa-450-ty-dong-trong-ngay-12-11-188261112151736463.chn",
+     "date": "2026-11-12T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chuyên gia: Thị trường chứng khoán hoàn toàn có thể hồi phục từ nay đến cuối năm",
-     "url": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-hoan-toan-co-the-hoi-phuc-tu-nay-den-cuoi-nam-188261111222710189.chn",
-     "date": "2026-11-11T21:15:00+00:00",
+     "title": "Cơn bĩ cực của cổ đông FPT",
+     "url": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-18826111215335329.chn",
+     "date": "2026-11-12T08:33:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "“Ông lớn” sắp mua KFC, Pizza Hut tại Việt Nam từng thâu tóm Tribeco, đứng sau 7-Eleven và Starbucks",
-     "url": "https://cafef.vn/ong-lon-sap-mua-kfc-pizza-hut-tai-viet-nam-tung-thau-tom-tribeco-dung-sau-7-eleven-va-starbucks-18826111122031312.chn",
-     "date": "2026-11-11T17:07:00+00:00",
+     "title": "Taseco Land điều chỉnh hạ mục tiêu lợi nhuận năm 2026",
+     "url": "https://cafef.vn/taseco-land-dieu-chinh-ha-muc-tieu-loi-nhuan-nam-2026-188261112141436747.chn",
+     "date": "2026-11-12T07:14:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "30 năm chứng khoán Việt Nam và hành trình biến niềm tin thành dòng vốn tỷ USD",
-     "url": "https://cafef.vn/30-nam-chung-khoan-viet-nam-va-hanh-trinh-bien-niem-tin-thanh-dong-von-ty-usd-188261111224307309.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Trái phiếu doanh nghiệp tháng 10: Lãi suất lên 12,5%, áp lực đáo hạn gần 45.000 tỷ đồng",
+     "url": "https://cafef.vn/trai-phieu-doanh-nghiep-thang-10-lai-suat-len-125-ap-luc-dao-han-gan-45000-ty-dong-188261112141319609.chn",
+     "date": "2026-11-12T07:13:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "4 tín hiệu có thể kích hoạt làn sóng \"bắt đáy\" trên thị trường chứng khoán",
-     "url": "https://cafef.vn/4-tin-hieu-co-the-kich-hoat-lan-song-bat-day-tren-thi-truong-chung-khoan-188261111163030299.chn",
-     "date": "2026-11-11T17:03:00+00:00",
+     "title": "Động thái của Tổng Giám đốc Vinasun",
+     "url": "https://cafef.vn/dong-thai-cua-tong-giam-doc-vinasun-188261112140301816.chn",
+     "date": "2026-11-12T07:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Lãi tăng bằng lần, hàng chục cổ phiếu vẫn \"ngụp lặn\" cách xa đỉnh giá một năm",
-     "url": "https://cafef.vn/lai-tang-bang-lan-hang-chuc-co-phieu-van-ngup-lan-cach-xa-dinh-gia-mot-nam-188261111224602347.chn",
-     "date": "2026-11-11T17:02:00+00:00",
+     "title": "Hương Ly muốn mua 5 triệu cổ phiếu giữa lúc thị giá lao dốc",
+     "url": "https://cafef.vn/huong-ly-muon-mua-5-trieu-co-phieu-giua-luc-thi-gia-lao-doc-188261112134504809.chn",
+     "date": "2026-11-12T06:44:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
