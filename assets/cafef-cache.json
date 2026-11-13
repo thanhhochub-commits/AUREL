@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-12T20:02:30.364774+00:00",
+ "generated_at": "2026-11-13T01:54:34.994560+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:26.638630+00:00",
+   "retrieved_at": "2026-11-13T01:54:33.968837+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -156,6 +156,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -184,24 +202,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:06.736800+00:00",
+   "retrieved_at": "2026-11-13T01:54:05.263542+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,6 +342,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -370,24 +388,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:29.981259+00:00",
+   "retrieved_at": "2026-11-13T01:54:34.994189+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -500,6 +500,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -528,24 +546,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:19.711713+00:00",
+   "retrieved_at": "2026-11-13T01:54:22.814649+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,6 +734,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -762,24 +780,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:06.730848+00:00",
+   "retrieved_at": "2026-11-13T01:54:05.275404+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -920,6 +920,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -948,24 +966,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:30.364153+00:00",
+   "retrieved_at": "2026-11-13T01:54:34.901239+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,6 +1078,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -1106,24 +1124,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:22.177824+00:00",
+   "retrieved_at": "2026-11-13T01:54:26.570993+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1264,6 +1264,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -1292,24 +1310,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:06.750610+00:00",
+   "retrieved_at": "2026-11-13T01:54:05.394699+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,6 +1450,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -1478,24 +1496,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:20.340599+00:00",
+   "retrieved_at": "2026-11-13T01:54:21.653242+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,6 +1636,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -1664,24 +1682,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:14.299563+00:00",
+   "retrieved_at": "2026-11-13T01:54:14.763888+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1765,6 +1765,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -1793,24 +1811,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:24.316337+00:00",
+   "retrieved_at": "2026-11-13T01:54:28.372356+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1953,6 +1953,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -1981,24 +1999,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:14.249379+00:00",
+   "retrieved_at": "2026-11-13T01:54:14.189920+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2139,6 +2139,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -2167,24 +2185,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:13.342009+00:00",
+   "retrieved_at": "2026-11-13T01:54:13.228829+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,6 +2325,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -2353,24 +2371,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:20.069757+00:00",
+   "retrieved_at": "2026-11-13T01:54:20.585372+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,6 +2511,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -2539,24 +2557,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:22.994552+00:00",
+   "retrieved_at": "2026-11-13T01:54:29.389503+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,6 +2697,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -2725,24 +2743,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:25.100159+00:00",
+   "retrieved_at": "2026-11-13T01:54:28.435345+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,6 +2931,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -2959,24 +2977,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:19.915004+00:00",
+   "retrieved_at": "2026-11-13T01:54:20.599446+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3117,6 +3117,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -3145,24 +3163,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:24.349713+00:00",
+   "retrieved_at": "2026-11-13T01:54:27.218325+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,6 +3321,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -3349,24 +3367,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:24.848186+00:00",
+   "retrieved_at": "2026-11-13T01:54:28.469855+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,6 +3555,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -3583,24 +3601,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:17.759262+00:00",
+   "retrieved_at": "2026-11-13T01:54:20.630802+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3741,6 +3741,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -3769,24 +3787,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:17.815349+00:00",
+   "retrieved_at": "2026-11-13T01:54:19.082069+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3927,6 +3927,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -3955,24 +3973,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:13.647353+00:00",
+   "retrieved_at": "2026-11-13T01:54:14.748820+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4113,6 +4113,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -4141,24 +4159,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:09.230412+00:00",
+   "retrieved_at": "2026-11-13T01:54:04.986331+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4242,6 +4242,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -4270,24 +4288,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:12.862700+00:00",
+   "retrieved_at": "2026-11-13T01:54:13.234428+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4430,6 +4430,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -4458,24 +4476,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:28.744458+00:00",
+   "retrieved_at": "2026-11-13T01:54:34.252227+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,6 +4559,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -4587,24 +4605,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:06.738366+00:00",
+   "retrieved_at": "2026-11-13T01:54:04.904707+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,6 +4747,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -4775,24 +4793,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:12.846981+00:00",
+   "retrieved_at": "2026-11-13T01:54:13.243959+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4933,6 +4933,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -4961,24 +4979,6 @@
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-12T20:02:06.735332+00:00",
+   "retrieved_at": "2026-11-13T01:54:05.254775+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,6 +5119,24 @@
    ],
    "market_news": [
     {
+     "title": "Dragon Capital không còn là cổ đông lớn tại Nhà Khang Điền",
+     "url": "https://cafef.vn/dragon-capital-khong-con-la-co-dong-lon-tai-nha-khang-dien-188261113082848084.chn",
+     "date": "2026-11-13T01:28:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PVS sắp họp ĐHĐCĐ bất thường để bàn về nhân sự",
+     "url": "https://cafef.vn/pvs-sap-hop-dhdcd-bat-thuong-de-ban-ve-nhan-su-188261113082743059.chn",
+     "date": "2026-11-13T01:27:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Điện Máy Xanh muốn sửa đổi phương án chào bán trái phiếu kèm chứng quyền riêng lẻ",
+     "url": "https://cafef.vn/dien-may-xanh-muon-sua-doi-phuong-an-chao-ban-trai-phieu-kem-chung-quyen-rieng-le-188261113082649291.chn",
+     "date": "2026-11-13T01:26:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
      "date": "2026-11-12T17:07:00+00:00",
@@ -5146,24 +5164,6 @@
      "title": "PNJ thua lỗ, giá giảm sàn, tại sao vẫn lọt rổ chỉ số quan trọng của MSCI?",
      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
      "date": "2026-11-12T17:02:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
-     "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
-     "date": "2026-11-12T15:53:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
-     "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
-     "date": "2026-11-12T15:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "MB dự kiến chào bán 200 triệu cổ phiếu cho 6 nhà đầu tư",
-     "url": "https://cafef.vn/mb-du-kien-chao-ban-200-trieu-co-phieu-cho-6-nha-dau-tu-188261112203854871.chn",
-     "date": "2026-11-12T13:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
