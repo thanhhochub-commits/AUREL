@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-15T06:44:22.152432+00:00",
+ "generated_at": "2026-11-15T16:26:22.900349+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:19.618351+00:00",
+   "retrieved_at": "2026-11-15T16:26:20.230780+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -156,6 +156,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -190,18 +202,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:50.341097+00:00",
+   "retrieved_at": "2026-11-15T16:26:00.040026+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,6 +342,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -376,18 +388,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:20.854684+00:00",
+   "retrieved_at": "2026-11-15T16:26:22.076156+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -500,6 +500,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -534,18 +546,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:07.875599+00:00",
+   "retrieved_at": "2026-11-15T16:26:12.085230+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,6 +734,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -768,18 +780,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:50.383568+00:00",
+   "retrieved_at": "2026-11-15T16:25:59.878241+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -920,6 +920,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -954,18 +966,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:20.869538+00:00",
+   "retrieved_at": "2026-11-15T16:26:22.899481+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,6 +1078,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -1112,18 +1124,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:11.977396+00:00",
+   "retrieved_at": "2026-11-15T16:26:15.045418+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1264,6 +1264,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -1298,18 +1310,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:50.355095+00:00",
+   "retrieved_at": "2026-11-15T16:26:00.770168+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,6 +1450,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -1484,18 +1496,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:09.647112+00:00",
+   "retrieved_at": "2026-11-15T16:26:12.336226+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,6 +1636,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -1670,18 +1682,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:00.313092+00:00",
+   "retrieved_at": "2026-11-15T16:26:04.922302+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1765,6 +1765,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -1799,18 +1811,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:13.219948+00:00",
+   "retrieved_at": "2026-11-15T16:26:16.447310+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1953,6 +1953,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -1987,18 +1999,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:00.116539+00:00",
+   "retrieved_at": "2026-11-15T16:26:06.730374+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2139,6 +2139,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -2173,18 +2185,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:58.481043+00:00",
+   "retrieved_at": "2026-11-15T16:26:05.416474+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,6 +2325,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -2359,18 +2371,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:05.335957+00:00",
+   "retrieved_at": "2026-11-15T16:26:10.705562+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,6 +2511,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -2545,18 +2557,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:11.998995+00:00",
+   "retrieved_at": "2026-11-15T16:26:15.746392+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,6 +2697,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -2731,18 +2743,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:14.858466+00:00",
+   "retrieved_at": "2026-11-15T16:26:17.299697+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,6 +2931,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -2965,18 +2977,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:05.350477+00:00",
+   "retrieved_at": "2026-11-15T16:26:12.100698+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3117,6 +3117,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -3151,18 +3163,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:13.212437+00:00",
+   "retrieved_at": "2026-11-15T16:26:18.457830+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,6 +3321,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -3355,18 +3367,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:17.149555+00:00",
+   "retrieved_at": "2026-11-15T16:26:17.420633+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,6 +3555,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -3589,18 +3601,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:05.843797+00:00",
+   "retrieved_at": "2026-11-15T16:26:10.776701+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3741,6 +3741,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -3775,18 +3787,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:05.334972+00:00",
+   "retrieved_at": "2026-11-15T16:26:10.307307+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3927,6 +3927,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -3961,18 +3973,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:58.489205+00:00",
+   "retrieved_at": "2026-11-15T16:26:06.734794+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4113,6 +4113,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -4147,18 +4159,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:52.098678+00:00",
+   "retrieved_at": "2026-11-15T16:25:59.532367+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4242,6 +4242,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -4276,18 +4288,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:58.445700+00:00",
+   "retrieved_at": "2026-11-15T16:26:06.731953+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4430,6 +4430,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -4464,18 +4476,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:44:22.151804+00:00",
+   "retrieved_at": "2026-11-15T16:26:21.007909+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,6 +4559,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -4593,18 +4605,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:50.353247+00:00",
+   "retrieved_at": "2026-11-15T16:26:00.799735+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,6 +4747,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -4781,18 +4793,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:58.480066+00:00",
+   "retrieved_at": "2026-11-15T16:26:05.486985+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4933,6 +4933,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -4967,18 +4979,6 @@
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T06:43:50.364164+00:00",
+   "retrieved_at": "2026-11-15T16:25:59.537775+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,6 +5119,18 @@
    ],
    "market_news": [
     {
+     "title": "Tuần tới VN-Index có thể phục hồi?",
+     "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
+     "date": "2026-11-15T15:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Góc nhìn chuyên gia: Chứng khoán chờ chất xúc tác, “đãi cát tìm vàng” tại loạt nhóm ngành tăng trưởng giai đoạn cuối năm",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-chung-khoan-cho-chat-xuc-tac-dai-cat-tim-vang-tai-loat-nhom-nganh-tang-truong-giai-doan-cuoi-nam-18826111513575533.chn",
+     "date": "2026-11-15T08:18:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Chủ tịch cùng loạt lãnh đạo Vidipha từ nhiệm sau biến động cổ đông",
      "url": "https://cafef.vn/chu-tich-cung-loat-lanh-dao-vidipha-tu-nhiem-sau-bien-dong-co-dong-188261115130100813.chn",
      "date": "2026-11-15T06:00:00+00:00",
@@ -5152,18 +5164,6 @@
      "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
      "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
      "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cơ hội hiếm có sau 5 năm dần xuất hiện, một \"cá mập\" rục rịch kế hoạch xuống tiền",
-     "url": "https://cafef.vn/co-hoi-hiem-co-sau-5-nam-dan-xuat-hien-mot-ca-map-ruc-rich-ke-hoach-xuong-tien-188261112224227738.chn",
-     "date": "2026-11-14T17:04:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ cổ phiếu tăng vọt gấp 15 lần từ đầu năm",
-     "url": "https://cafef.vn/bat-ngo-co-phieu-tang-vot-gap-15-lan-tu-dau-nam-188261113160041791.chn",
-     "date": "2026-11-14T17:01:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
