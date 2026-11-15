@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-15T16:26:22.900349+00:00",
+ "generated_at": "2026-11-15T22:56:00.350369+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:20.230780+00:00",
+   "retrieved_at": "2026-11-15T22:55:55.138775+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -156,6 +156,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -178,30 +202,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -213,7 +213,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:00.040026+00:00",
+   "retrieved_at": "2026-11-15T22:55:27.941633+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -342,6 +342,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -364,30 +388,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -399,7 +399,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:22.076156+00:00",
+   "retrieved_at": "2026-11-15T22:56:00.349949+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -500,6 +500,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -522,30 +546,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -557,7 +557,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:12.085230+00:00",
+   "retrieved_at": "2026-11-15T22:55:44.034538+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -734,6 +734,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -756,30 +780,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -791,7 +791,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:25:59.878241+00:00",
+   "retrieved_at": "2026-11-15T22:55:27.533690+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -920,6 +920,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -942,30 +966,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -977,7 +977,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:22.899481+00:00",
+   "retrieved_at": "2026-11-15T22:56:00.137817+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1078,6 +1078,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -1100,30 +1124,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1135,7 +1135,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:15.045418+00:00",
+   "retrieved_at": "2026-11-15T22:55:53.373567+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1264,6 +1264,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -1286,30 +1310,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1321,7 +1321,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:00.770168+00:00",
+   "retrieved_at": "2026-11-15T22:55:28.753973+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1450,6 +1450,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -1472,30 +1496,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1507,7 +1507,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:12.336226+00:00",
+   "retrieved_at": "2026-11-15T22:55:46.459744+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1636,6 +1636,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -1658,30 +1682,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1693,7 +1693,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:04.922302+00:00",
+   "retrieved_at": "2026-11-15T22:55:38.006535+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1765,6 +1765,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -1787,30 +1811,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1824,7 +1824,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:16.447310+00:00",
+   "retrieved_at": "2026-11-15T22:55:52.101946+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1953,6 +1953,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -1975,30 +1999,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2010,7 +2010,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:06.730374+00:00",
+   "retrieved_at": "2026-11-15T22:55:37.991610+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2139,6 +2139,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -2161,30 +2185,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2196,7 +2196,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:05.416474+00:00",
+   "retrieved_at": "2026-11-15T22:55:36.600964+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2325,6 +2325,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -2347,30 +2371,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2382,7 +2382,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:10.705562+00:00",
+   "retrieved_at": "2026-11-15T22:55:46.697685+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2511,6 +2511,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -2533,30 +2557,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2568,7 +2568,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:15.746392+00:00",
+   "retrieved_at": "2026-11-15T22:55:49.036855+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2697,6 +2697,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -2719,30 +2743,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2754,7 +2754,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:17.299697+00:00",
+   "retrieved_at": "2026-11-15T22:55:53.708320+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2931,6 +2931,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -2953,30 +2977,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2988,7 +2988,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:12.100698+00:00",
+   "retrieved_at": "2026-11-15T22:55:46.281374+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3117,6 +3117,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -3139,30 +3163,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3174,7 +3174,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:18.457830+00:00",
+   "retrieved_at": "2026-11-15T22:55:53.420320+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3321,6 +3321,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -3343,30 +3367,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3378,7 +3378,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:17.420633+00:00",
+   "retrieved_at": "2026-11-15T22:55:52.825885+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3555,6 +3555,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -3577,30 +3601,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3612,7 +3612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:10.776701+00:00",
+   "retrieved_at": "2026-11-15T22:55:42.924423+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3741,6 +3741,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -3763,30 +3787,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3798,7 +3798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:10.307307+00:00",
+   "retrieved_at": "2026-11-15T22:55:43.196933+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3927,6 +3927,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -3949,30 +3973,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3984,7 +3984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:06.734794+00:00",
+   "retrieved_at": "2026-11-15T22:55:37.994710+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4113,6 +4113,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -4135,30 +4159,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4170,7 +4170,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:25:59.532367+00:00",
+   "retrieved_at": "2026-11-15T22:55:28.739894+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4242,6 +4242,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -4264,30 +4288,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4301,7 +4301,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:06.731953+00:00",
+   "retrieved_at": "2026-11-15T22:55:37.997590+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4430,6 +4430,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -4452,30 +4476,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4487,7 +4487,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:21.007909+00:00",
+   "retrieved_at": "2026-11-15T22:55:59.060048+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4559,6 +4559,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -4581,30 +4605,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4618,7 +4618,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:00.799735+00:00",
+   "retrieved_at": "2026-11-15T22:55:27.545844+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4747,6 +4747,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -4769,30 +4793,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4804,7 +4804,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:26:05.486985+00:00",
+   "retrieved_at": "2026-11-15T22:55:36.202517+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4933,6 +4933,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -4955,30 +4979,6 @@
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4990,7 +4990,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-15T16:25:59.537775+00:00",
+   "retrieved_at": "2026-11-15T22:55:28.709022+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5119,6 +5119,30 @@
    ],
    "market_news": [
     {
+     "title": "Soi dòng tiền của Thế Giới Di Động và loạt đại gia bán lẻ: Hé lộ bài toán khó đằng sau con số lợi nhuận",
+     "url": "https://cafef.vn/soi-dong-tien-cua-the-gioi-di-dong-va-loat-dai-gia-ban-le-he-lo-bai-toan-kho-dang-sau-con-so-loi-nhuan-188261115221421449.chn",
+     "date": "2026-11-15T17:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giai đoạn nước rút cuối năm, chuyên gia Mirae Asset chỉ ra 4 biến số có thể chi phối VN-Index",
+     "url": "https://cafef.vn/giai-doan-nuoc-rut-cuoi-nam-chuyen-gia-mirae-asset-chi-ra-4-bien-so-co-the-chi-phoi-vn-index-188261115163754562.chn",
+     "date": "2026-11-15T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giám đốc Nghiên cứu MBS gọi tên nhóm cổ phiếu có thể \"đánh bại\" VN-Index năm 2027",
+     "url": "https://cafef.vn/giam-doc-nghien-cuu-mbs-goi-ten-nhom-co-phieu-co-the-danh-bai-vn-index-nam-2027-188261114163224877.chn",
+     "date": "2026-11-15T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phó Chủ tịch UBCKNN Bùi Hoàng Hải: Sau 30 năm, chứng khoán Việt Nam đứng trước một sứ mệnh lớn",
+     "url": "https://cafef.vn/pho-chu-tich-ubcknn-bui-hoang-hai-sau-30-nam-chung-khoan-viet-nam-dung-truoc-mot-su-menh-lon-18826111521224742.chn",
+     "date": "2026-11-15T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Tuần tới VN-Index có thể phục hồi?",
      "url": "https://cafef.vn/tuan-toi-vn-index-co-the-phuc-hoi-188261115214427146.chn",
      "date": "2026-11-15T15:03:00+00:00",
@@ -5140,30 +5164,6 @@
      "title": "Từ công chức đến ông chủ Sunshine: Chủ tịch Đỗ Anh Tuấn trở lại trường cũ tài trợ 20 tỷ đồng và tìm kiếm nhân tài",
      "url": "https://cafef.vn/tu-cong-chuc-den-ong-chu-sunshine-chu-tich-do-anh-tuan-tro-lai-truong-cu-tai-tro-20-ty-dong-va-tim-kiem-nhan-tai-188261115085057017.chn",
      "date": "2026-11-15T01:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 16-20/11: Cổ tức tiền mặt cao nhất 45%",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-16-20-11-co-tuc-tien-mat-cao-nhat-45-188261114161213186.chn",
-     "date": "2026-11-15T01:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "1 lượng vàng đổi 90 lượng bạc, mua gì đây?",
-     "url": "https://cafef.vn/1-luong-vang-doi-90-luong-bac-mua-gi-day-188261114234336061.chn",
-     "date": "2026-11-14T17:06:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bất ngờ tỷ lệ sở hữu của gia đình bà Cao Thị Ngọc Dung tại PNJ",
-     "url": "https://cafef.vn/bat-ngo-ty-le-so-huu-cua-gia-dinh-ba-cao-thi-ngoc-dung-tai-pnj-18826111422324714.chn",
-     "date": "2026-11-14T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lô trái phiếu 100 tỷ của Điện Máy Xanh gây chú ý",
-     "url": "https://cafef.vn/lo-trai-phieu-100-ty-cua-dien-may-xanh-gay-chu-y-188261114203933803.chn",
-     "date": "2026-11-14T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
