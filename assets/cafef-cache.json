@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-20T11:51:15.638781+00:00",
+ "generated_at": "2026-11-20T20:29:55.492705+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:15.638200+00:00",
+   "retrieved_at": "2026-11-20T20:29:53.420041+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -148,10 +148,57 @@
      "source": "CafeF - công bố doanh nghiệp"
     }
    ],
-   "market_news": [],
-   "messages": [
-    "Chưa tải được nguồn RSS thị trường CafeF."
+   "market_news": [
+    {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    }
    ],
+   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -160,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:41.773345+00:00",
+   "retrieved_at": "2026-11-20T20:29:25.638826+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -289,6 +336,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -323,18 +382,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -346,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:10.911682+00:00",
+   "retrieved_at": "2026-11-20T20:29:53.958129+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -447,6 +494,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -481,18 +540,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -504,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:00.155058+00:00",
+   "retrieved_at": "2026-11-20T20:29:41.638597+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -681,6 +728,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -715,18 +774,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -738,7 +785,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:41.739279+00:00",
+   "retrieved_at": "2026-11-20T20:29:25.665276+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -867,6 +914,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -901,18 +960,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -924,7 +971,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:12.497102+00:00",
+   "retrieved_at": "2026-11-20T20:29:55.492155+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1025,6 +1072,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -1059,18 +1118,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1082,7 +1129,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:01.769308+00:00",
+   "retrieved_at": "2026-11-20T20:29:47.177289+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1211,6 +1258,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -1245,18 +1304,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1268,7 +1315,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:41.734355+00:00",
+   "retrieved_at": "2026-11-20T20:29:25.660463+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1397,6 +1444,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -1431,18 +1490,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1454,7 +1501,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:00.156057+00:00",
+   "retrieved_at": "2026-11-20T20:29:42.014987+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1583,6 +1630,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -1617,18 +1676,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1640,7 +1687,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:50.107502+00:00",
+   "retrieved_at": "2026-11-20T20:29:35.259091+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1712,6 +1759,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -1746,18 +1805,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -1771,7 +1818,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:03.880624+00:00",
+   "retrieved_at": "2026-11-20T20:29:47.184771+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1900,6 +1947,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -1934,18 +1993,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -1957,7 +2004,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:52.047412+00:00",
+   "retrieved_at": "2026-11-20T20:29:34.306291+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2086,6 +2133,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -2120,18 +2179,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2143,7 +2190,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:53.374714+00:00",
+   "retrieved_at": "2026-11-20T20:29:33.558363+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2153,56 +2200,56 @@
    "reports": [
     {
      "title": "MBB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -2272,6 +2319,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -2306,18 +2365,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2329,7 +2376,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:55.814053+00:00",
+   "retrieved_at": "2026-11-20T20:29:40.538306+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2458,6 +2505,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -2492,18 +2551,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2515,7 +2562,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:03.860902+00:00",
+   "retrieved_at": "2026-11-20T20:29:47.176183+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2644,6 +2691,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -2678,18 +2737,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2701,7 +2748,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:06.493944+00:00",
+   "retrieved_at": "2026-11-20T20:29:49.241623+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2878,6 +2925,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -2912,18 +2971,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -2935,7 +2982,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:56.146478+00:00",
+   "retrieved_at": "2026-11-20T20:29:40.506292+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3064,6 +3111,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -3098,18 +3157,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3121,7 +3168,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:03.862009+00:00",
+   "retrieved_at": "2026-11-20T20:29:49.249839+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3268,6 +3315,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -3302,18 +3361,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3325,7 +3372,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:06.115057+00:00",
+   "retrieved_at": "2026-11-20T20:29:49.653892+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3502,6 +3549,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -3536,18 +3595,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3559,7 +3606,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:56.463504+00:00",
+   "retrieved_at": "2026-11-20T20:29:41.629011+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3688,6 +3735,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -3722,18 +3781,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3745,7 +3792,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:55.965901+00:00",
+   "retrieved_at": "2026-11-20T20:29:40.204996+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3874,6 +3921,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -3908,18 +3967,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -3931,7 +3978,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:49.710272+00:00",
+   "retrieved_at": "2026-11-20T20:29:33.561281+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4060,6 +4107,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -4094,18 +4153,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4117,7 +4164,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:43.395268+00:00",
+   "retrieved_at": "2026-11-20T20:29:27.442719+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4189,6 +4236,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -4223,18 +4282,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4248,7 +4295,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:49.347704+00:00",
+   "retrieved_at": "2026-11-20T20:29:33.569047+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4377,6 +4424,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -4411,18 +4470,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4434,7 +4481,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:51:11.184696+00:00",
+   "retrieved_at": "2026-11-20T20:29:53.912448+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4506,6 +4553,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -4540,18 +4599,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [
@@ -4565,7 +4612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:41.747141+00:00",
+   "retrieved_at": "2026-11-20T20:29:25.648329+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4694,6 +4741,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -4728,18 +4787,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4751,7 +4798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:49.348650+00:00",
+   "retrieved_at": "2026-11-20T20:29:33.577900+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4880,6 +4927,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -4914,18 +4973,6 @@
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
     }
    ],
    "messages": [],
@@ -4937,7 +4984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T11:50:41.735323+00:00",
+   "retrieved_at": "2026-11-20T20:29:25.656065+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5066,6 +5113,18 @@
    ],
    "market_news": [
     {
+     "title": "Động thái lạ của loạt \"cá mập\" trên sàn chứng khoán",
+     "url": "https://cafef.vn/dong-thai-la-cua-loat-ca-map-tren-san-chung-khoan-188261120122931783.chn",
+     "date": "2026-11-20T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Hàng loạt \"cá mập\" bất ngờ quay xe bán cổ phiếu ngân hàng, gom mạnh một nhóm cổ phiếu \"hot\"",
+     "url": "https://cafef.vn/hang-loat-ca-map-bat-ngo-quay-xe-ban-co-phieu-ngan-hang-gom-manh-mot-nhom-co-phieu-hot-188261120121715102.chn",
+     "date": "2026-11-20T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
      "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
      "date": "2026-11-20T09:15:00+00:00",
@@ -5099,18 +5158,6 @@
      "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
      "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
      "date": "2026-11-20T04:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
-     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
-     "date": "2026-11-20T03:40:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
-     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
-     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
