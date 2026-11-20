@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-20T02:23:39.937225+00:00",
+ "generated_at": "2026-11-20T11:51:15.638781+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:35.092210+00:00",
+   "retrieved_at": "2026-11-20T11:51:15.638200+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -88,6 +88,18 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Quy chế công bố thông tin",
+     "url": "https://cafef.vn/du-lieu/ABB-3025794/abb-quy-che-cong-bo-thong-tin.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Tài liệu báo cáo phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu",
+     "url": "https://cafef.vn/du-lieu/ABB-3025792/abb-tai-lieu-bao-cao-phat-hanh-co-phieu-de-tang-von-co-phan-tu-nguon-von-chu-so-huu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Nghị quyết Hội đồng quản trị triển khai triển khai phương án phát hành cổ phiếu để tăng vốn",
      "url": "https://cafef.vn/du-lieu/ABB-3022363/abb-nghi-quyet-hoi-dong-quan-tri-trien-khai-trien-khai-phuong-an-phat-hanh-co-phieu-de-tang-von.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -134,71 +146,12 @@
      "url": "https://cafef.vn/du-lieu/ABB-2996084/abb-nghi-quyet-hdqt-phe-duyet-giao-dich-nhan-tai-san-dam-bao-nguoi-co-lien-quan.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt Phát hành thẻ tín dụng cho khách hàng",
-     "url": "https://cafef.vn/du-lieu/ABB-2991900/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-phat-hanh-the-tin-dung-cho-khach-hang.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết HĐQT Gia hạn thuê diện tích văn phòng làm trụ sở ABBank Đống Đa và Văn phòng Hội sở tại Hà Nội",
-     "url": "https://cafef.vn/du-lieu/ABB-2987495/abb-nghi-quyet-hdqt-gia-han-thue-dien-tich-van-phong-lam-tru-so-abbank-dong-da-va-van-phong-hoi-so-tai-ha-noi.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
-   "market_news": [
-    {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    }
+   "market_news": [],
+   "messages": [
+    "Chưa tải được nguồn RSS thị trường CafeF."
    ],
-   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -207,7 +160,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:12.248880+00:00",
+   "retrieved_at": "2026-11-20T11:50:41.773345+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +289,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +346,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:39.603077+00:00",
+   "retrieved_at": "2026-11-20T11:51:10.911682+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -431,6 +384,12 @@
     }
    ],
    "disclosures": [
+    {
+     "title": "AGR: Thông báo giấy phép điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán (vốn điều lệ)",
+     "url": "https://cafef.vn/du-lieu/AGR-3025889/agr-thong-bao-giay-phep-dieu-chinh-giay-phep-thanh-lap-va-hoat-dong-kinh-doanh-chung-khoan-von-dieu-le.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "AGR: 20.11.2026, giao dịch 13.694.970 cp niêm yết bổ sung",
      "url": "https://cafef.vn/du-lieu/AGR-3019367/agr-20112026-giao-dich-13694970-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
@@ -484,61 +443,55 @@
      "url": "https://cafef.vn/du-lieu/AGR-2985712/agr-nhan-duoc-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-phat-hanh-cp-de-tra-co-tuc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "AGR: CBTT về PHCP để trả cổ tức và ngày ĐKCC thực hiện quyền nhận cổ tức bằng CP năm 2025 (đính kèm công văn của UBCKNN)",
-     "url": "https://cafef.vn/du-lieu/AGR-2985725/agr-cbtt-ve-phcp-de-tra-co-tuc-va-ngay-dkcc-thuc-hien-quyen-nhan-co-tuc-bang-cp-nam-2025-dinh-kem-cong-van-cua-ubcknn.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +504,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:26.279282+00:00",
+   "retrieved_at": "2026-11-20T11:51:00.155058+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -728,51 +681,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -785,7 +738,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:12.291583+00:00",
+   "retrieved_at": "2026-11-20T11:50:41.739279+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -852,6 +805,12 @@
    ],
    "disclosures": [
     {
+     "title": "BID: Nghị quyết HĐQT về việc phê duyệt một số nội dung trong phương án tăng vốn điều lệ thông qua phát hành cổ phiếu để chi trả cổ tức",
+     "url": "https://cafef.vn/du-lieu/BID-3025819/bid-nghi-quyet-hdqt-ve-viec-phe-duyet-mot-so-noi-dung-trong-phuong-an-tang-von-dieu-le-thong-qua-phat-hanh-co-phieu-de-chi-tra-co-tuc.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BID: CBTT giao dịch với bên có liên quan KEB Hana Bank",
      "url": "https://cafef.vn/du-lieu/BID-3022823/bid-cbtt-giao-dich-voi-ben-co-lien-quan-keb-hana-bank.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -904,61 +863,55 @@
      "url": "https://cafef.vn/du-lieu/BID-3019574/bid-hdqt-thong-qua-giao-dich-voi-ben-lien-quan-keb-hana-bank.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: Các Quyết định của HNX về việc chấp thuận niêm yết trái phiếu BIDV",
-     "url": "https://cafef.vn/du-lieu/BID-3015515/bid-cac-quyet-dinh-cua-hnx-ve-viec-chap-thuan-niem-yet-trai-phieu-bidv.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -971,7 +924,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:39.549008+00:00",
+   "retrieved_at": "2026-11-20T11:51:12.497102+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1009,6 +962,12 @@
     }
    ],
    "disclosures": [
+    {
+     "title": "BSI: Quyết định của HĐQT về việc phê duyệt hạn mức tín dụng và các hợp đồng cấp tín dụng, hợp đồng bảo đảm tại Vietinkbank Chi nhánh Hà Nội",
+     "url": "https://cafef.vn/du-lieu/BSI-3025880/bsi-quyet-dinh-cua-hdqt-ve-viec-phe-duyet-han-muc-tin-dung-va-cac-hop-dong-cap-tin-dung-hop-dong-bao-dam-tai-vietinkbank-chi-nhanh-ha-noi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "BSI: Thông báo nhận được Quyết định của SGDCKVN về việc chấp thuận tham gia hệ thống giao dịch các-bon đối với BSI",
      "url": "https://cafef.vn/du-lieu/BSI-3014159/bsi-thong-bao-nhan-duoc-quyet-dinh-cua-sgdckvn-ve-viec-chap-thuan-tham-gia-he-thong-giao-dich-cacbon-doi-voi-bsi.chn?utm_source=du-lieu",
@@ -1062,61 +1021,55 @@
      "url": "https://cafef.vn/du-lieu/BSI-2963329/bsi-cbtt-ky-ket-thoa-thuan-hop-tac-lien-doanh-voi-amova-asset-management-coltd.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BSI: Thông báo hủy danh sách người SHCK thực hiện quyền lấy ý kiến cổ đông bằng văn bản tại Thông báo số 1590/TB-SGDHCM ngày 23/07/2026",
-     "url": "https://cafef.vn/du-lieu/BSI-2957477/bsi-thong-bao-huy-danh-sach-nguoi-shck-thuc-hien-quyen-lay-y-kien-co-dong-bang-van-ban-tai-thong-bao-so-1590tbsgdhcm-ngay-23072026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1129,7 +1082,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:30.187547+00:00",
+   "retrieved_at": "2026-11-20T11:51:01.769308+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1258,51 +1211,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1315,7 +1268,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:12.280348+00:00",
+   "retrieved_at": "2026-11-20T11:50:41.734355+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1444,51 +1397,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1501,7 +1454,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:25.987158+00:00",
+   "retrieved_at": "2026-11-20T11:51:00.156057+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1568,8 +1521,14 @@
    ],
    "disclosures": [
     {
-     "title": "EIB: Thông báo thay đổi nhân sự",
-     "url": "https://cafef.vn/du-lieu/EIB-3022898/eib-thong-bao-thay-doi-nhan-su.chn?utm_source=du-lieu",
+     "title": "EIB: Thông báo công văn của VSDC về việc điều chỉnh tỷ lệ SHNN tối đa của EIB",
+     "url": "https://cafef.vn/du-lieu/EIB-3025867/eib-thong-bao-cong-van-cua-vsdc-ve-viec-dieu-chinh-ty-le-shnn-toi-da-cua-eib.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "EIB: Bổ nhiệm ông Ngô Hoàng Hà giữ chức Giám đốc Tài chính từ 16.11.2026",
+     "url": "https://cafef.vn/du-lieu/EIB-3022898/eib-bo-nhiem-ong-ngo-hoang-ha-giu-chuc-giam-doc-tai-chinh-tu-16112026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1620,61 +1579,55 @@
      "url": "https://cafef.vn/du-lieu/EIB-2976846/eib-thong-bao-moi-hop-dhdcd-bat-thuong-ngay-14102026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "EIB: Thông báo nhận được công văn của NHNNVN Chi nhánh Khu vực 15 về việc chấp thuận thay đổi địa điểm Chi nhánh Kiên Giang",
-     "url": "https://cafef.vn/du-lieu/EIB-2976007/eib-thong-bao-nhan-duoc-cong-van-cua-nhnnvn-chi-nhanh-khu-vuc-15-ve-viec-chap-thuan-thay-doi-dia-diem-chi-nhanh-kien-giang.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1687,7 +1640,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:21.243283+00:00",
+   "retrieved_at": "2026-11-20T11:50:50.107502+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1696,6 +1649,24 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "HDB: Nghị quyết HĐQT về việc lấy ý kiến cổ đông bằng văn bản lần 3 năm 2026",
+     "url": "https://cafef.vn/du-lieu/HDB-3025821/hdb-nghi-quyet-hdqt-ve-viec-lay-y-kien-co-dong-bang-van-ban-lan-3-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo nhận được Quyết định của NHNN về việc sửa đổi nội dung về trụ sở chính tại Giấy phép thành lập và hoạt động",
+     "url": "https://cafef.vn/du-lieu/HDB-3025816/hdb-thong-bao-nhan-duoc-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-ve-tru-so-chinh-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo về việc thay đổi địa điểm và tên gọi PGD Tân Hòa",
+     "url": "https://cafef.vn/du-lieu/HDB-3025429/hdb-thong-bao-ve-viec-thay-doi-dia-diem-va-ten-goi-pgd-tan-hoa.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "HDB: Thông báo Giấy chứng nhận đăng ký chào bán trái phiếu ra công chúng",
      "url": "https://cafef.vn/du-lieu/HDB-3025074/hdb-thong-bao-giay-chung-nhan-dang-ky-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
@@ -1737,73 +1708,55 @@
      "url": "https://cafef.vn/du-lieu/HDB-3007082/hdb-thong-bao-hdqt-ve-tieu-chuan-dieu-kien-de-cu-ung-cu-bau-thanh-vien-hdqt-bks-nhiem-ky-20272032.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "HDB: Con ông Đào Duy Tường - Trưởng BKS đã bán 922.823 cp",
-     "url": "https://cafef.vn/du-lieu/HDB-3003428/hdb-con-ong-dao-duy-tuong-truong-bks-da-ban-922823-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "HDB: Nhận được công văn của UBCKNN về tài liệu báo cáo kết quả phát hành CP để trả cổ tức và tăng vốn cổ phần từ nguồn vốn CSH",
-     "url": "https://cafef.vn/du-lieu/HDB-3002455/hdb-nhan-duoc-cong-van-cua-ubcknn-ve-tai-lieu-bao-cao-ket-qua-phat-hanh-cp-de-tra-co-tuc-va-tang-von-co-phan-tu-nguon-von-csh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "HDB: Số lượng cổ phiếu có quyền biểu quyết đang lưu hành là 6.506.859.219 cp",
-     "url": "https://cafef.vn/du-lieu/HDB-2998870/hdb-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh-la-6506859219-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1818,7 +1771,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:32.013925+00:00",
+   "retrieved_at": "2026-11-20T11:51:03.880624+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1885,6 +1838,12 @@
    ],
    "disclosures": [
     {
+     "title": "KLB: Thông báo nhận được Văn bản của HNX về việc hủy niêm yết trái phiếu KLB124009",
+     "url": "https://cafef.vn/du-lieu/KLB-3025881/klb-thong-bao-nhan-duoc-van-ban-cua-hnx-ve-viec-huy-niem-yet-trai-phieu-klb124009.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "KLB: Thông báo nhận được Thông báo của HNX về việc trái phiếu KLB124009 có khả năng bị hủy bỏ niêm yết do tổ chức phát hành mua lại toàn bộ trước thời gian đáo hạn",
      "url": "https://cafef.vn/du-lieu/KLB-3022896/klb-thong-bao-nhan-duoc-thong-bao-cua-hnx-ve-viec-trai-phieu-klb124009-co-kha-nang-bi-huy-bo-niem-yet-do-to-chuc-phat-hanh-mua-lai-toan-bo-truoc-thoi-gian-dao-han.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1937,61 +1896,55 @@
      "url": "https://cafef.vn/du-lieu/KLB-3008998/klb-thong-bao-ngay-dkcc-thuc-hien-quyen-thanh-toan-lai-trai-phieu-ky-01-ma-klb125031.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "KLB: Giải trình biến động LNST quý 3/2026 và lũy kế 9 tháng năm 2026",
-     "url": "https://cafef.vn/du-lieu/KLB-3006703/klb-giai-trinh-bien-dong-lnst-quy-32026-va-luy-ke-9-thang-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2004,7 +1957,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:20.519257+00:00",
+   "retrieved_at": "2026-11-20T11:50:52.047412+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2133,51 +2086,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2190,7 +2143,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:19.170463+00:00",
+   "retrieved_at": "2026-11-20T11:50:53.374714+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2200,62 +2153,68 @@
    "reports": [
     {
      "title": "MBB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     }
    ],
    "disclosures": [
+    {
+     "title": "MBB: Báo cáo kết quả giao dịch cổ phiếu của tổ chức có liên quan đến Người nội bộ Công đoàn cơ sở Ngân hàng Thương mại Cổ phần Quân Đội",
+     "url": "https://cafef.vn/du-lieu/MBB-3025862/mbb-bao-cao-ket-qua-giao-dich-co-phieu-cua-to-chuc-co-lien-quan-den-nguoi-noi-bo-cong-doan-co-so-ngan-hang-thuong-mai-co-phan-quan-doi.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "MBB: Quyết định của HĐQT về việc thay đổi địa điểm, tên gọi PGD Tam Hiệp",
      "url": "https://cafef.vn/du-lieu/MBB-3024431/mbb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-ten-goi-pgd-tam-hiep.chn?utm_source=du-lieu",
@@ -2275,8 +2234,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "MBB: Thông báo giao dịch cổ phiếu của tổ chức có liên quan đến người nội bộ Công đoàn cơ sở MBB",
-     "url": "https://cafef.vn/du-lieu/MBB-3022887/mbb-thong-bao-giao-dich-co-phieu-cua-to-chuc-co-lien-quan-den-nguoi-noi-bo-cong-doan-co-so-mbb.chn?utm_source=du-lieu",
+     "title": "MBB: Công đoàn cơ sở MBB đăng ký nhận chuyển nhượng 198.391 cp",
+     "url": "https://cafef.vn/du-lieu/MBB-3022887/mbb-cong-doan-co-so-mbb-dang-ky-nhan-chuyen-nhuong-198391-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -2309,61 +2268,55 @@
      "url": "https://cafef.vn/du-lieu/MBB-3014593/mbb-bo-nhiem-lai-ong-le-quoc-minh-giu-chuc-pho-tong-giam-doc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MBB: Quyết định của HĐQT về việc thay đổi địa điểm Chi nhánh Phú Quốc",
-     "url": "https://cafef.vn/du-lieu/MBB-3012835/mbb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-chi-nhanh-phu-quoc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2376,7 +2329,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:25.972867+00:00",
+   "retrieved_at": "2026-11-20T11:50:55.814053+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2443,6 +2396,12 @@
    ],
    "disclosures": [
     {
+     "title": "MSB: Các Nghị quyết HĐQT số 26.01 và 26.02 ngày 18/11/2026",
+     "url": "https://cafef.vn/du-lieu/MSB-3025657/msb-cac-nghi-quyet-hdqt-so-2601-va-2602-ngay-18112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "MSB: Nghị quyết HĐQT về việc phê duyệt triển khai tăng vốn điều lệ lần 2 năm 2026",
      "url": "https://cafef.vn/du-lieu/MSB-3017740/msb-nghi-quyet-hdqt-ve-viec-phe-duyet-trien-khai-tang-von-dieu-le-lan-2-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2495,61 +2454,55 @@
      "url": "https://cafef.vn/du-lieu/MSB-2996033/msb-nghi-quyet-va-bien-ban-kiem-phieu-bang-hinh-thuc-lay-y-kien-co-dong-bang-van-ban.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Quyết định NHNN sửa đổi cập nhật vốn điều lệ tại Giấy phép thành lập và hoạt động",
-     "url": "https://cafef.vn/du-lieu/MSB-2994747/msb-quyet-dinh-nhnn-sua-doi-cap-nhat-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2562,7 +2515,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:32.055790+00:00",
+   "retrieved_at": "2026-11-20T11:51:03.860902+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2629,6 +2582,12 @@
    ],
    "disclosures": [
     {
+     "title": "NAB: Công văn của UBCKNN về hồ sơ đăng ký chào bán cổ phiếu riêng lẻ và Nghị quyết HĐQT số 2398/2026 ngày 19/11/2026",
+     "url": "https://cafef.vn/du-lieu/NAB-3025806/nab-cong-van-cua-ubcknn-ve-ho-so-dang-ky-chao-ban-co-phieu-rieng-le-va-nghi-quyet-hdqt-so-23982026-ngay-19112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "NAB: Quyết định về việc thay đổi đăng ký niêm yết",
      "url": "https://cafef.vn/du-lieu/NAB-3024374/nab-quyet-dinh-ve-viec-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2681,61 +2640,55 @@
      "url": "https://cafef.vn/du-lieu/NAB-2986823/nab-dieu-le-sua-doi-kem-nghi-quyet-hdqt-so-2125-ngay-28092026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "NAB: Thông báo quyết định của NHNN về việc sửa đổi nội dung vốn điều lệ tại Giấy phép thành lập và hoạt động của NAB",
-     "url": "https://cafef.vn/du-lieu/NAB-2983086/nab-thong-bao-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong-cua-nab.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2748,7 +2701,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:32.928924+00:00",
+   "retrieved_at": "2026-11-20T11:51:06.493944+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2925,51 +2878,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2982,7 +2935,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:25.989621+00:00",
+   "retrieved_at": "2026-11-20T11:50:56.146478+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3111,51 +3064,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3168,7 +3121,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:32.013148+00:00",
+   "retrieved_at": "2026-11-20T11:51:03.862009+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3253,8 +3206,8 @@
    ],
    "disclosures": [
     {
-     "title": "PGB: Nghị quyết Hội đồng quản trị",
-     "url": "https://cafef.vn/du-lieu/PGB-3025056/pgb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "title": "PGB: Nghị quyết HĐQT gia hạn thời gian phân phổi đợt 1 theo Giấy chứng nhận đăng ký chào bán phiều",
+     "url": "https://cafef.vn/du-lieu/PGB-3025056/pgb-nghi-quyet-hdqt-gia-han-thoi-gian-phan-phoi-dot-1-theo-giay-chung-nhan-dang-ky-chao-ban-phieu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3315,51 +3268,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3372,7 +3325,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:32.026434+00:00",
+   "retrieved_at": "2026-11-20T11:51:06.115057+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3549,51 +3502,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3606,7 +3559,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:25.947801+00:00",
+   "retrieved_at": "2026-11-20T11:50:56.463504+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3735,51 +3688,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3792,7 +3745,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:24.773809+00:00",
+   "retrieved_at": "2026-11-20T11:50:55.965901+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3921,51 +3874,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3978,7 +3931,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:18.720839+00:00",
+   "retrieved_at": "2026-11-20T11:50:49.710272+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4107,51 +4060,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4164,7 +4117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:13.126837+00:00",
+   "retrieved_at": "2026-11-20T11:50:43.395268+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4173,6 +4126,12 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "TCB: Thông báo phát hành CP theo chương trình lựa chọn cho NLĐ trong công ty",
+     "url": "https://cafef.vn/du-lieu/TCB-3025851/tcb-thong-bao-phat-hanh-cp-theo-chuong-trinh-lua-chon-cho-nld-trong-cong-ty.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "TCB: Nghị quyết HĐQT số 0642 ngày 18/11/2026",
      "url": "https://cafef.vn/du-lieu/TCB-3025098/tcb-nghi-quyet-hdqt-so-0642-ngay-18112026.chn?utm_source=du-lieu",
@@ -4226,61 +4185,55 @@
      "url": "https://cafef.vn/du-lieu/TCB-3018702/tcb-nghi-quyet-hdqt-ve-ket-qua-phat-hanh-co-phieu-tra-co-tuc-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Nghị quyết HĐQT về việc cung cấp dịch vụ đại lý lưu ký cho trái phiếu Techcombank phát hành riêng lẻ năm 2026 - Lần 19",
-     "url": "https://cafef.vn/du-lieu/TCB-3015561/tcb-nghi-quyet-hdqt-ve-viec-cung-cap-dich-vu-dai-ly-luu-ky-cho-trai-phieu-techcombank-phat-hanh-rieng-le-nam-2026-lan-19.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4295,7 +4248,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:18.737047+00:00",
+   "retrieved_at": "2026-11-20T11:50:49.347704+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4362,6 +4315,12 @@
    ],
    "disclosures": [
     {
+     "title": "TPB: Nghị quyết HĐQT số 47/2026 ngày 19/11/2026",
+     "url": "https://cafef.vn/du-lieu/TPB-3025583/tpb-nghi-quyet-hdqt-so-472026-ngay-19112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "TPB: Quyết định TGĐ về thay đổi địa điểm hoạt động của PGD Bình Tân",
      "url": "https://cafef.vn/du-lieu/TPB-3023652/tpb-quyet-dinh-tgd-ve-thay-doi-dia-diem-hoat-dong-cua-pgd-binh-tan.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4414,61 +4373,55 @@
      "url": "https://cafef.vn/du-lieu/TPB-3007712/tpb-3112026-giao-dich-416088023-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TPB: 26.10.2026, niêm yết bổ sung 416.088.023 cp",
-     "url": "https://cafef.vn/du-lieu/TPB-3005044/tpb-26102026-niem-yet-bo-sung-416088023-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4481,7 +4434,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:39.936317+00:00",
+   "retrieved_at": "2026-11-20T11:51:11.184696+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4553,51 +4506,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4612,7 +4565,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:12.400329+00:00",
+   "retrieved_at": "2026-11-20T11:50:41.747141+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4741,51 +4694,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4798,7 +4751,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:18.737831+00:00",
+   "retrieved_at": "2026-11-20T11:50:49.348650+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4927,51 +4880,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4984,7 +4937,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-20T02:23:12.242912+00:00",
+   "retrieved_at": "2026-11-20T11:50:41.735323+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5113,51 +5066,51 @@
    ],
    "market_news": [
     {
-     "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
-     "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
-     "date": "2026-11-19T18:44:00+00:00",
+     "title": "FPT mất gần một nửa vốn hóa từ đầu năm",
+     "url": "https://cafef.vn/fpt-mat-gan-mot-nua-von-hoa-tu-dau-nam-188261120160917254.chn",
+     "date": "2026-11-20T09:15:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
-     "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Phiên 20/11: Khối ngoại thẳng tay bán ròng gần 900 tỷ đồng, xả mạnh FPT cùng loạt cổ phiếu ngân hàng hot",
+     "url": "https://cafef.vn/phien-20-11-khoi-ngoai-thang-tay-ban-rong-gan-900-ty-dong-xa-manh-fpt-cung-loat-co-phieu-ngan-hang-hot-188261120154440739.chn",
+     "date": "2026-11-20T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
-     "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
-     "date": "2026-11-19T17:05:00+00:00",
+     "title": "Bắt nguyên quản lý cửa hàng Bách Hoá Xanh ở Quảng Trị do tham ô tài sản",
+     "url": "https://cafef.vn/bat-nguyen-quan-ly-cua-hang-bach-hoa-xanh-o-quang-tri-do-tham-o-tai-san-188261120134243797.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
-     "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
-     "date": "2026-11-19T17:03:00+00:00",
+     "title": "Giá vàng giảm rất mạnh, chênh thế giới hơn 22 triệu đồng/lượng",
+     "url": "https://cafef.vn/gia-vang-giam-rat-manh-chenh-the-gioi-hon-22-trieu-dong-luong-188261120134115219.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
-     "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
-     "date": "2026-11-19T17:01:00+00:00",
+     "title": "Tổng Công ty Sông Đà sắp tạm ứng cổ tức năm 2026 bằng tiền tỷ lệ 10%",
+     "url": "https://cafef.vn/tong-cong-ty-song-da-sap-tam-ung-co-tuc-nam-2026-bang-tien-ty-le-10-18826112013371461.chn",
+     "date": "2026-11-20T06:43:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index mất mốc 1.700 điểm, thanh khoản xuống thấp",
-     "url": "https://cafef.vn/vn-index-mat-moc-1700-diem-thanh-khoan-xuong-thap-188261119175602007.chn",
-     "date": "2026-11-19T11:43:00+00:00",
+     "title": "Nhiều quỹ đầu tư đồng loạt \"xả\" cổ phiếu",
+     "url": "https://cafef.vn/nhieu-quy-dau-tu-dong-loat-xa-co-phieu-188261120114409371.chn",
+     "date": "2026-11-20T04:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "3 Giám đốc cao cấp của PNJ đồng loạt từ nhiệm",
-     "url": "https://cafef.vn/3-giam-doc-cao-cap-cua-pnj-dong-loat-tu-nhiem-188261119183338315.chn",
-     "date": "2026-11-19T11:32:00+00:00",
+     "title": "Bầu Đức: Tôi không có bằng đại học là đúng nhưng người ta tưởng tôi không học là hiểu lầm",
+     "url": "https://cafef.vn/bau-duc-toi-khong-co-bang-dai-hoc-la-dung-nhung-nguoi-ta-tuong-toi-khong-hoc-la-hieu-lam-188261120104004738.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Người thân lãnh đạo OCB tiếp tục đăng ký bán cổ phiếu",
-     "url": "https://cafef.vn/nguoi-than-lanh-dao-ocb-tiep-tuc-dang-ky-ban-co-phieu-188261119162939707.chn",
-     "date": "2026-11-19T09:29:00+00:00",
+     "title": "Giá vàng hôm nay 20/11: Tiếp tục có đáy mới, xuống mức thấp nhất trong 15 tháng qua",
+     "url": "https://cafef.vn/gia-vang-hom-nay-20-11-tiep-tuc-co-day-moi-xuong-muc-thap-nhat-trong-15-thang-qua-188261120103900567.chn",
+     "date": "2026-11-20T03:40:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
