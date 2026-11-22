@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-22T01:24:17.696840+00:00",
+ "generated_at": "2026-11-22T11:36:58.628539+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:13.472662+00:00",
+   "retrieved_at": "2026-11-22T11:36:55.028852+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -150,6 +150,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -159,42 +195,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:51.253898+00:00",
+   "retrieved_at": "2026-11-22T11:36:30.073476+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,6 +336,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -345,42 +381,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:16.691525+00:00",
+   "retrieved_at": "2026-11-22T11:36:57.250810+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,6 +494,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -503,42 +539,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:04.597958+00:00",
+   "retrieved_at": "2026-11-22T11:36:45.742562+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -728,6 +728,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -737,42 +773,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -785,7 +785,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:51.709458+00:00",
+   "retrieved_at": "2026-11-22T11:36:30.082734+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -914,6 +914,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -923,42 +959,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -971,7 +971,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:17.696178+00:00",
+   "retrieved_at": "2026-11-22T11:36:58.627675+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1072,6 +1072,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -1081,42 +1117,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1129,7 +1129,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:08.638428+00:00",
+   "retrieved_at": "2026-11-22T11:36:49.165547+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1258,6 +1258,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -1267,42 +1303,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1315,7 +1315,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:51.623557+00:00",
+   "retrieved_at": "2026-11-22T11:36:30.349491+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1444,6 +1444,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -1453,42 +1489,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1501,7 +1501,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:06.129755+00:00",
+   "retrieved_at": "2026-11-22T11:36:43.972753+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1630,6 +1630,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -1639,42 +1675,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1687,7 +1687,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:59.004245+00:00",
+   "retrieved_at": "2026-11-22T11:36:38.891771+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1759,6 +1759,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -1768,42 +1804,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1818,7 +1818,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:09.283895+00:00",
+   "retrieved_at": "2026-11-22T11:36:51.454874+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1947,6 +1947,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -1956,42 +1992,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2004,7 +2004,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:58.241653+00:00",
+   "retrieved_at": "2026-11-22T11:36:38.213625+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2133,6 +2133,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -2142,42 +2178,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2190,7 +2190,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:58.291716+00:00",
+   "retrieved_at": "2026-11-22T11:36:38.196697+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2319,6 +2319,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -2328,42 +2364,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2376,7 +2376,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:04.335687+00:00",
+   "retrieved_at": "2026-11-22T11:36:43.471510+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2505,6 +2505,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -2514,42 +2550,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2562,7 +2562,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:10.672186+00:00",
+   "retrieved_at": "2026-11-22T11:36:49.162077+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2691,6 +2691,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -2700,42 +2736,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2748,7 +2748,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:11.176068+00:00",
+   "retrieved_at": "2026-11-22T11:36:51.477145+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2925,6 +2925,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -2934,42 +2970,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2982,7 +2982,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:03.473617+00:00",
+   "retrieved_at": "2026-11-22T11:36:43.495745+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3111,6 +3111,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -3120,42 +3156,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3168,7 +3168,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:09.274282+00:00",
+   "retrieved_at": "2026-11-22T11:36:51.485052+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3315,6 +3315,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -3324,42 +3360,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3372,7 +3372,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:11.305402+00:00",
+   "retrieved_at": "2026-11-22T11:36:51.459765+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3549,6 +3549,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -3558,42 +3594,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3606,7 +3606,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:05.078020+00:00",
+   "retrieved_at": "2026-11-22T11:36:43.729307+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3735,6 +3735,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -3744,42 +3780,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3792,7 +3792,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:03.285091+00:00",
+   "retrieved_at": "2026-11-22T11:36:43.477165+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3921,6 +3921,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -3930,42 +3966,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3978,7 +3978,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:58.492128+00:00",
+   "retrieved_at": "2026-11-22T11:36:38.215002+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4107,6 +4107,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -4116,42 +4152,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4164,7 +4164,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:51.960696+00:00",
+   "retrieved_at": "2026-11-22T11:36:31.767457+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4236,6 +4236,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -4245,42 +4281,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4295,7 +4295,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:58.287531+00:00",
+   "retrieved_at": "2026-11-22T11:36:37.250690+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4424,6 +4424,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -4433,42 +4469,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4481,7 +4481,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:24:15.158809+00:00",
+   "retrieved_at": "2026-11-22T11:36:56.408920+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4553,6 +4553,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -4562,42 +4598,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4612,7 +4612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:51.642543+00:00",
+   "retrieved_at": "2026-11-22T11:36:31.740066+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4741,6 +4741,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -4750,42 +4786,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4798,7 +4798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:59.621239+00:00",
+   "retrieved_at": "2026-11-22T11:36:36.144446+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4927,6 +4927,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -4936,42 +4972,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4984,7 +4984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-22T01:23:51.300156+00:00",
+   "retrieved_at": "2026-11-22T11:36:30.338961+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5113,6 +5113,42 @@
    ],
    "market_news": [
     {
+     "title": "Góc nhìn chuyên gia: Nhịp giảm là cơ hội giải ngân chọn lọc, 3 nhóm cổ phiếu tiềm năng kỳ vọng đón dòng tiền mới",
+     "url": "https://cafef.vn/goc-nhin-chuyen-gia-nhip-giam-la-co-hoi-giai-ngan-chon-loc-3-nhom-co-phieu-tiem-nang-ky-vong-don-dong-tien-moi-188261122141751308.chn",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chủ tịch 35 tuổi sắp mua gần 14 triệu cổ phiếu SMC",
+     "url": "https://cafef.vn/chu-tich-35-tuoi-sap-mua-gan-14-trieu-co-phieu-smc-188261122124812704.chn",
+     "date": "2026-11-22T05:48:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ ra “chất xúc tác” 5.000 tỷ USD có thể giúp vàng tăng giá trở lại",
+     "url": "https://cafef.vn/chuyen-gia-chi-ra-chat-xuc-tac-5000-ty-usd-co-the-giup-vang-tang-gia-tro-lai-188261122090823455.chn",
+     "date": "2026-11-22T02:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá bạc lao dốc hơn 15% trong một tuần, “cá mập” bất ngờ gom 77 tấn bạc hai phiên liên tiếp",
+     "url": "https://cafef.vn/gia-bac-lao-doc-hon-15-trong-mot-tuan-ca-map-bat-ngo-gom-77-tan-bac-hai-phien-lien-tiep-188261122085944985.chn",
+     "date": "2026-11-22T02:06:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Giá vàng hôm nay 22/11: Hồi phục nhẹ nhưng vẫn đứng ở ngưỡng thấp",
+     "url": "https://cafef.vn/gia-vang-hom-nay-22-11-hoi-phuc-nhe-nhung-van-dung-o-nguong-thap-188261122090107889.chn",
+     "date": "2026-11-22T02:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "PNJ rối loạn sau sự cố kim cương, CEO Phan Quốc Công thừa nhận điểm yếu",
+     "url": "https://cafef.vn/pnj-roi-loan-sau-su-co-kim-cuong-ceo-phan-quoc-cong-thua-nhan-diem-yeu-188261122090214246.chn",
+     "date": "2026-11-22T02:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "2/3 số cổ phiếu trên HoSE giảm mạnh hơn VN-Index hé lộ điều gì?",
      "url": "https://cafef.vn/2-3-so-co-phieu-tren-hose-giam-manh-hon-vn-index-he-lo-dieu-gi-188261121213625504.chn",
      "date": "2026-11-21T17:05:00+00:00",
@@ -5122,42 +5158,6 @@
      "title": "Vàng giảm gần 60 triệu đồng/lượng, nhà đầu tư nên làm gì?",
      "url": "https://cafef.vn/vang-giam-gan-60-trieu-dong-luong-nha-dau-tu-nen-lam-gi-188261121223256579.chn",
      "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "FPT bốc hơi 23.000 tỷ đồng vốn hóa sau một tháng, 27 quỹ ồ ạt “xả hàng”",
-     "url": "https://cafef.vn/fpt-boc-hoi-23000-ty-dong-von-hoa-sau-mot-thang-27-quy-o-at-xa-hang-188261120150520578.chn",
-     "date": "2026-11-21T17:03:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Lịch chốt quyền cổ tức tuần 23-27/11: Cổ tức tiền mặt cao nhất 45%, FPT sắp \"phát\" 1.900 tỷ đồng",
-     "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-23-27-11-co-tuc-tien-mat-cao-nhat-45-fpt-sap-phat-1900-ty-dong-1882611212103449.chn",
-     "date": "2026-11-21T17:01:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ thay đổi chính sách thu đổi: Vàng nhận tiền sau 1 ngày, kim cương chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-thay-doi-chinh-sach-thu-doi-vang-nhan-tien-sau-1-ngay-kim-cuong-cho-4-thang-188261121182046949.chn",
-     "date": "2026-11-21T12:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "PNJ trả tiền mua lại vàng trong 1 ngày, kim cương vẫn chờ 4 tháng",
-     "url": "https://cafef.vn/pnj-tra-tien-mua-lai-vang-trong-1-ngay-kim-cuong-van-cho-4-thang-188261121155138374.chn",
-     "date": "2026-11-21T08:51:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Cổ phiếu Novaland bán cho cổ đông bị... ế",
-     "url": "https://cafef.vn/co-phieu-novaland-ban-cho-co-dong-bi-e-188261121151831464.chn",
-     "date": "2026-11-21T08:18:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Ai thay ông Trần Bá Dương làm Chủ tịch HĐQT Thaco Agri?",
-     "url": "https://cafef.vn/ai-thay-ong-tran-ba-duong-lam-chu-tich-hdqt-thaco-agri-188261121124755412.chn",
-     "date": "2026-11-21T05:47:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
