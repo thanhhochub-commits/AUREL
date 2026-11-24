@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-23T13:03:56.861226+00:00",
+ "generated_at": "2026-11-24T02:17:02.356990+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:55.368726+00:00",
+   "retrieved_at": "2026-11-24T02:17:00.618387+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -150,51 +150,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:35.419692+00:00",
+   "retrieved_at": "2026-11-24T02:16:40.665805+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +336,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:56.860344+00:00",
+   "retrieved_at": "2026-11-24T02:17:02.042904+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,51 +494,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:48.372996+00:00",
+   "retrieved_at": "2026-11-24T02:16:51.941934+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -728,51 +728,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -785,7 +785,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:35.682679+00:00",
+   "retrieved_at": "2026-11-24T02:16:40.903771+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -914,51 +914,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -971,7 +971,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:56.690978+00:00",
+   "retrieved_at": "2026-11-24T02:17:02.356273+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1072,51 +1072,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1129,7 +1129,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:50.952069+00:00",
+   "retrieved_at": "2026-11-24T02:16:56.083684+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1258,51 +1258,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1315,7 +1315,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:35.533159+00:00",
+   "retrieved_at": "2026-11-24T02:16:41.021652+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1444,51 +1444,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1501,7 +1501,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:47.775379+00:00",
+   "retrieved_at": "2026-11-24T02:16:52.555763+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1630,51 +1630,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1687,7 +1687,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:41.909172+00:00",
+   "retrieved_at": "2026-11-24T02:16:47.381208+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1759,51 +1759,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1818,7 +1818,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:51.638231+00:00",
+   "retrieved_at": "2026-11-24T02:16:56.720454+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1947,51 +1947,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2004,7 +2004,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:42.032455+00:00",
+   "retrieved_at": "2026-11-24T02:16:46.702229+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2133,51 +2133,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2190,7 +2190,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:41.659225+00:00",
+   "retrieved_at": "2026-11-24T02:16:47.027373+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2319,51 +2319,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2376,7 +2376,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:46.417015+00:00",
+   "retrieved_at": "2026-11-24T02:16:52.076413+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2505,51 +2505,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2562,7 +2562,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:51.002154+00:00",
+   "retrieved_at": "2026-11-24T02:16:56.044235+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2691,51 +2691,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2748,7 +2748,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:53.297643+00:00",
+   "retrieved_at": "2026-11-24T02:16:57.622644+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2925,51 +2925,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2982,7 +2982,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:47.005443+00:00",
+   "retrieved_at": "2026-11-24T02:16:52.137670+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3111,51 +3111,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3168,7 +3168,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:51.495084+00:00",
+   "retrieved_at": "2026-11-24T02:16:56.991272+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3315,51 +3315,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3372,7 +3372,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:52.831291+00:00",
+   "retrieved_at": "2026-11-24T02:16:57.295989+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3549,51 +3549,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3606,7 +3606,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:46.450396+00:00",
+   "retrieved_at": "2026-11-24T02:16:51.327498+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3735,51 +3735,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3792,7 +3792,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:47.033873+00:00",
+   "retrieved_at": "2026-11-24T02:16:51.353640+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3921,51 +3921,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3978,7 +3978,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:43.951539+00:00",
+   "retrieved_at": "2026-11-24T02:16:47.070373+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4107,51 +4107,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4164,7 +4164,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:36.515416+00:00",
+   "retrieved_at": "2026-11-24T02:16:41.610514+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4236,51 +4236,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4295,7 +4295,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:41.656795+00:00",
+   "retrieved_at": "2026-11-24T02:16:47.205321+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4424,51 +4424,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4481,7 +4481,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:55.975194+00:00",
+   "retrieved_at": "2026-11-24T02:17:01.306141+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4553,51 +4553,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4612,7 +4612,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:36.156083+00:00",
+   "retrieved_at": "2026-11-24T02:16:41.586160+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4741,51 +4741,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4798,7 +4798,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:41.641701+00:00",
+   "retrieved_at": "2026-11-24T02:16:46.435300+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4927,51 +4927,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4984,7 +4984,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-23T13:03:35.432244+00:00",
+   "retrieved_at": "2026-11-24T02:16:40.890335+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5113,51 +5113,51 @@
    ],
    "market_news": [
     {
+     "title": "Quỹ ngoại quy mô 23.000 tỷ chỉ ra yếu tố then chốt còn thiếu đối với chứng khoán Việt Nam",
+     "url": "https://cafef.vn/quy-ngoai-quy-mo-23000-ty-chi-ra-yeu-to-then-chot-con-thieu-doi-voi-chung-khoan-viet-nam-188261123222109132.chn",
+     "date": "2026-11-23T17:05:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Ngày buồn của PNJ",
+     "url": "https://cafef.vn/ngay-buon-cua-pnj-188261123224100841.chn",
+     "date": "2026-11-23T17:04:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chuyên gia chỉ tên 3 nhóm cổ phiếu tiềm năng cho chu kỳ tăng trưởng mới",
+     "url": "https://cafef.vn/chuyen-gia-chi-ten-3-nhom-co-phieu-tiem-nang-cho-chu-ky-tang-truong-moi-188261123124304278.chn",
+     "date": "2026-11-23T17:03:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Công ty do ông Phạm Nhật Minh Hoàng điều hành \"chơi lớn\" tại Indonesia",
+     "url": "https://cafef.vn/cong-ty-do-ong-pham-nhat-minh-hoang-dieu-hanh-choi-lon-tai-indonesia-188261123232510173.chn",
+     "date": "2026-11-23T17:02:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Chứng khoán Việt Nam sau 3 thập kỷ: Kênh dẫn vốn hàng triệu tỷ đồng cho nền kinh tế",
+     "url": "https://cafef.vn/chung-khoan-viet-nam-sau-3-thap-ky-kenh-dan-von-hang-trieu-ty-dong-cho-nen-kinh-te-188261123221347065.chn",
+     "date": "2026-11-23T17:01:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Vietravel bổ nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/vietravel-bo-nhiem-pho-tong-giam-doc-188261123205741148.chn",
+     "date": "2026-11-23T14:10:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
+     "title": "Thêm loạt thành viên HĐQT PNJ từ nhiệm, ông Mai Hữu Tín cũng rút lui",
+     "url": "https://cafef.vn/them-loat-thanh-vien-hdqt-pnj-tu-nhiem-ong-mai-huu-tin-cung-rut-lui-188261123204033609.chn",
+     "date": "2026-11-23T13:39:00+00:00",
+     "source": "CafeF - RSS thị trường"
+    },
+    {
      "title": "Vì sao toàn bộ cổ phiếu niêm yết chuyển hết về HoSE, HNX sẽ đảm nhiệm vai trò gì?",
      "url": "https://cafef.vn/vi-sao-toan-bo-co-phieu-niem-yet-chuyen-het-ve-hose-hnx-se-dam-nhiem-vai-tro-gi-188261123182057736.chn",
      "date": "2026-11-23T11:23:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "CEO nêu tình hình tài chính 'hết sức khẩn cấp', cổ phiếu PNJ nằm sàn",
-     "url": "https://cafef.vn/ceo-neu-tinh-hinh-tai-chinh-het-suc-khan-cap-co-phieu-pnj-nam-san-18826112317422559.chn",
-     "date": "2026-11-23T10:46:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Một thành viên của TKV bị xử phạt hành chính về thuế",
-     "url": "https://cafef.vn/mot-thanh-vien-cua-tkv-bi-xu-phat-hanh-chinh-ve-thue-188261123174427337.chn",
-     "date": "2026-11-23T10:44:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Shark Việt nói thẳng: Nếu sợ hãi thì đừng làm doanh nghiệp vì may mắn không đến với những người sợ rủi ro",
-     "url": "https://cafef.vn/shark-viet-noi-thang-neu-so-hai-thi-dung-lam-doanh-nghiep-vi-may-man-khong-den-voi-nhung-nguoi-so-rui-ro-188261123145532753.chn",
-     "date": "2026-11-23T09:11:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phiên 23/11: Khối ngoại tiếp tục bán ròng, bất ngờ tung gần 200 tỷ đồng gom một cổ phiếu HOSE",
-     "url": "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn",
-     "date": "2026-11-23T08:45:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "Phó giáo sư nổi tiếng Việt Nam vừa có thêm 240 tỷ đồng chỉ trong một ngày",
-     "url": "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn",
-     "date": "2026-11-23T08:21:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "“Cá mập” vừa rời ghế cổ đông lớn PNJ bất ngờ thông báo đóng quỹ",
-     "url": "https://cafef.vn/ca-map-vua-roi-ghe-co-dong-lon-pnj-bat-ngo-thong-bao-dong-quy-188261123134529196.chn",
-     "date": "2026-11-23T06:47:00+00:00",
-     "source": "CafeF - RSS thị trường"
-    },
-    {
-     "title": "‘Cơn mưa’ cổ tức tiền mặt cuối năm, cao nhất lên tới 40%",
-     "url": "https://cafef.vn/con-mua-co-tuc-tien-mat-cuoi-nam-cao-nhat-len-toi-40-188261123132147558.chn",
-     "date": "2026-11-23T06:21:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
