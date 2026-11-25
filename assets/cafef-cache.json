@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-25T08:46:02.567520+00:00",
+ "generated_at": "2026-11-25T19:23:31.438844+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:46:02.398279+00:00",
+   "retrieved_at": "2026-11-25T19:23:30.615819+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -28,68 +28,12 @@
      "url": "https://cafef.vn/du-lieu/ABB-2952232/abb-bao-cao-tai-chinh-ban-nien-nam-2026.chn?utm_source=du-lieu",
      "type": "bctc",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "ABB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
     }
    ],
    "disclosures": [
     {
-     "title": "ABB: Nghị quyết Hội đồng quản trị",
-     "url": "https://cafef.vn/du-lieu/ABB-3028380/abb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt việc ký hợp tác bảo trì 147 máy ATM/CDM hãng Diebold",
+     "url": "https://cafef.vn/du-lieu/ABB-3028380/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-viec-ky-hop-tac-bao-tri-147-may-atmcdm-hang-diebold.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -150,55 +94,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -207,7 +153,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:23.255858+00:00",
+   "retrieved_at": "2026-11-25T19:22:38.493688+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -217,56 +163,56 @@
    "reports": [
     {
      "title": "ACB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "ACB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -336,51 +282,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,43 +339,14 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:46:01.673248+00:00",
+   "retrieved_at": "2026-11-25T19:23:31.438269+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/agr/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [
-    {
-     "title": "AGR: Dữ liệu BCTC Quý 3/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
-     "period_end": "2026-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "AGR: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "AGR: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "AGR: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    }
-   ],
+   "reports": [],
    "disclosures": [
     {
      "title": "AGR: Thông báo giấy phép điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán (vốn điều lệ)",
@@ -494,55 +411,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -551,7 +470,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:44.964171+00:00",
+   "retrieved_at": "2026-11-25T19:23:16.286529+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -606,62 +525,6 @@
      "url": "https://cafef.vn/BAB-3012458/bab-bao-cao-tai-chinh-quy-32026-cong-ty-me.chn",
      "type": "bctc",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "BAB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
     }
    ],
    "disclosures": [
@@ -728,55 +591,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -785,7 +650,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:33.020348+00:00",
+   "retrieved_at": "2026-11-25T19:22:29.011428+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -795,56 +660,56 @@
    "reports": [
     {
      "title": "BID: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -914,51 +779,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -971,7 +836,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:46:02.566887+00:00",
+   "retrieved_at": "2026-11-25T19:23:19.671176+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1072,51 +937,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1129,7 +994,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:45.690855+00:00",
+   "retrieved_at": "2026-11-25T19:23:07.195443+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1258,51 +1123,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1315,7 +1180,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:34.474026+00:00",
+   "retrieved_at": "2026-11-25T19:22:29.013744+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1325,56 +1190,56 @@
    "reports": [
     {
      "title": "CTG: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -1444,51 +1309,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1501,7 +1366,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:46.039312+00:00",
+   "retrieved_at": "2026-11-25T19:22:53.180059+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1630,51 +1495,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1687,7 +1552,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:31.487283+00:00",
+   "retrieved_at": "2026-11-25T19:22:37.636526+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1759,51 +1624,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1818,7 +1683,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:58.335560+00:00",
+   "retrieved_at": "2026-11-25T19:23:08.687902+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1828,56 +1693,56 @@
    "reports": [
     {
      "title": "KLB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "KLB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -1947,51 +1812,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2004,71 +1869,14 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:37.634451+00:00",
+   "retrieved_at": "2026-11-25T19:23:02.429787+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/lpb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [
-    {
-     "title": "LPB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "LPB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    }
-   ],
+   "reports": [],
    "disclosures": [
     {
      "title": "LPB: Giấy ủy quyền thực hiện CBTT - Nguyễn Văn Ngọc (kèm Bản cung cấp thông tin)",
@@ -2133,55 +1941,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -2190,7 +2000,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:39.856316+00:00",
+   "retrieved_at": "2026-11-25T19:22:46.686405+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2319,51 +2129,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2376,7 +2186,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:41.868174+00:00",
+   "retrieved_at": "2026-11-25T19:23:02.807932+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2386,56 +2196,56 @@
    "reports": [
     {
      "title": "MSB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -2505,51 +2315,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2562,7 +2372,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:47.711138+00:00",
+   "retrieved_at": "2026-11-25T19:23:08.847851+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2691,51 +2501,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2748,7 +2558,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:51.112706+00:00",
+   "retrieved_at": "2026-11-25T19:23:29.807620+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2803,62 +2613,6 @@
      "url": "https://cafef.vn/NVB-3010805/nvb-bao-cao-tai-chinh-quy-32026-cong-ty-me.chn",
      "type": "bctc",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "NVB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
     }
    ],
    "disclosures": [
@@ -2925,55 +2679,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -2982,7 +2738,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:43.864305+00:00",
+   "retrieved_at": "2026-11-25T19:23:02.532463+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -2992,56 +2748,56 @@
    "reports": [
     {
      "title": "OCB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -3111,51 +2867,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3168,7 +2924,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:46:01.425517+00:00",
+   "retrieved_at": "2026-11-25T19:23:08.893361+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3196,56 +2952,56 @@
     },
     {
      "title": "PGB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "PGB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -3253,8 +3009,8 @@
    ],
    "disclosures": [
     {
-     "title": "PGB: Quyết định của Ủy ban Chứng khoán Nhà Nước về việc gia hạn thời gian phân phối cổ phiếu Đợt 1 theo Giấy chứng nhận chào bán cổ phiếu ra công chúng của PGBank",
-     "url": "https://cafef.vn/du-lieu/PGB-3028411/pgb-quyet-dinh-cua-uy-ban-chung-khoan-nha-nuoc-ve-viec-gia-han-thoi-gian-phan-phoi-co-phieu-dot-1-theo-giay-chung-nhan-chao-ban-co-phieu-ra-cong-chung-cua-pgbank.chn?utm_source=du-lieu",
+     "title": "PGB: Quyết định của Ủy ban Chứng khoán Nhà Nước về việc gia hạn thời gian phân phối cổ phiếu Đợt 1",
+     "url": "https://cafef.vn/du-lieu/PGB-3028411/pgb-quyet-dinh-cua-uy-ban-chung-khoan-nha-nuoc-ve-viec-gia-han-thoi-gian-phan-phoi-co-phieu-dot-1.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3315,51 +3071,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3372,7 +3128,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:46:01.019886+00:00",
+   "retrieved_at": "2026-11-25T19:23:13.216261+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3430,56 +3186,56 @@
     },
     {
      "title": "SGB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SGB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -3549,51 +3305,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3606,14 +3362,71 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:55.663591+00:00",
+   "retrieved_at": "2026-11-25T19:22:46.683545+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/shb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [],
+   "reports": [
+    {
+     "title": "SHB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2026-06-30",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2026-03-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC năm 2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-09-30",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC năm 2024 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2024-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC năm 2023 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2023-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "SHB: Dữ liệu BCTC năm 2022 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
+     "period_end": "2022-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    }
+   ],
    "disclosures": [
     {
      "title": "SHB: Quyết định về việc thay đổi đăng ký niêm yết",
@@ -3678,57 +3491,55 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [
-    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
-   ],
+   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -3737,72 +3548,21 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:39.330301+00:00",
+   "retrieved_at": "2026-11-25T19:23:07.380238+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/ssb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [
-    {
-     "title": "SSB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "SSB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    }
-   ],
+   "reports": [],
    "disclosures": [
+    {
+     "title": "SSB: Thông báo thay đổi nhân sự và các Quyết định HĐQT",
+     "url": "https://cafef.vn/du-lieu/SSB-3028651/ssb-thong-bao-thay-doi-nhan-su-va-cac-quyet-dinh-hdqt.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "SSB: Nghị quyết HĐQT về việc sửa đổi nội dung về vốn điều lệ tại Điều lệ của ngân hàng",
      "url": "https://cafef.vn/du-lieu/SSB-3018030/ssb-nghi-quyet-hdqt-ve-viec-sua-doi-noi-dung-ve-von-dieu-le-tai-dieu-le-cua-ngan-hang.chn?utm_source=du-lieu",
@@ -3856,65 +3616,61 @@
      "url": "https://cafef.vn/du-lieu/SSB-3006836/ssb-chong-ba-nguyen-thi-nga-pho-chu-tich-hdqt-da-mua-8000000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SSB: Con bà Nguyễn Thị Nga - Phó Chủ tịch HĐQT đã bán 673.500 cp",
-     "url": "https://cafef.vn/du-lieu/SSB-3005299/ssb-con-ba-nguyen-thi-nga-pho-chu-tich-hdqt-da-ban-673500-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -3923,7 +3679,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:32.483540+00:00",
+   "retrieved_at": "2026-11-25T19:22:39.000687+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4052,51 +3808,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4109,7 +3865,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:25.253113+00:00",
+   "retrieved_at": "2026-11-25T19:22:30.293101+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4119,14 +3875,20 @@
    "reports": [],
    "disclosures": [
     {
+     "title": "TCB: Nghị quyết HĐQT về việc phê duyệt TCBS cung cấp dịch vụ phát hành trái phiếu TCB lần 23",
+     "url": "https://cafef.vn/du-lieu/TCB-3028653/tcb-nghi-quyet-hdqt-ve-viec-phe-duyet-tcbs-cung-cap-dich-vu-phat-hanh-trai-phieu-tcb-lan-23.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "TCB: Thông báo phát hành CP theo chương trình lựa chọn cho NLĐ trong công ty",
      "url": "https://cafef.vn/du-lieu/TCB-3025851/tcb-thong-bao-phat-hanh-cp-theo-chuong-trinh-lua-chon-cho-nld-trong-cong-ty.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Nghị quyết HĐQT số 0642 ngày 18/11/2026",
-     "url": "https://cafef.vn/du-lieu/TCB-3025098/tcb-nghi-quyet-hdqt-so-0642-ngay-18112026.chn?utm_source=du-lieu",
+     "title": "TCB: Nghị quyết HĐQT phê duyệt giao dịch với CTCP Chứng khoán Kỹ thương",
+     "url": "https://cafef.vn/du-lieu/TCB-3025098/tcb-nghi-quyet-hdqt-phe-duyet-giao-dich-voi-ctcp-chung-khoan-ky-thuong.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4171,61 +3933,55 @@
      "url": "https://cafef.vn/du-lieu/TCB-3018638/tcb-da-phat-hanh-3543115125-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Nghị quyết HĐQT về kết quả phát hành cổ phiếu trả cổ tức 2026",
-     "url": "https://cafef.vn/du-lieu/TCB-3018702/tcb-nghi-quyet-hdqt-ve-ket-qua-phat-hanh-co-phieu-tra-co-tuc-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4240,71 +3996,14 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:39.345071+00:00",
+   "retrieved_at": "2026-11-25T19:23:00.102547+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/tpb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [
-    {
-     "title": "TPB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "TPB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    }
-   ],
+   "reports": [],
    "disclosures": [
     {
      "title": "TPB: Nghị quyết HĐQT số 47/2026 ngày 19/11/2026",
@@ -4369,55 +4068,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -4426,7 +4127,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:56.697295+00:00",
+   "retrieved_at": "2026-11-25T19:23:16.290772+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4435,6 +4136,12 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "VBB: Nghị quyết HĐQT số 230 ngày 25/11/2026",
+     "url": "https://cafef.vn/du-lieu/VBB-3028631/vbb-nghi-quyet-hdqt-so-230-ngay-25112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "VBB: Quyết định của HĐQT bổ nhiệm ông Nguyễn Hoàng Trình giữ chức Phó giám đốc phụ trách Chi nhánh Quảng Ngãi",
      "url": "https://cafef.vn/du-lieu/VBB-3024110/vbb-quyet-dinh-cua-hdqt-bo-nhiem-ong-nguyen-hoang-trinh-giu-chuc-pho-giam-doc-phu-trach-chi-nhanh-quang-ngai.chn?utm_source=du-lieu",
@@ -4488,61 +4195,55 @@
      "url": "https://cafef.vn/du-lieu/VBB-2996804/vbb-bo-nhiem-ong-le-thanh-hai-giu-chuc-pho-tong-giam-doc-tu-12102026-kem-quyet-dinh-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VBB: 9.11.2026, ngày GDKHQ bán ưu đãi (tỷ lệ 100:25)",
-     "url": "https://cafef.vn/du-lieu/VBB-2997322/vbb-9112026-ngay-gdkhq-ban-uu-dai-ty-le-10025.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4557,71 +4258,14 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:25.259056+00:00",
+   "retrieved_at": "2026-11-25T19:22:44.394148+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/vcb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [
-    {
-     "title": "VCB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-06-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2026-03-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2025-09-30",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2024-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2023-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    },
-    {
-     "title": "VCB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
-     "period_end": "2022-12-31",
-     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
-     "type": "bctc_data"
-    }
-   ],
+   "reports": [],
    "disclosures": [
     {
      "title": "VCB: HĐQT thông qua điều chỉnh giới hạn tín dụng đối với VCBNeo",
@@ -4686,55 +4330,57 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [],
+   "messages": [
+    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
+   ],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -4743,7 +4389,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:31.820083+00:00",
+   "retrieved_at": "2026-11-25T19:22:46.687279+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4753,56 +4399,56 @@
    "reports": [
     {
      "title": "VIB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
+     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -4872,51 +4518,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4929,7 +4575,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-25T08:45:23.326442+00:00",
+   "retrieved_at": "2026-11-25T19:22:29.010260+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5058,51 +4704,51 @@
    ],
    "market_news": [
     {
-     "title": "Công ty phát điện lớn nhất sàn chứng khoán thông báo “nóng\"",
-     "url": "https://cafef.vn/cong-ty-phat-dien-lon-nhat-san-chung-khoan-thong-bao-nong-18826112515301034.chn",
-     "date": "2026-11-25T08:31:00+00:00",
+     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
+     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch, Tổng giám đốc, các lãnh đạo cấp cao PNJ được trả lương, thưởng ra sao?",
-     "url": "https://cafef.vn/chu-tich-tong-giam-doc-cac-lanh-dao-cap-cao-pnj-duoc-tra-luong-thuong-ra-sao-188261125151754686.chn",
-     "date": "2026-11-25T08:17:00+00:00",
+     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
+     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
+     "date": "2026-11-25T17:05:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Bảo Minh tất toán một lô trái phiếu trước hạn",
-     "url": "https://cafef.vn/chung-khoan-bao-minh-tat-toan-mot-lo-trai-phieu-truoc-han-188261125135110738.chn",
-     "date": "2026-11-25T06:59:00+00:00",
+     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
+     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
+     "date": "2026-11-25T17:04:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Tập đoàn Mai Linh chỉ còn 120 nhân sự, bị ngân hàng giữ hơn 700m2 đất xử lý nợ",
-     "url": "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn",
-     "date": "2026-11-25T06:58:00+00:00",
+     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
+     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "PNJ bán vàng với giá thấp nhất thị trường giữa lúc “tình hình tài chính hết sức khẩn cấp”",
-     "url": "https://cafef.vn/pnj-ban-vang-voi-gia-thap-nhat-thi-truong-giua-luc-tinh-hinh-tai-chinh-het-suc-khan-cap-188261125131811819.chn",
-     "date": "2026-11-25T06:18:00+00:00",
+     "title": "Thấy gì từ việc loạt \"ngôi sao\" một thời PNJ, FPT, DGC lao dốc 60-85% từ đỉnh?",
+     "url": "https://cafef.vn/thay-gi-tu-viec-loat-ngoi-sao-mot-thoi-pnj-fpt-dgc-lao-doc-60-85-tu-dinh-188261125110420162.chn",
+     "date": "2026-11-25T17:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một ngân hàng Việt Nam huy động gần hàng nghìn tỷ với lãi suất chỉ từ 2,9%/năm",
-     "url": "https://cafef.vn/mot-ngan-hang-viet-nam-huy-dong-gan-hang-nghin-ty-voi-lai-suat-chi-tu-29-nam-188261125111612373.chn",
-     "date": "2026-11-25T04:29:00+00:00",
+     "title": "Phó Tổng Giám đốc SHB: Khách hàng có thể kiên nhẫn xếp hàng ăn mì ramen ở Nhật nhưng lại dễ sốt ruột khi gọi tổng đài",
+     "url": "https://cafef.vn/pho-tong-giam-doc-shb-khach-hang-co-the-kien-nhan-xep-hang-an-mi-ramen-o-nhat-nhung-lai-de-sot-ruot-khi-goi-tong-dai-188261125212118582.chn",
+     "date": "2026-11-25T14:46:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bầu Đức tặng sân vận động 2.000 chỗ chuẩn quốc tế cho quốc gia láng giềng Việt Nam",
-     "url": "https://cafef.vn/bau-duc-tang-san-van-dong-2000-cho-chuan-quoc-te-cho-quoc-gia-lang-gieng-viet-nam-188261125112105572.chn",
-     "date": "2026-11-25T04:24:00+00:00",
+     "title": "SeABank chính thức bổ nhiệm Tổng giám đốc và Phó Tổng giám đốc thường trực",
+     "url": "https://cafef.vn/seabank-chinh-thuc-bo-nhiem-tong-giam-doc-va-pho-tong-giam-doc-thuong-truc-188261125212335632.chn",
+     "date": "2026-11-25T14:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng giảm mạnh, tỷ giá trung tâm lập kỷ lục mới",
-     "url": "https://cafef.vn/gia-vang-giam-manh-ty-gia-trung-tam-lap-ky-luc-moi-18826112511111796.chn",
-     "date": "2026-11-25T04:22:00+00:00",
+     "title": "ACV phải xác định rõ thời điểm công bố thông tin khai thác sân bay Long Thành",
+     "url": "https://cafef.vn/acv-phai-xac-dinh-ro-thoi-diem-cong-bo-thong-tin-khai-thac-san-bay-long-thanh-188261125191450836.chn",
+     "date": "2026-11-25T12:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
