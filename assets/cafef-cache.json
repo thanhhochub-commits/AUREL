@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-26T03:38:52.320039+00:00",
+ "generated_at": "2026-11-26T17:01:59.113394+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:38.899199+00:00",
+   "retrieved_at": "2026-11-26T17:01:52.966665+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -88,6 +88,18 @@
    ],
    "disclosures": [
     {
+     "title": "ABB: Nghị quyết Hội đồng quản trị",
+     "url": "https://cafef.vn/du-lieu/ABB-3029354/abb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Giấy chứng nhận chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/ABB-3029353/abb-giay-chung-nhan-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt việc ký hợp tác bảo trì 147 máy ATM/CDM hãng Diebold",
      "url": "https://cafef.vn/du-lieu/ABB-3028380/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-viec-ky-hop-tac-bao-tri-147-may-atmcdm-hang-diebold.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -134,67 +146,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-3014446/abb-nghi-quyet-hoi-dong-quan-tri-gia-han-thue-dien-tich-van-phong-lam-tru-so-abbank-thai-binh.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết HĐQT Phê duyệt Ký kết hợp đồng hợp tác chiến lược giữa Ngân hàng và Công ty TNHH Thương Mại GEL-O&J",
-     "url": "https://cafef.vn/du-lieu/ABB-3012226/abb-nghi-quyet-hdqt-phe-duyet-ky-ket-hop-dong-hop-tac-chien-luoc-giua-ngan-hang-va-cong-ty-tnhh-thuong-mai-geloj.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt Thỏa thuận hợp tác chiến lược giai đoạn 2026-2030 với Viettronics",
-     "url": "https://cafef.vn/du-lieu/ABB-3008880/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-thoa-thuan-hop-tac-chien-luoc-giai-doan-20262030-voi-viettronics.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:37:50.504333+00:00",
+   "retrieved_at": "2026-11-26T17:01:26.865395+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +336,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:39.598007+00:00",
+   "retrieved_at": "2026-11-26T17:01:59.112844+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,51 +494,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:34.923784+00:00",
+   "retrieved_at": "2026-11-26T17:01:46.266366+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -596,75 +596,75 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BAB: Báo cáo tài chính quý 3/2026",
-     "url": "https://cafef.vn/BAB-3012460/bab-bao-cao-tai-chinh-quy-32026.chn",
-     "type": "bctc",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BAB: Báo cáo tài chính quý 3/2026 (công ty mẹ)",
-     "url": "https://cafef.vn/BAB-3012458/bab-bao-cao-tai-chinh-quy-32026-cong-ty-me.chn",
-     "type": "bctc",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
      "title": "BAB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BAB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     }
    ],
    "disclosures": [
+    {
+     "title": "BAB: Hoàng Thị Ngọc Huyền - người có liên quan đến Phó Chủ tịch HĐQT; Tổng Giám đốc - đăng ký bán 1.730.000 CP",
+     "url": "https://cafef.vn/du-lieu/BAB-3029451/bab-hoang-thi-ngoc-huyen-nguoi-co-lien-quan-den-pho-chu-tich-hdqt-tong-giam-doc-dang-ky-ban-1730000-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BAB: Nguyễn Văn Danh - người có liên quan đến Phó Chủ tịch HĐQT; Tổng Giám đốc - đăng ký bán 5.180.000 CP",
+     "url": "https://cafef.vn/du-lieu/BAB-3029450/bab-nguyen-van-danh-nguoi-co-lien-quan-den-pho-chu-tich-hdqt-tong-giam-doc-dang-ky-ban-5180000-cp.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "BAB: BAC A BANK công bố thông tin về việc nhận được Quyết định của Cục Thuế",
      "url": "https://cafef.vn/du-lieu/BAB-3024762/bab-bac-a-bank-cong-bo-thong-tin-ve-viec-nhan-duoc-quyet-dinh-cua-cuc-thue.chn?utm_source=du-lieu",
@@ -712,67 +712,55 @@
      "url": "https://cafef.vn/du-lieu/BAB-2981795/bab-nghi-quyet-hdqt-thay-doi-dia-chi-chi-nhanh-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BAB: Nghị quyết HĐQT đổi địa chỉ chi nhánh, PGD theo địa giới hành chính mới",
-     "url": "https://cafef.vn/du-lieu/BAB-2973548/bab-nghi-quyet-hdqt-doi-dia-chi-chi-nhanh-pgd-theo-dia-gioi-hanh-chinh-moi.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BAB: Chào bán 1.564 tỷ đồng trái phiếu ra công chúng lần 2 (đợt 5)",
-     "url": "https://cafef.vn/du-lieu/BAB-2971896/bab-chao-ban-1564-ty-dong-trai-phieu-ra-cong-chung-lan-2-dot-5.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -785,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:00.127113+00:00",
+   "retrieved_at": "2026-11-26T17:01:26.867588+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -795,56 +783,56 @@
    "reports": [
     {
      "title": "BID: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BID: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -914,51 +902,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -971,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:52.319505+00:00",
+   "retrieved_at": "2026-11-26T17:01:59.019998+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -981,28 +969,28 @@
    "reports": [
     {
      "title": "BSI: Dữ liệu BCTC Quý 3/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
      "period_end": "2026-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BSI: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BSI: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "BSI: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -1010,8 +998,8 @@
    ],
    "disclosures": [
     {
-     "title": "BSI: Quyết định của HĐQT về việc phê duyệt hạn mức tín dụng và các hợp đồng cấp tín dụng, hợp đồng bảo đảm tại Vietinkbank Chi nhánh Hà Nội",
-     "url": "https://cafef.vn/du-lieu/BSI-3025880/bsi-quyet-dinh-cua-hdqt-ve-viec-phe-duyet-han-muc-tin-dung-va-cac-hop-dong-cap-tin-dung-hop-dong-bao-dam-tai-vietinkbank-chi-nhanh-ha-noi.chn?utm_source=du-lieu",
+     "title": "BSI: Quyết định của HĐQT phê duyệt hạn mức tín dụng và các hợp đồng cấp tín dụng, hợp đồng bảo đảm tại Vietinkbank Chi nhánh Hà Nội",
+     "url": "https://cafef.vn/du-lieu/BSI-3025880/bsi-quyet-dinh-cua-hdqt-phe-duyet-han-muc-tin-dung-va-cac-hop-dong-cap-tin-dung-hop-dong-bao-dam-tai-vietinkbank-chi-nhanh-ha-noi.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1072,51 +1060,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1129,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:25.207072+00:00",
+   "retrieved_at": "2026-11-26T17:01:46.638185+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1258,51 +1246,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1315,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:01.413238+00:00",
+   "retrieved_at": "2026-11-26T17:01:27.514630+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1325,56 +1313,56 @@
    "reports": [
     {
      "title": "CTG: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "CTG: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -1444,51 +1432,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1501,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:31.492445+00:00",
+   "retrieved_at": "2026-11-26T17:01:46.256698+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1511,56 +1499,56 @@
    "reports": [
     {
      "title": "EIB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "EIB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -1630,51 +1618,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1687,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:03.373246+00:00",
+   "retrieved_at": "2026-11-26T17:01:37.475691+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1696,6 +1684,18 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "HDB: Hồ sơ đăng ký chào bán trái phiếu ra công chúng đợt 1",
+     "url": "https://cafef.vn/du-lieu/HDB-3029476/hdb-ho-so-dang-ky-chao-ban-trai-phieu-ra-cong-chung-dot-1.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "HDB: Thông báo về ngày đăng ký cuối cùng lấy ý kiến cổ đông bằng văn bản lần 3 năm 2026",
+     "url": "https://cafef.vn/du-lieu/HDB-3029096/hdb-thong-bao-ve-ngay-dang-ky-cuoi-cung-lay-y-kien-co-dong-bang-van-ban-lan-3-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "HDB: Thông báo nhận được Quyết định của NHNN về việc sửa đổi nội dung về trụ sở chính tại Giấy phép thành lập và hoạt động",
      "url": "https://cafef.vn/du-lieu/HDB-3025816/hdb-thong-bao-nhan-duoc-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-ve-tru-so-chinh-tai-giay-phep-thanh-lap-va-hoat-dong.chn?utm_source=du-lieu",
@@ -1743,67 +1743,55 @@
      "url": "https://cafef.vn/du-lieu/HDB-3013624/hdb-bao-cao-ket-qua-mua-lai-truoc-han-trai-phieu-phat-hanh-ra-cong-chung-hdbc7y202303.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "HDB: Thông báo công văn của NHNN về GCN đăng ký đầu tư gián tiếp ra nước ngoài",
-     "url": "https://cafef.vn/du-lieu/HDB-3009439/hdb-thong-bao-cong-van-cua-nhnn-ve-gcn-dang-ky-dau-tu-gian-tiep-ra-nuoc-ngoai.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "HDB: Thông báo HĐQT về tiêu chuẩn, điều kiện đề cử, ứng cử bầu thành viên HĐQT, BKS nhiệm kỳ 2027-2032",
-     "url": "https://cafef.vn/du-lieu/HDB-3007082/hdb-thong-bao-hdqt-ve-tieu-chuan-dieu-kien-de-cu-ung-cu-bau-thanh-vien-hdqt-bks-nhiem-ky-20272032.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1818,14 +1806,71 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:48.348967+00:00",
+   "retrieved_at": "2026-11-26T17:01:52.902503+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/klb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [],
+   "reports": [
+    {
+     "title": "KLB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2026-06-30",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2026-03-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC năm 2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-09-30",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC năm 2024 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2024-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC năm 2023 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2023-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "KLB: Dữ liệu BCTC năm 2022 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
+     "period_end": "2022-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    }
+   ],
    "disclosures": [
     {
      "title": "KLB: Thông báo nhận được Văn bản của HNX về việc hủy niêm yết trái phiếu KLB124009",
@@ -1890,57 +1935,55 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [
-    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
-   ],
+   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -1949,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:19.548184+00:00",
+   "retrieved_at": "2026-11-26T17:01:38.419903+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -1959,56 +2002,56 @@
    "reports": [
     {
      "title": "LPB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "LPB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -2078,51 +2121,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2135,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:07.908620+00:00",
+   "retrieved_at": "2026-11-26T17:01:34.495903+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2145,56 +2188,56 @@
    "reports": [
     {
      "title": "MBB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MBB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -2202,14 +2245,20 @@
    ],
    "disclosures": [
     {
+     "title": "MBB: CBTT hợp đồng mua bán cổ phiếu MBB giữa MB với SCIC",
+     "url": "https://cafef.vn/du-lieu/MBB-3029339/mbb-cbtt-hop-dong-mua-ban-co-phieu-mbb-giua-mb-voi-scic.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "MBB: Thông báo giao dịch cổ phiếu của tổ chức có liên quan đến người nội bộ Tập đoàn Công nghiệp - Viễn thông Quân đội",
      "url": "https://cafef.vn/du-lieu/MBB-3027398/mbb-thong-bao-giao-dich-co-phieu-cua-to-chuc-co-lien-quan-den-nguoi-noi-bo-tap-doan-cong-nghiep-vien-thong-quan-doi.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "MBB: Báo cáo kết quả giao dịch cổ phiếu của tổ chức có liên quan đến Người nội bộ Công đoàn cơ sở Ngân hàng Thương mại Cổ phần Quân Đội",
-     "url": "https://cafef.vn/du-lieu/MBB-3025862/mbb-bao-cao-ket-qua-giao-dich-co-phieu-cua-to-chuc-co-lien-quan-den-nguoi-noi-bo-cong-doan-co-so-ngan-hang-thuong-mai-co-phan-quan-doi.chn?utm_source=du-lieu",
+     "title": "MBB: Công đoàn cơ sở MBB đã nhận chuyển nhượng 198.391 cp",
+     "url": "https://cafef.vn/du-lieu/MBB-3025862/mbb-cong-doan-co-so-mbb-da-nhan-chuyen-nhuong-198391-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -2254,61 +2303,55 @@
      "url": "https://cafef.vn/du-lieu/MBB-3020507/mbb-nghi-quyet-hdqt-thong-qua-ho-so-dang-ky-chao-ban-co-phieu-rieng-le.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MBB: Quyết định của HĐQT về việc thay đổi địa điểm Chi nhánh Nam Gia Lâm, thay đổi địa điểm và tên gọi PGD Nam Trung Yên",
-     "url": "https://cafef.vn/du-lieu/MBB-3016362/mbb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-chi-nhanh-nam-gia-lam-thay-doi-dia-diem-va-ten-goi-pgd-nam-trung-yen.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2321,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:24.799159+00:00",
+   "retrieved_at": "2026-11-26T17:01:43.980833+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2331,62 +2374,68 @@
    "reports": [
     {
      "title": "MSB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "MSB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     }
    ],
    "disclosures": [
+    {
+     "title": "MSB: Thông báo về ngày đăng ký cuối cùng thực hiện quyền đề cử, ứng cử nhân sự dự kiến bầu thành viên HĐQT, BKS nhiệm kỳ VIII (2027-2031)",
+     "url": "https://cafef.vn/du-lieu/MSB-3029416/msb-thong-bao-ve-ngay-dang-ky-cuoi-cung-thuc-hien-quyen-de-cu-ung-cu-nhan-su-du-kien-bau-thanh-vien-hdqt-bks-nhiem-ky-viii-20272031.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "MSB: Nghị quyết HĐQT về việc phát hành trái phiếu riêng lẻ lần 2 năm 2026",
      "url": "https://cafef.vn/du-lieu/MSB-3027088/msb-nghi-quyet-hdqt-ve-viec-phat-hanh-trai-phieu-rieng-le-lan-2-nam-2026.chn?utm_source=du-lieu",
@@ -2440,61 +2489,55 @@
      "url": "https://cafef.vn/du-lieu/MSB-3007745/msb-nghi-quyet-hdqt-thong-qua-ho-so-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Nghị quyết HĐQT phê duyệt triển khai tăng vốn điều lệ lần 2 năm 2026",
-     "url": "https://cafef.vn/du-lieu/MSB-2999796/msb-nghi-quyet-hdqt-phe-duyet-trien-khai-tang-von-dieu-le-lan-2-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2507,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:30.892467+00:00",
+   "retrieved_at": "2026-11-26T17:01:46.373318+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2574,8 +2617,14 @@
    ],
    "disclosures": [
     {
-     "title": "NAB: Nghị quyết HĐQT về việc thông qua ngày đăng ký giao dịch bổ sung ESOP 2026",
-     "url": "https://cafef.vn/du-lieu/NAB-3027364/nab-nghi-quyet-hdqt-ve-viec-thong-qua-ngay-dang-ky-giao-dich-bo-sung-esop-2026.chn?utm_source=du-lieu",
+     "title": "NAB: Thông báo về việc giao dịch chứng khoán thay đổi đăng ký niêm yết",
+     "url": "https://cafef.vn/du-lieu/NAB-3029417/nab-thong-bao-ve-viec-giao-dich-chung-khoan-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "NAB: Nghị quyết HĐQT thông qua ngày đăng ký giao dịch bổ sung ESOP 2026",
+     "url": "https://cafef.vn/du-lieu/NAB-3027364/nab-nghi-quyet-hdqt-thong-qua-ngay-dang-ky-giao-dich-bo-sung-esop-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -2626,61 +2675,55 @@
      "url": "https://cafef.vn/du-lieu/NAB-3010715/nab-giai-trinh-bien-dong-lnst-quy-32026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "NAB: Nghị quyết HĐQT về phương án chào bán cổ phiếu riêng lẻ năm 2026",
-     "url": "https://cafef.vn/du-lieu/NAB-3005296/nab-nghi-quyet-hdqt-ve-phuong-an-chao-ban-co-phieu-rieng-le-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2693,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:33.954649+00:00",
+   "retrieved_at": "2026-11-26T17:01:52.810951+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2870,51 +2913,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2927,7 +2970,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:26.686425+00:00",
+   "retrieved_at": "2026-11-26T17:01:45.237054+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -2937,56 +2980,56 @@
    "reports": [
     {
      "title": "OCB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "OCB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -3056,51 +3099,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3113,7 +3156,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:32.475940+00:00",
+   "retrieved_at": "2026-11-26T17:01:52.759004+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3198,6 +3241,12 @@
    ],
    "disclosures": [
     {
+     "title": "PGB: Nghị quyết Hội đồng quản trị",
+     "url": "https://cafef.vn/du-lieu/PGB-3029404/pgb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "PGB: Quyết định của Ủy ban Chứng khoán Nhà Nước về việc gia hạn thời gian phân phối cổ phiếu Đợt 1",
      "url": "https://cafef.vn/du-lieu/PGB-3028411/pgb-quyet-dinh-cua-uy-ban-chung-khoan-nha-nuoc-ve-viec-gia-han-thoi-gian-phan-phoi-co-phieu-dot-1.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -3250,61 +3299,55 @@
      "url": "https://cafef.vn/du-lieu/PGB-2993599/pgb-don-xin-tu-nhiem-thanh-vien-bks.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "PGB: Ngày đăng ký cuối cùng phát hành cổ phiếu cho cổ đông hiện hữu, Thực hiện quyền mua cổ phiếu chào bán thêm cho cổng động hiện hữu đợt 1",
-     "url": "https://cafef.vn/du-lieu/PGB-2987956/pgb-ngay-dang-ky-cuoi-cung-phat-hanh-co-phieu-cho-co-dong-hien-huu-thuc-hien-quyen-mua-co-phieu-chao-ban-them-cho-cong-dong-hien-huu-dot-1.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3317,7 +3360,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:36.376907+00:00",
+   "retrieved_at": "2026-11-26T17:01:52.131508+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3494,51 +3537,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3551,7 +3594,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:19.942742+00:00",
+   "retrieved_at": "2026-11-26T17:01:41.067326+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3561,56 +3604,56 @@
    "reports": [
     {
      "title": "SHB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SHB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -3618,8 +3661,8 @@
    ],
    "disclosures": [
     {
-     "title": "SHB: Quyết định về việc thay đổi đăng ký niêm yết",
-     "url": "https://cafef.vn/du-lieu/SHB-3027410/shb-quyet-dinh-ve-viec-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
+     "title": "SHB: 25.11.2026, niêm yết bổ sung 200.000.000 cp",
+     "url": "https://cafef.vn/du-lieu/SHB-3027410/shb-25112026-niem-yet-bo-sung-200000000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3680,51 +3723,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3737,7 +3780,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:26.708862+00:00",
+   "retrieved_at": "2026-11-26T17:01:40.859645+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3747,62 +3790,68 @@
    "reports": [
     {
      "title": "SSB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "SSB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     }
    ],
    "disclosures": [
+    {
+     "title": "SSB: Thông báo thay đổi nhân sự - Bổ nhiệm Phó Tổng Giám đốc thường trực (kèm Quyết định HĐQT)",
+     "url": "https://cafef.vn/du-lieu/SSB-3029413/ssb-thong-bao-thay-doi-nhan-su-bo-nhiem-pho-tong-giam-doc-thuong-truc-kem-quyet-dinh-hdqt.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "SSB: Thông báo thay đổi nhân sự và các Quyết định HĐQT",
      "url": "https://cafef.vn/du-lieu/SSB-3028651/ssb-thong-bao-thay-doi-nhan-su-va-cac-quyet-dinh-hdqt.chn?utm_source=du-lieu",
@@ -3856,61 +3905,55 @@
      "url": "https://cafef.vn/du-lieu/SSB-3006845/ssb-bo-nhiem-ba-tran-thi-thanh-thuy-giu-chuc-chu-tich-hdqt-tu-22102026-kem-nghi-quyet-don-tu-nhiem-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "SSB: Chồng bà Nguyễn Thị Nga - Phó Chủ tịch HĐQT đã mua 8.000.000 cp",
-     "url": "https://cafef.vn/du-lieu/SSB-3006836/ssb-chong-ba-nguyen-thi-nga-pho-chu-tich-hdqt-da-mua-8000000-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3923,14 +3966,71 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:15.745178+00:00",
+   "retrieved_at": "2026-11-26T17:01:34.488478+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
     "disclosures": "https://cafef.vn/du-lieu/tin-doanh-nghiep/stb/event.chn",
     "documents": "https://cafef.vn/du-lieu/cong-bo-thong-tin.chn"
    },
-   "reports": [],
+   "reports": [
+    {
+     "title": "STB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2026-06-30",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2026-03-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC năm 2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2025-09-30",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC năm 2024 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2024-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC năm 2023 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2023-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    },
+    {
+     "title": "STB: Dữ liệu BCTC năm 2022 (CAFEF)",
+     "url": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
+     "period_end": "2022-12-31",
+     "source": "CAFEF - bảng số liệu, không phải PDF gốc",
+     "type": "bctc_data"
+    }
+   ],
    "disclosures": [
     {
      "title": "STB: Nghị quyết HĐQT thông qua phương án phát hành và sử dụng số tiền thu được từ đợt chào bán trái phiếu riêng lẻ tăng vốn cấp 2 năm 2026",
@@ -3995,57 +4095,55 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
-   "messages": [
-    "Chưa tải được các kỳ số liệu BCTC từ trang tài chính CafeF."
-   ],
+   "messages": [],
    "status": "ok",
    "note": "Nguồn dữ liệu công khai; chưa có API chính thức hoặc đồng bộ tự động số liệu BCTC vào AUREL. Đối chiếu BCTC gốc trước khi phân tích."
   },
@@ -4054,7 +4152,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:37:52.922081+00:00",
+   "retrieved_at": "2026-11-26T17:01:30.365725+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4063,6 +4161,30 @@
    },
    "reports": [],
    "disclosures": [
+    {
+     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Nguyễn Anh Tuấn, Nguyễn Thu Lan, Nguyễn Tuấn Minh",
+     "url": "https://cafef.vn/du-lieu/TCB-3029218/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-nguyen-anh-tuan-nguyen-thu-lan-nguyen-tuan-minh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Macaire Alexandre, Charles, Emmanuel, Nguyễn Thị Trà My, Nguyễn Thị Vân Hoài",
+     "url": "https://cafef.vn/du-lieu/TCB-3029214/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-macaire-alexandre-charles-emmanuel-nguyen-thi-tra-my-nguyen-thi-van-hoai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của người có liên quan của Người nội bộ Đặng Ngọc Cảnh",
+     "url": "https://cafef.vn/du-lieu/TCB-3029213/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-co-lien-quan-cua-nguoi-noi-bo-dang-ngoc-canh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Trần Thị Thu Lan, Phan Thị Hải Yến",
+     "url": "https://cafef.vn/du-lieu/TCB-3029212/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-tran-thi-thu-lan-phan-thi-hai-yen.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
     {
      "title": "TCB: Nghị quyết HĐQT về việc phê duyệt TCBS cung cấp dịch vụ phát hành trái phiếu TCB lần 23",
      "url": "https://cafef.vn/du-lieu/TCB-3028653/tcb-nghi-quyet-hdqt-ve-viec-phe-duyet-tcbs-cung-cap-dich-vu-phat-hanh-trai-phieu-tcb-lan-23.chn?utm_source=du-lieu",
@@ -4098,79 +4220,55 @@
      "url": "https://cafef.vn/du-lieu/TCB-3019155/tcb-quyet-dinh-ve-viec-thay-doi-dia-diem-pgd-nam-sai-gon-pgd-cho-moi.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Quyết định về việc thành lập Chi nhánh Tuyên Quang",
-     "url": "https://cafef.vn/du-lieu/TCB-3019151/tcb-quyet-dinh-ve-viec-thanh-lap-chi-nhanh-tuyen-quang.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Quyết định về việc thành lập và thay đổi địa điểm PGD Bảo Lộc",
-     "url": "https://cafef.vn/du-lieu/TCB-3019150/tcb-quyet-dinh-ve-viec-thanh-lap-va-thay-doi-dia-diem-pgd-bao-loc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Số lượng cổ phiếu có quyền biểu quyết đang lưu hành là 10.629.355.539 cp",
-     "url": "https://cafef.vn/du-lieu/TCB-3018499/tcb-so-luong-co-phieu-co-quyen-bieu-quyet-dang-luu-hanh-la-10629355539-cp.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Đã phát hành 3.543.115.125 cổ phiếu để trả cổ tức",
-     "url": "https://cafef.vn/du-lieu/TCB-3018638/tcb-da-phat-hanh-3543115125-co-phieu-de-tra-co-tuc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4185,7 +4283,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:07.903262+00:00",
+   "retrieved_at": "2026-11-26T17:01:36.160471+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4252,6 +4350,18 @@
    ],
    "disclosures": [
     {
+     "title": "TPB: Nghị quyết HĐQT số 49 ngày 26/11/2026",
+     "url": "https://cafef.vn/du-lieu/TPB-3029465/tpb-nghi-quyet-hdqt-so-49-ngay-26112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TPB: Thông báo về ngày đăng ký cuối cùng để thực hiện quyền ứng cử, đề cử nhân sự dự kiến bầu bổ sung thành viên HĐQT nhiệm kỳ 2023-2028",
+     "url": "https://cafef.vn/du-lieu/TPB-3029102/tpb-thong-bao-ve-ngay-dang-ky-cuoi-cung-de-thuc-hien-quyen-ung-cu-de-cu-nhan-su-du-kien-bau-bo-sung-thanh-vien-hdqt-nhiem-ky-20232028.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "TPB: Nghị quyết HĐQT thông qua ngày đăng ký cuối cùng thực hiện quyền cho cổ đông hiện hữu",
      "url": "https://cafef.vn/du-lieu/TPB-3025583/tpb-nghi-quyet-hdqt-thong-qua-ngay-dang-ky-cuoi-cung-thuc-hien-quyen-cho-co-dong-hien-huu.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4298,67 +4408,55 @@
      "url": "https://cafef.vn/du-lieu/TPB-3010464/tpb-quyet-dinh-hdqt-ve-viec-sua-doi-va-ban-hanh-dieu-le.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TPB: Thông báo quyết định của NHNN về việc sửa đổi nội dung vốn điều lệ tại Giấy phép thành lập và hoạt động của TPB",
-     "url": "https://cafef.vn/du-lieu/TPB-3008067/tpb-thong-bao-quyet-dinh-cua-nhnn-ve-viec-sua-doi-noi-dung-von-dieu-le-tai-giay-phep-thanh-lap-va-hoat-dong-cua-tpb.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TPB: 3.11.2026, giao dịch 416.088.023 cp niêm yết bổ sung",
-     "url": "https://cafef.vn/du-lieu/TPB-3007712/tpb-3112026-giao-dich-416088023-cp-niem-yet-bo-sung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4371,7 +4469,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:39.647705+00:00",
+   "retrieved_at": "2026-11-26T17:01:54.003086+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4443,51 +4541,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4502,7 +4600,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:37:50.502586+00:00",
+   "retrieved_at": "2026-11-26T17:01:27.506167+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4631,51 +4729,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4688,7 +4786,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:38:10.251447+00:00",
+   "retrieved_at": "2026-11-26T17:01:35.635784+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4698,56 +4796,56 @@
    "reports": [
     {
      "title": "VIB: Dữ liệu BCTC Quý 2/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2026-06-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC Quý 1/2026 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2026-03-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC Quý 4/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2025-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC Quý 3/2025 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2025-09-30",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2024 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2024-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2023 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2023-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
     },
     {
      "title": "VIB: Dữ liệu BCTC năm 2022 (CAFEF)",
-     "url": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
+     "url": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
      "period_end": "2022-12-31",
      "source": "CAFEF - bảng số liệu, không phải PDF gốc",
      "type": "bctc_data"
@@ -4817,51 +4915,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4874,7 +4972,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-26T03:37:50.013760+00:00",
+   "retrieved_at": "2026-11-26T17:01:26.866574+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5003,51 +5101,51 @@
    ],
    "market_news": [
     {
-     "title": "Vừa lên sàn HoSE, một doanh nghiệp \"chơi lớn\" chi hơn 300 tỷ đồng trả cổ tức ngay trong tháng 12",
-     "url": "https://cafef.vn/vua-len-san-hose-mot-doanh-nghiep-choi-lon-chi-hon-300-ty-dong-tra-co-tuc-ngay-trong-thang-12-188261126095018039.chn",
-     "date": "2026-11-26T03:26:00+00:00",
+     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
+     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
+     "date": "2026-11-26T16:06:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Kế toán trưởng một doanh nghiệp vừa xin nghỉ đã bất ngờ đổi ý",
-     "url": "https://cafef.vn/ke-toan-truong-mot-doanh-nghiep-vua-xin-nghi-da-bat-ngo-doi-y-188261126100150063.chn",
-     "date": "2026-11-26T03:16:00+00:00",
+     "title": "VN-Index ‘bay’ gần 60 điểm sau thông tin Mỹ sẽ áp thuế",
+     "url": "https://cafef.vn/vn-index-bay-gan-60-diem-sau-thong-tin-my-se-ap-thue-18826112621293739.chn",
+     "date": "2026-11-26T16:03:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng bạc 26/11: Phú Quý, SJC, DOJI đồng loạt bật tăng!",
-     "url": "https://cafef.vn/gia-vang-bac-26-11-phu-quy-sjc-doji-dong-loat-bat-tang-188261126094004125.chn",
-     "date": "2026-11-26T03:10:00+00:00",
+     "title": "Chủ tịch Coteccons mua thành công cổ phiếu CTD như đăng ký",
+     "url": "https://cafef.vn/chu-tich-coteccons-mua-thanh-cong-co-phieu-ctd-nhu-dang-ky-188261126213143244.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 26/11/2026 bao nhiêu 1 chỉ?",
-     "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-26-11-2026-bao-nhieu-1-chi-188261126093849161.chn",
-     "date": "2026-11-26T02:38:00+00:00",
+     "title": "Lý do lãnh đạo doanh nghiệp rầm rộ xuống tiền mua cổ phiếu",
+     "url": "https://cafef.vn/ly-do-lanh-dao-doanh-nghiep-ram-ro-xuong-tien-mua-co-phieu-188261126212834306.chn",
+     "date": "2026-11-26T16:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Từng mất gần triệu USD chỉ trong 1 tháng, CEO chứng khoán tiết lộ điều tự hào nhất sau 20 năm",
-     "url": "https://cafef.vn/tung-mat-gan-trieu-usd-chi-trong-1-thang-ceo-chung-khoan-tiet-lo-dieu-tu-hao-nhat-sau-20-nam-188261125230316369.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Chi phí vốn cao khiến doanh nghiệp Việt hụt hơi khi ra “biển lớn”: Đâu là lời giải giai đoạn 2026-2030?",
+     "url": "https://cafef.vn/chi-phi-von-cao-khien-doanh-nghiep-viet-hut-hoi-khi-ra-bien-lon-dau-la-loi-giai-giai-doan-2026-2030-188261126153902003.chn",
+     "date": "2026-11-26T10:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "ETF vàng toàn cầu có tuần bán mạnh nhất kể từ tháng 6, điều gì đang xảy ra?",
-     "url": "https://cafef.vn/etf-vang-toan-cau-co-tuan-ban-manh-nhat-ke-tu-thang-6-dieu-gi-dang-xay-ra-188261125221802966.chn",
-     "date": "2026-11-25T17:05:00+00:00",
+     "title": "Mỹ ra kết luận sơ bộ về nghi vấn lẩn tránh thuế với thép Việt Nam qua Indonesia",
+     "url": "https://cafef.vn/my-ra-ket-luan-so-bo-ve-nghi-van-lan-tranh-thue-voi-thep-viet-nam-qua-indonesia-188261126164456361.chn",
+     "date": "2026-11-26T10:12:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Gần 400.000 tỷ đồng trái phiếu chờ thanh toán năm 2027, doanh nghiệp nào dẫn đầu?",
-     "url": "https://cafef.vn/gan-400000-ty-dong-trai-phieu-cho-thanh-toan-nam-2027-doanh-nghiep-nao-dan-dau-188261125113219716.chn",
-     "date": "2026-11-25T17:04:00+00:00",
+     "title": "Nhà đầu tư bán tháo trên diện rộng, VN-Index lao dốc gần 58 điểm",
+     "url": "https://cafef.vn/nha-dau-tu-ban-thao-tren-dien-rong-vn-index-lao-doc-gan-58-diem-1882611261646383.chn",
+     "date": "2026-11-26T09:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE bất ngờ \"rơi thẳng đứng\", bốc hơi gần nửa thị giá chưa đầy một tháng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-bat-ngo-roi-thang-dung-boc-hoi-gan-nua-thi-gia-chua-day-mot-thang-188261125212706652.chn",
-     "date": "2026-11-25T17:02:00+00:00",
+     "title": "Thị trường chứng khoán Việt Nam giảm mạnh nhất thế giới",
+     "url": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-giam-manh-nhat-the-gioi-188261126155230572.chn",
+     "date": "2026-11-26T08:52:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
