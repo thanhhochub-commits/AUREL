@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-27T01:47:30.665625+00:00",
+ "generated_at": "2026-11-27T12:39:23.713996+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:28.363468+00:00",
+   "retrieved_at": "2026-11-27T12:39:22.626867+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -88,8 +88,20 @@
    ],
    "disclosures": [
     {
-     "title": "ABB: Nghị quyết Hội đồng quản trị",
-     "url": "https://cafef.vn/du-lieu/ABB-3029354/abb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "title": "ABB: Phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu",
+     "url": "https://cafef.vn/du-lieu/ABB-3030226/abb-phat-hanh-co-phieu-de-tang-von-co-phan-tu-nguon-von-chu-so-huu.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Thông báo chào bán cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/ABB-3030221/abb-thong-bao-chao-ban-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "ABB: Nghị quyết Hội đồng quản trị Phê duyệt Cấp tín dụng cho khách hàng",
+     "url": "https://cafef.vn/du-lieu/ABB-3029354/abb-nghi-quyet-hoi-dong-quan-tri-phe-duyet-cap-tin-dung-cho-khach-hang.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -134,67 +146,55 @@
      "url": "https://cafef.vn/du-lieu/ABB-3017829/abb-dinh-chinh-thong-tin-trinh-bay-trong-bctc-quy-3-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Đính chính thông tin trình bày trong BCTC năm 2025 và bán niên 2026",
-     "url": "https://cafef.vn/du-lieu/ABB-3014452/abb-dinh-chinh-thong-tin-trinh-bay-trong-bctc-nam-2025-va-ban-nien-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "ABB: Nghị quyết Hội đồng quản trị Gia hạn thuê diện tích văn phòng làm trụ sở ABBank Thái Bình",
-     "url": "https://cafef.vn/du-lieu/ABB-3014446/abb-nghi-quyet-hoi-dong-quan-tri-gia-han-thue-dien-tich-van-phong-lam-tru-so-abbank-thai-binh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:00.083022+00:00",
+   "retrieved_at": "2026-11-27T12:39:02.699777+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +336,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:28.343322+00:00",
+   "retrieved_at": "2026-11-27T12:39:23.399049+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,51 +494,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:16.592471+00:00",
+   "retrieved_at": "2026-11-27T12:39:15.492124+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -654,14 +654,14 @@
    ],
    "disclosures": [
     {
-     "title": "BAB: Hoàng Thị Ngọc Huyền - người có liên quan đến Phó Chủ tịch HĐQT; Tổng Giám đốc - đăng ký bán 1.730.000 CP",
-     "url": "https://cafef.vn/du-lieu/BAB-3029451/bab-hoang-thi-ngoc-huyen-nguoi-co-lien-quan-den-pho-chu-tich-hdqt-tong-giam-doc-dang-ky-ban-1730000-cp.chn?utm_source=du-lieu",
+     "title": "BAB: Hoàng Thị Ngọc Huyền NLQ đến Phó Chủ tịch HĐQT; Tổng Giám đốc đăng ký bán 1.730.000 CP",
+     "url": "https://cafef.vn/du-lieu/BAB-3029451/bab-hoang-thi-ngoc-huyen-nlq-den-pho-chu-tich-hdqt-tong-giam-doc-dang-ky-ban-1730000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "BAB: Nguyễn Văn Danh - người có liên quan đến Phó Chủ tịch HĐQT; Tổng Giám đốc - đăng ký bán 5.180.000 CP",
-     "url": "https://cafef.vn/du-lieu/BAB-3029450/bab-nguyen-van-danh-nguoi-co-lien-quan-den-pho-chu-tich-hdqt-tong-giam-doc-dang-ky-ban-5180000-cp.chn?utm_source=du-lieu",
+     "title": "BAB: Em rể bà Thái Hương Phó Chủ tịch HĐQT; Tổng Giám đốc đăng ký bán 5.180.000 CP",
+     "url": "https://cafef.vn/du-lieu/BAB-3029450/bab-em-re-ba-thai-huong-pho-chu-tich-hdqt-tong-giam-doc-dang-ky-ban-5180000-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -716,51 +716,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:00.074950+00:00",
+   "retrieved_at": "2026-11-27T12:39:02.887226+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -840,6 +840,24 @@
    ],
    "disclosures": [
     {
+     "title": "BID: Quyết định về việc thay đổi địa điểm trụ sở Chi nhánh Trung Sơn Thanh Hóa",
+     "url": "https://cafef.vn/du-lieu/BID-3030210/bid-quyet-dinh-ve-viec-thay-doi-dia-diem-tru-so-chi-nhanh-trung-son-thanh-hoa.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: CBTT các nội dung liên quan đến phát hành cổ phiếu để trả cổ tức của BIDV",
+     "url": "https://cafef.vn/du-lieu/BID-3030183/bid-cbtt-cac-noi-dung-lien-quan-den-phat-hanh-co-phieu-de-tra-co-tuc-cua-bidv.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "BID: Thông báo nhận được công văn của NHNNVN về việc mức tăng vốn điều lệ của BIDV và Nghị quyết HĐQT số 1414 ngày 26/11/2026",
+     "url": "https://cafef.vn/du-lieu/BID-3030159/bid-thong-bao-nhan-duoc-cong-van-cua-nhnnvn-ve-viec-muc-tang-von-dieu-le-cua-bidv-va-nghi-quyet-hdqt-so-1414-ngay-26112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "BID: Nghị quyết HĐQT phê duyệt một số nội dung trong phương án tăng vốn điều lệ thông qua phát hành cổ phiếu để chi trả cổ tức",
      "url": "https://cafef.vn/du-lieu/BID-3025819/bid-nghi-quyet-hdqt-phe-duyet-mot-so-noi-dung-trong-phuong-an-tang-von-dieu-le-thong-qua-phat-hanh-co-phieu-de-chi-tra-co-tuc.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -880,73 +898,55 @@
      "url": "https://cafef.vn/du-lieu/BID-3020261/bid-thong-bao-giao-dich-voi-ben-co-lien-quan-bic.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: Nghị quyết thông qua Hồ sơ đăng ký chào bán trái phiếu tăng vốn BIDV ra công chúng",
-     "url": "https://cafef.vn/du-lieu/BID-3020266/bid-nghi-quyet-thong-qua-ho-so-dang-ky-chao-ban-trai-phieu-tang-von-bidv-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: HĐQT phê duyệt giao dịch với bên liên quan BIC",
-     "url": "https://cafef.vn/du-lieu/BID-3019573/bid-hdqt-phe-duyet-giao-dich-voi-ben-lien-quan-bic.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "BID: HĐQT thông qua giao dịch với bên liên quan KEB Hana Bank",
-     "url": "https://cafef.vn/du-lieu/BID-3019574/bid-hdqt-thong-qua-giao-dich-voi-ben-lien-quan-keb-hana-bank.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:30.665205+00:00",
+   "retrieved_at": "2026-11-27T12:39:23.713428+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,51 +1060,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:20.599128+00:00",
+   "retrieved_at": "2026-11-27T12:39:17.798394+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,51 +1246,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:01.214972+00:00",
+   "retrieved_at": "2026-11-27T12:39:03.494680+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1370,6 +1370,18 @@
    ],
    "disclosures": [
     {
+     "title": "CTG: CBTT ban hành Nghị quyết HĐQT số 490 ngày 27/11/2026",
+     "url": "https://cafef.vn/du-lieu/CTG-3030213/ctg-cbtt-ban-hanh-nghi-quyet-hdqt-so-490-ngay-27112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "CTG: CBTT ban hành Nghị quyết HĐQT số 487 ngày 27/11/2026",
+     "url": "https://cafef.vn/du-lieu/CTG-3030212/ctg-cbtt-ban-hanh-nghi-quyet-hdqt-so-487-ngay-27112026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "CTG: CBTT chào bán trái phiếu ra công chúng đợt 2",
      "url": "https://cafef.vn/du-lieu/CTG-3028919/ctg-cbtt-chao-ban-trai-phieu-ra-cong-chung-dot-2.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1416,67 +1428,55 @@
      "url": "https://cafef.vn/du-lieu/CTG-2996472/ctg-ban-cao-bach-va-thong-bao-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "CTG: Giấy chứng nhận đăng ký chào bán trái phiếu ra công chúng",
-     "url": "https://cafef.vn/du-lieu/CTG-2993982/ctg-giay-chung-nhan-dang-ky-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "CTG: HĐQT thông qua nội dung Văn bản sửa đổi bổ sung Hợp đồng kết nối giữa VietinBank và VietinBank FMC",
-     "url": "https://cafef.vn/du-lieu/CTG-2989827/ctg-hdqt-thong-qua-noi-dung-van-ban-sua-doi-bo-sung-hop-dong-ket-noi-giua-vietinbank-va-vietinbank-fmc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:15.323888+00:00",
+   "retrieved_at": "2026-11-27T12:39:14.361475+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,51 +1618,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:08.052397+00:00",
+   "retrieved_at": "2026-11-27T12:39:08.195059+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1691,8 +1691,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "HDB: Thông báo về ngày đăng ký cuối cùng lấy ý kiến cổ đông bằng văn bản lần 3 năm 2026",
-     "url": "https://cafef.vn/du-lieu/HDB-3029096/hdb-thong-bao-ve-ngay-dang-ky-cuoi-cung-lay-y-kien-co-dong-bang-van-ban-lan-3-nam-2026.chn?utm_source=du-lieu",
+     "title": "HDB: 3.12.2026, ngày GDKHQ lấy ý kiến cổ đông bằng văn bản lần 3 năm 2026",
+     "url": "https://cafef.vn/du-lieu/HDB-3029096/hdb-3122026-ngay-gdkhq-lay-y-kien-co-dong-bang-van-ban-lan-3-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -1747,51 +1747,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:20.819879+00:00",
+   "retrieved_at": "2026-11-27T12:39:18.269987+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1873,6 +1873,12 @@
    ],
    "disclosures": [
     {
+     "title": "KLB: CBTT nhận được Quyết định số 1409 ngày 27/11/2026 của Cục Thuế tỉnh An Giang",
+     "url": "https://cafef.vn/du-lieu/KLB-3030316/klb-cbtt-nhan-duoc-quyet-dinh-so-1409-ngay-27112026-cua-cuc-thue-tinh-an-giang.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "KLB: Thông báo nhận được Văn bản của HNX về việc hủy niêm yết trái phiếu KLB124009",
      "url": "https://cafef.vn/du-lieu/KLB-3025881/klb-thong-bao-nhan-duoc-van-ban-cua-hnx-ve-viec-huy-niem-yet-trai-phieu-klb124009.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -1925,61 +1931,55 @@
      "url": "https://cafef.vn/du-lieu/KLB-3009740/klb-nghi-quyet-hdqt-ve-viec-mua-lai-truoc-han-trai-phieu-klb124009.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "KLB: Thông báo ngày ĐKCC thực hiện quyền thanh toán lãi trái phiếu kỳ 01 mã KLB125031",
-     "url": "https://cafef.vn/du-lieu/KLB-3008998/klb-thong-bao-ngay-dkcc-thuc-hien-quyen-thanh-toan-lai-trai-phieu-ky-01-ma-klb125031.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:10.246188+00:00",
+   "retrieved_at": "2026-11-27T12:39:10.029800+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2059,8 +2059,14 @@
    ],
    "disclosures": [
     {
-     "title": "LPB: Giấy ủy quyền thực hiện CBTT - Nguyễn Văn Ngọc (kèm Bản cung cấp thông tin)",
-     "url": "https://cafef.vn/du-lieu/LPB-3028215/lpb-giay-uy-quyen-thuc-hien-cbtt-nguyen-van-ngoc-kem-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
+     "title": "LPB: Nghị quyết HĐQT về việc thay đổi địa điểm Phòng GD Thuận An",
+     "url": "https://cafef.vn/du-lieu/LPB-3029872/lpb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-phong-gd-thuan-an.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "LPB: Ủy quyền cho ông Nguyễn Văn Ngọc công bố thông tin (kèm Bản cung cấp thông tin)",
+     "url": "https://cafef.vn/du-lieu/LPB-3028215/lpb-uy-quyen-cho-ong-nguyen-van-ngoc-cong-bo-thong-tin-kem-ban-cung-cap-thong-tin.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -2111,61 +2117,55 @@
      "url": "https://cafef.vn/du-lieu/LPB-3001095/lpb-nghi-quyet-hdqt-ve-viec-thay-doi-dia-diem-tru-so-chi-nhanh-dong-do.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "LPB: Thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm Phòng GD Yên Lạc",
-     "url": "https://cafef.vn/du-lieu/LPB-2998755/lpb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-lpb-thay-doi-dia-diem-phong-gd-yen-lac.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:08.951695+00:00",
+   "retrieved_at": "2026-11-27T12:39:08.485892+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,51 +2307,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:15.011892+00:00",
+   "retrieved_at": "2026-11-27T12:39:13.433757+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2431,6 +2431,30 @@
    ],
    "disclosures": [
     {
+     "title": "MSB: Bản cáo bạch chào bán thêm CP ra công chúng",
+     "url": "https://cafef.vn/du-lieu/MSB-3030137/msb-ban-cao-bach-chao-ban-them-cp-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Nghị quyết HĐQT về việc thông qua ngày ĐKCC thực hiện quyền mua cổ phiếu phát hành thêm",
+     "url": "https://cafef.vn/du-lieu/MSB-3030120/msb-nghi-quyet-hdqt-ve-viec-thong-qua-ngay-dkcc-thuc-hien-quyen-mua-co-phieu-phat-hanh-them.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Giấy chứng nhận đăng ký chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/MSB-3030119/msb-giay-chung-nhan-dang-ky-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "MSB: Thông báo chào bán cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/MSB-3030118/msb-thong-bao-chao-ban-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "MSB: Thông báo về ngày đăng ký cuối cùng thực hiện quyền đề cử, ứng cử nhân sự dự kiến bầu thành viên HĐQT, BKS nhiệm kỳ VIII (2027-2031)",
      "url": "https://cafef.vn/du-lieu/MSB-3029416/msb-thong-bao-ve-ngay-dang-ky-cuoi-cung-thuc-hien-quyen-de-cu-ung-cu-nhan-su-du-kien-bau-thanh-vien-hdqt-bks-nhiem-ky-viii-20272031.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2465,79 +2489,55 @@
      "url": "https://cafef.vn/du-lieu/MSB-3014382/msb-chau-ba-le-thi-lien-thanh-vien-hdqt-da-ban-75087-cp.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Thông báo công văn của NHNN về chấp thuận cho MSB tăng vốn điều lệ lần 2 năm 2026",
-     "url": "https://cafef.vn/du-lieu/MSB-3013658/msb-thong-bao-cong-van-cua-nhnn-ve-chap-thuan-cho-msb-tang-von-dieu-le-lan-2-nam-2026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Giải trình biến động LNST trên BCTC quý 3/2026 so với cùng kỳ năm trước",
-     "url": "https://cafef.vn/du-lieu/MSB-3012134/msb-giai-trinh-bien-dong-lnst-tren-bctc-quy-32026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Nghị quyết HĐQT về việc điều chỉnh phương án phát hành trái phiếu ra công chúng",
-     "url": "https://cafef.vn/du-lieu/MSB-3007749/msb-nghi-quyet-hdqt-ve-viec-dieu-chinh-phuong-an-phat-hanh-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "MSB: Nghị quyết HĐQT thông qua hồ sơ chào bán trái phiếu ra công chúng",
-     "url": "https://cafef.vn/du-lieu/MSB-3007745/msb-nghi-quyet-hdqt-thong-qua-ho-so-chao-ban-trai-phieu-ra-cong-chung.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:20.667174+00:00",
+   "retrieved_at": "2026-11-27T12:39:18.590808+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2617,6 +2617,12 @@
    ],
    "disclosures": [
     {
+     "title": "NAB: Thông báo nhận được Quyết định của Thuế TP.Hà Nội về việc nộp bổ sung thuế",
+     "url": "https://cafef.vn/du-lieu/NAB-3030321/nab-thong-bao-nhan-duoc-quyet-dinh-cua-thue-tpha-noi-ve-viec-nop-bo-sung-thue.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "NAB: Thông báo về việc giao dịch chứng khoán thay đổi đăng ký niêm yết",
      "url": "https://cafef.vn/du-lieu/NAB-3029417/nab-thong-bao-ve-viec-giao-dich-chung-khoan-thay-doi-dang-ky-niem-yet.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -2669,61 +2675,55 @@
      "url": "https://cafef.vn/du-lieu/NAB-3015267/nab-bo-sung-bao-cao-tinh-hinh-quan-tri-cong-ty-nam-2024-2025-6-thang-dau-nam-2026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "NAB: Giải trình biến động LNST quý 3/2026 so với cùng kỳ năm trước",
-     "url": "https://cafef.vn/du-lieu/NAB-3010715/nab-giai-trinh-bien-dong-lnst-quy-32026-so-voi-cung-ky-nam-truoc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:22.818298+00:00",
+   "retrieved_at": "2026-11-27T12:39:19.797837+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2913,51 +2913,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2970,7 +2970,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:14.665662+00:00",
+   "retrieved_at": "2026-11-27T12:39:13.801055+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3099,51 +3099,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3156,7 +3156,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:22.263294+00:00",
+   "retrieved_at": "2026-11-27T12:39:18.360716+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3241,8 +3241,8 @@
    ],
    "disclosures": [
     {
-     "title": "PGB: Nghị quyết Hội đồng quản trị",
-     "url": "https://cafef.vn/du-lieu/PGB-3029404/pgb-nghi-quyet-hoi-dong-quan-tri.chn?utm_source=du-lieu",
+     "title": "PGB: Nghị quyết Hội đồng quản trị Điều chỉnh thời gian đăng ký và nộp tiền mua cổ phiếu phát hành thêm",
+     "url": "https://cafef.vn/du-lieu/PGB-3029404/pgb-nghi-quyet-hoi-dong-quan-tri-dieu-chinh-thoi-gian-dang-ky-va-nop-tien-mua-co-phieu-phat-hanh-them.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3303,51 +3303,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3360,7 +3360,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:22.912271+00:00",
+   "retrieved_at": "2026-11-27T12:39:20.241947+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3537,51 +3537,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3594,7 +3594,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:15.347172+00:00",
+   "retrieved_at": "2026-11-27T12:39:13.436809+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3723,51 +3723,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3780,7 +3780,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:14.385410+00:00",
+   "retrieved_at": "2026-11-27T12:39:13.435066+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3853,8 +3853,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "SSB: Thông báo thay đổi nhân sự và các Quyết định HĐQT",
-     "url": "https://cafef.vn/du-lieu/SSB-3028651/ssb-thong-bao-thay-doi-nhan-su-va-cac-quyet-dinh-hdqt.chn?utm_source=du-lieu",
+     "title": "SSB: Bổ nhiệm ông Lê Văn Tần giữ chức Phó chủ tịch HĐQT, Tổng giám đốc từ 25.11.2026",
+     "url": "https://cafef.vn/du-lieu/SSB-3028651/ssb-bo-nhiem-ong-le-van-tan-giu-chuc-pho-chu-tich-hdqt-tong-giam-doc-tu-25112026.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3909,51 +3909,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3966,7 +3966,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:08.955349+00:00",
+   "retrieved_at": "2026-11-27T12:39:09.168958+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4095,51 +4095,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4152,7 +4152,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:01.248658+00:00",
+   "retrieved_at": "2026-11-27T12:39:03.319651+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4162,20 +4162,20 @@
    "reports": [],
    "disclosures": [
     {
-     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Nguyễn Anh Tuấn, Nguyễn Thu Lan, Nguyễn Tuấn Minh",
-     "url": "https://cafef.vn/du-lieu/TCB-3029218/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-nguyen-anh-tuan-nguyen-thu-lan-nguyen-tuan-minh.chn?utm_source=du-lieu",
+     "title": "TCB: Thông báo thay đổi nhân sự - Miễn nhiệm Phó Tổng Giám đốc",
+     "url": "https://cafef.vn/du-lieu/TCB-3030339/tcb-thong-bao-thay-doi-nhan-su-mien-nhiem-pho-tong-giam-doc.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Macaire Alexandre, Charles, Emmanuel, Nguyễn Thị Trà My, Nguyễn Thị Vân Hoài",
-     "url": "https://cafef.vn/du-lieu/TCB-3029214/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-macaire-alexandre-charles-emmanuel-nguyen-thi-tra-my-nguyen-thi-van-hoai.chn?utm_source=du-lieu",
+     "title": "TCB: Nghị quyết HĐQT về việc phê duyệt TCBS cung cấp dịch vụ phát hành trái phiếu TCB lần 24",
+     "url": "https://cafef.vn/du-lieu/TCB-3030130/tcb-nghi-quyet-hdqt-ve-viec-phe-duyet-tcbs-cung-cap-dich-vu-phat-hanh-trai-phieu-tcb-lan-24.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của người có liên quan của Người nội bộ Đặng Ngọc Cảnh",
-     "url": "https://cafef.vn/du-lieu/TCB-3029213/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-co-lien-quan-cua-nguoi-noi-bo-dang-ngoc-canh.chn?utm_source=du-lieu",
+     "title": "TCB: Quyết định của HĐQT về việc miễn nhiệm Phó TGĐ",
+     "url": "https://cafef.vn/du-lieu/TCB-3030116/tcb-quyet-dinh-cua-hdqt-ve-viec-mien-nhiem-pho-tgd.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4186,8 +4186,26 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "TCB: Nghị quyết HĐQT về việc phê duyệt TCBS cung cấp dịch vụ phát hành trái phiếu TCB lần 23",
-     "url": "https://cafef.vn/du-lieu/TCB-3028653/tcb-nghi-quyet-hdqt-ve-viec-phe-duyet-tcbs-cung-cap-dich-vu-phat-hanh-trai-phieu-tcb-lan-23.chn?utm_source=du-lieu",
+     "title": "TCB: Em rể ông Hoàng Huy Trung - Trưởng BKS đăng ký mua 68.205 cp ESOP",
+     "url": "https://cafef.vn/du-lieu/TCB-3029213/tcb-em-re-ong-hoang-huy-trung-truong-bks-dang-ky-mua-68205-cp-esop.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Macaire Alexandre, Charles, Emmanuel, Nguyễn Thị Trà My, Nguyễn Thị Vân Hoài",
+     "url": "https://cafef.vn/du-lieu/TCB-3029214/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-macaire-alexandre-charles-emmanuel-nguyen-thi-tra-my-nguyen-thi-van-hoai.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Thông báo giao dịch cổ phiếu ESOP của Người nội bộ Nguyễn Anh Tuấn, Nguyễn Thu Lan, Nguyễn Tuấn Minh",
+     "url": "https://cafef.vn/du-lieu/TCB-3029218/tcb-thong-bao-giao-dich-co-phieu-esop-cua-nguoi-noi-bo-nguyen-anh-tuan-nguyen-thu-lan-nguyen-tuan-minh.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "TCB: Nghị quyết HĐQT phê duyệt TCBS cung cấp dịch vụ phát hành trái phiếu TCB lần 23",
+     "url": "https://cafef.vn/du-lieu/TCB-3028653/tcb-nghi-quyet-hdqt-phe-duyet-tcbs-cung-cap-dich-vu-phat-hanh-trai-phieu-tcb-lan-23.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4202,73 +4220,55 @@
      "url": "https://cafef.vn/du-lieu/TCB-3025098/tcb-nghi-quyet-hdqt-phe-duyet-giao-dich-voi-ctcp-chung-khoan-ky-thuong.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Quyết định của HĐQT về việc thay đổi địa điểm PGD Hàng Đậu, Cẩm Phả, Phổ Yên",
-     "url": "https://cafef.vn/du-lieu/TCB-3023655/tcb-quyet-dinh-cua-hdqt-ve-viec-thay-doi-dia-diem-pgd-hang-dau-cam-pha-pho-yen.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Các Nghị quyết HĐQT số 0629 và 0631 ngày 13/11/2026",
-     "url": "https://cafef.vn/du-lieu/TCB-3021264/tcb-cac-nghi-quyet-hdqt-so-0629-va-0631-ngay-13112026.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "TCB: Quyết định về việc thay đổi địa điểm PGD Nam Sài Gòn, PGD Chợ Mới",
-     "url": "https://cafef.vn/du-lieu/TCB-3019155/tcb-quyet-dinh-ve-viec-thay-doi-dia-diem-pgd-nam-sai-gon-pgd-cho-moi.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4283,7 +4283,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:08.038609+00:00",
+   "retrieved_at": "2026-11-27T12:39:09.098116+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4412,51 +4412,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4469,7 +4469,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:29.096413+00:00",
+   "retrieved_at": "2026-11-27T12:39:23.095073+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4479,8 +4479,8 @@
    "reports": [],
    "disclosures": [
     {
-     "title": "VBB: Nghị quyết HĐQT số 230 ngày 25/11/2026",
-     "url": "https://cafef.vn/du-lieu/VBB-3028631/vbb-nghi-quyet-hdqt-so-230-ngay-25112026.chn?utm_source=du-lieu",
+     "title": "VBB: Nghị quyết HĐQT về việc xin gia hạn thời gian phân phối cổ phiếu trong đợt chào bán thêm cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/VBB-3028631/vbb-nghi-quyet-hdqt-ve-viec-xin-gia-han-thoi-gian-phan-phoi-co-phieu-trong-dot-chao-ban-them-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -4541,51 +4541,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4600,7 +4600,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:00.101022+00:00",
+   "retrieved_at": "2026-11-27T12:39:03.757124+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4667,6 +4667,12 @@
    ],
    "disclosures": [
     {
+     "title": "VCB: Thông báo giao dịch cổ phiếu của Người nội bộ Nguyễn Thị Hồng Vân",
+     "url": "https://cafef.vn/du-lieu/VCB-3029871/vcb-thong-bao-giao-dich-co-phieu-cua-nguoi-noi-bo-nguyen-thi-hong-van.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
      "title": "VCB: HĐQT thông qua điều chỉnh giới hạn tín dụng đối với VCBNeo",
      "url": "https://cafef.vn/du-lieu/VCB-3024435/vcb-hdqt-thong-qua-dieu-chinh-gioi-han-tin-dung-doi-voi-vcbneo.chn?utm_source=du-lieu",
      "type": "cong_bo",
@@ -4719,61 +4725,55 @@
      "url": "https://cafef.vn/du-lieu/VCB-2982639/vcb-quyet-dinh-ve-viec-thay-doi-dia-chi-tru-so-cac-chi-nhanh-va-cac-pgd.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VCB: Quyết định về việc thay đổi địa điểm trụ sở Chi nhánh Phú Mỹ và Chi nhánh Gia Định",
-     "url": "https://cafef.vn/du-lieu/VCB-2977700/vcb-quyet-dinh-ve-viec-thay-doi-dia-diem-tru-so-chi-nhanh-phu-my-va-chi-nhanh-gia-dinh.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4786,7 +4786,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:08.037741+00:00",
+   "retrieved_at": "2026-11-27T12:39:08.273119+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4915,51 +4915,51 @@
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4972,7 +4972,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T01:47:00.108507+00:00",
+   "retrieved_at": "2026-11-27T12:39:02.704105+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5039,8 +5039,14 @@
    ],
    "disclosures": [
     {
-     "title": "VPB: Nghị quyết HĐQT về việc phê duyệt phương án mua lại trước hạn trái phiếu VPB12517",
-     "url": "https://cafef.vn/du-lieu/VPB-3028466/vpb-nghi-quyet-hdqt-ve-viec-phe-duyet-phuong-an-mua-lai-truoc-han-trai-phieu-vpb12517.chn?utm_source=du-lieu",
+     "title": "VPB: Nghị quyết HĐQT về ngày đăng ký cuối cùng để thực hiện quyền lấy ý kiến cổ đông bằng văn bản lần 2 năm 2026",
+     "url": "https://cafef.vn/du-lieu/VPB-3029881/vpb-nghi-quyet-hdqt-ve-ngay-dang-ky-cuoi-cung-de-thuc-hien-quyen-lay-y-kien-co-dong-bang-van-ban-lan-2-nam-2026.chn?utm_source=du-lieu",
+     "type": "cong_bo",
+     "source": "CafeF - công bố doanh nghiệp"
+    },
+    {
+     "title": "VPB: Nghị quyết HĐQT phê duyệt phương án mua lại trước hạn trái phiếu VPB12517",
+     "url": "https://cafef.vn/du-lieu/VPB-3028466/vpb-nghi-quyet-hdqt-phe-duyet-phuong-an-mua-lai-truoc-han-trai-phieu-vpb12517.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -5091,61 +5097,55 @@
      "url": "https://cafef.vn/du-lieu/VPB-3004827/vpb-thong-bao-thay-doi-giay-phep-thanh-lap-va-hoat-dong-cua-vpb.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
-    },
-    {
-     "title": "VPB: Nghị quyết HĐQT thông qua hợp đồng, giao dịch cho vay hợp vốn giữa VPBank và VPB SMBC FC",
-     "url": "https://cafef.vn/du-lieu/VPB-3002052/vpb-nghi-quyet-hdqt-thong-qua-hop-dong-giao-dich-cho-vay-hop-von-giua-vpbank-va-vpb-smbc-fc.chn?utm_source=du-lieu",
-     "type": "cong_bo",
-     "source": "CafeF - công bố doanh nghiệp"
     }
    ],
    "market_news": [
     {
-     "title": "Giữa lúc VN-Index lao dốc, một tín hiệu từng xuất hiện năm 2019 và 2022 đang trở lại",
-     "url": "https://cafef.vn/giua-luc-vn-index-lao-doc-mot-tin-hieu-tung-xuat-hien-nam-2019-va-2022-dang-tro-lai-188261126232134563.chn",
-     "date": "2026-11-27T01:18:00+00:00",
+     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
+     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
+     "date": "2026-11-27T12:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu HoSE \"nằm sàn\" 6 phiên liên tiếp, Tổng Giám đốc bất ngờ muốn gom hàng",
-     "url": "https://cafef.vn/mot-co-phieu-hose-nam-san-6-phien-lien-tiep-tong-giam-doc-bat-ngo-muon-gom-hang-188261126233412808.chn",
-     "date": "2026-11-27T00:50:00+00:00",
+     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
+     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
+     "date": "2026-11-27T11:22:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "CTCK dự báo bất ngờ về lợi nhuận Hoà Phát năm 2027",
-     "url": "https://cafef.vn/ctck-du-bao-bat-ngo-ve-loi-nhuan-hoa-phat-nam-2027-188261126212607123.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
+     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Phó Chủ tịch UBCKNN: Chứng khoán Việt Nam sắp đón thay đổi quan trọng vào đầu năm 2027",
-     "url": "https://cafef.vn/pho-chu-tich-ubcknn-chung-khoan-viet-nam-sap-don-thay-doi-quan-trong-vao-dau-nam-2027-188261126162152687.chn",
-     "date": "2026-11-26T17:05:00+00:00",
+     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
+     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
+     "date": "2026-11-27T09:30:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Giám đốc Phân tích VPBankS: Định giá chứng khoán đang bị nén rất sâu, một cú hích có thể kích hoạt sóng tăng mới",
-     "url": "https://cafef.vn/giam-doc-phan-tich-vpbanks-dinh-gia-chung-khoan-dang-bi-nen-rat-sau-mot-cu-hich-co-the-kich-hoat-song-tang-moi-188261126174014482.chn",
-     "date": "2026-11-26T17:04:00+00:00",
+     "title": "Doanh nghiệp thuộc Vingroup khởi công dự án điện mặt trời tại Philippines, nhắm danh mục công suất 5 GWp",
+     "url": "https://cafef.vn/doanh-nghiep-thuoc-vingroup-khoi-cong-du-an-dien-mat-troi-tai-philippines-nham-danh-muc-cong-suat-5-gwp-188261127152516212.chn",
+     "date": "2026-11-27T09:02:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "VN-Index giảm sâu hơn 6% từ đầu tháng, bộ đôi cổ phiếu này vẫn tăng giá bằng lần",
-     "url": "https://cafef.vn/vn-index-giam-sau-hon-6-tu-dau-thang-bo-doi-co-phieu-nay-van-tang-gia-bang-lan-18826112621532482.chn",
-     "date": "2026-11-26T17:02:00+00:00",
+     "title": "Thủ tướng Lê Minh Hưng đặt ra sứ mệnh mới cho thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/thu-tuong-le-minh-hung-dat-ra-su-menh-moi-cho-thi-truong-chung-khoan-viet-nam-188261127155705016.chn",
+     "date": "2026-11-27T09:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Hiện tượng đáng chú ý tại FPT, VCB và BID sau phiên VN-Index giảm sâu gần 60 điểm",
-     "url": "https://cafef.vn/hien-tuong-dang-chu-y-tai-fpt-vcb-va-bid-sau-phien-vn-index-giam-sau-gan-60-diem-188261126155203138.chn",
-     "date": "2026-11-26T17:01:00+00:00",
+     "title": "Khối ngoại bất ngờ mua ròng hơn 600 tỷ đồng trong ngày kỷ niệm 30 năm chứng khoán Việt Nam, cổ phiếu nào được “gom” mạnh nhất?",
+     "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-hon-600-ty-dong-trong-ngay-ky-niem-30-nam-chung-khoan-viet-nam-co-phieu-nao-duoc-gom-manh-nhat-188261127151754684.chn",
+     "date": "2026-11-27T08:45:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Khu đô thị thể thao quốc tế Hà Nội tiếp tục đổi tên, dự kiến hoàn thành năm 2036",
-     "url": "https://cafef.vn/khu-do-thi-the-thao-quoc-te-ha-noi-tiep-tuc-doi-ten-du-kien-hoan-thanh-nam-2036-188261126213023609.chn",
-     "date": "2026-11-26T16:06:00+00:00",
+     "title": "Vừa huy động 5.218 tỷ đồng trái phiếu với lãi suất lên tới 14,5%/năm, CII bất ngờ đổi phương án phân bổ vốn",
+     "url": "https://cafef.vn/vua-huy-dong-5218-ty-dong-trai-phieu-voi-lai-suat-len-toi-145-nam-cii-bat-ngo-doi-phuong-an-phan-bo-von-188261127144413015.chn",
+     "date": "2026-11-27T07:54:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
