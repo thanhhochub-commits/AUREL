@@ -1,7 +1,7 @@
 {
  "source": "CafeF",
  "mode": "public-source-cache",
- "generated_at": "2026-11-27T23:30:57.595346+00:00",
+ "generated_at": "2026-11-28T07:58:25.368472+00:00",
  "notice": "Links to CafeF disclosures and public RSS only; not an official licensed API; data never automatically overrides AUREL financial records.",
  "symbols": {
   "ABB": {
@@ -9,7 +9,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:53.872814+00:00",
+   "retrieved_at": "2026-11-28T07:58:22.092186+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/abb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/abb/bao-cao-tai-chinh.chn",
@@ -88,14 +88,14 @@
    ],
    "disclosures": [
     {
-     "title": "ABB: Phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu",
-     "url": "https://cafef.vn/du-lieu/ABB-3030226/abb-phat-hanh-co-phieu-de-tang-von-co-phan-tu-nguon-von-chu-so-huu.chn?utm_source=du-lieu",
+     "title": "ABB: Thông báo chào bán cổ phiếu ra công chúng",
+     "url": "https://cafef.vn/du-lieu/ABB-3030221/abb-thong-bao-chao-ban-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "ABB: Thông báo chào bán cổ phiếu ra công chúng",
-     "url": "https://cafef.vn/du-lieu/ABB-3030221/abb-thong-bao-chao-ban-co-phieu-ra-cong-chung.chn?utm_source=du-lieu",
+     "title": "ABB: Phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu",
+     "url": "https://cafef.vn/du-lieu/ABB-3030226/abb-phat-hanh-co-phieu-de-tang-von-co-phan-tu-nguon-von-chu-so-huu.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -150,51 +150,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -207,7 +207,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:26.353662+00:00",
+   "retrieved_at": "2026-11-28T07:58:01.552564+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/acb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/acb/bao-cao-tai-chinh.chn",
@@ -336,51 +336,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -393,7 +393,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:57.594909+00:00",
+   "retrieved_at": "2026-11-28T07:58:23.218469+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/agr/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/agr/bao-cao-tai-chinh.chn",
@@ -494,51 +494,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -551,7 +551,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:43.663119+00:00",
+   "retrieved_at": "2026-11-28T07:58:14.612875+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bab/bao-cao-tai-chinh.chn",
@@ -716,51 +716,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -773,7 +773,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:26.367745+00:00",
+   "retrieved_at": "2026-11-28T07:58:02.551585+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bid/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bid/bao-cao-tai-chinh.chn",
@@ -902,51 +902,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -959,7 +959,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:57.591054+00:00",
+   "retrieved_at": "2026-11-28T07:58:25.365066+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bsi/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bsi/bao-cao-tai-chinh.chn",
@@ -1060,51 +1060,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1117,7 +1117,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:46.923918+00:00",
+   "retrieved_at": "2026-11-28T07:58:17.566184+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/bvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/bvb/bao-cao-tai-chinh.chn",
@@ -1246,51 +1246,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1303,7 +1303,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:28.116802+00:00",
+   "retrieved_at": "2026-11-28T07:58:03.284598+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ctg/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ctg/bao-cao-tai-chinh.chn",
@@ -1432,51 +1432,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1489,7 +1489,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:45.150584+00:00",
+   "retrieved_at": "2026-11-28T07:58:15.411501+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/eib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/eib/bao-cao-tai-chinh.chn",
@@ -1618,51 +1618,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1675,7 +1675,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:37.840802+00:00",
+   "retrieved_at": "2026-11-28T07:58:08.555075+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/hdb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/hdb/bao-cao-tai-chinh.chn",
@@ -1747,51 +1747,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1806,7 +1806,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:49.414719+00:00",
+   "retrieved_at": "2026-11-28T07:58:17.686370+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/klb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/klb/bao-cao-tai-chinh.chn",
@@ -1935,51 +1935,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -1992,7 +1992,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:37.847090+00:00",
+   "retrieved_at": "2026-11-28T07:58:09.891902+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/lpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/lpb/bao-cao-tai-chinh.chn",
@@ -2121,51 +2121,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2178,7 +2178,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:33.859992+00:00",
+   "retrieved_at": "2026-11-28T07:58:07.498258+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/mbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/mbb/bao-cao-tai-chinh.chn",
@@ -2307,51 +2307,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2364,7 +2364,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:44.118574+00:00",
+   "retrieved_at": "2026-11-28T07:58:12.786585+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/msb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/msb/bao-cao-tai-chinh.chn",
@@ -2455,8 +2455,8 @@
      "source": "CafeF - công bố doanh nghiệp"
     },
     {
-     "title": "MSB: Thông báo về ngày đăng ký cuối cùng thực hiện quyền đề cử, ứng cử nhân sự dự kiến bầu thành viên HĐQT, BKS nhiệm kỳ VIII (2027-2031)",
-     "url": "https://cafef.vn/du-lieu/MSB-3029416/msb-thong-bao-ve-ngay-dang-ky-cuoi-cung-thuc-hien-quyen-de-cu-ung-cu-nhan-su-du-kien-bau-thanh-vien-hdqt-bks-nhiem-ky-viii-20272031.chn?utm_source=du-lieu",
+     "title": "MSB: Thông báo về ngày ĐKCC thực hiện quyền đề cử, ứng cử nhân sự dự kiến bầu thành viên HĐQT, BKS nhiệm kỳ VIII (2027-2031)",
+     "url": "https://cafef.vn/du-lieu/MSB-3029416/msb-thong-bao-ve-ngay-dkcc-thuc-hien-quyen-de-cu-ung-cu-nhan-su-du-kien-bau-thanh-vien-hdqt-bks-nhiem-ky-viii-20272031.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -2493,51 +2493,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2550,7 +2550,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:47.657841+00:00",
+   "retrieved_at": "2026-11-28T07:58:17.699143+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nab/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nab/bao-cao-tai-chinh.chn",
@@ -2679,51 +2679,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2736,7 +2736,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:51.208750+00:00",
+   "retrieved_at": "2026-11-28T07:58:21.146165+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/nvb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/nvb/bao-cao-tai-chinh.chn",
@@ -2913,51 +2913,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -2970,7 +2970,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:44.068578+00:00",
+   "retrieved_at": "2026-11-28T07:58:13.336374+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ocb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ocb/bao-cao-tai-chinh.chn",
@@ -3099,51 +3099,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3156,7 +3156,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:50.692739+00:00",
+   "retrieved_at": "2026-11-28T07:58:19.696957+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/pgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/pgb/bao-cao-tai-chinh.chn",
@@ -3303,51 +3303,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3360,7 +3360,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:51.764218+00:00",
+   "retrieved_at": "2026-11-28T07:58:19.817887+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/sgb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/sgb/bao-cao-tai-chinh.chn",
@@ -3537,51 +3537,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3594,7 +3594,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:41.047746+00:00",
+   "retrieved_at": "2026-11-28T07:58:12.405281+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/shb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/shb/bao-cao-tai-chinh.chn",
@@ -3723,51 +3723,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3780,7 +3780,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:41.070437+00:00",
+   "retrieved_at": "2026-11-28T07:58:12.383266+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/ssb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/ssb/bao-cao-tai-chinh.chn",
@@ -3847,8 +3847,8 @@
    ],
    "disclosures": [
     {
-     "title": "SSB: Thông báo thay đổi nhân sự - Bổ nhiệm Phó Tổng Giám đốc thường trực (kèm Quyết định HĐQT)",
-     "url": "https://cafef.vn/du-lieu/SSB-3029413/ssb-thong-bao-thay-doi-nhan-su-bo-nhiem-pho-tong-giam-doc-thuong-truc-kem-quyet-dinh-hdqt.chn?utm_source=du-lieu",
+     "title": "SSB: Bổ nhiệm ông Nguyễn Hồng Quang giữ chức Phó Tổng Giám đốc thường trực từ 25.11.2026 (kèm Quyết định HĐQT)",
+     "url": "https://cafef.vn/du-lieu/SSB-3029413/ssb-bo-nhiem-ong-nguyen-hong-quang-giu-chuc-pho-tong-giam-doc-thuong-truc-tu-25112026-kem-quyet-dinh-hdqt.chn?utm_source=du-lieu",
      "type": "cong_bo",
      "source": "CafeF - công bố doanh nghiệp"
     },
@@ -3909,51 +3909,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -3966,7 +3966,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:35.883665+00:00",
+   "retrieved_at": "2026-11-28T07:58:07.974140+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/stb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/stb/bao-cao-tai-chinh.chn",
@@ -4095,51 +4095,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4152,7 +4152,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:30.033831+00:00",
+   "retrieved_at": "2026-11-28T07:58:04.002755+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tcb/bao-cao-tai-chinh.chn",
@@ -4224,51 +4224,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4283,7 +4283,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:35.757453+00:00",
+   "retrieved_at": "2026-11-28T07:58:09.703519+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/tpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/tpb/bao-cao-tai-chinh.chn",
@@ -4412,51 +4412,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4469,7 +4469,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:55.710261+00:00",
+   "retrieved_at": "2026-11-28T07:58:22.689834+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vbb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vbb/bao-cao-tai-chinh.chn",
@@ -4541,51 +4541,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4600,7 +4600,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:28.129473+00:00",
+   "retrieved_at": "2026-11-28T07:58:02.058144+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vcb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vcb/bao-cao-tai-chinh.chn",
@@ -4729,51 +4729,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4786,7 +4786,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:33.787508+00:00",
+   "retrieved_at": "2026-11-28T07:58:06.996174+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vib/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vib/bao-cao-tai-chinh.chn",
@@ -4915,51 +4915,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
@@ -4972,7 +4972,7 @@
    "provider": "CafeF",
    "official_api": false,
    "data_mode": "nguon_cong_khai",
-   "retrieved_at": "2026-11-27T23:30:26.322913+00:00",
+   "retrieved_at": "2026-11-28T07:58:01.446552+00:00",
    "links": {
     "company": "https://cafef.vn/du-lieu/vpb/thong-tin-chung.chn",
     "financial": "https://cafef.vn/du-lieu/vpb/bao-cao-tai-chinh.chn",
@@ -5101,51 +5101,51 @@
    ],
    "market_news": [
     {
-     "title": "Chứng khoán tăng hơn 24 điểm trong ngày sinh nhật thị trường",
-     "url": "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn",
-     "date": "2026-11-27T17:05:00+00:00",
+     "title": "Việt Nam được Moody's nâng xếp hạng tín nhiệm lên mức Ba1, tiến sát ngưỡng Đầu tư",
+     "url": "https://cafef.vn/viet-nam-duoc-moodys-nang-xep-hang-tin-nhiem-len-muc-ba1-tien-sat-nguong-dau-tu-188261128122236955.chn",
+     "date": "2026-11-28T05:26:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chủ tịch VNDIRECT Phạm Minh Hương tiết lộ danh mục tích sản gói gọn trong 2 cổ phiếu và lý do \"chưa bao giờ sợ thiếu tiền\"",
-     "url": "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn",
-     "date": "2026-11-27T17:04:00+00:00",
+     "title": "Vụ Master Anh Đức và bài toán quản lý khóa học làm giàu",
+     "url": "https://cafef.vn/vu-master-anh-duc-va-bai-toan-quan-ly-khoa-hoc-lam-giau-188261128122137662.chn",
+     "date": "2026-11-28T05:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Một cổ phiếu \"bốc đầu\" lên đỉnh lịch sử sau thông tin trả cổ tức tiền mặt khủng 254%",
-     "url": "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn",
-     "date": "2026-11-27T17:02:00+00:00",
+     "title": "VPS và hành trình 20 năm đồng hành cùng thị trường chứng khoán Việt Nam",
+     "url": "https://cafef.vn/vps-va-hanh-trinh-20-nam-dong-hanh-cung-thi-truong-chung-khoan-viet-nam-188261128101456689.chn",
+     "date": "2026-11-28T04:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Bắt Nguyễn Anh Đức chuyên dạy khởi nghiệp online về hành vi trốn thuế 1,2 tỷ",
-     "url": "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn",
-     "date": "2026-11-27T16:31:00+00:00",
+     "title": "Cổ phiếu lao dốc mạnh, Chủ tịch DIC Corp xoay xở 'hãm phanh'",
+     "url": "https://cafef.vn/co-phieu-lao-doc-manh-chu-tich-dic-corp-xoay-xo-ham-phanh-188261128101655109.chn",
+     "date": "2026-11-28T03:38:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vinamilk thông báo tạm ứng cổ tức đợt 2 năm 2026 và kế hoạch tổ chức Đại hội đồng cổ đông bất thường",
-     "url": "https://cafef.vn/vinamilk-thong-bao-tam-ung-co-tuc-dot-2-nam-2026-va-ke-hoach-to-chuc-dai-hoi-dong-co-dong-bat-thuong-188261127190101247.chn",
-     "date": "2026-11-27T12:00:00+00:00",
+     "title": "Giá vàng miếng SJC tăng cao nhất 1 tuần qua",
+     "url": "https://cafef.vn/gia-vang-mieng-sjc-tang-cao-nhat-1-tuan-qua-188261128101756872.chn",
+     "date": "2026-11-28T03:25:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Vụ sách 'Chuyện với Thanh': Bị cáo Nguyễn Thành Nam bị đề nghị 5 - 6 năm tù",
-     "url": "https://cafef.vn/vu-sach-chuyen-voi-thanh-bi-cao-nguyen-thanh-nam-bi-de-nghi-5-6-nam-tu-188261127181553687.chn",
-     "date": "2026-11-27T11:22:00+00:00",
+     "title": "Cổ đông lớn nhất của Chứng khoán Thành Công muốn giảm sở hữu xuống dưới 50%",
+     "url": "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn",
+     "date": "2026-11-28T02:59:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "Chứng khoán Kafi chào bán 125 triệu cổ phiếu, dự kiến huy động 1.875 tỷ đồng",
-     "url": "https://cafef.vn/chung-khoan-kafi-chao-ban-125-trieu-co-phieu-du-kien-huy-dong-1875-ty-dong-188261127160834785.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Doanh nghiệp liên quan đến lãnh đạo Đường Quảng Ngãi muốn 'gom' thêm 2 triệu cổ phiếu QNS",
+     "url": "https://cafef.vn/doanh-nghiep-lien-quan-den-lanh-dao-duong-quang-ngai-muon-gom-them-2-trieu-co-phieu-qns-188261128090058543.chn",
+     "date": "2026-11-28T02:00:00+00:00",
      "source": "CafeF - RSS thị trường"
     },
     {
-     "title": "MB Group – Kết nối sức mạnh, nâng tầm thị trường chứng khoán Việt Nam.",
-     "url": "https://cafef.vn/mb-group-ket-noi-suc-manh-nang-tam-thi-truong-chung-khoan-viet-nam-188261127154500235.chn",
-     "date": "2026-11-27T09:30:00+00:00",
+     "title": "Vinamilk sắp có nhiều thay đổi",
+     "url": "https://cafef.vn/vinamilk-sap-co-nhieu-thay-doi-188261128085558007.chn",
+     "date": "2026-11-28T01:55:00+00:00",
      "source": "CafeF - RSS thị trường"
     }
    ],
